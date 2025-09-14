@@ -37,7 +37,11 @@
                 "men": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
                 "women": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
             },
-            "official_site": "coming_soon_url"
+            "official_site": "coming_soon_url",
+            "official_ag": {
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Women.html"
+            }
         }
     }
 ]
