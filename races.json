@@ -115,8 +115,8 @@
                 "women": "https://api.rtrt.me/events/IRM-ERKNER703-2025/categories/top-age-group-women-division-ironman-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://static.rtrt.me/events/irm-erkner703-2025/info_section/1757870115_ironman-70.3-erkner-age-graded-men-top-250-2_2025-09-14-171543_u5udkajl.pdf",
+                "women": "https://static.rtrt.me/events/irm-erkner703-2025/info_section/1757870156_ironman-70.3-erkner-age-graded-women-top-250_2025-09-14-171617_u5udkajl.pdf"
             }
         }
     },
