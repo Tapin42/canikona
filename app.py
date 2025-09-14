@@ -1,13 +1,17 @@
+import os
 import json
 from flask import Flask, render_template, abort, jsonify
 import parse_live_data
 
 app = Flask(__name__)
 
+def full_path(relative_path):
+    return os.path.join(os.path.dirname(__file__), relative_path)
+
 # Function to load AG adjustments from a JSON file
 def load_ag_adjustments(file_path):
     try:
-        with open(file_path, 'r') as f:
+        with open(full_path(file_path), 'r') as f:
             return json.load(f)
     except FileNotFoundError:
         print(f"Error: Age-graded adjustments file not found at '{file_path}'.")
@@ -22,7 +26,7 @@ AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 
 # Function to read and sort race data
 def get_races():
-    with open('races.json', 'r') as f:
+    with open(full_path('races.json'), 'r') as f:
         races = json.load(f)
     # Sort the races by date in descending order
     races.sort(key=lambda x: x['date'], reverse=True)
