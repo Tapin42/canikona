@@ -1,0 +1,43 @@
+[
+    {
+        "date": "2025-09-07",
+        "name": "Ironman Wisconsin",
+        "distance": "140.6",
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+            },
+            "official_site": "coming_soon_url",
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
+        }
+    },
+    {
+        "date": "2025-09-06",
+        "name": "Ironman 70.3 Wisconsin",
+        "distance": "70.3",
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_site": "coming_soon_url",
+            "official_ag": {
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Women.html"
+            }
+        }
+    },
+    {
+        "date": "2025-09-14",
+        "name": "Ironman 70.3 Sunshine Coast",
+        "distance": "70.3",
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_site": "coming_soon_url"
+        }
+    }
+]
