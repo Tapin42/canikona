@@ -96,8 +96,8 @@
                 "women": "https://api.rtrt.me/events/IRM-MICHIGAN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://static.rtrt.me/events/irm-michigan703-2025/info_section/1757887981_ironman-70.3-michigan-age-graded-men-top-250-3_2025-09-14-221310_u5udkajl.pdf",
+                "women": "https://static.rtrt.me/events/irm-michigan703-2025/info_section/1757882257_ironman-70.3-michigan-age-graded-women-top-250_2025-09-14-203758_u5udkajl.pdf"
             }
         }
     },
