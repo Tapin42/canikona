@@ -77,8 +77,8 @@
                 "women": "https://api.rtrt.me/events/IRM-WEYMOUTH703-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Weymouth_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Weymouth_70.3_Women.html"
             }
         }
     },
