@@ -108,7 +108,7 @@ def display_results(race_name, data_source, gender=None):
                 iframe_url = race['results_urls']['official_ag'].get(gender)
             elif race['distance'] == '140.6':
                 iframe_url = race['results_urls']['official_ag']
-            coming_soon = iframe_url != "coming_soon_url"
+            coming_soon = iframe_url != ""
 
     return render_template(
         'index.html',
