@@ -107,5 +107,4 @@ def display_results(race_name, data_source, gender=None):
     )
 
 if __name__ == '__main__':
-    context = ('ssl/domain.cert.pem', 'ssl/private.key.pem')#certificate and key files
-    app.run(debug=True, ssl_context=context)
+    app.run(debug=True)
