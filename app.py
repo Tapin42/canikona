@@ -1,6 +1,7 @@
 import os
 import json
 from flask import Flask, render_template, abort, jsonify
+from datetime import date
 import parse_live_data
 
 app = Flask(__name__)
@@ -28,9 +29,19 @@ AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 def get_races():
     with open(full_path('races.json'), 'r') as f:
         races = json.load(f)
-    # Sort the races by date in descending order
-    races.sort(key=lambda x: x['date'], reverse=True)
-    return races
+# Get today's date
+    today = date.today()
+
+    # Filter out races that happen after today
+    races_on_or_before_today = [
+        race for race in races
+        if date.fromisoformat(race['date']) <= today
+    ]
+
+    # Sort the filtered races by date in descending order
+    races_on_or_before_today.sort(key=lambda x: x['date'], reverse=True)
+
+    return races_on_or_before_today
 
 # A reusable function to get race data by name
 def get_race_by_name(race_name):

@@ -1,27 +1,17 @@
 [
     {
-        "date": "2025-09-07",
-        "name": "Ironman Wisconsin",
-        "distance": "140.6",
-        "results_urls": {
-            "live": {
-                "men": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
-            },
-            "official_site": "coming_soon_url",
-            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
-        }
-    },
-    {
         "date": "2025-09-06",
         "name": "Ironman 70.3 Wisconsin",
         "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
         "results_urls": {
             "live": {
                 "men": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
                 "women": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
-            "official_site": "coming_soon_url",
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Women.html"
@@ -29,18 +19,900 @@
         }
     },
     {
+        "date": "2025-09-07",
+        "name": "Ironman Wisconsin",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
+        }
+    },
+    {
+        "date": "2025-09-14",
+        "name": "Ironman Japan South Hokkaido",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-JAPAN-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-JAPAN-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
         "date": "2025-09-14",
         "name": "Ironman 70.3 Sunshine Coast",
         "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
         "results_urls": {
             "live": {
                 "men": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
                 "women": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
             },
-            "official_site": "coming_soon_url",
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Women.html"
+            }
+        }
+    },
+    {
+        "date": "2025-09-14",
+        "name": "Ironman 70.3 Weymouth",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WEYMOUTH703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WEYMOUTH703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-14",
+        "name": "Ironman 70.3 Michigan",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-MICHIGAN703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-MICHIGAN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-14",
+        "name": "Ironman 70.3 Erkner",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ERKNER703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ERKNER703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-20",
+        "name": "Ironman Italy Emilia-Romagna",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ITALYEMILIAROMAGNA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIAROMAGNA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-09-20",
+        "name": "Ironman Maryland",
+        "distance": "140.6",
+        "slots": 55,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-09-20",
+        "name": "Ironman 70.3 New York",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman Wales",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WALES-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WALES-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 Western Sydney",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WESTERNSYDNEY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WESTERNSYDNEY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 Washington Tri-Cities",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WASHINGTONTRICITIES703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WASHINGTONTRICITIES703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 Cozumel",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-COZUMEL703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-COZUMEL703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 São Paulo",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 Emilia-Romagna",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-EMILIAROMAGNA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-EMILIAROMAGNA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-21",
+        "name": "Ironman 70.3 Belgrade",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-BELGRADE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-BELGRADE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-28",
+        "name": "Ironman Chattanooga",
+        "distance": "140.6",
+        "slots": 55,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-09-28",
+        "name": "Ironman Gurye Korea",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-GURYEKOREA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-GURYEKOREA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-09-28",
+        "name": "Ironman 70.3 Augusta",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-AUGUSTA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-AUGUSTA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-09-28",
+        "name": "Ironman 70.3 Encarnacion",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ENCARNACION703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ENCARNACION703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-05",
+        "name": "Ironman Calella-Barcelona",
+        "distance": "140.6",
+        "slots": 55,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-CALELLABARCELONA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CALELLABARCELONA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-10-05",
+        "name": "Ironman 70.3 Waco",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WACO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WACO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-18",
+        "name": "Ironman Portugal - Cascais",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-10-18",
+        "name": "Ironman 70.3 Portugal-Cascais",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-19",
+        "name": "Ironman 70.3 Poreč",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-POREC703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-POREC703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-25",
+        "name": "Ironman 70.3 Salalah",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-SALALAH703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-SALALAH703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-25",
+        "name": "Ironman 70.3 North Carolina",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-NORTHCAROLINA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-NORTHCAROLINA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-26",
+        "name": "Ironman California",
+        "distance": "140.6",
+        "slots": 55,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-10-26",
+        "name": "Ironman 70.3 Greece",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-GREECE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-GREECE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-26",
+        "name": "Ironman 70.3 Florianopolis - Latin America Championship",
+        "distance": "70.3",
+        "slots": {
+            "men": 40,
+            "women": 40
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-FLORIANOPOLIS-LATINAMERICACHAMPIONSHIP703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-FLORIANOPOLIS-LATINAMERICACHAMPIONSHIP703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-10-26",
+        "name": "Ironamn 70.3 Agadir",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-AGADIR703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-AGADIR703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-01",
+        "name": "Ironman Florida",
+        "distance": "140.6",
+        "slots": 55,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-11-01",
+        "name": "Ironman Malaysia",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-MALAYSIA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-MALAYSIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-11-01",
+        "name": "Ironman 70.3 Langkawi",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-LANGKAWI703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-LANGKAWI703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-02",
+        "name": "Ironman 70.3 Buenos Aires",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-BUENOSAIRES703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-BUENOSAIRES703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-02",
+        "name": "Ironman 70.3 Kenting",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-KENTING703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-KENTING703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-02",
+        "name": "Ironman 70.3 Türkiye",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-TURKIYE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-TURKIYE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-09",
+        "name": "Ironman 70.3 Goa",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-GOA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-GOA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-09",
+        "name": "Ironman 70.3 Melbourne",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-MELBOURNE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-MELBOURNE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-09",
+        "name": "Ironman 70.3 Acapulco",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ACAPULCO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ACAPULCO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-16",
+        "name": "Ironman Arizona",
+        "distance": "140.6",
+        "slots": 40,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-11-16",
+        "name": "Ironman 70.3 Phu Quoc",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-PHUQUOC703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-PHUQUOC703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-16",
+        "name": "Ironman 70.3 Mossel Bay",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-MOSSELBAY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-MOSSELBAY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-23",
+        "name": "Ironman Cozumel - Latin American Championship",
+        "distance": "140.6",
+        "slots": 100,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-COZUMEL-LATINAMERICACHAMPIONSHIP-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-COZUMEL-LATINAMERICACHAMPIONSHIP-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-11-30",
+        "name": "Ironman 70.3 Valdivia",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-VALDIVIA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-VALDIVIA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-30",
+        "name": "Ironman 70.3 Cartagena",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-CARTAGENA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CARTAGENA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-11-30",
+        "name": "Ironman 70.3 Aracaju-Sergipe",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-ARACAJUSERGIPE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ARACAJUSERGIPE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-12-07",
+        "name": "Ironman Western Australia - Asia-Pacific Championship",
+        "distance": "140.6",
+        "slots": 75,
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA-ASIAPACIFICCHAMPIONSHIP-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA-ASIAPACIFICCHAMPIONSHIP-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+            },
+            "official_ag": "coming_soon_url"
+        }
+    },
+    {
+        "date": "2025-12-07",
+        "name": "Ironman 70.3 Riviera Nayarit",
+        "distance": "70.3",
+        "slots": {
+            "men": 25,
+            "women": 25
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-RIVIERANAYARIT703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-RIVIERANAYARIT703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-12-07",
+        "name": "Ironman 70.3 La Quinta",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-LAQUINTA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-LAQUINTA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-12-07",
+        "name": "Ironman 70.3 Western Australia",
+        "distance": "70.3",
+        "slots": {
+            "men": 30,
+            "women": 30
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
+            }
+        }
+    },
+    {
+        "date": "2025-12-14",
+        "name": "Ironman 70.3 Florida",
+        "distance": "70.3",
+        "slots": {
+            "men": 35,
+            "women": 35
+        },
+        "results_urls": {
+            "live": {
+                "men": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+            },
+            "official_ag": {
+                "men": "coming_soon_url",
+                "women": "coming_soon_url"
             }
         }
     }
