@@ -13,7 +13,7 @@
     <div class="container">
         <h1>{{ page_title }}</h1>
 
-        <p>Select a race and a data source to view age-graded results.</p>
+        <!-- <p>Select a race and a data source to view age-graded results.</p> -->
 
         <div class="controls-container">
             <form id="selection-form">
@@ -82,22 +82,6 @@
                 spinner.style.display = 'none';
             }
 
-            // Helper function to round and format time for display
-            function formatTimeForDisplay(timeStr) {
-                if (!timeStr) return '';
-                const parts = timeStr.split(':').map(Number);
-                const secondsWithFraction = parts[2] + (parts[3] / 1000 || 0);
-                const roundedSeconds = Math.ceil(secondsWithFraction);
-
-                const roundedTime = parts[0] * 3600 + parts[1] * 60 + roundedSeconds;
-
-                const hours = Math.floor(roundedTime / 3600);
-                const minutes = Math.floor((roundedTime % 3600) / 60);
-                const seconds = roundedTime % 60;
-
-                return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-            }
-
             function renderLiveResultsTable(data) {
                 if (!data || data.length === 0) {
                     messageArea.innerText = "No live results found.";
@@ -162,8 +146,8 @@
                         <td>${athlete.name}</td>
                         <td>${athlete.age_group}</td>
                         <td>${athlete.gender_place}</td>
-                        <td>${formatTimeForDisplay(athlete.finish_time)}</td>
-                        <td>${formatTimeForDisplay(athlete.graded_time)}</td>
+                        <td>${athlete.finish_time}</td>
+                        <td>${athlete.graded_time}</td>
                     </tr>`;
                 });
                 tableHTML += '</tbody></table>';

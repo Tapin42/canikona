@@ -20,19 +20,19 @@ RTRT_LIVE_PARAMS = {
 
 def time_to_seconds(time_str):
     """
-    Converts a time string in "HH:MM:SS.DDD" format to total seconds (float).
+    Converts a time string in "HH:MM:SS" format to total seconds (float).
     """
-    match = re.match(r'(\d+):(\d+):(\d+)\.(\d+)', time_str)
+    match = re.match(r'(\d+):(\d+):(\d+)', time_str)
     if not match:
         return None
 
-    hours, minutes, seconds, milliseconds = map(int, match.groups())
-    total_seconds = (hours * 3600) + (minutes * 60) + seconds + (milliseconds / 1000.0)
+    hours, minutes, seconds = map(int, match.groups())
+    total_seconds = (hours * 3600) + (minutes * 60) + seconds
     return total_seconds
 
 def seconds_to_time(total_seconds):
     """
-    Converts a total number of seconds (float) to "HH:MM:SS.DDD" format.
+    Converts a total number of seconds (float) to "HH:MM:SS" format.
     """
     if total_seconds is None or total_seconds < 0:
         return ""
@@ -40,9 +40,8 @@ def seconds_to_time(total_seconds):
     td = timedelta(seconds=total_seconds)
     hours, remainder = divmod(td.seconds, 3600)
     minutes, seconds = divmod(remainder, 60)
-    milliseconds = td.microseconds // 1000
 
-    return f"{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
+    return f"{hours:02d}:{minutes:02d}:{seconds:02d}"
 
 def fetch_live_results(api_url):
     """
@@ -70,7 +69,8 @@ def process_live_results(raw_data_list, ag_adjustments):
     processed_data = []
     for item in raw_data_list:
         try:
-            finish_time_str_raw = item.get("time", "")
+            # Use only the time without fractional seconds -- that's too much detail
+            finish_time_str_raw = item.get("time", "").split(".")[0]
             finish_time_seconds = time_to_seconds(finish_time_str_raw)
 
             if finish_time_seconds is None:
