@@ -1,13 +1,13 @@
 
 # CanIKona.app
 
-<div align="center" style="font-size:3rem;">
+<div align="center">
 🏊‍♂️ + 🚴‍♂️ + 🏃‍♂️ = 🏝️ ?
 </div>
 
 CanIKona.app is a web application for tracking Ironman and Ironman 70.3 age-graded results and World Championship slot allocations. Until Ironman starts producing real-time age-graded results, this app is the easiest way to determine how far down you are in the rolldowns and how you compare to other competitors prior to Ironman's finalized awards ceremony list.
 
-The project was created after I drove home from Ironman 70.3 Wisconsin in 2025 and realized I didn't know whether I needed to turn around and head back downtown to the awards ceremony to claim a rolldown World Championship slot. Hopefully it will help others avoid the same conundrum.
+The project was created after I drove home from Ironman 70.3 Wisconsin in 2025 and realized I didn't know whether I needed to turn around and head back downtown to the awards ceremony to claim a rolldown World Championship slot. It also proved useful the next day during Ironman Wisconsin while I was cheering on friends and seeing how they stacked up. Hopefully others will find it as useful as I do.
 
 ## 🚀 Live Site
 
