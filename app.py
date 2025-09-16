@@ -123,4 +123,5 @@ def live_results_table(race_name, gender=None):
     return render_template('live_results.html', results=processed_data)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    debug_mode = 'PYTHONANYWHERE_SITE' not in os.environ
+    app.run(debug=debug_mode)
