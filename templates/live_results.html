@@ -8,6 +8,15 @@
 </head>
 <body>
     <div id="live-results-container">
+        <div class="disclaimer" style="background-color: #f8f9fa; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #dee2e6;">
+            <p style="margin: 0; font-style: italic; color: #6c757d;">
+                <strong>Please Note</strong>:
+                These live results are for tracking athlete progress during the race and are completely unofficial.
+                Consider this a real-time comparison tool. Official results are made available in the info tab of the official
+                tracking app around the time of the awards ceremony, and will eventually be included here under "Official
+                Rolldown List" above.
+            </p>
+        </div>
         {% if error %}
             <p id="message-area">Error: {{ error }}</p>
         {% else %}
