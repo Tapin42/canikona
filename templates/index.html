@@ -138,6 +138,12 @@
                 const race = findRaceData(selectedRaceName);
                 const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls;
 
+                // Disable/enable official_ag radio based on URL availability
+                const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
+                officialAgRadio.disabled = !hasOfficialAg;
+                officialAgRadio.parentElement.classList.toggle('disabled-controls', !hasOfficialAg);
+
+                // Select appropriate radio button
                 document.querySelector(`input[name="data_source"][value="${hasOfficialAg ? 'official_ag' : 'live'}"]`).checked = true;
 
                 if (race.distance === '70.3') {
