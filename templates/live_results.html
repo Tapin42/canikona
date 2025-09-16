@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div id="live-results-container">
+        {% if error %}
+            <p id="message-area">Error: {{ error }}</p>
+        {% else %}
+            <div id="results-table-container"></div>
+        {% endif %}
+    </div>
+
+    <script>
+        let currentSortColumn = 'graded_place';
+        let currentSortOrder = 'asc';
+        let liveResultsData = {{ results | tojson | safe }};
+
+        function renderLiveResultsTable(data) {
+            if (!data || data.length === 0) {
+                document.getElementById('results-table-container').innerHTML = '<p>No live results found.</p>';
+                return;
+            }
+
+            const headers = [
+                { key: 'graded_place', label: 'Graded Place' },
+                { key: 'bib', label: 'Bib' },
+                { key: 'name', label: 'Name' },
+                { key: 'age_group', label: 'Age Group' },
+                { key: 'gender_place', label: 'Gender Place' },
+                { key: 'finish_time', label: 'Finish Time' },
+                { key: 'graded_time', label: 'Graded Time' }
+            ];
+
+            let tableHTML = '<table class="results-table"><thead><tr>';
+            headers.forEach(header => {
+                const sortedClass = header.key === currentSortColumn
+                    ? (currentSortOrder === 'asc' ? 'sorted-asc' : 'sorted-desc')
+                    : '';
+                tableHTML += `<th data-sort-by="${header.key}" class="${sortedClass}">${header.label}</th>`;
+            });
+            tableHTML += '</tr></thead><tbody>';
+
+            const sortedData = [...data].sort((a, b) => {
+                const key = currentSortColumn;
+                if (!key) return 0;
+
+                const aVal = a[key];
+                const bVal = b[key];
+
+                let comparison = 0;
+                if (typeof aVal === 'string' && typeof bVal === 'string') {
+                    if (['graded_place', 'gender_place'].includes(key)) {
+                        comparison = parseInt(aVal) - parseInt(bVal);
+                    } else {
+                        comparison = aVal.localeCompare(bVal);
+                    }
+                } else if (typeof aVal === 'number' && typeof bVal === 'number') {
+                     comparison = aVal - bVal;
+                } else {
+                    // Special handling for time strings
+                    if (key === 'graded_time') {
+                        comparison = a.graded_time_seconds - b.graded_time_seconds;
+                    } else if (key === 'finish_time') {
+                         comparison = a.finish_time_seconds - b.finish_time_seconds;
+                    } else {
+                        comparison = String(aVal).localeCompare(String(bVal));
+                    }
+                }
+
+                return currentSortOrder === 'desc' ? -comparison : comparison;
+            });
+
+            sortedData.forEach(athlete => {
+                tableHTML += `<tr>
+                    <td>${athlete.graded_place}</td>
+                    <td>${athlete.bib}</td>
+                    <td>${athlete.name}</td>
+                    <td>${athlete.age_group}</td>
+                    <td>${athlete.gender_place}</td>
+                    <td>${athlete.finish_time}</td>
+                    <td>${athlete.graded_time}</td>
+                </tr>`;
+            });
+            tableHTML += '</tbody></table>';
+
+            document.getElementById('results-table-container').innerHTML = tableHTML;
+            document.querySelectorAll('.results-table th').forEach(header => {
+                header.addEventListener('click', () => {
+                    const newSortColumn = header.dataset.sortBy;
+                    if (newSortColumn === currentSortColumn) {
+                        currentSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        currentSortColumn = newSortColumn;
+                        currentSortOrder = 'asc';
+                    }
+                    renderLiveResultsTable(liveResultsData);
+                });
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            renderLiveResultsTable(liveResultsData);
+        });
+    </script>
+</body>
+</html>

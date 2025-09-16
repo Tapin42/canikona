@@ -63,33 +63,6 @@ def home():
         selected_gender='men'
     )
 
-@app.route('/api/live_results/<race_name>/<gender>')
-def get_live_results(race_name, gender):
-    race = get_race_by_name(race_name)
-    if not race:
-        return jsonify({"error": "Race not found"}), 404
-
-    if 'live' not in race.get('results_urls', {}):
-        return jsonify({"error": "Live results not available for this race"}), 404
-
-    if race['distance'] == '70.3':
-        if gender not in race['results_urls']['live']:
-            return jsonify({"error": f"Live results for {race['distance']} {gender} not supported"}), 404
-        ag_adjustments = AG_ADJUSTMENTS_703
-    elif race['distance'] == '140.6':
-        if 'men' not in race['results_urls']['live'] or 'women' not in race['results_urls']['live']:
-            return jsonify({"error": "Live results URLs for both men and women must be provided for 140.6 races"}), 404
-        ag_adjustments = AG_ADJUSTMENTS_1406
-    else:
-        return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
-
-    processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
-
-    if "error" in processed_data:
-        return jsonify({"error": processed_data["error"]}), 500
-
-    return jsonify({"results": processed_data})
-
 @app.route('/results/<race_name>/<data_source>')
 @app.route('/results/<race_name>/<data_source>/<gender>')
 def display_results(race_name, data_source, gender=None):
@@ -120,6 +93,34 @@ def display_results(race_name, data_source, gender=None):
         iframe_url=iframe_url,
         coming_soon=coming_soon
     )
+
+@app.route('/live_results/<race_name>')
+@app.route('/live_results/<race_name>/<gender>')
+def live_results_table(race_name, gender=None):
+    race = get_race_by_name(race_name)
+    if not race:
+        return jsonify({"error": "Race not found"}), 404
+
+    # Determine gender and adjustments
+    if race['distance'] == '70.3':
+        if not gender:
+            gender = 'men'  # Default to men if not provided
+        if gender not in race['results_urls']['live']:
+            return jsonify({"error": f"Live results for {race['distance']} {gender} not supported"}), 404
+        ag_adjustments = AG_ADJUSTMENTS_703
+    elif race['distance'] == '140.6':
+        if 'men' not in race['results_urls']['live'] or 'women' not in race['results_urls']['live']:
+            return jsonify({"error": "Live results URLs for both men and women must be provided for 140.6 races"}), 404
+        ag_adjustments = AG_ADJUSTMENTS_1406
+    else:
+        return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
+
+    processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
+
+    if "error" in processed_data:
+        return render_template('live_results.html', results=[], error=processed_data["error"])
+
+    return render_template('live_results.html', results=processed_data)
 
 if __name__ == '__main__':
     app.run(debug=True)

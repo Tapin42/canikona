@@ -13,8 +13,6 @@
     <div class="container">
         <h1>{{ page_title }}</h1>
 
-        <!-- <p>Select a race and a data source to view age-graded results.</p> -->
-
         <div class="controls-container">
             <form id="selection-form">
                 <div class="selection-group">
@@ -31,7 +29,6 @@
                 <div class="selection-group">
                     <p>Data Source:</p>
                     <label><input type="radio" name="data_source" value="live" {% if selected_source == 'live' %}checked{% endif %}> Live</label>
-                    <!-- <label><input type="radio" name="data_source" value="official_site" {% if selected_source == 'official_site' %}checked{% endif %}> IM Site</label> -->
                     <label><input type="radio" name="data_source" value="official_ag" {% if selected_source == 'official_ag' %}checked{% endif %}> Official Rolldown List</label>
                 </div>
 
@@ -45,10 +42,14 @@
         </div>
 
         <div id="results-display">
-            <div id="spinner" class="spinner"></div>
-            <p id="message-area" style="display: none;"></p>
-            <div id="live-results-container"></div>
-            <iframe id="results-iframe" frameborder="0"></iframe>
+            <!-- Loading overlay with spinner -->
+            <div id="loading-overlay" style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(255, 255, 255, 0.8); z-index: 1000;">
+                <div class="spinner" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"></div>
+            </div>
+
+            <!-- Results containers -->
+            <div id="message-area" style="display: none;"></div>
+            <iframe id="results-iframe" frameborder="0" style="width: 100%; min-height: 500px;"></iframe>
         </div>
     </div>
 
@@ -59,115 +60,21 @@
             const genderRadios = document.querySelectorAll('input[name="gender"]');
             const genderDiv = document.getElementById('gender-selection');
             const iframe = document.getElementById('results-iframe');
-            const spinner = document.getElementById('spinner');
             const messageArea = document.getElementById('message-area');
-            const liveResultsContainer = document.getElementById('live-results-container');
-
-            let currentSortColumn = null;
-            let currentSortOrder = 'asc';
-            let liveResultsData = [];
+            const loadingOverlay = document.getElementById('loading-overlay');
 
             function findRaceData(raceName) {
                 return racesData.find(race => race.name === raceName);
             }
 
-            function showLoadingState() {
-                messageArea.style.display = 'none';
+            function showLoading() {
+                loadingOverlay.style.display = 'block';
                 iframe.style.display = 'none';
-                liveResultsContainer.innerHTML = '';
-                spinner.style.display = 'block';
-            }
-
-            function hideLoadingState() {
-                spinner.style.display = 'none';
-            }
-
-            function renderLiveResultsTable(data) {
-                if (!data || data.length === 0) {
-                    messageArea.innerText = "No live results found.";
-                    messageArea.style.display = 'block';
-                    return;
-                }
-
-                liveResultsData = data;
-                const headers = [
-                    { key: 'graded_place', label: 'Graded Place' },
-                    { key: 'bib', label: 'Bib' },
-                    { key: 'name', label: 'Name' },
-                    { key: 'age_group', label: 'Age Group' },
-                    { key: 'gender_place', label: 'Gender Place' },
-                    { key: 'finish_time', label: 'Finish Time' },
-                    { key: 'graded_time', label: 'Graded Time' }
-                ];
-
-                let tableHTML = '<table class="results-table"><thead><tr>';
-                headers.forEach(header => {
-                    const sortedClass = header.key === currentSortColumn
-                        ? (currentSortOrder === 'asc' ? 'sorted-asc' : 'sorted-desc')
-                        : '';
-                    tableHTML += `<th data-sort-by="${header.key}" class="${sortedClass}">${header.label}</th>`;
-                });
-                tableHTML += '</tr></thead><tbody>';
-
-                const sortedData = [...liveResultsData].sort((a, b) => {
-                    const key = currentSortColumn;
-                    if (!key) return 0;
-
-                    const aVal = a[key];
-                    const bVal = b[key];
-
-                    let comparison = 0;
-                    if (typeof aVal === 'string' && typeof bVal === 'string') {
-                        if (['graded_place', 'gender_place'].includes(key)) {
-                            comparison = parseInt(aVal) - parseInt(bVal);
-                        } else {
-                            comparison = aVal.localeCompare(bVal);
-                        }
-                    } else if (typeof aVal === 'number' && typeof bVal === 'number') {
-                         comparison = aVal - bVal;
-                    } else {
-                        // Special handling for time strings
-                        if (key === 'graded_time') {
-                            comparison = a.graded_time_seconds - b.graded_time_seconds;
-                        } else if (key === 'finish_time') {
-                             comparison = a.finish_time_seconds - b.finish_time_seconds;
-                        } else {
-                            comparison = String(aVal).localeCompare(String(bVal));
-                        }
-                    }
-
-                    return currentSortOrder === 'desc' ? -comparison : comparison;
-                });
-
-                sortedData.forEach(athlete => {
-                    tableHTML += `<tr>
-                        <td>${athlete.graded_place}</td>
-                        <td>${athlete.bib}</td>
-                        <td>${athlete.name}</td>
-                        <td>${athlete.age_group}</td>
-                        <td>${athlete.gender_place}</td>
-                        <td>${athlete.finish_time}</td>
-                        <td>${athlete.graded_time}</td>
-                    </tr>`;
-                });
-                tableHTML += '</tbody></table>';
-
-                liveResultsContainer.innerHTML = tableHTML;
-                liveResultsContainer.style.display = 'block';
                 messageArea.style.display = 'none';
+            }
 
-                document.querySelectorAll('.results-table th').forEach(header => {
-                    header.addEventListener('click', () => {
-                        const newSortColumn = header.dataset.sortBy;
-                        if (newSortColumn === currentSortColumn) {
-                            currentSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
-                        } else {
-                            currentSortColumn = newSortColumn;
-                            currentSortOrder = 'asc';
-                        }
-                        renderLiveResultsTable(liveResultsData);
-                    });
-                });
+            function hideLoading() {
+                loadingOverlay.style.display = 'none';
             }
 
             async function updateAll() {
@@ -191,16 +98,18 @@
                 }
                 window.history.pushState({}, '', urlPath);
 
-                liveResultsContainer.innerHTML = '';
-                liveResultsContainer.style.display = 'none';
+                // Show loading immediately
+                showLoading();
 
                 if (source === 'official_ag' && race.results_urls && race.results_urls.official_ag) {
                     let url = race.results_urls.official_ag;
                     if (is703 && url[gender]) {
+                        iframe.onload = hideLoading;
                         iframe.src = url[gender];
                         iframe.style.display = 'block';
                         messageArea.style.display = 'none';
                     } else if (!is703 && typeof url === 'string') {
+                        iframe.onload = hideLoading;
                         iframe.src = url;
                         iframe.style.display = 'block';
                         messageArea.style.display = 'none';
@@ -210,37 +119,18 @@
                         messageArea.innerText = 'Coming Soon!';
                     }
                 } else if (source === 'live') {
-                    showLoadingState();
-                    try {
-                        const response = await fetch(`/api/live_results/${encodeURIComponent(selectedRaceName)}/${gender}`);
-                        const data = await response.json();
-                        hideLoadingState();
+                    let liveUrl = `/live_results/${encodeURIComponent(selectedRaceName)}/${gender}`;
+                    iframe.onload = hideLoading;
+                    iframe.src = liveUrl;
+                    iframe.style.display = 'block';
+                    messageArea.style.display = 'none';
 
-                        if (response.ok) {
-                            if (data.results) {
-                                currentSortColumn = 'graded_place';
-                                currentSortOrder = 'asc';
-                                renderLiveResultsTable(data.results);
-                            } else {
-                                messageArea.innerText = "Error: Live results data not found.";
-                                messageArea.style.display = 'block';
-                            }
-                        } else {
-                            messageArea.innerText = `Error: ${data.error || 'Could not retrieve live data'}`;
-                            messageArea.style.display = 'block';
-                        }
-                    } catch (error) {
-                        hideLoadingState();
-                        messageArea.innerText = 'Error: Failed to connect to server.';
-                        messageArea.style.display = 'block';
-                    }
-                    return;
                 } else {
                     iframe.style.display = 'none';
                     messageArea.style.display = 'block';
                     messageArea.innerText = 'Coming Soon!';
+                    hideLoading();
                 }
-                hideLoadingState();
             }
 
             function onRaceChange() {
