@@ -81,9 +81,11 @@
                 const selectedRaceName = raceSelect.value;
                 const race = findRaceData(selectedRaceName);
                 const source = document.querySelector('input[name="data_source"]:checked').value;
-                const gender = document.querySelector('input[name="gender"]:checked').value;
-
                 const is703 = race.distance === '70.3';
+
+                // Only get gender for 70.3 races
+                const gender = is703 ? document.querySelector('input[name="gender"]:checked').value : null;
+
                 if (is703) {
                     genderDiv.classList.remove('disabled-controls');
                     genderRadios.forEach(radio => radio.disabled = false);
@@ -103,12 +105,20 @@
 
                 if (source === 'official_ag' && race.results_urls && race.results_urls.official_ag) {
                     let url = race.results_urls.official_ag;
-                    if (is703 && url[gender]) {
-                        iframe.onload = hideLoading;
-                        iframe.src = url[gender];
-                        iframe.style.display = 'block';
-                        messageArea.style.display = 'none';
-                    } else if (!is703 && typeof url === 'string') {
+                    if (is703) {
+                        // Handle 70.3 race with gender-specific URLs
+                        if (url[gender]) {
+                            iframe.onload = hideLoading;
+                            iframe.src = url[gender];
+                            iframe.style.display = 'block';
+                            messageArea.style.display = 'none';
+                        } else {
+                            iframe.style.display = 'none';
+                            messageArea.style.display = 'block';
+                            messageArea.innerText = 'Coming Soon!';
+                        }
+                    } else if (typeof url === 'string') {
+                        // Handle 140.6 race with single URL
                         iframe.onload = hideLoading;
                         iframe.src = url;
                         iframe.style.display = 'block';
@@ -133,18 +143,29 @@
                 }
             }
 
+            let isInitialLoad = true;
+
             function onRaceChange() {
                 const selectedRaceName = raceSelect.value;
                 const race = findRaceData(selectedRaceName);
-                const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls;
+                const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls && race.results_urls.official_ag !== '';
 
                 // Disable/enable official_ag radio based on URL availability
                 const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
                 officialAgRadio.disabled = !hasOfficialAg;
                 officialAgRadio.parentElement.classList.toggle('disabled-controls', !hasOfficialAg);
 
-                // Select appropriate radio button
-                document.querySelector(`input[name="data_source"][value="${hasOfficialAg ? 'official_ag' : 'live'}"]`).checked = true;
+                // Select appropriate radio button based on context
+                let selectedSource;
+                if (isInitialLoad) {
+                    // On initial load, use the server-provided value
+                    selectedSource = '{{ selected_source }}' || (hasOfficialAg ? 'official_ag' : 'live');
+                    isInitialLoad = false;  // Reset flag after initial load
+                } else {
+                    // On subsequent changes, prefer official_ag if available
+                    selectedSource = hasOfficialAg ? 'official_ag' : 'live';
+                }
+                document.querySelector(`input[name="data_source"][value="${selectedSource}"]`).checked = true;
 
                 if (race.distance === '70.3') {
                     document.querySelector('input[name="gender"][value="men"]').checked = true;

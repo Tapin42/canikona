@@ -54,14 +54,31 @@ def home():
     races = get_races()
     default_race = races[0] if races else None
 
-    return render_template(
-        'index.html',
-        page_title='Long-Course Age Graded Results',
-        races=races,
-        selected_race=default_race['name'] if default_race else '',
-        selected_source='official_ag',
-        selected_gender='men'
-    )
+    # Set up default values
+    template_args = {
+        'page_title': 'Long-Course Age Graded Results',
+        'races': races,
+        'selected_race': default_race['name'] if default_race else ''
+    }
+
+    if default_race:
+        # Check if official results are available
+        has_official_results = False
+        if 'results_urls' in default_race and 'official_ag' in default_race['results_urls']:
+            if default_race['distance'] == '70.3':
+                has_official_results = bool(default_race['results_urls']['official_ag'].get('men'))
+            else:
+                has_official_results = bool(default_race['results_urls']['official_ag'])
+
+        template_args['selected_source'] = 'official_ag' if has_official_results else 'live'
+
+        # Only include gender for 70.3 races
+        if default_race['distance'] == '70.3':
+            template_args['selected_gender'] = 'men'
+    else:
+        template_args['selected_source'] = 'live'
+
+    return render_template('index.html', **template_args)
 
 @app.route('/results/<race_name>/<data_source>')
 @app.route('/results/<race_name>/<data_source>/<gender>')

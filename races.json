@@ -127,8 +127,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ITALYEMILIAROMAGNA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIAROMAGNA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -283,8 +283,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-BELGRADE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-BELGRADE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-SERBIA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-SERBIA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",

@@ -143,7 +143,6 @@ form {
     100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
-/* Styles for the live results table - Added from your previous request */
 .results-table {
     width: 100%;
     border-collapse: collapse;
