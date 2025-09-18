@@ -112,7 +112,7 @@ def display_results(race_name, data_source, gender=None):
         'index.html',
         page_title='Long-Course Age Graded Results',
         races=races,
-        selected_race=race_name,
+        selected_race=from_url_friendly_name(race_name),
         selected_source=data_source,
         selected_gender=gender,
         iframe_url=iframe_url,
