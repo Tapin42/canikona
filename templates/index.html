@@ -147,7 +147,12 @@
             let isInitialLoad = true;
 
             function onRaceChange() {
-                const selectedRaceName = '{{ selected_race }}' || raceSelect.value;
+                let selectedRaceName;
+                if (isInitialLoad) {
+                    selectedRaceName = '{{ selected_race }}' || raceSelect.value;
+                } else {
+                    selectedRaceName = raceSelect.value;
+                }
                 const race = findRaceData(selectedRaceName);
                 const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls && race.results_urls.official_ag !== '';
 
