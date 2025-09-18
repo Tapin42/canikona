@@ -245,8 +245,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-men-division-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
@@ -299,8 +299,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-women-division-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -484,8 +484,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-men-division-ironman-route_b%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -554,8 +554,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-men-division-ironman-route_b%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -713,8 +713,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -907,8 +907,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-men-division-ironman-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-women-division-ironman-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
