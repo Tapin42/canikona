@@ -94,7 +94,8 @@
                     genderRadios.forEach(radio => radio.disabled = true);
                 }
 
-                let urlPath = `/results/${encodeURIComponent(selectedRaceName)}/${source}`;
+                const urlFriendlyName = selectedRaceName.replace(/ /g, '_');
+                let urlPath = `/results/${urlFriendlyName}/${source}`;
                 if (is703) {
                     urlPath += `/${gender}`;
                 }
@@ -129,7 +130,7 @@
                         messageArea.innerText = 'Coming Soon!';
                     }
                 } else if (source === 'live') {
-                    let liveUrl = `/live_results/${encodeURIComponent(selectedRaceName)}/${gender}`;
+                    let liveUrl = `/live_results/${urlFriendlyName}/${gender}`;
                     iframe.onload = hideLoading;
                     iframe.src = liveUrl;
                     iframe.style.display = 'block';

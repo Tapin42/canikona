@@ -43,10 +43,18 @@ def get_races():
 
     return races_on_or_before_today
 
+# Functions to convert between display names and URL-friendly names
+def to_url_friendly_name(race_name):
+    return race_name.replace(' ', '_')
+
+def from_url_friendly_name(url_name):
+    return url_name.replace('_', ' ')
+
 # A reusable function to get race data by name
 def get_race_by_name(race_name):
     races = get_races()
-    race_data = next((r for r in races if r['name'] == race_name), None)
+    display_name = from_url_friendly_name(race_name)
+    race_data = next((r for r in races if r['name'] == display_name), None)
     return race_data
 
 @app.route('/')
