@@ -2,6 +2,7 @@ ssl/
 __pycache__/
 .vscode/
 .venv/
+scratch/
 *.pyc
 *.pyo
 *.pyd
