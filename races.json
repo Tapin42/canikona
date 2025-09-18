@@ -312,8 +312,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-GURYEKOREA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-GURYEKOREA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
@@ -347,8 +347,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ENCARNACION703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ENCARNACION703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-PARAGUAY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-PARAGUAY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
@@ -640,8 +640,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-TURKIYE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-TURKIYE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-TURKEY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-TURKEY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
@@ -818,8 +818,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ARACAJUSERGIPE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ARACAJUSERGIPE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-ARACAJU-SERGIPE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-ARACAJU-SERGIPE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
@@ -869,8 +869,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-LAQUINTA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-LAQUINTA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-INDIANWELLSLAQUINTA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-INDIANWELLSLAQUINTA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
