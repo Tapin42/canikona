@@ -101,7 +101,11 @@
                 }
                 window.history.pushState({}, '', urlPath);
 
-                // Show loading immediately
+                // Scroll to top of page smoothly and show loading
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
                 showLoading();
 
                 if (source === 'official_ag' && race.results_urls && race.results_urls.official_ag) {
