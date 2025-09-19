@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, render_template, abort, jsonify
+from flask import Flask, render_template, abort, jsonify, redirect, url_for
 from datetime import date
 import parse_live_data
 
@@ -87,6 +87,10 @@ def home():
         template_args['selected_source'] = 'live'
 
     return render_template('index.html', **template_args)
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/results/<race_name>/<data_source>')
 @app.route('/results/<race_name>/<data_source>/<gender>')

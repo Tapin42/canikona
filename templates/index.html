@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page_title }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <script>
-        const racesData = {{ races | tojson }};
-    </script>
-</head>
-<body>
-    <div class="container">
-        <h1>{{ page_title }}</h1>
+{% extends "base.html" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block head %}
+<script>
+    const racesData = {{ races | tojson }};
+</script>
+{% endblock %}
+
+{% block content %}
+<h1>{{ page_title }}</h1>
 
         <div class="controls-container">
             <form id="selection-form">
@@ -55,6 +53,42 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // Mobile menu functionality
+            const navToggle = document.querySelector('.nav-toggle');
+            const navMenu = document.querySelector('.nav-menu');
+            const body = document.body;
+
+            navToggle.addEventListener('click', function() {
+                navMenu.classList.toggle('active');
+                body.classList.toggle('menu-open');
+
+                // Toggle hamburger animation
+                this.classList.toggle('active');
+                const hamburger = this.querySelector('.hamburger');
+                if (this.classList.contains('active')) {
+                    hamburger.style.transform = 'rotate(45deg)';
+                    hamburger.style.backgroundColor = 'transparent';
+                    hamburger.style.before = 'rotate(90deg)';
+                    hamburger.style.after = 'rotate(-90deg)';
+                } else {
+                    hamburger.style.transform = '';
+                    hamburger.style.backgroundColor = '';
+                    hamburger.style.before = '';
+                    hamburger.style.after = '';
+                }
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('.nav-menu') &&
+                    !event.target.closest('.nav-toggle') &&
+                    navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    body.classList.remove('menu-open');
+                    navToggle.classList.remove('active');
+                }
+            });
+
             const raceSelect = document.getElementById('race-select');
             const sourceRadios = document.querySelectorAll('input[name="data_source"]');
             const genderRadios = document.querySelectorAll('input[name="gender"]');
@@ -191,5 +225,4 @@
             onRaceChange();
         });
     </script>
-</body>
-</html>
+{% endblock %}
