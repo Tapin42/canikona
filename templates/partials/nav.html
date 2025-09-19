@@ -22,18 +22,6 @@
 
             // Toggle hamburger animation
             this.classList.toggle('active');
-            const hamburger = this.querySelector('.hamburger');
-            if (this.classList.contains('active')) {
-                hamburger.style.transform = 'rotate(45deg)';
-                hamburger.style.backgroundColor = 'transparent';
-                hamburger.style.before = 'rotate(90deg)';
-                hamburger.style.after = 'rotate(-90deg)';
-            } else {
-                hamburger.style.transform = '';
-                hamburger.style.backgroundColor = '';
-                hamburger.style.before = '';
-                hamburger.style.after = '';
-            }
         });
 
         // Close menu when clicking outside
