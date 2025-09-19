@@ -109,13 +109,17 @@ body {
         height: 100vh;
         background-color: #ffffff;
         box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
-        transition: right 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
         z-index: 999;
         padding: 0;
+        visibility: hidden;
+        opacity: 0;
     }
 
     .nav-menu.active {
         right: 0;
+        visibility: visible;
+        opacity: 1;
     }
 
     .nav-menu ul {

@@ -53,42 +53,6 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // Mobile menu functionality
-            const navToggle = document.querySelector('.nav-toggle');
-            const navMenu = document.querySelector('.nav-menu');
-            const body = document.body;
-
-            navToggle.addEventListener('click', function() {
-                navMenu.classList.toggle('active');
-                body.classList.toggle('menu-open');
-
-                // Toggle hamburger animation
-                this.classList.toggle('active');
-                const hamburger = this.querySelector('.hamburger');
-                if (this.classList.contains('active')) {
-                    hamburger.style.transform = 'rotate(45deg)';
-                    hamburger.style.backgroundColor = 'transparent';
-                    hamburger.style.before = 'rotate(90deg)';
-                    hamburger.style.after = 'rotate(-90deg)';
-                } else {
-                    hamburger.style.transform = '';
-                    hamburger.style.backgroundColor = '';
-                    hamburger.style.before = '';
-                    hamburger.style.after = '';
-                }
-            });
-
-            // Close menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (!event.target.closest('.nav-menu') &&
-                    !event.target.closest('.nav-toggle') &&
-                    navMenu.classList.contains('active')) {
-                    navMenu.classList.remove('active');
-                    body.classList.remove('menu-open');
-                    navToggle.classList.remove('active');
-                }
-            });
-
             const raceSelect = document.getElementById('race-select');
             const sourceRadios = document.querySelectorAll('input[name="data_source"]');
             const genderRadios = document.querySelectorAll('input[name="gender"]');
