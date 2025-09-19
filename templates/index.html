@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page_title }}</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
-    <script>
-        const racesData = {{ races | tojson }};
-    </script>
-</head>
-<body>
-    <div class="container">
-        <h1>{{ page_title }}</h1>
+{% extends "base.html" %}
+
+{% block title %}{{ page_title }}{% endblock %}
+
+{% block head %}
+<script>
+    const racesData = {{ races | tojson }};
+</script>
+{% endblock %}
+
+{% block content %}
+<h1>{{ page_title }}</h1>
 
         <div class="controls-container">
             <form id="selection-form">
@@ -191,5 +189,4 @@
             onRaceChange();
         });
     </script>
-</body>
-</html>
+{% endblock %}

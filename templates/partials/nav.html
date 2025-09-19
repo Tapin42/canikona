@@ -1,0 +1,40 @@
+<button class="nav-toggle" aria-label="Toggle navigation">
+    <span class="hamburger"></span>
+</button>
+
+<nav class="nav-menu">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+    </ul>
+</nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Mobile menu functionality
+        const navToggle = document.querySelector('.nav-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+        const body = document.body;
+
+        navToggle.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+            body.classList.toggle('menu-open');
+
+            // Toggle hamburger animation
+            this.classList.toggle('active');
+        });
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.nav-menu') &&
+                !event.target.closest('.nav-toggle') &&
+                navMenu.classList.contains('active')) {
+                navMenu.classList.remove('active');
+                body.classList.remove('menu-open');
+                navToggle.classList.remove('active');
+            }
+        });
+    });
+</script>
