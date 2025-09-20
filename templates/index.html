@@ -110,7 +110,7 @@
                     let url = race.results_urls.official_ag;
                     if (is703) {
                         // Handle 70.3 race with gender-specific URLs
-                        if (url[gender]) {
+                        if (url[gender] && url[gender] !== "") {
                             iframe.onload = hideLoading;
                             iframe.src = url[gender];
                             iframe.style.display = 'block';
@@ -119,8 +119,8 @@
                             iframe.style.display = 'none';
                             messageArea.style.display = 'block';
                             messageArea.innerText = 'Coming Soon!';
-                        }
-                    } else if (typeof url === 'string') {
+                            hideLoading();
+                        } else if (typeof url === 'string') {
                         // Handle 140.6 race with single URL
                         iframe.onload = hideLoading;
                         iframe.src = url;
@@ -156,7 +156,10 @@
                     selectedRaceName = raceSelect.value;
                 }
                 const race = findRaceData(selectedRaceName);
-                const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls && race.results_urls.official_ag !== '';
+                const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls &&
+                    (race.distance === '70.3'
+                        ? (race.results_urls.official_ag.men !== "" || race.results_urls.official_ag.women !== "")
+                        : race.results_urls.official_ag !== "");
 
                 // Disable/enable official_ag radio based on URL availability
                 const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
