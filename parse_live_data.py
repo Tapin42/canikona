@@ -51,6 +51,11 @@ def fetch_live_results(api_url):
         response = requests.post(api_url, data=RTRT_LIVE_PARAMS)
         response.raise_for_status()
         raw_data = response.json()
+        
+        # Handle the specific "no_results" error
+        if "error" in raw_data and raw_data["error"]["type"] == "no_results":
+            return {"error": "no_finishers", "msg": "No racers have crossed the finish line yet. The age-graded results will start populating once racers start finishing the race."}
+        
         return raw_data
     except requests.exceptions.RequestException as e:
         print(f"Error retrieving data from {api_url}: {e}")

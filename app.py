@@ -147,7 +147,8 @@ def live_results_table(race_name, gender=None):
     processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
 
     if "error" in processed_data:
-        return render_template('live_results.html', results=[], error=processed_data["error"])
+        error_message = processed_data["msg"] if isinstance(processed_data["error"], str) and processed_data["error"] == "no_finishers" else processed_data["error"]
+        return render_template('live_results.html', results=[], error=error_message)
 
     return render_template('live_results.html', results=processed_data)
 
