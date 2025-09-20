@@ -128,7 +128,7 @@
         "results_urls": {
             "live": {
                 "men": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/to-age-group-men-division-ironman:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-women-division-ironman:_ALL/splits/FINISH"
             },
             "official_ag": ""
         }
