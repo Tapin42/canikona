@@ -156,8 +156,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-men-division-ironman-ironman703%3A_ALL/splits/FINISH",
+                "women": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-women-division-ironman-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
                 "men": "",
