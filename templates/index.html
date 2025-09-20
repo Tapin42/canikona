@@ -119,8 +119,8 @@
                             iframe.style.display = 'none';
                             messageArea.style.display = 'block';
                             messageArea.innerText = 'Coming Soon!';
-                            hideLoading();
-                        } else if (typeof url === 'string') {
+                        }
+                    } else if (typeof url === 'string') {
                         // Handle 140.6 race with single URL
                         iframe.onload = hideLoading;
                         iframe.src = url;
@@ -157,9 +157,7 @@
                 }
                 const race = findRaceData(selectedRaceName);
                 const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls &&
-                    (race.distance === '70.3'
-                        ? (race.results_urls.official_ag.men !== "" || race.results_urls.official_ag.women !== "")
-                        : race.results_urls.official_ag !== "");
+                    (race.distance === '70.3' ? race.results_urls.official_ag.men !== "" : race.results_urls.official_ag !== "");
 
                 // Disable/enable official_ag radio based on URL availability
                 const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
