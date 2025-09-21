@@ -211,8 +211,8 @@
                 "women": "https://api.rtrt.me/events/IRM-WASHINGTON703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Washington_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Washington_70.3_Women.html"
             }
         }
     },
@@ -249,8 +249,8 @@
                 "women": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20S%C3%A3o%20Paulo_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20S%C3%A3o%20Paulo_70.3_Women.html"
             }
         }
     },
@@ -268,8 +268,8 @@
                 "women": "https://api.rtrt.me/events/IRM-ITALY703-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Emilia-Romagna_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Emilia-Romagna_70.3_Women.html"
             }
         }
     },
