@@ -51,11 +51,11 @@ def fetch_live_results(api_url):
         response = requests.post(api_url, data=RTRT_LIVE_PARAMS)
         response.raise_for_status()
         raw_data = response.json()
-        
+
         # Handle the specific "no_results" error
         if "error" in raw_data and raw_data["error"]["type"] == "no_results":
             return {"error": "no_finishers", "msg": "No racers have crossed the finish line yet. The age-graded results will start populating once racers start finishing the race."}
-        
+
         return raw_data
     except requests.exceptions.RequestException as e:
         print(f"Error retrieving data from {api_url}: {e}")
@@ -103,12 +103,18 @@ def process_live_results(raw_data_list, ag_adjustments):
     processed_data.sort(key=lambda x: x["graded_time_seconds"])
 
     if processed_data:
+        # Initialize first athlete's position
         processed_data[0]["graded_place"] = 1
+
+        # Handle all other athletes
         for i in range(1, len(processed_data)):
             if processed_data[i]["graded_time_seconds"] == processed_data[i-1]["graded_time_seconds"]:
+                # Same time as previous athlete, assign same position
                 processed_data[i]["graded_place"] = processed_data[i-1]["graded_place"]
             else:
-                processed_data[i]["graded_place"] = processed_data[i-1]["graded_place"] + 1
+                # Different time, position should be i+1 to account for previous ties
+                # For example: if we had positions [1,1,1], the next unique time should be position 4
+                processed_data[i]["graded_place"] = i + 1
 
     return processed_data
 
