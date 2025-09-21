@@ -143,7 +143,7 @@
                 "men": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-men-division-ironman-tri_sprint:_ALL/splits/FINISH",
                 "women": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
             },
-            "official_ag": ""
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Maryland_IRONMAN.html"
         }
     },
     {
@@ -192,8 +192,8 @@
                 "women": "https://api.rtrt.me/events/IRM-WESTERNSYDNEY703-2025/categories/top-age-group-women-division-im-ironman:_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Western%20Sydney_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Western%20Sydney_70.3_Women.html"
             }
         }
     },
@@ -287,8 +287,8 @@
                 "women": "https://api.rtrt.me/events/IRM-SERBIA703-2025/categories/top-age-group-women-division-ironman-703-ironman703:_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Women.html"
             }
         }
     },
