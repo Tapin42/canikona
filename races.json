@@ -230,8 +230,8 @@
                 "women": "https://api.rtrt.me/events/IRM-COZUMEL703-2025/categories/top-age-group-women-division-703-ironman-ironman703:_ALL/splits/FINISH"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Cozumel_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Cozumel_70.3_Women.html"
             }
         }
     },
