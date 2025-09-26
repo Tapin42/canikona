@@ -1,7 +1,7 @@
 import os
 import json
-from flask import Flask, render_template, abort, jsonify, redirect, url_for
-from datetime import date
+from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app
+from datetime import date, datetime, timedelta
 import parse_live_data
 
 app = Flask(__name__)
@@ -29,19 +29,22 @@ AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 def get_races():
     with open(full_path('races.json'), 'r') as f:
         races = json.load(f)
-# Get today's date
-    today = date.today()
 
-    # Filter out races that happen after today
-    races_on_or_before_today = [
+    # Get cutoff timestamp - current time by default, extended if in debug mode
+    cutoff = int(datetime.now().timestamp())
+    if current_app.debug:
+        cutoff += 7 * 24 * 60 * 60  # Add 7 days in seconds if in debug mode
+
+    # Filter races based on the cutoff time
+    filtered_races = [
         race for race in races
-        if date.fromisoformat(race['date']) <= today
+        if 'earliestStartTime' in race and int(race['earliestStartTime']) <= cutoff
     ]
 
-    # Sort the filtered races by date in descending order
-    races_on_or_before_today.sort(key=lambda x: x['date'], reverse=True)
+    # Sort the filtered races by earliestStartTime in descending order
+    filtered_races.sort(key=lambda x: int(x['earliestStartTime']) if 'earliestStartTime' in x else 0, reverse=True)
 
-    return races_on_or_before_today
+    return filtered_races
 
 # Functions to convert between display names and URL-friendly names
 def to_url_friendly_name(race_name):
@@ -147,8 +150,32 @@ def live_results_table(race_name, gender=None):
     processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
 
     if "error" in processed_data:
-        error_message = processed_data["msg"] if isinstance(processed_data["error"], str) and processed_data["error"] == "no_finishers" else processed_data["error"]
-        return render_template('live_results.html', results=[], error=error_message)
+        # Only handle special messaging for no_finishers error
+        if isinstance(processed_data["error"], str) and processed_data["error"] == "no_finishers":
+            current_time = int(datetime.now().timestamp())
+            earliest_start = int(race.get('earliestStartTime', 0))
+
+            if current_time < earliest_start:
+                message = {
+                    'text': "This race hasn't yet started. Racers should be on the course starting around:",
+                    'timestamp': earliest_start * 1000  # Convert to milliseconds for JavaScript
+                }
+            else:
+                finish_offset = timedelta(hours=7.5 if race['distance'] == '140.6' else 3.5)
+                expected_finish = datetime.fromtimestamp(earliest_start) + finish_offset
+                if current_time < expected_finish.timestamp():
+                    message = {
+                        'text': "Racers are probably on the course right now. Results will start filling in here as they cross the finish line, likely sometime after:",
+                        'timestamp': int(expected_finish.timestamp() * 1000)  # Convert to milliseconds for JavaScript
+                    }
+                else:
+                    message = {
+                        'text': "No racers have crossed the finish line yet. Results will appear here as soon as racers finish.",
+                        'timestamp': None
+                    }
+            return render_template('live_results.html', results=[], error=message)
+        else:
+            return render_template('live_results.html', results=[], error=processed_data["error"])
 
     return render_template('live_results.html', results=processed_data)
 

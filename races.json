@@ -16,7 +16,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1757160000",
+        "key": "IRM-WISCONSIN703-2025"
     },
     {
         "date": "2025-09-07",
@@ -29,7 +31,9 @@
                 "women": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
-        }
+        },
+        "earliestStartTime": "1757246400",
+        "key": "IRM-WISCONSIN-2025"
     },
     {
         "date": "2025-09-14",
@@ -42,7 +46,9 @@
                 "women": "https://api.rtrt.me/events/IRM-JAPAN-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": "https://static.rtrt.me/events/irm-japan-2025/info_section/1757881986_ironman-japan-age-graded-overall-table-1_2025-09-14-203341_u5udkajl.pdf"
-        }
+        },
+        "earliestStartTime": "1757799000",
+        "key": "IRM-JAPAN-2025"
     },
     {
         "date": "2025-09-14",
@@ -61,7 +67,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1757793300",
+        "key": "IRM-SUNSHINECOAST703-2025"
     },
     {
         "date": "2025-09-14",
@@ -80,7 +88,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Weymouth_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Weymouth_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1757832000",
+        "key": "IRM-WEYMOUTH703-2025"
     },
     {
         "date": "2025-09-14",
@@ -99,7 +109,9 @@
                 "men": "https://static.rtrt.me/events/irm-michigan703-2025/info_section/1757887981_ironman-70.3-michigan-age-graded-men-top-250-3_2025-09-14-221310_u5udkajl.pdf",
                 "women": "https://static.rtrt.me/events/irm-michigan703-2025/info_section/1757882257_ironman-70.3-michigan-age-graded-women-top-250_2025-09-14-203758_u5udkajl.pdf"
             }
-        }
+        },
+        "earliestStartTime": "1757850600",
+        "key": "IRM-MICHIGAN703-2025"
     },
     {
         "date": "2025-09-14",
@@ -118,7 +130,9 @@
                 "men": "https://static.rtrt.me/events/irm-erkner703-2025/info_section/1757870115_ironman-70.3-erkner-age-graded-men-top-250-2_2025-09-14-171543_u5udkajl.pdf",
                 "women": "https://static.rtrt.me/events/irm-erkner703-2025/info_section/1757870156_ironman-70.3-erkner-age-graded-women-top-250_2025-09-14-171617_u5udkajl.pdf"
             }
-        }
+        },
+        "earliestStartTime": "1757829600",
+        "key": "IRM-ERKNER703-2025"
     },
     {
         "date": "2025-09-20",
@@ -131,7 +145,9 @@
                 "women": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-women-division-ironman:_ALL/splits/FINISH"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Italy%20Emilia-Romagna_IRONMAN.html"
-        }
+        },
+        "earliestStartTime": "1758346200",
+        "key": "IRM-ITALYEMILIA-2025"
     },
     {
         "date": "2025-09-20",
@@ -144,7 +160,9 @@
                 "women": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Maryland_IRONMAN.html"
-        }
+        },
+        "earliestStartTime": "1758365100",
+        "key": "IRM-MARYLAND-2025"
     },
     {
         "date": "2025-09-20",
@@ -163,7 +181,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20New%20York_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20New%20York_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758364200",
+        "key": "IRM-NEWYORK703-2025"
     },
     {
         "date": "2025-09-21",
@@ -176,7 +196,9 @@
                 "women": "https://api.rtrt.me/events/IRM-WALES-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wales_IRONMAN.html"
-        }
+        },
+        "earliestStartTime": "1758436200",
+        "key": "IRM-WALES-2025"
     },
     {
         "date": "2025-09-21",
@@ -195,7 +217,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Western%20Sydney_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Western%20Sydney_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758401400",
+        "key": "IRM-WESTERNSYDNEY703-2025"
     },
     {
         "date": "2025-09-21",
@@ -214,7 +238,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Washington_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Washington_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758461400",
+        "key": "IRM-WASHINGTON703-2025"
     },
     {
         "date": "2025-09-21",
@@ -233,7 +259,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Cozumel_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Cozumel_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758454200",
+        "key": "IRM-COZUMEL703-2025"
     },
     {
         "date": "2025-09-21",
@@ -252,7 +280,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20S%C3%A3o%20Paulo_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20S%C3%A3o%20Paulo_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758445200",
+        "key": "IRM-SAOPAULO703-2025"
     },
     {
         "date": "2025-09-21",
@@ -290,7 +320,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758427200",
+        "key": "IRM-SERBIA703-2025"
     },
     {
         "date": "2025-09-28",
@@ -303,7 +335,9 @@
                 "women": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-women-division-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1759058400",
+        "key": "IRM-CHATTANOOGA-2025"
     },
     {
         "date": "2025-09-28",
@@ -316,7 +350,9 @@
                 "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1759010400",
+        "key": "IRM-GURYE-2025"
     },
     {
         "date": "2025-09-28",
@@ -335,7 +371,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1759056900",
+        "key": "IRM-AUGUSTA703-2025"
     },
     {
         "date": "2025-09-28",
@@ -354,7 +392,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1759051800",
+        "key": "IRM-PARAGUAY703-2025"
     },
     {
         "date": "2025-10-05",
@@ -367,7 +407,9 @@
                 "women": "https://api.rtrt.me/events/IRM-CALELLABARCELONA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1759643400",
+        "key": "IRM-BARCELONA-2025"
     },
     {
         "date": "2025-10-05",
@@ -386,7 +428,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1759667100",
+        "key": "IRM-WACO703-2025"
     },
     {
         "date": "2025-10-18",
@@ -399,7 +443,9 @@
                 "women": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1760769600",
+        "key": "IRM-CASCAIS-2025"
     },
     {
         "date": "2025-10-18",
@@ -418,7 +464,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1760769600",
+        "key": "IRM-CASCAIS-2025"
     },
     {
         "date": "2025-10-19",
@@ -437,7 +485,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1760853600",
+        "key": "IRM-CROATIA703-2025"
     },
     {
         "date": "2025-10-25",
@@ -456,7 +506,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1761359400",
+        "key": "IRM-SALALAH703-2025"
     },
     {
         "date": "2025-10-25",
@@ -475,7 +527,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1761390600",
+        "key": "IRM-NORTHCAROLINA703-2025"
     },
     {
         "date": "2025-10-26",
@@ -488,7 +542,9 @@
                 "women": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1760881200",
+        "key": "IRM-CALIFORNIA-2025"
     },
     {
         "date": "2025-10-26",
@@ -558,7 +614,9 @@
                 "women": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1761997200",
+        "key": "IRM-FLORIDA-2025"
     },
     {
         "date": "2025-11-01",
@@ -571,7 +629,9 @@
                 "women": "https://api.rtrt.me/events/IRM-MALAYSIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1761951600",
+        "key": "IRM-MALAYSIA-2025"
     },
     {
         "date": "2025-11-01",
@@ -590,7 +650,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1761951600",
+        "key": "IRM-LANGKAWI703-2025"
     },
     {
         "date": "2025-11-02",
@@ -628,7 +690,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1762034400",
+        "key": "IRM-KENTING703-2025"
     },
     {
         "date": "2025-11-02",
@@ -647,7 +711,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1762059600",
+        "key": "IRM-TURKEY703-2025"
     },
     {
         "date": "2025-11-09",
@@ -666,7 +732,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1762651800",
+        "key": "IRM-GOA703-2025"
     },
     {
         "date": "2025-11-09",
@@ -685,7 +753,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1762628400",
+        "key": "IRM-MELBOURNE703-2025"
     },
     {
         "date": "2025-11-09",
@@ -704,7 +774,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1764508800",
+        "key": "IRM-ACAPULCO703-2025"
     },
     {
         "date": "2025-11-16",
@@ -717,7 +789,9 @@
                 "women": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
             },
             "official_ag": ""
-        }
+        },
+        "earliestStartTime": "1763300700",
+        "key": "IRM-ARIZONA-2025"
     },
     {
         "date": "2025-11-16",
@@ -736,7 +810,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1763249400",
+        "key": "IRM-PHUQUOC703-2025"
     },
     {
         "date": "2025-11-16",
@@ -755,7 +831,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1763266500",
+        "key": "IRM-MOSSELBAY703-2025"
     },
     {
         "date": "2025-11-23",
@@ -787,7 +865,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1764506700",
+        "key": "IRM-VALDIVIA703-2025"
     },
     {
         "date": "2025-11-30",
@@ -806,7 +886,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1764501300",
+        "key": "IRM-CARTAGENA703-2025"
     },
     {
         "date": "2025-11-30",
@@ -825,7 +907,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1764491400",
+        "key": "IRM-ARACAJU-SERGIPE703-2025"
     },
     {
         "date": "2025-12-07",
@@ -876,7 +960,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1765119600",
+        "key": "IRM-INDIANWELLSLAQUINTA703-2025"
     },
     {
         "date": "2025-12-07",
@@ -895,7 +981,9 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1765056480",
+        "key": "IRM-WESTERNAUSTRALIA703-2025"
     },
     {
         "date": "2025-12-14",
@@ -914,6 +1002,8 @@
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "earliestStartTime": "1765713000",
+        "key": "IRM-FLORIDA703-2025"
     }
 ]

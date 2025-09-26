@@ -18,10 +18,36 @@
             </p>
         </div>
         {% if error %}
-            <p id="message-area">Error: {{ error }}</p>
+            <div id="message-area" class="status-message">
+                <p class="message-text">{{ error.text }}</p>
+                {% if error.timestamp %}
+                    <p class="message-datetime" data-timestamp="{{ error.timestamp }}"></p>
+                {% endif %}
+            </div>
         {% else %}
             <div id="results-table-container"></div>
         {% endif %}
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const datetimeElement = document.querySelector('.message-datetime');
+                if (datetimeElement) {
+                    const timestamp = parseInt(datetimeElement.getAttribute('data-timestamp'));
+                    const date = new Date(timestamp);
+                    const options = {
+                        year: 'numeric',
+                        month: 'long',
+                        day: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true,
+                        timeZoneName: 'short'
+                    };
+                    datetimeElement.textContent = date.toLocaleString(undefined, options);
+                }
+            });
+        </script>
+        
     </div>
 
     <script>
