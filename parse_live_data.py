@@ -54,7 +54,7 @@ def fetch_live_results(api_url):
 
         # Handle the specific "no_results" error
         if "error" in raw_data and raw_data["error"]["type"] == "no_results":
-            return {"error": "no_finishers", "msg": "No racers have crossed the finish line yet. The age-graded results will start populating once racers start finishing the race."}
+            return {"error": "no_finishers"}
 
         return raw_data
     except requests.exceptions.RequestException as e:

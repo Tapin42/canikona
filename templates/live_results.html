@@ -18,7 +18,12 @@
             </p>
         </div>
         {% if error %}
-            <p id="message-area">Error: {{ error }}</p>
+            <div id="message-area" class="status-message">
+                <p class="message-text">{{ error.text }}</p>
+                {% if error.datetime %}
+                    <p class="message-datetime">{{ error.datetime }}</p>
+                {% endif %}
+            </div>
         {% else %}
             <div id="results-table-container"></div>
         {% endif %}

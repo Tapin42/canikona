@@ -305,3 +305,23 @@ form {
 .hidden-label {
     display: none;
 }
+
+/* Status message styles */
+.status-message {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 2em auto;
+    max-width: 800px;
+}
+
+.message-text {
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.message-datetime {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #8B2635;
+    margin-top: 0.5em;
+}
