@@ -156,10 +156,9 @@ def live_results_table(race_name, gender=None):
             earliest_start = int(race.get('earliestStartTime', 0))
 
             if current_time < earliest_start:
-                start_time = datetime.fromtimestamp(earliest_start)
                 message = {
-                    'text': "This race hasn't yet started.  Racers should be on the course starting around:",
-                    'datetime': start_time.strftime('%B %d, %Y at %I:%M %p %Z')
+                    'text': "This race hasn't yet started. Racers should be on the course starting around:",
+                    'timestamp': earliest_start * 1000  # Convert to milliseconds for JavaScript
                 }
             else:
                 finish_offset = timedelta(hours=7.5 if race['distance'] == '140.6' else 3.5)
@@ -167,12 +166,12 @@ def live_results_table(race_name, gender=None):
                 if current_time < expected_finish.timestamp():
                     message = {
                         'text': "Racers are probably on the course right now. Results will start filling in here as they cross the finish line, likely sometime after:",
-                        'datetime': expected_finish.strftime('%B %d, %Y at %I:%M %p %Z')
+                        'timestamp': int(expected_finish.timestamp() * 1000)  # Convert to milliseconds for JavaScript
                     }
                 else:
                     message = {
                         'text': "No racers have crossed the finish line yet. Results will appear here as soon as racers finish.",
-                        'datetime': None
+                        'timestamp': None
                     }
             return render_template('live_results.html', results=[], error=message)
         else:
