@@ -126,6 +126,31 @@ def display_results(race_name, data_source, gender=None):
         coming_soon=coming_soon
     )
 
+def get_race_status_message(race):
+    """
+    Determine the current race status and appropriate message based on timing.
+    Returns a tuple of (message_dict, should_fetch_results).
+    """
+    current_time = int(datetime.now().timestamp())
+    earliest_start = int(race.get('earliestStartTime', 0))
+
+    if current_time < earliest_start:
+        return {
+            'text': "This race hasn't yet started. Racers should be on the course starting around:",
+            'timestamp': earliest_start * 1000  # Convert to milliseconds for JavaScript
+        }, False
+    
+    finish_offset = timedelta(hours=7.5 if race['distance'] == '140.6' else 3.5)
+    expected_finish = datetime.fromtimestamp(earliest_start) + finish_offset
+    
+    if current_time < expected_finish.timestamp():
+        return {
+            'text': "Racers are probably on the course right now. Results will start filling in here as they cross the finish line, likely sometime after:",
+            'timestamp': int(expected_finish.timestamp() * 1000)  # Convert to milliseconds for JavaScript
+        }, False
+    
+    return None, True
+
 @app.route('/live_results/<race_name>')
 @app.route('/live_results/<race_name>/<gender>')
 def live_results_table(race_name, gender=None):
@@ -146,33 +171,21 @@ def live_results_table(race_name, gender=None):
         ag_adjustments = AG_ADJUSTMENTS_1406
     else:
         return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
-
+        
+    # Check if we should fetch results based on race timing
+    message, should_fetch_results = get_race_status_message(race)
+    if not should_fetch_results:
+        return render_template('live_results.html', results=[], error=message)
+        
     processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
 
     if "error" in processed_data:
-        # Only handle special messaging for no_finishers error
+        # Handle error cases
         if isinstance(processed_data["error"], str) and processed_data["error"] == "no_finishers":
-            current_time = int(datetime.now().timestamp())
-            earliest_start = int(race.get('earliestStartTime', 0))
-
-            if current_time < earliest_start:
-                message = {
-                    'text': "This race hasn't yet started. Racers should be on the course starting around:",
-                    'timestamp': earliest_start * 1000  # Convert to milliseconds for JavaScript
-                }
-            else:
-                finish_offset = timedelta(hours=7.5 if race['distance'] == '140.6' else 3.5)
-                expected_finish = datetime.fromtimestamp(earliest_start) + finish_offset
-                if current_time < expected_finish.timestamp():
-                    message = {
-                        'text': "Racers are probably on the course right now. Results will start filling in here as they cross the finish line, likely sometime after:",
-                        'timestamp': int(expected_finish.timestamp() * 1000)  # Convert to milliseconds for JavaScript
-                    }
-                else:
-                    message = {
-                        'text': "No racers have crossed the finish line yet. Results will appear here as soon as racers finish.",
-                        'timestamp': None
-                    }
+            message = {
+                'text': "No racers have crossed the finish line yet. Results will appear here as soon as racers finish.",
+                'timestamp': None
+            }
             return render_template('live_results.html', results=[], error=message)
         else:
             return render_template('live_results.html', results=[], error=processed_data["error"])
