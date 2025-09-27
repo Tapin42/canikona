@@ -5,6 +5,7 @@
 {% block head %}
 <script>
     const racesData = {{ races | tojson }};
+    const debugMode = {{ debug_mode | tojson }};
 </script>
 {% endblock %}
 
@@ -159,10 +160,23 @@
                 const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls &&
                     (race.distance === '70.3' ? race.results_urls.official_ag.men !== "" : race.results_urls.official_ag !== "");
 
-                // Disable/enable official_ag radio based on URL availability
+                // Get the radio buttons
                 const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
+                const liveRadio = document.querySelector('input[name="data_source"][value="live"]');
+
+                // Disable/enable official_ag radio based on URL availability
                 officialAgRadio.disabled = !hasOfficialAg;
                 officialAgRadio.parentElement.classList.toggle('disabled-controls', !hasOfficialAg);
+
+                // Disable live radio if official results are available and not in debug mode
+                const shouldDisableLive = hasOfficialAg && !debugMode;
+                liveRadio.disabled = shouldDisableLive;
+                liveRadio.parentElement.classList.toggle('disabled-controls', shouldDisableLive);
+
+                // If live is disabled and selected, switch to official results
+                if (shouldDisableLive && liveRadio.checked) {
+                    officialAgRadio.checked = true;
+                }
 
                 // Select appropriate radio button based on context
                 let selectedSource;

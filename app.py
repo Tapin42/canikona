@@ -64,12 +64,14 @@ def get_race_by_name(race_name):
 def home():
     races = get_races()
     default_race = races[0] if races else None
+    debug_mode = app.debug
 
     # Set up default values
     template_args = {
         'page_title': 'Long-Course Age Graded Results',
         'races': races,
-        'selected_race': default_race['name'] if default_race else ''
+        'selected_race': default_race['name'] if default_race else '',
+        'debug_mode': debug_mode
     }
 
     if default_race:
@@ -115,6 +117,8 @@ def display_results(race_name, data_source, gender=None):
                 iframe_url = race['results_urls']['official_ag']
             coming_soon = iframe_url != ""
 
+    debug_mode = app.debug
+
     return render_template(
         'index.html',
         page_title='Long-Course Age Graded Results',
@@ -123,7 +127,8 @@ def display_results(race_name, data_source, gender=None):
         selected_source=data_source,
         selected_gender=gender,
         iframe_url=iframe_url,
-        coming_soon=coming_soon
+        coming_soon=coming_soon,
+        debug_mode=debug_mode
     )
 
 def get_race_status_message(race):
@@ -139,16 +144,16 @@ def get_race_status_message(race):
             'text': "This race hasn't yet started. Racers should be on the course starting around:",
             'timestamp': earliest_start * 1000  # Convert to milliseconds for JavaScript
         }, False
-    
+
     finish_offset = timedelta(hours=7.5 if race['distance'] == '140.6' else 3.5)
     expected_finish = datetime.fromtimestamp(earliest_start) + finish_offset
-    
+
     if current_time < expected_finish.timestamp():
         return {
             'text': "Racers are probably on the course right now. Results will start filling in here as they cross the finish line, likely sometime after:",
             'timestamp': int(expected_finish.timestamp() * 1000)  # Convert to milliseconds for JavaScript
         }, False
-    
+
     return None, True
 
 @app.route('/live_results/<race_name>')
@@ -171,12 +176,12 @@ def live_results_table(race_name, gender=None):
         ag_adjustments = AG_ADJUSTMENTS_1406
     else:
         return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
-        
+
     # Check if we should fetch results based on race timing
     message, should_fetch_results = get_race_status_message(race)
     if not should_fetch_results:
         return render_template('live_results.html', results=[], error=message)
-        
+
     processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
 
     if "error" in processed_data:
