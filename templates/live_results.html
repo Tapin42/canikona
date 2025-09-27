@@ -17,16 +17,13 @@
                 Rolldown List" above.
             </p>
         </div>
-        {% if error %}
-            <div id="message-area" class="status-message">
-                <p class="message-text">{{ error.text }}</p>
-                {% if error.timestamp %}
-                    <p class="message-datetime" data-timestamp="{{ error.timestamp }}"></p>
-                {% endif %}
-            </div>
-        {% else %}
-            <div id="results-table-container"></div>
-        {% endif %}
+        <div id="message-area" class="status-message" style="display: {{ 'block' if error else 'none' }}">
+            <p class="message-text">{{ error.text if error else '' }}</p>
+            {% if error and error.timestamp %}
+                <p class="message-datetime" data-timestamp="{{ error.timestamp }}"></p>
+            {% endif %}
+        </div>
+        <div id="results-table-container" style="display: {{ 'none' if error else 'block' }}"></div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {
@@ -47,7 +44,7 @@
                 }
             });
         </script>
-        
+
     </div>
 
     <script>
@@ -56,8 +53,14 @@
         let liveResultsData = {{ results | tojson | safe }};
 
         function renderLiveResultsTable(data) {
+            const container = document.getElementById('results-table-container');
+            if (!container) {
+                console.error('Results table container not found');
+                return;
+            }
+
             if (!data || data.length === 0) {
-                document.getElementById('results-table-container').innerHTML = '<p>No live results found.</p>';
+                container.innerHTML = '<p>No live results found.</p>';
                 return;
             }
 
