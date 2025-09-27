@@ -3,6 +3,7 @@ from datetime import timedelta
 import requests
 import json
 import math
+from flask import current_app
 
 # The common parameters for the RTRT.me live API
 RTRT_LIVE_PARAMS = {
@@ -48,9 +49,11 @@ def fetch_live_results(api_url):
     Fetches the raw JSON data from the RTRT.me live API.
     """
     try:
+        current_app.logger.debug(f"Making POST request to {api_url} with params: {RTRT_LIVE_PARAMS}")
         response = requests.post(api_url, data=RTRT_LIVE_PARAMS)
         response.raise_for_status()
         raw_data = response.json()
+        current_app.logger.debug(f"Received response from {api_url}: Status {response.status_code}")
 
         # Handle the specific "no_results" error
         if "error" in raw_data and raw_data["error"]["type"] == "no_results":

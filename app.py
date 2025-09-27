@@ -27,24 +27,39 @@ AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 
 # Function to read and sort race data
 def get_races():
-    with open(full_path('races.json'), 'r') as f:
+    with open(full_path('races.json'), 'r', encoding='utf-8') as f:
         races = json.load(f)
 
-    # Get cutoff timestamp - current time by default, extended if in debug mode
+    # Get cutoff timestamp
     cutoff = int(datetime.now().timestamp())
     if current_app.debug:
-        cutoff += 7 * 24 * 60 * 60  # Add 7 days in seconds if in debug mode
+        cutoff += 7 * 24 * 60 * 60  # Add 7 days in debug mode
     else:
-        cutoff += 1 * 24 * 60 * 60  # Add 1 day in seconds otherwise
+        cutoff += 1 * 24 * 60 * 60  # Add 1 day otherwise
 
-    # Filter races based on the cutoff time
-    filtered_races = [
-        race for race in races
-        if 'earliestStartTime' in race and int(race['earliestStartTime']) <= cutoff
-    ]
+    # Process URLs and filter races
+    filtered_races = []
+    for race in races:
+        if 'earliestStartTime' in race and int(race['earliestStartTime']) <= cutoff:
+            # Process live result URLs if available
+            if ('results_urls' in race and 'live' in race['results_urls'] and
+                isinstance(race['results_urls']['live'], dict) and 'key' in race):
+                live = race['results_urls']['live']
 
-    # Sort the filtered races by earliestStartTime in descending order
-    filtered_races.sort(key=lambda x: int(x['earliestStartTime']) if 'earliestStartTime' in x else 0, reverse=True)
+                # Process men's URL
+                if 'men_cat' in live:
+                    men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/FINISH"
+                    live['men'] = men_url
+
+                # Process women's URL
+                if 'women_cat' in live:
+                    women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/FINISH"
+                    live['women'] = women_url
+
+            filtered_races.append(race)
+
+    # Sort by earliestStartTime in descending order
+    filtered_races.sort(key=lambda x: int(x['earliestStartTime']), reverse=True)
 
     return filtered_races
 
