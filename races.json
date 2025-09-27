@@ -9,8 +9,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WISCONSIN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Wisconsin_70.3_Men.html",
@@ -27,8 +27,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WISCONSIN-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
         },
@@ -42,8 +42,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-JAPAN-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-JAPAN-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-im-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-im-ironman:_ALL"
             },
             "official_ag": "https://static.rtrt.me/events/irm-japan-2025/info_section/1757881986_ironman-japan-age-graded-overall-table-1_2025-09-14-203341_u5udkajl.pdf"
         },
@@ -60,8 +60,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-men-division-im-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-SUNSHINECOAST703-2025/categories/top-age-group-women-division-im-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-im-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-im-ironman:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Sunshine%20Coast_70.3_Men.html",
@@ -81,8 +81,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WEYMOUTH703-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WEYMOUTH703-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Weymouth_70.3_Men.html",
@@ -102,8 +102,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-MICHIGAN703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-MICHIGAN703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://static.rtrt.me/events/irm-michigan703-2025/info_section/1757887981_ironman-70.3-michigan-age-graded-men-top-250-3_2025-09-14-221310_u5udkajl.pdf",
@@ -123,8 +123,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ERKNER703-2025/categories/top-age-group-men-division-ironman-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ERKNER703-2025/categories/top-age-group-women-division-ironman-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://static.rtrt.me/events/irm-erkner703-2025/info_section/1757870115_ironman-70.3-erkner-age-graded-men-top-250-2_2025-09-14-171543_u5udkajl.pdf",
@@ -141,8 +141,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/to-age-group-men-division-ironman:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ITALYEMILIA-2025/categories/top-age-group-women-division-ironman:_ALL/splits/FINISH"
+                "men_cat": "to-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-ironman:_ALL"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Italy%20Emilia-Romagna_IRONMAN.html"
         },
@@ -156,8 +156,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-men-division-ironman-tri_sprint:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-MARYLAND-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Maryland_IRONMAN.html"
         },
@@ -174,8 +174,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-men-division-ironman-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-NEWYORK703-2025/categories/top-age-group-women-division-ironman-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20New%20York_70.3_Men.html",
@@ -192,8 +192,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WALES-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WALES-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wales_IRONMAN.html"
         },
@@ -210,8 +210,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WESTERNSYDNEY703-2025/categories/top-age-group-men-division-im-ironman:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WESTERNSYDNEY703-2025/categories/top-age-group-women-division-im-ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-im-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-im-ironman:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Western%20Sydney_70.3_Men.html",
@@ -231,8 +231,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WASHINGTON703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WASHINGTON703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Washington_70.3_Men.html",
@@ -252,8 +252,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-COZUMEL703-2025/categories/top-age-group-men-division-ironman-ironman703:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-COZUMEL703-2025/categories/top-age-group-women-division-703-ironman-ironman703:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Cozumel_70.3_Men.html",
@@ -273,8 +273,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-men-division-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-SAOPAULO703-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman703:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20S%C3%A3o%20Paulo_70.3_Men.html",
@@ -294,8 +294,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ITALY703-2025/categories/top-age-group-men-division-ironman-tri_sprint:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ITALY703-2025/categories/top-age-group-women-divison-ironman-tri_ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Emilia-Romagna_70.3_Men.html",
@@ -313,8 +313,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-SERBIA703-2025/categories/top-age-group-men-division-ironman-703-ironman703:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-SERBIA703-2025/categories/top-age-group-women-division-ironman-703-ironman703:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Men.html",
@@ -331,8 +331,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-men-division-ironman-tri_sprint:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CHATTANOOGA-2025/categories/top-age-group-women-division-ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-division-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -346,8 +346,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-men-division-ironman:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-division-ironman:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -364,8 +364,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-AUGUSTA703-2025/categories/top-age-group-men-division-ironman-703-ironman703:_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-AUGUSTA703-2025/categories/top-age-group-women-division-ironman-703-ironman703:_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -385,8 +385,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-PARAGUAY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-PARAGUAY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -403,8 +403,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CALELLABARCELONA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CALELLABARCELONA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -421,8 +421,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WACO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WACO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -439,8 +439,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -457,8 +457,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-PORTUGALCASCAIS703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -478,8 +478,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-POREC703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-POREC703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -499,8 +499,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-SALALAH703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-SALALAH703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -520,8 +520,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-NORTHCAROLINA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-NORTHCAROLINA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -538,8 +538,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-men-division-ironman-route_b%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CALIFORNIA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-route_b:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-route_b:_ALL"
             },
             "official_ag": ""
         },
@@ -556,8 +556,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-GREECE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-GREECE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -575,8 +575,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-FLORIANOPOLIS-LATINAMERICACHAMPIONSHIP703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-FLORIANOPOLIS-LATINAMERICACHAMPIONSHIP703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -594,8 +594,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-AGADIR703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-AGADIR703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -610,8 +610,8 @@
         "slots": 55,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-men-division-ironman-route_b%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-FLORIDA-2025/categories/top-age-group-women-division-ironman-route_b%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-route_b:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-route_b:_ALL"
             },
             "official_ag": ""
         },
@@ -625,8 +625,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-MALAYSIA-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-MALAYSIA-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -643,8 +643,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-LANGKAWI703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-LANGKAWI703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -664,8 +664,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-BUENOSAIRES703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-BUENOSAIRES703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -683,8 +683,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-KENTING703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-KENTING703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -704,8 +704,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-TURKEY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-TURKEY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -725,8 +725,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-GOA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-GOA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -746,8 +746,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-MELBOURNE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-MELBOURNE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -767,8 +767,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ACAPULCO703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ACAPULCO703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -785,8 +785,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-men-division-ironman-tri_sprint%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ARIZONA-2025/categories/top-age-group-women-divison-ironman-tri_ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -803,8 +803,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-PHUQUOC703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-PHUQUOC703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -824,8 +824,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-MOSSELBAY703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-MOSSELBAY703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -842,8 +842,8 @@
         "slots": 100,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-COZUMEL-LATINAMERICACHAMPIONSHIP-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-COZUMEL-LATINAMERICACHAMPIONSHIP-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman:_ALL"
             },
             "official_ag": ""
         }
@@ -858,8 +858,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-VALDIVIA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-VALDIVIA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -879,8 +879,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-CARTAGENA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-CARTAGENA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -900,8 +900,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-ARACAJU-SERGIPE703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-ARACAJU-SERGIPE703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -918,8 +918,8 @@
         "slots": 75,
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA-ASIAPACIFICCHAMPIONSHIP-2025/categories/top-age-group-men-division-ironman%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA-ASIAPACIFICCHAMPIONSHIP-2025/categories/top-age-group-women-divison-ironman%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman:_ALL"
             },
             "official_ag": ""
         }
@@ -934,8 +934,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-RIVIERANAYARIT703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-RIVIERANAYARIT703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -953,8 +953,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-INDIANWELLSLAQUINTA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-INDIANWELLSLAQUINTA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -974,8 +974,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA703-2025/categories/top-age-group-men-division-703-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-WESTERNAUSTRALIA703-2025/categories/top-age-group-women-division-703-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -995,8 +995,8 @@
         },
         "results_urls": {
             "live": {
-                "men": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-men-division-ironman-ironman703%3A_ALL/splits/FINISH",
-                "women": "https://api.rtrt.me/events/IRM-FLORIDA703-2025/categories/top-age-group-women-division-ironman-ironman703%3A_ALL/splits/FINISH"
+                "men_cat": "top-age-group-men-division-ironman-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
