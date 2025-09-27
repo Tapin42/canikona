@@ -385,8 +385,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
