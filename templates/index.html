@@ -3,10 +3,6 @@
 {% block title %}{{ page_title }}{% endblock %}
 
 {% block head %}
-<script>
-    const racesData = {{ races | tojson }};
-    const debugMode = {{ debug_mode | tojson }};
-</script>
 {% endblock %}
 
 {% block content %}
@@ -18,11 +14,17 @@
                     <label for="race-select">Race:</label>
                     <select name="race_name" id="race-select">
                         {% for race in races %}
-                            <option value="{{ race.name }}" data-distance="{{ race.distance }}" {% if race.name == selected_race %}selected{% endif %}>
+                            <option value="{{ race.name }}"
+                                    data-distance="{{ race.distance }}"
+                                    data-slots="{{ race.slots if race.distance == '140.6' else '' }}"
+                                    data-slots-men="{{ race.slots.men if race.distance == '70.3' else '' }}"
+                                    data-slots-women="{{ race.slots.women if race.distance == '70.3' else '' }}"
+                                    {% if race.name == selected_race %}selected{% endif %}>
                                 {{ race.date }} - {{ race.name }}
                             </option>
                         {% endfor %}
                     </select>
+                    <div id="slots-display" class="slots-info"></div>
                 </div>
 
                 <div class="selection-group">
@@ -53,6 +55,62 @@
     </div>
 
     <script>
+        const racesData = {{ races | tojson }};
+        const debugMode = {{ debug_mode | tojson }};
+
+        function setupTooltip(tooltipContainer) {
+            const icon = tooltipContainer.querySelector('.tooltip-icon');
+            icon.addEventListener('click', (e) => {
+                e.stopPropagation();  // Prevent document click from immediately closing
+                // Close any other open tooltips
+                document.querySelectorAll('.tooltip.active').forEach(t => {
+                    if (t !== tooltipContainer) t.classList.remove('active');
+                });
+                tooltipContainer.classList.toggle('active');
+            });
+        }
+
+        // Close tooltips when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('.tooltip')) {
+                document.querySelectorAll('.tooltip.active').forEach(tooltip => {
+                    tooltip.classList.remove('active');
+                });
+            }
+        });
+
+        function updateSlotsDisplay() {
+            const raceSelect = document.getElementById('race-select');
+            const selectedOption = raceSelect.options[raceSelect.selectedIndex];
+            const slotsDisplay = document.getElementById('slots-display');
+            const distance = selectedOption.getAttribute('data-distance');
+            const genderInputs = document.getElementsByName('gender');
+
+            // Ensure there's always a selected gender for 70.3 races
+            if (distance === '70.3' && ![...genderInputs].some(input => input.checked)) {
+                genderInputs[0].checked = true;
+            }
+
+            const selectedGender = [...genderInputs].find(input => input.checked)?.value;
+
+            if (distance === '140.6') {
+                const totalSlots = selectedOption.getAttribute('data-slots');
+                slotsDisplay.innerHTML = `Available Slots: <strong>${totalSlots}</strong><span class="tooltip"><span class="tooltip-icon">ⓘ</span><span class="tooltip-text">Total number of slots allocated to the race; see the <a href="https://www.ironman.com/about/age-group-qualification" target="_blank">Age Group Qualification System</a> page for details on how slots will be allocated.</span></span>`;
+                slotsDisplay.style.display = 'block';
+                setupTooltip(slotsDisplay.querySelector('.tooltip'));
+            } else if (distance === '70.3' && selectedGender) {
+                const slots = selectedGender === 'men'
+                    ? selectedOption.getAttribute('data-slots-men')
+                    : selectedOption.getAttribute('data-slots-women');
+                const genderDisplay = selectedGender === 'men' ? 'Men' : 'Women';
+                slotsDisplay.innerHTML = `Available Slots For ${genderDisplay}: <strong>${slots}</strong><span class="tooltip"><span class="tooltip-icon">ⓘ</span><span class="tooltip-text">Total number of slots allocated to the race; see the <a href="https://www.ironman.com/about/age-group-qualification" target="_blank">Age Group Qualification System</a> page for details on how slots will be allocated.</span></span>`;
+                slotsDisplay.style.display = 'block';
+                setupTooltip(slotsDisplay.querySelector('.tooltip'));
+            } else {
+                slotsDisplay.style.display = 'none';
+            }
+        }
+
         document.addEventListener('DOMContentLoaded', function() {
             const raceSelect = document.getElementById('race-select');
             const sourceRadios = document.querySelectorAll('input[name="data_source"]');
@@ -61,6 +119,25 @@
             const iframe = document.getElementById('results-iframe');
             const messageArea = document.getElementById('message-area');
             const loadingOverlay = document.getElementById('loading-overlay');
+
+            // Initialize slots display
+            updateSlotsDisplay();
+
+            // Handle race selection changes
+            raceSelect.addEventListener('change', function() {
+                const distance = this.options[this.selectedIndex].getAttribute('data-distance');
+                // When switching to 70.3, ensure first gender option is selected
+                if (distance === '70.3') {
+                    const menRadio = document.querySelector('input[name="gender"][value="men"]');
+                    menRadio.checked = true;
+                }
+                updateSlotsDisplay();
+            });
+
+            // Handle gender selection changes
+            genderRadios.forEach(radio => {
+                radio.addEventListener('change', updateSlotsDisplay);
+            });
 
             function findRaceData(raceName) {
                 return racesData.find(race => race.name === raceName);

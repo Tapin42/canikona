@@ -8,6 +8,93 @@ body {
     padding: 0;
 }
 
+/* Form controls styling */
+.selection-group {
+    margin-bottom: 15px;
+}
+
+.selection-group:first-of-type {
+    min-width: 250px;
+    max-width: 100%;
+}
+
+/* Slots information styling */
+.slots-info {
+    display: block;
+    margin-top: 8px;
+    padding: 6px 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    font-size: 0.9em;
+    color: #333;
+    max-width: 100%;
+}
+.slots-info strong {
+    color: #e74c3c;
+    font-weight: 600;
+}
+
+/* Tooltip styling */
+.tooltip-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    cursor: help;
+    color: #666;
+    font-size: 14px;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+    top: -1px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 300px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    border-radius: 4px;
+    padding: 8px 12px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+    font-size: 0.9em;
+    line-height: 1.4;
+    pointer-events: none;
+}
+
+.tooltip .tooltip-text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.tooltip .tooltip-text a:hover {
+    color: #e74c3c;
+}
+
+.tooltip:hover .tooltip-text,
+.tooltip.active .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tooltip.active .tooltip-icon {
+    color: #e74c3c;
+}
+
 /* Navigation styles */
 .nav-toggle {
     display: none;
