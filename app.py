@@ -34,6 +34,8 @@ def get_races():
     cutoff = int(datetime.now().timestamp())
     if current_app.debug:
         cutoff += 7 * 24 * 60 * 60  # Add 7 days in seconds if in debug mode
+    else:
+        cutoff += 1 * 24 * 60 * 60  # Add 1 day in seconds otherwise
 
     # Filter races based on the cutoff time
     filtered_races = [
