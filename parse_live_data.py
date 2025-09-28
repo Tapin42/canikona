@@ -138,12 +138,10 @@ def get_processed_results(race, gender, ag_adjustments):
         women_url = race['results_urls']['live'].get('women')
 
         men_data = fetch_live_results(men_url)
-        if "error" in men_data:
-            return men_data
-
         women_data = fetch_live_results(women_url)
-        if "error" in women_data:
-            return women_data
+
+        if "error" in men_data and "error" in women_data:
+            return men_data
 
         all_data_list.extend(men_data.get("list", []))
         all_data_list.extend(women_data.get("list", []))
