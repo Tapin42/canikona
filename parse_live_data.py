@@ -142,6 +142,10 @@ def get_processed_results(race, gender, ag_adjustments):
 
         if "error" in men_data and "error" in women_data:
             return men_data
+        elif "error" in men_data:
+            current_app.logger.warning(f"Error fetching men's live results from {men_url}: {men_data['error']}")
+        elif "error" in women_data:
+            current_app.logger.warning(f"Error fetching women's live results from {women_url}: {women_data['error']}")
 
         all_data_list.extend(men_data.get("list", []))
         all_data_list.extend(women_data.get("list", []))
