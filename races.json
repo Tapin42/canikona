@@ -349,7 +349,7 @@
                 "men": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-men-division-ironman:_ALL/splits/RUN",
                 "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-division-ironman:_ALL/splits/RUN"
             },
-            "official_ag": ""
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Gurye%20Korea_IRONMAN.html"
         },
         "earliestStartTime": "1759010400",
         "key": "IRM-GURYE-2025"
