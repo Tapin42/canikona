@@ -81,38 +81,44 @@ def get_race_by_name(race_name):
 def home():
     races = get_races()
     default_race = races[0] if races else None
-    debug_mode = app.debug
-
-    # Set up default values
-    template_args = {
-        'page_title': 'Long-Course Age Graded Results',
-        'races': races,
-        'selected_race': default_race['name'] if default_race else '',
-        'debug_mode': debug_mode
-    }
-
+    
     if default_race:
-        # Check if official results are available
-        has_official_results = False
-        if 'results_urls' in default_race and 'official_ag' in default_race['results_urls']:
-            if default_race['distance'] == '70.3':
-                has_official_results = bool(default_race['results_urls']['official_ag'].get('men'))
-            else:
-                has_official_results = bool(default_race['results_urls']['official_ag'])
-
-        template_args['selected_source'] = 'official_ag' if has_official_results else 'live'
-
-        # Only include gender for 70.3 races
-        if default_race['distance'] == '70.3':
-            template_args['selected_gender'] = 'men'
+        # Redirect to the default race using the new results route
+        race_name = to_url_friendly_name(default_race['name'])
+        return redirect(url_for('redirect_to_results', race_name=race_name))
     else:
-        template_args['selected_source'] = 'live'
-
-    return render_template('index.html', **template_args)
+        # No races available, show empty page or error
+        return render_template('index.html', 
+                             page_title='Long-Course Age Graded Results',
+                             races=[],
+                             selected_race='',
+                             debug_mode=app.debug)
 
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/results/<race_name>')
+@app.route('/results/<race_name>/')
+def redirect_to_results(race_name):
+    race = get_race_by_name(race_name)
+
+    if not race:
+        abort(404)
+
+    # Check if official_ag results are available
+    has_official_ag = False
+    if 'results_urls' in race and 'official_ag' in race['results_urls']:
+        if race['distance'] == '70.3':
+            has_official_ag = bool(race['results_urls']['official_ag'].get('men'))
+        else:  # 140.6
+            has_official_ag = bool(race['results_urls']['official_ag'])
+
+    # Determine redirect URL based on race distance and availability of official_ag
+    if race['distance'] == '140.6':
+        return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live'))
+    else:  # 70.3
+        return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live', gender='men'))
 
 @app.route('/results/<race_name>/<data_source>')
 @app.route('/results/<race_name>/<data_source>/<gender>')
