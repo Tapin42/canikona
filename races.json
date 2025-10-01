@@ -301,7 +301,9 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Emilia-Romagna_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Emilia-Romagna_70.3_Women.html"
             }
-        }
+        },
+        "earliestStartTime": "1758448800",
+        "key": "IRM-ITALY703-2025"
     },
     {
         "date": "2025-09-21",
@@ -550,6 +552,8 @@
         "date": "2025-10-26",
         "name": "Ironman 70.3 Greece",
         "distance": "70.3",
+        "key": "IRM-GREECE703-2025",
+        "earliestStartTime": "1761457200",
         "slots": {
             "men": 30,
             "women": 30
@@ -569,6 +573,8 @@
         "date": "2025-10-26",
         "name": "Ironman 70.3 Florianopolis - Latin America Championship",
         "distance": "70.3",
+        "key": "IRM-FLORIANOPOLIS703-2025",
+        "earliestStartTime": "1761471000",
         "slots": {
             "men": 40,
             "women": 40
@@ -586,8 +592,10 @@
     },
     {
         "date": "2025-10-26",
-        "name": "Ironamn 70.3 Agadir",
+        "name": "Ironman 70.3 Agadir",
         "distance": "70.3",
+        "key": "IRM-AGADIR703-2025",
+        "earliestStartTime": "1761461100",
         "slots": {
             "men": 30,
             "women": 30
@@ -839,6 +847,8 @@
         "date": "2025-11-23",
         "name": "Ironman Cozumel - Latin American Championship",
         "distance": "140.6",
+        "key": "IRM-COZUMEL-2025",
+        "earliestStartTime": "1763898300",
         "slots": 100,
         "results_urls": {
             "live": {
@@ -915,6 +925,8 @@
         "date": "2025-12-07",
         "name": "Ironman Western Australia - Asia-Pacific Championship",
         "distance": "140.6",
+        "key": "IRM-WESTERNAUSTRALIA-2025",
+        "earliestStartTime": "1765056600",
         "slots": 75,
         "results_urls": {
             "live": {
@@ -928,6 +940,8 @@
         "date": "2025-12-07",
         "name": "Ironman 70.3 Riviera Nayarit",
         "distance": "70.3",
+        "key": "IRM-RIVIERA-NAYARIT703-2025",
+        "earliestStartTime": "1765110000",
         "slots": {
             "men": 25,
             "women": 25
