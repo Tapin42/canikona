@@ -25,41 +25,56 @@ def load_ag_adjustments(file_path):
 AG_ADJUSTMENTS_703 = load_ag_adjustments('ag_adjustments_703.json')
 AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 
-# Function to read and sort race data
-def get_races():
+# Function to load and process all races at startup
+def load_and_process_races():
     with open(full_path('races.json'), 'r', encoding='utf-8') as f:
         races = json.load(f)
 
+    # Process URLs for all races
+    for race in races:
+        if ('results_urls' in race and 'live' in race['results_urls'] and
+            isinstance(race['results_urls']['live'], dict) and 'key' in race):
+            live = race['results_urls']['live']
+
+            # Process men's URL
+            if 'men_cat' in live:
+                men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/FINISH"
+                live['men'] = men_url
+
+            # Process women's URL
+            if 'women_cat' in live:
+                women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/FINISH"
+                live['women'] = women_url
+
+    # Sort by earliestStartTime in descending order (once at startup)
+    races.sort(key=lambda x: int(x.get('earliestStartTime', 0)), reverse=True)
+
+    return races
+
+# Load and process all races at app startup
+ALL_RACES = load_and_process_races()
+
+# Function to filter races based on cutoff timestamp
+def filter_races_by_timestamp(races, debug_mode=False):
     # Get cutoff timestamp
     cutoff = int(datetime.now().timestamp())
-    if current_app.debug:
+    if debug_mode:
         cutoff += 7 * 24 * 60 * 60  # Add 7 days in debug mode
     else:
         cutoff += 1 * 24 * 60 * 60  # Add 1 day otherwise
 
-    # Process URLs and filter races
+    # Filter races based on cutoff
     filtered_races = []
     for race in races:
         if 'earliestStartTime' in race and int(race['earliestStartTime']) <= cutoff:
-            # Process live result URLs if available
-            if ('results_urls' in race and 'live' in race['results_urls'] and
-                isinstance(race['results_urls']['live'], dict) and 'key' in race):
-                live = race['results_urls']['live']
-
-                # Process men's URL
-                if 'men_cat' in live:
-                    men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/FINISH"
-                    live['men'] = men_url
-
-                # Process women's URL
-                if 'women_cat' in live:
-                    women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/FINISH"
-                    live['women'] = women_url
-
             filtered_races.append(race)
 
-    # Sort by earliestStartTime in descending order
-    filtered_races.sort(key=lambda x: int(x['earliestStartTime']), reverse=True)
+    return filtered_races
+
+# Function to get filtered race data (already sorted at startup)
+def get_races():
+    # Filter the pre-loaded races data
+    filtered_races = filter_races_by_timestamp(ALL_RACES, current_app.debug)
 
     return filtered_races
 
@@ -81,14 +96,14 @@ def get_race_by_name(race_name):
 def home():
     races = get_races()
     default_race = races[0] if races else None
-    
+
     if default_race:
         # Redirect to the default race using the new results route
         race_name = to_url_friendly_name(default_race['name'])
         return redirect(url_for('redirect_to_results', race_name=race_name))
     else:
         # No races available, show empty page or error
-        return render_template('index.html', 
+        return render_template('index.html',
                              page_title='Long-Course Age Graded Results',
                              races=[],
                              selected_race='',
