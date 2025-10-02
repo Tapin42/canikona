@@ -26,6 +26,13 @@ def load_ag_adjustments(file_path):
 AG_ADJUSTMENTS_703 = load_ag_adjustments('ag_adjustments_703.json')
 AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 
+# Functions to convert between display names and URL-friendly names
+def to_url_friendly_name(race_name):
+    return race_name.replace(' ', '_')
+
+def from_url_friendly_name(url_name):
+    return url_name.replace('_', ' ')
+
 # Function to load and process all races at startup
 def load_and_process_races():
     with open(full_path('races.json'), 'r', encoding='utf-8') as f:
@@ -33,6 +40,9 @@ def load_and_process_races():
 
     # Process URLs for all races
     for race in races:
+        # Add URL for race page using to_url_friendly_name
+        race['url'] = f"/results/{to_url_friendly_name(race['name'])}/"
+
         if ('results_urls' in race and 'live' in race['results_urls'] and
             isinstance(race['results_urls']['live'], dict) and 'key' in race):
             live = race['results_urls']['live']
@@ -79,12 +89,7 @@ def get_races():
 
     return filtered_races
 
-# Functions to convert between display names and URL-friendly names
-def to_url_friendly_name(race_name):
-    return race_name.replace(' ', '_')
 
-def from_url_friendly_name(url_name):
-    return url_name.replace('_', ' ')
 
 # A reusable function to get race data by name
 def get_race_by_name(race_name):

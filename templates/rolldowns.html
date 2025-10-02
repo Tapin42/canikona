@@ -54,7 +54,7 @@
                     {% set has_any_data = has_men_data or has_women_data %}
                     <tr class="{% if has_any_data %}has-data{% else %}no-data{% endif %}">
                         <td>{{ race.date }}</td>
-                        <td>{{ race.name }}</td>
+                        <td><a href="{{ race.url }}">{{ race.name }}</a></td>
                         <td>
                             {% if has_men_data %}
                                 {{ rolldown.men }}
@@ -108,7 +108,7 @@
                     {% set has_data = rolldown is not none %}
                     <tr class="{% if has_data %}has-data{% else %}no-data{% endif %}">
                         <td>{{ race.date }}</td>
-                        <td>{{ race.name }}</td>
+                        <td><a href="{{ race.url }}">{{ race.name }}</a></td>
                         <td>
                             {% if has_data %}
                                 {{ rolldown }}

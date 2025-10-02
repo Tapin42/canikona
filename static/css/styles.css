@@ -574,6 +574,26 @@ form {
     color: #6c757d;
 }
 
+/* Race name links styling */
+.rolldown-table a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.rolldown-table a:hover {
+    text-decoration: underline;
+    color: #3498db;
+}
+
+.rolldown-table .has-data a {
+    font-weight: bold;
+}
+
+.rolldown-table .no-data a {
+    font-style: italic;
+    color: #6c757d;
+}
+
 .rolldown-table .no-data-text {
     color: #adb5bd;
     font-style: italic;
@@ -596,15 +616,15 @@ form {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
-    
+
     .rolldown-column {
         padding: 1rem;
     }
-    
+
     .rolldown-table {
         font-size: 0.9em;
     }
-    
+
     .rolldown-table th,
     .rolldown-table td {
         padding: 0.5rem 0.25rem;
