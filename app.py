@@ -92,6 +92,62 @@ def get_race_by_name(race_name):
     race_data = next((r for r in races if r['name'] == display_name), None)
     return race_data
 
+# Function to get rolldown information for display
+def get_rolldown_info(race, gender=None):
+    """
+    Get rolldown information for a race.
+    Returns dict with 'has_data', 'position', 'gender_text', and 'message_type'
+    """
+    known_rolldown = race.get('known_rolldown')
+
+    if not known_rolldown:
+        return {
+            'has_data': False,
+            'message_type': 'no_data',
+            'position': None,
+            'gender_text': ''
+        }
+
+    if race['distance'] == '70.3':
+        if gender and gender in known_rolldown:
+            position = known_rolldown[gender]
+            if isinstance(position, int):
+                gender_text = 'men' if gender == 'men' else 'women'
+                return {
+                    'has_data': True,
+                    'message_type': 'has_data',
+                    'position': position,
+                    'gender_text': gender_text
+                }
+        return {
+            'has_data': False,
+            'message_type': 'no_data',
+            'position': None,
+            'gender_text': gender if gender else ''
+        }
+
+    elif race['distance'] == '140.6':
+        if isinstance(known_rolldown, int):
+            return {
+                'has_data': True,
+                'message_type': 'has_data',
+                'position': known_rolldown,
+                'gender_text': ''
+            }
+        return {
+            'has_data': False,
+            'message_type': 'no_data',
+            'position': None,
+            'gender_text': ''
+        }
+
+    return {
+        'has_data': False,
+        'message_type': 'no_data',
+        'position': None,
+        'gender_text': ''
+    }
+
 @app.route('/')
 def home():
     races = get_races()

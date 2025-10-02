@@ -7,6 +7,10 @@
             "men": 35,
             "women": 35
         },
+        "known_rolldown": {
+            "men": 85,
+            "women": 120
+        },
         "results_urls": {
             "live": {
                 "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
@@ -363,6 +367,10 @@
         "slots": {
             "men": 35,
             "women": 35
+        },
+        "known_rolldown": {
+            "men": 116,
+            "women": 195
         },
         "results_urls": {
             "live": {

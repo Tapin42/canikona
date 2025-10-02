@@ -412,3 +412,59 @@ form {
     color: #8B2635;
     margin-top: 0.5em;
 }
+
+/* Form submit button - hidden by default */
+.selection-form-submit {
+    display: none;
+}
+
+/* Loading overlay styles */
+#loading-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    z-index: 1000;
+}
+
+/* Spinner positioning - override the existing spinner styles */
+#loading-overlay .spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Rolldown message styles */
+.rolldown-message {
+    display: none;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+/* Message area styles */
+#message-area {
+    display: none;
+}
+
+/* Results iframe styles - override existing if needed */
+#results-iframe {
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Rolldown content paragraph styles */
+.rolldown-content-text {
+    margin: 0;
+    font-style: italic;
+    color: #6c757d;
+}
