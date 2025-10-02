@@ -1,5 +1,6 @@
 import os
 import json
+import math
 from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app
 from datetime import date, datetime, timedelta
 import parse_live_data
@@ -168,6 +169,46 @@ def home():
 @app.route('/about')
 def about():
     return render_template('about.html')
+
+@app.route('/rolldowns')
+def rolldowns():
+    races = get_races()
+
+    # Separate races by distance
+    races_703 = [race for race in races if race['distance'] == '70.3']
+    races_1406 = [race for race in races if race['distance'] == '140.6']
+
+    # Calculate averages for 70.3 races
+    men_703_rolldowns = []
+    women_703_rolldowns = []
+
+    for race in races_703:
+        rolldown = race.get('known_rolldown', {})
+        if isinstance(rolldown, dict):
+            if rolldown.get('men') is not None:
+                men_703_rolldowns.append(rolldown['men'])
+            if rolldown.get('women') is not None:
+                women_703_rolldowns.append(rolldown['women'])
+
+    men_703_average = math.floor(sum(men_703_rolldowns) / len(men_703_rolldowns)) if men_703_rolldowns else None
+    women_703_average = math.floor(sum(women_703_rolldowns) / len(women_703_rolldowns)) if women_703_rolldowns else None
+
+    # Calculate averages for 140.6 races
+    rolldowns_1406 = []
+
+    for race in races_1406:
+        rolldown = race.get('known_rolldown')
+        if isinstance(rolldown, int):
+            rolldowns_1406.append(rolldown)
+
+    average_1406 = math.floor(sum(rolldowns_1406) / len(rolldowns_1406)) if rolldowns_1406 else None
+
+    return render_template('rolldowns.html',
+                         races_703=races_703,
+                         races_1406=races_1406,
+                         men_703_average=men_703_average,
+                         women_703_average=women_703_average,
+                         average_1406=average_1406)
 
 @app.route('/results/<race_name>')
 @app.route('/results/<race_name>/')

@@ -468,3 +468,145 @@ form {
     font-style: italic;
     color: #6c757d;
 }
+
+/* Rolldowns page specific styles */
+.rolldown-content {
+    margin-bottom: 2rem;
+}
+
+.rolldown-content p {
+    margin-bottom: 1rem;
+}
+
+.rolldown-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.rolldown-column {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.rolldown-column h2 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+.averages {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #3498db;
+}
+
+.averages h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.averages p {
+    margin: 0.25rem 0;
+    font-weight: 600;
+}
+
+.no-rolldown-info-box {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 6px;
+    border-left: 4px solid #6c757d;
+}
+
+.no-rolldown-info-box h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.no-rolldown-text {
+    margin: 0.25rem 0;
+    font-style: italic;
+    color: #6c757d;
+    font-weight: normal;
+}
+
+.rolldown-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.rolldown-table th,
+.rolldown-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.rolldown-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #495057;
+}
+
+.rolldown-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Styling for rows with and without data */
+.rolldown-table .has-data {
+    font-weight: bold;
+}
+
+.rolldown-table .no-data {
+    font-style: italic;
+    color: #6c757d;
+}
+
+.rolldown-table .no-data-text {
+    color: #adb5bd;
+    font-style: italic;
+}
+
+.no-data-message,
+.no-rolldown-info {
+    font-style: italic;
+    color: #6c757d;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+/* Responsive design for rolldown columns */
+@media (max-width: 768px) {
+    .rolldown-columns {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .rolldown-column {
+        padding: 1rem;
+    }
+    
+    .rolldown-table {
+        font-size: 0.9em;
+    }
+    
+    .rolldown-table th,
+    .rolldown-table td {
+        padding: 0.5rem 0.25rem;
+    }
+}

@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}Performance Pool Rolldowns - Can I Kona?{% endblock %}
+
+{% block content %}
+<h1>How Far Did the Performance Pool Roll Down?</h1>
+
+<div class="rolldown-content">
+    <p>
+        This page tracks how far the performance pool rolldown slots made it on the official list.
+        Data is provided by individuals who attended awards ceremonies. Once a reasonable amount
+        of data has been gathered here, it will help athletes understand how competitive different
+        races are for championship qualification slots.
+    </p>
+
+    <p><em><strong>Attend an awards ceremony?</strong> We'd love your rolldown data! Please <a href="/about">contact us</a> with information about how far the slots rolled down at any race you attend.</em></p>
+
+    <div class="rolldown-columns">
+        <div class="rolldown-column">
+            <h2>IRONMAN 70.3 Races</h2>
+
+            {% if men_703_average is not none or women_703_average is not none %}
+            <div class="averages">
+                <h3>Average Rolldown Position</h3>
+                {% if men_703_average is not none %}
+                <p><strong>Men:</strong> {{ men_703_average }}</p>
+                {% endif %}
+                {% if women_703_average is not none %}
+                <p><strong>Women:</strong> {{ women_703_average }}</p>
+                {% endif %}
+            </div>
+            {% elif races_703 %}
+            <div class="no-rolldown-info-box">
+                <h3>Average Rolldown Position</h3>
+                <p class="no-rolldown-text">No reported rolldown info yet</p>
+            </div>
+            {% endif %}
+
+            {% if races_703 %}
+            <table class="rolldown-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Race Name</th>
+                        <th>Men</th>
+                        <th>Women</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for race in races_703 %}
+                    {% set rolldown = race.get('known_rolldown', {}) %}
+                    {% set has_men_data = rolldown.get('men') is not none %}
+                    {% set has_women_data = rolldown.get('women') is not none %}
+                    {% set has_any_data = has_men_data or has_women_data %}
+                    <tr class="{% if has_any_data %}has-data{% else %}no-data{% endif %}">
+                        <td>{{ race.date }}</td>
+                        <td>{{ race.name }}</td>
+                        <td>
+                            {% if has_men_data %}
+                                {{ rolldown.men }}
+                            {% else %}
+                                <span class="no-data-text">—</span>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if has_women_data %}
+                                {{ rolldown.women }}
+                            {% else %}
+                                <span class="no-data-text">—</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <p class="no-data-message">No 70.3 races found.</p>
+            {% endif %}
+        </div>
+
+        <div class="rolldown-column">
+            <h2>IRONMAN 140.6 Races</h2>
+
+            {% if average_1406 is not none %}
+            <div class="averages">
+                <h3>Average Rolldown Position</h3>
+                <p><strong>Overall:</strong> {{ average_1406 }}</p>
+            </div>
+            {% elif races_1406 %}
+            <div class="no-rolldown-info-box">
+                <h3>Average Rolldown Position</h3>
+                <p class="no-rolldown-text">No reported rolldown info yet</p>
+            </div>
+            {% endif %}
+
+            {% if races_1406 %}
+            <table class="rolldown-table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Race Name</th>
+                        <th>Rolldown</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for race in races_1406 %}
+                    {% set rolldown = race.get('known_rolldown') %}
+                    {% set has_data = rolldown is not none %}
+                    <tr class="{% if has_data %}has-data{% else %}no-data{% endif %}">
+                        <td>{{ race.date }}</td>
+                        <td>{{ race.name }}</td>
+                        <td>
+                            {% if has_data %}
+                                {{ rolldown }}
+                            {% else %}
+                                <span class="no-data-text">—</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% else %}
+            <p class="no-data-message">No 140.6 races found.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
