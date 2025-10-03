@@ -414,7 +414,7 @@
         "results_urls": {
             "live": {
                 "men_cat": "top-age-group-men-division-ironman:_ALL",
-                "women_cat": "top-age-group-women-divison-ironman:_ALL"
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": ""
         },
