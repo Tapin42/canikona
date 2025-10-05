@@ -435,8 +435,8 @@
                 "women_cat": "top-age-group-women-division-ironman-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Waco_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Waco_70.3_Women.html"
             }
         },
         "earliestStartTime": "1759667100",
