@@ -450,7 +450,7 @@
         "results_urls": {
             "live": {
                 "men_cat": "top-age-group-men-division-ironman:_ALL",
-                "women_cat": "top-age-group-women-divison-ironman:_ALL"
+                "women_cat": "top-age-group-women-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -467,8 +467,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -476,7 +476,7 @@
             }
         },
         "earliestStartTime": "1760769600",
-        "key": "IRM-CASCAIS-2025"
+        "key": "IRM-CASCAIS703-2025"
     },
     {
         "date": "2025-10-19",
@@ -542,7 +542,7 @@
         "key": "IRM-NORTHCAROLINA703-2025"
     },
     {
-        "date": "2025-10-26",
+        "date": "2025-10-19",
         "name": "Ironman California",
         "distance": "140.6",
         "slots": 55,
