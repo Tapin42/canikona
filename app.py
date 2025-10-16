@@ -337,6 +337,22 @@ def live_results_table(race_name, gender=None):
 
     return render_template('live_results.html', results=processed_data)
 
+@app.route('/reset')
+def reset():
+    """Reset route that forces the app to reread races.json and update caches."""
+    global ALL_RACES
+
+    try:
+        # Reload and reprocess all races from disk
+        ALL_RACES = load_and_process_races()
+        print("Successfully reloaded races.json and updated caches")
+    except Exception as e:
+        print(f"Error reloading races.json: {e}")
+        # Even if there's an error, redirect to home to show current state
+
+    # Redirect to the root route
+    return redirect(url_for('home'))
+
 if __name__ == '__main__':
     debug_mode = 'PYTHONANYWHERE_SITE' not in os.environ
     app.run(debug=debug_mode)
