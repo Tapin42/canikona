@@ -89,8 +89,6 @@ def get_races():
 
     return filtered_races
 
-
-
 # A reusable function to get race data by name
 def get_race_by_name(race_name):
     races = get_races()

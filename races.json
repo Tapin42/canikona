@@ -449,8 +449,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman",
-                "women_cat": "top-age-group-women-ironman"
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -467,8 +467,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
