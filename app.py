@@ -46,15 +46,16 @@ def load_and_process_races():
         if ('results_urls' in race and 'live' in race['results_urls'] and
             isinstance(race['results_urls']['live'], dict) and 'key' in race):
             live = race['results_urls']['live']
+            split = race['split'] if 'split' in race else 'FINISH'
 
             # Process men's URL
             if 'men_cat' in live:
-                men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/FINISH"
+                men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/{split}"
                 live['men'] = men_url
 
             # Process women's URL
             if 'women_cat' in live:
-                women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/FINISH"
+                women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/{split}"
                 live['women'] = women_url
 
     # Sort by earliestStartTime in descending order (once at startup)
