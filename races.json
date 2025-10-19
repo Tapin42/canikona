@@ -498,7 +498,8 @@
             }
         },
         "earliestStartTime": "1760853600",
-        "key": "IRM-CROATIA703-2025"
+        "key": "IRM-CROATIA703-2025",
+        "split": "FINISH-I"
     },
     {
         "date": "2025-10-25",
