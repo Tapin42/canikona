@@ -1,6 +1,7 @@
 import os
 import json
 import math
+import time
 from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app
 from datetime import date, datetime, timedelta
 import parse_live_data
@@ -16,15 +17,19 @@ def load_ag_adjustments(file_path):
         with open(full_path(file_path), 'r') as f:
             return json.load(f)
     except FileNotFoundError:
-        print(f"Error: Age-graded adjustments file not found at '{file_path}'.")
+        current_app.logger.error(f"Age-graded adjustments file not found at '{file_path}'")
         raise
     except json.JSONDecodeError:
-        print(f"Error: Invalid JSON format in '{file_path}'.")
+        current_app.logger.error(f"Invalid JSON format in '{file_path}'")
         raise
 
 # Load AG adjustments at app startup
 AG_ADJUSTMENTS_703 = load_ag_adjustments('ag_adjustments_703.json')
 AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
+
+# Global variables to track file modification times and last check time
+ALL_RACES_LAST_MODIFIED = 0
+LAST_FILE_CHECK_TIME = 0
 
 # Functions to convert between display names and URL-friendly names
 def to_url_friendly_name(race_name):
@@ -35,7 +40,19 @@ def from_url_friendly_name(url_name):
 
 # Function to load and process all races at startup
 def load_and_process_races():
-    with open(full_path('races.json'), 'r', encoding='utf-8') as f:
+    global ALL_RACES_LAST_MODIFIED
+
+    races_file_path = full_path('races.json')
+
+    # Get the current modification time of races.json
+    try:
+        file_mod_time = os.path.getmtime(races_file_path)
+        ALL_RACES_LAST_MODIFIED = file_mod_time
+    except OSError:
+        # If we can't get the modification time, set it to current time
+        ALL_RACES_LAST_MODIFIED = time.time()
+
+    with open(races_file_path, 'r', encoding='utf-8') as f:
         races = json.load(f)
 
     # Process URLs for all races
@@ -83,8 +100,49 @@ def filter_races_by_timestamp(races, debug_mode=False):
 
     return filtered_races
 
+# Helper function to check if races.json needs to be reloaded
+def should_reload_races():
+    """
+    Check if races.json has been modified since we last loaded it.
+    Includes rate limiting to avoid checking the filesystem too frequently.
+    """
+    global LAST_FILE_CHECK_TIME
+
+    current_time = time.time()
+
+    # Only check the filesystem once per minute maximum
+    next_check_time = LAST_FILE_CHECK_TIME + 60
+    if current_time < next_check_time:
+        current_app.logger.debug("Skipping races.json check to avoid frequent filesystem access.  Next check time at %s (currently %s)", time.ctime(next_check_time), time.ctime(current_time))
+        return False
+
+    LAST_FILE_CHECK_TIME = current_time
+
+    try:
+        races_file_path = full_path('races.json')
+        current_file_mod_time = os.path.getmtime(races_file_path)
+        should_reload = current_file_mod_time > ALL_RACES_LAST_MODIFIED
+
+        current_app.logger.debug("Races.json modification check: last loaded at %s, current mod time %s. %s", time.ctime(ALL_RACES_LAST_MODIFIED), time.ctime(current_file_mod_time), "Reloading." if should_reload else "Using cached data.")
+        # If the file has been modified since we last loaded it, we should reload
+        return should_reload
+    except OSError:
+        # If we can't check the file, don't reload (use cached data)
+        return False
+
 # Function to get filtered race data (already sorted at startup)
 def get_races():
+    global ALL_RACES
+
+    # Check if we need to reload the races data
+    if should_reload_races():
+        try:
+            current_app.logger.info("Races.json has been modified, reloading data...")
+            ALL_RACES = load_and_process_races()
+        except Exception as e:
+            current_app.logger.error(f"Error reloading races.json: {e}")
+            # Continue with cached data if reload fails
+
     # Filter the pre-loaded races data
     filtered_races = filter_races_by_timestamp(ALL_RACES, current_app.debug)
 
@@ -344,9 +402,9 @@ def reset():
     try:
         # Reload and reprocess all races from disk
         ALL_RACES = load_and_process_races()
-        print("Successfully reloaded races.json and updated caches")
+        current_app.logger.info("Successfully reloaded races.json and updated caches")
     except Exception as e:
-        print(f"Error reloading races.json: {e}")
+        current_app.logger.error(f"Error reloading races.json: {e}")
         # Even if there's an error, redirect to home to show current state
 
     # Redirect to the root route

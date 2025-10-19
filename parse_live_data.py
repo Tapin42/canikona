@@ -61,10 +61,10 @@ def fetch_live_results(api_url):
 
         return raw_data
     except requests.exceptions.RequestException as e:
-        print(f"Error retrieving data from {api_url}: {e}")
+        current_app.logger.error(f"Error retrieving data from {api_url}: {e}")
         return {"error": f"Error retrieving data: {str(e)}"}
     except (json.JSONDecodeError, KeyError) as e:
-        print(f"Error parsing JSON data: {e}")
+        current_app.logger.error(f"Error parsing JSON data: {e}")
         return {"error": f"Error parsing JSON data: {str(e)}"}
 
 def process_live_results(raw_data_list, ag_adjustments):
@@ -100,7 +100,7 @@ def process_live_results(raw_data_list, ag_adjustments):
                 "unique_key": (item.get("name"), finish_time_str_raw)
             })
         except (KeyError, TypeError) as e:
-            print(f"Error parsing athlete data: {e} - Skipping entry.")
+            current_app.logger.warning(f"Error parsing athlete data: {e} - Skipping entry.")
             continue
 
     processed_data.sort(key=lambda x: x["graded_time_seconds"])
