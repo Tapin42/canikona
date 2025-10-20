@@ -42,16 +42,20 @@ def get_races_in_next_7_days(races_data):
 def extract_official_ag_urls(conf_data, race_distance):
     """Extract official age group URLs from the info section of conf data."""
     info_array = conf_data.get('conf', {}).get('info', [])
-    official_ag_urls = {}
 
     if race_distance == "140.6":
         # For full Ironman, look for a single "Age Graded" entry
+        found = ""
         for info_item in info_array:
             name = info_item.get('name', '')
-            if 'Age Grad' in name and '140.6' in name:
-                return info_item.get('link', '')
-        # Return empty string if not found
-        return ""
+            if 'Age Grad' in name:
+                if not found:
+                    found = info_item.get('link', '')
+                else: # Multiple found, warn and return empty
+                    print("  WARNING: Multiple official AG URLs found for 140.6 race! This requires manual intervention.")
+                    return ""
+
+        return found
 
     elif race_distance == "70.3":
         # For 70.3, look for separate Men and Women entries
@@ -60,13 +64,20 @@ def extract_official_ag_urls(conf_data, race_distance):
 
         for info_item in info_array:
             name = info_item.get('name', '')
-            if 'Age Grad' in name and '70.3' in name:
+            if 'Age Grad' in name:
                 # Check if this is for men or women
                 if any(keyword in name for keyword in ['Men', 'Male']):
-                    men_url = info_item.get('link', '')
+                    if not men_url:
+                        men_url = info_item.get('link', '')
+                    else: # Multiple found, warn and return empty
+                        print("  WARNING: Multiple official AG URLs found for Men in 70.3 race! This requires manual intervention.")
+                        return {"men": "", "women": ""}
                 elif any(keyword in name for keyword in ['Women', 'Female']):
-                    women_url = info_item.get('link', '')
-
+                    if not women_url:
+                        women_url = info_item.get('link', '')
+                    else: # Multiple found, warn and return empty
+                        print("  WARNING: Multiple official AG URLs found for Women in 70.3 race! This requires manual intervention.")
+                        return {"men": "", "women": ""}
         return {"men": men_url, "women": women_url}
 
     # For other distances, return empty
