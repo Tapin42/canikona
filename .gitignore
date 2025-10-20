@@ -3,6 +3,7 @@ __pycache__/
 .vscode/
 .venv/
 scratch/
+backup/
 *.pyc
 *.pyo
 *.pyd
