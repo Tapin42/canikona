@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Verify .json files are valid before pushing.
+# Simpler approach: validate all tracked JSON files in the repo.
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+cd "$REPO_ROOT"
+
+JSON_FILES=()
+while IFS= read -r -d '' f; do
+  JSON_FILES+=("$f")
+done < <(git ls-files -z '*.json')
+
+if [[ ${#JSON_FILES[@]} -eq 0 ]]; then
+  exit 0
+fi
+
+echo "Running JSON Unicode validation on tracked JSON files before push..."
+python3 scripts/validate_json_unicode.py "${JSON_FILES[@]}"
+
+exit 0

@@ -35,6 +35,33 @@ You can use the app right now at: [https://www.canikona.app/](https://www.caniko
 - Anyone can file issues for bug reports or enhancement requests.
 - I am very open to taking pull requests from anyone who wants to contribute—just fork the repo, make your changes, and submit a PR!
 
+## 🧩 Git hooks: JSON Unicode validation
+
+This repo includes Git hooks that prevent committing or pushing JSON files that contain invalid Unicode or malformed JSON.
+
+What it does:
+- Validates staged `.json` files on commit
+- Validates all tracked `.json` files on push (lightweight sanity check)
+- Checks that files are valid UTF-8, parse as JSON, and contain no unpaired surrogate code points
+
+Enable the hooks for your clone (one-time):
+
+```bash
+git config core.hooksPath .githooks
+```
+
+Manual run (optional):
+
+```bash
+python3 scripts/validate_json_unicode.py $(git ls-files '*.json')
+```
+
+Bypass temporarily (not recommended):
+
+```bash
+git commit --no-verify -m "your message"
+```
+
 ## 📫 Contact
 
 For questions or further conversation, feel free to reach out:
