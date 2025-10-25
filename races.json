@@ -511,8 +511,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-tri_sprint",
-                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -570,8 +570,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -591,14 +591,15 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
+                "men_cat": "top-age-group-men-division-ironman703:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "split": "FINISH-I"
     },
     {
         "date": "2025-10-26",
@@ -612,8 +613,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "ag-men-ironman-703-ironman703",
-                "women_cat": "ag-women-ironman-703-ironman703"
+                "men_cat": "ag-men-ironman-703-ironman703:_ALL",
+                "women_cat": "ag-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -643,8 +644,8 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman:_ALL",
-                "women_cat": "top-age-group-women-divison-ironman:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": ""
         },
@@ -661,8 +662,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -670,7 +671,8 @@
             }
         },
         "earliestStartTime": "1761951600",
-        "key": "IRM-LANGKAWI703-2025"
+        "key": "IRM-LANGKAWI703-2025",
+        "split": "FINISH-703"
     },
     {
         "date": "2025-11-02",
