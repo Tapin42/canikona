@@ -17,6 +17,19 @@
                 Rolldown List" above.
             </p>
         </div>
+        <div id="highlight-controls" style="display: {{ 'none' if error else 'block' }}; margin-bottom: 10px;">
+            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+                <label style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; background: #eaf7ea; border: 1px solid #cde8cd; color: #1b5e20; font-weight: 600;">
+                    <input type="checkbox" id="toggle-ag-winners" style="margin: 0;">
+                    Show Age Group Winners
+                </label>
+                <label style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; background: #fff9e6; border: 1px solid #ffe8a3; color: #8a6d3b; font-weight: 600;">
+                    <input type="checkbox" id="toggle-pool-qualifiers" style="margin: 0;">
+                    Show Performance Pool Qualifiers
+                </label>
+                <span style="font-size: 0.95em; color: #6c757d; font-style: italic;">Highlighted results show how slots will be allocated if there is no rolldown; anyone who declines a spot will extend the depth of the Performance Pool slot allocation.</span>
+            </div>
+        </div>
         <div id="message-area" class="status-message" style="display: {{ 'block' if error else 'none' }}">
             <p class="message-text">{{ error.text if error else '' }}</p>
             {% if error and error.timestamp %}
@@ -48,9 +61,11 @@
     </div>
 
     <script>
-        let currentSortColumn = 'graded_place';
-        let currentSortOrder = 'asc';
-        let liveResultsData = {{ results | tojson | safe }};
+    let currentSortColumn = 'graded_place';
+    let currentSortOrder = 'asc';
+    let liveResultsData = {{ results | tojson | safe }};
+    let showWinners = false;
+    let showPool = false;
 
         function renderLiveResultsTable(data) {
             const container = document.getElementById('results-table-container');
@@ -115,7 +130,13 @@
             });
 
             sortedData.forEach(athlete => {
-                tableHTML += `<tr>
+                let rowClass = '';
+                if (showWinners && athlete.ag_winner) {
+                    rowClass = 'row-ag-winner';
+                } else if (showPool && athlete.pool_qualifier) {
+                    rowClass = 'row-pool-qualifier';
+                }
+                tableHTML += `<tr class="${rowClass}">
                     <td>${athlete.graded_place}</td>
                     <td>${athlete.bib}</td>
                     <td>${athlete.name}</td>
@@ -145,6 +166,20 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             renderLiveResultsTable(liveResultsData);
+            const agToggle = document.getElementById('toggle-ag-winners');
+            const poolToggle = document.getElementById('toggle-pool-qualifiers');
+            if (agToggle) {
+                agToggle.addEventListener('change', (e) => {
+                    showWinners = !!e.target.checked;
+                    renderLiveResultsTable(liveResultsData);
+                });
+            }
+            if (poolToggle) {
+                poolToggle.addEventListener('change', (e) => {
+                    showPool = !!e.target.checked;
+                    renderLiveResultsTable(liveResultsData);
+                });
+            }
         });
     </script>
 </body>

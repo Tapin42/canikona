@@ -392,6 +392,59 @@ def live_results_table(race_name, gender=None):
         else:
             return render_template('live_results.html', results=[], error=processed_data["error"])
 
+    # Compute and annotate automatic slot allocation highlights (no rolldown assumption)
+    def annotate_slot_allocation(results_list, race_obj, selected_gender):
+        try:
+            # Determine total slots for this context
+            total_slots = 0
+            if race_obj.get('distance') == '70.3':
+                # Slots are gendered for 70.3
+                slots_info = race_obj.get('slots', {})
+                if isinstance(slots_info, dict) and selected_gender in slots_info:
+                    total_slots = int(slots_info.get(selected_gender, 0))
+            elif race_obj.get('distance') == '140.6':
+                # Single pool of slots across all age groups and genders
+                try:
+                    total_slots = int(race_obj.get('slots', 0))
+                except (TypeError, ValueError):
+                    total_slots = 0
+
+            # Initialize flags
+            for a in results_list:
+                a['ag_winner'] = False
+                a['pool_qualifier'] = False
+
+            if total_slots <= 0 or not results_list:
+                return results_list
+
+            # Identify age group winners (AG place == 1)
+            winners_by_ag = set()
+            for a in results_list:
+                if a.get('ag_place') == 1:
+                    a['ag_winner'] = True
+                    winners_by_ag.add(a.get('age_group'))
+
+            # Remaining slots after giving one to each AG winner
+            remaining = max(0, total_slots - len(winners_by_ag))
+
+            if remaining == 0:
+                return results_list
+
+            # Allocate remaining slots from top of graded list excluding AG winners
+            for a in results_list:
+                if remaining <= 0:
+                    break
+                if not a.get('ag_winner'):
+                    a['pool_qualifier'] = True
+                    remaining -= 1
+
+            return results_list
+        except Exception as e:
+            current_app.logger.warning(f"Error annotating slot allocation: {e}")
+            return results_list
+
+    processed_data = annotate_slot_allocation(processed_data, race, gender)
+
     return render_template('live_results.html', results=processed_data)
 
 @app.route('/reset')

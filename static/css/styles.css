@@ -610,6 +610,15 @@ form {
     margin-top: 1rem;
 }
 
+/* Highlighting for automatic slot allocation (no rolldown) */
+.row-ag-winner {
+    background-color: #eaf7ea; /* light green */
+}
+
+.row-pool-qualifier {
+    background-color: #fff9e6; /* light yellow */
+}
+
 /* Responsive design for rolldown columns */
 @media (max-width: 768px) {
     .rolldown-columns {
