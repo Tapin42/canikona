@@ -106,11 +106,20 @@ def process_live_results(raw_data_list, ag_adjustments):
     processed_data.sort(key=lambda x: x["graded_time_seconds"])
 
     if processed_data:
-        # Initialize first athlete's position
+        # Initialize first athlete's overall graded position
         processed_data[0]["graded_place"] = 1
+
+        # Trackers for age-group places as we iterate the graded list
+        ag_place_counters = {}
+
+        # Assign AG place for the first athlete
+        first_ag = processed_data[0].get("age_group", "N/A")
+        ag_place_counters[first_ag] = 1
+        processed_data[0]["ag_place"] = 1
 
         # Handle all other athletes
         for i in range(1, len(processed_data)):
+            # Overall graded place with tie handling
             if processed_data[i]["graded_time_seconds"] == processed_data[i-1]["graded_time_seconds"]:
                 # Same time as previous athlete, assign same position
                 processed_data[i]["graded_place"] = processed_data[i-1]["graded_place"]
@@ -118,6 +127,11 @@ def process_live_results(raw_data_list, ag_adjustments):
                 # Different time, position should be i+1 to account for previous ties
                 # For example: if we had positions [1,1,1], the next unique time should be position 4
                 processed_data[i]["graded_place"] = i + 1
+
+            # Age-group place tracking: increment per age group in the graded order
+            ag = processed_data[i].get("age_group", "N/A")
+            ag_place_counters[ag] = ag_place_counters.get(ag, 0) + 1
+            processed_data[i]["ag_place"] = ag_place_counters[ag]
 
     return processed_data
 

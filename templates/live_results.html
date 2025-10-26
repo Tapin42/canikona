@@ -68,8 +68,9 @@
                 { key: 'graded_place', label: 'Graded Place' },
                 { key: 'bib', label: 'Bib' },
                 { key: 'name', label: 'Name' },
-                { key: 'age_group', label: 'Age Group' },
                 { key: 'gender_place', label: 'Gender Place' },
+                { key: 'age_group', label: 'Age Group' },
+                { key: 'ag_place', label: 'AG Place' },
                 { key: 'finish_time', label: 'Finish Time' },
                 { key: 'graded_time', label: 'Graded Time' }
             ];
@@ -92,7 +93,7 @@
 
                 let comparison = 0;
                 if (typeof aVal === 'string' && typeof bVal === 'string') {
-                    if (['graded_place', 'gender_place'].includes(key)) {
+                    if (['graded_place', 'gender_place', 'ag_place'].includes(key)) {
                         comparison = parseInt(aVal) - parseInt(bVal);
                     } else {
                         comparison = aVal.localeCompare(bVal);
@@ -118,8 +119,9 @@
                     <td>${athlete.graded_place}</td>
                     <td>${athlete.bib}</td>
                     <td>${athlete.name}</td>
-                    <td>${athlete.age_group}</td>
                     <td>${athlete.gender_place}</td>
+                    <td>${athlete.age_group}</td>
+                    <td>${athlete.ag_place ?? ''}</td>
                     <td>${athlete.finish_time}</td>
                     <td>${athlete.graded_time}</td>
                 </tr>`;
