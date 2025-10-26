@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="live-results-container">
-        <div class="disclaimer" style="background-color: #f8f9fa; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #dee2e6;">
-            <p style="margin: 0; font-style: italic; color: #6c757d;">
+        <div class="disclaimer">
+            <p>
                 <strong>Please Note</strong>:
                 These live results are for tracking athlete progress during the race and are completely unofficial.
                 Consider this a real-time comparison tool. Official results are made available in the info tab of the official
@@ -17,26 +17,26 @@
                 Rolldown List" above.
             </p>
         </div>
-        <div id="highlight-controls" style="display: {{ 'none' if error else 'block' }}; margin-bottom: 10px;">
-            <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
-                <label style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; background: #eaf7ea; border: 1px solid #cde8cd; color: #1b5e20; font-weight: 600;">
-                    <input type="checkbox" id="toggle-ag-winners" style="margin: 0;">
+        <div id="highlight-controls" class="highlight-controls {{ 'hidden' if error else '' }}">
+            <div class="highlight-row">
+                <label class="toggle-label toggle-ag">
+                    <input type="checkbox" id="toggle-ag-winners">
                     Show Age Group Winners
                 </label>
-                <label style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 6px; background: #fff9e6; border: 1px solid #ffe8a3; color: #8a6d3b; font-weight: 600;">
-                    <input type="checkbox" id="toggle-pool-qualifiers" style="margin: 0;">
+                <label class="toggle-label toggle-pool">
+                    <input type="checkbox" id="toggle-pool-qualifiers">
                     Show Performance Pool Qualifiers
                 </label>
-                <span style="font-size: 0.95em; color: #6c757d; font-style: italic;">Highlighted results show how slots will be allocated if there is no rolldown; anyone who declines a spot will extend the depth of the Performance Pool slot allocation.</span>
+                <span class="highlight-disclaimer">Highlighted results show how slots would be allocated if there is no rolldown and no additional finishers; anyone who declines a spot will extend the depth of the Performance Pool slot allocation.</span>
             </div>
         </div>
-        <div id="message-area" class="status-message" style="display: {{ 'block' if error else 'none' }}">
+        <div id="message-area" class="status-message {{ 'show' if error else '' }}">
             <p class="message-text">{{ error.text if error else '' }}</p>
             {% if error and error.timestamp %}
                 <p class="message-datetime" data-timestamp="{{ error.timestamp }}"></p>
             {% endif %}
         </div>
-        <div id="results-table-container" style="display: {{ 'none' if error else 'block' }}"></div>
+        <div id="results-table-container" class="{{ 'hidden' if error else '' }}"></div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {
