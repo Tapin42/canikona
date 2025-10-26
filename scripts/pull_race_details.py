@@ -25,15 +25,41 @@ CONF_PARAMS = {
     "token": "BB10EFF44090934C0EDC"
 }
 
+def is_valid_date_string(date_str: str) -> bool:
+    """Return True if date_str is a non-empty YYYY-MM-DD date string."""
+    if not isinstance(date_str, str) or not date_str:
+        return False
+    try:
+        datetime.strptime(date_str, '%Y-%m-%d')
+        return True
+    except Exception:
+        return False
+
+
 def get_races_in_next_7_days(races_data):
-    """Filter races to only include those happening from yesterday through the next 7 days."""
+    """Filter races to only include those happening from yesterday through the next 7 days.
+
+    Gracefully skips races with missing or invalid dates.
+    """
     today = datetime.now().date()
     start_date = today - timedelta(days=1)  # Yesterday
     end_date = today + timedelta(days=7)
 
     upcoming_races = []
     for race in races_data:
-        race_date = datetime.strptime(race['date'], '%Y-%m-%d').date()
+        race_date_str = race.get('date')
+        if not is_valid_date_string(race_date_str):
+            # Skip races with missing/invalid dates
+            name = race.get('name', '<unknown>')
+            print(f"WARNING: Skipping race with missing/invalid date: {name} (date={race_date_str})")
+            continue
+        try:
+            race_date = datetime.strptime(race_date_str, '%Y-%m-%d').date()
+        except Exception:
+            # Extra safety; should have been caught above
+            name = race.get('name', '<unknown>')
+            print(f"WARNING: Skipping race due to unparsable date: {name} (date={race_date_str})")
+            continue
         if start_date <= race_date <= end_date:
             upcoming_races.append(race)
 
@@ -95,6 +121,15 @@ def get_race_conf_data(race_id, race_distance):
         categories = conf_data.get('conf', {}).get('categories', [])
         # Extract event date from conf
         conf_date = conf_data.get('conf', {}).get('date')
+        # Extract earliest start time from conf (epoch seconds)
+        conf_earliest_start = conf_data.get('conf', {}).get('earliestStartTime')
+        # Normalize earliest start time to string if present
+        if conf_earliest_start is not None:
+            try:
+                conf_earliest_start = str(int(conf_earliest_start))
+            except Exception:
+                # If it's not coercible to int, treat as absent
+                conf_earliest_start = None
 
         # Find the relevant category names - check for duplicates
         men_cats = []
@@ -154,7 +189,8 @@ def get_race_conf_data(race_id, race_distance):
             },
             "split": split_name,
             "official_ag": official_ag_urls,
-            "conf_date": conf_date
+            "conf_date": conf_date,
+            "earliestStartTime": conf_earliest_start
         }
     except Exception as e:
         print(f"Error retrieving conf data for {race_id}: {str(e)}")
@@ -166,7 +202,8 @@ def get_race_conf_data(race_id, race_distance):
             },
             "split": None,
             "official_ag": "",
-            "conf_date": None
+            "conf_date": None,
+            "earliestStartTime": None
         }
 
 def is_race_outdated(race):
@@ -248,7 +285,7 @@ def main():
 
     print(f"Found {len(upcoming_races)} race(s) from yesterday through the next 7 days:")
     for race in upcoming_races:
-        print(f"  - {race['name']} ({race['date']})")
+        print(f"  - {race.get('name')} ({race.get('date')})")
 
     changes_made = False
 
@@ -289,14 +326,20 @@ def main():
                 print(f"  WARNING: API error occurred. Skipping this race.")
                 continue
 
-        new_categories = conf_data['categories']
-        new_split = conf_data['split']
-        new_official_ag = conf_data['official_ag']
+        # Use safe accessors for robustness if keys are missing
+        new_categories = conf_data.get('categories', {"men_cat": "", "women_cat": ""})
+        new_split = conf_data.get('split', None)
+        new_official_ag = conf_data.get('official_ag', {})
+        new_earliest = conf_data.get('earliestStartTime')
 
         # Confirm the date aligns between /conf and races.json; if not, update races.json
         new_date = conf_data.get('conf_date')
         date_changed = False
-        if current_date != new_date:
+        if new_date and not is_valid_date_string(new_date):
+            # Treat invalid/empty dates from the API as absent; don't store empty/null dates
+            print(f"  ⚠️  WARNING: /conf returned invalid/empty date '{new_date}', ignoring date update.")
+            new_date = None
+        if new_date and current_date != new_date:
             print(f"  ⚠️  WARNING: Date mismatch: /conf has {new_date}, races.json has {current_date}")
             date_changed = True
 
@@ -339,8 +382,18 @@ def main():
                 if new_women_ag != current_women_ag and new_women_ag:
                     print(f"    Women: '{current_women_ag}' -> '{new_women_ag}'")
 
+        # Check if earliestStartTime needs updating (only if API returned a value)
+        earliest_changed = False
+        if new_earliest:
+            current_earliest = race.get('earliestStartTime')
+            # Normalize current to string for fair comparison
+            current_earliest_str = str(current_earliest) if current_earliest is not None else None
+            if new_earliest != current_earliest_str:
+                earliest_changed = True
+                print(f"  earliestStartTime changed: '{current_earliest_str}' -> '{new_earliest}'")
+
         # Update the race data if changes detected
-        if categories_changed or split_changed or official_ag_changed or date_changed:
+        if categories_changed or split_changed or official_ag_changed or date_changed or earliest_changed:
             changes_made = True
 
             # Ensure results_urls structure exists
@@ -364,8 +417,16 @@ def main():
             if official_ag_changed and new_official_ag:
                 race['results_urls']['official_ag'] = new_official_ag
 
-            # Update date if changed
-            race['date'] = new_date
+            # Update date if changed and valid; never store an empty or invalid date
+            if new_date and is_valid_date_string(new_date):
+                race['date'] = new_date
+            else:
+                # If we don't have a valid new date, don't overwrite whatever is there
+                pass
+
+            # Update earliestStartTime only if we received a value and it's different
+            if earliest_changed and new_earliest:
+                race['earliestStartTime'] = new_earliest
 
         # Small delay to be nice to the API
         time.sleep(0.5)

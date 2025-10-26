@@ -563,7 +563,7 @@
         "name": "Ironman 70.3 Greece",
         "distance": "70.3",
         "key": "IRM-GREECE703-2025",
-        "earliestStartTime": "1761457200",
+        "earliestStartTime": "1761458400",
         "slots": {
             "men": 30,
             "women": 30
@@ -574,8 +574,8 @@
                 "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Greece_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Greece_70.3_Women.html"
             }
         }
     },
@@ -595,8 +595,8 @@
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Florianopolis_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Florianopolis_70.3_Women.html"
             }
         },
         "split": "FINISH-I"
@@ -617,8 +617,8 @@
                 "women_cat": "ag-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONAMN%2070.3%20Agadir_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONAMN%2070.3%20Agadir_70.3_Women.html"
             }
         }
     },
@@ -675,7 +675,7 @@
         "split": "FINISH-703"
     },
     {
-        "date": null,
+        "date": "2025-11-02",
         "name": "Ironman 70.3 Buenos Aires",
         "distance": "70.3",
         "slots": {
@@ -684,14 +684,16 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "",
-                "women_cat": ""
+                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
                 "women": ""
             }
-        }
+        },
+        "key": "IRM-BUENOSAIRES703-2025",
+        "earliestStartTime": "1762074000"
     },
     {
         "date": "2025-11-02",
