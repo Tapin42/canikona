@@ -515,8 +515,8 @@
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Salalah_70.3%20Results_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Salalah_70.3%20Results_Women.html"
             }
         },
         "earliestStartTime": "1761359400",
@@ -536,8 +536,8 @@
                 "women_cat": "top-age-group-women-division-ironman-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20North%20Carolina_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20North%20Carolina_70.3_Women.html"
             }
         },
         "earliestStartTime": "1761390600",
@@ -675,7 +675,7 @@
         "split": "FINISH-703"
     },
     {
-        "date": "2025-11-02",
+        "date": null,
         "name": "Ironman 70.3 Buenos Aires",
         "distance": "70.3",
         "slots": {
@@ -684,8 +684,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "",
+                "women_cat": ""
             },
             "official_ag": {
                 "men": "",
@@ -703,8 +703,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
             },
             "official_ag": {
                 "men": "",
@@ -724,8 +724,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "age-group-men-division-ironman-tri_sprint",
+                "women_cat": "age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": {
                 "men": "",
@@ -733,7 +733,8 @@
             }
         },
         "earliestStartTime": "1762059600",
-        "key": "IRM-TURKEY703-2025"
+        "key": "IRM-TURKEY703-2025",
+        "split": "RUNFINISH"
     },
     {
         "date": "2025-11-09",
