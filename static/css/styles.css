@@ -610,6 +610,81 @@ form {
     margin-top: 1rem;
 }
 
+/* Highlighting for automatic slot allocation (no rolldown) */
+.row-ag-winner {
+    background-color: #eaf7ea; /* light green */
+}
+
+.row-pool-qualifier {
+    background-color: #fff9e6; /* light yellow */
+}
+
+/* ====== Live results template extracted styles ====== */
+.disclaimer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.disclaimer p {
+    margin: 0;
+    font-style: italic;
+    color: #6c757d;
+}
+
+.highlight-controls {
+    margin-bottom: 10px;
+}
+
+.highlight-row {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.toggle-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.toggle-label input {
+    margin: 0;
+}
+
+.toggle-ag {
+    background: #eaf7ea;
+    border: 1px solid #cde8cd;
+    color: #1b5e20;
+}
+
+.toggle-pool {
+    background: #fff9e6;
+    border: 1px solid #ffe8a3;
+    color: #8a6d3b;
+}
+
+.highlight-disclaimer {
+    font-size: 0.95em;
+    color: #6c757d;
+    font-style: italic;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* Ensure message area visibility can be toggled despite default hidden state */
+#message-area.show {
+    display: block !important;
+}
+
 /* Responsive design for rolldown columns */
 @media (max-width: 768px) {
     .rolldown-columns {

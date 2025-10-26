@@ -74,6 +74,9 @@ def process_live_results(raw_data_list, ag_adjustments):
     if not isinstance(raw_data_list, list):
         return {"error": "Invalid data format provided for processing."}
 
+    # Accept only standard age-group divisions like M18-24 or F45-49 (with or without hyphen)
+    ag_pattern = re.compile(r'^([MF])(\d{2})-?(\d{2})$', re.IGNORECASE)
+
     processed_data = []
     for item in raw_data_list:
         try:
@@ -84,7 +87,16 @@ def process_live_results(raw_data_list, ag_adjustments):
             if finish_time_seconds is None:
                 continue
 
-            age_group = item.get("division", "N/A")
+            # Filter to valid AG divisions only and normalize to e.g., M18-24/F45-49
+            raw_division = item.get("division", "") or ""
+            division_compact = re.sub(r"\s+", "", raw_division)
+            m = ag_pattern.match(division_compact)
+            if not m:
+                # Skip non-eligible (e.g., Pro, Relay, etc.)
+                continue
+            sex, a, b = m.group(1).upper(), m.group(2), m.group(3)
+            age_group = f"{sex}{a}-{b}"
+
             ag_adjustment = ag_adjustments.get(age_group, 1.0)
             graded_seconds = finish_time_seconds * ag_adjustment
 

@@ -8,8 +8,8 @@
 </head>
 <body>
     <div id="live-results-container">
-        <div class="disclaimer" style="background-color: #f8f9fa; padding: 10px; margin-bottom: 15px; border-radius: 5px; border: 1px solid #dee2e6;">
-            <p style="margin: 0; font-style: italic; color: #6c757d;">
+        <div class="disclaimer">
+            <p>
                 <strong>Please Note</strong>:
                 These live results are for tracking athlete progress during the race and are completely unofficial.
                 Consider this a real-time comparison tool. Official results are made available in the info tab of the official
@@ -17,13 +17,26 @@
                 Rolldown List" above.
             </p>
         </div>
-        <div id="message-area" class="status-message" style="display: {{ 'block' if error else 'none' }}">
+        <div id="highlight-controls" class="highlight-controls {{ 'hidden' if error else '' }}">
+            <div class="highlight-row">
+                <label class="toggle-label toggle-ag">
+                    <input type="checkbox" id="toggle-ag-winners">
+                    Show Age Group Winners
+                </label>
+                <label class="toggle-label toggle-pool">
+                    <input type="checkbox" id="toggle-pool-qualifiers">
+                    Show Performance Pool Qualifiers
+                </label>
+                <span class="highlight-disclaimer">Highlighted results show how slots would be allocated if there is no rolldown and no additional finishers; anyone who declines a spot will extend the depth of the Performance Pool slot allocation.</span>
+            </div>
+        </div>
+        <div id="message-area" class="status-message {{ 'show' if error else '' }}">
             <p class="message-text">{{ error.text if error else '' }}</p>
             {% if error and error.timestamp %}
                 <p class="message-datetime" data-timestamp="{{ error.timestamp }}"></p>
             {% endif %}
         </div>
-        <div id="results-table-container" style="display: {{ 'none' if error else 'block' }}"></div>
+        <div id="results-table-container" class="{{ 'hidden' if error else '' }}"></div>
 
         <script>
             document.addEventListener('DOMContentLoaded', function() {
@@ -48,9 +61,11 @@
     </div>
 
     <script>
-        let currentSortColumn = 'graded_place';
-        let currentSortOrder = 'asc';
-        let liveResultsData = {{ results | tojson | safe }};
+    let currentSortColumn = 'graded_place';
+    let currentSortOrder = 'asc';
+    let liveResultsData = {{ results | tojson | safe }};
+    let showWinners = false;
+    let showPool = false;
 
         function renderLiveResultsTable(data) {
             const container = document.getElementById('results-table-container');
@@ -115,7 +130,13 @@
             });
 
             sortedData.forEach(athlete => {
-                tableHTML += `<tr>
+                let rowClass = '';
+                if (showWinners && athlete.ag_winner) {
+                    rowClass = 'row-ag-winner';
+                } else if (showPool && athlete.pool_qualifier) {
+                    rowClass = 'row-pool-qualifier';
+                }
+                tableHTML += `<tr class="${rowClass}">
                     <td>${athlete.graded_place}</td>
                     <td>${athlete.bib}</td>
                     <td>${athlete.name}</td>
@@ -145,6 +166,20 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             renderLiveResultsTable(liveResultsData);
+            const agToggle = document.getElementById('toggle-ag-winners');
+            const poolToggle = document.getElementById('toggle-pool-qualifiers');
+            if (agToggle) {
+                agToggle.addEventListener('change', (e) => {
+                    showWinners = !!e.target.checked;
+                    renderLiveResultsTable(liveResultsData);
+                });
+            }
+            if (poolToggle) {
+                poolToggle.addEventListener('change', (e) => {
+                    showPool = !!e.target.checked;
+                    renderLiveResultsTable(liveResultsData);
+                });
+            }
         });
     </script>
 </body>
