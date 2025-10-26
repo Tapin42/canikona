@@ -276,6 +276,22 @@ def main():
     with open(races_file, 'r', encoding='utf-8') as f:
         races_data = json.load(f)
 
+    # Loudly warn if any race is missing a valid date or a key
+    missing_count = 0
+    for race in races_data:
+        name = race.get('name', '<unknown>')
+        has_valid_date = is_valid_date_string(race.get('date'))
+        has_key = bool(race.get('key'))
+        if not has_valid_date or not has_key:
+            missing_count += 1
+            parts = []
+            if not has_valid_date:
+                parts.append('date')
+            if not has_key:
+                parts.append('key')
+            fields = ' and '.join(parts)
+            print(f"\n⚠️  WARNING: Race missing {fields.upper()}: {name} (date={race.get('date')}, key={race.get('key')})\n")
+
     # Filter races from yesterday through next 7 days
     upcoming_races = get_races_in_next_7_days(races_data)
 
