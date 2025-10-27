@@ -10,7 +10,9 @@ import requests
 import time
 import os
 import shutil
-from datetime import datetime, timedelta
+import sys
+import argparse
+from datetime import datetime, timedelta, date
 
 # Get the directory containing this script
 script_dir = os.path.dirname(os.path.abspath(__file__))
@@ -36,15 +38,11 @@ def is_valid_date_string(date_str: str) -> bool:
         return False
 
 
-def get_races_in_next_7_days(races_data):
-    """Filter races to only include those happening from yesterday through the next 7 days.
+def get_races_in_date_range(races_data, start_date: date, end_date: date):
+    """Filter races to only include those happening between start_date and end_date (inclusive).
 
     Gracefully skips races with missing or invalid dates.
     """
-    today = datetime.now().date()
-    start_date = today - timedelta(days=1)  # Yesterday
-    end_date = today + timedelta(days=7)
-
     upcoming_races = []
     for race in races_data:
         race_date_str = race.get('date')
@@ -66,48 +64,107 @@ def get_races_in_next_7_days(races_data):
     return upcoming_races
 
 def extract_official_ag_urls(conf_data, race_distance):
-    """Extract official age group URLs from the info section of conf data."""
+    """Extract official age group URLs from the info section of conf data.
+
+    Typical case: info item names don't include explicit distance; we match on 'Age Grad' and gender.
+    Disambiguation case (multi-course): if multiple matches exist, prefer items whose name or link
+    includes an indicator for the requested distance (70.3/703 for half; not-70.3 for full).
+    """
     info_array = conf_data.get('conf', {}).get('info', [])
 
-    if race_distance == "140.6":
-        # For full Ironman, look for a single "Age Graded" entry
-        found = ""
-        for info_item in info_array:
-            name = info_item.get('name', '')
-            if 'Age Grad' in name:
-                if not found:
-                    found = info_item.get('link', '')
-                else: # Multiple found, warn and return empty
-                    print("  WARNING: Multiple official AG URLs found for 140.6 race! This requires manual intervention.")
-                    return ""
+    # Pre-collect items with Age Grad marker
+    items = []
+    for info_item in info_array:
+        name = (info_item.get('name') or "")
+        link = (info_item.get('link') or "")
+        if 'Age Grad' in name:
+            items.append({"name": name, "link": link})
 
-        return found
+    if race_distance == "140.6":
+        if not items:
+            return ""
+        if len(items) == 1:
+            return items[0]["link"]
+
+        # Disambiguate: prefer entries without 70.3 markers in name or link
+        filtered = [it for it in items if ('70.3' not in it['name'] and '70.3' not in it['link'] and '703' not in it['link'])]
+        if len(filtered) == 1:
+            return filtered[0]['link']
+        # Secondary preference: links that contain 'IRONMAN' (common full-distance suffix)
+        prefer_ironman = [it for it in filtered if 'IRONMAN' in it['link']]
+        if len(prefer_ironman) == 1:
+            return prefer_ironman[0]['link']
+
+        print("  WARNING: Multiple official AG URLs found for 140.6 race! This requires manual intervention.")
+        return ""
 
     elif race_distance == "70.3":
-        # For 70.3, look for separate Men and Women entries
-        men_url = ""
-        women_url = ""
+        # Separate men and women
+        men_all = [it for it in items if any(k in it['name'] for k in ['Men', 'Male'])]
+        women_all = [it for it in items if any(k in it['name'] for k in ['Women', 'Female'])]
 
-        for info_item in info_array:
-            name = info_item.get('name', '')
-            if 'Age Grad' in name:
-                # Check if this is for men or women
-                if any(keyword in name for keyword in ['Men', 'Male']):
-                    if not men_url:
-                        men_url = info_item.get('link', '')
-                    else: # Multiple found, warn and return empty
-                        print("  WARNING: Multiple official AG URLs found for Men in 70.3 race! This requires manual intervention.")
-                        return {"men": "", "women": ""}
-                elif any(keyword in name for keyword in ['Women', 'Female']):
-                    if not women_url:
-                        women_url = info_item.get('link', '')
-                    else: # Multiple found, warn and return empty
-                        print("  WARNING: Multiple official AG URLs found for Women in 70.3 race! This requires manual intervention.")
-                        return {"men": "", "women": ""}
+        def choose_for_half(cands, label):
+            if not cands:
+                return ""
+            if len(cands) == 1:
+                return cands[0]['link']
+            # Prefer entries that indicate 70.3 in name or link
+            filtered = [it for it in cands if ('70.3' in it['name'] or '70.3' in it['link'] or '703' in it['link'])]
+            if len(filtered) == 1:
+                return filtered[0]['link']
+            print(f"  WARNING: Multiple official AG URLs found for {label} in 70.3 race! This requires manual intervention.")
+            return ""
+
+        men_url = choose_for_half(men_all, 'Men')
+        women_url = choose_for_half(women_all, 'Women')
         return {"men": men_url, "women": women_url}
 
     # For other distances, return empty
     return ""
+
+
+def choose_course_for_distance(conf_data: dict, race_distance: str) -> str | None:
+    """Pick the correct course identifier from conf['skus']['reg'] for the given distance.
+
+    Heuristics:
+    - For 70.3, prefer entries whose 'race' or 'name' contains '70.3', else course id containing '703'.
+    - For 140.6, prefer entries with 'race' containing 'IRONMAN' but not '70.3', else course id 'ironman' or not containing '703'.
+    - Fallback: first available course or a sensible default ('ironman703'/'ironman').
+    """
+    reg = conf_data.get('conf', {}).get('skus', {}).get('reg', []) or []
+
+    # Normalize course candidates
+    candidates = []
+    for entry in reg:
+        candidates.append({
+            "course": entry.get("course"),
+            "race": entry.get("race") or entry.get("name") or entry.get("_id") or ""
+        })
+
+    if race_distance == "70.3":
+        for c in candidates:
+            if "70.3" in (c["race"] or "") and c.get("course"):
+                return c["course"]
+        for c in candidates:
+            if c.get("course") and "703" in c["course"]:
+                return c["course"]
+        return "ironman703" if candidates else None
+
+    if race_distance == "140.6":
+        for c in candidates:
+            name = c["race"] or ""
+            if "IRONMAN" in name and "70.3" not in name and c.get("course"):
+                return c["course"]
+        for c in candidates:
+            if c.get("course") == "ironman":
+                return c["course"]
+        for c in candidates:
+            if c.get("course") and "703" not in c["course"]:
+                return c["course"]
+        return "ironman" if candidates else None
+
+    # Unknown distance: return first available course if any
+    return candidates[0].get("course") if candidates else None
 
 def get_race_conf_data(race_id, race_distance):
     """Retrieve configuration data (categories, points, and official AG URLs) for a race from the /conf endpoint."""
@@ -117,8 +174,13 @@ def get_race_conf_data(race_id, race_distance):
         response.raise_for_status()
         conf_data = response.json()
 
-        # Extract categories from the conf data
+        # Determine target course for this race distance
+        target_course = choose_course_for_distance(conf_data, race_distance)
+
+        # Extract categories from the conf data (filter to correct course if available)
         categories = conf_data.get('conf', {}).get('categories', [])
+        if target_course:
+            categories = [c for c in categories if c.get('course') == target_course]
         # Extract event date from conf
         conf_date = conf_data.get('conf', {}).get('date')
         # Extract earliest start time from conf (epoch seconds)
@@ -157,8 +219,10 @@ def get_race_conf_data(race_id, race_distance):
         live_men_cat = men_cats[0] if men_cats else ""
         live_women_cat = women_cats[0] if women_cats else ""
 
-        # Extract finish points from the vconf.pointorder data - check for duplicates
+        # Extract finish points from the vconf.pointorder data, filtered by course - check for duplicates
         point_order = conf_data.get('vconf', {}).get('pointorder', [])
+        if target_course:
+            point_order = [p for p in point_order if p.get('course') == target_course]
         finish_points = []
 
         for point in point_order:
@@ -267,11 +331,83 @@ def create_backup(races_file, backup_dir):
     print(f"Created backup: {backup_path}")
     return backup_path
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Pull race details and update races.json from RTRT /conf")
+    parser.add_argument("--dry-run", action="store_true", help="Do not write any changes or create backups")
+    parser.add_argument("--race", dest="race_key", help="Race key to update only that race")
+    parser.add_argument("--from", dest="from_date", metavar="YYYY-MM-DD|yesterday", default=None,
+                        help="Start date for selecting races (default: yesterday)")
+    parser.add_argument("--to", dest="to_date", metavar="YYYY-MM-DD", default=None,
+                        help="End date for selecting races (default: 7 days from today)")
+    parser.add_argument(
+        "--distance",
+        dest="distance",
+        metavar="{70.3|703|half|140.6|1406|full}",
+        default=None,
+        help=(
+            "Optional distance filter. Accepts '70.3', '703', 'half' for 70.3 races, "
+            "and '140.6', '1406', 'full' for 140.6 races."
+        ),
+    )
+    return parser.parse_args()
+
+
+def compute_date_range(from_date_str: str | None, to_date_str: str | None) -> tuple[date, date]:
+    """Return (start_date, end_date) from optional CLI strings. Raises ValueError on bad input."""
+    today = datetime.now().date()
+
+    # Start date
+    if from_date_str is None or from_date_str == "yesterday":
+        start_date = today - timedelta(days=1)
+    else:
+        if not is_valid_date_string(from_date_str):
+            raise ValueError(f"--from must be 'yesterday' or YYYY-MM-DD, got '{from_date_str}'")
+        start_date = datetime.strptime(from_date_str, "%Y-%m-%d").date()
+
+    # End date
+    if to_date_str is None:
+        end_date = today + timedelta(days=7)
+    else:
+        if not is_valid_date_string(to_date_str):
+            raise ValueError(f"--to must be YYYY-MM-DD, got '{to_date_str}'")
+        end_date = datetime.strptime(to_date_str, "%Y-%m-%d").date()
+
+    if start_date > end_date:
+        raise ValueError(f"--from date {start_date} cannot be after --to date {end_date}")
+
+    return start_date, end_date
+
+
+def normalize_distance_filter(dist: str | None) -> str | None:
+    """Normalize a user-supplied distance string to '70.3' or '140.6'.
+
+    Returns None if dist is None. Raises ValueError if provided but unrecognized.
+    """
+    if dist is None:
+        return None
+    v = str(dist).strip().lower()
+    if v in {"70.3", "703", "half"}:
+        return "70.3"
+    if v in {"140.6", "1406", "full"}:
+        return "140.6"
+    raise ValueError(
+        f"Unrecognized --distance value '{dist}'. Use one of: 70.3, 703, half, 140.6, 1406, full."
+    )
+
+
 def main():
+    args = parse_args()
+    # Normalize optional distance filter early
+    try:
+        distance_filter = normalize_distance_filter(args.distance)
+    except ValueError as e:
+        print(f"Error: {e}")
+        sys.exit(2)
+
     # Read the races.json file
     if not os.path.exists(races_file):
         print(f"Error: {races_file} not found")
-        return
+        sys.exit(1)
 
     with open(races_file, 'r', encoding='utf-8') as f:
         races_data = json.load(f)
@@ -292,16 +428,62 @@ def main():
             fields = ' and '.join(parts)
             print(f"\n⚠️  WARNING: Race missing {fields.upper()}: {name} (date={race.get('date')}, key={race.get('key')})\n")
 
-    # Filter races from yesterday through next 7 days
-    upcoming_races = get_races_in_next_7_days(races_data)
+    # Determine which races to process
+    if args.race_key:
+        # Error if date range options also provided
+        if args.from_date is not None or args.to_date is not None:
+            print("Error: --race cannot be used together with --from or --to")
+            sys.exit(2)
 
-    if not upcoming_races:
-        print("No races found from yesterday through the next 7 days")
-        return
+        # Gather all races matching the key; optionally filter by distance
+        key_matches = [r for r in races_data if r.get('key') == args.race_key]
+        if not key_matches:
+            print(f"Error: Race with key '{args.race_key}' not found in races.json")
+            sys.exit(2)
 
-    print(f"Found {len(upcoming_races)} race(s) from yesterday through the next 7 days:")
-    for race in upcoming_races:
-        print(f"  - {race.get('name')} ({race.get('date')})")
+        if distance_filter is not None:
+            key_matches = [r for r in key_matches if r.get('distance') == distance_filter]
+            if not key_matches:
+                # Provide helpful hint about available distances for this key
+                available = sorted({r.get('distance') for r in races_data if r.get('key') == args.race_key})
+                print(
+                    f"Error: No race with key '{args.race_key}' and distance '{distance_filter}'. "
+                    f"Available distances for this key: {', '.join(available) if available else 'unknown'}"
+                )
+                sys.exit(2)
+
+        # If multiple remain and no distance filter, inform and proceed with first
+        if len(key_matches) > 1 and distance_filter is None:
+            distances = ", ".join(sorted({r.get('distance') for r in key_matches}))
+            print(
+                f"Note: Multiple races share key '{args.race_key}' (distances: {distances}). "
+                f"Use --distance to disambiguate. Proceeding with the first match."
+            )
+
+        selected = key_matches[0]
+        upcoming_races = [selected]
+        print(f"Found {len(upcoming_races)} race(s) by key:")
+        print(f"  - {selected.get('name')} ({selected.get('date')})")
+    else:
+        try:
+            start_date, end_date = compute_date_range(args.from_date, args.to_date)
+        except ValueError as e:
+            print(f"Error: {e}")
+            sys.exit(2)
+
+        upcoming_races = get_races_in_date_range(races_data, start_date, end_date)
+
+        # Apply optional distance filter
+        if distance_filter is not None:
+            upcoming_races = [r for r in upcoming_races if r.get('distance') == distance_filter]
+
+        if not upcoming_races:
+            print(f"No races found between {start_date} and {end_date}")
+            return
+
+        print(f"Found {len(upcoming_races)} race(s) between {start_date} and {end_date}:")
+        for race in upcoming_races:
+            print(f"  - {race.get('name')} ({race.get('date')})")
 
     changes_made = False
 
@@ -449,14 +631,17 @@ def main():
 
     # Create backup and save changes if any were made
     if changes_made:
-        print(f"\nChanges detected, creating backup...")
-        create_backup(races_file, backup_dir)
+        if args.dry_run:
+            print("\nDry run: changes detected, but not writing to races.json or creating a backup.")
+        else:
+            print(f"\nChanges detected, creating backup...")
+            create_backup(races_file, backup_dir)
 
-        print(f"Updating {races_file}...")
-        with open(races_file, 'w', encoding='utf-8') as f:
-            json.dump(races_data, f, indent=4, ensure_ascii=False)
+            print(f"Updating {races_file}...")
+            with open(races_file, 'w', encoding='utf-8') as f:
+                json.dump(races_data, f, indent=4, ensure_ascii=False)
 
-        print("Update complete!")
+            print("Update complete!")
     else:
         print("\nNo changes detected, no backup or update needed.")
 

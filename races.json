@@ -286,7 +286,8 @@
             }
         },
         "earliestStartTime": "1758445200",
-        "key": "IRM-SAOPAULO703-2025"
+        "key": "IRM-SAOPAULO703-2025",
+        "split": "FINISH-I"
     },
     {
         "date": "2025-09-21",
@@ -307,7 +308,8 @@
             }
         },
         "earliestStartTime": "1758448800",
-        "key": "IRM-ITALY703-2025"
+        "key": "IRM-ITALY703-2025",
+        "split": "703FINISH"
     },
     {
         "date": "2025-09-21",
@@ -454,7 +456,7 @@
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Portugal%20-%20Cascais_IRONMAN.html"
         },
-        "earliestStartTime": "1760769600",
+        "earliestStartTime": "1760769420",
         "key": "IRM-CASCAIS-2025"
     },
     {
@@ -475,7 +477,7 @@
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Portugal-Cascais_70.3_Women.html"
             }
         },
-        "earliestStartTime": "1760769600",
+        "earliestStartTime": "1760769420",
         "key": "IRM-CASCAIS-2025",
         "split": "703FINISH"
     },
