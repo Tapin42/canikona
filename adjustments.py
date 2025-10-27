@@ -63,6 +63,12 @@ def _versions_for_distance(distance: str) -> list:
     return versions
 
 
+def _version_by_id(version_id: str) -> Optional[dict]:
+    """Return manifest entry for given version id (any distance)."""
+    manifest = _load_manifest()
+    return next((v for v in manifest.get('versions', []) if v.get('id') == version_id), None)
+
+
 def _select_version(distance: str, race_date: str) -> Optional[dict]:
     """
     Pick the latest version with effective_from <= race_date.
@@ -107,19 +113,42 @@ def get_adjustments_for_race(race: dict) -> Tuple[dict, str]:
     distance = race.get('distance')
     race_date = race.get('date') or '1970-01-01'
 
-    # Check existing assignment
+    # Check existing assignment (supports legacy single-version and new per-distance forms)
     assignments = _load_assignments()
     existing = assignments.get(race_key)
-    if isinstance(existing, dict) and 'adjustments_version' in existing:
-        version_id = existing['adjustments_version']
-        # find version entry
-        version_entry = next((v for v in _versions_for_distance(distance) if v.get('id') == version_id), None)
-        if version_entry is None:
-            current_app.logger.warning(
-                f"Assigned adjustments_version '{version_id}' for race {race_key} not found in manifest; falling back by date")
-        else:
-            factors = _load_factors(version_entry['file'])
-            return factors, version_id
+
+    # If we find legacy single-field, migrate to per_distance using the version's own distance
+    if isinstance(existing, dict) and 'adjustments_version' in existing and 'per_distance' not in existing:
+        legacy_id = existing['adjustments_version']
+        entry = _version_by_id(legacy_id)
+        per_distance = {}
+        if entry and entry.get('distance'):
+            per_distance[entry['distance']] = legacy_id
+        # Migrate structure in-memory (persist later when we save)
+        existing = {'per_distance': per_distance}
+        assignments[race_key] = existing
+
+    # Use per_distance mapping if present
+    if isinstance(existing, dict) and isinstance(existing.get('per_distance'), dict):
+        version_id = existing['per_distance'].get(distance)
+        if version_id:
+            version_entry = _version_by_id(version_id)
+            if version_entry is None:
+                try:
+                    current_app.logger.warning(
+                        f"Assigned adjustments_version '{version_id}' for race {race_key} not found in manifest; falling back by date")
+                except Exception:
+                    pass
+            elif version_entry.get('distance') != distance:
+                # Mismatched distance; ignore and fall back
+                try:
+                    current_app.logger.warning(
+                        f"Assigned adjustments_version '{version_id}' for race {race_key} mismatches distance {distance}; falling back by date")
+                except Exception:
+                    pass
+            else:
+                factors = _load_factors(version_entry['file'])
+                return factors, version_id
 
     # No assignment yet or invalid -> select by date rule
     version_entry = _select_version(distance, race_date)
@@ -129,10 +158,23 @@ def get_adjustments_for_race(race: dict) -> Tuple[dict, str]:
     version_id = version_entry['id']
     factors = _load_factors(version_entry['file'])
 
-    # Persist assignment
-    assignments[race_key] = {
-        'adjustments_version': version_id
-    }
+    # Persist assignment (per-distance aware)
+    entry = assignments.get(race_key)
+    if not isinstance(entry, dict):
+        entry = {}
+    per_distance = entry.get('per_distance')
+    if not isinstance(per_distance, dict):
+        per_distance = {}
+    per_distance[distance] = version_id
+    entry['per_distance'] = per_distance
+    # Remove legacy field if present (we migrated above)
+    if 'adjustments_version' in entry:
+        # Keep only if it matches one of the per_distance values; otherwise drop to avoid confusion
+        if entry['adjustments_version'] != version_id:
+            entry.pop('adjustments_version', None)
+        else:
+            entry.pop('adjustments_version', None)
+    assignments[race_key] = entry
     try:
         _save_assignments(assignments)
         current_app.logger.info(f"Assigned adjustments_version '{version_id}' to race {race_key}")

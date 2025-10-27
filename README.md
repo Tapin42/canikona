@@ -69,8 +69,11 @@ AG factors are now versioned with effective dates so historic races always use t
    - `adjustments/manifest.json` – list of versions with:
       - `id`, `distance` ("70.3" or "140.6"), `effective_from` (YYYY-MM-DD), and `file` path
    - Per-version factor files (e.g., `adjustments/70.3/baseline.json`)
-- Per-race locking is stored in `data/ag_assignments.json` as:
-   - `{ "<race_key>": { "adjustments_version": "<version-id>" } }`
+- Per-race locking is stored in `data/ag_assignments.json`.
+   - New schema (supports keys that have both 70.3 and 140.6 at the same time):
+      - `{ "<race_key>": { "per_distance": { "70.3": "<version-id>", "140.6": "<version-id>" } } }`
+   - Legacy entries are still honored and auto-migrated when encountered:
+      - `{ "<race_key>": { "adjustments_version": "<version-id>" } }`
 - At runtime, the app will:
    1) Look up a race in `ag_assignments.json`.
    2) If missing, select the latest version with `effective_from <= race.date`.
@@ -81,7 +84,7 @@ CLI helper:
 ```bash
 scripts/manage_ag_versions.py list-versions
 scripts/manage_ag_versions.py dry-run
-scripts/manage_ag_versions.py write-assignments  # pre-lock all races
+scripts/manage_ag_versions.py write-assignments  # pre-lock all races (per-distance)
 ```
 
 Notes:

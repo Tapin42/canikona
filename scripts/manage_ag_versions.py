@@ -65,7 +65,11 @@ def cmd_list_assignments(args):
         print('(no assignments)')
         return
     for k, v in a.items():
-        print(f"{k}: {v.get('adjustments_version')}")
+        if isinstance(v, dict) and isinstance(v.get('per_distance'), dict):
+            mapping = ", ".join(f"{d}={vid}" for d, vid in sorted(v['per_distance'].items()))
+            print(f"{k}: {mapping}")
+        else:
+            print(f"{k}: {v.get('adjustments_version')}")
 
 
 def cmd_dry_run(args):
@@ -91,12 +95,26 @@ def cmd_write(args):
     updates = 0
     for r in races:
         key = r.get('key') or f"{r.get('name')}-{r.get('date')}"
-        if key in a and 'adjustments_version' in a[key] and not args.overwrite:
-            continue
         ver = select_version(m, r.get('distance'), r.get('date'))
         if ver is None:
             continue
-        a[key] = { 'adjustments_version': ver['id'] }
+        # Initialize entry and per_distance mapping
+        entry = a.get(key)
+        if not isinstance(entry, dict):
+            entry = {}
+        per_distance = entry.get('per_distance')
+        if not isinstance(per_distance, dict):
+            per_distance = {}
+        # If not overwriting and value exists for this distance, skip
+        if not args.overwrite and r.get('distance') in per_distance:
+            a[key] = entry
+            continue
+        per_distance[r.get('distance')] = ver['id']
+        entry['per_distance'] = per_distance
+        # Remove legacy field if present
+        if 'adjustments_version' in entry:
+            entry.pop('adjustments_version', None)
+        a[key] = entry
         updates += 1
     save_json(ASSIGNMENTS_PATH, a)
     print(f"Wrote assignments for {updates} races -> {ASSIGNMENTS_PATH}")
