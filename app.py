@@ -8,6 +8,7 @@ import parse_live_data
 import adjustments
 
 app = Flask(__name__)
+app.config['CACHE_FRESHNESS_SECONDS'] = int(os.getenv('CACHE_FRESHNESS_SECONDS', '60'))
 
 def full_path(relative_path):
     return os.path.join(os.path.dirname(__file__), relative_path)
@@ -387,7 +388,8 @@ def live_results_table(race_name, gender=None):
     if not should_fetch_results:
         return render_template('live_results.html', results=[], error=message)
 
-    processed_data = parse_live_data.get_processed_results(race, gender, ag_adjustments)
+    # Use caching-aware retrieval to reduce load on RTRT servers
+    processed_data = parse_live_data.get_processed_results_cached(race, gender, ag_adjustments)
 
     if "error" in processed_data:
         # Handle error cases

@@ -1,0 +1,4978 @@
+[
+  {
+    "bib": "327",
+    "name": "Mario de Elias",
+    "age_group": "M40-44",
+    "finish_time": "04:06:10",
+    "finish_time_seconds": 14770,
+    "gender_place": "2",
+    "graded_time_seconds": 13679.974,
+    "graded_time": "03:47:59",
+    "unique_key": [
+      "Mario de Elias",
+      "04:06:10"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "240",
+    "name": "Alfredo Ramirez Pinho",
+    "age_group": "M35-39",
+    "finish_time": "04:04:39",
+    "finish_time_seconds": 14679,
+    "gender_place": "1",
+    "graded_time_seconds": 13945.05,
+    "graded_time": "03:52:25",
+    "unique_key": [
+      "Alfredo Ramirez Pinho",
+      "04:04:39"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "133",
+    "name": "Marcelo Lana",
+    "age_group": "M45-49",
+    "finish_time": "04:23:47",
+    "finish_time_seconds": 15827,
+    "gender_place": "8",
+    "graded_time_seconds": 14209.4806,
+    "graded_time": "03:56:49",
+    "unique_key": [
+      "Marcelo Lana",
+      "04:23:47"
+    ],
+    "graded_place": 3,
+    "ag_place": 1
+  },
+  {
+    "bib": "180",
+    "name": "Andres Arce",
+    "age_group": "M35-39",
+    "finish_time": "04:10:34",
+    "finish_time_seconds": 15034,
+    "gender_place": "3",
+    "graded_time_seconds": 14282.3,
+    "graded_time": "03:58:02",
+    "unique_key": [
+      "Andres Arce",
+      "04:10:34"
+    ],
+    "graded_place": 4,
+    "ag_place": 2
+  },
+  {
+    "bib": "132",
+    "name": "Gabriel Carvalho",
+    "age_group": "M35-39",
+    "finish_time": "04:10:37",
+    "finish_time_seconds": 15037,
+    "gender_place": "4",
+    "graded_time_seconds": 14285.15,
+    "graded_time": "03:58:05",
+    "unique_key": [
+      "Gabriel Carvalho",
+      "04:10:37"
+    ],
+    "graded_place": 5,
+    "ag_place": 3
+  },
+  {
+    "bib": "405",
+    "name": "Federico Alvarez",
+    "age_group": "M35-39",
+    "finish_time": "04:14:13",
+    "finish_time_seconds": 15253,
+    "gender_place": "5",
+    "graded_time_seconds": 14490.349999999999,
+    "graded_time": "04:01:30",
+    "unique_key": [
+      "Federico Alvarez",
+      "04:14:13"
+    ],
+    "graded_place": 6,
+    "ag_place": 4
+  },
+  {
+    "bib": "181",
+    "name": "Javier Peiretti",
+    "age_group": "M45-49",
+    "finish_time": "04:33:39",
+    "finish_time_seconds": 16419,
+    "gender_place": "13",
+    "graded_time_seconds": 14740.978200000001,
+    "graded_time": "04:05:40",
+    "unique_key": [
+      "Javier Peiretti",
+      "04:33:39"
+    ],
+    "graded_place": 7,
+    "ag_place": 2
+  },
+  {
+    "bib": "168",
+    "name": "Diego Gelos",
+    "age_group": "M45-49",
+    "finish_time": "04:35:22",
+    "finish_time_seconds": 16522,
+    "gender_place": "17",
+    "graded_time_seconds": 14833.4516,
+    "graded_time": "04:07:13",
+    "unique_key": [
+      "Diego Gelos",
+      "04:35:22"
+    ],
+    "graded_place": 8,
+    "ag_place": 3
+  },
+  {
+    "bib": "144",
+    "name": "Marcus Vinicius Macedo Dos Santos",
+    "age_group": "M40-44",
+    "finish_time": "04:29:13",
+    "finish_time_seconds": 16153,
+    "gender_place": "10",
+    "graded_time_seconds": 14960.9086,
+    "graded_time": "04:09:20",
+    "unique_key": [
+      "Marcus Vinicius Macedo Dos Santos",
+      "04:29:13"
+    ],
+    "graded_place": 9,
+    "ag_place": 2
+  },
+  {
+    "bib": "117",
+    "name": "Gabriel Molina",
+    "age_group": "M35-39",
+    "finish_time": "04:24:07",
+    "finish_time_seconds": 15847,
+    "gender_place": "9",
+    "graded_time_seconds": 15054.65,
+    "graded_time": "04:10:54",
+    "unique_key": [
+      "Gabriel Molina",
+      "04:24:07"
+    ],
+    "graded_place": 10,
+    "ag_place": 5
+  },
+  {
+    "bib": "136",
+    "name": "Mariano Villagra",
+    "age_group": "M45-49",
+    "finish_time": "04:40:24",
+    "finish_time_seconds": 16824,
+    "gender_place": "25",
+    "graded_time_seconds": 15104.5872,
+    "graded_time": "04:11:44",
+    "unique_key": [
+      "Mariano Villagra",
+      "04:40:24"
+    ],
+    "graded_place": 11,
+    "ag_place": 4
+  },
+  {
+    "bib": "331",
+    "name": "Facundo Olguin",
+    "age_group": "M25-29",
+    "finish_time": "04:15:44",
+    "finish_time_seconds": 15344,
+    "gender_place": "6",
+    "graded_time_seconds": 15235.0576,
+    "graded_time": "04:13:55",
+    "unique_key": [
+      "Facundo Olguin",
+      "04:15:44"
+    ],
+    "graded_place": 12,
+    "ag_place": 1
+  },
+  {
+    "bib": "118",
+    "name": "Alejandro Anaine",
+    "age_group": "M40-44",
+    "finish_time": "04:34:16",
+    "finish_time_seconds": 16456,
+    "gender_place": "15",
+    "graded_time_seconds": 15241.5472,
+    "graded_time": "04:14:01",
+    "unique_key": [
+      "Alejandro Anaine",
+      "04:34:16"
+    ],
+    "graded_place": 13,
+    "ag_place": 3
+  },
+  {
+    "bib": "167",
+    "name": "Felipe Telles",
+    "age_group": "M40-44",
+    "finish_time": "04:34:47",
+    "finish_time_seconds": 16487,
+    "gender_place": "16",
+    "graded_time_seconds": 15270.2594,
+    "graded_time": "04:14:30",
+    "unique_key": [
+      "Felipe Telles",
+      "04:34:47"
+    ],
+    "graded_place": 14,
+    "ag_place": 4
+  },
+  {
+    "bib": "204",
+    "name": "Yhondayner Gomez Colmenares",
+    "age_group": "M25-29",
+    "finish_time": "04:16:22",
+    "finish_time_seconds": 15382,
+    "gender_place": "7",
+    "graded_time_seconds": 15272.7878,
+    "graded_time": "04:14:32",
+    "unique_key": [
+      "Yhondayner Gomez Colmenares",
+      "04:16:22"
+    ],
+    "graded_place": 15,
+    "ag_place": 2
+  },
+  {
+    "bib": "344",
+    "name": "Gonzalo Martin Straface",
+    "age_group": "M45-49",
+    "finish_time": "04:43:51",
+    "finish_time_seconds": 17031,
+    "gender_place": "29",
+    "graded_time_seconds": 15290.4318,
+    "graded_time": "04:14:50",
+    "unique_key": [
+      "Gonzalo Martin Straface",
+      "04:43:51"
+    ],
+    "graded_place": 16,
+    "ag_place": 5
+  },
+  {
+    "bib": "243",
+    "name": "Pablo Ureta",
+    "age_group": "M45-49",
+    "finish_time": "04:45:04",
+    "finish_time_seconds": 17104,
+    "gender_place": "33",
+    "graded_time_seconds": 15355.9712,
+    "graded_time": "04:15:55",
+    "unique_key": [
+      "Pablo Ureta",
+      "04:45:04"
+    ],
+    "graded_place": 17,
+    "ag_place": 6
+  },
+  {
+    "bib": "291",
+    "name": "Gustavo Gaspar",
+    "age_group": "M40-44",
+    "finish_time": "04:37:45",
+    "finish_time_seconds": 16665,
+    "gender_place": "19",
+    "graded_time_seconds": 15435.123,
+    "graded_time": "04:17:15",
+    "unique_key": [
+      "Gustavo Gaspar",
+      "04:37:45"
+    ],
+    "graded_place": 18,
+    "ag_place": 5
+  },
+  {
+    "bib": "330",
+    "name": "Gustavo Fuscaldo",
+    "age_group": "M60-64",
+    "finish_time": "05:14:46",
+    "finish_time_seconds": 18886,
+    "gender_place": "92",
+    "graded_time_seconds": 15471.4112,
+    "graded_time": "04:17:51",
+    "unique_key": [
+      "Gustavo Fuscaldo",
+      "05:14:46"
+    ],
+    "graded_place": 19,
+    "ag_place": 1
+  },
+  {
+    "bib": "250",
+    "name": "Rodrigo Canete",
+    "age_group": "M40-44",
+    "finish_time": "04:39:19",
+    "finish_time_seconds": 16759,
+    "gender_place": "23",
+    "graded_time_seconds": 15522.185800000001,
+    "graded_time": "04:18:42",
+    "unique_key": [
+      "Rodrigo Canete",
+      "04:39:19"
+    ],
+    "graded_place": 20,
+    "ag_place": 6
+  },
+  {
+    "bib": "298",
+    "name": "Pedro Dantas Maia Pedromaia",
+    "age_group": "M40-44",
+    "finish_time": "04:40:25",
+    "finish_time_seconds": 16825,
+    "gender_place": "26",
+    "graded_time_seconds": 15583.315,
+    "graded_time": "04:19:43",
+    "unique_key": [
+      "Pedro Dantas Maia Pedromaia",
+      "04:40:25"
+    ],
+    "graded_place": 21,
+    "ag_place": 7
+  },
+  {
+    "bib": "157",
+    "name": "Vinicius Pazette",
+    "age_group": "M35-39",
+    "finish_time": "04:34:02",
+    "finish_time_seconds": 16442,
+    "gender_place": "14",
+    "graded_time_seconds": 15619.9,
+    "graded_time": "04:20:19",
+    "unique_key": [
+      "Vinicius Pazette",
+      "04:34:02"
+    ],
+    "graded_place": 22,
+    "ag_place": 6
+  },
+  {
+    "bib": "182",
+    "name": "Pablo Lattanzio",
+    "age_group": "M45-49",
+    "finish_time": "04:50:21",
+    "finish_time_seconds": 17421,
+    "gender_place": "40",
+    "graded_time_seconds": 15640.5738,
+    "graded_time": "04:20:40",
+    "unique_key": [
+      "Pablo Lattanzio",
+      "04:50:21"
+    ],
+    "graded_place": 23,
+    "ag_place": 7
+  },
+  {
+    "bib": "263",
+    "name": "Otavio Zardo",
+    "age_group": "M30-34",
+    "finish_time": "04:30:12",
+    "finish_time_seconds": 16212,
+    "gender_place": "11",
+    "graded_time_seconds": 15652.686,
+    "graded_time": "04:20:52",
+    "unique_key": [
+      "Otavio Zardo",
+      "04:30:12"
+    ],
+    "graded_place": 24,
+    "ag_place": 1
+  },
+  {
+    "bib": "271",
+    "name": "Ariel Dallegre",
+    "age_group": "M40-44",
+    "finish_time": "04:42:17",
+    "finish_time_seconds": 16937,
+    "gender_place": "27",
+    "graded_time_seconds": 15687.0494,
+    "graded_time": "04:21:27",
+    "unique_key": [
+      "Ariel Dallegre",
+      "04:42:17"
+    ],
+    "graded_place": 25,
+    "ag_place": 8
+  },
+  {
+    "bib": "138",
+    "name": "Rafael Fontana Cigerza",
+    "age_group": "M30-34",
+    "finish_time": "04:31:09",
+    "finish_time_seconds": 16269,
+    "gender_place": "12",
+    "graded_time_seconds": 15707.719500000001,
+    "graded_time": "04:21:47",
+    "unique_key": [
+      "Rafael Fontana Cigerza",
+      "04:31:09"
+    ],
+    "graded_place": 26,
+    "ag_place": 2
+  },
+  {
+    "bib": "139",
+    "name": "Ledesma Andres",
+    "age_group": "M40-44",
+    "finish_time": "04:43:12",
+    "finish_time_seconds": 16992,
+    "gender_place": "28",
+    "graded_time_seconds": 15737.9904,
+    "graded_time": "04:22:17",
+    "unique_key": [
+      "Ledesma Andres",
+      "04:43:12"
+    ],
+    "graded_place": 27,
+    "ag_place": 9
+  },
+  {
+    "bib": "303",
+    "name": "Mariano Patricio Bucci",
+    "age_group": "M40-44",
+    "finish_time": "04:44:57",
+    "finish_time_seconds": 17097,
+    "gender_place": "32",
+    "graded_time_seconds": 15835.2414,
+    "graded_time": "04:23:55",
+    "unique_key": [
+      "Mariano Patricio Bucci",
+      "04:44:57"
+    ],
+    "graded_place": 28,
+    "ag_place": 10
+  },
+  {
+    "bib": "161",
+    "name": "Jorge Ferreiro",
+    "age_group": "M55-59",
+    "finish_time": "05:08:16",
+    "finish_time_seconds": 18496,
+    "gender_place": "79",
+    "graded_time_seconds": 15841.824,
+    "graded_time": "04:24:01",
+    "unique_key": [
+      "Jorge Ferreiro",
+      "05:08:16"
+    ],
+    "graded_place": 29,
+    "ag_place": 1
+  },
+  {
+    "bib": "217",
+    "name": "Pablo Gutierrez",
+    "age_group": "M40-44",
+    "finish_time": "04:45:18",
+    "finish_time_seconds": 17118,
+    "gender_place": "34",
+    "graded_time_seconds": 15854.6916,
+    "graded_time": "04:24:14",
+    "unique_key": [
+      "Pablo Gutierrez",
+      "04:45:18"
+    ],
+    "graded_place": 30,
+    "ag_place": 11
+  },
+  {
+    "bib": "371",
+    "name": "Philippe Gondre",
+    "age_group": "M60-64",
+    "finish_time": "05:22:41",
+    "finish_time_seconds": 19361,
+    "gender_place": "121",
+    "graded_time_seconds": 15860.531200000001,
+    "graded_time": "04:24:20",
+    "unique_key": [
+      "Philippe Gondre",
+      "05:22:41"
+    ],
+    "graded_place": 31,
+    "ag_place": 2
+  },
+  {
+    "bib": "464",
+    "name": "Gabriel Pereira",
+    "age_group": "M35-39",
+    "finish_time": "04:39:04",
+    "finish_time_seconds": 16744,
+    "gender_place": "21",
+    "graded_time_seconds": 15906.8,
+    "graded_time": "04:25:06",
+    "unique_key": [
+      "Gabriel Pereira",
+      "04:39:04"
+    ],
+    "graded_place": 32,
+    "ag_place": 7
+  },
+  {
+    "bib": "370",
+    "name": "Alexis Carfantan",
+    "age_group": "M35-39",
+    "finish_time": "04:39:07",
+    "finish_time_seconds": 16747,
+    "gender_place": "22",
+    "graded_time_seconds": 15909.65,
+    "graded_time": "04:25:09",
+    "unique_key": [
+      "Alexis Carfantan",
+      "04:39:07"
+    ],
+    "graded_place": 33,
+    "ag_place": 8
+  },
+  {
+    "bib": "170",
+    "name": "Eduardo Belotto",
+    "age_group": "M45-49",
+    "finish_time": "04:55:21",
+    "finish_time_seconds": 17721,
+    "gender_place": "48",
+    "graded_time_seconds": 15909.9138,
+    "graded_time": "04:25:09",
+    "unique_key": [
+      "Eduardo Belotto",
+      "04:55:21"
+    ],
+    "graded_place": 34,
+    "ag_place": 8
+  },
+  {
+    "bib": "162",
+    "name": "Felix Zylberglajt",
+    "age_group": "M50-54",
+    "finish_time": "05:01:19",
+    "finish_time_seconds": 18079,
+    "gender_place": "60",
+    "graded_time_seconds": 15969.180699999999,
+    "graded_time": "04:26:09",
+    "unique_key": [
+      "Felix Zylberglajt",
+      "05:01:19"
+    ],
+    "graded_place": 35,
+    "ag_place": 1
+  },
+  {
+    "bib": "151",
+    "name": "Marcos Morselli",
+    "age_group": "M45-49",
+    "finish_time": "04:56:35",
+    "finish_time_seconds": 17795,
+    "gender_place": "51",
+    "graded_time_seconds": 15976.351,
+    "graded_time": "04:26:16",
+    "unique_key": [
+      "Marcos Morselli",
+      "04:56:35"
+    ],
+    "graded_place": 36,
+    "ag_place": 9
+  },
+  {
+    "bib": "288",
+    "name": "Rafael Astudillo Arcos",
+    "age_group": "M35-39",
+    "finish_time": "04:40:19",
+    "finish_time_seconds": 16819,
+    "gender_place": "24",
+    "graded_time_seconds": 15978.05,
+    "graded_time": "04:26:18",
+    "unique_key": [
+      "Rafael Astudillo Arcos",
+      "04:40:19"
+    ],
+    "graded_place": 37,
+    "ag_place": 9
+  },
+  {
+    "bib": "145",
+    "name": "Henrique Lindholm",
+    "age_group": "M30-34",
+    "finish_time": "04:35:51",
+    "finish_time_seconds": 16551,
+    "gender_place": "18",
+    "graded_time_seconds": 15979.9905,
+    "graded_time": "04:26:19",
+    "unique_key": [
+      "Henrique Lindholm",
+      "04:35:51"
+    ],
+    "graded_place": 38,
+    "ag_place": 3
+  },
+  {
+    "bib": "165",
+    "name": "Santiago Allen",
+    "age_group": "M40-44",
+    "finish_time": "04:48:36",
+    "finish_time_seconds": 17316,
+    "gender_place": "37",
+    "graded_time_seconds": 16038.0792,
+    "graded_time": "04:27:18",
+    "unique_key": [
+      "Santiago Allen",
+      "04:48:36"
+    ],
+    "graded_place": 39,
+    "ag_place": 12
+  },
+  {
+    "bib": "112",
+    "name": "Gustavo Sanchez",
+    "age_group": "M45-49",
+    "finish_time": "04:57:44",
+    "finish_time_seconds": 17864,
+    "gender_place": "54",
+    "graded_time_seconds": 16038.299200000001,
+    "graded_time": "04:27:18",
+    "unique_key": [
+      "Gustavo Sanchez",
+      "04:57:44"
+    ],
+    "graded_place": 40,
+    "ag_place": 10
+  },
+  {
+    "bib": "355",
+    "name": "Marcelo Cintioli",
+    "age_group": "M60-64",
+    "finish_time": "05:27:46",
+    "finish_time_seconds": 19666,
+    "gender_place": "128",
+    "graded_time_seconds": 16110.387200000001,
+    "graded_time": "04:28:30",
+    "unique_key": [
+      "Marcelo Cintioli",
+      "05:27:46"
+    ],
+    "graded_place": 41,
+    "ag_place": 3
+  },
+  {
+    "bib": "516",
+    "name": "Gustavo Montero",
+    "age_group": "M30-34",
+    "finish_time": "04:38:09",
+    "finish_time_seconds": 16689,
+    "gender_place": "20",
+    "graded_time_seconds": 16113.229500000001,
+    "graded_time": "04:28:33",
+    "unique_key": [
+      "Gustavo Montero",
+      "04:38:09"
+    ],
+    "graded_place": 42,
+    "ag_place": 4
+  },
+  {
+    "bib": "142",
+    "name": "Sergio Peretti",
+    "age_group": "M60-64",
+    "finish_time": "05:28:14",
+    "finish_time_seconds": 19694,
+    "gender_place": "130",
+    "graded_time_seconds": 16133.3248,
+    "graded_time": "04:28:53",
+    "unique_key": [
+      "Sergio Peretti",
+      "05:28:14"
+    ],
+    "graded_place": 43,
+    "ag_place": 4
+  },
+  {
+    "bib": "127",
+    "name": "Lucas Pereira Thomaz",
+    "age_group": "M35-39",
+    "finish_time": "04:44:40",
+    "finish_time_seconds": 17080,
+    "gender_place": "31",
+    "graded_time_seconds": 16226.0,
+    "graded_time": "04:30:26",
+    "unique_key": [
+      "Lucas Pereira Thomaz",
+      "04:44:40"
+    ],
+    "graded_place": 44,
+    "ag_place": 10
+  },
+  {
+    "bib": "148",
+    "name": "Alvaro de la Rosa",
+    "age_group": "M40-44",
+    "finish_time": "04:52:16",
+    "finish_time_seconds": 17536,
+    "gender_place": "43",
+    "graded_time_seconds": 16241.843200000001,
+    "graded_time": "04:30:41",
+    "unique_key": [
+      "Alvaro de la Rosa",
+      "04:52:16"
+    ],
+    "graded_place": 45,
+    "ag_place": 13
+  },
+  {
+    "bib": "427",
+    "name": "Carlos Kmetiuk",
+    "age_group": "M45-49",
+    "finish_time": "05:01:34",
+    "finish_time_seconds": 18094,
+    "gender_place": "62",
+    "graded_time_seconds": 16244.7932,
+    "graded_time": "04:30:44",
+    "unique_key": [
+      "Carlos Kmetiuk",
+      "05:01:34"
+    ],
+    "graded_place": 46,
+    "ag_place": 11
+  },
+  {
+    "bib": "315",
+    "name": "Alfredo Passarell",
+    "age_group": "M50-54",
+    "finish_time": "05:06:36",
+    "finish_time_seconds": 18396,
+    "gender_place": "73",
+    "graded_time_seconds": 16249.1868,
+    "graded_time": "04:30:49",
+    "unique_key": [
+      "Alfredo Passarell",
+      "05:06:36"
+    ],
+    "graded_place": 47,
+    "ag_place": 2
+  },
+  {
+    "bib": "130",
+    "name": "Jonatan Edgardo Fischer",
+    "age_group": "M35-39",
+    "finish_time": "04:45:26",
+    "finish_time_seconds": 17126,
+    "gender_place": "35",
+    "graded_time_seconds": 16269.699999999999,
+    "graded_time": "04:31:09",
+    "unique_key": [
+      "Jonatan Edgardo Fischer",
+      "04:45:26"
+    ],
+    "graded_place": 48,
+    "ag_place": 11
+  },
+  {
+    "bib": "175",
+    "name": "Matias Honnen",
+    "age_group": "M45-49",
+    "finish_time": "05:02:41",
+    "finish_time_seconds": 18161,
+    "gender_place": "64",
+    "graded_time_seconds": 16304.945800000001,
+    "graded_time": "04:31:44",
+    "unique_key": [
+      "Matias Honnen",
+      "05:02:41"
+    ],
+    "graded_place": 49,
+    "ag_place": 12
+  },
+  {
+    "bib": "190",
+    "name": "Leandro Bonifacio",
+    "age_group": "M45-49",
+    "finish_time": "05:02:59",
+    "finish_time_seconds": 18179,
+    "gender_place": "65",
+    "graded_time_seconds": 16321.1062,
+    "graded_time": "04:32:01",
+    "unique_key": [
+      "Leandro Bonifacio",
+      "05:02:59"
+    ],
+    "graded_place": 50,
+    "ag_place": 13
+  },
+  {
+    "bib": "126",
+    "name": "Walter Lago",
+    "age_group": "M50-54",
+    "finish_time": "05:08:56",
+    "finish_time_seconds": 18536,
+    "gender_place": "83",
+    "graded_time_seconds": 16372.8488,
+    "graded_time": "04:32:52",
+    "unique_key": [
+      "Walter Lago",
+      "05:08:56"
+    ],
+    "graded_place": 51,
+    "ag_place": 3
+  },
+  {
+    "bib": "252",
+    "name": "Pablo Dos Santos Ribeiro",
+    "age_group": "M35-39",
+    "finish_time": "04:47:20",
+    "finish_time_seconds": 17240,
+    "gender_place": "36",
+    "graded_time_seconds": 16378.0,
+    "graded_time": "04:32:58",
+    "unique_key": [
+      "Pablo Dos Santos Ribeiro",
+      "04:47:20"
+    ],
+    "graded_place": 52,
+    "ag_place": 12
+  },
+  {
+    "bib": "248",
+    "name": "Sergio Eduardo Muract",
+    "age_group": "M50-54",
+    "finish_time": "05:09:28",
+    "finish_time_seconds": 18568,
+    "gender_place": "85",
+    "graded_time_seconds": 16401.1144,
+    "graded_time": "04:33:21",
+    "unique_key": [
+      "Sergio Eduardo Muract",
+      "05:09:28"
+    ],
+    "graded_place": 53,
+    "ag_place": 4
+  },
+  {
+    "bib": "259",
+    "name": "David Cortes",
+    "age_group": "M35-39",
+    "finish_time": "04:48:45",
+    "finish_time_seconds": 17325,
+    "gender_place": "38",
+    "graded_time_seconds": 16458.75,
+    "graded_time": "04:34:18",
+    "unique_key": [
+      "David Cortes",
+      "04:48:45"
+    ],
+    "graded_place": 54,
+    "ag_place": 13
+  },
+  {
+    "bib": "352",
+    "name": "Alejandro Fernandez",
+    "age_group": "M30-34",
+    "finish_time": "04:44:30",
+    "finish_time_seconds": 17070,
+    "gender_place": "30",
+    "graded_time_seconds": 16481.085,
+    "graded_time": "04:34:41",
+    "unique_key": [
+      "Alejandro Fernandez",
+      "04:44:30"
+    ],
+    "graded_place": 55,
+    "ag_place": 5
+  },
+  {
+    "bib": "140",
+    "name": "Daniel Fernando Perez",
+    "age_group": "M45-49",
+    "finish_time": "05:06:27",
+    "finish_time_seconds": 18387,
+    "gender_place": "72",
+    "graded_time_seconds": 16507.8486,
+    "graded_time": "04:35:07",
+    "unique_key": [
+      "Daniel Fernando Perez",
+      "05:06:27"
+    ],
+    "graded_place": 56,
+    "ag_place": 14
+  },
+  {
+    "bib": "156",
+    "name": "Jonatas Gondaski",
+    "age_group": "M35-39",
+    "finish_time": "04:49:42",
+    "finish_time_seconds": 17382,
+    "gender_place": "39",
+    "graded_time_seconds": 16512.899999999998,
+    "graded_time": "04:35:12",
+    "unique_key": [
+      "Jonatas Gondaski",
+      "04:49:42"
+    ],
+    "graded_place": 57,
+    "ag_place": 14
+  },
+  {
+    "bib": "335",
+    "name": "Luis Nassif",
+    "age_group": "M40-44",
+    "finish_time": "04:57:11",
+    "finish_time_seconds": 17831,
+    "gender_place": "52",
+    "graded_time_seconds": 16515.0722,
+    "graded_time": "04:35:15",
+    "unique_key": [
+      "Luis Nassif",
+      "04:57:11"
+    ],
+    "graded_place": 58,
+    "ag_place": 14
+  },
+  {
+    "bib": "324",
+    "name": "Julian Cirone",
+    "age_group": "M45-49",
+    "finish_time": "05:07:09",
+    "finish_time_seconds": 18429,
+    "gender_place": "75",
+    "graded_time_seconds": 16545.5562,
+    "graded_time": "04:35:45",
+    "unique_key": [
+      "Julian Cirone",
+      "05:07:09"
+    ],
+    "graded_place": 59,
+    "ag_place": 15
+  },
+  {
+    "bib": "155",
+    "name": "Norberto Soto",
+    "age_group": "M55-59",
+    "finish_time": "05:22:29",
+    "finish_time_seconds": 19349,
+    "gender_place": "120",
+    "graded_time_seconds": 16572.4185,
+    "graded_time": "04:36:12",
+    "unique_key": [
+      "Norberto Soto",
+      "05:22:29"
+    ],
+    "graded_place": 60,
+    "ag_place": 2
+  },
+  {
+    "bib": "347",
+    "name": "Marcelo Ruiz",
+    "age_group": "M45-49",
+    "finish_time": "05:07:53",
+    "finish_time_seconds": 18473,
+    "gender_place": "76",
+    "graded_time_seconds": 16585.059400000002,
+    "graded_time": "04:36:25",
+    "unique_key": [
+      "Marcelo Ruiz",
+      "05:07:53"
+    ],
+    "graded_place": 61,
+    "ag_place": 16
+  },
+  {
+    "bib": "131",
+    "name": "Eduardo Hassan",
+    "age_group": "M45-49",
+    "finish_time": "05:08:10",
+    "finish_time_seconds": 18490,
+    "gender_place": "78",
+    "graded_time_seconds": 16600.322,
+    "graded_time": "04:36:40",
+    "unique_key": [
+      "Eduardo Hassan",
+      "05:08:10"
+    ],
+    "graded_place": 62,
+    "ag_place": 17
+  },
+  {
+    "bib": "279",
+    "name": "Matheus Zatta",
+    "age_group": "M35-39",
+    "finish_time": "04:51:37",
+    "finish_time_seconds": 17497,
+    "gender_place": "41",
+    "graded_time_seconds": 16622.149999999998,
+    "graded_time": "04:37:02",
+    "unique_key": [
+      "Matheus Zatta",
+      "04:51:37"
+    ],
+    "graded_place": 63,
+    "ag_place": 15
+  },
+  {
+    "bib": "122",
+    "name": "Ulises Acevedo",
+    "age_group": "M45-49",
+    "finish_time": "05:08:40",
+    "finish_time_seconds": 18520,
+    "gender_place": "80",
+    "graded_time_seconds": 16627.256,
+    "graded_time": "04:37:07",
+    "unique_key": [
+      "Ulises Acevedo",
+      "05:08:40"
+    ],
+    "graded_place": 64,
+    "ag_place": 18
+  },
+  {
+    "bib": "120",
+    "name": "Diogo Candido de Melo E Sousa",
+    "age_group": "M45-49",
+    "finish_time": "05:08:43",
+    "finish_time_seconds": 18523,
+    "gender_place": "81",
+    "graded_time_seconds": 16629.9494,
+    "graded_time": "04:37:09",
+    "unique_key": [
+      "Diogo Candido de Melo E Sousa",
+      "05:08:43"
+    ],
+    "graded_place": 65,
+    "ag_place": 19
+  },
+  {
+    "bib": "339",
+    "name": "Rudi Eduardo Paetzold",
+    "age_group": "M35-39",
+    "finish_time": "04:51:51",
+    "finish_time_seconds": 17511,
+    "gender_place": "42",
+    "graded_time_seconds": 16635.45,
+    "graded_time": "04:37:15",
+    "unique_key": [
+      "Rudi Eduardo Paetzold",
+      "04:51:51"
+    ],
+    "graded_place": 66,
+    "ag_place": 16
+  },
+  {
+    "bib": "296",
+    "name": "Lucas Alves",
+    "age_group": "M35-39",
+    "finish_time": "04:52:30",
+    "finish_time_seconds": 17550,
+    "gender_place": "44",
+    "graded_time_seconds": 16672.5,
+    "graded_time": "04:37:52",
+    "unique_key": [
+      "Lucas Alves",
+      "04:52:30"
+    ],
+    "graded_place": 67,
+    "ag_place": 17
+  },
+  {
+    "bib": "273",
+    "name": "Jehovah Guimaraes Tavares",
+    "age_group": "M35-39",
+    "finish_time": "04:52:34",
+    "finish_time_seconds": 17554,
+    "gender_place": "45",
+    "graded_time_seconds": 16676.3,
+    "graded_time": "04:37:56",
+    "unique_key": [
+      "Jehovah Guimaraes Tavares",
+      "04:52:34"
+    ],
+    "graded_place": 68,
+    "ag_place": 18
+  },
+  {
+    "bib": "457",
+    "name": "Luis Adriano Hoffmann",
+    "age_group": "M45-49",
+    "finish_time": "05:09:47",
+    "finish_time_seconds": 18587,
+    "gender_place": "86",
+    "graded_time_seconds": 16687.408600000002,
+    "graded_time": "04:38:07",
+    "unique_key": [
+      "Luis Adriano Hoffmann",
+      "05:09:47"
+    ],
+    "graded_place": 69,
+    "ag_place": 20
+  },
+  {
+    "bib": "115",
+    "name": "Emilio Jose Martini",
+    "age_group": "M35-39",
+    "finish_time": "04:53:11",
+    "finish_time_seconds": 17591,
+    "gender_place": "46",
+    "graded_time_seconds": 16711.45,
+    "graded_time": "04:38:31",
+    "unique_key": [
+      "Emilio Jose Martini",
+      "04:53:11"
+    ],
+    "graded_place": 70,
+    "ag_place": 19
+  },
+  {
+    "bib": "121",
+    "name": "Martin Barberia",
+    "age_group": "M50-54",
+    "finish_time": "05:15:53",
+    "finish_time_seconds": 18953,
+    "gender_place": "94",
+    "graded_time_seconds": 16741.1849,
+    "graded_time": "04:39:01",
+    "unique_key": [
+      "Martin Barberia",
+      "05:15:53"
+    ],
+    "graded_place": 71,
+    "ag_place": 5
+  },
+  {
+    "bib": "499",
+    "name": "Lucas Schenato",
+    "age_group": "M40-44",
+    "finish_time": "05:01:16",
+    "finish_time_seconds": 18076,
+    "gender_place": "59",
+    "graded_time_seconds": 16741.9912,
+    "graded_time": "04:39:01",
+    "unique_key": [
+      "Lucas Schenato",
+      "05:01:16"
+    ],
+    "graded_place": 72,
+    "ag_place": 15
+  },
+  {
+    "bib": "343",
+    "name": "Mariano Galiano",
+    "age_group": "M50-54",
+    "finish_time": "05:16:35",
+    "finish_time_seconds": 18995,
+    "gender_place": "95",
+    "graded_time_seconds": 16778.283499999998,
+    "graded_time": "04:39:38",
+    "unique_key": [
+      "Mariano Galiano",
+      "05:16:35"
+    ],
+    "graded_place": 73,
+    "ag_place": 6
+  },
+  {
+    "bib": "147",
+    "name": "Marcelo Altuna",
+    "age_group": "M55-59",
+    "finish_time": "05:26:52",
+    "finish_time_seconds": 19612,
+    "gender_place": "126",
+    "graded_time_seconds": 16797.678,
+    "graded_time": "04:39:57",
+    "unique_key": [
+      "Marcelo Altuna",
+      "05:26:52"
+    ],
+    "graded_place": 74,
+    "ag_place": 3
+  },
+  {
+    "bib": "233",
+    "name": "Marcelo Vazquez",
+    "age_group": "M50-54",
+    "finish_time": "05:16:59",
+    "finish_time_seconds": 19019,
+    "gender_place": "97",
+    "graded_time_seconds": 16799.4827,
+    "graded_time": "04:39:59",
+    "unique_key": [
+      "Marcelo Vazquez",
+      "05:16:59"
+    ],
+    "graded_place": 75,
+    "ag_place": 7
+  },
+  {
+    "bib": "128",
+    "name": "Pablo Romasanta",
+    "age_group": "M40-44",
+    "finish_time": "05:03:27",
+    "finish_time_seconds": 18207,
+    "gender_place": "67",
+    "graded_time_seconds": 16863.3234,
+    "graded_time": "04:41:03",
+    "unique_key": [
+      "Pablo Romasanta",
+      "05:03:27"
+    ],
+    "graded_place": 76,
+    "ag_place": 16
+  },
+  {
+    "bib": "186",
+    "name": "Tiago Fermenton Teixeira",
+    "age_group": "M35-39",
+    "finish_time": "04:56:00",
+    "finish_time_seconds": 17760,
+    "gender_place": "50",
+    "graded_time_seconds": 16872.0,
+    "graded_time": "04:41:12",
+    "unique_key": [
+      "Tiago Fermenton Teixeira",
+      "04:56:00"
+    ],
+    "graded_place": 77,
+    "ag_place": 20
+  },
+  {
+    "bib": "177",
+    "name": "Carlos Palacios",
+    "age_group": "M40-44",
+    "finish_time": "05:03:51",
+    "finish_time_seconds": 18231,
+    "gender_place": "68",
+    "graded_time_seconds": 16885.552200000002,
+    "graded_time": "04:41:25",
+    "unique_key": [
+      "Carlos Palacios",
+      "05:03:51"
+    ],
+    "graded_place": 78,
+    "ag_place": 17
+  },
+  {
+    "bib": "149",
+    "name": "Adolfo Tassano",
+    "age_group": "M50-54",
+    "finish_time": "05:19:16",
+    "finish_time_seconds": 19156,
+    "gender_place": "109",
+    "graded_time_seconds": 16920.4948,
+    "graded_time": "04:42:00",
+    "unique_key": [
+      "Adolfo Tassano",
+      "05:19:16"
+    ],
+    "graded_place": 79,
+    "ag_place": 8
+  },
+  {
+    "bib": "403",
+    "name": "Mauricio Baduna",
+    "age_group": "M50-54",
+    "finish_time": "05:19:53",
+    "finish_time_seconds": 19193,
+    "gender_place": "110",
+    "graded_time_seconds": 16953.1769,
+    "graded_time": "04:42:33",
+    "unique_key": [
+      "Mauricio Baduna",
+      "05:19:53"
+    ],
+    "graded_place": 80,
+    "ag_place": 9
+  },
+  {
+    "bib": "472",
+    "name": "Leon Tonelly",
+    "age_group": "M30-34",
+    "finish_time": "04:53:41",
+    "finish_time_seconds": 17621,
+    "gender_place": "47",
+    "graded_time_seconds": 17013.0755,
+    "graded_time": "04:43:33",
+    "unique_key": [
+      "Leon Tonelly",
+      "04:53:41"
+    ],
+    "graded_place": 81,
+    "ag_place": 6
+  },
+  {
+    "bib": "342",
+    "name": "Diego Javier Fabris",
+    "age_group": "M50-54",
+    "finish_time": "05:21:26",
+    "finish_time_seconds": 19286,
+    "gender_place": "116",
+    "graded_time_seconds": 17035.3238,
+    "graded_time": "04:43:55",
+    "unique_key": [
+      "Diego Javier Fabris",
+      "05:21:26"
+    ],
+    "graded_place": 82,
+    "ag_place": 10
+  },
+  {
+    "bib": "275",
+    "name": "Pablo Jose Aguirre",
+    "age_group": "M40-44",
+    "finish_time": "05:06:42",
+    "finish_time_seconds": 18402,
+    "gender_place": "74",
+    "graded_time_seconds": 17043.9324,
+    "graded_time": "04:44:03",
+    "unique_key": [
+      "Pablo Jose Aguirre",
+      "05:06:42"
+    ],
+    "graded_place": 83,
+    "ag_place": 18
+  },
+  {
+    "bib": "404",
+    "name": "Pablo Rodriguez",
+    "age_group": "M55-59",
+    "finish_time": "05:31:48",
+    "finish_time_seconds": 19908,
+    "gender_place": "137",
+    "graded_time_seconds": 17051.202,
+    "graded_time": "04:44:11",
+    "unique_key": [
+      "Pablo Rodriguez",
+      "05:31:48"
+    ],
+    "graded_place": 84,
+    "ag_place": 4
+  },
+  {
+    "bib": "359",
+    "name": "Francisco Jose Rodriguez",
+    "age_group": "M45-49",
+    "finish_time": "05:16:38",
+    "finish_time_seconds": 18998,
+    "gender_place": "96",
+    "graded_time_seconds": 17056.4044,
+    "graded_time": "04:44:16",
+    "unique_key": [
+      "Francisco Jose Rodriguez",
+      "05:16:38"
+    ],
+    "graded_place": 85,
+    "ag_place": 21
+  },
+  {
+    "bib": "153",
+    "name": "Sergei Vasilyev",
+    "age_group": "M45-49",
+    "finish_time": "05:17:27",
+    "finish_time_seconds": 19047,
+    "gender_place": "99",
+    "graded_time_seconds": 17100.3966,
+    "graded_time": "04:45:00",
+    "unique_key": [
+      "Sergei Vasilyev",
+      "05:17:27"
+    ],
+    "graded_place": 86,
+    "ag_place": 22
+  },
+  {
+    "bib": "313",
+    "name": "Pablo Garcia",
+    "age_group": "M45-49",
+    "finish_time": "05:17:38",
+    "finish_time_seconds": 19058,
+    "gender_place": "101",
+    "graded_time_seconds": 17110.2724,
+    "graded_time": "04:45:10",
+    "unique_key": [
+      "Pablo Garcia",
+      "05:17:38"
+    ],
+    "graded_place": 87,
+    "ag_place": 23
+  },
+  {
+    "bib": "318",
+    "name": "Diego Barrientos Gereda",
+    "age_group": "M35-39",
+    "finish_time": "05:00:47",
+    "finish_time_seconds": 18047,
+    "gender_place": "58",
+    "graded_time_seconds": 17144.649999999998,
+    "graded_time": "04:45:44",
+    "unique_key": [
+      "Diego Barrientos Gereda",
+      "05:00:47"
+    ],
+    "graded_place": 88,
+    "ag_place": 21
+  },
+  {
+    "bib": "399",
+    "name": "Nicolas Mendez",
+    "age_group": "M40-44",
+    "finish_time": "05:08:49",
+    "finish_time_seconds": 18529,
+    "gender_place": "82",
+    "graded_time_seconds": 17161.5598,
+    "graded_time": "04:46:01",
+    "unique_key": [
+      "Nicolas Mendez",
+      "05:08:49"
+    ],
+    "graded_place": 89,
+    "ag_place": 19
+  },
+  {
+    "bib": "270",
+    "name": "Dino Dinelli",
+    "age_group": "M45-49",
+    "finish_time": "05:18:56",
+    "finish_time_seconds": 19136,
+    "gender_place": "105",
+    "graded_time_seconds": 17180.3008,
+    "graded_time": "04:46:20",
+    "unique_key": [
+      "Dino Dinelli",
+      "05:18:56"
+    ],
+    "graded_place": 90,
+    "ag_place": 24
+  },
+  {
+    "bib": "119",
+    "name": "Nicolas Luque",
+    "age_group": "M35-39",
+    "finish_time": "05:01:31",
+    "finish_time_seconds": 18091,
+    "gender_place": "61",
+    "graded_time_seconds": 17186.45,
+    "graded_time": "04:46:26",
+    "unique_key": [
+      "Nicolas Luque",
+      "05:01:31"
+    ],
+    "graded_place": 91,
+    "ag_place": 22
+  },
+  {
+    "bib": "242",
+    "name": "Guillermo Prieto",
+    "age_group": "M45-49",
+    "finish_time": "05:19:10",
+    "finish_time_seconds": 19150,
+    "gender_place": "108",
+    "graded_time_seconds": 17192.870000000003,
+    "graded_time": "04:46:32",
+    "unique_key": [
+      "Guillermo Prieto",
+      "05:19:10"
+    ],
+    "graded_place": 92,
+    "ag_place": 25
+  },
+  {
+    "bib": "178",
+    "name": "Mateo Belluschi",
+    "age_group": "M30-34",
+    "finish_time": "04:57:15",
+    "finish_time_seconds": 17835,
+    "gender_place": "53",
+    "graded_time_seconds": 17219.6925,
+    "graded_time": "04:46:59",
+    "unique_key": [
+      "Mateo Belluschi",
+      "04:57:15"
+    ],
+    "graded_place": 93,
+    "ag_place": 7
+  },
+  {
+    "bib": "245",
+    "name": "Carlos Alric",
+    "age_group": "M45-49",
+    "finish_time": "05:20:01",
+    "finish_time_seconds": 19201,
+    "gender_place": "111",
+    "graded_time_seconds": 17238.6578,
+    "graded_time": "04:47:18",
+    "unique_key": [
+      "Carlos Alric",
+      "05:20:01"
+    ],
+    "graded_place": 94,
+    "ag_place": 26
+  },
+  {
+    "bib": "228",
+    "name": "Oscar Veliz",
+    "age_group": "M30-34",
+    "finish_time": "04:57:52",
+    "finish_time_seconds": 17872,
+    "gender_place": "55",
+    "graded_time_seconds": 17255.416,
+    "graded_time": "04:47:35",
+    "unique_key": [
+      "Oscar Veliz",
+      "04:57:52"
+    ],
+    "graded_place": 95,
+    "ag_place": 8
+  },
+  {
+    "bib": "268",
+    "name": "Sergio Conde",
+    "age_group": "M55-59",
+    "finish_time": "05:36:51",
+    "finish_time_seconds": 20211,
+    "gender_place": "147",
+    "graded_time_seconds": 17310.7215,
+    "graded_time": "04:48:30",
+    "unique_key": [
+      "Sergio Conde",
+      "05:36:51"
+    ],
+    "graded_place": 96,
+    "ag_place": 5
+  },
+  {
+    "bib": "320",
+    "name": "Rafael Eduardo Krulikoski",
+    "age_group": "M30-34",
+    "finish_time": "05:00:14",
+    "finish_time_seconds": 18014,
+    "gender_place": "57",
+    "graded_time_seconds": 17392.517,
+    "graded_time": "04:49:52",
+    "unique_key": [
+      "Rafael Eduardo Krulikoski",
+      "05:00:14"
+    ],
+    "graded_place": 97,
+    "ag_place": 9
+  },
+  {
+    "bib": "362",
+    "name": "Paulo Franciscon",
+    "age_group": "M50-54",
+    "finish_time": "05:29:37",
+    "finish_time_seconds": 19777,
+    "gender_place": "132",
+    "graded_time_seconds": 17469.0241,
+    "graded_time": "04:51:09",
+    "unique_key": [
+      "Paulo Franciscon",
+      "05:29:37"
+    ],
+    "graded_place": 98,
+    "ag_place": 11
+  },
+  {
+    "bib": "265",
+    "name": "Tales Jahn",
+    "age_group": "M45-49",
+    "finish_time": "05:25:56",
+    "finish_time_seconds": 19556,
+    "gender_place": "124",
+    "graded_time_seconds": 17557.376800000002,
+    "graded_time": "04:52:37",
+    "unique_key": [
+      "Tales Jahn",
+      "05:25:56"
+    ],
+    "graded_place": 99,
+    "ag_place": 27
+  },
+  {
+    "bib": "179",
+    "name": "Fernando C Dodero",
+    "age_group": "M35-39",
+    "finish_time": "05:08:02",
+    "finish_time_seconds": 18482,
+    "gender_place": "77",
+    "graded_time_seconds": 17557.899999999998,
+    "graded_time": "04:52:37",
+    "unique_key": [
+      "Fernando C Dodero",
+      "05:08:02"
+    ],
+    "graded_place": 100,
+    "ag_place": 23
+  },
+  {
+    "bib": "311",
+    "name": "Thierry Baurez",
+    "age_group": "M50-54",
+    "finish_time": "05:31:29",
+    "finish_time_seconds": 19889,
+    "gender_place": "136",
+    "graded_time_seconds": 17567.9537,
+    "graded_time": "04:52:47",
+    "unique_key": [
+      "Thierry Baurez",
+      "05:31:29"
+    ],
+    "graded_place": 101,
+    "ag_place": 12
+  },
+  {
+    "bib": "229",
+    "name": "Humberto Victorio Peroni",
+    "age_group": "M45-49",
+    "finish_time": "05:26:10",
+    "finish_time_seconds": 19570,
+    "gender_place": "125",
+    "graded_time_seconds": 17569.946,
+    "graded_time": "04:52:49",
+    "unique_key": [
+      "Humberto Victorio Peroni",
+      "05:26:10"
+    ],
+    "graded_place": 102,
+    "ag_place": 28
+  },
+  {
+    "bib": "398",
+    "name": "Agustin Lopez Aponte",
+    "age_group": "M25-29",
+    "finish_time": "04:55:30",
+    "finish_time_seconds": 17730,
+    "gender_place": "49",
+    "graded_time_seconds": 17604.117,
+    "graded_time": "04:53:24",
+    "unique_key": [
+      "Agustin Lopez Aponte",
+      "04:55:30"
+    ],
+    "graded_place": 103,
+    "ag_place": 3
+  },
+  {
+    "bib": "393",
+    "name": "Rafael Theiss",
+    "age_group": "M35-39",
+    "finish_time": "05:09:11",
+    "finish_time_seconds": 18551,
+    "gender_place": "84",
+    "graded_time_seconds": 17623.45,
+    "graded_time": "04:53:43",
+    "unique_key": [
+      "Rafael Theiss",
+      "05:09:11"
+    ],
+    "graded_place": 104,
+    "ag_place": 24
+  },
+  {
+    "bib": "471",
+    "name": "Marcos Benitez Planas",
+    "age_group": "M30-34",
+    "finish_time": "05:05:10",
+    "finish_time_seconds": 18310,
+    "gender_place": "70",
+    "graded_time_seconds": 17678.305,
+    "graded_time": "04:54:38",
+    "unique_key": [
+      "Marcos Benitez Planas",
+      "05:05:10"
+    ],
+    "graded_place": 105,
+    "ag_place": 10
+  },
+  {
+    "bib": "158",
+    "name": "Douglas Menon",
+    "age_group": "M40-44",
+    "finish_time": "05:18:38",
+    "finish_time_seconds": 19118,
+    "gender_place": "104",
+    "graded_time_seconds": 17707.0916,
+    "graded_time": "04:55:07",
+    "unique_key": [
+      "Douglas Menon",
+      "05:18:38"
+    ],
+    "graded_place": 106,
+    "ag_place": 20
+  },
+  {
+    "bib": "495",
+    "name": "Jose Luiz Ramalhoto",
+    "age_group": "M30-34",
+    "finish_time": "05:06:03",
+    "finish_time_seconds": 18363,
+    "gender_place": "71",
+    "graded_time_seconds": 17729.4765,
+    "graded_time": "04:55:29",
+    "unique_key": [
+      "Jose Luiz Ramalhoto",
+      "05:06:03"
+    ],
+    "graded_place": 107,
+    "ag_place": 11
+  },
+  {
+    "bib": "289",
+    "name": "Silvio Ariel Silvero Otriz",
+    "age_group": "M40-44",
+    "finish_time": "05:19:03",
+    "finish_time_seconds": 19143,
+    "gender_place": "107",
+    "graded_time_seconds": 17730.246600000002,
+    "graded_time": "04:55:30",
+    "unique_key": [
+      "Silvio Ariel Silvero Otriz",
+      "05:19:03"
+    ],
+    "graded_place": 108,
+    "ag_place": 21
+  },
+  {
+    "bib": "234",
+    "name": "Rafael Cabadas",
+    "age_group": "M35-39",
+    "finish_time": "05:11:25",
+    "finish_time_seconds": 18685,
+    "gender_place": "87",
+    "graded_time_seconds": 17750.75,
+    "graded_time": "04:55:50",
+    "unique_key": [
+      "Rafael Cabadas",
+      "05:11:25"
+    ],
+    "graded_place": 109,
+    "ag_place": 25
+  },
+  {
+    "bib": "317",
+    "name": "Rodrigo Nicolas Vigo",
+    "age_group": "M40-44",
+    "finish_time": "05:20:10",
+    "finish_time_seconds": 19210,
+    "gender_place": "112",
+    "graded_time_seconds": 17792.302,
+    "graded_time": "04:56:32",
+    "unique_key": [
+      "Rodrigo Nicolas Vigo",
+      "05:20:10"
+    ],
+    "graded_place": 110,
+    "ag_place": 22
+  },
+  {
+    "bib": "376",
+    "name": "Jose Raul Moglia",
+    "age_group": "M55-59",
+    "finish_time": "05:46:16",
+    "finish_time_seconds": 20776,
+    "gender_place": "165",
+    "graded_time_seconds": 17794.644,
+    "graded_time": "04:56:34",
+    "unique_key": [
+      "Jose Raul Moglia",
+      "05:46:16"
+    ],
+    "graded_place": 111,
+    "ag_place": 6
+  },
+  {
+    "bib": "235",
+    "name": "Cesar Luis Cortes",
+    "age_group": "M45-49",
+    "finish_time": "05:30:57",
+    "finish_time_seconds": 19857,
+    "gender_place": "134",
+    "graded_time_seconds": 17827.6146,
+    "graded_time": "04:57:07",
+    "unique_key": [
+      "Cesar Luis Cortes",
+      "05:30:57"
+    ],
+    "graded_place": 112,
+    "ag_place": 29
+  },
+  {
+    "bib": "211",
+    "name": "Diego Gomez",
+    "age_group": "M40-44",
+    "finish_time": "05:20:55",
+    "finish_time_seconds": 19255,
+    "gender_place": "113",
+    "graded_time_seconds": 17833.981,
+    "graded_time": "04:57:13",
+    "unique_key": [
+      "Diego Gomez",
+      "05:20:55"
+    ],
+    "graded_place": 113,
+    "ag_place": 23
+  },
+  {
+    "bib": "254",
+    "name": "Esteban Moran",
+    "age_group": "M35-39",
+    "finish_time": "05:13:05",
+    "finish_time_seconds": 18785,
+    "gender_place": "89",
+    "graded_time_seconds": 17845.75,
+    "graded_time": "04:57:25",
+    "unique_key": [
+      "Esteban Moran",
+      "05:13:05"
+    ],
+    "graded_place": 114,
+    "ag_place": 26
+  },
+  {
+    "bib": "290",
+    "name": "Alejandro Villalba",
+    "age_group": "M25-29",
+    "finish_time": "04:59:35",
+    "finish_time_seconds": 17975,
+    "gender_place": "56",
+    "graded_time_seconds": 17847.3775,
+    "graded_time": "04:57:27",
+    "unique_key": [
+      "Alejandro Villalba",
+      "04:59:35"
+    ],
+    "graded_place": 115,
+    "ag_place": 4
+  },
+  {
+    "bib": "269",
+    "name": "Pablo Calegari",
+    "age_group": "M40-44",
+    "finish_time": "05:22:19",
+    "finish_time_seconds": 19339,
+    "gender_place": "119",
+    "graded_time_seconds": 17911.7818,
+    "graded_time": "04:58:31",
+    "unique_key": [
+      "Pablo Calegari",
+      "05:22:19"
+    ],
+    "graded_place": 116,
+    "ag_place": 24
+  },
+  {
+    "bib": "282",
+    "name": "Daniel Perucca",
+    "age_group": "M65-69",
+    "finish_time": "06:31:11",
+    "finish_time_seconds": 23471,
+    "gender_place": "233",
+    "graded_time_seconds": 17931.844,
+    "graded_time": "04:58:51",
+    "unique_key": [
+      "Daniel Perucca",
+      "06:31:11"
+    ],
+    "graded_place": 117,
+    "ag_place": 1
+  },
+  {
+    "bib": "366",
+    "name": "Luis Filipe Pippi",
+    "age_group": "M50-54",
+    "finish_time": "05:38:50",
+    "finish_time_seconds": 20330,
+    "gender_place": "150",
+    "graded_time_seconds": 17957.488999999998,
+    "graded_time": "04:59:17",
+    "unique_key": [
+      "Luis Filipe Pippi",
+      "05:38:50"
+    ],
+    "graded_place": 118,
+    "ag_place": 13
+  },
+  {
+    "bib": "295",
+    "name": "Marcelo Bacha",
+    "age_group": "M60-64",
+    "finish_time": "06:05:47",
+    "finish_time_seconds": 21947,
+    "gender_place": "199",
+    "graded_time_seconds": 17978.9824,
+    "graded_time": "04:59:38",
+    "unique_key": [
+      "Marcelo Bacha",
+      "06:05:47"
+    ],
+    "graded_place": 119,
+    "ag_place": 5
+  },
+  {
+    "bib": "420",
+    "name": "Manuel Bedoya",
+    "age_group": "M60-64",
+    "finish_time": "06:05:55",
+    "finish_time_seconds": 21955,
+    "gender_place": "200",
+    "graded_time_seconds": 17985.536,
+    "graded_time": "04:59:45",
+    "unique_key": [
+      "Manuel Bedoya",
+      "06:05:55"
+    ],
+    "graded_place": 120,
+    "ag_place": 6
+  },
+  {
+    "bib": "346",
+    "name": "Ramiro Vera Rodriguez",
+    "age_group": "M25-29",
+    "finish_time": "05:02:15",
+    "finish_time_seconds": 18135,
+    "gender_place": "63",
+    "graded_time_seconds": 18006.2415,
+    "graded_time": "05:00:06",
+    "unique_key": [
+      "Ramiro Vera Rodriguez",
+      "05:02:15"
+    ],
+    "graded_place": 121,
+    "ag_place": 5
+  },
+  {
+    "bib": "465",
+    "name": "Victor Ramon Fernandez Rodriguez",
+    "age_group": "M60-64",
+    "finish_time": "06:06:43",
+    "finish_time_seconds": 22003,
+    "gender_place": "203",
+    "graded_time_seconds": 18024.8576,
+    "graded_time": "05:00:24",
+    "unique_key": [
+      "Victor Ramon Fernandez Rodriguez",
+      "06:06:43"
+    ],
+    "graded_place": 122,
+    "ag_place": 7
+  },
+  {
+    "bib": "159",
+    "name": "Matias Bianchi",
+    "age_group": "M45-49",
+    "finish_time": "05:34:40",
+    "finish_time_seconds": 20080,
+    "gender_place": "139",
+    "graded_time_seconds": 18027.824,
+    "graded_time": "05:00:27",
+    "unique_key": [
+      "Matias Bianchi",
+      "05:34:40"
+    ],
+    "graded_place": 123,
+    "ag_place": 30
+  },
+  {
+    "bib": "503",
+    "name": "Anderson Neves Navi",
+    "age_group": "M50-54",
+    "finish_time": "05:40:11",
+    "finish_time_seconds": 20411,
+    "gender_place": "156",
+    "graded_time_seconds": 18029.0363,
+    "graded_time": "05:00:29",
+    "unique_key": [
+      "Anderson Neves Navi",
+      "05:40:11"
+    ],
+    "graded_place": 124,
+    "ag_place": 14
+  },
+  {
+    "bib": "351",
+    "name": "Hermes Arambulo",
+    "age_group": "M45-49",
+    "finish_time": "05:34:46",
+    "finish_time_seconds": 20086,
+    "gender_place": "140",
+    "graded_time_seconds": 18033.2108,
+    "graded_time": "05:00:33",
+    "unique_key": [
+      "Hermes Arambulo",
+      "05:34:46"
+    ],
+    "graded_place": 125,
+    "ag_place": 31
+  },
+  {
+    "bib": "479",
+    "name": "Sebastian Brombini",
+    "age_group": "M50-54",
+    "finish_time": "05:40:16",
+    "finish_time_seconds": 20416,
+    "gender_place": "157",
+    "graded_time_seconds": 18033.4528,
+    "graded_time": "05:00:33",
+    "unique_key": [
+      "Sebastian Brombini",
+      "05:40:16"
+    ],
+    "graded_place": 126,
+    "ag_place": 15
+  },
+  {
+    "bib": "434",
+    "name": "Mariano Dobranki",
+    "age_group": "M45-49",
+    "finish_time": "05:35:21",
+    "finish_time_seconds": 20121,
+    "gender_place": "142",
+    "graded_time_seconds": 18064.6338,
+    "graded_time": "05:01:04",
+    "unique_key": [
+      "Mariano Dobranki",
+      "05:35:21"
+    ],
+    "graded_place": 127,
+    "ag_place": 32
+  },
+  {
+    "bib": "513",
+    "name": "Kevin Daniel Garin",
+    "age_group": "M30-34",
+    "finish_time": "05:11:54",
+    "finish_time_seconds": 18714,
+    "gender_place": "88",
+    "graded_time_seconds": 18068.367000000002,
+    "graded_time": "05:01:08",
+    "unique_key": [
+      "Kevin Daniel Garin",
+      "05:11:54"
+    ],
+    "graded_place": 128,
+    "ag_place": 12
+  },
+  {
+    "bib": "304",
+    "name": "Gustavo Rautenberg",
+    "age_group": "M25-29",
+    "finish_time": "05:03:25",
+    "finish_time_seconds": 18205,
+    "gender_place": "66",
+    "graded_time_seconds": 18075.7445,
+    "graded_time": "05:01:15",
+    "unique_key": [
+      "Gustavo Rautenberg",
+      "05:03:25"
+    ],
+    "graded_place": 129,
+    "ag_place": 6
+  },
+  {
+    "bib": "418",
+    "name": "Cosme Fernandez",
+    "age_group": "M35-39",
+    "finish_time": "05:17:18",
+    "finish_time_seconds": 19038,
+    "gender_place": "98",
+    "graded_time_seconds": 18086.1,
+    "graded_time": "05:01:26",
+    "unique_key": [
+      "Cosme Fernandez",
+      "05:17:18"
+    ],
+    "graded_place": 130,
+    "ag_place": 27
+  },
+  {
+    "bib": "184",
+    "name": "Fernando Gadea",
+    "age_group": "M45-49",
+    "finish_time": "05:35:47",
+    "finish_time_seconds": 20147,
+    "gender_place": "146",
+    "graded_time_seconds": 18087.9766,
+    "graded_time": "05:01:27",
+    "unique_key": [
+      "Fernando Gadea",
+      "05:35:47"
+    ],
+    "graded_place": 131,
+    "ag_place": 33
+  },
+  {
+    "bib": "284",
+    "name": "Ricardo Gornatti",
+    "age_group": "M65-69",
+    "finish_time": "06:34:48",
+    "finish_time_seconds": 23688,
+    "gender_place": "242",
+    "graded_time_seconds": 18097.632,
+    "graded_time": "05:01:37",
+    "unique_key": [
+      "Ricardo Gornatti",
+      "06:34:48"
+    ],
+    "graded_place": 132,
+    "ag_place": 2
+  },
+  {
+    "bib": "334",
+    "name": "Rodrigo Avila Jimenez",
+    "age_group": "M35-39",
+    "finish_time": "05:17:51",
+    "finish_time_seconds": 19071,
+    "gender_place": "102",
+    "graded_time_seconds": 18117.45,
+    "graded_time": "05:01:57",
+    "unique_key": [
+      "Rodrigo Avila Jimenez",
+      "05:17:51"
+    ],
+    "graded_place": 133,
+    "ag_place": 28
+  },
+  {
+    "bib": "176",
+    "name": "Hugo Pastore",
+    "age_group": "M55-59",
+    "finish_time": "05:52:36",
+    "finish_time_seconds": 21156,
+    "gender_place": "178",
+    "graded_time_seconds": 18120.114,
+    "graded_time": "05:02:00",
+    "unique_key": [
+      "Hugo Pastore",
+      "05:52:36"
+    ],
+    "graded_place": 134,
+    "ag_place": 7
+  },
+  {
+    "bib": "150",
+    "name": "Marcus Vinicius Alves",
+    "age_group": "M35-39",
+    "finish_time": "05:17:56",
+    "finish_time_seconds": 19076,
+    "gender_place": "103",
+    "graded_time_seconds": 18122.2,
+    "graded_time": "05:02:02",
+    "unique_key": [
+      "Marcus Vinicius Alves",
+      "05:17:56"
+    ],
+    "graded_place": 135,
+    "ag_place": 29
+  },
+  {
+    "bib": "292",
+    "name": "Federico Diaz Carmona",
+    "age_group": "M25-29",
+    "finish_time": "05:04:52",
+    "finish_time_seconds": 18292,
+    "gender_place": "69",
+    "graded_time_seconds": 18162.126800000002,
+    "graded_time": "05:02:42",
+    "unique_key": [
+      "Federico Diaz Carmona",
+      "05:04:52"
+    ],
+    "graded_place": 136,
+    "ag_place": 7
+  },
+  {
+    "bib": "497",
+    "name": "Carlos Bernasconi",
+    "age_group": "M70-74",
+    "finish_time": "07:05:39",
+    "finish_time_seconds": 25539,
+    "gender_place": "279",
+    "graded_time_seconds": 18181.2141,
+    "graded_time": "05:03:01",
+    "unique_key": [
+      "Carlos Bernasconi",
+      "07:05:39"
+    ],
+    "graded_place": 137,
+    "ag_place": 1
+  },
+  {
+    "bib": "325",
+    "name": "Javier Mesa",
+    "age_group": "M35-39",
+    "finish_time": "05:19:02",
+    "finish_time_seconds": 19142,
+    "gender_place": "106",
+    "graded_time_seconds": 18184.899999999998,
+    "graded_time": "05:03:04",
+    "unique_key": [
+      "Javier Mesa",
+      "05:19:02"
+    ],
+    "graded_place": 138,
+    "ag_place": 30
+  },
+  {
+    "bib": "169",
+    "name": "Facundo Lopez",
+    "age_group": "M30-34",
+    "finish_time": "05:14:07",
+    "finish_time_seconds": 18847,
+    "gender_place": "90",
+    "graded_time_seconds": 18196.7785,
+    "graded_time": "05:03:16",
+    "unique_key": [
+      "Facundo Lopez",
+      "05:14:07"
+    ],
+    "graded_place": 139,
+    "ag_place": 13
+  },
+  {
+    "bib": "340",
+    "name": "Mariano Capra",
+    "age_group": "M40-44",
+    "finish_time": "05:28:31",
+    "finish_time_seconds": 19711,
+    "gender_place": "131",
+    "graded_time_seconds": 18256.3282,
+    "graded_time": "05:04:16",
+    "unique_key": [
+      "Mariano Capra",
+      "05:28:31"
+    ],
+    "graded_place": 140,
+    "ag_place": 25
+  },
+  {
+    "bib": "164",
+    "name": "Alejandro Palacios",
+    "age_group": "M45-49",
+    "finish_time": "05:39:13",
+    "finish_time_seconds": 20353,
+    "gender_place": "152",
+    "graded_time_seconds": 18272.9234,
+    "graded_time": "05:04:32",
+    "unique_key": [
+      "Alejandro Palacios",
+      "05:39:13"
+    ],
+    "graded_place": 141,
+    "ag_place": 34
+  },
+  {
+    "bib": "442",
+    "name": "Vinicius Preto",
+    "age_group": "M40-44",
+    "finish_time": "05:29:51",
+    "finish_time_seconds": 19791,
+    "gender_place": "133",
+    "graded_time_seconds": 18330.4242,
+    "graded_time": "05:05:30",
+    "unique_key": [
+      "Vinicius Preto",
+      "05:29:51"
+    ],
+    "graded_place": 142,
+    "ag_place": 26
+  },
+  {
+    "bib": "261",
+    "name": "Pablo Chomik Pleva",
+    "age_group": "M35-39",
+    "finish_time": "05:21:59",
+    "finish_time_seconds": 19319,
+    "gender_place": "117",
+    "graded_time_seconds": 18353.05,
+    "graded_time": "05:05:53",
+    "unique_key": [
+      "Pablo Chomik Pleva",
+      "05:21:59"
+    ],
+    "graded_place": 143,
+    "ag_place": 31
+  },
+  {
+    "bib": "274",
+    "name": "Alejandro Nicolas Bianco",
+    "age_group": "M35-39",
+    "finish_time": "05:22:18",
+    "finish_time_seconds": 19338,
+    "gender_place": "118",
+    "graded_time_seconds": 18371.1,
+    "graded_time": "05:06:11",
+    "unique_key": [
+      "Alejandro Nicolas Bianco",
+      "05:22:18"
+    ],
+    "graded_place": 144,
+    "ag_place": 32
+  },
+  {
+    "bib": "216",
+    "name": "German Poletti",
+    "age_group": "M30-34",
+    "finish_time": "05:17:35",
+    "finish_time_seconds": 19055,
+    "gender_place": "100",
+    "graded_time_seconds": 18397.6025,
+    "graded_time": "05:06:37",
+    "unique_key": [
+      "German Poletti",
+      "05:17:35"
+    ],
+    "graded_place": 145,
+    "ag_place": 14
+  },
+  {
+    "bib": "381",
+    "name": "Murilo Donizeti Manzatti Manzatti",
+    "age_group": "M40-44",
+    "finish_time": "05:31:16",
+    "finish_time_seconds": 19876,
+    "gender_place": "135",
+    "graded_time_seconds": 18409.1512,
+    "graded_time": "05:06:49",
+    "unique_key": [
+      "Murilo Donizeti Manzatti Manzatti",
+      "05:31:16"
+    ],
+    "graded_place": 146,
+    "ag_place": 27
+  },
+  {
+    "bib": "394",
+    "name": "Ramos Gabriel",
+    "age_group": "M45-49",
+    "finish_time": "05:41:56",
+    "finish_time_seconds": 20516,
+    "gender_place": "159",
+    "graded_time_seconds": 18419.2648,
+    "graded_time": "05:06:59",
+    "unique_key": [
+      "Ramos Gabriel",
+      "05:41:56"
+    ],
+    "graded_place": 147,
+    "ag_place": 35
+  },
+  {
+    "bib": "206",
+    "name": "Juan Ariel Potschka",
+    "age_group": "M45-49",
+    "finish_time": "05:42:03",
+    "finish_time_seconds": 20523,
+    "gender_place": "160",
+    "graded_time_seconds": 18425.5494,
+    "graded_time": "05:07:05",
+    "unique_key": [
+      "Juan Ariel Potschka",
+      "05:42:03"
+    ],
+    "graded_place": 148,
+    "ag_place": 36
+  },
+  {
+    "bib": "285",
+    "name": "Osvaldo Real",
+    "age_group": "M55-59",
+    "finish_time": "05:59:25",
+    "finish_time_seconds": 21565,
+    "gender_place": "187",
+    "graded_time_seconds": 18470.4225,
+    "graded_time": "05:07:50",
+    "unique_key": [
+      "Osvaldo Real",
+      "05:59:25"
+    ],
+    "graded_place": 149,
+    "ag_place": 8
+  },
+  {
+    "bib": "445",
+    "name": "Amado Javier Sotomayor",
+    "age_group": "M55-59",
+    "finish_time": "06:01:59",
+    "finish_time_seconds": 21719,
+    "gender_place": "191",
+    "graded_time_seconds": 18602.323500000002,
+    "graded_time": "05:10:02",
+    "unique_key": [
+      "Amado Javier Sotomayor",
+      "06:01:59"
+    ],
+    "graded_place": 150,
+    "ag_place": 9
+  },
+  {
+    "bib": "415",
+    "name": "Marcos Paulo Moro",
+    "age_group": "M50-54",
+    "finish_time": "05:51:14",
+    "finish_time_seconds": 21074,
+    "gender_place": "173",
+    "graded_time_seconds": 18614.6642,
+    "graded_time": "05:10:14",
+    "unique_key": [
+      "Marcos Paulo Moro",
+      "05:51:14"
+    ],
+    "graded_place": 151,
+    "ag_place": 16
+  },
+  {
+    "bib": "429",
+    "name": "Rodrigo Alvarez",
+    "age_group": "M45-49",
+    "finish_time": "05:45:44",
+    "finish_time_seconds": 20744,
+    "gender_place": "164",
+    "graded_time_seconds": 18623.963200000002,
+    "graded_time": "05:10:23",
+    "unique_key": [
+      "Rodrigo Alvarez",
+      "05:45:44"
+    ],
+    "graded_place": 152,
+    "ag_place": 37
+  },
+  {
+    "bib": "116",
+    "name": "Enrique Rigo Zeballos",
+    "age_group": "M40-44",
+    "finish_time": "05:35:30",
+    "finish_time_seconds": 20130,
+    "gender_place": "144",
+    "graded_time_seconds": 18644.406,
+    "graded_time": "05:10:44",
+    "unique_key": [
+      "Enrique Rigo Zeballos",
+      "05:35:30"
+    ],
+    "graded_place": 153,
+    "ag_place": 28
+  },
+  {
+    "bib": "341",
+    "name": "Pablo Ferrazzi",
+    "age_group": "M40-44",
+    "finish_time": "05:35:32",
+    "finish_time_seconds": 20132,
+    "gender_place": "145",
+    "graded_time_seconds": 18646.2584,
+    "graded_time": "05:10:46",
+    "unique_key": [
+      "Pablo Ferrazzi",
+      "05:35:32"
+    ],
+    "graded_place": 154,
+    "ag_place": 29
+  },
+  {
+    "bib": "364",
+    "name": "Juan Luis Piasentini",
+    "age_group": "M55-59",
+    "finish_time": "06:02:58",
+    "finish_time_seconds": 21778,
+    "gender_place": "192",
+    "graded_time_seconds": 18652.857,
+    "graded_time": "05:10:52",
+    "unique_key": [
+      "Juan Luis Piasentini",
+      "06:02:58"
+    ],
+    "graded_place": 155,
+    "ag_place": 10
+  },
+  {
+    "bib": "221",
+    "name": "Damian Markoski",
+    "age_group": "M45-49",
+    "finish_time": "05:46:27",
+    "finish_time_seconds": 20787,
+    "gender_place": "166",
+    "graded_time_seconds": 18662.568600000002,
+    "graded_time": "05:11:02",
+    "unique_key": [
+      "Damian Markoski",
+      "05:46:27"
+    ],
+    "graded_place": 156,
+    "ag_place": 38
+  },
+  {
+    "bib": "389",
+    "name": "David Exequiel Amado",
+    "age_group": "M35-39",
+    "finish_time": "05:27:44",
+    "finish_time_seconds": 19664,
+    "gender_place": "127",
+    "graded_time_seconds": 18680.8,
+    "graded_time": "05:11:20",
+    "unique_key": [
+      "David Exequiel Amado",
+      "05:27:44"
+    ],
+    "graded_place": 157,
+    "ag_place": 33
+  },
+  {
+    "bib": "264",
+    "name": "Juan Sebastian Kazlauskas Paszniuk",
+    "age_group": "M35-39",
+    "finish_time": "05:27:46",
+    "finish_time_seconds": 19666,
+    "gender_place": "129",
+    "graded_time_seconds": 18682.7,
+    "graded_time": "05:11:22",
+    "unique_key": [
+      "Juan Sebastian Kazlauskas Paszniuk",
+      "05:27:46"
+    ],
+    "graded_place": 158,
+    "ag_place": 34
+  },
+  {
+    "bib": "402",
+    "name": "Carlos Gustavo Mandirola",
+    "age_group": "M50-54",
+    "finish_time": "05:53:20",
+    "finish_time_seconds": 21200,
+    "gender_place": "179",
+    "graded_time_seconds": 18725.96,
+    "graded_time": "05:12:05",
+    "unique_key": [
+      "Carlos Gustavo Mandirola",
+      "05:53:20"
+    ],
+    "graded_place": 159,
+    "ag_place": 17
+  },
+  {
+    "bib": "308",
+    "name": "Victor Mazo Fracchia",
+    "age_group": "M45-49",
+    "finish_time": "05:48:33",
+    "finish_time_seconds": 20913,
+    "gender_place": "167",
+    "graded_time_seconds": 18775.6914,
+    "graded_time": "05:12:55",
+    "unique_key": [
+      "Victor Mazo Fracchia",
+      "05:48:33"
+    ],
+    "graded_place": 160,
+    "ag_place": 39
+  },
+  {
+    "bib": "456",
+    "name": "Nicolas Riquelme",
+    "age_group": "M25-29",
+    "finish_time": "05:15:37",
+    "finish_time_seconds": 18937,
+    "gender_place": "93",
+    "graded_time_seconds": 18802.5473,
+    "graded_time": "05:13:22",
+    "unique_key": [
+      "Nicolas Riquelme",
+      "05:15:37"
+    ],
+    "graded_place": 161,
+    "ag_place": 8
+  },
+  {
+    "bib": "287",
+    "name": "Manuel Tolces",
+    "age_group": "M45-49",
+    "finish_time": "05:49:03",
+    "finish_time_seconds": 20943,
+    "gender_place": "170",
+    "graded_time_seconds": 18802.6254,
+    "graded_time": "05:13:22",
+    "unique_key": [
+      "Manuel Tolces",
+      "05:49:03"
+    ],
+    "graded_place": 162,
+    "ag_place": 40
+  },
+  {
+    "bib": "173",
+    "name": "Jaime Gomez Gimenez",
+    "age_group": "M40-44",
+    "finish_time": "05:38:28",
+    "finish_time_seconds": 20308,
+    "gender_place": "149",
+    "graded_time_seconds": 18809.2696,
+    "graded_time": "05:13:29",
+    "unique_key": [
+      "Jaime Gomez Gimenez",
+      "05:38:28"
+    ],
+    "graded_place": 163,
+    "ag_place": 30
+  },
+  {
+    "bib": "468",
+    "name": "Enmanuel Hahn",
+    "age_group": "M18-24",
+    "finish_time": "05:14:18",
+    "finish_time_seconds": 18858,
+    "gender_place": "91",
+    "graded_time_seconds": 18858.0,
+    "graded_time": "05:14:18",
+    "unique_key": [
+      "Enmanuel Hahn",
+      "05:14:18"
+    ],
+    "graded_place": 164,
+    "ag_place": 1
+  },
+  {
+    "bib": "227",
+    "name": "Sergio Salamone",
+    "age_group": "M55-59",
+    "finish_time": "06:07:51",
+    "finish_time_seconds": 22071,
+    "gender_place": "204",
+    "graded_time_seconds": 18903.8115,
+    "graded_time": "05:15:03",
+    "unique_key": [
+      "Sergio Salamone",
+      "06:07:51"
+    ],
+    "graded_place": 165,
+    "ag_place": 11
+  },
+  {
+    "bib": "354",
+    "name": "Freddy Velazquez",
+    "age_group": "M40-44",
+    "finish_time": "05:41:27",
+    "finish_time_seconds": 20487,
+    "gender_place": "158",
+    "graded_time_seconds": 18975.059400000002,
+    "graded_time": "05:16:15",
+    "unique_key": [
+      "Freddy Velazquez",
+      "05:41:27"
+    ],
+    "graded_place": 166,
+    "ag_place": 31
+  },
+  {
+    "bib": "277",
+    "name": "Valdileno Bezerra Da Silva",
+    "age_group": "M50-54",
+    "finish_time": "05:58:42",
+    "finish_time_seconds": 21522,
+    "gender_place": "184",
+    "graded_time_seconds": 19010.3826,
+    "graded_time": "05:16:50",
+    "unique_key": [
+      "Valdileno Bezerra Da Silva",
+      "05:58:42"
+    ],
+    "graded_place": 167,
+    "ag_place": 18
+  },
+  {
+    "bib": "378",
+    "name": "Labriola Amado Ramon",
+    "age_group": "M55-59",
+    "finish_time": "06:10:01",
+    "finish_time_seconds": 22201,
+    "gender_place": "206",
+    "graded_time_seconds": 19015.1565,
+    "graded_time": "05:16:55",
+    "unique_key": [
+      "Labriola Amado Ramon",
+      "06:10:01"
+    ],
+    "graded_place": 168,
+    "ag_place": 12
+  },
+  {
+    "bib": "244",
+    "name": "Hernan Affori",
+    "age_group": "M50-54",
+    "finish_time": "05:58:58",
+    "finish_time_seconds": 21538,
+    "gender_place": "185",
+    "graded_time_seconds": 19024.5154,
+    "graded_time": "05:17:04",
+    "unique_key": [
+      "Hernan Affori",
+      "05:58:58"
+    ],
+    "graded_place": 169,
+    "ag_place": 19
+  },
+  {
+    "bib": "345",
+    "name": "Federico Alberto Nallar",
+    "age_group": "M40-44",
+    "finish_time": "05:42:22",
+    "finish_time_seconds": 20542,
+    "gender_place": "161",
+    "graded_time_seconds": 19026.0004,
+    "graded_time": "05:17:06",
+    "unique_key": [
+      "Federico Alberto Nallar",
+      "05:42:22"
+    ],
+    "graded_place": 170,
+    "ag_place": 32
+  },
+  {
+    "bib": "267",
+    "name": "Axel Leon",
+    "age_group": "M35-39",
+    "finish_time": "05:34:59",
+    "finish_time_seconds": 20099,
+    "gender_place": "141",
+    "graded_time_seconds": 19094.05,
+    "graded_time": "05:18:14",
+    "unique_key": [
+      "Axel Leon",
+      "05:34:59"
+    ],
+    "graded_place": 171,
+    "ag_place": 35
+  },
+  {
+    "bib": "174",
+    "name": "Roberto Leiva",
+    "age_group": "M50-54",
+    "finish_time": "06:00:52",
+    "finish_time_seconds": 21652,
+    "gender_place": "190",
+    "graded_time_seconds": 19125.2116,
+    "graded_time": "05:18:45",
+    "unique_key": [
+      "Roberto Leiva",
+      "06:00:52"
+    ],
+    "graded_place": 172,
+    "ag_place": 20
+  },
+  {
+    "bib": "425",
+    "name": "Nicolas Trillo",
+    "age_group": "M40-44",
+    "finish_time": "05:44:23",
+    "finish_time_seconds": 20663,
+    "gender_place": "162",
+    "graded_time_seconds": 19138.0706,
+    "graded_time": "05:18:58",
+    "unique_key": [
+      "Nicolas Trillo",
+      "05:44:23"
+    ],
+    "graded_place": 173,
+    "ag_place": 33
+  },
+  {
+    "bib": "454",
+    "name": "Tobias Amarilla",
+    "age_group": "M25-29",
+    "finish_time": "05:21:15",
+    "finish_time_seconds": 19275,
+    "gender_place": "115",
+    "graded_time_seconds": 19138.1475,
+    "graded_time": "05:18:58",
+    "unique_key": [
+      "Tobias Amarilla",
+      "05:21:15"
+    ],
+    "graded_place": 174,
+    "ag_place": 9
+  },
+  {
+    "bib": "419",
+    "name": "Michel Joao Ramos Joao Ramos",
+    "age_group": "M40-44",
+    "finish_time": "05:44:26",
+    "finish_time_seconds": 20666,
+    "gender_place": "163",
+    "graded_time_seconds": 19140.8492,
+    "graded_time": "05:19:00",
+    "unique_key": [
+      "Michel Joao Ramos Joao Ramos",
+      "05:44:26"
+    ],
+    "graded_place": 175,
+    "ag_place": 34
+  },
+  {
+    "bib": "152",
+    "name": "Hernan Jauregui Lorda",
+    "age_group": "M45-49",
+    "finish_time": "05:55:25",
+    "finish_time_seconds": 21325,
+    "gender_place": "181",
+    "graded_time_seconds": 19145.585,
+    "graded_time": "05:19:05",
+    "unique_key": [
+      "Hernan Jauregui Lorda",
+      "05:55:25"
+    ],
+    "graded_place": 176,
+    "ag_place": 41
+  },
+  {
+    "bib": "208",
+    "name": "Dario Ledesma",
+    "age_group": "M30-34",
+    "finish_time": "05:32:22",
+    "finish_time_seconds": 19942,
+    "gender_place": "138",
+    "graded_time_seconds": 19254.001,
+    "graded_time": "05:20:54",
+    "unique_key": [
+      "Dario Ledesma",
+      "05:32:22"
+    ],
+    "graded_place": 177,
+    "ag_place": 15
+  },
+  {
+    "bib": "278",
+    "name": "Caio Assumpcao",
+    "age_group": "M18-24",
+    "finish_time": "05:21:01",
+    "finish_time_seconds": 19261,
+    "gender_place": "114",
+    "graded_time_seconds": 19261.0,
+    "graded_time": "05:21:01",
+    "unique_key": [
+      "Caio Assumpcao",
+      "05:21:01"
+    ],
+    "graded_place": 178,
+    "ag_place": 2
+  },
+  {
+    "bib": "505",
+    "name": "Steven Taboada",
+    "age_group": "M25-29",
+    "finish_time": "05:23:56",
+    "finish_time_seconds": 19436,
+    "gender_place": "123",
+    "graded_time_seconds": 19298.0044,
+    "graded_time": "05:21:38",
+    "unique_key": [
+      "Steven Taboada",
+      "05:23:56"
+    ],
+    "graded_place": 179,
+    "ag_place": 10
+  },
+  {
+    "bib": "467",
+    "name": "Francisco Garcia Enciso",
+    "age_group": "M45-49",
+    "finish_time": "05:59:17",
+    "finish_time_seconds": 21557,
+    "gender_place": "186",
+    "graded_time_seconds": 19353.8746,
+    "graded_time": "05:22:33",
+    "unique_key": [
+      "Francisco Garcia Enciso",
+      "05:59:17"
+    ],
+    "graded_place": 180,
+    "ag_place": 42
+  },
+  {
+    "bib": "350",
+    "name": "Munir Safadi",
+    "age_group": "M35-39",
+    "finish_time": "05:39:58",
+    "finish_time_seconds": 20398,
+    "gender_place": "154",
+    "graded_time_seconds": 19378.1,
+    "graded_time": "05:22:58",
+    "unique_key": [
+      "Munir Safadi",
+      "05:39:58"
+    ],
+    "graded_place": 181,
+    "ag_place": 36
+  },
+  {
+    "bib": "192",
+    "name": "Martin Villagran",
+    "age_group": "M18-24",
+    "finish_time": "05:23:45",
+    "finish_time_seconds": 19425,
+    "gender_place": "122",
+    "graded_time_seconds": 19425.0,
+    "graded_time": "05:23:45",
+    "unique_key": [
+      "Martin Villagran",
+      "05:23:45"
+    ],
+    "graded_place": 182,
+    "ag_place": 3
+  },
+  {
+    "bib": "110",
+    "name": "Wilson Ariel Vargas Baez",
+    "age_group": "M30-34",
+    "finish_time": "05:35:26",
+    "finish_time_seconds": 20126,
+    "gender_place": "143",
+    "graded_time_seconds": 19431.653000000002,
+    "graded_time": "05:23:51",
+    "unique_key": [
+      "Wilson Ariel Vargas Baez",
+      "05:35:26"
+    ],
+    "graded_place": 183,
+    "ag_place": 16
+  },
+  {
+    "bib": "416",
+    "name": "Esteban Danderfer",
+    "age_group": "M40-44",
+    "finish_time": "05:50:08",
+    "finish_time_seconds": 21008,
+    "gender_place": "171",
+    "graded_time_seconds": 19457.6096,
+    "graded_time": "05:24:17",
+    "unique_key": [
+      "Esteban Danderfer",
+      "05:50:08"
+    ],
+    "graded_place": 184,
+    "ag_place": 35
+  },
+  {
+    "bib": "280",
+    "name": "Ruben Sciutto",
+    "age_group": "M60-64",
+    "finish_time": "06:36:55",
+    "finish_time_seconds": 23815,
+    "gender_place": "244",
+    "graded_time_seconds": 19509.248,
+    "graded_time": "05:25:09",
+    "unique_key": [
+      "Ruben Sciutto",
+      "06:36:55"
+    ],
+    "graded_place": 185,
+    "ag_place": 8
+  },
+  {
+    "bib": "431",
+    "name": "Mathias Martinez",
+    "age_group": "M30-34",
+    "finish_time": "05:37:41",
+    "finish_time_seconds": 20261,
+    "gender_place": "148",
+    "graded_time_seconds": 19561.9955,
+    "graded_time": "05:26:01",
+    "unique_key": [
+      "Mathias Martinez",
+      "05:37:41"
+    ],
+    "graded_place": 186,
+    "ag_place": 17
+  },
+  {
+    "bib": "203",
+    "name": "Jorge Ojeda",
+    "age_group": "M45-49",
+    "finish_time": "06:04:18",
+    "finish_time_seconds": 21858,
+    "gender_place": "194",
+    "graded_time_seconds": 19624.1124,
+    "graded_time": "05:27:04",
+    "unique_key": [
+      "Jorge Ojeda",
+      "06:04:18"
+    ],
+    "graded_place": 187,
+    "ag_place": 43
+  },
+  {
+    "bib": "510",
+    "name": "Martin Cabral",
+    "age_group": "M30-34",
+    "finish_time": "05:39:32",
+    "finish_time_seconds": 20372,
+    "gender_place": "153",
+    "graded_time_seconds": 19669.166,
+    "graded_time": "05:27:49",
+    "unique_key": [
+      "Martin Cabral",
+      "05:39:32"
+    ],
+    "graded_place": 188,
+    "ag_place": 18
+  },
+  {
+    "bib": "514",
+    "name": "Ricardo Paredes Vatteone",
+    "age_group": "M30-34",
+    "finish_time": "05:40:02",
+    "finish_time_seconds": 20402,
+    "gender_place": "155",
+    "graded_time_seconds": 19698.131,
+    "graded_time": "05:28:18",
+    "unique_key": [
+      "Ricardo Paredes Vatteone",
+      "05:40:02"
+    ],
+    "graded_place": 189,
+    "ag_place": 19
+  },
+  {
+    "bib": "384",
+    "name": "Hugo Fernandes",
+    "age_group": "M45-49",
+    "finish_time": "06:06:28",
+    "finish_time_seconds": 21988,
+    "gender_place": "202",
+    "graded_time_seconds": 19740.8264,
+    "graded_time": "05:29:00",
+    "unique_key": [
+      "Hugo Fernandes",
+      "06:06:28"
+    ],
+    "graded_place": 190,
+    "ag_place": 44
+  },
+  {
+    "bib": "249",
+    "name": "Carlos Leonardo Garcia",
+    "age_group": "M50-54",
+    "finish_time": "06:14:48",
+    "finish_time_seconds": 22488,
+    "gender_place": "212",
+    "graded_time_seconds": 19863.6504,
+    "graded_time": "05:31:03",
+    "unique_key": [
+      "Carlos Leonardo Garcia",
+      "06:14:48"
+    ],
+    "graded_place": 191,
+    "ag_place": 21
+  },
+  {
+    "bib": "368",
+    "name": "Maximiliano Cruz",
+    "age_group": "M35-39",
+    "finish_time": "05:48:47",
+    "finish_time_seconds": 20927,
+    "gender_place": "168",
+    "graded_time_seconds": 19880.649999999998,
+    "graded_time": "05:31:20",
+    "unique_key": [
+      "Maximiliano Cruz",
+      "05:48:47"
+    ],
+    "graded_place": 192,
+    "ag_place": 37
+  },
+  {
+    "bib": "294",
+    "name": "Esteban Repetto",
+    "age_group": "M55-59",
+    "finish_time": "06:29:02",
+    "finish_time_seconds": 23342,
+    "gender_place": "229",
+    "graded_time_seconds": 19992.423000000003,
+    "graded_time": "05:33:12",
+    "unique_key": [
+      "Esteban Repetto",
+      "06:29:02"
+    ],
+    "graded_place": 193,
+    "ag_place": 13
+  },
+  {
+    "bib": "444",
+    "name": "Carlos Turrini",
+    "age_group": "M45-49",
+    "finish_time": "06:11:22",
+    "finish_time_seconds": 22282,
+    "gender_place": "207",
+    "graded_time_seconds": 20004.7796,
+    "graded_time": "05:33:24",
+    "unique_key": [
+      "Carlos Turrini",
+      "06:11:22"
+    ],
+    "graded_place": 194,
+    "ag_place": 45
+  },
+  {
+    "bib": "293",
+    "name": "Joaquin Basombrio",
+    "age_group": "M50-54",
+    "finish_time": "06:17:55",
+    "finish_time_seconds": 22675,
+    "gender_place": "216",
+    "graded_time_seconds": 20028.8275,
+    "graded_time": "05:33:48",
+    "unique_key": [
+      "Joaquin Basombrio",
+      "06:17:55"
+    ],
+    "graded_place": 195,
+    "ag_place": 22
+  },
+  {
+    "bib": "406",
+    "name": "Jose Chavero",
+    "age_group": "M35-39",
+    "finish_time": "05:51:49",
+    "finish_time_seconds": 21109,
+    "gender_place": "175",
+    "graded_time_seconds": 20053.55,
+    "graded_time": "05:34:13",
+    "unique_key": [
+      "Jose Chavero",
+      "05:51:49"
+    ],
+    "graded_place": 196,
+    "ag_place": 38
+  },
+  {
+    "bib": "225",
+    "name": "Juan Moreira",
+    "age_group": "M35-39",
+    "finish_time": "05:51:57",
+    "finish_time_seconds": 21117,
+    "gender_place": "176",
+    "graded_time_seconds": 20061.149999999998,
+    "graded_time": "05:34:21",
+    "unique_key": [
+      "Juan Moreira",
+      "05:51:57"
+    ],
+    "graded_place": 197,
+    "ag_place": 39
+  },
+  {
+    "bib": "322",
+    "name": "Cesar Astigarraga",
+    "age_group": "M35-39",
+    "finish_time": "05:52:19",
+    "finish_time_seconds": 21139,
+    "gender_place": "177",
+    "graded_time_seconds": 20082.05,
+    "graded_time": "05:34:42",
+    "unique_key": [
+      "Cesar Astigarraga",
+      "05:52:19"
+    ],
+    "graded_place": 198,
+    "ag_place": 40
+  },
+  {
+    "bib": "349",
+    "name": "Mario Duran",
+    "age_group": "M30-34",
+    "finish_time": "05:48:47",
+    "finish_time_seconds": 20927,
+    "gender_place": "169",
+    "graded_time_seconds": 20205.018500000002,
+    "graded_time": "05:36:45",
+    "unique_key": [
+      "Mario Duran",
+      "05:48:47"
+    ],
+    "graded_place": 199,
+    "ag_place": 20
+  },
+  {
+    "bib": "428",
+    "name": "Daniel Petersen",
+    "age_group": "M35-39",
+    "finish_time": "05:55:14",
+    "finish_time_seconds": 21314,
+    "gender_place": "180",
+    "graded_time_seconds": 20248.3,
+    "graded_time": "05:37:28",
+    "unique_key": [
+      "Daniel Petersen",
+      "05:55:14"
+    ],
+    "graded_place": 200,
+    "ag_place": 41
+  },
+  {
+    "bib": "201",
+    "name": "Juan Jose Saavedra",
+    "age_group": "M40-44",
+    "finish_time": "06:04:59",
+    "finish_time_seconds": 21899,
+    "gender_place": "195",
+    "graded_time_seconds": 20282.8538,
+    "graded_time": "05:38:02",
+    "unique_key": [
+      "Juan Jose Saavedra",
+      "06:04:59"
+    ],
+    "graded_place": 201,
+    "ag_place": 36
+  },
+  {
+    "bib": "213",
+    "name": "Diego Rolon Barrail",
+    "age_group": "M40-44",
+    "finish_time": "06:05:43",
+    "finish_time_seconds": 21943,
+    "gender_place": "197",
+    "graded_time_seconds": 20323.6066,
+    "graded_time": "05:38:43",
+    "unique_key": [
+      "Diego Rolon Barrail",
+      "06:05:43"
+    ],
+    "graded_place": 202,
+    "ag_place": 37
+  },
+  {
+    "bib": "239",
+    "name": "Walter Loza",
+    "age_group": "M18-24",
+    "finish_time": "05:38:55",
+    "finish_time_seconds": 20335,
+    "gender_place": "151",
+    "graded_time_seconds": 20335.0,
+    "graded_time": "05:38:55",
+    "unique_key": [
+      "Walter Loza",
+      "05:38:55"
+    ],
+    "graded_place": 203,
+    "ag_place": 4
+  },
+  {
+    "bib": "481",
+    "name": "Eduardo Soares de Oliveira",
+    "age_group": "M35-39",
+    "finish_time": "05:56:58",
+    "finish_time_seconds": 21418,
+    "gender_place": "182",
+    "graded_time_seconds": 20347.1,
+    "graded_time": "05:39:07",
+    "unique_key": [
+      "Eduardo Soares de Oliveira",
+      "05:56:58"
+    ],
+    "graded_place": 204,
+    "ag_place": 42
+  },
+  {
+    "bib": "380",
+    "name": "Jose Ignacio Olmedo Lansac",
+    "age_group": "M45-49",
+    "finish_time": "06:19:58",
+    "finish_time_seconds": 22798,
+    "gender_place": "220",
+    "graded_time_seconds": 20468.044400000002,
+    "graded_time": "05:41:08",
+    "unique_key": [
+      "Jose Ignacio Olmedo Lansac",
+      "06:19:58"
+    ],
+    "graded_place": 205,
+    "ag_place": 46
+  },
+  {
+    "bib": "189",
+    "name": "Roberto Jose Perez Alvarez",
+    "age_group": "M45-49",
+    "finish_time": "06:21:12",
+    "finish_time_seconds": 22872,
+    "gender_place": "221",
+    "graded_time_seconds": 20534.4816,
+    "graded_time": "05:42:14",
+    "unique_key": [
+      "Roberto Jose Perez Alvarez",
+      "06:21:12"
+    ],
+    "graded_place": 206,
+    "ag_place": 47
+  },
+  {
+    "bib": "247",
+    "name": "Pablo Cigaina",
+    "age_group": "M60-64",
+    "finish_time": "07:02:34",
+    "finish_time_seconds": 25354,
+    "gender_place": "275",
+    "graded_time_seconds": 20769.9968,
+    "graded_time": "05:46:09",
+    "unique_key": [
+      "Pablo Cigaina",
+      "07:02:34"
+    ],
+    "graded_place": 207,
+    "ag_place": 9
+  },
+  {
+    "bib": "411",
+    "name": "Marcelo Samudio",
+    "age_group": "M40-44",
+    "finish_time": "06:13:54",
+    "finish_time_seconds": 22434,
+    "gender_place": "211",
+    "graded_time_seconds": 20778.3708,
+    "graded_time": "05:46:18",
+    "unique_key": [
+      "Marcelo Samudio",
+      "06:13:54"
+    ],
+    "graded_place": 208,
+    "ag_place": 38
+  },
+  {
+    "bib": "306",
+    "name": "Hernan Zayas",
+    "age_group": "M60-64",
+    "finish_time": "07:03:13",
+    "finish_time_seconds": 25393,
+    "gender_place": "276",
+    "graded_time_seconds": 20801.945600000003,
+    "graded_time": "05:46:41",
+    "unique_key": [
+      "Hernan Zayas",
+      "07:03:13"
+    ],
+    "graded_place": 209,
+    "ag_place": 10
+  },
+  {
+    "bib": "333",
+    "name": "Claudio Diaz de Vivar",
+    "age_group": "M55-59",
+    "finish_time": "06:45:31",
+    "finish_time_seconds": 24331,
+    "gender_place": "257",
+    "graded_time_seconds": 20839.501500000002,
+    "graded_time": "05:47:19",
+    "unique_key": [
+      "Claudio Diaz de Vivar",
+      "06:45:31"
+    ],
+    "graded_place": 210,
+    "ag_place": 14
+  },
+  {
+    "bib": "328",
+    "name": "Miguel Vazquez",
+    "age_group": "M35-39",
+    "finish_time": "06:05:39",
+    "finish_time_seconds": 21939,
+    "gender_place": "196",
+    "graded_time_seconds": 20842.05,
+    "graded_time": "05:47:22",
+    "unique_key": [
+      "Miguel Vazquez",
+      "06:05:39"
+    ],
+    "graded_place": 211,
+    "ag_place": 43
+  },
+  {
+    "bib": "426",
+    "name": "Daniel Bogado",
+    "age_group": "M30-34",
+    "finish_time": "05:59:49",
+    "finish_time_seconds": 21589,
+    "gender_place": "188",
+    "graded_time_seconds": 20844.179500000002,
+    "graded_time": "05:47:24",
+    "unique_key": [
+      "Daniel Bogado",
+      "05:59:49"
+    ],
+    "graded_place": 212,
+    "ag_place": 21
+  },
+  {
+    "bib": "435",
+    "name": "Sergio Candia Snead",
+    "age_group": "M35-39",
+    "finish_time": "06:06:19",
+    "finish_time_seconds": 21979,
+    "gender_place": "201",
+    "graded_time_seconds": 20880.05,
+    "graded_time": "05:48:00",
+    "unique_key": [
+      "Sergio Candia Snead",
+      "06:06:19"
+    ],
+    "graded_place": 213,
+    "ag_place": 44
+  },
+  {
+    "bib": "194",
+    "name": "Michael Emmott",
+    "age_group": "M40-44",
+    "finish_time": "06:16:16",
+    "finish_time_seconds": 22576,
+    "gender_place": "214",
+    "graded_time_seconds": 20909.891200000002,
+    "graded_time": "05:48:29",
+    "unique_key": [
+      "Michael Emmott",
+      "06:16:16"
+    ],
+    "graded_place": 214,
+    "ag_place": 39
+  },
+  {
+    "bib": "210",
+    "name": "Jesus Trinidad Romero",
+    "age_group": "M25-29",
+    "finish_time": "05:51:31",
+    "finish_time_seconds": 21091,
+    "gender_place": "174",
+    "graded_time_seconds": 20941.2539,
+    "graded_time": "05:49:01",
+    "unique_key": [
+      "Jesus Trinidad Romero",
+      "05:51:31"
+    ],
+    "graded_place": 215,
+    "ag_place": 11
+  },
+  {
+    "bib": "246",
+    "name": "De Biasi Nicolas",
+    "age_group": "M30-34",
+    "finish_time": "06:03:17",
+    "finish_time_seconds": 21797,
+    "gender_place": "193",
+    "graded_time_seconds": 21045.0035,
+    "graded_time": "05:50:45",
+    "unique_key": [
+      "De Biasi Nicolas",
+      "06:03:17"
+    ],
+    "graded_place": 216,
+    "ag_place": 22
+  },
+  {
+    "bib": "281",
+    "name": "Nicolas Galeano Bogado",
+    "age_group": "M18-24",
+    "finish_time": "05:50:57",
+    "finish_time_seconds": 21057,
+    "gender_place": "172",
+    "graded_time_seconds": 21057.0,
+    "graded_time": "05:50:57",
+    "unique_key": [
+      "Nicolas Galeano Bogado",
+      "05:50:57"
+    ],
+    "graded_place": 217,
+    "ag_place": 5
+  },
+  {
+    "bib": "361",
+    "name": "Juan Ramon Quinonez Esquivel",
+    "age_group": "M45-49",
+    "finish_time": "06:32:18",
+    "finish_time_seconds": 23538,
+    "gender_place": "235",
+    "graded_time_seconds": 21132.416400000002,
+    "graded_time": "05:52:12",
+    "unique_key": [
+      "Juan Ramon Quinonez Esquivel",
+      "06:32:18"
+    ],
+    "graded_place": 218,
+    "ag_place": 48
+  },
+  {
+    "bib": "507",
+    "name": "Maurizio Octavio Costa Insaurralde",
+    "age_group": "M30-34",
+    "finish_time": "06:05:44",
+    "finish_time_seconds": 21944,
+    "gender_place": "198",
+    "graded_time_seconds": 21186.932,
+    "graded_time": "05:53:06",
+    "unique_key": [
+      "Maurizio Octavio Costa Insaurralde",
+      "06:05:44"
+    ],
+    "graded_place": 219,
+    "ag_place": 23
+  },
+  {
+    "bib": "460",
+    "name": "Juan Antonio Diaz Munoz",
+    "age_group": "M35-39",
+    "finish_time": "06:11:45",
+    "finish_time_seconds": 22305,
+    "gender_place": "208",
+    "graded_time_seconds": 21189.75,
+    "graded_time": "05:53:09",
+    "unique_key": [
+      "Juan Antonio Diaz Munoz",
+      "06:11:45"
+    ],
+    "graded_place": 220,
+    "ag_place": 45
+  },
+  {
+    "bib": "251",
+    "name": "Itamar Durli Jr",
+    "age_group": "M45-49",
+    "finish_time": "06:33:27",
+    "finish_time_seconds": 23607,
+    "gender_place": "237",
+    "graded_time_seconds": 21194.3646,
+    "graded_time": "05:53:14",
+    "unique_key": [
+      "Itamar Durli Jr",
+      "06:33:27"
+    ],
+    "graded_place": 221,
+    "ag_place": 49
+  },
+  {
+    "bib": "309",
+    "name": "Juan Jose Irala Alonso",
+    "age_group": "M35-39",
+    "finish_time": "06:12:31",
+    "finish_time_seconds": 22351,
+    "gender_place": "210",
+    "graded_time_seconds": 21233.45,
+    "graded_time": "05:53:53",
+    "unique_key": [
+      "Juan Jose Irala Alonso",
+      "06:12:31"
+    ],
+    "graded_place": 222,
+    "ag_place": 46
+  },
+  {
+    "bib": "414",
+    "name": "Santiago Andrade",
+    "age_group": "M50-54",
+    "finish_time": "06:42:16",
+    "finish_time_seconds": 24136,
+    "gender_place": "253",
+    "graded_time_seconds": 21319.3288,
+    "graded_time": "05:55:19",
+    "unique_key": [
+      "Santiago Andrade",
+      "06:42:16"
+    ],
+    "graded_place": 223,
+    "ag_place": 23
+  },
+  {
+    "bib": "367",
+    "name": "Guillermo Paats Nicora",
+    "age_group": "M25-29",
+    "finish_time": "05:58:32",
+    "finish_time_seconds": 21512,
+    "gender_place": "183",
+    "graded_time_seconds": 21359.2648,
+    "graded_time": "05:55:59",
+    "unique_key": [
+      "Guillermo Paats Nicora",
+      "05:58:32"
+    ],
+    "graded_place": 224,
+    "ag_place": 12
+  },
+  {
+    "bib": "440",
+    "name": "David Martinez Viveros",
+    "age_group": "M35-39",
+    "finish_time": "06:14:56",
+    "finish_time_seconds": 22496,
+    "gender_place": "213",
+    "graded_time_seconds": 21371.2,
+    "graded_time": "05:56:11",
+    "unique_key": [
+      "David Martinez Viveros",
+      "06:14:56"
+    ],
+    "graded_place": 225,
+    "ag_place": 47
+  },
+  {
+    "bib": "256",
+    "name": "Fabian Ruschel",
+    "age_group": "M45-49",
+    "finish_time": "06:37:34",
+    "finish_time_seconds": 23854,
+    "gender_place": "245",
+    "graded_time_seconds": 21416.1212,
+    "graded_time": "05:56:56",
+    "unique_key": [
+      "Fabian Ruschel",
+      "06:37:34"
+    ],
+    "graded_place": 226,
+    "ag_place": 50
+  },
+  {
+    "bib": "336",
+    "name": "Juan Carlos Scarpa",
+    "age_group": "M50-54",
+    "finish_time": "06:44:10",
+    "finish_time_seconds": 24250,
+    "gender_place": "255",
+    "graded_time_seconds": 21420.024999999998,
+    "graded_time": "05:57:00",
+    "unique_key": [
+      "Juan Carlos Scarpa",
+      "06:44:10"
+    ],
+    "graded_place": 227,
+    "ag_place": 24
+  },
+  {
+    "bib": "409",
+    "name": "Gabriel Ticianelli Moller",
+    "age_group": "M25-29",
+    "finish_time": "06:00:02",
+    "finish_time_seconds": 21602,
+    "gender_place": "189",
+    "graded_time_seconds": 21448.6258,
+    "graded_time": "05:57:28",
+    "unique_key": [
+      "Gabriel Ticianelli Moller",
+      "06:00:02"
+    ],
+    "graded_place": 228,
+    "ag_place": 13
+  },
+  {
+    "bib": "447",
+    "name": "Julio Thompson",
+    "age_group": "M40-44",
+    "finish_time": "06:26:36",
+    "finish_time_seconds": 23196,
+    "gender_place": "224",
+    "graded_time_seconds": 21484.1352,
+    "graded_time": "05:58:04",
+    "unique_key": [
+      "Julio Thompson",
+      "06:26:36"
+    ],
+    "graded_place": 229,
+    "ag_place": 40
+  },
+  {
+    "bib": "461",
+    "name": "Nelson Stofler",
+    "age_group": "M40-44",
+    "finish_time": "06:26:57",
+    "finish_time_seconds": 23217,
+    "gender_place": "225",
+    "graded_time_seconds": 21503.5854,
+    "graded_time": "05:58:23",
+    "unique_key": [
+      "Nelson Stofler",
+      "06:26:57"
+    ],
+    "graded_place": 230,
+    "ag_place": 41
+  },
+  {
+    "bib": "430",
+    "name": "Mathias Mongelos Gatti",
+    "age_group": "M30-34",
+    "finish_time": "06:11:51",
+    "finish_time_seconds": 22311,
+    "gender_place": "209",
+    "graded_time_seconds": 21541.270500000002,
+    "graded_time": "05:59:01",
+    "unique_key": [
+      "Mathias Mongelos Gatti",
+      "06:11:51"
+    ],
+    "graded_place": 231,
+    "ag_place": 24
+  },
+  {
+    "bib": "212",
+    "name": "Rafael Camilo",
+    "age_group": "M40-44",
+    "finish_time": "06:27:52",
+    "finish_time_seconds": 23272,
+    "gender_place": "227",
+    "graded_time_seconds": 21554.5264,
+    "graded_time": "05:59:14",
+    "unique_key": [
+      "Rafael Camilo",
+      "06:27:52"
+    ],
+    "graded_place": 232,
+    "ag_place": 42
+  },
+  {
+    "bib": "517",
+    "name": "Santiago Balderrama",
+    "age_group": "M50-54",
+    "finish_time": "06:46:45",
+    "finish_time_seconds": 24405,
+    "gender_place": "258",
+    "graded_time_seconds": 21556.9365,
+    "graded_time": "05:59:16",
+    "unique_key": [
+      "Santiago Balderrama",
+      "06:46:45"
+    ],
+    "graded_place": 233,
+    "ag_place": 25
+  },
+  {
+    "bib": "237",
+    "name": "Walter Alberto Ozorio Leguizamon",
+    "age_group": "M45-49",
+    "finish_time": "06:40:11",
+    "finish_time_seconds": 24011,
+    "gender_place": "247",
+    "graded_time_seconds": 21557.075800000002,
+    "graded_time": "05:59:17",
+    "unique_key": [
+      "Walter Alberto Ozorio Leguizamon",
+      "06:40:11"
+    ],
+    "graded_place": 234,
+    "ag_place": 51
+  },
+  {
+    "bib": "439",
+    "name": "Bruno Guilherme Morais Pagan",
+    "age_group": "M35-39",
+    "finish_time": "06:18:50",
+    "finish_time_seconds": 22730,
+    "gender_place": "218",
+    "graded_time_seconds": 21593.5,
+    "graded_time": "05:59:53",
+    "unique_key": [
+      "Bruno Guilherme Morais Pagan",
+      "06:18:50"
+    ],
+    "graded_place": 235,
+    "ag_place": 48
+  },
+  {
+    "bib": "455",
+    "name": "Pablo Bayol",
+    "age_group": "M45-49",
+    "finish_time": "06:41:02",
+    "finish_time_seconds": 24062,
+    "gender_place": "250",
+    "graded_time_seconds": 21602.8636,
+    "graded_time": "06:00:02",
+    "unique_key": [
+      "Pablo Bayol",
+      "06:41:02"
+    ],
+    "graded_place": 236,
+    "ag_place": 52
+  },
+  {
+    "bib": "196",
+    "name": "Gabriel Benza",
+    "age_group": "M45-49",
+    "finish_time": "06:41:28",
+    "finish_time_seconds": 24088,
+    "gender_place": "252",
+    "graded_time_seconds": 21626.206400000003,
+    "graded_time": "06:00:26",
+    "unique_key": [
+      "Gabriel Benza",
+      "06:41:28"
+    ],
+    "graded_place": 237,
+    "ag_place": 53
+  },
+  {
+    "bib": "438",
+    "name": "Pablo Goyen",
+    "age_group": "M45-49",
+    "finish_time": "06:44:17",
+    "finish_time_seconds": 24257,
+    "gender_place": "256",
+    "graded_time_seconds": 21777.9346,
+    "graded_time": "06:02:57",
+    "unique_key": [
+      "Pablo Goyen",
+      "06:44:17"
+    ],
+    "graded_place": 238,
+    "ag_place": 54
+  },
+  {
+    "bib": "453",
+    "name": "Carlos Mauricio Carrillo Canedo",
+    "age_group": "M35-39",
+    "finish_time": "06:22:36",
+    "finish_time_seconds": 22956,
+    "gender_place": "222",
+    "graded_time_seconds": 21808.2,
+    "graded_time": "06:03:28",
+    "unique_key": [
+      "Carlos Mauricio Carrillo Canedo",
+      "06:22:36"
+    ],
+    "graded_place": 239,
+    "ag_place": 49
+  },
+  {
+    "bib": "337",
+    "name": "Oscar Giovanni Duarte Santacruz",
+    "age_group": "M30-34",
+    "finish_time": "06:16:57",
+    "finish_time_seconds": 22617,
+    "gender_place": "215",
+    "graded_time_seconds": 21836.7135,
+    "graded_time": "06:03:56",
+    "unique_key": [
+      "Oscar Giovanni Duarte Santacruz",
+      "06:16:57"
+    ],
+    "graded_place": 240,
+    "ag_place": 25
+  },
+  {
+    "bib": "369",
+    "name": "Juan Pablo Ciosek",
+    "age_group": "M25-29",
+    "finish_time": "06:09:45",
+    "finish_time_seconds": 22185,
+    "gender_place": "205",
+    "graded_time_seconds": 22027.4865,
+    "graded_time": "06:07:07",
+    "unique_key": [
+      "Juan Pablo Ciosek",
+      "06:09:45"
+    ],
+    "graded_place": 241,
+    "ag_place": 14
+  },
+  {
+    "bib": "512",
+    "name": "Fabrizio Monti",
+    "age_group": "M35-39",
+    "finish_time": "06:28:03",
+    "finish_time_seconds": 23283,
+    "gender_place": "228",
+    "graded_time_seconds": 22118.85,
+    "graded_time": "06:08:38",
+    "unique_key": [
+      "Fabrizio Monti",
+      "06:28:03"
+    ],
+    "graded_place": 242,
+    "ag_place": 50
+  },
+  {
+    "bib": "502",
+    "name": "Nicolas Manoiloff",
+    "age_group": "M50-54",
+    "finish_time": "06:57:33",
+    "finish_time_seconds": 25053,
+    "gender_place": "270",
+    "graded_time_seconds": 22129.314899999998,
+    "graded_time": "06:08:49",
+    "unique_key": [
+      "Nicolas Manoiloff",
+      "06:57:33"
+    ],
+    "graded_place": 243,
+    "ag_place": 26
+  },
+  {
+    "bib": "433",
+    "name": "Negro Caballero",
+    "age_group": "M50-54",
+    "finish_time": "06:58:06",
+    "finish_time_seconds": 25086,
+    "gender_place": "271",
+    "graded_time_seconds": 22158.463799999998,
+    "graded_time": "06:09:18",
+    "unique_key": [
+      "Negro Caballero",
+      "06:58:06"
+    ],
+    "graded_place": 244,
+    "ag_place": 27
+  },
+  {
+    "bib": "236",
+    "name": "Esteban Sansone",
+    "age_group": "M50-54",
+    "finish_time": "06:58:20",
+    "finish_time_seconds": 25100,
+    "gender_place": "272",
+    "graded_time_seconds": 22170.829999999998,
+    "graded_time": "06:09:30",
+    "unique_key": [
+      "Esteban Sansone",
+      "06:58:20"
+    ],
+    "graded_place": 245,
+    "ag_place": 28
+  },
+  {
+    "bib": "326",
+    "name": "Christian Ruiz Diaz",
+    "age_group": "M35-39",
+    "finish_time": "06:29:44",
+    "finish_time_seconds": 23384,
+    "gender_place": "230",
+    "graded_time_seconds": 22214.8,
+    "graded_time": "06:10:14",
+    "unique_key": [
+      "Christian Ruiz Diaz",
+      "06:29:44"
+    ],
+    "graded_place": 246,
+    "ag_place": 51
+  },
+  {
+    "bib": "466",
+    "name": "Ivan Michel Limousin Sambuchetti",
+    "age_group": "M35-39",
+    "finish_time": "06:29:56",
+    "finish_time_seconds": 23396,
+    "gender_place": "231",
+    "graded_time_seconds": 22226.2,
+    "graded_time": "06:10:26",
+    "unique_key": [
+      "Ivan Michel Limousin Sambuchetti",
+      "06:29:56"
+    ],
+    "graded_place": 247,
+    "ag_place": 52
+  },
+  {
+    "bib": "358",
+    "name": "Jose Netepczuk",
+    "age_group": "M40-44",
+    "finish_time": "06:40:51",
+    "finish_time_seconds": 24051,
+    "gender_place": "249",
+    "graded_time_seconds": 22276.036200000002,
+    "graded_time": "06:11:16",
+    "unique_key": [
+      "Jose Netepczuk",
+      "06:40:51"
+    ],
+    "graded_place": 248,
+    "ag_place": 43
+  },
+  {
+    "bib": "310",
+    "name": "Francisco Facundo Zavalia",
+    "age_group": "M60-64",
+    "finish_time": "07:34:46",
+    "finish_time_seconds": 27286,
+    "gender_place": "301",
+    "graded_time_seconds": 22352.6912,
+    "graded_time": "06:12:32",
+    "unique_key": [
+      "Francisco Facundo Zavalia",
+      "07:34:46"
+    ],
+    "graded_place": 249,
+    "ag_place": 11
+  },
+  {
+    "bib": "195",
+    "name": "Ricardo Haniek",
+    "age_group": "M35-39",
+    "finish_time": "06:33:43",
+    "finish_time_seconds": 23623,
+    "gender_place": "238",
+    "graded_time_seconds": 22441.85,
+    "graded_time": "06:14:01",
+    "unique_key": [
+      "Ricardo Haniek",
+      "06:33:43"
+    ],
+    "graded_place": 250,
+    "ag_place": 53
+  },
+  {
+    "bib": "490",
+    "name": "Tiago Frigo",
+    "age_group": "M30-34",
+    "finish_time": "06:27:48",
+    "finish_time_seconds": 23268,
+    "gender_place": "226",
+    "graded_time_seconds": 22465.254,
+    "graded_time": "06:14:25",
+    "unique_key": [
+      "Tiago Frigo",
+      "06:27:48"
+    ],
+    "graded_place": 251,
+    "ag_place": 26
+  },
+  {
+    "bib": "220",
+    "name": "Alexander Dure",
+    "age_group": "M25-29",
+    "finish_time": "06:19:36",
+    "finish_time_seconds": 22776,
+    "gender_place": "219",
+    "graded_time_seconds": 22614.2904,
+    "graded_time": "06:16:54",
+    "unique_key": [
+      "Alexander Dure",
+      "06:19:36"
+    ],
+    "graded_place": 252,
+    "ag_place": 15
+  },
+  {
+    "bib": "377",
+    "name": "Javier Lawes Martinez",
+    "age_group": "M30-34",
+    "finish_time": "06:30:37",
+    "finish_time_seconds": 23437,
+    "gender_place": "232",
+    "graded_time_seconds": 22628.4235,
+    "graded_time": "06:17:08",
+    "unique_key": [
+      "Javier Lawes Martinez",
+      "06:30:37"
+    ],
+    "graded_place": 253,
+    "ag_place": 27
+  },
+  {
+    "bib": "260",
+    "name": "Mariano Eduardo Muratore Suasnabar",
+    "age_group": "M50-54",
+    "finish_time": "07:07:27",
+    "finish_time_seconds": 25647,
+    "gender_place": "280",
+    "graded_time_seconds": 22653.9951,
+    "graded_time": "06:17:33",
+    "unique_key": [
+      "Mariano Eduardo Muratore Suasnabar",
+      "07:07:27"
+    ],
+    "graded_place": 254,
+    "ag_place": 29
+  },
+  {
+    "bib": "451",
+    "name": "Matias Peralta",
+    "age_group": "M18-24",
+    "finish_time": "06:17:57",
+    "finish_time_seconds": 22677,
+    "gender_place": "217",
+    "graded_time_seconds": 22677.0,
+    "graded_time": "06:17:57",
+    "unique_key": [
+      "Matias Peralta",
+      "06:17:57"
+    ],
+    "graded_place": 255,
+    "ag_place": 6
+  },
+  {
+    "bib": "357",
+    "name": "Rachid Ghanem",
+    "age_group": "M30-34",
+    "finish_time": "06:31:40",
+    "finish_time_seconds": 23500,
+    "gender_place": "234",
+    "graded_time_seconds": 22689.25,
+    "graded_time": "06:18:09",
+    "unique_key": [
+      "Rachid Ghanem",
+      "06:31:40"
+    ],
+    "graded_place": 256,
+    "ag_place": 28
+  },
+  {
+    "bib": "508",
+    "name": "Ezequiel Barraguirre",
+    "age_group": "M40-44",
+    "finish_time": "06:48:32",
+    "finish_time_seconds": 24512,
+    "gender_place": "260",
+    "graded_time_seconds": 22703.0144,
+    "graded_time": "06:18:23",
+    "unique_key": [
+      "Ezequiel Barraguirre",
+      "06:48:32"
+    ],
+    "graded_place": 257,
+    "ag_place": 44
+  },
+  {
+    "bib": "386",
+    "name": "Marcelo Emilio Ayala Person",
+    "age_group": "M30-34",
+    "finish_time": "06:32:54",
+    "finish_time_seconds": 23574,
+    "gender_place": "236",
+    "graded_time_seconds": 22760.697,
+    "graded_time": "06:19:20",
+    "unique_key": [
+      "Marcelo Emilio Ayala Person",
+      "06:32:54"
+    ],
+    "graded_place": 258,
+    "ag_place": 29
+  },
+  {
+    "bib": "316",
+    "name": "Gustavo Martin Grande",
+    "age_group": "M40-44",
+    "finish_time": "06:50:08",
+    "finish_time_seconds": 24608,
+    "gender_place": "262",
+    "graded_time_seconds": 22791.9296,
+    "graded_time": "06:19:51",
+    "unique_key": [
+      "Gustavo Martin Grande",
+      "06:50:08"
+    ],
+    "graded_place": 259,
+    "ag_place": 45
+  },
+  {
+    "bib": "501",
+    "name": "Brian German Walker",
+    "age_group": "M40-44",
+    "finish_time": "06:50:25",
+    "finish_time_seconds": 24625,
+    "gender_place": "263",
+    "graded_time_seconds": 22807.675,
+    "graded_time": "06:20:07",
+    "unique_key": [
+      "Brian German Walker",
+      "06:50:25"
+    ],
+    "graded_place": 260,
+    "ag_place": 46
+  },
+  {
+    "bib": "401",
+    "name": "Marcos Diesing",
+    "age_group": "M40-44",
+    "finish_time": "06:50:48",
+    "finish_time_seconds": 24648,
+    "gender_place": "264",
+    "graded_time_seconds": 22828.977600000002,
+    "graded_time": "06:20:28",
+    "unique_key": [
+      "Marcos Diesing",
+      "06:50:48"
+    ],
+    "graded_place": 261,
+    "ag_place": 47
+  },
+  {
+    "bib": "187",
+    "name": "Jose Gabriel Gomez Bartrina",
+    "age_group": "M30-34",
+    "finish_time": "06:34:38",
+    "finish_time_seconds": 23678,
+    "gender_place": "241",
+    "graded_time_seconds": 22861.109,
+    "graded_time": "06:21:01",
+    "unique_key": [
+      "Jose Gabriel Gomez Bartrina",
+      "06:34:38"
+    ],
+    "graded_place": 262,
+    "ag_place": 30
+  },
+  {
+    "bib": "443",
+    "name": "Carlos Viedma Inchaustti",
+    "age_group": "M40-44",
+    "finish_time": "06:51:59",
+    "finish_time_seconds": 24719,
+    "gender_place": "265",
+    "graded_time_seconds": 22894.7378,
+    "graded_time": "06:21:34",
+    "unique_key": [
+      "Carlos Viedma Inchaustti",
+      "06:51:59"
+    ],
+    "graded_place": 263,
+    "ag_place": 48
+  },
+  {
+    "bib": "302",
+    "name": "Federico Tapia",
+    "age_group": "M40-44",
+    "finish_time": "06:52:30",
+    "finish_time_seconds": 24750,
+    "gender_place": "267",
+    "graded_time_seconds": 22923.45,
+    "graded_time": "06:22:03",
+    "unique_key": [
+      "Federico Tapia",
+      "06:52:30"
+    ],
+    "graded_place": 264,
+    "ag_place": 49
+  },
+  {
+    "bib": "276",
+    "name": "Paulo Gabriel Medeiros de Araujo",
+    "age_group": "M25-29",
+    "finish_time": "06:24:49",
+    "finish_time_seconds": 23089,
+    "gender_place": "223",
+    "graded_time_seconds": 22925.0681,
+    "graded_time": "06:22:05",
+    "unique_key": [
+      "Paulo Gabriel Medeiros de Araujo",
+      "06:24:49"
+    ],
+    "graded_place": 265,
+    "ag_place": 16
+  },
+  {
+    "bib": "413",
+    "name": "Joaquin Roa",
+    "age_group": "M30-34",
+    "finish_time": "06:35:52",
+    "finish_time_seconds": 23752,
+    "gender_place": "243",
+    "graded_time_seconds": 22932.556,
+    "graded_time": "06:22:12",
+    "unique_key": [
+      "Joaquin Roa",
+      "06:35:52"
+    ],
+    "graded_place": 266,
+    "ag_place": 31
+  },
+  {
+    "bib": "417",
+    "name": "Mauricio Cristaldo Grommeck",
+    "age_group": "M40-44",
+    "finish_time": "06:52:59",
+    "finish_time_seconds": 24779,
+    "gender_place": "268",
+    "graded_time_seconds": 22950.3098,
+    "graded_time": "06:22:30",
+    "unique_key": [
+      "Mauricio Cristaldo Grommeck",
+      "06:52:59"
+    ],
+    "graded_place": 267,
+    "ag_place": 50
+  },
+  {
+    "bib": "483",
+    "name": "Sebastian Ferreira",
+    "age_group": "M35-39",
+    "finish_time": "06:42:58",
+    "finish_time_seconds": 24178,
+    "gender_place": "254",
+    "graded_time_seconds": 22969.1,
+    "graded_time": "06:22:49",
+    "unique_key": [
+      "Sebastian Ferreira",
+      "06:42:58"
+    ],
+    "graded_place": 268,
+    "ag_place": 54
+  },
+  {
+    "bib": "486",
+    "name": "Robert Gutierrez",
+    "age_group": "M50-54",
+    "finish_time": "07:15:24",
+    "finish_time_seconds": 26124,
+    "gender_place": "285",
+    "graded_time_seconds": 23075.3292,
+    "graded_time": "06:24:35",
+    "unique_key": [
+      "Robert Gutierrez",
+      "07:15:24"
+    ],
+    "graded_place": 269,
+    "ag_place": 30
+  },
+  {
+    "bib": "HL91517",
+    "name": "Jose Javier Vinas",
+    "age_group": "M50-54",
+    "finish_time": "07:15:30",
+    "finish_time_seconds": 26130,
+    "gender_place": "286",
+    "graded_time_seconds": 23080.629,
+    "graded_time": "06:24:40",
+    "unique_key": [
+      "Jose Javier Vinas",
+      "07:15:30"
+    ],
+    "graded_place": 270,
+    "ag_place": 31
+  },
+  {
+    "bib": "329",
+    "name": "Rodrigo Benitez",
+    "age_group": "M30-34",
+    "finish_time": "06:38:54",
+    "finish_time_seconds": 23934,
+    "gender_place": "246",
+    "graded_time_seconds": 23108.277000000002,
+    "graded_time": "06:25:08",
+    "unique_key": [
+      "Rodrigo Benitez",
+      "06:38:54"
+    ],
+    "graded_place": 271,
+    "ag_place": 32
+  },
+  {
+    "bib": "312",
+    "name": "Rogelio Burgos",
+    "age_group": "M65-69",
+    "finish_time": "08:24:33",
+    "finish_time_seconds": 30273,
+    "gender_place": "311",
+    "graded_time_seconds": 23128.572,
+    "graded_time": "06:25:28",
+    "unique_key": [
+      "Rogelio Burgos",
+      "08:24:33"
+    ],
+    "graded_place": 272,
+    "ag_place": 3
+  },
+  {
+    "bib": "493",
+    "name": "David Mendieta Velazquez",
+    "age_group": "M30-34",
+    "finish_time": "06:40:33",
+    "finish_time_seconds": 24033,
+    "gender_place": "248",
+    "graded_time_seconds": 23203.8615,
+    "graded_time": "06:26:43",
+    "unique_key": [
+      "David Mendieta Velazquez",
+      "06:40:33"
+    ],
+    "graded_place": 273,
+    "ag_place": 33
+  },
+  {
+    "bib": "207",
+    "name": "Omar Mongelos",
+    "age_group": "M40-44",
+    "finish_time": "06:59:06",
+    "finish_time_seconds": 25146,
+    "gender_place": "273",
+    "graded_time_seconds": 23290.2252,
+    "graded_time": "06:28:10",
+    "unique_key": [
+      "Omar Mongelos",
+      "06:59:06"
+    ],
+    "graded_place": 274,
+    "ag_place": 51
+  },
+  {
+    "bib": "356",
+    "name": "Luis Maria Gamarra",
+    "age_group": "M40-44",
+    "finish_time": "07:02:09",
+    "finish_time_seconds": 25329,
+    "gender_place": "274",
+    "graded_time_seconds": 23459.7198,
+    "graded_time": "06:30:59",
+    "unique_key": [
+      "Luis Maria Gamarra",
+      "07:02:09"
+    ],
+    "graded_place": 275,
+    "ag_place": 52
+  },
+  {
+    "bib": "374",
+    "name": "Alejandro Anazco Vera",
+    "age_group": "M25-29",
+    "finish_time": "06:34:11",
+    "finish_time_seconds": 23651,
+    "gender_place": "240",
+    "graded_time_seconds": 23483.0779,
+    "graded_time": "06:31:23",
+    "unique_key": [
+      "Alejandro Anazco Vera",
+      "06:34:11"
+    ],
+    "graded_place": 276,
+    "ag_place": 17
+  },
+  {
+    "bib": "484",
+    "name": "Carlos Alfieri Nisenbaum",
+    "age_group": "M45-49",
+    "finish_time": "07:16:00",
+    "finish_time_seconds": 26160,
+    "gender_place": "287",
+    "graded_time_seconds": 23486.448,
+    "graded_time": "06:31:26",
+    "unique_key": [
+      "Carlos Alfieri Nisenbaum",
+      "07:16:00"
+    ],
+    "graded_place": 277,
+    "ag_place": 55
+  },
+  {
+    "bib": "407",
+    "name": "Ramiro Caceres Galeano",
+    "age_group": "M35-39",
+    "finish_time": "06:52:05",
+    "finish_time_seconds": 24725,
+    "gender_place": "266",
+    "graded_time_seconds": 23488.75,
+    "graded_time": "06:31:28",
+    "unique_key": [
+      "Ramiro Caceres Galeano",
+      "06:52:05"
+    ],
+    "graded_place": 278,
+    "ag_place": 55
+  },
+  {
+    "bib": "392",
+    "name": "Alejandro Garcia Padilla",
+    "age_group": "M18-24",
+    "finish_time": "06:33:50",
+    "finish_time_seconds": 23630,
+    "gender_place": "239",
+    "graded_time_seconds": 23630.0,
+    "graded_time": "06:33:50",
+    "unique_key": [
+      "Alejandro Garcia Padilla",
+      "06:33:50"
+    ],
+    "graded_place": 279,
+    "ag_place": 7
+  },
+  {
+    "bib": "509",
+    "name": "Marcelo Benitez",
+    "age_group": "M45-49",
+    "finish_time": "07:19:04",
+    "finish_time_seconds": 26344,
+    "gender_place": "289",
+    "graded_time_seconds": 23651.643200000002,
+    "graded_time": "06:34:11",
+    "unique_key": [
+      "Marcelo Benitez",
+      "07:19:04"
+    ],
+    "graded_place": 280,
+    "ag_place": 56
+  },
+  {
+    "bib": "286",
+    "name": "Guillermo Mardini Huarcaya",
+    "age_group": "M30-34",
+    "finish_time": "06:48:21",
+    "finish_time_seconds": 24501,
+    "gender_place": "259",
+    "graded_time_seconds": 23655.715500000002,
+    "graded_time": "06:34:15",
+    "unique_key": [
+      "Guillermo Mardini Huarcaya",
+      "06:48:21"
+    ],
+    "graded_place": 281,
+    "ag_place": 34
+  },
+  {
+    "bib": "424",
+    "name": "Pablo Andres Vega Meza",
+    "age_group": "M30-34",
+    "finish_time": "06:49:16",
+    "finish_time_seconds": 24556,
+    "gender_place": "261",
+    "graded_time_seconds": 23708.818,
+    "graded_time": "06:35:08",
+    "unique_key": [
+      "Pablo Andres Vega Meza",
+      "06:49:16"
+    ],
+    "graded_place": 282,
+    "ag_place": 35
+  },
+  {
+    "bib": "193",
+    "name": "Juan Leopoldo Balsevich Prieto",
+    "age_group": "M55-59",
+    "finish_time": "07:42:21",
+    "finish_time_seconds": 27741,
+    "gender_place": "304",
+    "graded_time_seconds": 23760.1665,
+    "graded_time": "06:36:00",
+    "unique_key": [
+      "Juan Leopoldo Balsevich Prieto",
+      "07:42:21"
+    ],
+    "graded_place": 283,
+    "ag_place": 15
+  },
+  {
+    "bib": "441",
+    "name": "Jose Sanchez",
+    "age_group": "M45-49",
+    "finish_time": "07:21:09",
+    "finish_time_seconds": 26469,
+    "gender_place": "290",
+    "graded_time_seconds": 23763.8682,
+    "graded_time": "06:36:03",
+    "unique_key": [
+      "Jose Sanchez",
+      "07:21:09"
+    ],
+    "graded_place": 284,
+    "ag_place": 57
+  },
+  {
+    "bib": "297",
+    "name": "Rodolfo Ayala Pelzer",
+    "age_group": "M45-49",
+    "finish_time": "07:21:18",
+    "finish_time_seconds": 26478,
+    "gender_place": "291",
+    "graded_time_seconds": 23771.9484,
+    "graded_time": "06:36:11",
+    "unique_key": [
+      "Rodolfo Ayala Pelzer",
+      "07:21:18"
+    ],
+    "graded_place": 285,
+    "ag_place": 58
+  },
+  {
+    "bib": "480",
+    "name": "Guillermo Gimenez",
+    "age_group": "M25-29",
+    "finish_time": "06:41:17",
+    "finish_time_seconds": 24077,
+    "gender_place": "251",
+    "graded_time_seconds": 23906.0533,
+    "graded_time": "06:38:26",
+    "unique_key": [
+      "Guillermo Gimenez",
+      "06:41:17"
+    ],
+    "graded_place": 286,
+    "ag_place": 18
+  },
+  {
+    "bib": "255",
+    "name": "Brian Leyton",
+    "age_group": "M30-34",
+    "finish_time": "06:53:52",
+    "finish_time_seconds": 24832,
+    "gender_place": "269",
+    "graded_time_seconds": 23975.296000000002,
+    "graded_time": "06:39:35",
+    "unique_key": [
+      "Brian Leyton",
+      "06:53:52"
+    ],
+    "graded_place": 287,
+    "ag_place": 36
+  },
+  {
+    "bib": "423",
+    "name": "Jose Ramirez",
+    "age_group": "M45-49",
+    "finish_time": "07:27:04",
+    "finish_time_seconds": 26824,
+    "gender_place": "295",
+    "graded_time_seconds": 24082.5872,
+    "graded_time": "06:41:22",
+    "unique_key": [
+      "Jose Ramirez",
+      "07:27:04"
+    ],
+    "graded_place": 288,
+    "ag_place": 59
+  },
+  {
+    "bib": "365",
+    "name": "Pool Edmerson Resquin Loncharich",
+    "age_group": "M40-44",
+    "finish_time": "07:13:41",
+    "finish_time_seconds": 26021,
+    "gender_place": "283",
+    "graded_time_seconds": 24100.6502,
+    "graded_time": "06:41:40",
+    "unique_key": [
+      "Pool Edmerson Resquin Loncharich",
+      "07:13:41"
+    ],
+    "graded_place": 289,
+    "ag_place": 53
+  },
+  {
+    "bib": "421",
+    "name": "Jose Luis Vega Meza",
+    "age_group": "M45-49",
+    "finish_time": "07:29:51",
+    "finish_time_seconds": 26991,
+    "gender_place": "296",
+    "graded_time_seconds": 24232.519800000002,
+    "graded_time": "06:43:52",
+    "unique_key": [
+      "Jose Luis Vega Meza",
+      "07:29:51"
+    ],
+    "graded_place": 290,
+    "ag_place": 60
+  },
+  {
+    "bib": "485",
+    "name": "Manuel Benitez Codas",
+    "age_group": "M45-49",
+    "finish_time": "07:29:54",
+    "finish_time_seconds": 26994,
+    "gender_place": "297",
+    "graded_time_seconds": 24235.213200000002,
+    "graded_time": "06:43:55",
+    "unique_key": [
+      "Manuel Benitez Codas",
+      "07:29:54"
+    ],
+    "graded_place": 291,
+    "ag_place": 61
+  },
+  {
+    "bib": "498",
+    "name": "Guillermo Angeles",
+    "age_group": "M35-39",
+    "finish_time": "07:05:32",
+    "finish_time_seconds": 25532,
+    "gender_place": "278",
+    "graded_time_seconds": 24255.399999999998,
+    "graded_time": "06:44:15",
+    "unique_key": [
+      "Guillermo Angeles",
+      "07:05:32"
+    ],
+    "graded_place": 292,
+    "ag_place": 56
+  },
+  {
+    "bib": "390",
+    "name": "Claudio Rodriguez",
+    "age_group": "M40-44",
+    "finish_time": "07:17:05",
+    "finish_time_seconds": 26225,
+    "gender_place": "288",
+    "graded_time_seconds": 24289.595,
+    "graded_time": "06:44:49",
+    "unique_key": [
+      "Claudio Rodriguez",
+      "07:17:05"
+    ],
+    "graded_place": 293,
+    "ag_place": 54
+  },
+  {
+    "bib": "432",
+    "name": "San Luis Wong Ting",
+    "age_group": "M30-34",
+    "finish_time": "07:15:00",
+    "finish_time_seconds": 26100,
+    "gender_place": "284",
+    "graded_time_seconds": 25199.55,
+    "graded_time": "06:59:59",
+    "unique_key": [
+      "San Luis Wong Ting",
+      "07:15:00"
+    ],
+    "graded_place": 294,
+    "ag_place": 37
+  },
+  {
+    "bib": "489",
+    "name": "Juanjo Gonzalez",
+    "age_group": "M45-49",
+    "finish_time": "07:51:11",
+    "finish_time_seconds": 28271,
+    "gender_place": "307",
+    "graded_time_seconds": 25381.703800000003,
+    "graded_time": "07:03:01",
+    "unique_key": [
+      "Juanjo Gonzalez",
+      "07:51:11"
+    ],
+    "graded_place": 295,
+    "ag_place": 62
+  },
+  {
+    "bib": "515",
+    "name": "Jose Carlos Marin Amarilla",
+    "age_group": "M35-39",
+    "finish_time": "07:26:45",
+    "finish_time_seconds": 26805,
+    "gender_place": "294",
+    "graded_time_seconds": 25464.75,
+    "graded_time": "07:04:24",
+    "unique_key": [
+      "Jose Carlos Marin Amarilla",
+      "07:26:45"
+    ],
+    "graded_place": 296,
+    "ag_place": 57
+  },
+  {
+    "bib": "459",
+    "name": "Sebastian Galeano Fatecha",
+    "age_group": "M18-24",
+    "finish_time": "07:05:30",
+    "finish_time_seconds": 25530,
+    "gender_place": "277",
+    "graded_time_seconds": 25530.0,
+    "graded_time": "07:05:30",
+    "unique_key": [
+      "Sebastian Galeano Fatecha",
+      "07:05:30"
+    ],
+    "graded_place": 297,
+    "ag_place": 8
+  },
+  {
+    "bib": "492",
+    "name": "Jorge Gabriel Gimenez Santa Cruz",
+    "age_group": "M25-29",
+    "finish_time": "07:09:12",
+    "finish_time_seconds": 25752,
+    "gender_place": "281",
+    "graded_time_seconds": 25569.1608,
+    "graded_time": "07:06:09",
+    "unique_key": [
+      "Jorge Gabriel Gimenez Santa Cruz",
+      "07:09:12"
+    ],
+    "graded_place": 298,
+    "ag_place": 19
+  },
+  {
+    "bib": "215",
+    "name": "Jose Auad Pacheco",
+    "age_group": "M35-39",
+    "finish_time": "07:30:01",
+    "finish_time_seconds": 27001,
+    "gender_place": "298",
+    "graded_time_seconds": 25650.949999999997,
+    "graded_time": "07:07:30",
+    "unique_key": [
+      "Jose Auad Pacheco",
+      "07:30:01"
+    ],
+    "graded_place": 299,
+    "ag_place": 58
+  },
+  {
+    "bib": "450",
+    "name": "Diego Fernando Arevalos",
+    "age_group": "M35-39",
+    "finish_time": "07:30:05",
+    "finish_time_seconds": 27005,
+    "gender_place": "299",
+    "graded_time_seconds": 25654.75,
+    "graded_time": "07:07:34",
+    "unique_key": [
+      "Diego Fernando Arevalos",
+      "07:30:05"
+    ],
+    "graded_place": 300,
+    "ag_place": 59
+  },
+  {
+    "bib": "436",
+    "name": "Ogando Barrientos",
+    "age_group": "M35-39",
+    "finish_time": "07:30:59",
+    "finish_time_seconds": 27059,
+    "gender_place": "300",
+    "graded_time_seconds": 25706.05,
+    "graded_time": "07:08:26",
+    "unique_key": [
+      "Ogando Barrientos",
+      "07:30:59"
+    ],
+    "graded_place": 301,
+    "ag_place": 60
+  },
+  {
+    "bib": "382",
+    "name": "David Britez",
+    "age_group": "M40-44",
+    "finish_time": "07:43:03",
+    "finish_time_seconds": 27783,
+    "gender_place": "305",
+    "graded_time_seconds": 25732.6146,
+    "graded_time": "07:08:52",
+    "unique_key": [
+      "David Britez",
+      "07:43:03"
+    ],
+    "graded_place": 302,
+    "ag_place": 55
+  },
+  {
+    "bib": "188",
+    "name": "Istvan de Barath",
+    "age_group": "M50-54",
+    "finish_time": "08:07:01",
+    "finish_time_seconds": 29221,
+    "gender_place": "310",
+    "graded_time_seconds": 25810.9093,
+    "graded_time": "07:10:10",
+    "unique_key": [
+      "Istvan de Barath",
+      "08:07:01"
+    ],
+    "graded_place": 303,
+    "ag_place": 32
+  },
+  {
+    "bib": "HN21505",
+    "name": "Nicolas Febre",
+    "age_group": "M18-24",
+    "finish_time": "07:10:53",
+    "finish_time_seconds": 25853,
+    "gender_place": "282",
+    "graded_time_seconds": 25853.0,
+    "graded_time": "07:10:53",
+    "unique_key": [
+      "Nicolas Febre",
+      "07:10:53"
+    ],
+    "graded_place": 304,
+    "ag_place": 9
+  },
+  {
+    "bib": "209",
+    "name": "Jorge Planas",
+    "age_group": "M35-39",
+    "finish_time": "07:38:34",
+    "finish_time_seconds": 27514,
+    "gender_place": "303",
+    "graded_time_seconds": 26138.3,
+    "graded_time": "07:15:38",
+    "unique_key": [
+      "Jorge Planas",
+      "07:38:34"
+    ],
+    "graded_place": 305,
+    "ag_place": 61
+  },
+  {
+    "bib": "232",
+    "name": "Victor Hugo Pereira",
+    "age_group": "M25-29",
+    "finish_time": "07:22:12",
+    "finish_time_seconds": 26532,
+    "gender_place": "292",
+    "graded_time_seconds": 26343.6228,
+    "graded_time": "07:19:03",
+    "unique_key": [
+      "Victor Hugo Pereira",
+      "07:22:12"
+    ],
+    "graded_place": 306,
+    "ag_place": 20
+  },
+  {
+    "bib": "475",
+    "name": "Gustavo Cogorno Jara",
+    "age_group": "M25-29",
+    "finish_time": "07:22:19",
+    "finish_time_seconds": 26539,
+    "gender_place": "293",
+    "graded_time_seconds": 26350.5731,
+    "graded_time": "07:19:10",
+    "unique_key": [
+      "Gustavo Cogorno Jara",
+      "07:22:19"
+    ],
+    "graded_place": 307,
+    "ag_place": 21
+  },
+  {
+    "bib": "314",
+    "name": "Juan Angel Gonzalez Orihuela",
+    "age_group": "M40-44",
+    "finish_time": "07:54:28",
+    "finish_time_seconds": 28468,
+    "gender_place": "308",
+    "graded_time_seconds": 26367.0616,
+    "graded_time": "07:19:27",
+    "unique_key": [
+      "Juan Angel Gonzalez Orihuela",
+      "07:54:28"
+    ],
+    "graded_place": 308,
+    "ag_place": 56
+  },
+  {
+    "bib": "511",
+    "name": "Cesar Galeano Grassi",
+    "age_group": "M35-39",
+    "finish_time": "07:44:15",
+    "finish_time_seconds": 27855,
+    "gender_place": "306",
+    "graded_time_seconds": 26462.25,
+    "graded_time": "07:21:02",
+    "unique_key": [
+      "Cesar Galeano Grassi",
+      "07:44:15"
+    ],
+    "graded_place": 309,
+    "ag_place": 62
+  },
+  {
+    "bib": "476",
+    "name": "Gabriel de Almeida Lippi Junior",
+    "age_group": "M30-34",
+    "finish_time": "07:38:01",
+    "finish_time_seconds": 27481,
+    "gender_place": "302",
+    "graded_time_seconds": 26532.9055,
+    "graded_time": "07:22:12",
+    "unique_key": [
+      "Gabriel de Almeida Lippi Junior",
+      "07:38:01"
+    ],
+    "graded_place": 310,
+    "ag_place": 38
+  },
+  {
+    "bib": "458",
+    "name": "Sebastian Rios",
+    "age_group": "M25-29",
+    "finish_time": "07:58:24",
+    "finish_time_seconds": 28704,
+    "gender_place": "309",
+    "graded_time_seconds": 28500.2016,
+    "graded_time": "07:55:00",
+    "unique_key": [
+      "Sebastian Rios",
+      "07:58:24"
+    ],
+    "graded_place": 311,
+    "ag_place": 22
+  }
+]

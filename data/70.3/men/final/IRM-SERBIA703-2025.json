@@ -1,0 +1,7554 @@
+[
+  {
+    "bib": "16",
+    "name": "Mark Hummel",
+    "age_group": "M55-59",
+    "finish_time": "04:30:40",
+    "finish_time_seconds": 16240,
+    "gender_place": "41",
+    "graded_time_seconds": 13909.560000000001,
+    "graded_time": "03:51:49",
+    "unique_key": [
+      "Mark Hummel",
+      "04:30:40"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "12",
+    "name": "Keith Murray",
+    "age_group": "M50-54",
+    "finish_time": "04:22:28",
+    "finish_time_seconds": 15748,
+    "gender_place": "17",
+    "graded_time_seconds": 13910.2084,
+    "graded_time": "03:51:50",
+    "unique_key": [
+      "Keith Murray",
+      "04:22:28"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "664",
+    "name": "Barlas Kazanci",
+    "age_group": "M45-49",
+    "finish_time": "04:20:37",
+    "finish_time_seconds": 15637,
+    "gender_place": "14",
+    "graded_time_seconds": 14038.8986,
+    "graded_time": "03:53:58",
+    "unique_key": [
+      "Barlas Kazanci",
+      "04:20:37"
+    ],
+    "graded_place": 3,
+    "ag_place": 1
+  },
+  {
+    "bib": "48",
+    "name": "Justus Wehrhahn",
+    "age_group": "M25-29",
+    "finish_time": "03:56:10",
+    "finish_time_seconds": 14170,
+    "gender_place": "1",
+    "graded_time_seconds": 14069.393,
+    "graded_time": "03:54:29",
+    "unique_key": [
+      "Justus Wehrhahn",
+      "03:56:10"
+    ],
+    "graded_place": 4,
+    "ag_place": 1
+  },
+  {
+    "bib": "337",
+    "name": "Steve Williams",
+    "age_group": "M50-54",
+    "finish_time": "04:25:47",
+    "finish_time_seconds": 15947,
+    "gender_place": "22",
+    "graded_time_seconds": 14085.9851,
+    "graded_time": "03:54:45",
+    "unique_key": [
+      "Steve Williams",
+      "04:25:47"
+    ],
+    "graded_place": 5,
+    "ag_place": 2
+  },
+  {
+    "bib": "86",
+    "name": "Ales Suhadolnik",
+    "age_group": "M45-49",
+    "finish_time": "04:21:34",
+    "finish_time_seconds": 15694,
+    "gender_place": "15",
+    "graded_time_seconds": 14090.0732,
+    "graded_time": "03:54:50",
+    "unique_key": [
+      "Ales Suhadolnik",
+      "04:21:34"
+    ],
+    "graded_place": 6,
+    "ag_place": 2
+  },
+  {
+    "bib": "600",
+    "name": "Matthias Grosser",
+    "age_group": "M40-44",
+    "finish_time": "04:14:47",
+    "finish_time_seconds": 15287,
+    "gender_place": "7",
+    "graded_time_seconds": 14158.8194,
+    "graded_time": "03:55:58",
+    "unique_key": [
+      "Matthias Grosser",
+      "04:14:47"
+    ],
+    "graded_place": 7,
+    "ag_place": 1
+  },
+  {
+    "bib": "361",
+    "name": "Ben Redman",
+    "age_group": "M45-49",
+    "finish_time": "04:24:41",
+    "finish_time_seconds": 15881,
+    "gender_place": "21",
+    "graded_time_seconds": 14257.961800000001,
+    "graded_time": "03:57:37",
+    "unique_key": [
+      "Ben Redman",
+      "04:24:41"
+    ],
+    "graded_place": 8,
+    "ag_place": 3
+  },
+  {
+    "bib": "485",
+    "name": "Philipp Tichy",
+    "age_group": "M30-34",
+    "finish_time": "04:08:12",
+    "finish_time_seconds": 14892,
+    "gender_place": "3",
+    "graded_time_seconds": 14378.226,
+    "graded_time": "03:59:38",
+    "unique_key": [
+      "Philipp Tichy",
+      "04:08:12"
+    ],
+    "graded_place": 9,
+    "ag_place": 1
+  },
+  {
+    "bib": "139",
+    "name": "Radu Liuba",
+    "age_group": "M35-39",
+    "finish_time": "04:12:34",
+    "finish_time_seconds": 15154,
+    "gender_place": "5",
+    "graded_time_seconds": 14396.3,
+    "graded_time": "03:59:56",
+    "unique_key": [
+      "Radu Liuba",
+      "04:12:34"
+    ],
+    "graded_place": 10,
+    "ag_place": 1
+  },
+  {
+    "bib": "2",
+    "name": "Dragoslav Jotanovic",
+    "age_group": "M45-49",
+    "finish_time": "04:28:25",
+    "finish_time_seconds": 16105,
+    "gender_place": "32",
+    "graded_time_seconds": 14459.069000000001,
+    "graded_time": "04:00:59",
+    "unique_key": [
+      "Dragoslav Jotanovic",
+      "04:28:25"
+    ],
+    "graded_place": 11,
+    "ag_place": 4
+  },
+  {
+    "bib": "53",
+    "name": "Oscar Lopez Arnal",
+    "age_group": "M45-49",
+    "finish_time": "04:29:44",
+    "finish_time_seconds": 16184,
+    "gender_place": "37",
+    "graded_time_seconds": 14529.995200000001,
+    "graded_time": "04:02:09",
+    "unique_key": [
+      "Oscar Lopez Arnal",
+      "04:29:44"
+    ],
+    "graded_place": 12,
+    "ag_place": 5
+  },
+  {
+    "bib": "39",
+    "name": "Pedro Echevarria",
+    "age_group": "M45-49",
+    "finish_time": "04:30:24",
+    "finish_time_seconds": 16224,
+    "gender_place": "38",
+    "graded_time_seconds": 14565.907200000001,
+    "graded_time": "04:02:45",
+    "unique_key": [
+      "Pedro Echevarria",
+      "04:30:24"
+    ],
+    "graded_place": 13,
+    "ag_place": 6
+  },
+  {
+    "bib": "586",
+    "name": "Dmitrii Zaloga",
+    "age_group": "M35-39",
+    "finish_time": "04:16:02",
+    "finish_time_seconds": 15362,
+    "gender_place": "8",
+    "graded_time_seconds": 14593.9,
+    "graded_time": "04:03:13",
+    "unique_key": [
+      "Dmitrii Zaloga",
+      "04:16:02"
+    ],
+    "graded_place": 14,
+    "ag_place": 2
+  },
+  {
+    "bib": "665",
+    "name": "Mert Agan",
+    "age_group": "M45-49",
+    "finish_time": "04:31:01",
+    "finish_time_seconds": 16261,
+    "gender_place": "44",
+    "graded_time_seconds": 14599.1258,
+    "graded_time": "04:03:19",
+    "unique_key": [
+      "Mert Agan",
+      "04:31:01"
+    ],
+    "graded_place": 15,
+    "ag_place": 7
+  },
+  {
+    "bib": "138",
+    "name": "Ben Rawlins",
+    "age_group": "M25-29",
+    "finish_time": "04:06:08",
+    "finish_time_seconds": 14768,
+    "gender_place": "2",
+    "graded_time_seconds": 14663.1472,
+    "graded_time": "04:04:23",
+    "unique_key": [
+      "Ben Rawlins",
+      "04:06:08"
+    ],
+    "graded_place": 16,
+    "ag_place": 2
+  },
+  {
+    "bib": "459",
+    "name": "Tim Beerens",
+    "age_group": "M30-34",
+    "finish_time": "04:14:00",
+    "finish_time_seconds": 15240,
+    "gender_place": "6",
+    "graded_time_seconds": 14714.220000000001,
+    "graded_time": "04:05:14",
+    "unique_key": [
+      "Tim Beerens",
+      "04:14:00"
+    ],
+    "graded_place": 17,
+    "ag_place": 2
+  },
+  {
+    "bib": "443",
+    "name": "Ahmet Yavaş",
+    "age_group": "M50-54",
+    "finish_time": "04:38:15",
+    "finish_time_seconds": 16695,
+    "gender_place": "56",
+    "graded_time_seconds": 14746.6935,
+    "graded_time": "04:05:46",
+    "unique_key": [
+      "Ahmet Yavaş",
+      "04:38:15"
+    ],
+    "graded_place": 18,
+    "ag_place": 3
+  },
+  {
+    "bib": "604",
+    "name": "Valerij Fazlutdinov",
+    "age_group": "M55-59",
+    "finish_time": "04:47:00",
+    "finish_time_seconds": 17220,
+    "gender_place": "74",
+    "graded_time_seconds": 14748.93,
+    "graded_time": "04:05:48",
+    "unique_key": [
+      "Valerij Fazlutdinov",
+      "04:47:00"
+    ],
+    "graded_place": 19,
+    "ag_place": 2
+  },
+  {
+    "bib": "125",
+    "name": "Konstantin Koliasnikov",
+    "age_group": "M40-44",
+    "finish_time": "04:26:07",
+    "finish_time_seconds": 15967,
+    "gender_place": "23",
+    "graded_time_seconds": 14788.635400000001,
+    "graded_time": "04:06:28",
+    "unique_key": [
+      "Konstantin Koliasnikov",
+      "04:26:07"
+    ],
+    "graded_place": 20,
+    "ag_place": 2
+  },
+  {
+    "bib": "694",
+    "name": "Dmitrijs Kuzmins",
+    "age_group": "M40-44",
+    "finish_time": "04:26:42",
+    "finish_time_seconds": 16002,
+    "gender_place": "24",
+    "graded_time_seconds": 14821.0524,
+    "graded_time": "04:07:01",
+    "unique_key": [
+      "Dmitrijs Kuzmins",
+      "04:26:42"
+    ],
+    "graded_place": 21,
+    "ag_place": 3
+  },
+  {
+    "bib": "699",
+    "name": "Nemanja Ristovic",
+    "age_group": "M35-39",
+    "finish_time": "04:20:25",
+    "finish_time_seconds": 15625,
+    "gender_place": "13",
+    "graded_time_seconds": 14843.75,
+    "graded_time": "04:07:23",
+    "unique_key": [
+      "Nemanja Ristovic",
+      "04:20:25"
+    ],
+    "graded_place": 22,
+    "ag_place": 3
+  },
+  {
+    "bib": "43",
+    "name": "Olivier Depeauw",
+    "age_group": "M45-49",
+    "finish_time": "04:35:37",
+    "finish_time_seconds": 16537,
+    "gender_place": "51",
+    "graded_time_seconds": 14846.9186,
+    "graded_time": "04:07:26",
+    "unique_key": [
+      "Olivier Depeauw",
+      "04:35:37"
+    ],
+    "graded_place": 23,
+    "ag_place": 8
+  },
+  {
+    "bib": "436",
+    "name": "Aleksandr Sokolov",
+    "age_group": "M40-44",
+    "finish_time": "04:27:35",
+    "finish_time_seconds": 16055,
+    "gender_place": "27",
+    "graded_time_seconds": 14870.141,
+    "graded_time": "04:07:50",
+    "unique_key": [
+      "Aleksandr Sokolov",
+      "04:27:35"
+    ],
+    "graded_place": 24,
+    "ag_place": 4
+  },
+  {
+    "bib": "317",
+    "name": "Roman Karakulov",
+    "age_group": "M40-44",
+    "finish_time": "04:27:59",
+    "finish_time_seconds": 16079,
+    "gender_place": "30",
+    "graded_time_seconds": 14892.3698,
+    "graded_time": "04:08:12",
+    "unique_key": [
+      "Roman Karakulov",
+      "04:27:59"
+    ],
+    "graded_place": 25,
+    "ag_place": 5
+  },
+  {
+    "bib": "367",
+    "name": "Viktor Parkhomchuk",
+    "age_group": "M40-44",
+    "finish_time": "04:28:21",
+    "finish_time_seconds": 16101,
+    "gender_place": "31",
+    "graded_time_seconds": 14912.7462,
+    "graded_time": "04:08:32",
+    "unique_key": [
+      "Viktor Parkhomchuk",
+      "04:28:21"
+    ],
+    "graded_place": 26,
+    "ag_place": 6
+  },
+  {
+    "bib": "209",
+    "name": "Piergiovanni Furlanis",
+    "age_group": "M55-59",
+    "finish_time": "04:50:19",
+    "finish_time_seconds": 17419,
+    "gender_place": "83",
+    "graded_time_seconds": 14919.373500000002,
+    "graded_time": "04:08:39",
+    "unique_key": [
+      "Piergiovanni Furlanis",
+      "04:50:19"
+    ],
+    "graded_place": 27,
+    "ag_place": 3
+  },
+  {
+    "bib": "468",
+    "name": "Mattia Ambrosini",
+    "age_group": "M35-39",
+    "finish_time": "04:21:48",
+    "finish_time_seconds": 15708,
+    "gender_place": "16",
+    "graded_time_seconds": 14922.599999999999,
+    "graded_time": "04:08:42",
+    "unique_key": [
+      "Mattia Ambrosini",
+      "04:21:48"
+    ],
+    "graded_place": 28,
+    "ag_place": 4
+  },
+  {
+    "bib": "379",
+    "name": "Dominik Schneidhofer",
+    "age_group": "M18-24",
+    "finish_time": "04:08:56",
+    "finish_time_seconds": 14936,
+    "gender_place": "4",
+    "graded_time_seconds": 14936.0,
+    "graded_time": "04:08:56",
+    "unique_key": [
+      "Dominik Schneidhofer",
+      "04:08:56"
+    ],
+    "graded_place": 29,
+    "ag_place": 1
+  },
+  {
+    "bib": "407",
+    "name": "Mario Ruta",
+    "age_group": "M45-49",
+    "finish_time": "04:37:25",
+    "finish_time_seconds": 16645,
+    "gender_place": "55",
+    "graded_time_seconds": 14943.881000000001,
+    "graded_time": "04:09:03",
+    "unique_key": [
+      "Mario Ruta",
+      "04:37:25"
+    ],
+    "graded_place": 30,
+    "ag_place": 9
+  },
+  {
+    "bib": "132",
+    "name": "Frank Schreiner",
+    "age_group": "M60-64",
+    "finish_time": "05:04:16",
+    "finish_time_seconds": 18256,
+    "gender_place": "116",
+    "graded_time_seconds": 14955.315200000001,
+    "graded_time": "04:09:15",
+    "unique_key": [
+      "Frank Schreiner",
+      "05:04:16"
+    ],
+    "graded_place": 31,
+    "ag_place": 1
+  },
+  {
+    "bib": "190",
+    "name": "Adi Musli",
+    "age_group": "M40-44",
+    "finish_time": "04:29:26",
+    "finish_time_seconds": 16166,
+    "gender_place": "34",
+    "graded_time_seconds": 14972.949200000001,
+    "graded_time": "04:09:32",
+    "unique_key": [
+      "Adi Musli",
+      "04:29:26"
+    ],
+    "graded_place": 32,
+    "ag_place": 7
+  },
+  {
+    "bib": "37",
+    "name": "Claudio Quintarelli",
+    "age_group": "M50-54",
+    "finish_time": "04:42:33",
+    "finish_time_seconds": 16953,
+    "gender_place": "67",
+    "graded_time_seconds": 14974.5849,
+    "graded_time": "04:09:34",
+    "unique_key": [
+      "Claudio Quintarelli",
+      "04:42:33"
+    ],
+    "graded_place": 33,
+    "ag_place": 4
+  },
+  {
+    "bib": "417",
+    "name": "Strahinja Strelic",
+    "age_group": "M30-34",
+    "finish_time": "04:18:33",
+    "finish_time_seconds": 15513,
+    "gender_place": "9",
+    "graded_time_seconds": 14977.8015,
+    "graded_time": "04:09:37",
+    "unique_key": [
+      "Strahinja Strelic",
+      "04:18:33"
+    ],
+    "graded_place": 34,
+    "ag_place": 3
+  },
+  {
+    "bib": "605",
+    "name": "Maxim Kosyakov",
+    "age_group": "M45-49",
+    "finish_time": "04:38:24",
+    "finish_time_seconds": 16704,
+    "gender_place": "57",
+    "graded_time_seconds": 14996.851200000001,
+    "graded_time": "04:09:56",
+    "unique_key": [
+      "Maxim Kosyakov",
+      "04:38:24"
+    ],
+    "graded_place": 35,
+    "ag_place": 10
+  },
+  {
+    "bib": "142",
+    "name": "Andrew Ackerley",
+    "age_group": "M50-54",
+    "finish_time": "04:42:59",
+    "finish_time_seconds": 16979,
+    "gender_place": "69",
+    "graded_time_seconds": 14997.5507,
+    "graded_time": "04:09:57",
+    "unique_key": [
+      "Andrew Ackerley",
+      "04:42:59"
+    ],
+    "graded_place": 36,
+    "ag_place": 5
+  },
+  {
+    "bib": "176",
+    "name": "Nikola Djordjevic",
+    "age_group": "M30-34",
+    "finish_time": "04:19:12",
+    "finish_time_seconds": 15552,
+    "gender_place": "11",
+    "graded_time_seconds": 15015.456,
+    "graded_time": "04:10:15",
+    "unique_key": [
+      "Nikola Djordjevic",
+      "04:19:12"
+    ],
+    "graded_place": 37,
+    "ag_place": 4
+  },
+  {
+    "bib": "413",
+    "name": "Jakub Leduchowski",
+    "age_group": "M35-39",
+    "finish_time": "04:24:01",
+    "finish_time_seconds": 15841,
+    "gender_place": "20",
+    "graded_time_seconds": 15048.949999999999,
+    "graded_time": "04:10:48",
+    "unique_key": [
+      "Jakub Leduchowski",
+      "04:24:01"
+    ],
+    "graded_place": 38,
+    "ag_place": 5
+  },
+  {
+    "bib": "3",
+    "name": "Vadim Skipin",
+    "age_group": "M45-49",
+    "finish_time": "04:39:53",
+    "finish_time_seconds": 16793,
+    "gender_place": "60",
+    "graded_time_seconds": 15076.7554,
+    "graded_time": "04:11:16",
+    "unique_key": [
+      "Vadim Skipin",
+      "04:39:53"
+    ],
+    "graded_place": 39,
+    "ag_place": 11
+  },
+  {
+    "bib": "1",
+    "name": "Aleksandar Beljan",
+    "age_group": "M45-49",
+    "finish_time": "04:39:53",
+    "finish_time_seconds": 16793,
+    "gender_place": "61",
+    "graded_time_seconds": 15076.7554,
+    "graded_time": "04:11:16",
+    "unique_key": [
+      "Aleksandar Beljan",
+      "04:39:53"
+    ],
+    "graded_place": 39,
+    "ag_place": 12
+  },
+  {
+    "bib": "8",
+    "name": "Jonty Summers",
+    "age_group": "M50-54",
+    "finish_time": "04:46:05",
+    "finish_time_seconds": 17165,
+    "gender_place": "72",
+    "graded_time_seconds": 15161.8445,
+    "graded_time": "04:12:41",
+    "unique_key": [
+      "Jonty Summers",
+      "04:46:05"
+    ],
+    "graded_place": 41,
+    "ag_place": 6
+  },
+  {
+    "bib": "10",
+    "name": "David Raymen",
+    "age_group": "M50-54",
+    "finish_time": "04:47:06",
+    "finish_time_seconds": 17226,
+    "gender_place": "75",
+    "graded_time_seconds": 15215.7258,
+    "graded_time": "04:13:35",
+    "unique_key": [
+      "David Raymen",
+      "04:47:06"
+    ],
+    "graded_place": 42,
+    "ag_place": 7
+  },
+  {
+    "bib": "506",
+    "name": "Emir Baralic",
+    "age_group": "M55-59",
+    "finish_time": "04:56:14",
+    "finish_time_seconds": 17774,
+    "gender_place": "99",
+    "graded_time_seconds": 15223.431,
+    "graded_time": "04:13:43",
+    "unique_key": [
+      "Emir Baralic",
+      "04:56:14"
+    ],
+    "graded_place": 43,
+    "ag_place": 4
+  },
+  {
+    "bib": "118",
+    "name": "Valery Gerashchenko",
+    "age_group": "M45-49",
+    "finish_time": "04:42:38",
+    "finish_time_seconds": 16958,
+    "gender_place": "68",
+    "graded_time_seconds": 15224.8924,
+    "graded_time": "04:13:44",
+    "unique_key": [
+      "Valery Gerashchenko",
+      "04:42:38"
+    ],
+    "graded_place": 44,
+    "ag_place": 13
+  },
+  {
+    "bib": "4",
+    "name": "Roberto Briffa",
+    "age_group": "M30-34",
+    "finish_time": "04:23:15",
+    "finish_time_seconds": 15795,
+    "gender_place": "19",
+    "graded_time_seconds": 15250.0725,
+    "graded_time": "04:14:10",
+    "unique_key": [
+      "Roberto Briffa",
+      "04:23:15"
+    ],
+    "graded_place": 45,
+    "ag_place": 5
+  },
+  {
+    "bib": "35",
+    "name": "Nikolay Milev",
+    "age_group": "M35-39",
+    "finish_time": "04:27:49",
+    "finish_time_seconds": 16069,
+    "gender_place": "29",
+    "graded_time_seconds": 15265.55,
+    "graded_time": "04:14:25",
+    "unique_key": [
+      "Nikolay Milev",
+      "04:27:49"
+    ],
+    "graded_place": 46,
+    "ag_place": 6
+  },
+  {
+    "bib": "453",
+    "name": "Andrej Gazo",
+    "age_group": "M40-44",
+    "finish_time": "04:35:16",
+    "finish_time_seconds": 16516,
+    "gender_place": "50",
+    "graded_time_seconds": 15297.119200000001,
+    "graded_time": "04:14:57",
+    "unique_key": [
+      "Andrej Gazo",
+      "04:35:16"
+    ],
+    "graded_place": 47,
+    "ag_place": 8
+  },
+  {
+    "bib": "426",
+    "name": "Jacobo Pérez Hernández",
+    "age_group": "M40-44",
+    "finish_time": "04:35:47",
+    "finish_time_seconds": 16547,
+    "gender_place": "52",
+    "graded_time_seconds": 15325.831400000001,
+    "graded_time": "04:15:25",
+    "unique_key": [
+      "Jacobo Pérez Hernández",
+      "04:35:47"
+    ],
+    "graded_place": 48,
+    "ag_place": 9
+  },
+  {
+    "bib": "51",
+    "name": "Mislav Kemec",
+    "age_group": "M35-39",
+    "finish_time": "04:29:06",
+    "finish_time_seconds": 16146,
+    "gender_place": "33",
+    "graded_time_seconds": 15338.699999999999,
+    "graded_time": "04:15:38",
+    "unique_key": [
+      "Mislav Kemec",
+      "04:29:06"
+    ],
+    "graded_place": 49,
+    "ag_place": 7
+  },
+  {
+    "bib": "579",
+    "name": "Dejan Popovic",
+    "age_group": "M35-39",
+    "finish_time": "04:30:29",
+    "finish_time_seconds": 16229,
+    "gender_place": "39",
+    "graded_time_seconds": 15417.55,
+    "graded_time": "04:16:57",
+    "unique_key": [
+      "Dejan Popovic",
+      "04:30:29"
+    ],
+    "graded_place": 50,
+    "ag_place": 8
+  },
+  {
+    "bib": "444",
+    "name": "Matthew Miller",
+    "age_group": "M35-39",
+    "finish_time": "04:30:32",
+    "finish_time_seconds": 16232,
+    "gender_place": "40",
+    "graded_time_seconds": 15420.4,
+    "graded_time": "04:17:00",
+    "unique_key": [
+      "Matthew Miller",
+      "04:30:32"
+    ],
+    "graded_place": 51,
+    "ag_place": 9
+  },
+  {
+    "bib": "537",
+    "name": "Daniel Silaghe",
+    "age_group": "M35-39",
+    "finish_time": "04:30:49",
+    "finish_time_seconds": 16249,
+    "gender_place": "42",
+    "graded_time_seconds": 15436.55,
+    "graded_time": "04:17:16",
+    "unique_key": [
+      "Daniel Silaghe",
+      "04:30:49"
+    ],
+    "graded_place": 52,
+    "ag_place": 10
+  },
+  {
+    "bib": "143",
+    "name": "Wolfgang Ofenböck",
+    "age_group": "M50-54",
+    "finish_time": "04:51:35",
+    "finish_time_seconds": 17495,
+    "gender_place": "85",
+    "graded_time_seconds": 15453.333499999999,
+    "graded_time": "04:17:33",
+    "unique_key": [
+      "Wolfgang Ofenböck",
+      "04:51:35"
+    ],
+    "graded_place": 53,
+    "ag_place": 8
+  },
+  {
+    "bib": "688",
+    "name": "Riccardo Delitala",
+    "age_group": "M45-49",
+    "finish_time": "04:46:53",
+    "finish_time_seconds": 17213,
+    "gender_place": "73",
+    "graded_time_seconds": 15453.831400000001,
+    "graded_time": "04:17:33",
+    "unique_key": [
+      "Riccardo Delitala",
+      "04:46:53"
+    ],
+    "graded_place": 54,
+    "ag_place": 14
+  },
+  {
+    "bib": "14",
+    "name": "Šimon Klimčík",
+    "age_group": "M30-34",
+    "finish_time": "04:27:35",
+    "finish_time_seconds": 16055,
+    "gender_place": "28",
+    "graded_time_seconds": 15501.1025,
+    "graded_time": "04:18:21",
+    "unique_key": [
+      "Šimon Klimčík",
+      "04:27:35"
+    ],
+    "graded_place": 55,
+    "ag_place": 6
+  },
+  {
+    "bib": "60",
+    "name": "Savo Kovacevic",
+    "age_group": "M45-49",
+    "finish_time": "04:48:08",
+    "finish_time_seconds": 17288,
+    "gender_place": "77",
+    "graded_time_seconds": 15521.1664,
+    "graded_time": "04:18:41",
+    "unique_key": [
+      "Savo Kovacevic",
+      "04:48:08"
+    ],
+    "graded_place": 56,
+    "ag_place": 15
+  },
+  {
+    "bib": "584",
+    "name": "Mihajlo Bolic",
+    "age_group": "M18-24",
+    "finish_time": "04:18:44",
+    "finish_time_seconds": 15524,
+    "gender_place": "10",
+    "graded_time_seconds": 15524.0,
+    "graded_time": "04:18:44",
+    "unique_key": [
+      "Mihajlo Bolic",
+      "04:18:44"
+    ],
+    "graded_place": 57,
+    "ag_place": 2
+  },
+  {
+    "bib": "619",
+    "name": "Tamas Trella",
+    "age_group": "M40-44",
+    "finish_time": "04:40:13",
+    "finish_time_seconds": 16813,
+    "gender_place": "63",
+    "graded_time_seconds": 15572.2006,
+    "graded_time": "04:19:32",
+    "unique_key": [
+      "Tamas Trella",
+      "04:40:13"
+    ],
+    "graded_place": 58,
+    "ag_place": 10
+  },
+  {
+    "bib": "7",
+    "name": "Maxime Pledel",
+    "age_group": "M30-34",
+    "finish_time": "04:29:35",
+    "finish_time_seconds": 16175,
+    "gender_place": "36",
+    "graded_time_seconds": 15616.9625,
+    "graded_time": "04:20:16",
+    "unique_key": [
+      "Maxime Pledel",
+      "04:29:35"
+    ],
+    "graded_place": 59,
+    "ag_place": 7
+  },
+  {
+    "bib": "200",
+    "name": "Alexis Dumoulin",
+    "age_group": "M18-24",
+    "finish_time": "04:20:25",
+    "finish_time_seconds": 15625,
+    "gender_place": "12",
+    "graded_time_seconds": 15625.0,
+    "graded_time": "04:20:25",
+    "unique_key": [
+      "Alexis Dumoulin",
+      "04:20:25"
+    ],
+    "graded_place": 60,
+    "ag_place": 3
+  },
+  {
+    "bib": "451",
+    "name": "Dusan Gleich",
+    "age_group": "M50-54",
+    "finish_time": "04:55:17",
+    "finish_time_seconds": 17717,
+    "gender_place": "95",
+    "graded_time_seconds": 15649.426099999999,
+    "graded_time": "04:20:49",
+    "unique_key": [
+      "Dusan Gleich",
+      "04:55:17"
+    ],
+    "graded_place": 61,
+    "ag_place": 9
+  },
+  {
+    "bib": "50",
+    "name": "Srdjan Živojinovic",
+    "age_group": "M25-29",
+    "finish_time": "04:22:52",
+    "finish_time_seconds": 15772,
+    "gender_place": "18",
+    "graded_time_seconds": 15660.0188,
+    "graded_time": "04:21:00",
+    "unique_key": [
+      "Srdjan Živojinovic",
+      "04:22:52"
+    ],
+    "graded_place": 62,
+    "ag_place": 3
+  },
+  {
+    "bib": "378",
+    "name": "Arnaud de Canson",
+    "age_group": "M30-34",
+    "finish_time": "04:30:58",
+    "finish_time_seconds": 16258,
+    "gender_place": "43",
+    "graded_time_seconds": 15697.099,
+    "graded_time": "04:21:37",
+    "unique_key": [
+      "Arnaud de Canson",
+      "04:30:58"
+    ],
+    "graded_place": 63,
+    "ag_place": 8
+  },
+  {
+    "bib": "682",
+    "name": "Petar Peregi",
+    "age_group": "M40-44",
+    "finish_time": "04:42:30",
+    "finish_time_seconds": 16950,
+    "gender_place": "66",
+    "graded_time_seconds": 15699.09,
+    "graded_time": "04:21:39",
+    "unique_key": [
+      "Petar Peregi",
+      "04:42:30"
+    ],
+    "graded_place": 64,
+    "ag_place": 11
+  },
+  {
+    "bib": "572",
+    "name": "Alois Alter",
+    "age_group": "M35-39",
+    "finish_time": "04:35:55",
+    "finish_time_seconds": 16555,
+    "gender_place": "53",
+    "graded_time_seconds": 15727.25,
+    "graded_time": "04:22:07",
+    "unique_key": [
+      "Alois Alter",
+      "04:35:55"
+    ],
+    "graded_place": 65,
+    "ag_place": 11
+  },
+  {
+    "bib": "144",
+    "name": "Igor Sokolovski",
+    "age_group": "M50-54",
+    "finish_time": "04:57:03",
+    "finish_time_seconds": 17823,
+    "gender_place": "101",
+    "graded_time_seconds": 15743.0559,
+    "graded_time": "04:22:23",
+    "unique_key": [
+      "Igor Sokolovski",
+      "04:57:03"
+    ],
+    "graded_place": 66,
+    "ag_place": 10
+  },
+  {
+    "bib": "574",
+    "name": "Roman Vykhovanets",
+    "age_group": "M30-34",
+    "finish_time": "04:31:53",
+    "finish_time_seconds": 16313,
+    "gender_place": "45",
+    "graded_time_seconds": 15750.201500000001,
+    "graded_time": "04:22:30",
+    "unique_key": [
+      "Roman Vykhovanets",
+      "04:31:53"
+    ],
+    "graded_place": 67,
+    "ag_place": 9
+  },
+  {
+    "bib": "642",
+    "name": "Andrea Vigano",
+    "age_group": "M55-59",
+    "finish_time": "05:06:46",
+    "finish_time_seconds": 18406,
+    "gender_place": "126",
+    "graded_time_seconds": 15764.739000000001,
+    "graded_time": "04:22:44",
+    "unique_key": [
+      "Andrea Vigano",
+      "05:06:46"
+    ],
+    "graded_place": 68,
+    "ag_place": 5
+  },
+  {
+    "bib": "589",
+    "name": "Rustam Mendubaev",
+    "age_group": "M30-34",
+    "finish_time": "04:32:35",
+    "finish_time_seconds": 16355,
+    "gender_place": "47",
+    "graded_time_seconds": 15790.7525,
+    "graded_time": "04:23:10",
+    "unique_key": [
+      "Rustam Mendubaev",
+      "04:32:35"
+    ],
+    "graded_place": 69,
+    "ag_place": 10
+  },
+  {
+    "bib": "58",
+    "name": "Angelo Rigopoulos",
+    "age_group": "M40-44",
+    "finish_time": "04:44:26",
+    "finish_time_seconds": 17066,
+    "gender_place": "70",
+    "graded_time_seconds": 15806.5292,
+    "graded_time": "04:23:26",
+    "unique_key": [
+      "Angelo Rigopoulos",
+      "04:44:26"
+    ],
+    "graded_place": 70,
+    "ag_place": 12
+  },
+  {
+    "bib": "136",
+    "name": "Jeff Belt",
+    "age_group": "M55-59",
+    "finish_time": "05:07:37",
+    "finish_time_seconds": 18457,
+    "gender_place": "130",
+    "graded_time_seconds": 15808.4205,
+    "graded_time": "04:23:28",
+    "unique_key": [
+      "Jeff Belt",
+      "05:07:37"
+    ],
+    "graded_place": 71,
+    "ag_place": 6
+  },
+  {
+    "bib": "560",
+    "name": "Matthew Piechowicz",
+    "age_group": "M35-39",
+    "finish_time": "04:38:24",
+    "finish_time_seconds": 16704,
+    "gender_place": "58",
+    "graded_time_seconds": 15868.8,
+    "graded_time": "04:24:28",
+    "unique_key": [
+      "Matthew Piechowicz",
+      "04:38:24"
+    ],
+    "graded_place": 72,
+    "ag_place": 12
+  },
+  {
+    "bib": "49",
+    "name": "Lampros Florakis",
+    "age_group": "M55-59",
+    "finish_time": "05:09:05",
+    "finish_time_seconds": 18545,
+    "gender_place": "132",
+    "graded_time_seconds": 15883.792500000001,
+    "graded_time": "04:24:43",
+    "unique_key": [
+      "Lampros Florakis",
+      "05:09:05"
+    ],
+    "graded_place": 73,
+    "ag_place": 7
+  },
+  {
+    "bib": "639",
+    "name": "Milan Davidović",
+    "age_group": "M30-34",
+    "finish_time": "04:34:37",
+    "finish_time_seconds": 16477,
+    "gender_place": "49",
+    "graded_time_seconds": 15908.5435,
+    "graded_time": "04:25:08",
+    "unique_key": [
+      "Milan Davidović",
+      "04:34:37"
+    ],
+    "graded_place": 74,
+    "ag_place": 11
+  },
+  {
+    "bib": "234",
+    "name": "Jorge Luis",
+    "age_group": "M35-39",
+    "finish_time": "04:39:13",
+    "finish_time_seconds": 16753,
+    "gender_place": "59",
+    "graded_time_seconds": 15915.349999999999,
+    "graded_time": "04:25:15",
+    "unique_key": [
+      "Jorge Luis",
+      "04:39:13"
+    ],
+    "graded_place": 75,
+    "ag_place": 13
+  },
+  {
+    "bib": "686",
+    "name": "Igor Vukovic",
+    "age_group": "M45-49",
+    "finish_time": "04:55:31",
+    "finish_time_seconds": 17731,
+    "gender_place": "96",
+    "graded_time_seconds": 15918.891800000001,
+    "graded_time": "04:25:18",
+    "unique_key": [
+      "Igor Vukovic",
+      "04:55:31"
+    ],
+    "graded_place": 76,
+    "ag_place": 16
+  },
+  {
+    "bib": "371",
+    "name": "Aleksandr Kushchenko",
+    "age_group": "M60-64",
+    "finish_time": "05:24:26",
+    "finish_time_seconds": 19466,
+    "gender_place": "186",
+    "graded_time_seconds": 15946.5472,
+    "graded_time": "04:25:46",
+    "unique_key": [
+      "Aleksandr Kushchenko",
+      "05:24:26"
+    ],
+    "graded_place": 77,
+    "ag_place": 2
+  },
+  {
+    "bib": "677",
+    "name": "Kevin Casagrande",
+    "age_group": "M18-24",
+    "finish_time": "04:26:46",
+    "finish_time_seconds": 16006,
+    "gender_place": "25",
+    "graded_time_seconds": 16006.0,
+    "graded_time": "04:26:46",
+    "unique_key": [
+      "Kevin Casagrande",
+      "04:26:46"
+    ],
+    "graded_place": 78,
+    "ag_place": 4
+  },
+  {
+    "bib": "141",
+    "name": "Fanis Kontos",
+    "age_group": "M30-34",
+    "finish_time": "04:36:39",
+    "finish_time_seconds": 16599,
+    "gender_place": "54",
+    "graded_time_seconds": 16026.3345,
+    "graded_time": "04:27:06",
+    "unique_key": [
+      "Fanis Kontos",
+      "04:36:39"
+    ],
+    "graded_place": 79,
+    "ag_place": 12
+  },
+  {
+    "bib": "28",
+    "name": "Leonardo Cacchiata",
+    "age_group": "M40-44",
+    "finish_time": "04:48:27",
+    "finish_time_seconds": 17307,
+    "gender_place": "78",
+    "graded_time_seconds": 16029.743400000001,
+    "graded_time": "04:27:09",
+    "unique_key": [
+      "Leonardo Cacchiata",
+      "04:48:27"
+    ],
+    "graded_place": 80,
+    "ag_place": 13
+  },
+  {
+    "bib": "691",
+    "name": "Mauro Fumagalli",
+    "age_group": "M45-49",
+    "finish_time": "04:57:40",
+    "finish_time_seconds": 17860,
+    "gender_place": "103",
+    "graded_time_seconds": 16034.708,
+    "graded_time": "04:27:14",
+    "unique_key": [
+      "Mauro Fumagalli",
+      "04:57:40"
+    ],
+    "graded_place": 81,
+    "ag_place": 17
+  },
+  {
+    "bib": "128",
+    "name": "Ed Wilson",
+    "age_group": "M18-24",
+    "finish_time": "04:27:18",
+    "finish_time_seconds": 16038,
+    "gender_place": "26",
+    "graded_time_seconds": 16038.0,
+    "graded_time": "04:27:18",
+    "unique_key": [
+      "Ed Wilson",
+      "04:27:18"
+    ],
+    "graded_place": 82,
+    "ag_place": 5
+  },
+  {
+    "bib": "44",
+    "name": "Jaka Križanič",
+    "age_group": "M40-44",
+    "finish_time": "04:48:49",
+    "finish_time_seconds": 17329,
+    "gender_place": "80",
+    "graded_time_seconds": 16050.1198,
+    "graded_time": "04:27:30",
+    "unique_key": [
+      "Jaka Križanič",
+      "04:48:49"
+    ],
+    "graded_place": 83,
+    "ag_place": 14
+  },
+  {
+    "bib": "264",
+    "name": "Massimiliano Braida",
+    "age_group": "M60-64",
+    "finish_time": "05:26:43",
+    "finish_time_seconds": 19603,
+    "gender_place": "195",
+    "graded_time_seconds": 16058.777600000001,
+    "graded_time": "04:27:38",
+    "unique_key": [
+      "Massimiliano Braida",
+      "05:26:43"
+    ],
+    "graded_place": 84,
+    "ag_place": 3
+  },
+  {
+    "bib": "130",
+    "name": "Michael Tsaoutos",
+    "age_group": "M60-64",
+    "finish_time": "05:27:19",
+    "finish_time_seconds": 19639,
+    "gender_place": "198",
+    "graded_time_seconds": 16088.268800000002,
+    "graded_time": "04:28:08",
+    "unique_key": [
+      "Michael Tsaoutos",
+      "05:27:19"
+    ],
+    "graded_place": 85,
+    "ag_place": 4
+  },
+  {
+    "bib": "189",
+    "name": "Alexis Girin",
+    "age_group": "M45-49",
+    "finish_time": "04:59:32",
+    "finish_time_seconds": 17972,
+    "gender_place": "107",
+    "graded_time_seconds": 16135.261600000002,
+    "graded_time": "04:28:55",
+    "unique_key": [
+      "Alexis Girin",
+      "04:59:32"
+    ],
+    "graded_place": 86,
+    "ag_place": 18
+  },
+  {
+    "bib": "575",
+    "name": "Jan Fojutowski",
+    "age_group": "M18-24",
+    "finish_time": "04:29:28",
+    "finish_time_seconds": 16168,
+    "gender_place": "35",
+    "graded_time_seconds": 16168.0,
+    "graded_time": "04:29:28",
+    "unique_key": [
+      "Jan Fojutowski",
+      "04:29:28"
+    ],
+    "graded_place": 87,
+    "ag_place": 6
+  },
+  {
+    "bib": "372",
+    "name": "Oleg Mishchenko",
+    "age_group": "M55-59",
+    "finish_time": "05:15:14",
+    "finish_time_seconds": 18914,
+    "gender_place": "152",
+    "graded_time_seconds": 16199.841,
+    "graded_time": "04:29:59",
+    "unique_key": [
+      "Oleg Mishchenko",
+      "05:15:14"
+    ],
+    "graded_place": 88,
+    "ag_place": 8
+  },
+  {
+    "bib": "267",
+    "name": "Thomas Rahman",
+    "age_group": "M30-34",
+    "finish_time": "04:39:59",
+    "finish_time_seconds": 16799,
+    "gender_place": "62",
+    "graded_time_seconds": 16219.434500000001,
+    "graded_time": "04:30:19",
+    "unique_key": [
+      "Thomas Rahman",
+      "04:39:59"
+    ],
+    "graded_place": 89,
+    "ag_place": 13
+  },
+  {
+    "bib": "129",
+    "name": "Patrick van Winsen",
+    "age_group": "M25-29",
+    "finish_time": "04:32:18",
+    "finish_time_seconds": 16338,
+    "gender_place": "46",
+    "graded_time_seconds": 16222.0002,
+    "graded_time": "04:30:22",
+    "unique_key": [
+      "Patrick van Winsen",
+      "04:32:18"
+    ],
+    "graded_place": 90,
+    "ag_place": 4
+  },
+  {
+    "bib": "91",
+    "name": "Mirco Di Marco",
+    "age_group": "M50-54",
+    "finish_time": "05:06:12",
+    "finish_time_seconds": 18372,
+    "gender_place": "124",
+    "graded_time_seconds": 16227.9876,
+    "graded_time": "04:30:27",
+    "unique_key": [
+      "Mirco Di Marco",
+      "05:06:12"
+    ],
+    "graded_place": 91,
+    "ag_place": 11
+  },
+  {
+    "bib": "121",
+    "name": "Cosmin Bustan",
+    "age_group": "M45-49",
+    "finish_time": "05:01:19",
+    "finish_time_seconds": 18079,
+    "gender_place": "111",
+    "graded_time_seconds": 16231.326200000001,
+    "graded_time": "04:30:31",
+    "unique_key": [
+      "Cosmin Bustan",
+      "05:01:19"
+    ],
+    "graded_place": 92,
+    "ag_place": 19
+  },
+  {
+    "bib": "45",
+    "name": "Marek Kostrna",
+    "age_group": "M40-44",
+    "finish_time": "04:52:39",
+    "finish_time_seconds": 17559,
+    "gender_place": "88",
+    "graded_time_seconds": 16263.1458,
+    "graded_time": "04:31:03",
+    "unique_key": [
+      "Marek Kostrna",
+      "04:52:39"
+    ],
+    "graded_place": 93,
+    "ag_place": 15
+  },
+  {
+    "bib": "614",
+    "name": "Ljubisa Savic",
+    "age_group": "M50-54",
+    "finish_time": "05:07:25",
+    "finish_time_seconds": 18445,
+    "gender_place": "128",
+    "graded_time_seconds": 16292.468499999999,
+    "graded_time": "04:31:32",
+    "unique_key": [
+      "Ljubisa Savic",
+      "05:07:25"
+    ],
+    "graded_place": 94,
+    "ag_place": 12
+  },
+  {
+    "bib": "418",
+    "name": "Alessandro Avegno",
+    "age_group": "M30-34",
+    "finish_time": "04:41:20",
+    "finish_time_seconds": 16880,
+    "gender_place": "64",
+    "graded_time_seconds": 16297.640000000001,
+    "graded_time": "04:31:37",
+    "unique_key": [
+      "Alessandro Avegno",
+      "04:41:20"
+    ],
+    "graded_place": 95,
+    "ag_place": 14
+  },
+  {
+    "bib": "634",
+    "name": "Radoica Todorovic",
+    "age_group": "M60-64",
+    "finish_time": "05:31:36",
+    "finish_time_seconds": 19896,
+    "gender_place": "215",
+    "graded_time_seconds": 16298.8032,
+    "graded_time": "04:31:38",
+    "unique_key": [
+      "Radoica Todorovic",
+      "05:31:36"
+    ],
+    "graded_place": 96,
+    "ag_place": 5
+  },
+  {
+    "bib": "33",
+    "name": "Risto Kask",
+    "age_group": "M40-44",
+    "finish_time": "04:54:14",
+    "finish_time_seconds": 17654,
+    "gender_place": "90",
+    "graded_time_seconds": 16351.1348,
+    "graded_time": "04:32:31",
+    "unique_key": [
+      "Risto Kask",
+      "04:54:14"
+    ],
+    "graded_place": 97,
+    "ag_place": 16
+  },
+  {
+    "bib": "577",
+    "name": "Miroslav Hájek",
+    "age_group": "M30-34",
+    "finish_time": "04:42:17",
+    "finish_time_seconds": 16937,
+    "gender_place": "65",
+    "graded_time_seconds": 16352.6735,
+    "graded_time": "04:32:32",
+    "unique_key": [
+      "Miroslav Hájek",
+      "04:42:17"
+    ],
+    "graded_place": 98,
+    "ag_place": 15
+  },
+  {
+    "bib": "656",
+    "name": "Viktor Derkachev",
+    "age_group": "M40-44",
+    "finish_time": "04:54:24",
+    "finish_time_seconds": 17664,
+    "gender_place": "91",
+    "graded_time_seconds": 16360.3968,
+    "graded_time": "04:32:40",
+    "unique_key": [
+      "Viktor Derkachev",
+      "04:54:24"
+    ],
+    "graded_place": 99,
+    "ag_place": 17
+  },
+  {
+    "bib": "47",
+    "name": "Tibor Palus",
+    "age_group": "M40-44",
+    "finish_time": "04:54:32",
+    "finish_time_seconds": 17672,
+    "gender_place": "92",
+    "graded_time_seconds": 16367.806400000001,
+    "graded_time": "04:32:47",
+    "unique_key": [
+      "Tibor Palus",
+      "04:54:32"
+    ],
+    "graded_place": 100,
+    "ag_place": 18
+  },
+  {
+    "bib": "104",
+    "name": "Perica Cudic",
+    "age_group": "M55-59",
+    "finish_time": "05:19:11",
+    "finish_time_seconds": 19151,
+    "gender_place": "167",
+    "graded_time_seconds": 16402.8315,
+    "graded_time": "04:33:22",
+    "unique_key": [
+      "Perica Cudic",
+      "05:19:11"
+    ],
+    "graded_place": 101,
+    "ag_place": 9
+  },
+  {
+    "bib": "71",
+    "name": "Vasa Vorkapic",
+    "age_group": "M40-44",
+    "finish_time": "04:55:11",
+    "finish_time_seconds": 17711,
+    "gender_place": "94",
+    "graded_time_seconds": 16403.928200000002,
+    "graded_time": "04:33:23",
+    "unique_key": [
+      "Vasa Vorkapic",
+      "04:55:11"
+    ],
+    "graded_place": 102,
+    "ag_place": 19
+  },
+  {
+    "bib": "207",
+    "name": "Engin Kiliç",
+    "age_group": "M50-54",
+    "finish_time": "05:09:39",
+    "finish_time_seconds": 18579,
+    "gender_place": "133",
+    "graded_time_seconds": 16410.8307,
+    "graded_time": "04:33:30",
+    "unique_key": [
+      "Engin Kiliç",
+      "05:09:39"
+    ],
+    "graded_place": 103,
+    "ag_place": 13
+  },
+  {
+    "bib": "446",
+    "name": "Grigorii Bolotov",
+    "age_group": "M40-44",
+    "finish_time": "04:55:55",
+    "finish_time_seconds": 17755,
+    "gender_place": "97",
+    "graded_time_seconds": 16444.681,
+    "graded_time": "04:34:04",
+    "unique_key": [
+      "Grigorii Bolotov",
+      "04:55:55"
+    ],
+    "graded_place": 104,
+    "ag_place": 20
+  },
+  {
+    "bib": "199",
+    "name": "Nejc Kukec",
+    "age_group": "M18-24",
+    "finish_time": "04:34:30",
+    "finish_time_seconds": 16470,
+    "gender_place": "48",
+    "graded_time_seconds": 16470.0,
+    "graded_time": "04:34:30",
+    "unique_key": [
+      "Nejc Kukec",
+      "04:34:30"
+    ],
+    "graded_place": 105,
+    "ag_place": 7
+  },
+  {
+    "bib": "210",
+    "name": "Nino Petrovic",
+    "age_group": "M35-39",
+    "finish_time": "04:48:57",
+    "finish_time_seconds": 17337,
+    "gender_place": "81",
+    "graded_time_seconds": 16470.149999999998,
+    "graded_time": "04:34:30",
+    "unique_key": [
+      "Nino Petrovic",
+      "04:48:57"
+    ],
+    "graded_place": 106,
+    "ag_place": 14
+  },
+  {
+    "bib": "59",
+    "name": "Pavle Vasic",
+    "age_group": "M30-34",
+    "finish_time": "04:44:51",
+    "finish_time_seconds": 17091,
+    "gender_place": "71",
+    "graded_time_seconds": 16501.3605,
+    "graded_time": "04:35:01",
+    "unique_key": [
+      "Pavle Vasic",
+      "04:44:51"
+    ],
+    "graded_place": 107,
+    "ag_place": 16
+  },
+  {
+    "bib": "369",
+    "name": "Sergey Loginov",
+    "age_group": "M50-54",
+    "finish_time": "05:11:31",
+    "finish_time_seconds": 18691,
+    "gender_place": "138",
+    "graded_time_seconds": 16509.760299999998,
+    "graded_time": "04:35:09",
+    "unique_key": [
+      "Sergey Loginov",
+      "05:11:31"
+    ],
+    "graded_place": 108,
+    "ag_place": 14
+  },
+  {
+    "bib": "117",
+    "name": "Charis Papacharalambous",
+    "age_group": "M55-59",
+    "finish_time": "05:21:52",
+    "finish_time_seconds": 19312,
+    "gender_place": "177",
+    "graded_time_seconds": 16540.728,
+    "graded_time": "04:35:40",
+    "unique_key": [
+      "Charis Papacharalambous",
+      "05:21:52"
+    ],
+    "graded_place": 109,
+    "ag_place": 10
+  },
+  {
+    "bib": "120",
+    "name": "Kirill Kozhevnikov",
+    "age_group": "M45-49",
+    "finish_time": "05:07:31",
+    "finish_time_seconds": 18451,
+    "gender_place": "129",
+    "graded_time_seconds": 16565.307800000002,
+    "graded_time": "04:36:05",
+    "unique_key": [
+      "Kirill Kozhevnikov",
+      "05:07:31"
+    ],
+    "graded_place": 110,
+    "ag_place": 20
+  },
+  {
+    "bib": "673",
+    "name": "Christian Danzinger",
+    "age_group": "M50-54",
+    "finish_time": "05:12:50",
+    "finish_time_seconds": 18770,
+    "gender_place": "142",
+    "graded_time_seconds": 16579.541,
+    "graded_time": "04:36:19",
+    "unique_key": [
+      "Christian Danzinger",
+      "05:12:50"
+    ],
+    "graded_place": 111,
+    "ag_place": 15
+  },
+  {
+    "bib": "111",
+    "name": "Giacomo Grasselli",
+    "age_group": "M40-44",
+    "finish_time": "04:58:24",
+    "finish_time_seconds": 17904,
+    "gender_place": "104",
+    "graded_time_seconds": 16582.6848,
+    "graded_time": "04:36:22",
+    "unique_key": [
+      "Giacomo Grasselli",
+      "04:58:24"
+    ],
+    "graded_place": 112,
+    "ag_place": 21
+  },
+  {
+    "bib": "57",
+    "name": "Stefan Vasiljevic",
+    "age_group": "M30-34",
+    "finish_time": "04:47:36",
+    "finish_time_seconds": 17256,
+    "gender_place": "76",
+    "graded_time_seconds": 16660.668,
+    "graded_time": "04:37:40",
+    "unique_key": [
+      "Stefan Vasiljevic",
+      "04:47:36"
+    ],
+    "graded_place": 113,
+    "ag_place": 17
+  },
+  {
+    "bib": "165",
+    "name": "Ivan Savin",
+    "age_group": "M35-39",
+    "finish_time": "04:52:24",
+    "finish_time_seconds": 17544,
+    "gender_place": "87",
+    "graded_time_seconds": 16666.8,
+    "graded_time": "04:37:46",
+    "unique_key": [
+      "Ivan Savin",
+      "04:52:24"
+    ],
+    "graded_place": 114,
+    "ag_place": 15
+  },
+  {
+    "bib": "547",
+    "name": "Michal Rybovic",
+    "age_group": "M40-44",
+    "finish_time": "05:00:24",
+    "finish_time_seconds": 18024,
+    "gender_place": "109",
+    "graded_time_seconds": 16693.8288,
+    "graded_time": "04:38:13",
+    "unique_key": [
+      "Michal Rybovic",
+      "05:00:24"
+    ],
+    "graded_place": 115,
+    "ag_place": 22
+  },
+  {
+    "bib": "404",
+    "name": "Adam Lengyel",
+    "age_group": "M35-39",
+    "finish_time": "04:54:11",
+    "finish_time_seconds": 17651,
+    "gender_place": "89",
+    "graded_time_seconds": 16768.45,
+    "graded_time": "04:39:28",
+    "unique_key": [
+      "Adam Lengyel",
+      "04:54:11"
+    ],
+    "graded_place": 116,
+    "ag_place": 16
+  },
+  {
+    "bib": "602",
+    "name": "Mohammad Alhammad",
+    "age_group": "M50-54",
+    "finish_time": "05:17:15",
+    "finish_time_seconds": 19035,
+    "gender_place": "159",
+    "graded_time_seconds": 16813.6155,
+    "graded_time": "04:40:13",
+    "unique_key": [
+      "Mohammad Alhammad",
+      "05:17:15"
+    ],
+    "graded_place": 117,
+    "ag_place": 16
+  },
+  {
+    "bib": "583",
+    "name": "Mihailo Vorotovic",
+    "age_group": "M40-44",
+    "finish_time": "05:02:34",
+    "finish_time_seconds": 18154,
+    "gender_place": "113",
+    "graded_time_seconds": 16814.234800000002,
+    "graded_time": "04:40:14",
+    "unique_key": [
+      "Mihailo Vorotovic",
+      "05:02:34"
+    ],
+    "graded_place": 118,
+    "ag_place": 23
+  },
+  {
+    "bib": "653",
+    "name": "Nemanja Drazovic",
+    "age_group": "M30-34",
+    "finish_time": "04:50:19",
+    "finish_time_seconds": 17419,
+    "gender_place": "84",
+    "graded_time_seconds": 16818.0445,
+    "graded_time": "04:40:18",
+    "unique_key": [
+      "Nemanja Drazovic",
+      "04:50:19"
+    ],
+    "graded_place": 119,
+    "ag_place": 18
+  },
+  {
+    "bib": "503",
+    "name": "Christos Simos",
+    "age_group": "M55-59",
+    "finish_time": "05:27:21",
+    "finish_time_seconds": 19641,
+    "gender_place": "199",
+    "graded_time_seconds": 16822.5165,
+    "graded_time": "04:40:22",
+    "unique_key": [
+      "Christos Simos",
+      "05:27:21"
+    ],
+    "graded_place": 120,
+    "ag_place": 11
+  },
+  {
+    "bib": "652",
+    "name": "Nikolaos Dimos",
+    "age_group": "M50-54",
+    "finish_time": "05:18:32",
+    "finish_time_seconds": 19112,
+    "gender_place": "164",
+    "graded_time_seconds": 16881.6296,
+    "graded_time": "04:41:21",
+    "unique_key": [
+      "Nikolaos Dimos",
+      "05:18:32"
+    ],
+    "graded_place": 121,
+    "ag_place": 17
+  },
+  {
+    "bib": "314",
+    "name": "Aleksey Vdovin",
+    "age_group": "M35-39",
+    "finish_time": "04:56:16",
+    "finish_time_seconds": 17776,
+    "gender_place": "100",
+    "graded_time_seconds": 16887.2,
+    "graded_time": "04:41:27",
+    "unique_key": [
+      "Aleksey Vdovin",
+      "04:56:16"
+    ],
+    "graded_place": 122,
+    "ag_place": 17
+  },
+  {
+    "bib": "293",
+    "name": "Mert Gözüküçük",
+    "age_group": "M40-44",
+    "finish_time": "05:04:10",
+    "finish_time_seconds": 18250,
+    "gender_place": "115",
+    "graded_time_seconds": 16903.15,
+    "graded_time": "04:41:43",
+    "unique_key": [
+      "Mert Gözüküçük",
+      "05:04:10"
+    ],
+    "graded_place": 123,
+    "ag_place": 24
+  },
+  {
+    "bib": "75",
+    "name": "Aleksandar Vico",
+    "age_group": "M30-34",
+    "finish_time": "04:51:50",
+    "finish_time_seconds": 17510,
+    "gender_place": "86",
+    "graded_time_seconds": 16905.905,
+    "graded_time": "04:41:45",
+    "unique_key": [
+      "Aleksandar Vico",
+      "04:51:50"
+    ],
+    "graded_place": 124,
+    "ag_place": 19
+  },
+  {
+    "bib": "146",
+    "name": "Mark Jones",
+    "age_group": "M55-59",
+    "finish_time": "05:29:24",
+    "finish_time_seconds": 19764,
+    "gender_place": "208",
+    "graded_time_seconds": 16927.866,
+    "graded_time": "04:42:07",
+    "unique_key": [
+      "Mark Jones",
+      "05:29:24"
+    ],
+    "graded_place": 125,
+    "ag_place": 12
+  },
+  {
+    "bib": "481",
+    "name": "Victor Smirnov",
+    "age_group": "M60-64",
+    "finish_time": "05:44:29",
+    "finish_time_seconds": 20669,
+    "gender_place": "265",
+    "graded_time_seconds": 16932.0448,
+    "graded_time": "04:42:12",
+    "unique_key": [
+      "Victor Smirnov",
+      "05:44:29"
+    ],
+    "graded_place": 126,
+    "ag_place": 6
+  },
+  {
+    "bib": "97",
+    "name": "Miloš Popović",
+    "age_group": "M45-49",
+    "finish_time": "05:15:52",
+    "finish_time_seconds": 18952,
+    "gender_place": "154",
+    "graded_time_seconds": 17015.105600000003,
+    "graded_time": "04:43:35",
+    "unique_key": [
+      "Miloš Popović",
+      "05:15:52"
+    ],
+    "graded_place": 127,
+    "ag_place": 21
+  },
+  {
+    "bib": "245",
+    "name": "Ali Atav",
+    "age_group": "M45-49",
+    "finish_time": "05:16:11",
+    "finish_time_seconds": 18971,
+    "gender_place": "155",
+    "graded_time_seconds": 17032.163800000002,
+    "graded_time": "04:43:52",
+    "unique_key": [
+      "Ali Atav",
+      "05:16:11"
+    ],
+    "graded_place": 128,
+    "ag_place": 22
+  },
+  {
+    "bib": "569",
+    "name": "Norbert Dobo",
+    "age_group": "M40-44",
+    "finish_time": "05:06:49",
+    "finish_time_seconds": 18409,
+    "gender_place": "127",
+    "graded_time_seconds": 17050.4158,
+    "graded_time": "04:44:10",
+    "unique_key": [
+      "Norbert Dobo",
+      "05:06:49"
+    ],
+    "graded_place": 129,
+    "ag_place": 25
+  },
+  {
+    "bib": "638",
+    "name": "Massimo Xodo",
+    "age_group": "M45-49",
+    "finish_time": "05:16:45",
+    "finish_time_seconds": 19005,
+    "gender_place": "156",
+    "graded_time_seconds": 17062.689000000002,
+    "graded_time": "04:44:22",
+    "unique_key": [
+      "Massimo Xodo",
+      "05:16:45"
+    ],
+    "graded_place": 130,
+    "ag_place": 23
+  },
+  {
+    "bib": "689",
+    "name": "Milos Cabrilo",
+    "age_group": "M30-34",
+    "finish_time": "04:55:57",
+    "finish_time_seconds": 17757,
+    "gender_place": "98",
+    "graded_time_seconds": 17144.3835,
+    "graded_time": "04:45:44",
+    "unique_key": [
+      "Milos Cabrilo",
+      "04:55:57"
+    ],
+    "graded_place": 131,
+    "ag_place": 20
+  },
+  {
+    "bib": "647",
+    "name": "Antonio Nardi",
+    "age_group": "M25-29",
+    "finish_time": "04:48:46",
+    "finish_time_seconds": 17326,
+    "gender_place": "79",
+    "graded_time_seconds": 17202.9854,
+    "graded_time": "04:46:42",
+    "unique_key": [
+      "Antonio Nardi",
+      "04:48:46"
+    ],
+    "graded_place": 132,
+    "ag_place": 5
+  },
+  {
+    "bib": "278",
+    "name": "Lennart Jansen",
+    "age_group": "M30-34",
+    "finish_time": "04:57:18",
+    "finish_time_seconds": 17838,
+    "gender_place": "102",
+    "graded_time_seconds": 17222.589,
+    "graded_time": "04:47:02",
+    "unique_key": [
+      "Lennart Jansen",
+      "04:57:18"
+    ],
+    "graded_place": 133,
+    "ag_place": 21
+  },
+  {
+    "bib": "56",
+    "name": "Valeri Doichinov",
+    "age_group": "M65-69",
+    "finish_time": "06:15:50",
+    "finish_time_seconds": 22550,
+    "gender_place": "352",
+    "graded_time_seconds": 17228.2,
+    "graded_time": "04:47:08",
+    "unique_key": [
+      "Valeri Doichinov",
+      "06:15:50"
+    ],
+    "graded_place": 134,
+    "ag_place": 1
+  },
+  {
+    "bib": "343",
+    "name": "Bojan Manojlović",
+    "age_group": "M45-49",
+    "finish_time": "05:19:58",
+    "finish_time_seconds": 19198,
+    "gender_place": "170",
+    "graded_time_seconds": 17235.9644,
+    "graded_time": "04:47:15",
+    "unique_key": [
+      "Bojan Manojlović",
+      "05:19:58"
+    ],
+    "graded_place": 135,
+    "ag_place": 24
+  },
+  {
+    "bib": "41",
+    "name": "Denis Crassier",
+    "age_group": "M50-54",
+    "finish_time": "05:25:30",
+    "finish_time_seconds": 19530,
+    "gender_place": "188",
+    "graded_time_seconds": 17250.849,
+    "graded_time": "04:47:30",
+    "unique_key": [
+      "Denis Crassier",
+      "05:25:30"
+    ],
+    "graded_place": 136,
+    "ag_place": 18
+  },
+  {
+    "bib": "331",
+    "name": "Theodosios Kechidis",
+    "age_group": "M50-54",
+    "finish_time": "05:25:40",
+    "finish_time_seconds": 19540,
+    "gender_place": "191",
+    "graded_time_seconds": 17259.682,
+    "graded_time": "04:47:39",
+    "unique_key": [
+      "Theodosios Kechidis",
+      "05:25:40"
+    ],
+    "graded_place": 137,
+    "ag_place": 19
+  },
+  {
+    "bib": "650",
+    "name": "Robert Schweizer",
+    "age_group": "M50-54",
+    "finish_time": "05:25:40",
+    "finish_time_seconds": 19540,
+    "gender_place": "192",
+    "graded_time_seconds": 17259.682,
+    "graded_time": "04:47:39",
+    "unique_key": [
+      "Robert Schweizer",
+      "05:25:40"
+    ],
+    "graded_place": 137,
+    "ag_place": 20
+  },
+  {
+    "bib": "239",
+    "name": "Igor Lyutanov",
+    "age_group": "M45-49",
+    "finish_time": "05:20:30",
+    "finish_time_seconds": 19230,
+    "gender_place": "172",
+    "graded_time_seconds": 17264.694,
+    "graded_time": "04:47:44",
+    "unique_key": [
+      "Igor Lyutanov",
+      "05:20:30"
+    ],
+    "graded_place": 139,
+    "ag_place": 25
+  },
+  {
+    "bib": "666",
+    "name": "Sinan Soran",
+    "age_group": "M30-34",
+    "finish_time": "04:58:25",
+    "finish_time_seconds": 17905,
+    "gender_place": "105",
+    "graded_time_seconds": 17287.2775,
+    "graded_time": "04:48:07",
+    "unique_key": [
+      "Sinan Soran",
+      "04:58:25"
+    ],
+    "graded_place": 140,
+    "ag_place": 22
+  },
+  {
+    "bib": "564",
+    "name": "Genadi Chukanov",
+    "age_group": "M55-59",
+    "finish_time": "05:36:28",
+    "finish_time_seconds": 20188,
+    "gender_place": "227",
+    "graded_time_seconds": 17291.022,
+    "graded_time": "04:48:11",
+    "unique_key": [
+      "Genadi Chukanov",
+      "05:36:28"
+    ],
+    "graded_place": 141,
+    "ag_place": 13
+  },
+  {
+    "bib": "657",
+    "name": "Iaroslav Zagorskii",
+    "age_group": "M30-34",
+    "finish_time": "04:58:52",
+    "finish_time_seconds": 17932,
+    "gender_place": "106",
+    "graded_time_seconds": 17313.346,
+    "graded_time": "04:48:33",
+    "unique_key": [
+      "Iaroslav Zagorskii",
+      "04:58:52"
+    ],
+    "graded_place": 142,
+    "ag_place": 23
+  },
+  {
+    "bib": "31",
+    "name": "Samuel Eschenmoser",
+    "age_group": "M40-44",
+    "finish_time": "05:11:34",
+    "finish_time_seconds": 18694,
+    "gender_place": "139",
+    "graded_time_seconds": 17314.3828,
+    "graded_time": "04:48:34",
+    "unique_key": [
+      "Samuel Eschenmoser",
+      "05:11:34"
+    ],
+    "graded_place": 143,
+    "ag_place": 26
+  },
+  {
+    "bib": "167",
+    "name": "Dusan Jolovic",
+    "age_group": "M35-39",
+    "finish_time": "05:04:27",
+    "finish_time_seconds": 18267,
+    "gender_place": "117",
+    "graded_time_seconds": 17353.649999999998,
+    "graded_time": "04:49:13",
+    "unique_key": [
+      "Dusan Jolovic",
+      "05:04:27"
+    ],
+    "graded_place": 144,
+    "ag_place": 18
+  },
+  {
+    "bib": "113",
+    "name": "Brenton Lee",
+    "age_group": "M50-54",
+    "finish_time": "05:27:56",
+    "finish_time_seconds": 19676,
+    "gender_place": "201",
+    "graded_time_seconds": 17379.8108,
+    "graded_time": "04:49:39",
+    "unique_key": [
+      "Brenton Lee",
+      "05:27:56"
+    ],
+    "graded_place": 145,
+    "ag_place": 21
+  },
+  {
+    "bib": "213",
+    "name": "Filip Hatlak",
+    "age_group": "M30-34",
+    "finish_time": "05:00:01",
+    "finish_time_seconds": 18001,
+    "gender_place": "108",
+    "graded_time_seconds": 17379.965500000002,
+    "graded_time": "04:49:39",
+    "unique_key": [
+      "Filip Hatlak",
+      "05:00:01"
+    ],
+    "graded_place": 146,
+    "ag_place": 24
+  },
+  {
+    "bib": "539",
+    "name": "Miloš Milošević",
+    "age_group": "M35-39",
+    "finish_time": "05:05:07",
+    "finish_time_seconds": 18307,
+    "gender_place": "118",
+    "graded_time_seconds": 17391.649999999998,
+    "graded_time": "04:49:51",
+    "unique_key": [
+      "Miloš Milošević",
+      "05:05:07"
+    ],
+    "graded_place": 147,
+    "ag_place": 19
+  },
+  {
+    "bib": "488",
+    "name": "Dmitry Nikitin",
+    "age_group": "M35-39",
+    "finish_time": "05:05:11",
+    "finish_time_seconds": 18311,
+    "gender_place": "120",
+    "graded_time_seconds": 17395.45,
+    "graded_time": "04:49:55",
+    "unique_key": [
+      "Dmitry Nikitin",
+      "05:05:11"
+    ],
+    "graded_place": 148,
+    "ag_place": 20
+  },
+  {
+    "bib": "608",
+    "name": "Ilya Koshurnikov",
+    "age_group": "M18-24",
+    "finish_time": "04:50:02",
+    "finish_time_seconds": 17402,
+    "gender_place": "82",
+    "graded_time_seconds": 17402.0,
+    "graded_time": "04:50:02",
+    "unique_key": [
+      "Ilya Koshurnikov",
+      "04:50:02"
+    ],
+    "graded_place": 149,
+    "ag_place": 8
+  },
+  {
+    "bib": "395",
+    "name": "Uroš Vujović",
+    "age_group": "M35-39",
+    "finish_time": "05:05:24",
+    "finish_time_seconds": 18324,
+    "gender_place": "122",
+    "graded_time_seconds": 17407.8,
+    "graded_time": "04:50:07",
+    "unique_key": [
+      "Uroš Vujović",
+      "05:05:24"
+    ],
+    "graded_place": 150,
+    "ag_place": 21
+  },
+  {
+    "bib": "465",
+    "name": "Artur Lampel",
+    "age_group": "M35-39",
+    "finish_time": "05:05:25",
+    "finish_time_seconds": 18325,
+    "gender_place": "123",
+    "graded_time_seconds": 17408.75,
+    "graded_time": "04:50:08",
+    "unique_key": [
+      "Artur Lampel",
+      "05:05:25"
+    ],
+    "graded_place": 151,
+    "ag_place": 22
+  },
+  {
+    "bib": "248",
+    "name": "Marko Tomic",
+    "age_group": "M50-54",
+    "finish_time": "05:28:30",
+    "finish_time_seconds": 19710,
+    "gender_place": "204",
+    "graded_time_seconds": 17409.843,
+    "graded_time": "04:50:09",
+    "unique_key": [
+      "Marko Tomic",
+      "05:28:30"
+    ],
+    "graded_place": 152,
+    "ag_place": 22
+  },
+  {
+    "bib": "536",
+    "name": "Ayhan Kasikci",
+    "age_group": "M40-44",
+    "finish_time": "05:13:52",
+    "finish_time_seconds": 18832,
+    "gender_place": "145",
+    "graded_time_seconds": 17442.1984,
+    "graded_time": "04:50:42",
+    "unique_key": [
+      "Ayhan Kasikci",
+      "05:13:52"
+    ],
+    "graded_place": 153,
+    "ag_place": 27
+  },
+  {
+    "bib": "618",
+    "name": "Dejan Mizdrak",
+    "age_group": "M45-49",
+    "finish_time": "05:23:53",
+    "finish_time_seconds": 19433,
+    "gender_place": "183",
+    "graded_time_seconds": 17446.9474,
+    "graded_time": "04:50:46",
+    "unique_key": [
+      "Dejan Mizdrak",
+      "05:23:53"
+    ],
+    "graded_place": 154,
+    "ag_place": 26
+  },
+  {
+    "bib": "442",
+    "name": "Nikola Dukić",
+    "age_group": "M30-34",
+    "finish_time": "05:01:11",
+    "finish_time_seconds": 18071,
+    "gender_place": "110",
+    "graded_time_seconds": 17447.5505,
+    "graded_time": "04:50:47",
+    "unique_key": [
+      "Nikola Dukić",
+      "05:01:11"
+    ],
+    "graded_place": 155,
+    "ag_place": 25
+  },
+  {
+    "bib": "482",
+    "name": "Jinga Bogdan",
+    "age_group": "M40-44",
+    "finish_time": "05:14:12",
+    "finish_time_seconds": 18852,
+    "gender_place": "147",
+    "graded_time_seconds": 17460.7224,
+    "graded_time": "04:51:00",
+    "unique_key": [
+      "Jinga Bogdan",
+      "05:14:12"
+    ],
+    "graded_place": 156,
+    "ag_place": 28
+  },
+  {
+    "bib": "292",
+    "name": "Marko Simic",
+    "age_group": "M40-44",
+    "finish_time": "05:14:37",
+    "finish_time_seconds": 18877,
+    "gender_place": "148",
+    "graded_time_seconds": 17483.8774,
+    "graded_time": "04:51:23",
+    "unique_key": [
+      "Marko Simic",
+      "05:14:37"
+    ],
+    "graded_place": 157,
+    "ag_place": 29
+  },
+  {
+    "bib": "148",
+    "name": "Timo Kuehnis",
+    "age_group": "M30-34",
+    "finish_time": "05:02:07",
+    "finish_time_seconds": 18127,
+    "gender_place": "112",
+    "graded_time_seconds": 17501.6185,
+    "graded_time": "04:51:41",
+    "unique_key": [
+      "Timo Kuehnis",
+      "05:02:07"
+    ],
+    "graded_place": 158,
+    "ag_place": 26
+  },
+  {
+    "bib": "472",
+    "name": "Filip Mangović",
+    "age_group": "M40-44",
+    "finish_time": "05:15:39",
+    "finish_time_seconds": 18939,
+    "gender_place": "153",
+    "graded_time_seconds": 17541.3018,
+    "graded_time": "04:52:21",
+    "unique_key": [
+      "Filip Mangović",
+      "05:15:39"
+    ],
+    "graded_place": 159,
+    "ag_place": 30
+  },
+  {
+    "bib": "471",
+    "name": "Artem Kupratsevich",
+    "age_group": "M30-34",
+    "finish_time": "05:03:56",
+    "finish_time_seconds": 18236,
+    "gender_place": "114",
+    "graded_time_seconds": 17606.858,
+    "graded_time": "04:53:26",
+    "unique_key": [
+      "Artem Kupratsevich",
+      "05:03:56"
+    ],
+    "graded_place": 160,
+    "ag_place": 27
+  },
+  {
+    "bib": "294",
+    "name": "Ali Kethüda",
+    "age_group": "M40-44",
+    "finish_time": "05:17:03",
+    "finish_time_seconds": 19023,
+    "gender_place": "158",
+    "graded_time_seconds": 17619.102600000002,
+    "graded_time": "04:53:39",
+    "unique_key": [
+      "Ali Kethüda",
+      "05:17:03"
+    ],
+    "graded_place": 161,
+    "ag_place": 31
+  },
+  {
+    "bib": "612",
+    "name": "Dejan Matovic",
+    "age_group": "M55-59",
+    "finish_time": "05:43:14",
+    "finish_time_seconds": 20594,
+    "gender_place": "255",
+    "graded_time_seconds": 17638.761000000002,
+    "graded_time": "04:53:58",
+    "unique_key": [
+      "Dejan Matovic",
+      "05:43:14"
+    ],
+    "graded_place": 162,
+    "ag_place": 14
+  },
+  {
+    "bib": "423",
+    "name": "Sardar Tariq Ahmad",
+    "age_group": "M55-59",
+    "finish_time": "05:43:17",
+    "finish_time_seconds": 20597,
+    "gender_place": "257",
+    "graded_time_seconds": 17641.3305,
+    "graded_time": "04:54:01",
+    "unique_key": [
+      "Sardar Tariq Ahmad",
+      "05:43:17"
+    ],
+    "graded_place": 163,
+    "ag_place": 15
+  },
+  {
+    "bib": "72",
+    "name": "Živa Vijoglavin",
+    "age_group": "M45-49",
+    "finish_time": "05:27:35",
+    "finish_time_seconds": 19655,
+    "gender_place": "200",
+    "graded_time_seconds": 17646.259000000002,
+    "graded_time": "04:54:06",
+    "unique_key": [
+      "Živa Vijoglavin",
+      "05:27:35"
+    ],
+    "graded_place": 164,
+    "ag_place": 27
+  },
+  {
+    "bib": "668",
+    "name": "Boštjan Gaberšek",
+    "age_group": "M55-59",
+    "finish_time": "05:43:46",
+    "finish_time_seconds": 20626,
+    "gender_place": "261",
+    "graded_time_seconds": 17666.169,
+    "graded_time": "04:54:26",
+    "unique_key": [
+      "Boštjan Gaberšek",
+      "05:43:46"
+    ],
+    "graded_place": 165,
+    "ag_place": 16
+  },
+  {
+    "bib": "76",
+    "name": "Jordan Kirkovik",
+    "age_group": "M30-34",
+    "finish_time": "05:05:09",
+    "finish_time_seconds": 18309,
+    "gender_place": "119",
+    "graded_time_seconds": 17677.339500000002,
+    "graded_time": "04:54:37",
+    "unique_key": [
+      "Jordan Kirkovik",
+      "05:05:09"
+    ],
+    "graded_place": 166,
+    "ag_place": 28
+  },
+  {
+    "bib": "476",
+    "name": "Nemanja Ristic",
+    "age_group": "M18-24",
+    "finish_time": "04:54:38",
+    "finish_time_seconds": 17678,
+    "gender_place": "93",
+    "graded_time_seconds": 17678.0,
+    "graded_time": "04:54:38",
+    "unique_key": [
+      "Nemanja Ristic",
+      "04:54:38"
+    ],
+    "graded_place": 167,
+    "ag_place": 9
+  },
+  {
+    "bib": "275",
+    "name": "Stef Alfrink",
+    "age_group": "M30-34",
+    "finish_time": "05:05:13",
+    "finish_time_seconds": 18313,
+    "gender_place": "121",
+    "graded_time_seconds": 17681.2015,
+    "graded_time": "04:54:41",
+    "unique_key": [
+      "Stef Alfrink",
+      "05:05:13"
+    ],
+    "graded_place": 168,
+    "ag_place": 29
+  },
+  {
+    "bib": "648",
+    "name": "Michal Droppa",
+    "age_group": "M40-44",
+    "finish_time": "05:18:19",
+    "finish_time_seconds": 19099,
+    "gender_place": "162",
+    "graded_time_seconds": 17689.4938,
+    "graded_time": "04:54:49",
+    "unique_key": [
+      "Michal Droppa",
+      "05:18:19"
+    ],
+    "graded_place": 169,
+    "ag_place": 32
+  },
+  {
+    "bib": "116",
+    "name": "Claudio D'Ippolito",
+    "age_group": "M45-49",
+    "finish_time": "05:28:51",
+    "finish_time_seconds": 19731,
+    "gender_place": "206",
+    "graded_time_seconds": 17714.4918,
+    "graded_time": "04:55:14",
+    "unique_key": [
+      "Claudio D'Ippolito",
+      "05:28:51"
+    ],
+    "graded_place": 170,
+    "ag_place": 28
+  },
+  {
+    "bib": "667",
+    "name": "Veljko Jovancevic",
+    "age_group": "M40-44",
+    "finish_time": "05:18:49",
+    "finish_time_seconds": 19129,
+    "gender_place": "165",
+    "graded_time_seconds": 17717.2798,
+    "graded_time": "04:55:17",
+    "unique_key": [
+      "Veljko Jovancevic",
+      "05:18:49"
+    ],
+    "graded_place": 171,
+    "ag_place": 33
+  },
+  {
+    "bib": "449",
+    "name": "Yiangos Droussiotis",
+    "age_group": "M45-49",
+    "finish_time": "05:28:58",
+    "finish_time_seconds": 19738,
+    "gender_place": "207",
+    "graded_time_seconds": 17720.776400000002,
+    "graded_time": "04:55:20",
+    "unique_key": [
+      "Yiangos Droussiotis",
+      "05:28:58"
+    ],
+    "graded_place": 172,
+    "ag_place": 29
+  },
+  {
+    "bib": "679",
+    "name": "Michael Fostel",
+    "age_group": "M40-44",
+    "finish_time": "05:19:56",
+    "finish_time_seconds": 19196,
+    "gender_place": "168",
+    "graded_time_seconds": 17779.3352,
+    "graded_time": "04:56:19",
+    "unique_key": [
+      "Michael Fostel",
+      "05:19:56"
+    ],
+    "graded_place": 173,
+    "ag_place": 34
+  },
+  {
+    "bib": "109",
+    "name": "Michael Lombard",
+    "age_group": "M35-39",
+    "finish_time": "05:12:32",
+    "finish_time_seconds": 18752,
+    "gender_place": "141",
+    "graded_time_seconds": 17814.399999999998,
+    "graded_time": "04:56:54",
+    "unique_key": [
+      "Michael Lombard",
+      "05:12:32"
+    ],
+    "graded_place": 174,
+    "ag_place": 23
+  },
+  {
+    "bib": "373",
+    "name": "Konstantinos Kapopoulos",
+    "age_group": "M45-49",
+    "finish_time": "05:31:05",
+    "finish_time_seconds": 19865,
+    "gender_place": "214",
+    "graded_time_seconds": 17834.797000000002,
+    "graded_time": "04:57:14",
+    "unique_key": [
+      "Konstantinos Kapopoulos",
+      "05:31:05"
+    ],
+    "graded_place": 175,
+    "ag_place": 30
+  },
+  {
+    "bib": "222",
+    "name": "Nikola Kosanovic",
+    "age_group": "M40-44",
+    "finish_time": "05:21:15",
+    "finish_time_seconds": 19275,
+    "gender_place": "173",
+    "graded_time_seconds": 17852.505,
+    "graded_time": "04:57:32",
+    "unique_key": [
+      "Nikola Kosanovic",
+      "05:21:15"
+    ],
+    "graded_place": 176,
+    "ag_place": 35
+  },
+  {
+    "bib": "658",
+    "name": "Pavel Larionov",
+    "age_group": "M50-54",
+    "finish_time": "05:37:02",
+    "finish_time_seconds": 20222,
+    "gender_place": "232",
+    "graded_time_seconds": 17862.0926,
+    "graded_time": "04:57:42",
+    "unique_key": [
+      "Pavel Larionov",
+      "05:37:02"
+    ],
+    "graded_place": 177,
+    "ag_place": 23
+  },
+  {
+    "bib": "363",
+    "name": "Vladimir Đošović",
+    "age_group": "M30-34",
+    "finish_time": "05:08:28",
+    "finish_time_seconds": 18508,
+    "gender_place": "131",
+    "graded_time_seconds": 17869.474000000002,
+    "graded_time": "04:57:49",
+    "unique_key": [
+      "Vladimir Đošović",
+      "05:08:28"
+    ],
+    "graded_place": 178,
+    "ag_place": 30
+  },
+  {
+    "bib": "580",
+    "name": "Branko Marković",
+    "age_group": "M35-39",
+    "finish_time": "05:13:40",
+    "finish_time_seconds": 18820,
+    "gender_place": "144",
+    "graded_time_seconds": 17879.0,
+    "graded_time": "04:57:59",
+    "unique_key": [
+      "Branko Marković",
+      "05:13:40"
+    ],
+    "graded_place": 179,
+    "ag_place": 24
+  },
+  {
+    "bib": "400",
+    "name": "Alberto Krebs",
+    "age_group": "M35-39",
+    "finish_time": "05:14:56",
+    "finish_time_seconds": 18896,
+    "gender_place": "150",
+    "graded_time_seconds": 17951.2,
+    "graded_time": "04:59:11",
+    "unique_key": [
+      "Alberto Krebs",
+      "05:14:56"
+    ],
+    "graded_place": 180,
+    "ag_place": 25
+  },
+  {
+    "bib": "439",
+    "name": "Alojz Klanecek",
+    "age_group": "M60-64",
+    "finish_time": "06:05:31",
+    "finish_time_seconds": 21931,
+    "gender_place": "325",
+    "graded_time_seconds": 17965.875200000002,
+    "graded_time": "04:59:25",
+    "unique_key": [
+      "Alojz Klanecek",
+      "06:05:31"
+    ],
+    "graded_place": 181,
+    "ag_place": 7
+  },
+  {
+    "bib": "533",
+    "name": "Saša Lukić",
+    "age_group": "M30-34",
+    "finish_time": "05:10:23",
+    "finish_time_seconds": 18623,
+    "gender_place": "135",
+    "graded_time_seconds": 17980.5065,
+    "graded_time": "04:59:40",
+    "unique_key": [
+      "Saša Lukić",
+      "05:10:23"
+    ],
+    "graded_place": 182,
+    "ag_place": 31
+  },
+  {
+    "bib": "220",
+    "name": "Fotios Vlachos",
+    "age_group": "M40-44",
+    "finish_time": "05:23:36",
+    "finish_time_seconds": 19416,
+    "gender_place": "180",
+    "graded_time_seconds": 17983.0992,
+    "graded_time": "04:59:43",
+    "unique_key": [
+      "Fotios Vlachos",
+      "05:23:36"
+    ],
+    "graded_place": 183,
+    "ag_place": 36
+  },
+  {
+    "bib": "365",
+    "name": "Christian Urich",
+    "age_group": "M60-64",
+    "finish_time": "06:06:39",
+    "finish_time_seconds": 21999,
+    "gender_place": "328",
+    "graded_time_seconds": 18021.5808,
+    "graded_time": "05:00:21",
+    "unique_key": [
+      "Christian Urich",
+      "06:06:39"
+    ],
+    "graded_place": 184,
+    "ag_place": 8
+  },
+  {
+    "bib": "224",
+    "name": "Nikita Sizonenko",
+    "age_group": "M30-34",
+    "finish_time": "05:13:10",
+    "finish_time_seconds": 18790,
+    "gender_place": "143",
+    "graded_time_seconds": 18141.745,
+    "graded_time": "05:02:21",
+    "unique_key": [
+      "Nikita Sizonenko",
+      "05:13:10"
+    ],
+    "graded_place": 185,
+    "ag_place": 32
+  },
+  {
+    "bib": "228",
+    "name": "Nemanja Todorović",
+    "age_group": "M35-39",
+    "finish_time": "05:18:19",
+    "finish_time_seconds": 19099,
+    "gender_place": "163",
+    "graded_time_seconds": 18144.05,
+    "graded_time": "05:02:24",
+    "unique_key": [
+      "Nemanja Todorović",
+      "05:18:19"
+    ],
+    "graded_place": 186,
+    "ag_place": 26
+  },
+  {
+    "bib": "548",
+    "name": "Dmitry Finikov",
+    "age_group": "M45-49",
+    "finish_time": "05:36:53",
+    "finish_time_seconds": 20213,
+    "gender_place": "229",
+    "graded_time_seconds": 18147.2314,
+    "graded_time": "05:02:27",
+    "unique_key": [
+      "Dmitry Finikov",
+      "05:36:53"
+    ],
+    "graded_place": 187,
+    "ag_place": 31
+  },
+  {
+    "bib": "355",
+    "name": "Manos Nestoras",
+    "age_group": "M50-54",
+    "finish_time": "05:42:45",
+    "finish_time_seconds": 20565,
+    "gender_place": "253",
+    "graded_time_seconds": 18165.0645,
+    "graded_time": "05:02:45",
+    "unique_key": [
+      "Manos Nestoras",
+      "05:42:45"
+    ],
+    "graded_place": 188,
+    "ag_place": 24
+  },
+  {
+    "bib": "90",
+    "name": "Matteo Mariani",
+    "age_group": "M35-39",
+    "finish_time": "05:19:56",
+    "finish_time_seconds": 19196,
+    "gender_place": "169",
+    "graded_time_seconds": 18236.2,
+    "graded_time": "05:03:56",
+    "unique_key": [
+      "Matteo Mariani",
+      "05:19:56"
+    ],
+    "graded_place": 189,
+    "ag_place": 27
+  },
+  {
+    "bib": "376",
+    "name": "Matthew Taylor",
+    "age_group": "M35-39",
+    "finish_time": "05:20:00",
+    "finish_time_seconds": 19200,
+    "gender_place": "171",
+    "graded_time_seconds": 18240.0,
+    "graded_time": "05:04:00",
+    "unique_key": [
+      "Matthew Taylor",
+      "05:20:00"
+    ],
+    "graded_place": 190,
+    "ag_place": 28
+  },
+  {
+    "bib": "271",
+    "name": "Simon Halut",
+    "age_group": "M30-34",
+    "finish_time": "05:14:53",
+    "finish_time_seconds": 18893,
+    "gender_place": "149",
+    "graded_time_seconds": 18241.1915,
+    "graded_time": "05:04:01",
+    "unique_key": [
+      "Simon Halut",
+      "05:14:53"
+    ],
+    "graded_place": 191,
+    "ag_place": 33
+  },
+  {
+    "bib": "178",
+    "name": "Alexey Samodelkin",
+    "age_group": "M45-49",
+    "finish_time": "05:40:09",
+    "finish_time_seconds": 20409,
+    "gender_place": "242",
+    "graded_time_seconds": 18323.2002,
+    "graded_time": "05:05:23",
+    "unique_key": [
+      "Alexey Samodelkin",
+      "05:40:09"
+    ],
+    "graded_place": 192,
+    "ag_place": 32
+  },
+  {
+    "bib": "265",
+    "name": "Slobodan Djordjevic",
+    "age_group": "M35-39",
+    "finish_time": "05:21:50",
+    "finish_time_seconds": 19310,
+    "gender_place": "176",
+    "graded_time_seconds": 18344.5,
+    "graded_time": "05:05:44",
+    "unique_key": [
+      "Slobodan Djordjevic",
+      "05:21:50"
+    ],
+    "graded_place": 193,
+    "ag_place": 29
+  },
+  {
+    "bib": "30",
+    "name": "Giovanni Camon",
+    "age_group": "M30-34",
+    "finish_time": "05:17:02",
+    "finish_time_seconds": 19022,
+    "gender_place": "157",
+    "graded_time_seconds": 18365.741,
+    "graded_time": "05:06:05",
+    "unique_key": [
+      "Giovanni Camon",
+      "05:17:02"
+    ],
+    "graded_place": 194,
+    "ag_place": 34
+  },
+  {
+    "bib": "80",
+    "name": "Alvaro Amaya",
+    "age_group": "M45-49",
+    "finish_time": "05:41:03",
+    "finish_time_seconds": 20463,
+    "gender_place": "244",
+    "graded_time_seconds": 18371.6814,
+    "graded_time": "05:06:11",
+    "unique_key": [
+      "Alvaro Amaya",
+      "05:41:03"
+    ],
+    "graded_place": 195,
+    "ag_place": 33
+  },
+  {
+    "bib": "54",
+    "name": "Andrey Shcherba",
+    "age_group": "M18-24",
+    "finish_time": "05:06:17",
+    "finish_time_seconds": 18377,
+    "gender_place": "125",
+    "graded_time_seconds": 18377.0,
+    "graded_time": "05:06:17",
+    "unique_key": [
+      "Andrey Shcherba",
+      "05:06:17"
+    ],
+    "graded_place": 196,
+    "ag_place": 10
+  },
+  {
+    "bib": "103",
+    "name": "Robert Kitt",
+    "age_group": "M45-49",
+    "finish_time": "05:41:21",
+    "finish_time_seconds": 20481,
+    "gender_place": "247",
+    "graded_time_seconds": 18387.841800000002,
+    "graded_time": "05:06:27",
+    "unique_key": [
+      "Robert Kitt",
+      "05:41:21"
+    ],
+    "graded_place": 197,
+    "ag_place": 34
+  },
+  {
+    "bib": "348",
+    "name": "Slavko Matosic",
+    "age_group": "M40-44",
+    "finish_time": "05:31:04",
+    "finish_time_seconds": 19864,
+    "gender_place": "213",
+    "graded_time_seconds": 18398.0368,
+    "graded_time": "05:06:38",
+    "unique_key": [
+      "Slavko Matosic",
+      "05:31:04"
+    ],
+    "graded_place": 198,
+    "ag_place": 37
+  },
+  {
+    "bib": "629",
+    "name": "Gareth Sanashee",
+    "age_group": "M30-34",
+    "finish_time": "05:18:06",
+    "finish_time_seconds": 19086,
+    "gender_place": "160",
+    "graded_time_seconds": 18427.533,
+    "graded_time": "05:07:07",
+    "unique_key": [
+      "Gareth Sanashee",
+      "05:18:06"
+    ],
+    "graded_place": 199,
+    "ag_place": 35
+  },
+  {
+    "bib": "137",
+    "name": "Oleg Proskurin",
+    "age_group": "M35-39",
+    "finish_time": "05:23:23",
+    "finish_time_seconds": 19403,
+    "gender_place": "179",
+    "graded_time_seconds": 18432.85,
+    "graded_time": "05:07:12",
+    "unique_key": [
+      "Oleg Proskurin",
+      "05:23:23"
+    ],
+    "graded_place": 200,
+    "ag_place": 30
+  },
+  {
+    "bib": "105",
+    "name": "Philipp Blume",
+    "age_group": "M35-39",
+    "finish_time": "05:23:50",
+    "finish_time_seconds": 19430,
+    "gender_place": "182",
+    "graded_time_seconds": 18458.5,
+    "graded_time": "05:07:38",
+    "unique_key": [
+      "Philipp Blume",
+      "05:23:50"
+    ],
+    "graded_place": 201,
+    "ag_place": 31
+  },
+  {
+    "bib": "300",
+    "name": "Wolfgang Mauerer",
+    "age_group": "M30-34",
+    "finish_time": "05:18:58",
+    "finish_time_seconds": 19138,
+    "gender_place": "166",
+    "graded_time_seconds": 18477.739,
+    "graded_time": "05:07:57",
+    "unique_key": [
+      "Wolfgang Mauerer",
+      "05:18:58"
+    ],
+    "graded_place": 202,
+    "ag_place": 36
+  },
+  {
+    "bib": "555",
+    "name": "Sven Mehl",
+    "age_group": "M35-39",
+    "finish_time": "05:24:19",
+    "finish_time_seconds": 19459,
+    "gender_place": "185",
+    "graded_time_seconds": 18486.05,
+    "graded_time": "05:08:06",
+    "unique_key": [
+      "Sven Mehl",
+      "05:24:19"
+    ],
+    "graded_place": 203,
+    "ag_place": 32
+  },
+  {
+    "bib": "576",
+    "name": "Ömer Can Zilcioglu",
+    "age_group": "M25-29",
+    "finish_time": "05:10:20",
+    "finish_time_seconds": 18620,
+    "gender_place": "134",
+    "graded_time_seconds": 18487.798,
+    "graded_time": "05:08:07",
+    "unique_key": [
+      "Ömer Can Zilcioglu",
+      "05:10:20"
+    ],
+    "graded_place": 204,
+    "ag_place": 6
+  },
+  {
+    "bib": "430",
+    "name": "Florin Jianu",
+    "age_group": "M45-49",
+    "finish_time": "05:43:21",
+    "finish_time_seconds": 20601,
+    "gender_place": "258",
+    "graded_time_seconds": 18495.5778,
+    "graded_time": "05:08:15",
+    "unique_key": [
+      "Florin Jianu",
+      "05:43:21"
+    ],
+    "graded_place": 205,
+    "ag_place": 35
+  },
+  {
+    "bib": "205",
+    "name": "Ingmar Bakermans",
+    "age_group": "M25-29",
+    "finish_time": "05:10:37",
+    "finish_time_seconds": 18637,
+    "gender_place": "136",
+    "graded_time_seconds": 18504.6773,
+    "graded_time": "05:08:24",
+    "unique_key": [
+      "Ingmar Bakermans",
+      "05:10:37"
+    ],
+    "graded_place": 206,
+    "ag_place": 7
+  },
+  {
+    "bib": "633",
+    "name": "Stefan Milenković",
+    "age_group": "M45-49",
+    "finish_time": "05:43:50",
+    "finish_time_seconds": 20630,
+    "gender_place": "262",
+    "graded_time_seconds": 18521.614,
+    "graded_time": "05:08:41",
+    "unique_key": [
+      "Stefan Milenković",
+      "05:43:50"
+    ],
+    "graded_place": 207,
+    "ag_place": 36
+  },
+  {
+    "bib": "289",
+    "name": "Srđan Cvijanović",
+    "age_group": "M35-39",
+    "finish_time": "05:24:59",
+    "finish_time_seconds": 19499,
+    "gender_place": "187",
+    "graded_time_seconds": 18524.05,
+    "graded_time": "05:08:44",
+    "unique_key": [
+      "Srđan Cvijanović",
+      "05:24:59"
+    ],
+    "graded_place": 208,
+    "ag_place": 33
+  },
+  {
+    "bib": "532",
+    "name": "Pericles Dos Santos",
+    "age_group": "M65-69",
+    "finish_time": "06:44:10",
+    "finish_time_seconds": 24250,
+    "gender_place": "407",
+    "graded_time_seconds": 18527.0,
+    "graded_time": "05:08:47",
+    "unique_key": [
+      "Pericles Dos Santos",
+      "06:44:10"
+    ],
+    "graded_place": 209,
+    "ag_place": 2
+  },
+  {
+    "bib": "163",
+    "name": "Sune Soelberg",
+    "age_group": "M45-49",
+    "finish_time": "05:44:18",
+    "finish_time_seconds": 20658,
+    "gender_place": "264",
+    "graded_time_seconds": 18546.7524,
+    "graded_time": "05:09:06",
+    "unique_key": [
+      "Sune Soelberg",
+      "05:44:18"
+    ],
+    "graded_place": 210,
+    "ag_place": 37
+  },
+  {
+    "bib": "11",
+    "name": "Brian Stowe",
+    "age_group": "M25-29",
+    "finish_time": "05:11:22",
+    "finish_time_seconds": 18682,
+    "gender_place": "137",
+    "graded_time_seconds": 18549.3578,
+    "graded_time": "05:09:09",
+    "unique_key": [
+      "Brian Stowe",
+      "05:11:22"
+    ],
+    "graded_place": 211,
+    "ag_place": 8
+  },
+  {
+    "bib": "177",
+    "name": "Maksim Sumin",
+    "age_group": "M50-54",
+    "finish_time": "05:50:18",
+    "finish_time_seconds": 21018,
+    "gender_place": "286",
+    "graded_time_seconds": 18565.199399999998,
+    "graded_time": "05:09:25",
+    "unique_key": [
+      "Maksim Sumin",
+      "05:50:18"
+    ],
+    "graded_place": 212,
+    "ag_place": 25
+  },
+  {
+    "bib": "507",
+    "name": "Mugdim Salan",
+    "age_group": "M40-44",
+    "finish_time": "05:34:09",
+    "finish_time_seconds": 20049,
+    "gender_place": "220",
+    "graded_time_seconds": 18569.3838,
+    "graded_time": "05:09:29",
+    "unique_key": [
+      "Mugdim Salan",
+      "05:34:09"
+    ],
+    "graded_place": 213,
+    "ag_place": 38
+  },
+  {
+    "bib": "655",
+    "name": "Vedran Jović",
+    "age_group": "M40-44",
+    "finish_time": "05:34:30",
+    "finish_time_seconds": 20070,
+    "gender_place": "221",
+    "graded_time_seconds": 18588.834,
+    "graded_time": "05:09:48",
+    "unique_key": [
+      "Vedran Jović",
+      "05:34:30"
+    ],
+    "graded_place": 214,
+    "ag_place": 39
+  },
+  {
+    "bib": "671",
+    "name": "Edin Feta",
+    "age_group": "M25-29",
+    "finish_time": "05:12:02",
+    "finish_time_seconds": 18722,
+    "gender_place": "140",
+    "graded_time_seconds": 18589.0738,
+    "graded_time": "05:09:49",
+    "unique_key": [
+      "Edin Feta",
+      "05:12:02"
+    ],
+    "graded_place": 215,
+    "ag_place": 9
+  },
+  {
+    "bib": "525",
+    "name": "Davide Campi",
+    "age_group": "M40-44",
+    "finish_time": "05:34:46",
+    "finish_time_seconds": 20086,
+    "gender_place": "223",
+    "graded_time_seconds": 18603.6532,
+    "graded_time": "05:10:03",
+    "unique_key": [
+      "Davide Campi",
+      "05:34:46"
+    ],
+    "graded_place": 216,
+    "ag_place": 40
+  },
+  {
+    "bib": "534",
+    "name": "Mitja Licar",
+    "age_group": "M35-39",
+    "finish_time": "05:26:30",
+    "finish_time_seconds": 19590,
+    "gender_place": "194",
+    "graded_time_seconds": 18610.5,
+    "graded_time": "05:10:10",
+    "unique_key": [
+      "Mitja Licar",
+      "05:26:30"
+    ],
+    "graded_place": 217,
+    "ag_place": 34
+  },
+  {
+    "bib": "557",
+    "name": "Thomas Krokor",
+    "age_group": "M50-54",
+    "finish_time": "05:51:25",
+    "finish_time_seconds": 21085,
+    "gender_place": "290",
+    "graded_time_seconds": 18624.3805,
+    "graded_time": "05:10:24",
+    "unique_key": [
+      "Thomas Krokor",
+      "05:51:25"
+    ],
+    "graded_place": 218,
+    "ag_place": 26
+  },
+  {
+    "bib": "514",
+    "name": "Alexander Oreshkov",
+    "age_group": "M35-39",
+    "finish_time": "05:26:48",
+    "finish_time_seconds": 19608,
+    "gender_place": "196",
+    "graded_time_seconds": 18627.6,
+    "graded_time": "05:10:27",
+    "unique_key": [
+      "Alexander Oreshkov",
+      "05:26:48"
+    ],
+    "graded_place": 219,
+    "ag_place": 35
+  },
+  {
+    "bib": "421",
+    "name": "Borja Moya Rodriguez",
+    "age_group": "M30-34",
+    "finish_time": "05:21:38",
+    "finish_time_seconds": 19298,
+    "gender_place": "174",
+    "graded_time_seconds": 18632.219,
+    "graded_time": "05:10:32",
+    "unique_key": [
+      "Borja Moya Rodriguez",
+      "05:21:38"
+    ],
+    "graded_place": 220,
+    "ag_place": 37
+  },
+  {
+    "bib": "279",
+    "name": "Bojan Stekic",
+    "age_group": "M30-34",
+    "finish_time": "05:21:38",
+    "finish_time_seconds": 19298,
+    "gender_place": "175",
+    "graded_time_seconds": 18632.219,
+    "graded_time": "05:10:32",
+    "unique_key": [
+      "Bojan Stekic",
+      "05:21:38"
+    ],
+    "graded_place": 220,
+    "ag_place": 38
+  },
+  {
+    "bib": "243",
+    "name": "Aleksei Nikolaev",
+    "age_group": "M35-39",
+    "finish_time": "05:26:54",
+    "finish_time_seconds": 19614,
+    "gender_place": "197",
+    "graded_time_seconds": 18633.3,
+    "graded_time": "05:10:33",
+    "unique_key": [
+      "Aleksei Nikolaev",
+      "05:26:54"
+    ],
+    "graded_place": 222,
+    "ag_place": 36
+  },
+  {
+    "bib": "256",
+    "name": "Timur Aliev",
+    "age_group": "M60-64",
+    "finish_time": "06:19:52",
+    "finish_time_seconds": 22792,
+    "gender_place": "364",
+    "graded_time_seconds": 18671.2064,
+    "graded_time": "05:11:11",
+    "unique_key": [
+      "Timur Aliev",
+      "06:19:52"
+    ],
+    "graded_place": 223,
+    "ag_place": 9
+  },
+  {
+    "bib": "34",
+    "name": "Adam Lesak",
+    "age_group": "M30-34",
+    "finish_time": "05:22:37",
+    "finish_time_seconds": 19357,
+    "gender_place": "178",
+    "graded_time_seconds": 18689.1835,
+    "graded_time": "05:11:29",
+    "unique_key": [
+      "Adam Lesak",
+      "05:22:37"
+    ],
+    "graded_place": 224,
+    "ag_place": 39
+  },
+  {
+    "bib": "611",
+    "name": "Milan Antonović",
+    "age_group": "M25-29",
+    "finish_time": "05:14:04",
+    "finish_time_seconds": 18844,
+    "gender_place": "146",
+    "graded_time_seconds": 18710.2076,
+    "graded_time": "05:11:50",
+    "unique_key": [
+      "Milan Antonović",
+      "05:14:04"
+    ],
+    "graded_place": 225,
+    "ag_place": 10
+  },
+  {
+    "bib": "447",
+    "name": "Angelos Roussos",
+    "age_group": "M35-39",
+    "finish_time": "05:28:19",
+    "finish_time_seconds": 19699,
+    "gender_place": "202",
+    "graded_time_seconds": 18714.05,
+    "graded_time": "05:11:54",
+    "unique_key": [
+      "Angelos Roussos",
+      "05:28:19"
+    ],
+    "graded_place": 226,
+    "ag_place": 37
+  },
+  {
+    "bib": "567",
+    "name": "Istvan Dobrovoczky",
+    "age_group": "M50-54",
+    "finish_time": "05:53:31",
+    "finish_time_seconds": 21211,
+    "gender_place": "300",
+    "graded_time_seconds": 18735.6763,
+    "graded_time": "05:12:15",
+    "unique_key": [
+      "Istvan Dobrovoczky",
+      "05:53:31"
+    ],
+    "graded_place": 227,
+    "ag_place": 27
+  },
+  {
+    "bib": "646",
+    "name": "Novica Žarić",
+    "age_group": "M45-49",
+    "finish_time": "05:48:12",
+    "finish_time_seconds": 20892,
+    "gender_place": "280",
+    "graded_time_seconds": 18756.837600000003,
+    "graded_time": "05:12:36",
+    "unique_key": [
+      "Novica Žarić",
+      "05:48:12"
+    ],
+    "graded_place": 228,
+    "ag_place": 38
+  },
+  {
+    "bib": "52",
+    "name": "Pawel Kosla",
+    "age_group": "M40-44",
+    "finish_time": "05:37:49",
+    "finish_time_seconds": 20269,
+    "gender_place": "235",
+    "graded_time_seconds": 18773.1478,
+    "graded_time": "05:12:53",
+    "unique_key": [
+      "Pawel Kosla",
+      "05:37:49"
+    ],
+    "graded_place": 229,
+    "ag_place": 41
+  },
+  {
+    "bib": "161",
+    "name": "Aljoša Nojič",
+    "age_group": "M25-29",
+    "finish_time": "05:15:13",
+    "finish_time_seconds": 18913,
+    "gender_place": "151",
+    "graded_time_seconds": 18778.7177,
+    "graded_time": "05:12:58",
+    "unique_key": [
+      "Aljoša Nojič",
+      "05:15:13"
+    ],
+    "graded_place": 230,
+    "ag_place": 11
+  },
+  {
+    "bib": "625",
+    "name": "Oleg Kredyshev",
+    "age_group": "M35-39",
+    "finish_time": "05:30:43",
+    "finish_time_seconds": 19843,
+    "gender_place": "212",
+    "graded_time_seconds": 18850.85,
+    "graded_time": "05:14:10",
+    "unique_key": [
+      "Oleg Kredyshev",
+      "05:30:43"
+    ],
+    "graded_place": 231,
+    "ag_place": 38
+  },
+  {
+    "bib": "158",
+    "name": "Fedor Jurić",
+    "age_group": "M30-34",
+    "finish_time": "05:26:11",
+    "finish_time_seconds": 19571,
+    "gender_place": "193",
+    "graded_time_seconds": 18895.8005,
+    "graded_time": "05:14:55",
+    "unique_key": [
+      "Fedor Jurić",
+      "05:26:11"
+    ],
+    "graded_place": 232,
+    "ag_place": 40
+  },
+  {
+    "bib": "192",
+    "name": "Paul Gilley",
+    "age_group": "M60-64",
+    "finish_time": "06:24:33",
+    "finish_time_seconds": 23073,
+    "gender_place": "378",
+    "graded_time_seconds": 18901.4016,
+    "graded_time": "05:15:01",
+    "unique_key": [
+      "Paul Gilley",
+      "06:24:33"
+    ],
+    "graded_place": 233,
+    "ag_place": 10
+  },
+  {
+    "bib": "522",
+    "name": "Alberto Gallas",
+    "age_group": "M40-44",
+    "finish_time": "05:41:12",
+    "finish_time_seconds": 20472,
+    "gender_place": "246",
+    "graded_time_seconds": 18961.166400000002,
+    "graded_time": "05:16:01",
+    "unique_key": [
+      "Alberto Gallas",
+      "05:41:12"
+    ],
+    "graded_place": 234,
+    "ag_place": 42
+  },
+  {
+    "bib": "196",
+    "name": "Ferenc Czigány",
+    "age_group": "M45-49",
+    "finish_time": "05:52:28",
+    "finish_time_seconds": 21148,
+    "gender_place": "292",
+    "graded_time_seconds": 18986.6744,
+    "graded_time": "05:16:26",
+    "unique_key": [
+      "Ferenc Czigány",
+      "05:52:28"
+    ],
+    "graded_place": 235,
+    "ag_place": 39
+  },
+  {
+    "bib": "683",
+    "name": "Alex Grebnev",
+    "age_group": "M45-49",
+    "finish_time": "05:52:57",
+    "finish_time_seconds": 21177,
+    "gender_place": "295",
+    "graded_time_seconds": 19012.710600000002,
+    "graded_time": "05:16:52",
+    "unique_key": [
+      "Alex Grebnev",
+      "05:52:57"
+    ],
+    "graded_place": 236,
+    "ag_place": 40
+  },
+  {
+    "bib": "402",
+    "name": "Denis Gamaleya",
+    "age_group": "M35-39",
+    "finish_time": "05:33:58",
+    "finish_time_seconds": 20038,
+    "gender_place": "219",
+    "graded_time_seconds": 19036.1,
+    "graded_time": "05:17:16",
+    "unique_key": [
+      "Denis Gamaleya",
+      "05:33:58"
+    ],
+    "graded_place": 237,
+    "ag_place": 39
+  },
+  {
+    "bib": "92",
+    "name": "Gianni Monaco",
+    "age_group": "M45-49",
+    "finish_time": "05:53:51",
+    "finish_time_seconds": 21231,
+    "gender_place": "303",
+    "graded_time_seconds": 19061.1918,
+    "graded_time": "05:17:41",
+    "unique_key": [
+      "Gianni Monaco",
+      "05:53:51"
+    ],
+    "graded_place": 238,
+    "ag_place": 41
+  },
+  {
+    "bib": "225",
+    "name": "Bastien Sauve",
+    "age_group": "M35-39",
+    "finish_time": "05:34:39",
+    "finish_time_seconds": 20079,
+    "gender_place": "222",
+    "graded_time_seconds": 19075.05,
+    "graded_time": "05:17:55",
+    "unique_key": [
+      "Bastien Sauve",
+      "05:34:39"
+    ],
+    "graded_place": 239,
+    "ag_place": 40
+  },
+  {
+    "bib": "396",
+    "name": "Saša Tokalić",
+    "age_group": "M40-44",
+    "finish_time": "05:43:25",
+    "finish_time_seconds": 20605,
+    "gender_place": "259",
+    "graded_time_seconds": 19084.351,
+    "graded_time": "05:18:04",
+    "unique_key": [
+      "Saša Tokalić",
+      "05:43:25"
+    ],
+    "graded_place": 240,
+    "ag_place": 43
+  },
+  {
+    "bib": "307",
+    "name": "Dimitrije Erić",
+    "age_group": "M18-24",
+    "finish_time": "05:18:14",
+    "finish_time_seconds": 19094,
+    "gender_place": "161",
+    "graded_time_seconds": 19094.0,
+    "graded_time": "05:18:14",
+    "unique_key": [
+      "Dimitrije Erić",
+      "05:18:14"
+    ],
+    "graded_place": 241,
+    "ag_place": 11
+  },
+  {
+    "bib": "628",
+    "name": "Burak Uz",
+    "age_group": "M35-39",
+    "finish_time": "05:35:00",
+    "finish_time_seconds": 20100,
+    "gender_place": "225",
+    "graded_time_seconds": 19095.0,
+    "graded_time": "05:18:15",
+    "unique_key": [
+      "Burak Uz",
+      "05:35:00"
+    ],
+    "graded_place": 242,
+    "ag_place": 41
+  },
+  {
+    "bib": "540",
+    "name": "David Pirityi",
+    "age_group": "M30-34",
+    "finish_time": "05:29:46",
+    "finish_time_seconds": 19786,
+    "gender_place": "209",
+    "graded_time_seconds": 19103.383,
+    "graded_time": "05:18:23",
+    "unique_key": [
+      "David Pirityi",
+      "05:29:46"
+    ],
+    "graded_place": 243,
+    "ag_place": 41
+  },
+  {
+    "bib": "419",
+    "name": "Grzegorz Buchal",
+    "age_group": "M55-59",
+    "finish_time": "06:11:47",
+    "finish_time_seconds": 22307,
+    "gender_place": "345",
+    "graded_time_seconds": 19105.9455,
+    "graded_time": "05:18:25",
+    "unique_key": [
+      "Grzegorz Buchal",
+      "06:11:47"
+    ],
+    "graded_place": 244,
+    "ag_place": 17
+  },
+  {
+    "bib": "231",
+    "name": "Matthew Wise",
+    "age_group": "M30-34",
+    "finish_time": "05:29:58",
+    "finish_time_seconds": 19798,
+    "gender_place": "210",
+    "graded_time_seconds": 19114.969,
+    "graded_time": "05:18:34",
+    "unique_key": [
+      "Matthew Wise",
+      "05:29:58"
+    ],
+    "graded_place": 245,
+    "ag_place": 42
+  },
+  {
+    "bib": "484",
+    "name": "Emrah Birinci",
+    "age_group": "M40-44",
+    "finish_time": "05:44:02",
+    "finish_time_seconds": 20642,
+    "gender_place": "263",
+    "graded_time_seconds": 19118.6204,
+    "graded_time": "05:18:38",
+    "unique_key": [
+      "Emrah Birinci",
+      "05:44:02"
+    ],
+    "graded_place": 246,
+    "ag_place": 44
+  },
+  {
+    "bib": "122",
+    "name": "Luis Stinchi",
+    "age_group": "M60-64",
+    "finish_time": "06:30:15",
+    "finish_time_seconds": 23415,
+    "gender_place": "387",
+    "graded_time_seconds": 19181.568,
+    "graded_time": "05:19:41",
+    "unique_key": [
+      "Luis Stinchi",
+      "06:30:15"
+    ],
+    "graded_place": 247,
+    "ag_place": 11
+  },
+  {
+    "bib": "562",
+    "name": "Steffen Kober",
+    "age_group": "M55-59",
+    "finish_time": "06:13:30",
+    "finish_time_seconds": 22410,
+    "gender_place": "347",
+    "graded_time_seconds": 19194.165,
+    "graded_time": "05:19:54",
+    "unique_key": [
+      "Steffen Kober",
+      "06:13:30"
+    ],
+    "graded_place": 248,
+    "ag_place": 18
+  },
+  {
+    "bib": "154",
+    "name": "Andrej Josifovski",
+    "age_group": "M35-39",
+    "finish_time": "05:36:57",
+    "finish_time_seconds": 20217,
+    "gender_place": "231",
+    "graded_time_seconds": 19206.149999999998,
+    "graded_time": "05:20:06",
+    "unique_key": [
+      "Andrej Josifovski",
+      "05:36:57"
+    ],
+    "graded_place": 249,
+    "ag_place": 42
+  },
+  {
+    "bib": "524",
+    "name": "Federico Carozzi",
+    "age_group": "M50-54",
+    "finish_time": "06:02:49",
+    "finish_time_seconds": 21769,
+    "gender_place": "318",
+    "graded_time_seconds": 19228.5577,
+    "graded_time": "05:20:28",
+    "unique_key": [
+      "Federico Carozzi",
+      "06:02:49"
+    ],
+    "graded_place": 250,
+    "ag_place": 28
+  },
+  {
+    "bib": "631",
+    "name": "Horatiu Popescu",
+    "age_group": "M40-44",
+    "finish_time": "05:46:05",
+    "finish_time_seconds": 20765,
+    "gender_place": "275",
+    "graded_time_seconds": 19232.543,
+    "graded_time": "05:20:32",
+    "unique_key": [
+      "Horatiu Popescu",
+      "05:46:05"
+    ],
+    "graded_place": 251,
+    "ag_place": 45
+  },
+  {
+    "bib": "422",
+    "name": "Aleksandar Marinkovic",
+    "age_group": "M35-39",
+    "finish_time": "05:37:41",
+    "finish_time_seconds": 20261,
+    "gender_place": "234",
+    "graded_time_seconds": 19247.95,
+    "graded_time": "05:20:47",
+    "unique_key": [
+      "Aleksandar Marinkovic",
+      "05:37:41"
+    ],
+    "graded_place": 252,
+    "ag_place": 43
+  },
+  {
+    "bib": "687",
+    "name": "Danilo Nesic",
+    "age_group": "M30-34",
+    "finish_time": "05:32:55",
+    "finish_time_seconds": 19975,
+    "gender_place": "217",
+    "graded_time_seconds": 19285.8625,
+    "graded_time": "05:21:25",
+    "unique_key": [
+      "Danilo Nesic",
+      "05:32:55"
+    ],
+    "graded_place": 253,
+    "ag_place": 43
+  },
+  {
+    "bib": "401",
+    "name": "Vladimir Stankovic",
+    "age_group": "M35-39",
+    "finish_time": "05:38:35",
+    "finish_time_seconds": 20315,
+    "gender_place": "237",
+    "graded_time_seconds": 19299.25,
+    "graded_time": "05:21:39",
+    "unique_key": [
+      "Vladimir Stankovic",
+      "05:38:35"
+    ],
+    "graded_place": 254,
+    "ag_place": 44
+  },
+  {
+    "bib": "399",
+    "name": "Kirill Iliukhin",
+    "age_group": "M35-39",
+    "finish_time": "05:38:57",
+    "finish_time_seconds": 20337,
+    "gender_place": "238",
+    "graded_time_seconds": 19320.149999999998,
+    "graded_time": "05:22:00",
+    "unique_key": [
+      "Kirill Iliukhin",
+      "05:38:57"
+    ],
+    "graded_place": 255,
+    "ag_place": 45
+  },
+  {
+    "bib": "538",
+    "name": "Draško Luković",
+    "age_group": "M60-64",
+    "finish_time": "06:33:53",
+    "finish_time_seconds": 23633,
+    "gender_place": "392",
+    "graded_time_seconds": 19360.1536,
+    "graded_time": "05:22:40",
+    "unique_key": [
+      "Draško Luković",
+      "06:33:53"
+    ],
+    "graded_place": 256,
+    "ag_place": 12
+  },
+  {
+    "bib": "183",
+    "name": "Jason Smith",
+    "age_group": "M55-59",
+    "finish_time": "06:16:55",
+    "finish_time_seconds": 22615,
+    "gender_place": "356",
+    "graded_time_seconds": 19369.7475,
+    "graded_time": "05:22:49",
+    "unique_key": [
+      "Jason Smith",
+      "06:16:55"
+    ],
+    "graded_place": 257,
+    "ag_place": 19
+  },
+  {
+    "bib": "424",
+    "name": "Marko Pavlovic",
+    "age_group": "M40-44",
+    "finish_time": "05:48:48",
+    "finish_time_seconds": 20928,
+    "gender_place": "282",
+    "graded_time_seconds": 19383.513600000002,
+    "graded_time": "05:23:03",
+    "unique_key": [
+      "Marko Pavlovic",
+      "05:48:48"
+    ],
+    "graded_place": 258,
+    "ag_place": 46
+  },
+  {
+    "bib": "157",
+    "name": "Milan Jovovic",
+    "age_group": "M40-44",
+    "finish_time": "05:48:57",
+    "finish_time_seconds": 20937,
+    "gender_place": "284",
+    "graded_time_seconds": 19391.8494,
+    "graded_time": "05:23:11",
+    "unique_key": [
+      "Milan Jovovic",
+      "05:48:57"
+    ],
+    "graded_place": 259,
+    "ag_place": 47
+  },
+  {
+    "bib": "320",
+    "name": "Rene Ratej",
+    "age_group": "M25-29",
+    "finish_time": "05:25:31",
+    "finish_time_seconds": 19531,
+    "gender_place": "189",
+    "graded_time_seconds": 19392.3299,
+    "graded_time": "05:23:12",
+    "unique_key": [
+      "Rene Ratej",
+      "05:25:31"
+    ],
+    "graded_place": 260,
+    "ag_place": 12
+  },
+  {
+    "bib": "319",
+    "name": "Tim Šlosar",
+    "age_group": "M25-29",
+    "finish_time": "05:25:34",
+    "finish_time_seconds": 19534,
+    "gender_place": "190",
+    "graded_time_seconds": 19395.3086,
+    "graded_time": "05:23:15",
+    "unique_key": [
+      "Tim Šlosar",
+      "05:25:34"
+    ],
+    "graded_place": 261,
+    "ag_place": 13
+  },
+  {
+    "bib": "685",
+    "name": "Josh Deakin",
+    "age_group": "M30-34",
+    "finish_time": "05:34:53",
+    "finish_time_seconds": 20093,
+    "gender_place": "224",
+    "graded_time_seconds": 19399.7915,
+    "graded_time": "05:23:19",
+    "unique_key": [
+      "Josh Deakin",
+      "05:34:53"
+    ],
+    "graded_place": 262,
+    "ag_place": 44
+  },
+  {
+    "bib": "387",
+    "name": "Tomas Whiteley",
+    "age_group": "M18-24",
+    "finish_time": "05:23:40",
+    "finish_time_seconds": 19420,
+    "gender_place": "181",
+    "graded_time_seconds": 19420.0,
+    "graded_time": "05:23:40",
+    "unique_key": [
+      "Tomas Whiteley",
+      "05:23:40"
+    ],
+    "graded_place": 263,
+    "ag_place": 12
+  },
+  {
+    "bib": "204",
+    "name": "Noah Eilers",
+    "age_group": "M18-24",
+    "finish_time": "05:24:03",
+    "finish_time_seconds": 19443,
+    "gender_place": "184",
+    "graded_time_seconds": 19443.0,
+    "graded_time": "05:24:03",
+    "unique_key": [
+      "Noah Eilers",
+      "05:24:03"
+    ],
+    "graded_place": 264,
+    "ag_place": 13
+  },
+  {
+    "bib": "397",
+    "name": "Veres David",
+    "age_group": "M35-39",
+    "finish_time": "05:41:11",
+    "finish_time_seconds": 20471,
+    "gender_place": "245",
+    "graded_time_seconds": 19447.45,
+    "graded_time": "05:24:07",
+    "unique_key": [
+      "Veres David",
+      "05:41:11"
+    ],
+    "graded_place": 265,
+    "ag_place": 46
+  },
+  {
+    "bib": "99",
+    "name": "Tomislav Cvitanusic",
+    "age_group": "M50-54",
+    "finish_time": "06:07:08",
+    "finish_time_seconds": 22028,
+    "gender_place": "329",
+    "graded_time_seconds": 19457.3324,
+    "graded_time": "05:24:17",
+    "unique_key": [
+      "Tomislav Cvitanusic",
+      "06:07:08"
+    ],
+    "graded_place": 266,
+    "ag_place": 29
+  },
+  {
+    "bib": "393",
+    "name": "Giorgos Paschalis",
+    "age_group": "M55-59",
+    "finish_time": "06:19:05",
+    "finish_time_seconds": 22745,
+    "gender_place": "362",
+    "graded_time_seconds": 19481.092500000002,
+    "graded_time": "05:24:41",
+    "unique_key": [
+      "Giorgos Paschalis",
+      "06:19:05"
+    ],
+    "graded_place": 267,
+    "ag_place": 20
+  },
+  {
+    "bib": "663",
+    "name": "Marko Stojanović",
+    "age_group": "M30-34",
+    "finish_time": "05:36:32",
+    "finish_time_seconds": 20192,
+    "gender_place": "228",
+    "graded_time_seconds": 19495.376,
+    "graded_time": "05:24:55",
+    "unique_key": [
+      "Marko Stojanović",
+      "05:36:32"
+    ],
+    "graded_place": 268,
+    "ag_place": 45
+  },
+  {
+    "bib": "385",
+    "name": "Maurus Markwalder",
+    "age_group": "M40-44",
+    "finish_time": "05:50:56",
+    "finish_time_seconds": 21056,
+    "gender_place": "288",
+    "graded_time_seconds": 19502.0672,
+    "graded_time": "05:25:02",
+    "unique_key": [
+      "Maurus Markwalder",
+      "05:50:56"
+    ],
+    "graded_place": 269,
+    "ag_place": 48
+  },
+  {
+    "bib": "324",
+    "name": "Milan Blažić",
+    "age_group": "M35-39",
+    "finish_time": "05:42:15",
+    "finish_time_seconds": 20535,
+    "gender_place": "251",
+    "graded_time_seconds": 19508.25,
+    "graded_time": "05:25:08",
+    "unique_key": [
+      "Milan Blažić",
+      "05:42:15"
+    ],
+    "graded_place": 270,
+    "ag_place": 47
+  },
+  {
+    "bib": "441",
+    "name": "Bojan Sauerborn",
+    "age_group": "M35-39",
+    "finish_time": "05:42:58",
+    "finish_time_seconds": 20578,
+    "gender_place": "254",
+    "graded_time_seconds": 19549.1,
+    "graded_time": "05:25:49",
+    "unique_key": [
+      "Bojan Sauerborn",
+      "05:42:58"
+    ],
+    "graded_place": 271,
+    "ag_place": 48
+  },
+  {
+    "bib": "168",
+    "name": "Paolo Bronzi",
+    "age_group": "M55-59",
+    "finish_time": "06:20:39",
+    "finish_time_seconds": 22839,
+    "gender_place": "367",
+    "graded_time_seconds": 19561.6035,
+    "graded_time": "05:26:01",
+    "unique_key": [
+      "Paolo Bronzi",
+      "06:20:39"
+    ],
+    "graded_place": 272,
+    "ag_place": 21
+  },
+  {
+    "bib": "88",
+    "name": "Stefan Vučković",
+    "age_group": "M35-39",
+    "finish_time": "05:43:15",
+    "finish_time_seconds": 20595,
+    "gender_place": "256",
+    "graded_time_seconds": 19565.25,
+    "graded_time": "05:26:05",
+    "unique_key": [
+      "Stefan Vučković",
+      "05:43:15"
+    ],
+    "graded_place": 273,
+    "ag_place": 49
+  },
+  {
+    "bib": "437",
+    "name": "Igor Grib",
+    "age_group": "M50-54",
+    "finish_time": "06:09:15",
+    "finish_time_seconds": 22155,
+    "gender_place": "336",
+    "graded_time_seconds": 19569.5115,
+    "graded_time": "05:26:09",
+    "unique_key": [
+      "Igor Grib",
+      "06:09:15"
+    ],
+    "graded_place": 274,
+    "ag_place": 30
+  },
+  {
+    "bib": "680",
+    "name": "Nikita Spiridonov",
+    "age_group": "M35-39",
+    "finish_time": "05:43:26",
+    "finish_time_seconds": 20606,
+    "gender_place": "260",
+    "graded_time_seconds": 19575.7,
+    "graded_time": "05:26:15",
+    "unique_key": [
+      "Nikita Spiridonov",
+      "05:43:26"
+    ],
+    "graded_place": 275,
+    "ag_place": 50
+  },
+  {
+    "bib": "235",
+    "name": "Niv Amitay",
+    "age_group": "M30-34",
+    "finish_time": "05:38:01",
+    "finish_time_seconds": 20281,
+    "gender_place": "236",
+    "graded_time_seconds": 19581.305500000002,
+    "graded_time": "05:26:21",
+    "unique_key": [
+      "Niv Amitay",
+      "05:38:01"
+    ],
+    "graded_place": 276,
+    "ag_place": 46
+  },
+  {
+    "bib": "490",
+    "name": "Nenad Simić",
+    "age_group": "M40-44",
+    "finish_time": "05:52:42",
+    "finish_time_seconds": 21162,
+    "gender_place": "293",
+    "graded_time_seconds": 19600.2444,
+    "graded_time": "05:26:40",
+    "unique_key": [
+      "Nenad Simić",
+      "05:52:42"
+    ],
+    "graded_place": 277,
+    "ag_place": 49
+  },
+  {
+    "bib": "83",
+    "name": "Djordje Andjelkovic",
+    "age_group": "M50-54",
+    "finish_time": "06:09:53",
+    "finish_time_seconds": 22193,
+    "gender_place": "337",
+    "graded_time_seconds": 19603.0769,
+    "graded_time": "05:26:43",
+    "unique_key": [
+      "Djordje Andjelkovic",
+      "06:09:53"
+    ],
+    "graded_place": 278,
+    "ag_place": 31
+  },
+  {
+    "bib": "501",
+    "name": "Leonid Nikolaiev",
+    "age_group": "M50-54",
+    "finish_time": "06:10:27",
+    "finish_time_seconds": 22227,
+    "gender_place": "340",
+    "graded_time_seconds": 19633.109099999998,
+    "graded_time": "05:27:13",
+    "unique_key": [
+      "Leonid Nikolaiev",
+      "06:10:27"
+    ],
+    "graded_place": 279,
+    "ag_place": 32
+  },
+  {
+    "bib": "211",
+    "name": "Aleksandr Veryayskiy",
+    "age_group": "M35-39",
+    "finish_time": "05:45:05",
+    "finish_time_seconds": 20705,
+    "gender_place": "272",
+    "graded_time_seconds": 19669.75,
+    "graded_time": "05:27:49",
+    "unique_key": [
+      "Aleksandr Veryayskiy",
+      "05:45:05"
+    ],
+    "graded_place": 280,
+    "ag_place": 51
+  },
+  {
+    "bib": "79",
+    "name": "Igor Fokin",
+    "age_group": "M25-29",
+    "finish_time": "05:30:17",
+    "finish_time_seconds": 19817,
+    "gender_place": "211",
+    "graded_time_seconds": 19676.2993,
+    "graded_time": "05:27:56",
+    "unique_key": [
+      "Igor Fokin",
+      "05:30:17"
+    ],
+    "graded_place": 281,
+    "ag_place": 14
+  },
+  {
+    "bib": "312",
+    "name": "Roman Menshov",
+    "age_group": "M35-39",
+    "finish_time": "05:45:28",
+    "finish_time_seconds": 20728,
+    "gender_place": "273",
+    "graded_time_seconds": 19691.6,
+    "graded_time": "05:28:11",
+    "unique_key": [
+      "Roman Menshov",
+      "05:45:28"
+    ],
+    "graded_place": 282,
+    "ag_place": 52
+  },
+  {
+    "bib": "428",
+    "name": "Andrej Panic",
+    "age_group": "M35-39",
+    "finish_time": "05:45:39",
+    "finish_time_seconds": 20739,
+    "gender_place": "274",
+    "graded_time_seconds": 19702.05,
+    "graded_time": "05:28:22",
+    "unique_key": [
+      "Andrej Panic",
+      "05:45:39"
+    ],
+    "graded_place": 283,
+    "ag_place": 53
+  },
+  {
+    "bib": "370",
+    "name": "Dušan Mačkić",
+    "age_group": "M18-24",
+    "finish_time": "05:28:26",
+    "finish_time_seconds": 19706,
+    "gender_place": "203",
+    "graded_time_seconds": 19706.0,
+    "graded_time": "05:28:26",
+    "unique_key": [
+      "Dušan Mačkić",
+      "05:28:26"
+    ],
+    "graded_place": 284,
+    "ag_place": 14
+  },
+  {
+    "bib": "360",
+    "name": "Constantinos Papacharalambous",
+    "age_group": "M18-24",
+    "finish_time": "05:28:30",
+    "finish_time_seconds": 19710,
+    "gender_place": "205",
+    "graded_time_seconds": 19710.0,
+    "graded_time": "05:28:30",
+    "unique_key": [
+      "Constantinos Papacharalambous",
+      "05:28:30"
+    ],
+    "graded_place": 285,
+    "ag_place": 15
+  },
+  {
+    "bib": "518",
+    "name": "Antonino Spezzano",
+    "age_group": "M45-49",
+    "finish_time": "06:07:16",
+    "finish_time_seconds": 22036,
+    "gender_place": "330",
+    "graded_time_seconds": 19783.9208,
+    "graded_time": "05:29:43",
+    "unique_key": [
+      "Antonino Spezzano",
+      "06:07:16"
+    ],
+    "graded_place": 286,
+    "ag_place": 42
+  },
+  {
+    "bib": "259",
+    "name": "Alexander Urban",
+    "age_group": "M40-44",
+    "finish_time": "05:56:21",
+    "finish_time_seconds": 21381,
+    "gender_place": "308",
+    "graded_time_seconds": 19803.0822,
+    "graded_time": "05:30:03",
+    "unique_key": [
+      "Alexander Urban",
+      "05:56:21"
+    ],
+    "graded_place": 287,
+    "ag_place": 50
+  },
+  {
+    "bib": "637",
+    "name": "Igor Rod",
+    "age_group": "M45-49",
+    "finish_time": "06:08:23",
+    "finish_time_seconds": 22103,
+    "gender_place": "334",
+    "graded_time_seconds": 19844.0734,
+    "graded_time": "05:30:44",
+    "unique_key": [
+      "Igor Rod",
+      "06:08:23"
+    ],
+    "graded_place": 288,
+    "ag_place": 43
+  },
+  {
+    "bib": "654",
+    "name": "Dražen Oreščanin",
+    "age_group": "M55-59",
+    "finish_time": "06:27:23",
+    "finish_time_seconds": 23243,
+    "gender_place": "380",
+    "graded_time_seconds": 19907.6295,
+    "graded_time": "05:31:47",
+    "unique_key": [
+      "Dražen Oreščanin",
+      "06:27:23"
+    ],
+    "graded_place": 289,
+    "ag_place": 22
+  },
+  {
+    "bib": "672",
+    "name": "Mehmet Güllühalı",
+    "age_group": "M35-39",
+    "finish_time": "05:50:05",
+    "finish_time_seconds": 21005,
+    "gender_place": "285",
+    "graded_time_seconds": 19954.75,
+    "graded_time": "05:32:34",
+    "unique_key": [
+      "Mehmet Güllühalı",
+      "05:50:05"
+    ],
+    "graded_place": 290,
+    "ag_place": 54
+  },
+  {
+    "bib": "627",
+    "name": "Catalin Stiuca",
+    "age_group": "M30-34",
+    "finish_time": "05:44:33",
+    "finish_time_seconds": 20673,
+    "gender_place": "266",
+    "graded_time_seconds": 19959.7815,
+    "graded_time": "05:32:39",
+    "unique_key": [
+      "Catalin Stiuca",
+      "05:44:33"
+    ],
+    "graded_place": 291,
+    "ag_place": 47
+  },
+  {
+    "bib": "244",
+    "name": "Joseph Somakian",
+    "age_group": "M30-34",
+    "finish_time": "05:44:35",
+    "finish_time_seconds": 20675,
+    "gender_place": "267",
+    "graded_time_seconds": 19961.7125,
+    "graded_time": "05:32:41",
+    "unique_key": [
+      "Joseph Somakian",
+      "05:44:35"
+    ],
+    "graded_place": 292,
+    "ag_place": 48
+  },
+  {
+    "bib": "336",
+    "name": "Dan Bembridge",
+    "age_group": "M30-34",
+    "finish_time": "05:44:40",
+    "finish_time_seconds": 20680,
+    "gender_place": "269",
+    "graded_time_seconds": 19966.54,
+    "graded_time": "05:32:46",
+    "unique_key": [
+      "Dan Bembridge",
+      "05:44:40"
+    ],
+    "graded_place": 293,
+    "ag_place": 49
+  },
+  {
+    "bib": "258",
+    "name": "Luka Šolaja",
+    "age_group": "M30-34",
+    "finish_time": "05:44:41",
+    "finish_time_seconds": 20681,
+    "gender_place": "270",
+    "graded_time_seconds": 19967.5055,
+    "graded_time": "05:32:47",
+    "unique_key": [
+      "Luka Šolaja",
+      "05:44:41"
+    ],
+    "graded_place": 294,
+    "ag_place": 50
+  },
+  {
+    "bib": "73",
+    "name": "Nemanja Savković",
+    "age_group": "M18-24",
+    "finish_time": "05:32:50",
+    "finish_time_seconds": 19970,
+    "gender_place": "216",
+    "graded_time_seconds": 19970.0,
+    "graded_time": "05:32:50",
+    "unique_key": [
+      "Nemanja Savković",
+      "05:32:50"
+    ],
+    "graded_place": 295,
+    "ag_place": 16
+  },
+  {
+    "bib": "114",
+    "name": "Rafael Matos",
+    "age_group": "M35-39",
+    "finish_time": "05:50:39",
+    "finish_time_seconds": 21039,
+    "gender_place": "287",
+    "graded_time_seconds": 19987.05,
+    "graded_time": "05:33:07",
+    "unique_key": [
+      "Rafael Matos",
+      "05:50:39"
+    ],
+    "graded_place": 296,
+    "ag_place": 55
+  },
+  {
+    "bib": "662",
+    "name": "Vilian Dyankov",
+    "age_group": "M25-29",
+    "finish_time": "05:35:31",
+    "finish_time_seconds": 20131,
+    "gender_place": "226",
+    "graded_time_seconds": 19988.0699,
+    "graded_time": "05:33:08",
+    "unique_key": [
+      "Vilian Dyankov",
+      "05:35:31"
+    ],
+    "graded_place": 297,
+    "ag_place": 15
+  },
+  {
+    "bib": "203",
+    "name": "Gustav Lobeda",
+    "age_group": "M18-24",
+    "finish_time": "05:33:53",
+    "finish_time_seconds": 20033,
+    "gender_place": "218",
+    "graded_time_seconds": 20033.0,
+    "graded_time": "05:33:53",
+    "unique_key": [
+      "Gustav Lobeda",
+      "05:33:53"
+    ],
+    "graded_place": 298,
+    "ag_place": 17
+  },
+  {
+    "bib": "230",
+    "name": "Filippo Masetti Zannini",
+    "age_group": "M25-29",
+    "finish_time": "05:37:04",
+    "finish_time_seconds": 20224,
+    "gender_place": "233",
+    "graded_time_seconds": 20080.4096,
+    "graded_time": "05:34:40",
+    "unique_key": [
+      "Filippo Masetti Zannini",
+      "05:37:04"
+    ],
+    "graded_place": 299,
+    "ag_place": 16
+  },
+  {
+    "bib": "212",
+    "name": "Denis Gusev",
+    "age_group": "M35-39",
+    "finish_time": "05:52:47",
+    "finish_time_seconds": 21167,
+    "gender_place": "294",
+    "graded_time_seconds": 20108.649999999998,
+    "graded_time": "05:35:08",
+    "unique_key": [
+      "Denis Gusev",
+      "05:52:47"
+    ],
+    "graded_place": 300,
+    "ag_place": 56
+  },
+  {
+    "bib": "216",
+    "name": "Darragh Moynihan",
+    "age_group": "M30-34",
+    "finish_time": "05:47:17",
+    "finish_time_seconds": 20837,
+    "gender_place": "278",
+    "graded_time_seconds": 20118.1235,
+    "graded_time": "05:35:18",
+    "unique_key": [
+      "Darragh Moynihan",
+      "05:47:17"
+    ],
+    "graded_place": 301,
+    "ag_place": 51
+  },
+  {
+    "bib": "450",
+    "name": "Michael Krc",
+    "age_group": "M35-39",
+    "finish_time": "05:53:02",
+    "finish_time_seconds": 21182,
+    "gender_place": "296",
+    "graded_time_seconds": 20122.899999999998,
+    "graded_time": "05:35:22",
+    "unique_key": [
+      "Michael Krc",
+      "05:53:02"
+    ],
+    "graded_place": 302,
+    "ag_place": 57
+  },
+  {
+    "bib": "478",
+    "name": "Milan Ostojic",
+    "age_group": "M30-34",
+    "finish_time": "05:47:22",
+    "finish_time_seconds": 20842,
+    "gender_place": "279",
+    "graded_time_seconds": 20122.951,
+    "graded_time": "05:35:22",
+    "unique_key": [
+      "Milan Ostojic",
+      "05:47:22"
+    ],
+    "graded_place": 303,
+    "ag_place": 52
+  },
+  {
+    "bib": "226",
+    "name": "Aleksandar Dabetic",
+    "age_group": "M40-44",
+    "finish_time": "06:02:09",
+    "finish_time_seconds": 21729,
+    "gender_place": "316",
+    "graded_time_seconds": 20125.3998,
+    "graded_time": "05:35:25",
+    "unique_key": [
+      "Aleksandar Dabetic",
+      "06:02:09"
+    ],
+    "graded_place": 304,
+    "ag_place": 51
+  },
+  {
+    "bib": "676",
+    "name": "Jiří Sváček",
+    "age_group": "M35-39",
+    "finish_time": "05:53:57",
+    "finish_time_seconds": 21237,
+    "gender_place": "304",
+    "graded_time_seconds": 20175.149999999998,
+    "graded_time": "05:36:15",
+    "unique_key": [
+      "Jiří Sváček",
+      "05:53:57"
+    ],
+    "graded_place": 305,
+    "ag_place": 58
+  },
+  {
+    "bib": "291",
+    "name": "Rafal Deska",
+    "age_group": "M40-44",
+    "finish_time": "06:03:22",
+    "finish_time_seconds": 21802,
+    "gender_place": "319",
+    "graded_time_seconds": 20193.0124,
+    "graded_time": "05:36:33",
+    "unique_key": [
+      "Rafal Deska",
+      "06:03:22"
+    ],
+    "graded_place": 306,
+    "ag_place": 52
+  },
+  {
+    "bib": "74",
+    "name": "Milan Sekulic",
+    "age_group": "M30-34",
+    "finish_time": "05:48:52",
+    "finish_time_seconds": 20932,
+    "gender_place": "283",
+    "graded_time_seconds": 20209.846,
+    "graded_time": "05:36:49",
+    "unique_key": [
+      "Milan Sekulic",
+      "05:48:52"
+    ],
+    "graded_place": 307,
+    "ag_place": 53
+  },
+  {
+    "bib": "684",
+    "name": "Branko Sarac",
+    "age_group": "M35-39",
+    "finish_time": "05:54:37",
+    "finish_time_seconds": 21277,
+    "gender_place": "305",
+    "graded_time_seconds": 20213.149999999998,
+    "graded_time": "05:36:53",
+    "unique_key": [
+      "Branko Sarac",
+      "05:54:37"
+    ],
+    "graded_place": 308,
+    "ag_place": 59
+  },
+  {
+    "bib": "535",
+    "name": "Vuk Nikolic",
+    "age_group": "M18-24",
+    "finish_time": "05:36:54",
+    "finish_time_seconds": 20214,
+    "gender_place": "230",
+    "graded_time_seconds": 20214.0,
+    "graded_time": "05:36:54",
+    "unique_key": [
+      "Vuk Nikolic",
+      "05:36:54"
+    ],
+    "graded_place": 309,
+    "ag_place": 18
+  },
+  {
+    "bib": "460",
+    "name": "Filip Maletić",
+    "age_group": "M25-29",
+    "finish_time": "05:39:25",
+    "finish_time_seconds": 20365,
+    "gender_place": "240",
+    "graded_time_seconds": 20220.4085,
+    "graded_time": "05:37:00",
+    "unique_key": [
+      "Filip Maletić",
+      "05:39:25"
+    ],
+    "graded_place": 310,
+    "ag_place": 17
+  },
+  {
+    "bib": "94",
+    "name": "Branko Petrovic",
+    "age_group": "M50-54",
+    "finish_time": "06:21:46",
+    "finish_time_seconds": 22906,
+    "gender_place": "371",
+    "graded_time_seconds": 20232.8698,
+    "graded_time": "05:37:12",
+    "unique_key": [
+      "Branko Petrovic",
+      "06:21:46"
+    ],
+    "graded_place": 311,
+    "ag_place": 33
+  },
+  {
+    "bib": "354",
+    "name": "Aleksej Shmelev",
+    "age_group": "M40-44",
+    "finish_time": "06:04:43",
+    "finish_time_seconds": 21883,
+    "gender_place": "322",
+    "graded_time_seconds": 20268.0346,
+    "graded_time": "05:37:48",
+    "unique_key": [
+      "Aleksej Shmelev",
+      "06:04:43"
+    ],
+    "graded_place": 312,
+    "ag_place": 53
+  },
+  {
+    "bib": "527",
+    "name": "Niccolò Tonietto",
+    "age_group": "M40-44",
+    "finish_time": "06:04:49",
+    "finish_time_seconds": 21889,
+    "gender_place": "323",
+    "graded_time_seconds": 20273.591800000002,
+    "graded_time": "05:37:53",
+    "unique_key": [
+      "Niccolò Tonietto",
+      "06:04:49"
+    ],
+    "graded_place": 313,
+    "ag_place": 54
+  },
+  {
+    "bib": "27",
+    "name": "Milán Dr. Jancsikin",
+    "age_group": "M35-39",
+    "finish_time": "05:55:44",
+    "finish_time_seconds": 21344,
+    "gender_place": "306",
+    "graded_time_seconds": 20276.8,
+    "graded_time": "05:37:56",
+    "unique_key": [
+      "Milán Dr. Jancsikin",
+      "05:55:44"
+    ],
+    "graded_place": 314,
+    "ag_place": 60
+  },
+  {
+    "bib": "298",
+    "name": "Miroslav Rajic",
+    "age_group": "M30-34",
+    "finish_time": "05:51:12",
+    "finish_time_seconds": 21072,
+    "gender_place": "289",
+    "graded_time_seconds": 20345.016,
+    "graded_time": "05:39:05",
+    "unique_key": [
+      "Miroslav Rajic",
+      "05:51:12"
+    ],
+    "graded_place": 315,
+    "ag_place": 54
+  },
+  {
+    "bib": "195",
+    "name": "Krsto Lalić",
+    "age_group": "M25-29",
+    "finish_time": "05:41:43",
+    "finish_time_seconds": 20503,
+    "gender_place": "248",
+    "graded_time_seconds": 20357.4287,
+    "graded_time": "05:39:17",
+    "unique_key": [
+      "Krsto Lalić",
+      "05:41:43"
+    ],
+    "graded_place": 316,
+    "ag_place": 18
+  },
+  {
+    "bib": "221",
+    "name": "Ignjat Antović",
+    "age_group": "M18-24",
+    "finish_time": "05:39:19",
+    "finish_time_seconds": 20359,
+    "gender_place": "239",
+    "graded_time_seconds": 20359.0,
+    "graded_time": "05:39:19",
+    "unique_key": [
+      "Ignjat Antović",
+      "05:39:19"
+    ],
+    "graded_place": 317,
+    "ag_place": 19
+  },
+  {
+    "bib": "480",
+    "name": "Márton Radványi",
+    "age_group": "M25-29",
+    "finish_time": "05:41:57",
+    "finish_time_seconds": 20517,
+    "gender_place": "250",
+    "graded_time_seconds": 20371.3293,
+    "graded_time": "05:39:31",
+    "unique_key": [
+      "Márton Radványi",
+      "05:41:57"
+    ],
+    "graded_place": 318,
+    "ag_place": 19
+  },
+  {
+    "bib": "184",
+    "name": "Nicoară Alexandru",
+    "age_group": "M35-39",
+    "finish_time": "05:57:32",
+    "finish_time_seconds": 21452,
+    "gender_place": "310",
+    "graded_time_seconds": 20379.399999999998,
+    "graded_time": "05:39:39",
+    "unique_key": [
+      "Nicoară Alexandru",
+      "05:57:32"
+    ],
+    "graded_place": 319,
+    "ag_place": 61
+  },
+  {
+    "bib": "310",
+    "name": "Emeri Jean-Francois",
+    "age_group": "M65-69",
+    "finish_time": "07:25:02",
+    "finish_time_seconds": 26702,
+    "gender_place": "453",
+    "graded_time_seconds": 20400.328,
+    "graded_time": "05:40:00",
+    "unique_key": [
+      "Emeri Jean-Francois",
+      "07:25:02"
+    ],
+    "graded_place": 320,
+    "ag_place": 3
+  },
+  {
+    "bib": "N/A",
+    "name": "anonymous",
+    "age_group": "M18-24",
+    "finish_time": "05:40:04",
+    "finish_time_seconds": 20404,
+    "gender_place": "241",
+    "graded_time_seconds": 20404.0,
+    "graded_time": "05:40:04",
+    "unique_key": [
+      "anonymous",
+      "05:40:04"
+    ],
+    "graded_place": 321,
+    "ag_place": 20
+  },
+  {
+    "bib": "621",
+    "name": "Vasilis Zografou",
+    "age_group": "M35-39",
+    "finish_time": "05:58:02",
+    "finish_time_seconds": 21482,
+    "gender_place": "311",
+    "graded_time_seconds": 20407.899999999998,
+    "graded_time": "05:40:07",
+    "unique_key": [
+      "Vasilis Zografou",
+      "05:58:02"
+    ],
+    "graded_place": 322,
+    "ag_place": 62
+  },
+  {
+    "bib": "274",
+    "name": "André Smrekar",
+    "age_group": "M40-44",
+    "finish_time": "06:07:17",
+    "finish_time_seconds": 22037,
+    "gender_place": "331",
+    "graded_time_seconds": 20410.6694,
+    "graded_time": "05:40:10",
+    "unique_key": [
+      "André Smrekar",
+      "06:07:17"
+    ],
+    "graded_place": 323,
+    "ag_place": 55
+  },
+  {
+    "bib": "194",
+    "name": "Lazar Kaljevic",
+    "age_group": "M18-24",
+    "finish_time": "05:40:19",
+    "finish_time_seconds": 20419,
+    "gender_place": "243",
+    "graded_time_seconds": 20419.0,
+    "graded_time": "05:40:19",
+    "unique_key": [
+      "Lazar Kaljevic",
+      "05:40:19"
+    ],
+    "graded_place": 324,
+    "ag_place": 21
+  },
+  {
+    "bib": "543",
+    "name": "Bahattin Çiniç",
+    "age_group": "M30-34",
+    "finish_time": "05:53:08",
+    "finish_time_seconds": 21188,
+    "gender_place": "298",
+    "graded_time_seconds": 20457.014,
+    "graded_time": "05:40:57",
+    "unique_key": [
+      "Bahattin Çiniç",
+      "05:53:08"
+    ],
+    "graded_place": 325,
+    "ag_place": 55
+  },
+  {
+    "bib": "513",
+    "name": "Andrej Bencic",
+    "age_group": "M30-34",
+    "finish_time": "05:53:10",
+    "finish_time_seconds": 21190,
+    "gender_place": "299",
+    "graded_time_seconds": 20458.945,
+    "graded_time": "05:40:58",
+    "unique_key": [
+      "Andrej Bencic",
+      "05:53:10"
+    ],
+    "graded_place": 326,
+    "ag_place": 56
+  },
+  {
+    "bib": "440",
+    "name": "Vladislav Mukhachev",
+    "age_group": "M30-34",
+    "finish_time": "05:53:46",
+    "finish_time_seconds": 21226,
+    "gender_place": "302",
+    "graded_time_seconds": 20493.703,
+    "graded_time": "05:41:33",
+    "unique_key": [
+      "Vladislav Mukhachev",
+      "05:53:46"
+    ],
+    "graded_place": 327,
+    "ag_place": 57
+  },
+  {
+    "bib": "170",
+    "name": "Vasily Chekulaev",
+    "age_group": "M45-49",
+    "finish_time": "06:20:33",
+    "finish_time_seconds": 22833,
+    "gender_place": "366",
+    "graded_time_seconds": 20499.4674,
+    "graded_time": "05:41:39",
+    "unique_key": [
+      "Vasily Chekulaev",
+      "06:20:33"
+    ],
+    "graded_place": 328,
+    "ag_place": 44
+  },
+  {
+    "bib": "251",
+    "name": "Igor Kosanovic",
+    "age_group": "M18-24",
+    "finish_time": "05:41:54",
+    "finish_time_seconds": 20514,
+    "gender_place": "249",
+    "graded_time_seconds": 20514.0,
+    "graded_time": "05:41:54",
+    "unique_key": [
+      "Igor Kosanovic",
+      "05:41:54"
+    ],
+    "graded_place": 329,
+    "ag_place": 22
+  },
+  {
+    "bib": "201",
+    "name": "Žan Ocepek",
+    "age_group": "M25-29",
+    "finish_time": "05:44:49",
+    "finish_time_seconds": 20689,
+    "gender_place": "271",
+    "graded_time_seconds": 20542.1081,
+    "graded_time": "05:42:22",
+    "unique_key": [
+      "Žan Ocepek",
+      "05:44:49"
+    ],
+    "graded_place": 330,
+    "ag_place": 20
+  },
+  {
+    "bib": "305",
+    "name": "Robin Kern",
+    "age_group": "M18-24",
+    "finish_time": "05:42:34",
+    "finish_time_seconds": 20554,
+    "gender_place": "252",
+    "graded_time_seconds": 20554.0,
+    "graded_time": "05:42:34",
+    "unique_key": [
+      "Robin Kern",
+      "05:42:34"
+    ],
+    "graded_place": 331,
+    "ag_place": 23
+  },
+  {
+    "bib": "166",
+    "name": "Elvir Zolj",
+    "age_group": "M40-44",
+    "finish_time": "06:11:01",
+    "finish_time_seconds": 22261,
+    "gender_place": "342",
+    "graded_time_seconds": 20618.1382,
+    "graded_time": "05:43:38",
+    "unique_key": [
+      "Elvir Zolj",
+      "06:11:01"
+    ],
+    "graded_place": 332,
+    "ag_place": 56
+  },
+  {
+    "bib": "427",
+    "name": "Filip Vlahovic",
+    "age_group": "M25-29",
+    "finish_time": "05:46:12",
+    "finish_time_seconds": 20772,
+    "gender_place": "276",
+    "graded_time_seconds": 20624.5188,
+    "graded_time": "05:43:44",
+    "unique_key": [
+      "Filip Vlahovic",
+      "05:46:12"
+    ],
+    "graded_place": 333,
+    "ag_place": 21
+  },
+  {
+    "bib": "172",
+    "name": "Александар Симић",
+    "age_group": "M35-39",
+    "finish_time": "06:01:52",
+    "finish_time_seconds": 21712,
+    "gender_place": "314",
+    "graded_time_seconds": 20626.399999999998,
+    "graded_time": "05:43:46",
+    "unique_key": [
+      "Александар Симић",
+      "06:01:52"
+    ],
+    "graded_place": 334,
+    "ag_place": 63
+  },
+  {
+    "bib": "448",
+    "name": "Solomos Kafkarkou",
+    "age_group": "M35-39",
+    "finish_time": "06:01:53",
+    "finish_time_seconds": 21713,
+    "gender_place": "315",
+    "graded_time_seconds": 20627.35,
+    "graded_time": "05:43:47",
+    "unique_key": [
+      "Solomos Kafkarkou",
+      "06:01:53"
+    ],
+    "graded_place": 335,
+    "ag_place": 64
+  },
+  {
+    "bib": "160",
+    "name": "Dragan Klobučar",
+    "age_group": "M30-34",
+    "finish_time": "05:56:06",
+    "finish_time_seconds": 21366,
+    "gender_place": "307",
+    "graded_time_seconds": 20628.873,
+    "graded_time": "05:43:48",
+    "unique_key": [
+      "Dragan Klobučar",
+      "05:56:06"
+    ],
+    "graded_place": 336,
+    "ag_place": 58
+  },
+  {
+    "bib": "455",
+    "name": "Aleksandar Jovanov",
+    "age_group": "M50-54",
+    "finish_time": "06:29:54",
+    "finish_time_seconds": 23394,
+    "gender_place": "386",
+    "graded_time_seconds": 20663.9202,
+    "graded_time": "05:44:23",
+    "unique_key": [
+      "Aleksandar Jovanov",
+      "06:29:54"
+    ],
+    "graded_place": 337,
+    "ag_place": 34
+  },
+  {
+    "bib": "149",
+    "name": "Teddy Gallun",
+    "age_group": "M18-24",
+    "finish_time": "05:44:37",
+    "finish_time_seconds": 20677,
+    "gender_place": "268",
+    "graded_time_seconds": 20677.0,
+    "graded_time": "05:44:37",
+    "unique_key": [
+      "Teddy Gallun",
+      "05:44:37"
+    ],
+    "graded_place": 338,
+    "ag_place": 24
+  },
+  {
+    "bib": "457",
+    "name": "Luciano Restrepo",
+    "age_group": "M30-34",
+    "finish_time": "05:56:58",
+    "finish_time_seconds": 21418,
+    "gender_place": "309",
+    "graded_time_seconds": 20679.079,
+    "graded_time": "05:44:39",
+    "unique_key": [
+      "Luciano Restrepo",
+      "05:56:58"
+    ],
+    "graded_place": 339,
+    "ag_place": 59
+  },
+  {
+    "bib": "342",
+    "name": "Gorka Garbayo",
+    "age_group": "M45-49",
+    "finish_time": "06:23:55",
+    "finish_time_seconds": 23035,
+    "gender_place": "376",
+    "graded_time_seconds": 20680.823,
+    "graded_time": "05:44:40",
+    "unique_key": [
+      "Gorka Garbayo",
+      "06:23:55"
+    ],
+    "graded_place": 340,
+    "ag_place": 45
+  },
+  {
+    "bib": "329",
+    "name": "Armen Djordjevic",
+    "age_group": "M35-39",
+    "finish_time": "06:03:53",
+    "finish_time_seconds": 21833,
+    "gender_place": "320",
+    "graded_time_seconds": 20741.35,
+    "graded_time": "05:45:41",
+    "unique_key": [
+      "Armen Djordjevic",
+      "06:03:53"
+    ],
+    "graded_place": 341,
+    "ag_place": 65
+  },
+  {
+    "bib": "357",
+    "name": "Marko Babin",
+    "age_group": "M25-29",
+    "finish_time": "05:48:46",
+    "finish_time_seconds": 20926,
+    "gender_place": "281",
+    "graded_time_seconds": 20777.4254,
+    "graded_time": "05:46:17",
+    "unique_key": [
+      "Marko Babin",
+      "05:48:46"
+    ],
+    "graded_place": 342,
+    "ag_place": 22
+  },
+  {
+    "bib": "528",
+    "name": "Nikita Nikita",
+    "age_group": "M30-34",
+    "finish_time": "05:58:47",
+    "finish_time_seconds": 21527,
+    "gender_place": "312",
+    "graded_time_seconds": 20784.3185,
+    "graded_time": "05:46:24",
+    "unique_key": [
+      "Nikita Nikita",
+      "05:58:47"
+    ],
+    "graded_place": 343,
+    "ag_place": 60
+  },
+  {
+    "bib": "461",
+    "name": "Roland Cech",
+    "age_group": "M18-24",
+    "finish_time": "05:46:40",
+    "finish_time_seconds": 20800,
+    "gender_place": "277",
+    "graded_time_seconds": 20800.0,
+    "graded_time": "05:46:40",
+    "unique_key": [
+      "Roland Cech",
+      "05:46:40"
+    ],
+    "graded_place": 344,
+    "ag_place": 25
+  },
+  {
+    "bib": "681",
+    "name": "Aleksandar Jakšić",
+    "age_group": "M30-34",
+    "finish_time": "05:59:49",
+    "finish_time_seconds": 21589,
+    "gender_place": "313",
+    "graded_time_seconds": 20844.179500000002,
+    "graded_time": "05:47:24",
+    "unique_key": [
+      "Aleksandar Jakšić",
+      "05:59:49"
+    ],
+    "graded_place": 345,
+    "ag_place": 61
+  },
+  {
+    "bib": "140",
+    "name": "Jonatan Schwamberg",
+    "age_group": "M40-44",
+    "finish_time": "06:16:14",
+    "finish_time_seconds": 22574,
+    "gender_place": "355",
+    "graded_time_seconds": 20908.038800000002,
+    "graded_time": "05:48:28",
+    "unique_key": [
+      "Jonatan Schwamberg",
+      "06:16:14"
+    ],
+    "graded_place": 346,
+    "ag_place": 57
+  },
+  {
+    "bib": "521",
+    "name": "Brian Egan",
+    "age_group": "M25-29",
+    "finish_time": "05:51:29",
+    "finish_time_seconds": 21089,
+    "gender_place": "291",
+    "graded_time_seconds": 20939.2681,
+    "graded_time": "05:48:59",
+    "unique_key": [
+      "Brian Egan",
+      "05:51:29"
+    ],
+    "graded_place": 347,
+    "ag_place": 23
+  },
+  {
+    "bib": "582",
+    "name": "Sergio Olivi",
+    "age_group": "M40-44",
+    "finish_time": "06:17:49",
+    "finish_time_seconds": 22669,
+    "gender_place": "359",
+    "graded_time_seconds": 20996.0278,
+    "graded_time": "05:49:56",
+    "unique_key": [
+      "Sergio Olivi",
+      "06:17:49"
+    ],
+    "graded_place": 348,
+    "ag_place": 58
+  },
+  {
+    "bib": "214",
+    "name": "Nikita Zapasnikov",
+    "age_group": "M35-39",
+    "finish_time": "06:08:51",
+    "finish_time_seconds": 22131,
+    "gender_place": "335",
+    "graded_time_seconds": 21024.45,
+    "graded_time": "05:50:24",
+    "unique_key": [
+      "Nikita Zapasnikov",
+      "06:08:51"
+    ],
+    "graded_place": 349,
+    "ag_place": 66
+  },
+  {
+    "bib": "202",
+    "name": "Nikola Prvulovic",
+    "age_group": "M25-29",
+    "finish_time": "05:53:07",
+    "finish_time_seconds": 21187,
+    "gender_place": "297",
+    "graded_time_seconds": 21036.5723,
+    "graded_time": "05:50:36",
+    "unique_key": [
+      "Nikola Prvulovic",
+      "05:53:07"
+    ],
+    "graded_place": 350,
+    "ag_place": 24
+  },
+  {
+    "bib": "346",
+    "name": "Goran Stefanovski",
+    "age_group": "M40-44",
+    "finish_time": "06:19:08",
+    "finish_time_seconds": 22748,
+    "gender_place": "363",
+    "graded_time_seconds": 21069.1976,
+    "graded_time": "05:51:09",
+    "unique_key": [
+      "Goran Stefanovski",
+      "06:19:08"
+    ],
+    "graded_place": 351,
+    "ag_place": 59
+  },
+  {
+    "bib": "640",
+    "name": "Aggelos Pliatsikas",
+    "age_group": "M30-34",
+    "finish_time": "06:04:41",
+    "finish_time_seconds": 21881,
+    "gender_place": "321",
+    "graded_time_seconds": 21126.1055,
+    "graded_time": "05:52:06",
+    "unique_key": [
+      "Aggelos Pliatsikas",
+      "06:04:41"
+    ],
+    "graded_place": 352,
+    "ag_place": 62
+  },
+  {
+    "bib": "308",
+    "name": "Ivan Atanasov",
+    "age_group": "M35-39",
+    "finish_time": "06:11:14",
+    "finish_time_seconds": 22274,
+    "gender_place": "343",
+    "graded_time_seconds": 21160.3,
+    "graded_time": "05:52:40",
+    "unique_key": [
+      "Ivan Atanasov",
+      "06:11:14"
+    ],
+    "graded_place": 353,
+    "ag_place": 67
+  },
+  {
+    "bib": "268",
+    "name": "Moudy El Laz",
+    "age_group": "M35-39",
+    "finish_time": "06:11:27",
+    "finish_time_seconds": 22287,
+    "gender_place": "344",
+    "graded_time_seconds": 21172.649999999998,
+    "graded_time": "05:52:52",
+    "unique_key": [
+      "Moudy El Laz",
+      "06:11:27"
+    ],
+    "graded_place": 354,
+    "ag_place": 68
+  },
+  {
+    "bib": "581",
+    "name": "Aljaz Kuncic",
+    "age_group": "M40-44",
+    "finish_time": "06:21:13",
+    "finish_time_seconds": 22873,
+    "gender_place": "369",
+    "graded_time_seconds": 21184.9726,
+    "graded_time": "05:53:04",
+    "unique_key": [
+      "Aljaz Kuncic",
+      "06:21:13"
+    ],
+    "graded_place": 355,
+    "ag_place": 60
+  },
+  {
+    "bib": "218",
+    "name": "Fiachra Bray",
+    "age_group": "M30-34",
+    "finish_time": "06:05:49",
+    "finish_time_seconds": 21949,
+    "gender_place": "326",
+    "graded_time_seconds": 21191.7595,
+    "graded_time": "05:53:11",
+    "unique_key": [
+      "Fiachra Bray",
+      "06:05:49"
+    ],
+    "graded_place": 356,
+    "ag_place": 63
+  },
+  {
+    "bib": "690",
+    "name": "Luka Jovanovic",
+    "age_group": "M18-24",
+    "finish_time": "05:53:42",
+    "finish_time_seconds": 21222,
+    "gender_place": "301",
+    "graded_time_seconds": 21222.0,
+    "graded_time": "05:53:42",
+    "unique_key": [
+      "Luka Jovanovic",
+      "05:53:42"
+    ],
+    "graded_place": 357,
+    "ag_place": 26
+  },
+  {
+    "bib": "335",
+    "name": "Sean Rausch",
+    "age_group": "M30-34",
+    "finish_time": "06:06:23",
+    "finish_time_seconds": 21983,
+    "gender_place": "327",
+    "graded_time_seconds": 21224.5865,
+    "graded_time": "05:53:44",
+    "unique_key": [
+      "Sean Rausch",
+      "06:06:23"
+    ],
+    "graded_place": 358,
+    "ag_place": 64
+  },
+  {
+    "bib": "475",
+    "name": "Nitin Kaushal",
+    "age_group": "M40-44",
+    "finish_time": "06:22:06",
+    "finish_time_seconds": 22926,
+    "gender_place": "372",
+    "graded_time_seconds": 21234.0612,
+    "graded_time": "05:53:54",
+    "unique_key": [
+      "Nitin Kaushal",
+      "06:22:06"
+    ],
+    "graded_place": 359,
+    "ag_place": 61
+  },
+  {
+    "bib": "587",
+    "name": "Jovan Ilic",
+    "age_group": "M30-34",
+    "finish_time": "06:08:04",
+    "finish_time_seconds": 22084,
+    "gender_place": "333",
+    "graded_time_seconds": 21322.102,
+    "graded_time": "05:55:22",
+    "unique_key": [
+      "Jovan Ilic",
+      "06:08:04"
+    ],
+    "graded_place": 360,
+    "ag_place": 65
+  },
+  {
+    "bib": "366",
+    "name": "Alexandru Mircea",
+    "age_group": "M35-39",
+    "finish_time": "06:15:05",
+    "finish_time_seconds": 22505,
+    "gender_place": "351",
+    "graded_time_seconds": 21379.75,
+    "graded_time": "05:56:19",
+    "unique_key": [
+      "Alexandru Mircea",
+      "06:15:05"
+    ],
+    "graded_place": 361,
+    "ag_place": 69
+  },
+  {
+    "bib": "477",
+    "name": "Andrej Pejovic",
+    "age_group": "M45-49",
+    "finish_time": "06:38:49",
+    "finish_time_seconds": 23929,
+    "gender_place": "400",
+    "graded_time_seconds": 21483.4562,
+    "graded_time": "05:58:03",
+    "unique_key": [
+      "Andrej Pejovic",
+      "06:38:49"
+    ],
+    "graded_place": 362,
+    "ag_place": 46
+  },
+  {
+    "bib": "383",
+    "name": "Dusan Ivljanin",
+    "age_group": "M35-39",
+    "finish_time": "06:16:58",
+    "finish_time_seconds": 22618,
+    "gender_place": "357",
+    "graded_time_seconds": 21487.1,
+    "graded_time": "05:58:07",
+    "unique_key": [
+      "Dusan Ivljanin",
+      "06:16:58"
+    ],
+    "graded_place": 363,
+    "ag_place": 70
+  },
+  {
+    "bib": "438",
+    "name": "Chris Demetriou",
+    "age_group": "M35-39",
+    "finish_time": "06:17:45",
+    "finish_time_seconds": 22665,
+    "gender_place": "358",
+    "graded_time_seconds": 21531.75,
+    "graded_time": "05:58:51",
+    "unique_key": [
+      "Chris Demetriou",
+      "06:17:45"
+    ],
+    "graded_place": 364,
+    "ag_place": 71
+  },
+  {
+    "bib": "330",
+    "name": "Jan Klemenčič",
+    "age_group": "M30-34",
+    "finish_time": "06:12:45",
+    "finish_time_seconds": 22365,
+    "gender_place": "346",
+    "graded_time_seconds": 21593.4075,
+    "graded_time": "05:59:53",
+    "unique_key": [
+      "Jan Klemenčič",
+      "06:12:45"
+    ],
+    "graded_place": 365,
+    "ag_place": 66
+  },
+  {
+    "bib": "573",
+    "name": "Pavel Tonev",
+    "age_group": "M25-29",
+    "finish_time": "06:02:36",
+    "finish_time_seconds": 21756,
+    "gender_place": "317",
+    "graded_time_seconds": 21601.5324,
+    "graded_time": "06:00:01",
+    "unique_key": [
+      "Pavel Tonev",
+      "06:02:36"
+    ],
+    "graded_place": 366,
+    "ag_place": 25
+  },
+  {
+    "bib": "151",
+    "name": "Eric le Gall",
+    "age_group": "M50-54",
+    "finish_time": "06:48:09",
+    "finish_time_seconds": 24489,
+    "gender_place": "412",
+    "graded_time_seconds": 21631.1337,
+    "graded_time": "06:00:31",
+    "unique_key": [
+      "Eric le Gall",
+      "06:48:09"
+    ],
+    "graded_place": 367,
+    "ag_place": 35
+  },
+  {
+    "bib": "469",
+    "name": "Nikita Bondartsev",
+    "age_group": "M30-34",
+    "finish_time": "06:13:32",
+    "finish_time_seconds": 22412,
+    "gender_place": "348",
+    "graded_time_seconds": 21638.786,
+    "graded_time": "06:00:38",
+    "unique_key": [
+      "Nikita Bondartsev",
+      "06:13:32"
+    ],
+    "graded_place": 368,
+    "ag_place": 67
+  },
+  {
+    "bib": "552",
+    "name": "Michal Krpelán",
+    "age_group": "M40-44",
+    "finish_time": "06:29:27",
+    "finish_time_seconds": 23367,
+    "gender_place": "384",
+    "graded_time_seconds": 21642.5154,
+    "graded_time": "06:00:42",
+    "unique_key": [
+      "Michal Krpelán",
+      "06:29:27"
+    ],
+    "graded_place": 369,
+    "ag_place": 62
+  },
+  {
+    "bib": "283",
+    "name": "Carlos Gonzalez-Meneses",
+    "age_group": "M35-39",
+    "finish_time": "06:19:57",
+    "finish_time_seconds": 22797,
+    "gender_place": "365",
+    "graded_time_seconds": 21657.149999999998,
+    "graded_time": "06:00:57",
+    "unique_key": [
+      "Carlos Gonzalez-Meneses",
+      "06:19:57"
+    ],
+    "graded_place": 370,
+    "ag_place": 72
+  },
+  {
+    "bib": "500",
+    "name": "David Castro",
+    "age_group": "M30-34",
+    "finish_time": "06:14:06",
+    "finish_time_seconds": 22446,
+    "gender_place": "350",
+    "graded_time_seconds": 21671.613,
+    "graded_time": "06:01:11",
+    "unique_key": [
+      "David Castro",
+      "06:14:06"
+    ],
+    "graded_place": 371,
+    "ag_place": 68
+  },
+  {
+    "bib": "345",
+    "name": "Lazar Gjurov",
+    "age_group": "M45-49",
+    "finish_time": "06:42:45",
+    "finish_time_seconds": 24165,
+    "gender_place": "406",
+    "graded_time_seconds": 21695.337,
+    "graded_time": "06:01:35",
+    "unique_key": [
+      "Lazar Gjurov",
+      "06:42:45"
+    ],
+    "graded_place": 372,
+    "ag_place": 47
+  },
+  {
+    "bib": "286",
+    "name": "Patrick Sweeney",
+    "age_group": "M35-39",
+    "finish_time": "06:20:40",
+    "finish_time_seconds": 22840,
+    "gender_place": "368",
+    "graded_time_seconds": 21698.0,
+    "graded_time": "06:01:38",
+    "unique_key": [
+      "Patrick Sweeney",
+      "06:20:40"
+    ],
+    "graded_place": 373,
+    "ag_place": 73
+  },
+  {
+    "bib": "287",
+    "name": "Nikolche Taseski",
+    "age_group": "M50-54",
+    "finish_time": "06:50:24",
+    "finish_time_seconds": 24624,
+    "gender_place": "416",
+    "graded_time_seconds": 21750.3792,
+    "graded_time": "06:02:30",
+    "unique_key": [
+      "Nikolche Taseski",
+      "06:50:24"
+    ],
+    "graded_place": 374,
+    "ag_place": 36
+  },
+  {
+    "bib": "238",
+    "name": "Nikolay Petrovski",
+    "age_group": "M25-29",
+    "finish_time": "06:05:21",
+    "finish_time_seconds": 21921,
+    "gender_place": "324",
+    "graded_time_seconds": 21765.3609,
+    "graded_time": "06:02:45",
+    "unique_key": [
+      "Nikolay Petrovski",
+      "06:05:21"
+    ],
+    "graded_place": 375,
+    "ag_place": 26
+  },
+  {
+    "bib": "347",
+    "name": "Edmond Veseli",
+    "age_group": "M30-34",
+    "finish_time": "06:15:51",
+    "finish_time_seconds": 22551,
+    "gender_place": "353",
+    "graded_time_seconds": 21772.9905,
+    "graded_time": "06:02:52",
+    "unique_key": [
+      "Edmond Veseli",
+      "06:15:51"
+    ],
+    "graded_place": 376,
+    "ag_place": 69
+  },
+  {
+    "bib": "607",
+    "name": "Miroslav Vrcelj",
+    "age_group": "M50-54",
+    "finish_time": "06:51:15",
+    "finish_time_seconds": 24675,
+    "gender_place": "417",
+    "graded_time_seconds": 21795.427499999998,
+    "graded_time": "06:03:15",
+    "unique_key": [
+      "Miroslav Vrcelj",
+      "06:51:15"
+    ],
+    "graded_place": 377,
+    "ag_place": 37
+  },
+  {
+    "bib": "408",
+    "name": "Žikica Trifkovic",
+    "age_group": "M40-44",
+    "finish_time": "06:32:13",
+    "finish_time_seconds": 23533,
+    "gender_place": "390",
+    "graded_time_seconds": 21796.264600000002,
+    "graded_time": "06:03:16",
+    "unique_key": [
+      "Žikica Trifkovic",
+      "06:32:13"
+    ],
+    "graded_place": 378,
+    "ag_place": 63
+  },
+  {
+    "bib": "566",
+    "name": "Cedric Vanderperren",
+    "age_group": "M50-54",
+    "finish_time": "06:51:40",
+    "finish_time_seconds": 24700,
+    "gender_place": "419",
+    "graded_time_seconds": 21817.51,
+    "graded_time": "06:03:37",
+    "unique_key": [
+      "Cedric Vanderperren",
+      "06:51:40"
+    ],
+    "graded_place": 379,
+    "ag_place": 38
+  },
+  {
+    "bib": "339",
+    "name": "Jack Squizzoni",
+    "age_group": "M25-29",
+    "finish_time": "06:07:25",
+    "finish_time_seconds": 22045,
+    "gender_place": "332",
+    "graded_time_seconds": 21888.4805,
+    "graded_time": "06:04:48",
+    "unique_key": [
+      "Jack Squizzoni",
+      "06:07:25"
+    ],
+    "graded_place": 380,
+    "ag_place": 27
+  },
+  {
+    "bib": "344",
+    "name": "Dmitry Prokhorov",
+    "age_group": "M35-39",
+    "finish_time": "06:24:24",
+    "finish_time_seconds": 23064,
+    "gender_place": "377",
+    "graded_time_seconds": 21910.8,
+    "graded_time": "06:05:10",
+    "unique_key": [
+      "Dmitry Prokhorov",
+      "06:24:24"
+    ],
+    "graded_place": 381,
+    "ag_place": 74
+  },
+  {
+    "bib": "375",
+    "name": "Fetes Robert",
+    "age_group": "M25-29",
+    "finish_time": "06:10:05",
+    "finish_time_seconds": 22205,
+    "gender_place": "339",
+    "graded_time_seconds": 22047.3445,
+    "graded_time": "06:07:27",
+    "unique_key": [
+      "Fetes Robert",
+      "06:10:05"
+    ],
+    "graded_place": 382,
+    "ag_place": 28
+  },
+  {
+    "bib": "173",
+    "name": "Ivan Gale",
+    "age_group": "M45-49",
+    "finish_time": "06:49:52",
+    "finish_time_seconds": 24592,
+    "gender_place": "414",
+    "graded_time_seconds": 22078.6976,
+    "graded_time": "06:07:58",
+    "unique_key": [
+      "Ivan Gale",
+      "06:49:52"
+    ],
+    "graded_place": 383,
+    "ag_place": 48
+  },
+  {
+    "bib": "494",
+    "name": "Marko Zimonjic",
+    "age_group": "M25-29",
+    "finish_time": "06:10:45",
+    "finish_time_seconds": 22245,
+    "gender_place": "341",
+    "graded_time_seconds": 22087.0605,
+    "graded_time": "06:08:07",
+    "unique_key": [
+      "Marko Zimonjic",
+      "06:10:45"
+    ],
+    "graded_place": 384,
+    "ag_place": 29
+  },
+  {
+    "bib": "328",
+    "name": "Nenad Novaković",
+    "age_group": "M35-39",
+    "finish_time": "06:27:51",
+    "finish_time_seconds": 23271,
+    "gender_place": "381",
+    "graded_time_seconds": 22107.45,
+    "graded_time": "06:08:27",
+    "unique_key": [
+      "Nenad Novaković",
+      "06:27:51"
+    ],
+    "graded_place": 385,
+    "ag_place": 75
+  },
+  {
+    "bib": "352",
+    "name": "Rastko Jokic",
+    "age_group": "M35-39",
+    "finish_time": "06:29:27",
+    "finish_time_seconds": 23367,
+    "gender_place": "385",
+    "graded_time_seconds": 22198.649999999998,
+    "graded_time": "06:09:58",
+    "unique_key": [
+      "Rastko Jokic",
+      "06:29:27"
+    ],
+    "graded_place": 386,
+    "ag_place": 76
+  },
+  {
+    "bib": "615",
+    "name": "Lucas Krambeck",
+    "age_group": "M18-24",
+    "finish_time": "06:10:02",
+    "finish_time_seconds": 22202,
+    "gender_place": "338",
+    "graded_time_seconds": 22202.0,
+    "graded_time": "06:10:02",
+    "unique_key": [
+      "Lucas Krambeck",
+      "06:10:02"
+    ],
+    "graded_place": 387,
+    "ag_place": 27
+  },
+  {
+    "bib": "531",
+    "name": "Srdjan Nikolic",
+    "age_group": "M55-59",
+    "finish_time": "07:12:38",
+    "finish_time_seconds": 25958,
+    "gender_place": "441",
+    "graded_time_seconds": 22233.027000000002,
+    "graded_time": "06:10:33",
+    "unique_key": [
+      "Srdjan Nikolic",
+      "07:12:38"
+    ],
+    "graded_place": 388,
+    "ag_place": 23
+  },
+  {
+    "bib": "147",
+    "name": "Vadim Iakovlev",
+    "age_group": "M30-34",
+    "finish_time": "06:25:55",
+    "finish_time_seconds": 23155,
+    "gender_place": "379",
+    "graded_time_seconds": 22356.1525,
+    "graded_time": "06:12:36",
+    "unique_key": [
+      "Vadim Iakovlev",
+      "06:25:55"
+    ],
+    "graded_place": 389,
+    "ag_place": 70
+  },
+  {
+    "bib": "169",
+    "name": "Mateo Paladin",
+    "age_group": "M25-29",
+    "finish_time": "06:16:07",
+    "finish_time_seconds": 22567,
+    "gender_place": "354",
+    "graded_time_seconds": 22406.7743,
+    "graded_time": "06:13:26",
+    "unique_key": [
+      "Mateo Paladin",
+      "06:16:07"
+    ],
+    "graded_place": 390,
+    "ag_place": 30
+  },
+  {
+    "bib": "483",
+    "name": "Luka Keyes",
+    "age_group": "M18-24",
+    "finish_time": "06:13:41",
+    "finish_time_seconds": 22421,
+    "gender_place": "349",
+    "graded_time_seconds": 22421.0,
+    "graded_time": "06:13:41",
+    "unique_key": [
+      "Luka Keyes",
+      "06:13:41"
+    ],
+    "graded_place": 391,
+    "ag_place": 28
+  },
+  {
+    "bib": "588",
+    "name": "Petar Simic",
+    "age_group": "M30-34",
+    "finish_time": "06:28:00",
+    "finish_time_seconds": 23280,
+    "gender_place": "382",
+    "graded_time_seconds": 22476.84,
+    "graded_time": "06:14:36",
+    "unique_key": [
+      "Petar Simic",
+      "06:28:00"
+    ],
+    "graded_place": 392,
+    "ag_place": 71
+  },
+  {
+    "bib": "261",
+    "name": "Dejan Pjevac",
+    "age_group": "M35-39",
+    "finish_time": "06:34:35",
+    "finish_time_seconds": 23675,
+    "gender_place": "393",
+    "graded_time_seconds": 22491.25,
+    "graded_time": "06:14:51",
+    "unique_key": [
+      "Dejan Pjevac",
+      "06:34:35"
+    ],
+    "graded_place": 393,
+    "ag_place": 77
+  },
+  {
+    "bib": "504",
+    "name": "Mihailo Ostojić",
+    "age_group": "M25-29",
+    "finish_time": "06:18:21",
+    "finish_time_seconds": 22701,
+    "gender_place": "360",
+    "graded_time_seconds": 22539.8229,
+    "graded_time": "06:15:39",
+    "unique_key": [
+      "Mihailo Ostojić",
+      "06:18:21"
+    ],
+    "graded_place": 394,
+    "ag_place": 31
+  },
+  {
+    "bib": "497",
+    "name": "Vasilije Dičić",
+    "age_group": "M30-34",
+    "finish_time": "06:29:12",
+    "finish_time_seconds": 23352,
+    "gender_place": "383",
+    "graded_time_seconds": 22546.356,
+    "graded_time": "06:15:46",
+    "unique_key": [
+      "Vasilije Dičić",
+      "06:29:12"
+    ],
+    "graded_place": 395,
+    "ag_place": 72
+  },
+  {
+    "bib": "236",
+    "name": "Vladislav Zdravkov",
+    "age_group": "M40-44",
+    "finish_time": "06:46:02",
+    "finish_time_seconds": 24362,
+    "gender_place": "410",
+    "graded_time_seconds": 22564.0844,
+    "graded_time": "06:16:04",
+    "unique_key": [
+      "Vladislav Zdravkov",
+      "06:46:02"
+    ],
+    "graded_place": 396,
+    "ag_place": 64
+  },
+  {
+    "bib": "550",
+    "name": "Davor Sauerborn",
+    "age_group": "M35-39",
+    "finish_time": "06:36:06",
+    "finish_time_seconds": 23766,
+    "gender_place": "395",
+    "graded_time_seconds": 22577.7,
+    "graded_time": "06:16:17",
+    "unique_key": [
+      "Davor Sauerborn",
+      "06:36:06"
+    ],
+    "graded_place": 397,
+    "ag_place": 78
+  },
+  {
+    "bib": "185",
+    "name": "Radu Gazea",
+    "age_group": "M35-39",
+    "finish_time": "06:36:58",
+    "finish_time_seconds": 23818,
+    "gender_place": "397",
+    "graded_time_seconds": 22627.1,
+    "graded_time": "06:17:07",
+    "unique_key": [
+      "Radu Gazea",
+      "06:36:58"
+    ],
+    "graded_place": 398,
+    "ag_place": 79
+  },
+  {
+    "bib": "489",
+    "name": "Sandor Tanko",
+    "age_group": "M30-34",
+    "finish_time": "06:30:54",
+    "finish_time_seconds": 23454,
+    "gender_place": "388",
+    "graded_time_seconds": 22644.837,
+    "graded_time": "06:17:24",
+    "unique_key": [
+      "Sandor Tanko",
+      "06:30:54"
+    ],
+    "graded_place": 399,
+    "ag_place": 73
+  },
+  {
+    "bib": "597",
+    "name": "Nikhil Jones",
+    "age_group": "M30-34",
+    "finish_time": "06:31:47",
+    "finish_time_seconds": 23507,
+    "gender_place": "389",
+    "graded_time_seconds": 22696.0085,
+    "graded_time": "06:18:16",
+    "unique_key": [
+      "Nikhil Jones",
+      "06:31:47"
+    ],
+    "graded_place": 400,
+    "ag_place": 74
+  },
+  {
+    "bib": "153",
+    "name": "Anton Kolev",
+    "age_group": "M25-29",
+    "finish_time": "06:21:17",
+    "finish_time_seconds": 22877,
+    "gender_place": "370",
+    "graded_time_seconds": 22714.5733,
+    "graded_time": "06:18:34",
+    "unique_key": [
+      "Anton Kolev",
+      "06:21:17"
+    ],
+    "graded_place": 401,
+    "ag_place": 32
+  },
+  {
+    "bib": "549",
+    "name": "Andreas Jeanne Danielsen",
+    "age_group": "M18-24",
+    "finish_time": "06:18:35",
+    "finish_time_seconds": 22715,
+    "gender_place": "361",
+    "graded_time_seconds": 22715.0,
+    "graded_time": "06:18:35",
+    "unique_key": [
+      "Andreas Jeanne Danielsen",
+      "06:18:35"
+    ],
+    "graded_place": 402,
+    "ag_place": 29
+  },
+  {
+    "bib": "406",
+    "name": "Nedim Dizdarevic",
+    "age_group": "M35-39",
+    "finish_time": "06:38:36",
+    "finish_time_seconds": 23916,
+    "gender_place": "399",
+    "graded_time_seconds": 22720.2,
+    "graded_time": "06:18:40",
+    "unique_key": [
+      "Nedim Dizdarevic",
+      "06:38:36"
+    ],
+    "graded_place": 403,
+    "ag_place": 80
+  },
+  {
+    "bib": "304",
+    "name": "Mario Mirosavljević",
+    "age_group": "M35-39",
+    "finish_time": "06:38:51",
+    "finish_time_seconds": 23931,
+    "gender_place": "401",
+    "graded_time_seconds": 22734.45,
+    "graded_time": "06:18:54",
+    "unique_key": [
+      "Mario Mirosavljević",
+      "06:38:51"
+    ],
+    "graded_place": 404,
+    "ag_place": 81
+  },
+  {
+    "bib": "77",
+    "name": "Diego Hallauer",
+    "age_group": "M35-39",
+    "finish_time": "06:38:58",
+    "finish_time_seconds": 23938,
+    "gender_place": "402",
+    "graded_time_seconds": 22741.1,
+    "graded_time": "06:19:01",
+    "unique_key": [
+      "Diego Hallauer",
+      "06:38:58"
+    ],
+    "graded_place": 405,
+    "ag_place": 82
+  },
+  {
+    "bib": "384",
+    "name": "Max Short",
+    "age_group": "M25-29",
+    "finish_time": "06:22:12",
+    "finish_time_seconds": 22932,
+    "gender_place": "373",
+    "graded_time_seconds": 22769.1828,
+    "graded_time": "06:19:29",
+    "unique_key": [
+      "Max Short",
+      "06:22:12"
+    ],
+    "graded_place": 406,
+    "ag_place": 33
+  },
+  {
+    "bib": "411",
+    "name": "Glenn Smeeth",
+    "age_group": "M25-29",
+    "finish_time": "06:22:31",
+    "finish_time_seconds": 22951,
+    "gender_place": "374",
+    "graded_time_seconds": 22788.0479,
+    "graded_time": "06:19:48",
+    "unique_key": [
+      "Glenn Smeeth",
+      "06:22:31"
+    ],
+    "graded_place": 407,
+    "ag_place": 34
+  },
+  {
+    "bib": "217",
+    "name": "Fergal O'Shea",
+    "age_group": "M25-29",
+    "finish_time": "06:23:04",
+    "finish_time_seconds": 22984,
+    "gender_place": "375",
+    "graded_time_seconds": 22820.8136,
+    "graded_time": "06:20:20",
+    "unique_key": [
+      "Fergal O'Shea",
+      "06:23:04"
+    ],
+    "graded_place": 408,
+    "ag_place": 35
+  },
+  {
+    "bib": "277",
+    "name": "Aleksandr Leonov",
+    "age_group": "M35-39",
+    "finish_time": "06:41:15",
+    "finish_time_seconds": 24075,
+    "gender_place": "404",
+    "graded_time_seconds": 22871.25,
+    "graded_time": "06:21:11",
+    "unique_key": [
+      "Aleksandr Leonov",
+      "06:41:15"
+    ],
+    "graded_place": 409,
+    "ag_place": 83
+  },
+  {
+    "bib": "596",
+    "name": "Dragan Djordjevic",
+    "age_group": "M35-39",
+    "finish_time": "06:41:19",
+    "finish_time_seconds": 24079,
+    "gender_place": "405",
+    "graded_time_seconds": 22875.05,
+    "graded_time": "06:21:15",
+    "unique_key": [
+      "Dragan Djordjevic",
+      "06:41:19"
+    ],
+    "graded_place": 410,
+    "ag_place": 84
+  },
+  {
+    "bib": "594",
+    "name": "Baurzhan Bukaev",
+    "age_group": "M30-34",
+    "finish_time": "06:35:30",
+    "finish_time_seconds": 23730,
+    "gender_place": "394",
+    "graded_time_seconds": 22911.315000000002,
+    "graded_time": "06:21:51",
+    "unique_key": [
+      "Baurzhan Bukaev",
+      "06:35:30"
+    ],
+    "graded_place": 411,
+    "ag_place": 75
+  },
+  {
+    "bib": "392",
+    "name": "Stojan Dojcinov",
+    "age_group": "M30-34",
+    "finish_time": "06:40:04",
+    "finish_time_seconds": 24004,
+    "gender_place": "403",
+    "graded_time_seconds": 23175.862,
+    "graded_time": "06:26:15",
+    "unique_key": [
+      "Stojan Dojcinov",
+      "06:40:04"
+    ],
+    "graded_place": 412,
+    "ag_place": 76
+  },
+  {
+    "bib": "257",
+    "name": "Nebojša Gavrilović",
+    "age_group": "M40-44",
+    "finish_time": "06:59:37",
+    "finish_time_seconds": 25177,
+    "gender_place": "422",
+    "graded_time_seconds": 23318.9374,
+    "graded_time": "06:28:38",
+    "unique_key": [
+      "Nebojša Gavrilović",
+      "06:59:37"
+    ],
+    "graded_place": 413,
+    "ag_place": 65
+  },
+  {
+    "bib": "616",
+    "name": "Branislav Milivojevic",
+    "age_group": "M50-54",
+    "finish_time": "07:20:35",
+    "finish_time_seconds": 26435,
+    "gender_place": "448",
+    "graded_time_seconds": 23350.035499999998,
+    "graded_time": "06:29:10",
+    "unique_key": [
+      "Branislav Milivojevic",
+      "07:20:35"
+    ],
+    "graded_place": 414,
+    "ag_place": 39
+  },
+  {
+    "bib": "333",
+    "name": "Tom Douglas",
+    "age_group": "M45-49",
+    "finish_time": "07:13:40",
+    "finish_time_seconds": 26020,
+    "gender_place": "443",
+    "graded_time_seconds": 23360.756,
+    "graded_time": "06:29:20",
+    "unique_key": [
+      "Tom Douglas",
+      "07:13:40"
+    ],
+    "graded_place": 415,
+    "ag_place": 49
+  },
+  {
+    "bib": "595",
+    "name": "Miroslav Genchev",
+    "age_group": "M40-44",
+    "finish_time": "07:00:50",
+    "finish_time_seconds": 25250,
+    "gender_place": "425",
+    "graded_time_seconds": 23386.55,
+    "graded_time": "06:29:46",
+    "unique_key": [
+      "Miroslav Genchev",
+      "07:00:50"
+    ],
+    "graded_place": 416,
+    "ag_place": 66
+  },
+  {
+    "bib": "377",
+    "name": "Marat Safin",
+    "age_group": "M35-39",
+    "finish_time": "06:50:23",
+    "finish_time_seconds": 24623,
+    "gender_place": "415",
+    "graded_time_seconds": 23391.85,
+    "graded_time": "06:29:51",
+    "unique_key": [
+      "Marat Safin",
+      "06:50:23"
+    ],
+    "graded_place": 417,
+    "ag_place": 85
+  },
+  {
+    "bib": "617",
+    "name": "Goran Bilbiloski",
+    "age_group": "M45-49",
+    "finish_time": "07:15:04",
+    "finish_time_seconds": 26104,
+    "gender_place": "444",
+    "graded_time_seconds": 23436.1712,
+    "graded_time": "06:30:36",
+    "unique_key": [
+      "Goran Bilbiloski",
+      "07:15:04"
+    ],
+    "graded_place": 418,
+    "ag_place": 50
+  },
+  {
+    "bib": "326",
+    "name": "Ryan Brown",
+    "age_group": "M25-29",
+    "finish_time": "06:33:24",
+    "finish_time_seconds": 23604,
+    "gender_place": "391",
+    "graded_time_seconds": 23436.4116,
+    "graded_time": "06:30:36",
+    "unique_key": [
+      "Ryan Brown",
+      "06:33:24"
+    ],
+    "graded_place": 419,
+    "ag_place": 36
+  },
+  {
+    "bib": "358",
+    "name": "Jean Coste",
+    "age_group": "M55-59",
+    "finish_time": "07:36:26",
+    "finish_time_seconds": 27386,
+    "gender_place": "461",
+    "graded_time_seconds": 23456.109,
+    "graded_time": "06:30:56",
+    "unique_key": [
+      "Jean Coste",
+      "07:36:26"
+    ],
+    "graded_place": 420,
+    "ag_place": 24
+  },
+  {
+    "bib": "299",
+    "name": "Johannes Schmid",
+    "age_group": "M30-34",
+    "finish_time": "06:45:16",
+    "finish_time_seconds": 24316,
+    "gender_place": "409",
+    "graded_time_seconds": 23477.098,
+    "graded_time": "06:31:17",
+    "unique_key": [
+      "Johannes Schmid",
+      "06:45:16"
+    ],
+    "graded_place": 421,
+    "ag_place": 77
+  },
+  {
+    "bib": "180",
+    "name": "Kiril Nastoski",
+    "age_group": "M40-44",
+    "finish_time": "07:03:19",
+    "finish_time_seconds": 25399,
+    "gender_place": "428",
+    "graded_time_seconds": 23524.5538,
+    "graded_time": "06:32:04",
+    "unique_key": [
+      "Kiril Nastoski",
+      "07:03:19"
+    ],
+    "graded_place": 422,
+    "ag_place": 67
+  },
+  {
+    "bib": "636",
+    "name": "Yehuda Joffe",
+    "age_group": "M25-29",
+    "finish_time": "06:36:21",
+    "finish_time_seconds": 23781,
+    "gender_place": "396",
+    "graded_time_seconds": 23612.1549,
+    "graded_time": "06:33:32",
+    "unique_key": [
+      "Yehuda Joffe",
+      "06:36:21"
+    ],
+    "graded_place": 423,
+    "ag_place": 37
+  },
+  {
+    "bib": "232",
+    "name": "Vladimir Vladimirov",
+    "age_group": "M40-44",
+    "finish_time": "07:05:54",
+    "finish_time_seconds": 25554,
+    "gender_place": "433",
+    "graded_time_seconds": 23668.1148,
+    "graded_time": "06:34:28",
+    "unique_key": [
+      "Vladimir Vladimirov",
+      "07:05:54"
+    ],
+    "graded_place": 424,
+    "ag_place": 68
+  },
+  {
+    "bib": "150",
+    "name": "Mladen Kolavcic",
+    "age_group": "M40-44",
+    "finish_time": "07:06:34",
+    "finish_time_seconds": 25594,
+    "gender_place": "434",
+    "graded_time_seconds": 23705.162800000002,
+    "graded_time": "06:35:05",
+    "unique_key": [
+      "Mladen Kolavcic",
+      "07:06:34"
+    ],
+    "graded_place": 425,
+    "ag_place": 69
+  },
+  {
+    "bib": "285",
+    "name": "James Scivally",
+    "age_group": "M40-44",
+    "finish_time": "07:06:46",
+    "finish_time_seconds": 25606,
+    "gender_place": "436",
+    "graded_time_seconds": 23716.2772,
+    "graded_time": "06:35:16",
+    "unique_key": [
+      "James Scivally",
+      "07:06:46"
+    ],
+    "graded_place": 426,
+    "ag_place": 70
+  },
+  {
+    "bib": "186",
+    "name": "Vlado Vodenicharov",
+    "age_group": "M25-29",
+    "finish_time": "06:38:17",
+    "finish_time_seconds": 23897,
+    "gender_place": "398",
+    "graded_time_seconds": 23727.3313,
+    "graded_time": "06:35:27",
+    "unique_key": [
+      "Vlado Vodenicharov",
+      "06:38:17"
+    ],
+    "graded_place": 427,
+    "ag_place": 38
+  },
+  {
+    "bib": "403",
+    "name": "Branko Djurasininovic",
+    "age_group": "M40-44",
+    "finish_time": "07:10:08",
+    "finish_time_seconds": 25808,
+    "gender_place": "439",
+    "graded_time_seconds": 23903.3696,
+    "graded_time": "06:38:23",
+    "unique_key": [
+      "Branko Djurasininovic",
+      "07:10:08"
+    ],
+    "graded_place": 428,
+    "ag_place": 71
+  },
+  {
+    "bib": "635",
+    "name": "Vladimir Čotrić",
+    "age_group": "M40-44",
+    "finish_time": "07:11:45",
+    "finish_time_seconds": 25905,
+    "gender_place": "440",
+    "graded_time_seconds": 23993.211,
+    "graded_time": "06:39:53",
+    "unique_key": [
+      "Vladimir Čotrić",
+      "07:11:45"
+    ],
+    "graded_place": 429,
+    "ag_place": 72
+  },
+  {
+    "bib": "561",
+    "name": "Aleksandar Petrović",
+    "age_group": "M25-29",
+    "finish_time": "06:45:07",
+    "finish_time_seconds": 24307,
+    "gender_place": "408",
+    "graded_time_seconds": 24134.4203,
+    "graded_time": "06:42:14",
+    "unique_key": [
+      "Aleksandar Petrović",
+      "06:45:07"
+    ],
+    "graded_place": 430,
+    "ag_place": 39
+  },
+  {
+    "bib": "247",
+    "name": "Milutin Ljubičić",
+    "age_group": "M35-39",
+    "finish_time": "07:04:16",
+    "finish_time_seconds": 25456,
+    "gender_place": "429",
+    "graded_time_seconds": 24183.199999999997,
+    "graded_time": "06:43:03",
+    "unique_key": [
+      "Milutin Ljubičić",
+      "07:04:16"
+    ],
+    "graded_place": 431,
+    "ag_place": 86
+  },
+  {
+    "bib": "698",
+    "name": "Ognjen Mišić",
+    "age_group": "M25-29",
+    "finish_time": "06:47:24",
+    "finish_time_seconds": 24444,
+    "gender_place": "411",
+    "graded_time_seconds": 24270.4476,
+    "graded_time": "06:44:30",
+    "unique_key": [
+      "Ognjen Mišić",
+      "06:47:24"
+    ],
+    "graded_place": 432,
+    "ag_place": 40
+  },
+  {
+    "bib": "508",
+    "name": "Theodor Schlütter",
+    "age_group": "M25-29",
+    "finish_time": "06:48:21",
+    "finish_time_seconds": 24501,
+    "gender_place": "413",
+    "graded_time_seconds": 24327.0429,
+    "graded_time": "06:45:27",
+    "unique_key": [
+      "Theodor Schlütter",
+      "06:48:21"
+    ],
+    "graded_place": 433,
+    "ag_place": 41
+  },
+  {
+    "bib": "502",
+    "name": "Mishko Djidrov",
+    "age_group": "M40-44",
+    "finish_time": "07:17:53",
+    "finish_time_seconds": 26273,
+    "gender_place": "445",
+    "graded_time_seconds": 24334.0526,
+    "graded_time": "06:45:34",
+    "unique_key": [
+      "Mishko Djidrov",
+      "07:17:53"
+    ],
+    "graded_place": 434,
+    "ag_place": 73
+  },
+  {
+    "bib": "511",
+    "name": "Marko Ristic",
+    "age_group": "M45-49",
+    "finish_time": "07:32:26",
+    "finish_time_seconds": 27146,
+    "gender_place": "458",
+    "graded_time_seconds": 24371.6788,
+    "graded_time": "06:46:11",
+    "unique_key": [
+      "Marko Ristic",
+      "07:32:26"
+    ],
+    "graded_place": 435,
+    "ag_place": 51
+  },
+  {
+    "bib": "526",
+    "name": "Aleksandar Panić",
+    "age_group": "M35-39",
+    "finish_time": "07:07:56",
+    "finish_time_seconds": 25676,
+    "gender_place": "437",
+    "graded_time_seconds": 24392.199999999997,
+    "graded_time": "06:46:32",
+    "unique_key": [
+      "Aleksandar Panić",
+      "07:07:56"
+    ],
+    "graded_place": 436,
+    "ag_place": 87
+  },
+  {
+    "bib": "87",
+    "name": "Miodrag Lopicic",
+    "age_group": "M55-59",
+    "finish_time": "07:55:04",
+    "finish_time_seconds": 28504,
+    "gender_place": "464",
+    "graded_time_seconds": 24413.676,
+    "graded_time": "06:46:53",
+    "unique_key": [
+      "Miodrag Lopicic",
+      "07:55:04"
+    ],
+    "graded_place": 437,
+    "ag_place": 25
+  },
+  {
+    "bib": "641",
+    "name": "Alexander Petrovic",
+    "age_group": "M30-34",
+    "finish_time": "07:01:47",
+    "finish_time_seconds": 25307,
+    "gender_place": "426",
+    "graded_time_seconds": 24433.9085,
+    "graded_time": "06:47:13",
+    "unique_key": [
+      "Alexander Petrovic",
+      "07:01:47"
+    ],
+    "graded_place": 438,
+    "ag_place": 78
+  },
+  {
+    "bib": "479",
+    "name": "Przemyslaw Gladkiewicz",
+    "age_group": "M25-29",
+    "finish_time": "06:52:42",
+    "finish_time_seconds": 24762,
+    "gender_place": "420",
+    "graded_time_seconds": 24586.1898,
+    "graded_time": "06:49:46",
+    "unique_key": [
+      "Przemyslaw Gladkiewicz",
+      "06:52:42"
+    ],
+    "graded_place": 439,
+    "ag_place": 42
+  },
+  {
+    "bib": "281",
+    "name": "Andrew Doherty",
+    "age_group": "M30-34",
+    "finish_time": "07:04:58",
+    "finish_time_seconds": 25498,
+    "gender_place": "430",
+    "graded_time_seconds": 24618.319,
+    "graded_time": "06:50:18",
+    "unique_key": [
+      "Andrew Doherty",
+      "07:04:58"
+    ],
+    "graded_place": 440,
+    "ag_place": 79
+  },
+  {
+    "bib": "81",
+    "name": "Miodrag Stojkovic",
+    "age_group": "M50-54",
+    "finish_time": "07:45:09",
+    "finish_time_seconds": 27909,
+    "gender_place": "462",
+    "graded_time_seconds": 24652.0197,
+    "graded_time": "06:50:52",
+    "unique_key": [
+      "Miodrag Stojkovic",
+      "07:45:09"
+    ],
+    "graded_place": 441,
+    "ag_place": 40
+  },
+  {
+    "bib": "585",
+    "name": "Kaden Stone",
+    "age_group": "M18-24",
+    "finish_time": "06:51:40",
+    "finish_time_seconds": 24700,
+    "gender_place": "418",
+    "graded_time_seconds": 24700.0,
+    "graded_time": "06:51:40",
+    "unique_key": [
+      "Kaden Stone",
+      "06:51:40"
+    ],
+    "graded_place": 442,
+    "ag_place": 30
+  },
+  {
+    "bib": "260",
+    "name": "Elvir Khamitov",
+    "age_group": "M30-34",
+    "finish_time": "07:06:36",
+    "finish_time_seconds": 25596,
+    "gender_place": "435",
+    "graded_time_seconds": 24712.938000000002,
+    "graded_time": "06:51:52",
+    "unique_key": [
+      "Elvir Khamitov",
+      "07:06:36"
+    ],
+    "graded_place": 443,
+    "ag_place": 80
+  },
+  {
+    "bib": "463",
+    "name": "Matt Haywood",
+    "age_group": "M25-29",
+    "finish_time": "06:56:43",
+    "finish_time_seconds": 25003,
+    "gender_place": "421",
+    "graded_time_seconds": 24825.4787,
+    "graded_time": "06:53:45",
+    "unique_key": [
+      "Matt Haywood",
+      "06:56:43"
+    ],
+    "graded_place": 444,
+    "ag_place": 43
+  },
+  {
+    "bib": "571",
+    "name": "Đorđe Kučinar",
+    "age_group": "M40-44",
+    "finish_time": "07:28:10",
+    "finish_time_seconds": 26890,
+    "gender_place": "455",
+    "graded_time_seconds": 24905.518,
+    "graded_time": "06:55:05",
+    "unique_key": [
+      "Đorđe Kučinar",
+      "07:28:10"
+    ],
+    "graded_place": 445,
+    "ag_place": 74
+  },
+  {
+    "bib": "350",
+    "name": "Jovica Jovanić",
+    "age_group": "M40-44",
+    "finish_time": "07:28:54",
+    "finish_time_seconds": 26934,
+    "gender_place": "456",
+    "graded_time_seconds": 24946.270800000002,
+    "graded_time": "06:55:46",
+    "unique_key": [
+      "Jovica Jovanić",
+      "07:28:54"
+    ],
+    "graded_place": 446,
+    "ag_place": 75
+  },
+  {
+    "bib": "645",
+    "name": "Amer Kovač",
+    "age_group": "M25-29",
+    "finish_time": "07:00:17",
+    "finish_time_seconds": 25217,
+    "gender_place": "424",
+    "graded_time_seconds": 25037.9593,
+    "graded_time": "06:57:17",
+    "unique_key": [
+      "Amer Kovač",
+      "07:00:17"
+    ],
+    "graded_place": 447,
+    "ag_place": 44
+  },
+  {
+    "bib": "327",
+    "name": "Nathan Brown",
+    "age_group": "M18-24",
+    "finish_time": "06:59:42",
+    "finish_time_seconds": 25182,
+    "gender_place": "423",
+    "graded_time_seconds": 25182.0,
+    "graded_time": "06:59:42",
+    "unique_key": [
+      "Nathan Brown",
+      "06:59:42"
+    ],
+    "graded_place": 448,
+    "ag_place": 31
+  },
+  {
+    "bib": "696",
+    "name": "Igor Curovic",
+    "age_group": "M35-39",
+    "finish_time": "07:23:33",
+    "finish_time_seconds": 26613,
+    "gender_place": "450",
+    "graded_time_seconds": 25282.35,
+    "graded_time": "07:01:22",
+    "unique_key": [
+      "Igor Curovic",
+      "07:23:33"
+    ],
+    "graded_place": 449,
+    "ag_place": 88
+  },
+  {
+    "bib": "96",
+    "name": "Nikola Uskokovic",
+    "age_group": "M40-44",
+    "finish_time": "07:35:31",
+    "finish_time_seconds": 27331,
+    "gender_place": "460",
+    "graded_time_seconds": 25313.9722,
+    "graded_time": "07:01:53",
+    "unique_key": [
+      "Nikola Uskokovic",
+      "07:35:31"
+    ],
+    "graded_place": 450,
+    "ag_place": 76
+  },
+  {
+    "bib": "359",
+    "name": "Krsta Pavlovic",
+    "age_group": "M25-29",
+    "finish_time": "07:05:43",
+    "finish_time_seconds": 25543,
+    "gender_place": "432",
+    "graded_time_seconds": 25361.6447,
+    "graded_time": "07:02:41",
+    "unique_key": [
+      "Krsta Pavlovic",
+      "07:05:43"
+    ],
+    "graded_place": 451,
+    "ag_place": 45
+  },
+  {
+    "bib": "458",
+    "name": "Simeon Milushev",
+    "age_group": "M18-24",
+    "finish_time": "07:02:55",
+    "finish_time_seconds": 25375,
+    "gender_place": "427",
+    "graded_time_seconds": 25375.0,
+    "graded_time": "07:02:55",
+    "unique_key": [
+      "Simeon Milushev",
+      "07:02:55"
+    ],
+    "graded_place": 452,
+    "ag_place": 32
+  },
+  {
+    "bib": "353",
+    "name": "Denis Poleshchikov",
+    "age_group": "M35-39",
+    "finish_time": "07:26:57",
+    "finish_time_seconds": 26817,
+    "gender_place": "454",
+    "graded_time_seconds": 25476.149999999998,
+    "graded_time": "07:04:36",
+    "unique_key": [
+      "Denis Poleshchikov",
+      "07:26:57"
+    ],
+    "graded_place": 453,
+    "ag_place": 89
+  },
+  {
+    "bib": "233",
+    "name": "Petar Manevski",
+    "age_group": "M18-24",
+    "finish_time": "07:05:16",
+    "finish_time_seconds": 25516,
+    "gender_place": "431",
+    "graded_time_seconds": 25516.0,
+    "graded_time": "07:05:16",
+    "unique_key": [
+      "Petar Manevski",
+      "07:05:16"
+    ],
+    "graded_place": 454,
+    "ag_place": 33
+  },
+  {
+    "bib": "415",
+    "name": "Antonis Lakkotrypis",
+    "age_group": "M18-24",
+    "finish_time": "07:08:57",
+    "finish_time_seconds": 25737,
+    "gender_place": "438",
+    "graded_time_seconds": 25737.0,
+    "graded_time": "07:08:57",
+    "unique_key": [
+      "Antonis Lakkotrypis",
+      "07:08:57"
+    ],
+    "graded_place": 455,
+    "ag_place": 34
+  },
+  {
+    "bib": "159",
+    "name": "Aljosa Stankovic",
+    "age_group": "M30-34",
+    "finish_time": "07:24:44",
+    "finish_time_seconds": 26684,
+    "gender_place": "451",
+    "graded_time_seconds": 25763.402000000002,
+    "graded_time": "07:09:23",
+    "unique_key": [
+      "Aljosa Stankovic",
+      "07:24:44"
+    ],
+    "graded_place": 456,
+    "ag_place": 81
+  },
+  {
+    "bib": "374",
+    "name": "Zoltan Mathe",
+    "age_group": "M30-34",
+    "finish_time": "07:24:56",
+    "finish_time_seconds": 26696,
+    "gender_place": "452",
+    "graded_time_seconds": 25774.988,
+    "graded_time": "07:09:34",
+    "unique_key": [
+      "Zoltan Mathe",
+      "07:24:56"
+    ],
+    "graded_place": 457,
+    "ag_place": 82
+  },
+  {
+    "bib": "95",
+    "name": "Jovan Vujasinovic",
+    "age_group": "M45-49",
+    "finish_time": "07:58:59",
+    "finish_time_seconds": 28739,
+    "gender_place": "466",
+    "graded_time_seconds": 25801.874200000002,
+    "graded_time": "07:10:01",
+    "unique_key": [
+      "Jovan Vujasinovic",
+      "07:58:59"
+    ],
+    "graded_place": 458,
+    "ag_place": 52
+  },
+  {
+    "bib": "470",
+    "name": "Ilya Bogdanov",
+    "age_group": "M25-29",
+    "finish_time": "07:13:11",
+    "finish_time_seconds": 25991,
+    "gender_place": "442",
+    "graded_time_seconds": 25806.4639,
+    "graded_time": "07:10:06",
+    "unique_key": [
+      "Ilya Bogdanov",
+      "07:13:11"
+    ],
+    "graded_place": 459,
+    "ag_place": 46
+  },
+  {
+    "bib": "249",
+    "name": "Haik Zakrzewski",
+    "age_group": "M40-44",
+    "finish_time": "07:48:24",
+    "finish_time_seconds": 28104,
+    "gender_place": "463",
+    "graded_time_seconds": 26029.9248,
+    "graded_time": "07:13:49",
+    "unique_key": [
+      "Haik Zakrzewski",
+      "07:48:24"
+    ],
+    "graded_place": 460,
+    "ag_place": 77
+  },
+  {
+    "bib": "282",
+    "name": "Ian Finch",
+    "age_group": "M50-54",
+    "finish_time": "08:13:43",
+    "finish_time_seconds": 29623,
+    "gender_place": "471",
+    "graded_time_seconds": 26165.995899999998,
+    "graded_time": "07:16:05",
+    "unique_key": [
+      "Ian Finch",
+      "08:13:43"
+    ],
+    "graded_place": 461,
+    "ag_place": 41
+  },
+  {
+    "bib": "332",
+    "name": "Jernej Hajdinjak",
+    "age_group": "M25-29",
+    "finish_time": "07:20:03",
+    "finish_time_seconds": 26403,
+    "gender_place": "446",
+    "graded_time_seconds": 26215.5387,
+    "graded_time": "07:16:55",
+    "unique_key": [
+      "Jernej Hajdinjak",
+      "07:20:03"
+    ],
+    "graded_place": 462,
+    "ag_place": 47
+  },
+  {
+    "bib": "316",
+    "name": "Stefan Heymanns",
+    "age_group": "M25-29",
+    "finish_time": "07:20:25",
+    "finish_time_seconds": 26425,
+    "gender_place": "447",
+    "graded_time_seconds": 26237.3825,
+    "graded_time": "07:17:17",
+    "unique_key": [
+      "Stefan Heymanns",
+      "07:20:25"
+    ],
+    "graded_place": 463,
+    "ag_place": 48
+  },
+  {
+    "bib": "509",
+    "name": "Jasper Krause",
+    "age_group": "M25-29",
+    "finish_time": "07:22:23",
+    "finish_time_seconds": 26543,
+    "gender_place": "449",
+    "graded_time_seconds": 26354.5447,
+    "graded_time": "07:19:14",
+    "unique_key": [
+      "Jasper Krause",
+      "07:22:23"
+    ],
+    "graded_place": 464,
+    "ag_place": 49
+  },
+  {
+    "bib": "219",
+    "name": "Lazar Demirović",
+    "age_group": "M18-24",
+    "finish_time": "07:29:27",
+    "finish_time_seconds": 26967,
+    "gender_place": "457",
+    "graded_time_seconds": 26967.0,
+    "graded_time": "07:29:27",
+    "unique_key": [
+      "Lazar Demirović",
+      "07:29:27"
+    ],
+    "graded_place": 465,
+    "ag_place": 35
+  },
+  {
+    "bib": "164",
+    "name": "Vanja Paunovic",
+    "age_group": "M25-29",
+    "finish_time": "07:34:10",
+    "finish_time_seconds": 27250,
+    "gender_place": "459",
+    "graded_time_seconds": 27056.525,
+    "graded_time": "07:30:56",
+    "unique_key": [
+      "Vanja Paunovic",
+      "07:34:10"
+    ],
+    "graded_place": 466,
+    "ag_place": 50
+  },
+  {
+    "bib": "156",
+    "name": "Antonio Manuel Carmona Sampedro",
+    "age_group": "M40-44",
+    "finish_time": "08:08:39",
+    "finish_time_seconds": 29319,
+    "gender_place": "469",
+    "graded_time_seconds": 27155.2578,
+    "graded_time": "07:32:35",
+    "unique_key": [
+      "Antonio Manuel Carmona Sampedro",
+      "08:08:39"
+    ],
+    "graded_place": 467,
+    "ag_place": 78
+  },
+  {
+    "bib": "338",
+    "name": "Danilo Zdravkovic",
+    "age_group": "M35-39",
+    "finish_time": "07:57:26",
+    "finish_time_seconds": 28646,
+    "gender_place": "465",
+    "graded_time_seconds": 27213.699999999997,
+    "graded_time": "07:33:33",
+    "unique_key": [
+      "Danilo Zdravkovic",
+      "07:57:26"
+    ],
+    "graded_place": 468,
+    "ag_place": 90
+  },
+  {
+    "bib": "155",
+    "name": "Jure Leben",
+    "age_group": "M40-44",
+    "finish_time": "08:10:15",
+    "finish_time_seconds": 29415,
+    "gender_place": "470",
+    "graded_time_seconds": 27244.173000000003,
+    "graded_time": "07:34:04",
+    "unique_key": [
+      "Jure Leben",
+      "08:10:15"
+    ],
+    "graded_place": 469,
+    "ag_place": 79
+  },
+  {
+    "bib": "632",
+    "name": "Maksim Kutsenko",
+    "age_group": "M25-29",
+    "finish_time": "07:59:00",
+    "finish_time_seconds": 28740,
+    "gender_place": "467",
+    "graded_time_seconds": 28535.946,
+    "graded_time": "07:55:35",
+    "unique_key": [
+      "Maksim Kutsenko",
+      "07:59:00"
+    ],
+    "graded_place": 470,
+    "ag_place": 51
+  },
+  {
+    "bib": "89",
+    "name": "Bojan Vukovic",
+    "age_group": "M35-39",
+    "finish_time": "08:23:27",
+    "finish_time_seconds": 30207,
+    "gender_place": "472",
+    "graded_time_seconds": 28696.649999999998,
+    "graded_time": "07:58:16",
+    "unique_key": [
+      "Bojan Vukovic",
+      "08:23:27"
+    ],
+    "graded_place": 471,
+    "ag_place": 91
+  },
+  {
+    "bib": "341",
+    "name": "Teodor Petrovic",
+    "age_group": "M25-29",
+    "finish_time": "08:02:31",
+    "finish_time_seconds": 28951,
+    "gender_place": "468",
+    "graded_time_seconds": 28745.4479,
+    "graded_time": "07:59:05",
+    "unique_key": [
+      "Teodor Petrovic",
+      "08:02:31"
+    ],
+    "graded_place": 472,
+    "ag_place": 52
+  }
+]
