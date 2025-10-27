@@ -5,6 +5,7 @@ import time
 from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app
 from datetime import date, datetime, timedelta
 import parse_live_data
+import adjustments
 
 app = Flask(__name__)
 
@@ -23,9 +24,9 @@ def load_ag_adjustments(file_path):
         current_app.logger.error(f"Invalid JSON format in '{file_path}'")
         raise
 
-# Load AG adjustments at app startup
-AG_ADJUSTMENTS_703 = load_ag_adjustments('ag_adjustments_703.json')
-AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
+# Deprecated: Static load of adjustments. Left for backward compat if needed.
+# AG_ADJUSTMENTS_703 = load_ag_adjustments('ag_adjustments_703.json')
+# AG_ADJUSTMENTS_1406 = load_ag_adjustments('ag_adjustments_1406.json')
 
 # Global variables to track file modification times and last check time
 ALL_RACES_LAST_MODIFIED = 0
@@ -366,13 +367,20 @@ def live_results_table(race_name, gender=None):
             gender = 'men'  # Default to men if not provided
         if gender not in race['results_urls']['live']:
             return jsonify({"error": f"Live results for {race['distance']} {gender} not supported"}), 404
-        ag_adjustments = AG_ADJUSTMENTS_703
     elif race['distance'] == '140.6':
         if 'men' not in race['results_urls']['live'] or 'women' not in race['results_urls']['live']:
             return jsonify({"error": "Live results URLs for both men and women must be provided for 140.6 races"}), 404
-        ag_adjustments = AG_ADJUSTMENTS_1406
     else:
         return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
+
+    # Select adjustments factors based on manifest and per-race lock
+    try:
+        ag_adjustments, adjustments_version = adjustments.get_adjustments_for_race(race)
+        # annotate for templates/debug if needed
+        race['adjustments_version'] = adjustments_version
+    except Exception as e:
+        current_app.logger.error(f"Failed to resolve adjustments for race {race.get('key')}: {e}")
+        return jsonify({"error": "Unable to load adjustments for this race"}), 500
 
     # Check if we should fetch results based on race timing
     message, should_fetch_results = get_race_status_message(race)
