@@ -30,6 +30,33 @@ You can use the app right now at: [https://www.canikona.app/](https://www.caniko
    ```
 4. Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
+## 📐 Versioned Age-Graded (AG) adjustments
+
+AG factors are now versioned with effective dates so historic races always use the same set they were originally processed with.
+
+- Files live under `adjustments/`:
+   - `adjustments/manifest.json` – list of versions with:
+      - `id`, `distance` ("70.3" or "140.6"), `effective_from` (YYYY-MM-DD), and `file` path
+   - Per-version factor files (e.g., `adjustments/70.3/baseline.json`)
+- Per-race locking is stored in `data/ag_assignments.json` as:
+   - `{ "<race_key>": { "adjustments_version": "<version-id>" } }`
+- At runtime, the app will:
+   1) Look up a race in `ag_assignments.json`.
+   2) If missing, select the latest version with `effective_from <= race.date`.
+   3) Persist the selection so it doesn’t change later.
+
+CLI helper:
+
+```bash
+scripts/manage_ag_versions.py list-versions
+scripts/manage_ag_versions.py dry-run
+scripts/manage_ag_versions.py write-assignments  # pre-lock all races
+```
+
+Notes:
+- If you add a new set from Ironman, add a new entry in `manifest.json` with its `effective_from` and point `file` to the new factors JSON.
+
+
 ## 🤝 Contributing
 
 - Anyone can file issues for bug reports or enhancement requests.

@@ -1,0 +1,16 @@
+{
+  "versions": [
+    {
+      "id": "703-baseline",
+      "distance": "70.3",
+      "effective_from": "1970-01-01",
+      "file": "adjustments/70.3/baseline.json"
+    },
+    {
+      "id": "1406-baseline",
+      "distance": "140.6",
+      "effective_from": "1970-01-01",
+      "file": "adjustments/140.6/baseline.json"
+    }
+  ]
+}
