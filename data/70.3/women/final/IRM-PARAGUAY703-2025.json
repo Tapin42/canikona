@@ -1,0 +1,946 @@
+[
+  {
+    "bib": "123",
+    "name": "Gabriela Carena",
+    "age_group": "F35-39",
+    "finish_time": "04:48:06",
+    "finish_time_seconds": 17286,
+    "gender_place": "1",
+    "graded_time_seconds": 16694.8188,
+    "graded_time": "04:38:14",
+    "unique_key": [
+      "Gabriela Carena",
+      "04:48:06"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "185",
+    "name": "Andrea Foianini",
+    "age_group": "F45-49",
+    "finish_time": "05:11:03",
+    "finish_time_seconds": 18663,
+    "gender_place": "8",
+    "graded_time_seconds": 17155.0296,
+    "graded_time": "04:45:55",
+    "unique_key": [
+      "Andrea Foianini",
+      "05:11:03"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "124",
+    "name": "Micaela Bacalo",
+    "age_group": "F35-39",
+    "finish_time": "04:58:32",
+    "finish_time_seconds": 17912,
+    "gender_place": "3",
+    "graded_time_seconds": 17299.4096,
+    "graded_time": "04:48:19",
+    "unique_key": [
+      "Micaela Bacalo",
+      "04:58:32"
+    ],
+    "graded_place": 3,
+    "ag_place": 2
+  },
+  {
+    "bib": "469",
+    "name": "Susana Guillen Rodriguez",
+    "age_group": "F35-39",
+    "finish_time": "05:00:47",
+    "finish_time_seconds": 18047,
+    "gender_place": "4",
+    "graded_time_seconds": 17429.7926,
+    "graded_time": "04:50:29",
+    "unique_key": [
+      "Susana Guillen Rodriguez",
+      "05:00:47"
+    ],
+    "graded_place": 4,
+    "ag_place": 3
+  },
+  {
+    "bib": "323",
+    "name": "Johanna Pennella",
+    "age_group": "F30-34",
+    "finish_time": "04:56:41",
+    "finish_time_seconds": 17801,
+    "gender_place": "2",
+    "graded_time_seconds": 17494.8228,
+    "graded_time": "04:51:34",
+    "unique_key": [
+      "Johanna Pennella",
+      "04:56:41"
+    ],
+    "graded_place": 5,
+    "ag_place": 1
+  },
+  {
+    "bib": "301",
+    "name": "Brenda Bernard",
+    "age_group": "F35-39",
+    "finish_time": "05:06:38",
+    "finish_time_seconds": 18398,
+    "gender_place": "5",
+    "graded_time_seconds": 17768.7884,
+    "graded_time": "04:56:08",
+    "unique_key": [
+      "Brenda Bernard",
+      "05:06:38"
+    ],
+    "graded_place": 6,
+    "ag_place": 4
+  },
+  {
+    "bib": "111",
+    "name": "Andrea Dalmasso",
+    "age_group": "F55-59",
+    "finish_time": "05:38:56",
+    "finish_time_seconds": 20336,
+    "gender_place": "17",
+    "graded_time_seconds": 17785.8656,
+    "graded_time": "04:56:25",
+    "unique_key": [
+      "Andrea Dalmasso",
+      "05:38:56"
+    ],
+    "graded_place": 7,
+    "ag_place": 1
+  },
+  {
+    "bib": "241",
+    "name": "Joice Farinelli",
+    "age_group": "F35-39",
+    "finish_time": "05:07:01",
+    "finish_time_seconds": 18421,
+    "gender_place": "6",
+    "graded_time_seconds": 17791.0018,
+    "graded_time": "04:56:31",
+    "unique_key": [
+      "Joice Farinelli",
+      "05:07:01"
+    ],
+    "graded_place": 8,
+    "ag_place": 5
+  },
+  {
+    "bib": "412",
+    "name": "Natalia Dreutti",
+    "age_group": "F35-39",
+    "finish_time": "05:09:38",
+    "finish_time_seconds": 18578,
+    "gender_place": "7",
+    "graded_time_seconds": 17942.6324,
+    "graded_time": "04:59:02",
+    "unique_key": [
+      "Natalia Dreutti",
+      "05:09:38"
+    ],
+    "graded_place": 9,
+    "ag_place": 6
+  },
+  {
+    "bib": "125",
+    "name": "Victoria Brasca",
+    "age_group": "F45-49",
+    "finish_time": "05:32:00",
+    "finish_time_seconds": 19920,
+    "gender_place": "14",
+    "graded_time_seconds": 18310.464,
+    "graded_time": "05:05:10",
+    "unique_key": [
+      "Victoria Brasca",
+      "05:32:00"
+    ],
+    "graded_place": 10,
+    "ag_place": 2
+  },
+  {
+    "bib": "135",
+    "name": "Cecilia Cabello",
+    "age_group": "F40-44",
+    "finish_time": "05:23:46",
+    "finish_time_seconds": 19426,
+    "gender_place": "13",
+    "graded_time_seconds": 18310.9476,
+    "graded_time": "05:05:10",
+    "unique_key": [
+      "Cecilia Cabello",
+      "05:23:46"
+    ],
+    "graded_place": 11,
+    "ag_place": 1
+  },
+  {
+    "bib": "408",
+    "name": "Paulina Tabita Montanaro Urbieta",
+    "age_group": "F30-34",
+    "finish_time": "05:13:53",
+    "finish_time_seconds": 18833,
+    "gender_place": "9",
+    "graded_time_seconds": 18509.0724,
+    "graded_time": "05:08:29",
+    "unique_key": [
+      "Paulina Tabita Montanaro Urbieta",
+      "05:13:53"
+    ],
+    "graded_place": 12,
+    "ag_place": 2
+  },
+  {
+    "bib": "496",
+    "name": "Carla Paola Cruz Correa",
+    "age_group": "F35-39",
+    "finish_time": "05:20:39",
+    "finish_time_seconds": 19239,
+    "gender_place": "12",
+    "graded_time_seconds": 18581.0262,
+    "graded_time": "05:09:41",
+    "unique_key": [
+      "Carla Paola Cruz Correa",
+      "05:20:39"
+    ],
+    "graded_place": 13,
+    "ag_place": 7
+  },
+  {
+    "bib": "141",
+    "name": "Susana Hauswirth",
+    "age_group": "F55-59",
+    "finish_time": "05:54:16",
+    "finish_time_seconds": 21256,
+    "gender_place": "25",
+    "graded_time_seconds": 18590.497600000002,
+    "graded_time": "05:09:50",
+    "unique_key": [
+      "Susana Hauswirth",
+      "05:54:16"
+    ],
+    "graded_place": 14,
+    "ag_place": 2
+  },
+  {
+    "bib": "163",
+    "name": "Leticia Riquelme",
+    "age_group": "F30-34",
+    "finish_time": "05:16:56",
+    "finish_time_seconds": 19016,
+    "gender_place": "10",
+    "graded_time_seconds": 18688.9248,
+    "graded_time": "05:11:28",
+    "unique_key": [
+      "Leticia Riquelme",
+      "05:16:56"
+    ],
+    "graded_place": 15,
+    "ag_place": 3
+  },
+  {
+    "bib": "154",
+    "name": "Lia Clari",
+    "age_group": "F45-49",
+    "finish_time": "05:40:01",
+    "finish_time_seconds": 20401,
+    "gender_place": "19",
+    "graded_time_seconds": 18752.5992,
+    "graded_time": "05:12:32",
+    "unique_key": [
+      "Lia Clari",
+      "05:40:01"
+    ],
+    "graded_place": 16,
+    "ag_place": 3
+  },
+  {
+    "bib": "172",
+    "name": "Maria Fernanda Niklitschek Michael",
+    "age_group": "F30-34",
+    "finish_time": "05:20:19",
+    "finish_time_seconds": 19219,
+    "gender_place": "11",
+    "graded_time_seconds": 18888.4332,
+    "graded_time": "05:14:48",
+    "unique_key": [
+      "Maria Fernanda Niklitschek Michael",
+      "05:20:19"
+    ],
+    "graded_place": 17,
+    "ag_place": 4
+  },
+  {
+    "bib": "129",
+    "name": "Marilza Candida Saldanha",
+    "age_group": "F55-59",
+    "finish_time": "06:04:51",
+    "finish_time_seconds": 21891,
+    "gender_place": "30",
+    "graded_time_seconds": 19145.8686,
+    "graded_time": "05:19:05",
+    "unique_key": [
+      "Marilza Candida Saldanha",
+      "06:04:51"
+    ],
+    "graded_place": 18,
+    "ag_place": 3
+  },
+  {
+    "bib": "224",
+    "name": "Melanie Pedrosa",
+    "age_group": "F40-44",
+    "finish_time": "05:39:35",
+    "finish_time_seconds": 20375,
+    "gender_place": "18",
+    "graded_time_seconds": 19205.475,
+    "graded_time": "05:20:05",
+    "unique_key": [
+      "Melanie Pedrosa",
+      "05:39:35"
+    ],
+    "graded_place": 19,
+    "ag_place": 2
+  },
+  {
+    "bib": "272",
+    "name": "Nayara Tavares",
+    "age_group": "F35-39",
+    "finish_time": "05:36:57",
+    "finish_time_seconds": 20217,
+    "gender_place": "16",
+    "graded_time_seconds": 19525.5786,
+    "graded_time": "05:25:25",
+    "unique_key": [
+      "Nayara Tavares",
+      "05:36:57"
+    ],
+    "graded_place": 20,
+    "ag_place": 8
+  },
+  {
+    "bib": "160",
+    "name": "Livia Negri",
+    "age_group": "F50-54",
+    "finish_time": "06:01:03",
+    "finish_time_seconds": 21663,
+    "gender_place": "28",
+    "graded_time_seconds": 19531.3608,
+    "graded_time": "05:25:31",
+    "unique_key": [
+      "Livia Negri",
+      "06:01:03"
+    ],
+    "graded_place": 21,
+    "ag_place": 1
+  },
+  {
+    "bib": "463",
+    "name": "Caroline Muzy Frade",
+    "age_group": "F30-34",
+    "finish_time": "05:32:47",
+    "finish_time_seconds": 19967,
+    "gender_place": "15",
+    "graded_time_seconds": 19623.5676,
+    "graded_time": "05:27:03",
+    "unique_key": [
+      "Caroline Muzy Frade",
+      "05:32:47"
+    ],
+    "graded_place": 22,
+    "ag_place": 5
+  },
+  {
+    "bib": "134",
+    "name": "Anabel Molina",
+    "age_group": "F40-44",
+    "finish_time": "05:57:52",
+    "finish_time_seconds": 21472,
+    "gender_place": "27",
+    "graded_time_seconds": 20239.5072,
+    "graded_time": "05:37:19",
+    "unique_key": [
+      "Anabel Molina",
+      "05:57:52"
+    ],
+    "graded_place": 23,
+    "ag_place": 3
+  },
+  {
+    "bib": "143",
+    "name": "Camila Tub Caplan",
+    "age_group": "F30-34",
+    "finish_time": "05:45:55",
+    "finish_time_seconds": 20755,
+    "gender_place": "21",
+    "graded_time_seconds": 20398.014,
+    "graded_time": "05:39:58",
+    "unique_key": [
+      "Camila Tub Caplan",
+      "05:45:55"
+    ],
+    "graded_place": 24,
+    "ag_place": 6
+  },
+  {
+    "bib": "253",
+    "name": "Maria Florencia Alba",
+    "age_group": "F35-39",
+    "finish_time": "05:53:05",
+    "finish_time_seconds": 21185,
+    "gender_place": "24",
+    "graded_time_seconds": 20460.472999999998,
+    "graded_time": "05:41:00",
+    "unique_key": [
+      "Maria Florencia Alba",
+      "05:53:05"
+    ],
+    "graded_place": 25,
+    "ag_place": 9
+  },
+  {
+    "bib": "283",
+    "name": "Micaela Puebla",
+    "age_group": "F30-34",
+    "finish_time": "05:47:46",
+    "finish_time_seconds": 20866,
+    "gender_place": "22",
+    "graded_time_seconds": 20507.1048,
+    "graded_time": "05:41:47",
+    "unique_key": [
+      "Micaela Puebla",
+      "05:47:46"
+    ],
+    "graded_place": 26,
+    "ag_place": 7
+  },
+  {
+    "bib": "473",
+    "name": "Maria del Carmen Meza Peralta",
+    "age_group": "F18-24",
+    "finish_time": "05:44:37",
+    "finish_time_seconds": 20677,
+    "gender_place": "20",
+    "graded_time_seconds": 20513.6517,
+    "graded_time": "05:41:53",
+    "unique_key": [
+      "Maria del Carmen Meza Peralta",
+      "05:44:37"
+    ],
+    "graded_place": 27,
+    "ag_place": 1
+  },
+  {
+    "bib": "387",
+    "name": "Liz Vargas",
+    "age_group": "F35-39",
+    "finish_time": "05:55:13",
+    "finish_time_seconds": 21313,
+    "gender_place": "26",
+    "graded_time_seconds": 20584.0954,
+    "graded_time": "05:43:04",
+    "unique_key": [
+      "Liz Vargas",
+      "05:55:13"
+    ],
+    "graded_place": 28,
+    "ag_place": 10
+  },
+  {
+    "bib": "372",
+    "name": "Gabriela de Conto Bett",
+    "age_group": "F40-44",
+    "finish_time": "06:05:08",
+    "finish_time_seconds": 21908,
+    "gender_place": "31",
+    "graded_time_seconds": 20650.4808,
+    "graded_time": "05:44:10",
+    "unique_key": [
+      "Gabriela de Conto Bett",
+      "06:05:08"
+    ],
+    "graded_place": 29,
+    "ag_place": 4
+  },
+  {
+    "bib": "307",
+    "name": "Giselle Poujade",
+    "age_group": "F45-49",
+    "finish_time": "06:14:35",
+    "finish_time_seconds": 22475,
+    "gender_place": "37",
+    "graded_time_seconds": 20659.02,
+    "graded_time": "05:44:19",
+    "unique_key": [
+      "Giselle Poujade",
+      "06:14:35"
+    ],
+    "graded_place": 30,
+    "ag_place": 4
+  },
+  {
+    "bib": "146",
+    "name": "Barbara Baldino",
+    "age_group": "F45-49",
+    "finish_time": "06:14:40",
+    "finish_time_seconds": 22480,
+    "gender_place": "38",
+    "graded_time_seconds": 20663.616,
+    "graded_time": "05:44:23",
+    "unique_key": [
+      "Barbara Baldino",
+      "06:14:40"
+    ],
+    "graded_place": 31,
+    "ag_place": 5
+  },
+  {
+    "bib": "338",
+    "name": "Carmen Maria Pereira Bogado",
+    "age_group": "F40-44",
+    "finish_time": "06:11:04",
+    "finish_time_seconds": 22264,
+    "gender_place": "32",
+    "graded_time_seconds": 20986.0464,
+    "graded_time": "05:49:46",
+    "unique_key": [
+      "Carmen Maria Pereira Bogado",
+      "06:11:04"
+    ],
+    "graded_place": 32,
+    "ag_place": 5
+  },
+  {
+    "bib": "396",
+    "name": "Giuliana Martinez",
+    "age_group": "F25-29",
+    "finish_time": "05:50:07",
+    "finish_time_seconds": 21007,
+    "gender_place": "23",
+    "graded_time_seconds": 21007.0,
+    "graded_time": "05:50:07",
+    "unique_key": [
+      "Giuliana Martinez",
+      "05:50:07"
+    ],
+    "graded_place": 33,
+    "ag_place": 1
+  },
+  {
+    "bib": "478",
+    "name": "Barbara Rueda",
+    "age_group": "F45-49",
+    "finish_time": "06:22:19",
+    "finish_time_seconds": 22939,
+    "gender_place": "40",
+    "graded_time_seconds": 21085.5288,
+    "graded_time": "05:51:25",
+    "unique_key": [
+      "Barbara Rueda",
+      "06:22:19"
+    ],
+    "graded_place": 34,
+    "ag_place": 6
+  },
+  {
+    "bib": "171",
+    "name": "Dayana Castillo",
+    "age_group": "F40-44",
+    "finish_time": "06:12:55",
+    "finish_time_seconds": 22375,
+    "gender_place": "35",
+    "graded_time_seconds": 21090.675,
+    "graded_time": "05:51:30",
+    "unique_key": [
+      "Dayana Castillo",
+      "06:12:55"
+    ],
+    "graded_place": 35,
+    "ag_place": 6
+  },
+  {
+    "bib": "257",
+    "name": "Ana Laura Daniele Blondeau",
+    "age_group": "F30-34",
+    "finish_time": "06:01:35",
+    "finish_time_seconds": 21695,
+    "gender_place": "29",
+    "graded_time_seconds": 21321.846,
+    "graded_time": "05:55:21",
+    "unique_key": [
+      "Ana Laura Daniele Blondeau",
+      "06:01:35"
+    ],
+    "graded_place": 36,
+    "ag_place": 8
+  },
+  {
+    "bib": "137",
+    "name": "Maria Emilia Ferraro",
+    "age_group": "F45-49",
+    "finish_time": "06:28:48",
+    "finish_time_seconds": 23328,
+    "gender_place": "41",
+    "graded_time_seconds": 21443.0976,
+    "graded_time": "05:57:23",
+    "unique_key": [
+      "Maria Emilia Ferraro",
+      "06:28:48"
+    ],
+    "graded_place": 37,
+    "ag_place": 7
+  },
+  {
+    "bib": "223",
+    "name": "Denise Nair Pasini Pegoraro",
+    "age_group": "F35-39",
+    "finish_time": "06:13:32",
+    "finish_time_seconds": 22412,
+    "gender_place": "36",
+    "graded_time_seconds": 21645.5096,
+    "graded_time": "06:00:45",
+    "unique_key": [
+      "Denise Nair Pasini Pegoraro",
+      "06:13:32"
+    ],
+    "graded_place": 38,
+    "ag_place": 11
+  },
+  {
+    "bib": "375",
+    "name": "Elfrida Moreno",
+    "age_group": "F45-49",
+    "finish_time": "06:35:58",
+    "finish_time_seconds": 23758,
+    "gender_place": "44",
+    "graded_time_seconds": 21838.353600000002,
+    "graded_time": "06:03:58",
+    "unique_key": [
+      "Elfrida Moreno",
+      "06:35:58"
+    ],
+    "graded_place": 39,
+    "ag_place": 8
+  },
+  {
+    "bib": "319",
+    "name": "Flavia Duarte Alves",
+    "age_group": "F45-49",
+    "finish_time": "06:38:49",
+    "finish_time_seconds": 23929,
+    "gender_place": "45",
+    "graded_time_seconds": 21995.5368,
+    "graded_time": "06:06:35",
+    "unique_key": [
+      "Flavia Duarte Alves",
+      "06:38:49"
+    ],
+    "graded_place": 40,
+    "ag_place": 9
+  },
+  {
+    "bib": "500",
+    "name": "Graciela Estela Gimenez",
+    "age_group": "F55-59",
+    "finish_time": "07:02:10",
+    "finish_time_seconds": 25330,
+    "gender_place": "52",
+    "graded_time_seconds": 22153.618000000002,
+    "graded_time": "06:09:13",
+    "unique_key": [
+      "Graciela Estela Gimenez",
+      "07:02:10"
+    ],
+    "graded_place": 41,
+    "ag_place": 4
+  },
+  {
+    "bib": "379",
+    "name": "Ann Kathrin Nast",
+    "age_group": "F30-34",
+    "finish_time": "06:16:39",
+    "finish_time_seconds": 22599,
+    "gender_place": "39",
+    "graded_time_seconds": 22210.2972,
+    "graded_time": "06:10:10",
+    "unique_key": [
+      "Ann Kathrin Nast",
+      "06:16:39"
+    ],
+    "graded_place": 42,
+    "ag_place": 9
+  },
+  {
+    "bib": "348",
+    "name": "Kariim Batscheck",
+    "age_group": "F25-29",
+    "finish_time": "06:11:22",
+    "finish_time_seconds": 22282,
+    "gender_place": "33",
+    "graded_time_seconds": 22282.0,
+    "graded_time": "06:11:22",
+    "unique_key": [
+      "Kariim Batscheck",
+      "06:11:22"
+    ],
+    "graded_place": 43,
+    "ag_place": 2
+  },
+  {
+    "bib": "321",
+    "name": "Jessica Lopes Freitas",
+    "age_group": "F25-29",
+    "finish_time": "06:11:30",
+    "finish_time_seconds": 22290,
+    "gender_place": "34",
+    "graded_time_seconds": 22290.0,
+    "graded_time": "06:11:30",
+    "unique_key": [
+      "Jessica Lopes Freitas",
+      "06:11:30"
+    ],
+    "graded_place": 44,
+    "ag_place": 3
+  },
+  {
+    "bib": "113",
+    "name": "Ingrid Arning",
+    "age_group": "F65-69",
+    "finish_time": "07:59:18",
+    "finish_time_seconds": 28758,
+    "gender_place": "59",
+    "graded_time_seconds": 22359.344999999998,
+    "graded_time": "06:12:39",
+    "unique_key": [
+      "Ingrid Arning",
+      "07:59:18"
+    ],
+    "graded_place": 45,
+    "ag_place": 1
+  },
+  {
+    "bib": "449",
+    "name": "Lucrecia Itati Solis Yufimchuk",
+    "age_group": "F45-49",
+    "finish_time": "06:53:46",
+    "finish_time_seconds": 24826,
+    "gender_place": "50",
+    "graded_time_seconds": 22820.0592,
+    "graded_time": "06:20:20",
+    "unique_key": [
+      "Lucrecia Itati Solis Yufimchuk",
+      "06:53:46"
+    ],
+    "graded_place": 46,
+    "ag_place": 10
+  },
+  {
+    "bib": "262",
+    "name": "Hernani Barletta",
+    "age_group": "F55-59",
+    "finish_time": "07:15:32",
+    "finish_time_seconds": 26132,
+    "gender_place": "54",
+    "graded_time_seconds": 22855.0472,
+    "graded_time": "06:20:55",
+    "unique_key": [
+      "Hernani Barletta",
+      "07:15:32"
+    ],
+    "graded_place": 47,
+    "ag_place": 5
+  },
+  {
+    "bib": "506",
+    "name": "Fatima Osorio",
+    "age_group": "F35-39",
+    "finish_time": "06:41:55",
+    "finish_time_seconds": 24115,
+    "gender_place": "46",
+    "graded_time_seconds": 23290.267,
+    "graded_time": "06:28:10",
+    "unique_key": [
+      "Fatima Osorio",
+      "06:41:55"
+    ],
+    "graded_place": 48,
+    "ag_place": 12
+  },
+  {
+    "bib": "226",
+    "name": "Carmen Castillo de Ortiz",
+    "age_group": "F55-59",
+    "finish_time": "07:24:24",
+    "finish_time_seconds": 26664,
+    "gender_place": "58",
+    "graded_time_seconds": 23320.3344,
+    "graded_time": "06:28:40",
+    "unique_key": [
+      "Carmen Castillo de Ortiz",
+      "07:24:24"
+    ],
+    "graded_place": 49,
+    "ag_place": 6
+  },
+  {
+    "bib": "397",
+    "name": "Natasha Alfonso Guevara",
+    "age_group": "F25-29",
+    "finish_time": "06:29:32",
+    "finish_time_seconds": 23372,
+    "gender_place": "42",
+    "graded_time_seconds": 23372.0,
+    "graded_time": "06:29:32",
+    "unique_key": [
+      "Natasha Alfonso Guevara",
+      "06:29:32"
+    ],
+    "graded_place": 50,
+    "ag_place": 4
+  },
+  {
+    "bib": "373",
+    "name": "Evelin Brizolla",
+    "age_group": "F25-29",
+    "finish_time": "06:31:08",
+    "finish_time_seconds": 23468,
+    "gender_place": "43",
+    "graded_time_seconds": 23468.0,
+    "graded_time": "06:31:08",
+    "unique_key": [
+      "Evelin Brizolla",
+      "06:31:08"
+    ],
+    "graded_place": 51,
+    "ag_place": 5
+  },
+  {
+    "bib": "446",
+    "name": "Laura Greco",
+    "age_group": "F35-39",
+    "finish_time": "06:51:23",
+    "finish_time_seconds": 24683,
+    "gender_place": "48",
+    "graded_time_seconds": 23838.8414,
+    "graded_time": "06:37:18",
+    "unique_key": [
+      "Laura Greco",
+      "06:51:23"
+    ],
+    "graded_place": 52,
+    "ag_place": 13
+  },
+  {
+    "bib": "360",
+    "name": "Jannina Andrea Rojas Cuevas",
+    "age_group": "F30-34",
+    "finish_time": "06:49:26",
+    "finish_time_seconds": 24566,
+    "gender_place": "47",
+    "graded_time_seconds": 24143.4648,
+    "graded_time": "06:42:23",
+    "unique_key": [
+      "Jannina Andrea Rojas Cuevas",
+      "06:49:26"
+    ],
+    "graded_place": 53,
+    "ag_place": 10
+  },
+  {
+    "bib": "218",
+    "name": "Tania Sofia Guerrero Apodaca",
+    "age_group": "F30-34",
+    "finish_time": "06:51:48",
+    "finish_time_seconds": 24708,
+    "gender_place": "49",
+    "graded_time_seconds": 24283.0224,
+    "graded_time": "06:44:43",
+    "unique_key": [
+      "Tania Sofia Guerrero Apodaca",
+      "06:51:48"
+    ],
+    "graded_place": 54,
+    "ag_place": 11
+  },
+  {
+    "bib": "258",
+    "name": "Analia Caballero",
+    "age_group": "F45-49",
+    "finish_time": "07:23:48",
+    "finish_time_seconds": 26628,
+    "gender_place": "57",
+    "graded_time_seconds": 24476.4576,
+    "graded_time": "06:47:56",
+    "unique_key": [
+      "Analia Caballero",
+      "07:23:48"
+    ],
+    "graded_place": 55,
+    "ag_place": 11
+  },
+  {
+    "bib": "219",
+    "name": "Valeria Lezcano",
+    "age_group": "F30-34",
+    "finish_time": "07:00:10",
+    "finish_time_seconds": 25210,
+    "gender_place": "51",
+    "graded_time_seconds": 24776.388,
+    "graded_time": "06:52:56",
+    "unique_key": [
+      "Valeria Lezcano",
+      "07:00:10"
+    ],
+    "graded_place": 56,
+    "ag_place": 12
+  },
+  {
+    "bib": "437",
+    "name": "Micaela Garrido",
+    "age_group": "F35-39",
+    "finish_time": "07:19:53",
+    "finish_time_seconds": 26393,
+    "gender_place": "56",
+    "graded_time_seconds": 25490.3594,
+    "graded_time": "07:04:50",
+    "unique_key": [
+      "Micaela Garrido",
+      "07:19:53"
+    ],
+    "graded_place": 57,
+    "ag_place": 14
+  },
+  {
+    "bib": "214",
+    "name": "Fiorella Ochipinti Caceres",
+    "age_group": "F25-29",
+    "finish_time": "07:06:25",
+    "finish_time_seconds": 25585,
+    "gender_place": "53",
+    "graded_time_seconds": 25585.0,
+    "graded_time": "07:06:25",
+    "unique_key": [
+      "Fiorella Ochipinti Caceres",
+      "07:06:25"
+    ],
+    "graded_place": 58,
+    "ag_place": 6
+  },
+  {
+    "bib": "300",
+    "name": "Melissa Raquel Galeano Amarilla",
+    "age_group": "F30-34",
+    "finish_time": "07:18:20",
+    "finish_time_seconds": 26300,
+    "gender_place": "55",
+    "graded_time_seconds": 25847.64,
+    "graded_time": "07:10:47",
+    "unique_key": [
+      "Melissa Raquel Galeano Amarilla",
+      "07:18:20"
+    ],
+    "graded_place": 59,
+    "ag_place": 13
+  }
+]

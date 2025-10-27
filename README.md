@@ -30,6 +30,37 @@ You can use the app right now at: [https://www.canikona.app/](https://www.caniko
    ```
 4. Open your browser and go to [http://localhost:5000](http://localhost:5000)
 
+## 🤝 Contributing
+
+- Anyone can file issues for bug reports or enhancement requests.
+- I am very open to taking pull requests from anyone who wants to contribute—just fork the repo, make your changes, and submit a PR!
+
+## 🧠 Caching of live RTRT.me results
+
+To reduce load on RTRT.me and speed up page loads, live results are cached on disk under `data/`:
+
+- 140.6 races:
+   - `data/140.6/in_progress/<RACE_KEY>.json`
+   - `data/140.6/final/<RACE_KEY>.json`
+- 70.3 races:
+   - `data/70.3/men/in_progress/<RACE_KEY>.json`
+   - `data/70.3/men/final/<RACE_KEY>.json`
+   - `data/70.3/women/in_progress/<RACE_KEY>.json`
+   - `data/70.3/women/final/<RACE_KEY>.json`
+
+Behavior:
+- If a race has `official_ag` configured and a `final` cache exists, live requests are served from the `final` cache without hitting the API.
+- If `official_ag` is configured but `final` is missing, the app will fetch once from RTRT.me, process results, store to `final`, and serve that.
+- If no `official_ag` or no `final` is present, the app uses `in_progress` if it exists and is “fresh.” Otherwise, it fetches, processes, writes to `in_progress`, and serves.
+
+Freshness window for `in_progress` is configurable via environment variable (default 60 seconds):
+
+```bash
+export CACHE_FRESHNESS_SECONDS=60
+```
+
+Implementation lives in `parse_live_data.get_processed_results_cached` and `cache_utils.py`.
+
 ## 📐 Versioned Age-Graded (AG) adjustments
 
 AG factors are now versioned with effective dates so historic races always use the same set they were originally processed with.
@@ -55,12 +86,6 @@ scripts/manage_ag_versions.py write-assignments  # pre-lock all races
 
 Notes:
 - If you add a new set from Ironman, add a new entry in `manifest.json` with its `effective_from` and point `file` to the new factors JSON.
-
-
-## 🤝 Contributing
-
-- Anyone can file issues for bug reports or enhancement requests.
-- I am very open to taking pull requests from anyone who wants to contribute—just fork the repo, make your changes, and submit a PR!
 
 ## 🧩 Git hooks: JSON Unicode validation
 

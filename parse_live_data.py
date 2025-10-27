@@ -4,6 +4,7 @@ import requests
 import json
 import math
 from flask import current_app
+import cache_utils as cache
 
 # The common parameters for the RTRT.me live API
 RTRT_LIVE_PARAMS = {
@@ -183,3 +184,57 @@ def get_processed_results(race, gender, ag_adjustments):
         return {"error": "No live data found for the selected race."}
 
     return process_live_results(all_data_list, ag_adjustments)
+
+
+def get_processed_results_cached(race, gender, ag_adjustments):
+    """
+    Fetch and process results with caching semantics:
+    - If official_ag exists and final cache is missing: fetch, process, store in final, return.
+    - If final cache exists: return it without hitting network.
+    - Else (no official_ag or no final):
+        * If in_progress cache exists and is fresh: return it.
+        * Otherwise: fetch, process, store to in_progress, return.
+    Freshness window configurable via app config 'CACHE_FRESHNESS_SECONDS' (default 60).
+    """
+    freshness = int(current_app.config.get('CACHE_FRESHNESS_SECONDS', 60))
+
+    distance = race.get('distance')
+    # Normalize gender for 70.3; ignored for 140.6
+    effective_gender = None
+    if distance == '70.3':
+        effective_gender = gender or 'men'
+
+    has_official = cache.has_official_ag(race)
+
+    # Determine cache paths
+    final_path = cache.get_cache_file_path(race, 'final', effective_gender)
+    inprog_path = cache.get_cache_file_path(race, 'in_progress', effective_gender)
+
+    # If official AG and we already have a final cache, use it
+    if has_official:
+        data = cache.read_json_if_exists(final_path)
+        if data is not None:
+            current_app.logger.debug(f"Serving results from FINAL cache: {final_path}")
+            return data
+
+        # No final cache yet; fetch and persist to final
+        current_app.logger.info(f"FINAL cache missing, fetching live to build FINAL for {race.get('key')}")
+        data = get_processed_results(race, effective_gender, ag_adjustments)
+        if isinstance(data, dict) and 'error' in data:
+            return data
+        cache.write_json(final_path, data)
+        return data
+
+    # No official AG or no final path desired; try in-progress cache first
+    if cache.is_fresh(inprog_path, freshness):
+        data = cache.read_json_if_exists(inprog_path)
+        if data is not None:
+            current_app.logger.debug(f"Serving results from IN_PROGRESS cache: {inprog_path}")
+            return data
+
+    # Not fresh or not present; fetch and update in_progress
+    current_app.logger.debug(f"Fetching live results for {race.get('key')} (updating IN_PROGRESS cache)")
+    data = get_processed_results(race, effective_gender, ag_adjustments)
+    if not (isinstance(data, dict) and 'error' in data):
+        cache.write_json(inprog_path, data)
+    return data
