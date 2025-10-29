@@ -19,6 +19,7 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 parent_dir = os.path.dirname(script_dir)
 races_file = os.path.join(parent_dir, "races.json")
 backup_dir = os.path.join(parent_dir, "backup")
+default_log_file = os.path.join(parent_dir, "data", "updates.log")
 
 # API configuration
 CONF_URL = "https://api.rtrt.me/events/{}/conf"
@@ -26,6 +27,44 @@ CONF_PARAMS = {
     "appid": "5824c5c948fd08c23a8b4567",
     "token": "BB10EFF44090934C0EDC"
 }
+
+# --- Simple append-only logging helpers ---
+def _now_ts() -> str:
+    """Return current timestamp as 'YYYY-MM-DD hh:mm:ss'."""
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def append_log_line(log_file: str, message: str) -> None:
+    """Append a single timestamped line to the log file.
+
+    Ensures the parent directory exists; never raises.
+    """
+    try:
+        os.makedirs(os.path.dirname(log_file), exist_ok=True)
+        with open(log_file, "a", encoding="utf-8") as lf:
+            lf.write(f"[{_now_ts()}] {message}\n")
+    except Exception:
+        # Swallow logging errors to avoid impacting the main flow
+        pass
+
+
+def get_log_file_from_argv() -> str:
+    """Best-effort extraction of --log-file from argv, else default.
+
+    Relative paths are resolved against the repository root (parent_dir).
+    """
+    try:
+        argv = sys.argv[1:]
+        for i, tok in enumerate(argv):
+            if tok == "--log-file" and i + 1 < len(argv):
+                val = argv[i + 1]
+                return val if os.path.isabs(val) else os.path.join(parent_dir, val)
+            if tok.startswith("--log-file="):
+                val = tok.split("=", 1)[1]
+                return val if os.path.isabs(val) else os.path.join(parent_dir, val)
+    except Exception:
+        pass
+    return default_log_file
 
 def is_valid_date_string(date_str: str) -> bool:
     """Return True if date_str is a non-empty YYYY-MM-DD date string."""
@@ -349,6 +388,12 @@ def parse_args():
             "and '140.6', '1406', 'full' for 140.6 races."
         ),
     )
+    parser.add_argument(
+        "--log-file",
+        dest="log_file",
+        default=default_log_file,
+        help="Path to a log file for update entries (default: data/updates.log)",
+    )
     return parser.parse_args()
 
 
@@ -397,6 +442,9 @@ def normalize_distance_filter(dist: str | None) -> str | None:
 
 def main():
     args = parse_args()
+    # Normalize log file path relative to repo root when given as relative
+    if not os.path.isabs(args.log_file):
+        args.log_file = os.path.join(parent_dir, args.log_file)
     # Normalize optional distance filter early
     try:
         distance_filter = normalize_distance_filter(args.distance)
@@ -486,6 +534,8 @@ def main():
             print(f"  - {race.get('name')} ({race.get('date')})")
 
     changes_made = False
+    # Collect human-readable log lines for updates; written only after a successful save
+    log_lines: list[str] = []
 
     # Process each upcoming race
     for race in upcoming_races:
@@ -626,6 +676,20 @@ def main():
             if earliest_changed and new_earliest:
                 race['earliestStartTime'] = new_earliest
 
+            # Queue log lines for each type of update made for this race
+            # Use race_key (or name fallback as used for ID earlier) for logging
+            race_key_for_log = race.get('key', race['name'])
+            if categories_changed:
+                log_lines.append(f"Updated categories for {race_key_for_log}")
+            if split_changed:
+                log_lines.append(f"Updated finish split for {race_key_for_log}")
+            if date_changed:
+                log_lines.append(f"Updated date for {race_key_for_log}")
+            if earliest_changed:
+                log_lines.append(f"Updated earliest start time for {race_key_for_log}")
+            if official_ag_changed:
+                log_lines.append(f"Updated official results for {race_key_for_log}")
+
         # Small delay to be nice to the API
         time.sleep(0.5)
 
@@ -642,8 +706,25 @@ def main():
                 json.dump(races_data, f, indent=4, ensure_ascii=False)
 
             print("Update complete!")
+            # After a successful write, append queued log lines to the log file
+            for line in log_lines:
+                append_log_line(args.log_file, line)
     else:
         print("\nNo changes detected, no backup or update needed.")
 
 if __name__ == "__main__":
-    main()
+    # Ensure we log failures, using provided --log-file if present
+    _log_path = get_log_file_from_argv()
+    try:
+        main()
+    except SystemExit as _e:
+        try:
+            code = _e.code if isinstance(_e.code, int) else 1
+        except Exception:
+            code = 1
+        if code != 0:
+            append_log_line(_log_path, "Run failed due to error")
+        raise
+    except Exception:
+        append_log_line(_log_path, "Run failed due to error")
+        raise
