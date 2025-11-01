@@ -59,8 +59,7 @@
     </div>
 
     <script>
-        const racesData = {{ races | tojson }};
-        const debugMode = {{ debug_mode | tojson }};
+    const racesData = {{ races | tojson }};
 
         function setupTooltip(tooltipContainer) {
             const icon = tooltipContainer.querySelector('.tooltip-icon');
@@ -286,7 +285,9 @@
                         messageArea.innerText = 'Coming Soon!';
                     }
                 } else if (source === 'live') {
-                    let liveUrl = `/live_results/${urlFriendlyName}/${gender}`;
+                    let liveUrl = is703
+                        ? `/live_results/${urlFriendlyName}/${gender}`
+                        : `/live_results/${urlFriendlyName}`;
                     iframe.onload = hideLoading;
                     iframe.src = liveUrl;
                     iframe.style.display = 'block';
@@ -303,46 +304,61 @@
             let isInitialLoad = true;
 
             function onRaceChange() {
-                let selectedRaceName;
-                if (isInitialLoad) {
-                    selectedRaceName = '{{ selected_race }}' || raceSelect.value;
-                } else {
-                    selectedRaceName = raceSelect.value;
-                }
+                // Determine current race
+                const selectedRaceName = isInitialLoad ? ('{{ selected_race }}' || raceSelect.value) : raceSelect.value;
                 const race = findRaceData(selectedRaceName);
-                const hasOfficialAg = race.results_urls && 'official_ag' in race.results_urls &&
-                    (race.distance === '70.3' ? race.results_urls.official_ag.men !== "" : race.results_urls.official_ag !== "");
 
-                // Get the radio buttons
+                // Helpers to query radios and availability
                 const officialAgRadio = document.querySelector('input[name="data_source"][value="official_ag"]');
                 const liveRadio = document.querySelector('input[name="data_source"][value="live"]');
 
-                // Disable/enable official_ag radio based on URL availability
+                function officialAvailable(r) {
+                    if (!r || !r.results_urls || !('official_ag' in r.results_urls)) return false;
+                    if (r.distance === '70.3') {
+                        const men = r.results_urls.official_ag?.men ?? '';
+                        const women = r.results_urls.official_ag?.women ?? '';
+                        return Boolean((men && men.trim()) || (women && women.trim()));
+                    }
+                    const url = r.results_urls.official_ag;
+                    return typeof url === 'string' && Boolean(url.trim());
+                }
+
+                const hasOfficialAg = officialAvailable(race);
+
+                // Enable/disable only the Official radio based on availability
                 officialAgRadio.disabled = !hasOfficialAg;
                 officialAgRadio.parentElement.classList.toggle('disabled-controls', !hasOfficialAg);
 
-                // Disable live radio if official results are available and not in debug mode
-                const shouldDisableLive = hasOfficialAg && !debugMode;
-                liveRadio.disabled = shouldDisableLive;
-                liveRadio.parentElement.classList.toggle('disabled-controls', shouldDisableLive);
+                // Live should always be available
+                liveRadio.disabled = false;
+                liveRadio.parentElement.classList.remove('disabled-controls');
 
-                // If live is disabled and selected, switch to official results
-                if (shouldDisableLive && liveRadio.checked) {
-                    officialAgRadio.checked = true;
-                }
+                // Selection policy
+                // 1) On initial load: honor server-provided selected_source if available; else fall back smartly
+                // 2) On subsequent race changes: preserve user's current selection if it's still valid; otherwise fall back
+                const serverSelected = '{{ selected_source }}';
+                const currentChecked = document.querySelector('input[name="data_source"]:checked')?.value;
 
-                // Select appropriate radio button based on context
-                let selectedSource;
-                if (isInitialLoad) {
-                    // On initial load, use the server-provided value
-                    selectedSource = '{{ selected_source }}' || (hasOfficialAg ? 'official_ag' : 'live');
-                    isInitialLoad = false;  // Reset flag after initial load
+                let nextSource = currentChecked || 'live';
+                if (isInitialLoad && serverSelected) {
+                    // Use server value only if it's valid for this race
+                    if (serverSelected === 'official_ag' && hasOfficialAg) {
+                        nextSource = 'official_ag';
+                    } else {
+                        nextSource = 'live';
+                    }
                 } else {
-                    // On subsequent changes, prefer official_ag if available
-                    selectedSource = hasOfficialAg ? 'official_ag' : 'live';
+                    // If current selection is official but it's not available for this race, fall back to live
+                    if (currentChecked === 'official_ag' && !hasOfficialAg) {
+                        nextSource = 'live';
+                    }
                 }
-                document.querySelector(`input[name="data_source"][value="${selectedSource}"]`).checked = true;
 
+                // Apply selection
+                document.querySelector(`input[name="data_source"][value="${nextSource}"]`).checked = true;
+                isInitialLoad = false;
+
+                // For 70.3 ensure a gender is picked (default to men)
                 if (race.distance === '70.3') {
                     document.querySelector('input[name="gender"][value="men"]').checked = true;
                 }

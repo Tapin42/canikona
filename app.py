@@ -227,8 +227,7 @@ def home():
         return render_template('index.html',
                              page_title='Long-Course Age Graded Results',
                              races=[],
-                             selected_race='',
-                             debug_mode=app.debug)
+                             selected_race='')
 
 @app.route('/about')
 def about():
@@ -282,7 +281,7 @@ def redirect_to_results(race_name):
     if not race:
         abort(404)
 
-    # Check if official_ag results are available
+    # Determine availability of official_ag results
     has_official_ag = False
     if 'results_urls' in race and 'official_ag' in race['results_urls']:
         if race['distance'] == '70.3':
@@ -290,7 +289,24 @@ def redirect_to_results(race_name):
         else:  # 140.6
             has_official_ag = bool(race['results_urls']['official_ag'])
 
-    # Determine redirect URL based on race distance and availability of official_ag
+    # Default to Live within initial post-start windows:
+    # - 140.6: first 16 hours after earliestStartTime
+    # - 70.3: first 8 hours after earliestStartTime
+    earliest_start = int(race.get('earliestStartTime', 0) or 0)
+    now_ts = int(datetime.now().timestamp())
+    within_window = False
+    if earliest_start > 0 and now_ts >= earliest_start:
+        window_hours = 16 if race['distance'] == '140.6' else 8
+        within_window = now_ts < (earliest_start + window_hours * 3600)
+
+    # Decide data_source with new default rules
+    if within_window:
+        if race['distance'] == '140.6':
+            return redirect(url_for('display_results', race_name=race_name, data_source='live'))
+        else:  # 70.3
+            return redirect(url_for('display_results', race_name=race_name, data_source='live', gender='men'))
+
+    # Outside the window: prefer official if available, else live
     if race['distance'] == '140.6':
         return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live'))
     else:  # 70.3
@@ -316,8 +332,6 @@ def display_results(race_name, data_source, gender=None):
                 iframe_url = race['results_urls']['official_ag']
             coming_soon = iframe_url != ""
 
-    debug_mode = app.debug
-
     return render_template(
         'index.html',
         page_title='Long-Course Age Graded Results',
@@ -326,8 +340,7 @@ def display_results(race_name, data_source, gender=None):
         selected_source=data_source,
         selected_gender=gender,
         iframe_url=iframe_url,
-        coming_soon=coming_soon,
-        debug_mode=debug_mode
+        coming_soon=coming_soon
     )
 
 def get_race_status_message(race):
