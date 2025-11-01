@@ -289,15 +289,23 @@ def redirect_to_results(race_name):
         else:  # 140.6
             has_official_ag = bool(race['results_urls']['official_ag'])
 
-    # Default to Live within initial post-start windows:
-    # - 140.6: first 16 hours after earliestStartTime
-    # - 70.3: first 8 hours after earliestStartTime
+    # Default to Live for future races and within initial post-start windows:
+    # - Future (before earliestStartTime): Live
+    # - 140.6: first 16 hours after earliestStartTime: Live
+    # - 70.3: first 8 hours after earliestStartTime: Live
     earliest_start = int(race.get('earliestStartTime', 0) or 0)
     now_ts = int(datetime.now().timestamp())
     within_window = False
-    if earliest_start > 0 and now_ts >= earliest_start:
-        window_hours = 16 if race['distance'] == '140.6' else 8
-        within_window = now_ts < (earliest_start + window_hours * 3600)
+    if earliest_start > 0:
+        if now_ts < earliest_start:
+            # Race hasn't started yet; default to Live
+            if race['distance'] == '140.6':
+                return redirect(url_for('display_results', race_name=race_name, data_source='live'))
+            else:  # 70.3
+                return redirect(url_for('display_results', race_name=race_name, data_source='live', gender='men'))
+        else:
+            window_hours = 16 if race['distance'] == '140.6' else 8
+            within_window = now_ts < (earliest_start + window_hours * 3600)
 
     # Decide data_source with new default rules
     if within_window:
