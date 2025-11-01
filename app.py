@@ -9,6 +9,7 @@ import adjustments
 
 app = Flask(__name__)
 app.config['CACHE_FRESHNESS_SECONDS'] = int(os.getenv('CACHE_FRESHNESS_SECONDS', '60'))
+app.config['FINAL_CACHE_DELAY_HOURS'] = int(os.getenv('FINAL_CACHE_DELAY_HOURS', '24'))
 
 def full_path(relative_path):
     return os.path.join(os.path.dirname(__file__), relative_path)

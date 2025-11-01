@@ -1,5 +1,5 @@
 import re
-from datetime import timedelta
+from datetime import datetime, timedelta
 import requests
 import json
 import math
@@ -188,13 +188,15 @@ def get_processed_results(race, gender, ag_adjustments):
 
 def get_processed_results_cached(race, gender, ag_adjustments):
     """
-    Fetch and process results with caching semantics:
-    - If official_ag exists and final cache is missing: fetch, process, store in final, return.
-    - If final cache exists: return it without hitting network.
-    - Else (no official_ag or no final):
-        * If in_progress cache exists and is fresh: return it.
-        * Otherwise: fetch, process, store to in_progress, return.
-    Freshness window configurable via app config 'CACHE_FRESHNESS_SECONDS' (default 60).
+    Fetch and process results with caching semantics based on race time:
+    - Before 24 hours after earliestStartTime: use IN_PROGRESS cache only
+        * If in_progress cache is fresh: return it
+        * Otherwise: fetch, process, store to in_progress, return
+    - At or after configured delay (FINAL_CACHE_DELAY_HOURS, default 24h) post earliestStartTime: use FINAL cache
+        * If final cache exists: return it
+        * Otherwise: fetch, process, store to final, return
+
+    Freshness window for in_progress is configurable via app config 'CACHE_FRESHNESS_SECONDS' (default 60).
     """
     freshness = int(current_app.config.get('CACHE_FRESHNESS_SECONDS', 60))
 
@@ -204,35 +206,39 @@ def get_processed_results_cached(race, gender, ag_adjustments):
     if distance == '70.3':
         effective_gender = gender or 'men'
 
-    has_official = cache.has_official_ag(race)
-
     # Determine cache paths
     final_path = cache.get_cache_file_path(race, 'final', effective_gender)
     inprog_path = cache.get_cache_file_path(race, 'in_progress', effective_gender)
 
-    # If official AG and we already have a final cache, use it
-    if has_official:
+    # Determine if FINAL cache should be used based on time since race start
+    earliest_start = int(race.get('earliestStartTime', 0) or 0)
+    now_ts = int(datetime.now().timestamp())
+    delay_hours = int(current_app.config.get('FINAL_CACHE_DELAY_HOURS', 24))
+    final_ready = earliest_start > 0 and now_ts >= (earliest_start + delay_hours * 3600)
+
+    if final_ready:
+        # Prefer existing FINAL cache
         data = cache.read_json_if_exists(final_path)
         if data is not None:
             current_app.logger.debug(f"Serving results from FINAL cache: {final_path}")
             return data
 
-        # No final cache yet; fetch and persist to final
-        current_app.logger.info(f"FINAL cache missing, fetching live to build FINAL for {race.get('key')}")
+        # Build FINAL cache from live
+        current_app.logger.info(f"FINAL window reached; fetching live to build FINAL for {race.get('key')}")
         data = get_processed_results(race, effective_gender, ag_adjustments)
         if isinstance(data, dict) and 'error' in data:
             return data
         cache.write_json(final_path, data)
         return data
 
-    # No official AG or no final path desired; try in-progress cache first
+    # Pre-final window: try IN_PROGRESS cache first
     if cache.is_fresh(inprog_path, freshness):
         data = cache.read_json_if_exists(inprog_path)
         if data is not None:
             current_app.logger.debug(f"Serving results from IN_PROGRESS cache: {inprog_path}")
             return data
 
-    # Not fresh or not present; fetch and update in_progress
+    # Not fresh or not present; fetch and update IN_PROGRESS
     current_app.logger.debug(f"Fetching live results for {race.get('key')} (updating IN_PROGRESS cache)")
     data = get_processed_results(race, effective_gender, ag_adjustments)
     if not (isinstance(data, dict) and 'error' in data):
