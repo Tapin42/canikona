@@ -7,5 +7,5 @@ backup/
 *.pyc
 *.pyo
 *.pyd
-.DS_Store
+**/.DS_Store
 data/updates.log
