@@ -165,18 +165,40 @@
         }
 
         document.addEventListener('DOMContentLoaded', function() {
-            renderLiveResultsTable(liveResultsData);
             const agToggle = document.getElementById('toggle-ag-winners');
             const poolToggle = document.getElementById('toggle-pool-qualifiers');
+
+            // Restore persisted toggle states (defaulting to unchecked/false)
+            try {
+                const storedShowWinners = localStorage.getItem('canikona:liveResults:showWinners');
+                const storedShowPool = localStorage.getItem('canikona:liveResults:showPool');
+                showWinners = storedShowWinners === '1' || storedShowWinners === 'true';
+                showPool = storedShowPool === '1' || storedShowPool === 'true';
+            } catch (e) {
+                // If localStorage is unavailable (e.g., privacy mode), fall back to defaults
+                showWinners = false;
+                showPool = false;
+            }
+
+            // Sync checkbox UI with restored state
+            if (agToggle) agToggle.checked = !!showWinners;
+            if (poolToggle) poolToggle.checked = !!showPool;
+
+            // Initial render with correct highlight state
+            renderLiveResultsTable(liveResultsData);
+
+            // Persist changes on toggle
             if (agToggle) {
                 agToggle.addEventListener('change', (e) => {
                     showWinners = !!e.target.checked;
+                    try { localStorage.setItem('canikona:liveResults:showWinners', showWinners ? '1' : '0'); } catch (_) {}
                     renderLiveResultsTable(liveResultsData);
                 });
             }
             if (poolToggle) {
                 poolToggle.addEventListener('change', (e) => {
                     showPool = !!e.target.checked;
+                    try { localStorage.setItem('canikona:liveResults:showPool', showPool ? '1' : '0'); } catch (_) {}
                     renderLiveResultsTable(liveResultsData);
                 });
             }
