@@ -634,7 +634,7 @@
                 "men_cat": "top-age-group-men-division-ironman-route_b:_ALL",
                 "women_cat": "top-age-group-women-division-ironman-route_b:_ALL"
             },
-            "official_ag": ""
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Florida_Ironman.html"
         },
         "earliestStartTime": "1761997200",
         "key": "IRM-FLORIDA-2025"
@@ -649,7 +649,7 @@
                 "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
-            "official_ag": ""
+            "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Malaysia_IRONMAN.html"
         },
         "earliestStartTime": "1761951600",
         "key": "IRM-MALAYSIA-2025"
@@ -668,8 +668,8 @@
                 "women_cat": "top-age-group-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Langkawi_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Langkawi_70.3_Women.html"
             }
         },
         "earliestStartTime": "1761951600",
@@ -690,8 +690,8 @@
                 "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Buenos%20Aires_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Buenos%20Aires_70.3_Women.html"
             }
         },
         "key": "IRM-BUENOSAIRES703-2025",
@@ -707,12 +707,12 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Kenting_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Kenting_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762034400",
@@ -728,12 +728,12 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "age-group-men-division-ironman-tri_sprint",
-                "women_cat": "age-group-women-divison-ironman-tri_ironman"
+                "men_cat": "age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Turkey_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Turkey_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762059600",
@@ -750,8 +750,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": {
                 "men": "",
@@ -771,8 +771,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-ironman-703-ironman703",
+                "women_cat": "top-age-group-women-ironman-703-ironman703"
             },
             "official_ag": {
                 "men": "",
@@ -792,16 +792,17 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
             },
             "official_ag": {
                 "men": "",
                 "women": ""
             }
         },
-        "earliestStartTime": "1764508800",
-        "key": "IRM-ACAPULCO703-2025"
+        "earliestStartTime": "1762694400",
+        "key": "IRM-ACAPULCO703-2025",
+        "split": "FINISH-703"
     },
     {
         "date": "2025-11-16",
