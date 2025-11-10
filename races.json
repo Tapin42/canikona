@@ -705,6 +705,9 @@
             "men": 25,
             "women": 25
         },
+        "known_rolldown": {
+            "men": 54
+        },
         "results_urls": {
             "live": {
                 "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
@@ -750,12 +753,12 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Goa_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Goa_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762651800",
@@ -771,16 +774,17 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Melbourne_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Melbourne_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762628400",
-        "key": "IRM-MELBOURNE703-2025"
+        "key": "IRM-MELBOURNE703-2025",
+        "split": "FINISH-I"
     },
     {
         "date": "2025-11-09",
@@ -792,15 +796,15 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Acapulco_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Acapulco_70.3_Women.html"
             }
         },
-        "earliestStartTime": "1762694400",
+        "earliestStartTime": "1762692300",
         "key": "IRM-ACAPULCO703-2025",
         "split": "FINISH-703"
     },
@@ -829,8 +833,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-5150-ironman5150:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -850,8 +854,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": {
                 "men": "",
@@ -859,7 +863,8 @@
             }
         },
         "earliestStartTime": "1763266500",
-        "key": "IRM-MOSSELBAY703-2025"
+        "key": "IRM-MOSSELBAY703-2025",
+        "split": "RUN"
     },
     {
         "date": "2025-11-23",

@@ -1,0 +1,6226 @@
+[
+  {
+    "bib": "124",
+    "name": "Claudio Fabbri",
+    "age_group": "M50-54",
+    "finish_time": "04:45:58",
+    "finish_time_seconds": 17158,
+    "gender_place": "11",
+    "graded_time_seconds": 15155.661399999999,
+    "graded_time": "04:12:35",
+    "unique_key": [
+      "Claudio Fabbri",
+      "04:45:58"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "118",
+    "name": "Shahrom Abdullah",
+    "age_group": "M45-49",
+    "finish_time": "04:42:30",
+    "finish_time_seconds": 16950,
+    "gender_place": "7",
+    "graded_time_seconds": 15217.710000000001,
+    "graded_time": "04:13:37",
+    "unique_key": [
+      "Shahrom Abdullah",
+      "04:42:30"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "535",
+    "name": "Rorie Masson",
+    "age_group": "M50-54",
+    "finish_time": "04:47:54",
+    "finish_time_seconds": 17274,
+    "gender_place": "15",
+    "graded_time_seconds": 15258.1242,
+    "graded_time": "04:14:18",
+    "unique_key": [
+      "Rorie Masson",
+      "04:47:54"
+    ],
+    "graded_place": 3,
+    "ag_place": 2
+  },
+  {
+    "bib": "108",
+    "name": "Jed Radbone",
+    "age_group": "M25-29",
+    "finish_time": "04:16:29",
+    "finish_time_seconds": 15389,
+    "gender_place": "2",
+    "graded_time_seconds": 15279.7381,
+    "graded_time": "04:14:39",
+    "unique_key": [
+      "Jed Radbone",
+      "04:16:29"
+    ],
+    "graded_place": 4,
+    "ag_place": 1
+  },
+  {
+    "bib": "101",
+    "name": "Kenshin Mizushima",
+    "age_group": "M18-24",
+    "finish_time": "04:15:44",
+    "finish_time_seconds": 15344,
+    "gender_place": "1",
+    "graded_time_seconds": 15344.0,
+    "graded_time": "04:15:44",
+    "unique_key": [
+      "Kenshin Mizushima",
+      "04:15:44"
+    ],
+    "graded_place": 5,
+    "ag_place": 1
+  },
+  {
+    "bib": "119",
+    "name": "Ivan Buzanov",
+    "age_group": "M45-49",
+    "finish_time": "04:46:02",
+    "finish_time_seconds": 17162,
+    "gender_place": "12",
+    "graded_time_seconds": 15408.0436,
+    "graded_time": "04:16:48",
+    "unique_key": [
+      "Ivan Buzanov",
+      "04:46:02"
+    ],
+    "graded_place": 6,
+    "ag_place": 2
+  },
+  {
+    "bib": "343",
+    "name": "Marcello Candiloro",
+    "age_group": "M35-39",
+    "finish_time": "04:32:02",
+    "finish_time_seconds": 16322,
+    "gender_place": "4",
+    "graded_time_seconds": 15505.9,
+    "graded_time": "04:18:25",
+    "unique_key": [
+      "Marcello Candiloro",
+      "04:32:02"
+    ],
+    "graded_place": 7,
+    "ag_place": 1
+  },
+  {
+    "bib": "293",
+    "name": "Ulli Birner",
+    "age_group": "M35-39",
+    "finish_time": "04:35:00",
+    "finish_time_seconds": 16500,
+    "gender_place": "5",
+    "graded_time_seconds": 15675.0,
+    "graded_time": "04:21:15",
+    "unique_key": [
+      "Ulli Birner",
+      "04:35:00"
+    ],
+    "graded_place": 8,
+    "ag_place": 2
+  },
+  {
+    "bib": "541",
+    "name": "Havas Peter",
+    "age_group": "M50-54",
+    "finish_time": "04:57:17",
+    "finish_time_seconds": 17837,
+    "gender_place": "22",
+    "graded_time_seconds": 15755.4221,
+    "graded_time": "04:22:35",
+    "unique_key": [
+      "Havas Peter",
+      "04:57:17"
+    ],
+    "graded_place": 9,
+    "ag_place": 3
+  },
+  {
+    "bib": "687",
+    "name": "Martin Malleier",
+    "age_group": "M55-59",
+    "finish_time": "05:10:12",
+    "finish_time_seconds": 18612,
+    "gender_place": "30",
+    "graded_time_seconds": 15941.178,
+    "graded_time": "04:25:41",
+    "unique_key": [
+      "Martin Malleier",
+      "05:10:12"
+    ],
+    "graded_place": 10,
+    "ag_place": 1
+  },
+  {
+    "bib": "484",
+    "name": "Hoon Choi",
+    "age_group": "M45-49",
+    "finish_time": "04:57:41",
+    "finish_time_seconds": 17861,
+    "gender_place": "23",
+    "graded_time_seconds": 16035.605800000001,
+    "graded_time": "04:27:15",
+    "unique_key": [
+      "Hoon Choi",
+      "04:57:41"
+    ],
+    "graded_place": 11,
+    "ag_place": 3
+  },
+  {
+    "bib": "103",
+    "name": "Arjun Kandikuppa",
+    "age_group": "M35-39",
+    "finish_time": "04:43:27",
+    "finish_time_seconds": 17007,
+    "gender_place": "8",
+    "graded_time_seconds": 16156.65,
+    "graded_time": "04:29:16",
+    "unique_key": [
+      "Arjun Kandikuppa",
+      "04:43:27"
+    ],
+    "graded_place": 12,
+    "ag_place": 3
+  },
+  {
+    "bib": "127",
+    "name": "Laurie Corbel",
+    "age_group": "M25-29",
+    "finish_time": "04:31:31",
+    "finish_time_seconds": 16291,
+    "gender_place": "3",
+    "graded_time_seconds": 16175.3339,
+    "graded_time": "04:29:35",
+    "unique_key": [
+      "Laurie Corbel",
+      "04:31:31"
+    ],
+    "graded_place": 13,
+    "ag_place": 2
+  },
+  {
+    "bib": "667",
+    "name": "Massimo Rampado",
+    "age_group": "M40-44",
+    "finish_time": "04:51:05",
+    "finish_time_seconds": 17465,
+    "gender_place": "17",
+    "graded_time_seconds": 16176.083,
+    "graded_time": "04:29:36",
+    "unique_key": [
+      "Massimo Rampado",
+      "04:51:05"
+    ],
+    "graded_place": 14,
+    "ag_place": 1
+  },
+  {
+    "bib": "102",
+    "name": "Takayuki Sumida",
+    "age_group": "M35-39",
+    "finish_time": "04:44:27",
+    "finish_time_seconds": 17067,
+    "gender_place": "9",
+    "graded_time_seconds": 16213.65,
+    "graded_time": "04:30:13",
+    "unique_key": [
+      "Takayuki Sumida",
+      "04:44:27"
+    ],
+    "graded_place": 15,
+    "ag_place": 4
+  },
+  {
+    "bib": "131",
+    "name": "Antonius Ryan Saputra Ridwan",
+    "age_group": "M35-39",
+    "finish_time": "04:44:43",
+    "finish_time_seconds": 17083,
+    "gender_place": "10",
+    "graded_time_seconds": 16228.849999999999,
+    "graded_time": "04:30:28",
+    "unique_key": [
+      "Antonius Ryan Saputra Ridwan",
+      "04:44:43"
+    ],
+    "graded_place": 16,
+    "ag_place": 5
+  },
+  {
+    "bib": "106",
+    "name": "Saha Bhasavanich",
+    "age_group": "M50-54",
+    "finish_time": "05:06:45",
+    "finish_time_seconds": 18405,
+    "gender_place": "25",
+    "graded_time_seconds": 16257.136499999999,
+    "graded_time": "04:30:57",
+    "unique_key": [
+      "Saha Bhasavanich",
+      "05:06:45"
+    ],
+    "graded_place": 17,
+    "ag_place": 4
+  },
+  {
+    "bib": "564",
+    "name": "Luis Mirabal Socas",
+    "age_group": "M50-54",
+    "finish_time": "05:07:35",
+    "finish_time_seconds": 18455,
+    "gender_place": "26",
+    "graded_time_seconds": 16301.3015,
+    "graded_time": "04:31:41",
+    "unique_key": [
+      "Luis Mirabal Socas",
+      "05:07:35"
+    ],
+    "graded_place": 18,
+    "ag_place": 5
+  },
+  {
+    "bib": "104",
+    "name": "Eugene Oelofse",
+    "age_group": "M40-44",
+    "finish_time": "04:53:30",
+    "finish_time_seconds": 17610,
+    "gender_place": "19",
+    "graded_time_seconds": 16310.382,
+    "graded_time": "04:31:50",
+    "unique_key": [
+      "Eugene Oelofse",
+      "04:53:30"
+    ],
+    "graded_place": 19,
+    "ag_place": 2
+  },
+  {
+    "bib": "351",
+    "name": "Pisan Kayankit",
+    "age_group": "M35-39",
+    "finish_time": "04:46:49",
+    "finish_time_seconds": 17209,
+    "gender_place": "13",
+    "graded_time_seconds": 16348.55,
+    "graded_time": "04:32:28",
+    "unique_key": [
+      "Pisan Kayankit",
+      "04:46:49"
+    ],
+    "graded_place": 20,
+    "ag_place": 6
+  },
+  {
+    "bib": "112",
+    "name": "Afiq Syazwan Mohd Shahru",
+    "age_group": "M35-39",
+    "finish_time": "04:46:58",
+    "finish_time_seconds": 17218,
+    "gender_place": "14",
+    "graded_time_seconds": 16357.099999999999,
+    "graded_time": "04:32:37",
+    "unique_key": [
+      "Afiq Syazwan Mohd Shahru",
+      "04:46:58"
+    ],
+    "graded_place": 21,
+    "ag_place": 7
+  },
+  {
+    "bib": "669",
+    "name": "David Hughes",
+    "age_group": "M40-44",
+    "finish_time": "04:55:20",
+    "finish_time_seconds": 17720,
+    "gender_place": "21",
+    "graded_time_seconds": 16412.264,
+    "graded_time": "04:33:32",
+    "unique_key": [
+      "David Hughes",
+      "04:55:20"
+    ],
+    "graded_place": 22,
+    "ag_place": 3
+  },
+  {
+    "bib": "121",
+    "name": "Joe Taylor",
+    "age_group": "M50-54",
+    "finish_time": "05:09:58",
+    "finish_time_seconds": 18598,
+    "gender_place": "29",
+    "graded_time_seconds": 16427.6134,
+    "graded_time": "04:33:47",
+    "unique_key": [
+      "Joe Taylor",
+      "05:09:58"
+    ],
+    "graded_place": 23,
+    "ag_place": 6
+  },
+  {
+    "bib": "515",
+    "name": "Luca Vassallo",
+    "age_group": "M50-54",
+    "finish_time": "05:11:49",
+    "finish_time_seconds": 18709,
+    "gender_place": "35",
+    "graded_time_seconds": 16525.6597,
+    "graded_time": "04:35:25",
+    "unique_key": [
+      "Luca Vassallo",
+      "05:11:49"
+    ],
+    "graded_place": 24,
+    "ag_place": 7
+  },
+  {
+    "bib": "452",
+    "name": "Dominic Sanderson",
+    "age_group": "M45-49",
+    "finish_time": "05:07:41",
+    "finish_time_seconds": 18461,
+    "gender_place": "27",
+    "graded_time_seconds": 16574.2858,
+    "graded_time": "04:36:14",
+    "unique_key": [
+      "Dominic Sanderson",
+      "05:07:41"
+    ],
+    "graded_place": 25,
+    "ag_place": 4
+  },
+  {
+    "bib": "126",
+    "name": "Mark Lampard",
+    "age_group": "M55-59",
+    "finish_time": "05:24:18",
+    "finish_time_seconds": 19458,
+    "gender_place": "51",
+    "graded_time_seconds": 16665.777000000002,
+    "graded_time": "04:37:45",
+    "unique_key": [
+      "Mark Lampard",
+      "05:24:18"
+    ],
+    "graded_place": 26,
+    "ag_place": 2
+  },
+  {
+    "bib": "319",
+    "name": "Zongfei Xie",
+    "age_group": "M35-39",
+    "finish_time": "04:52:28",
+    "finish_time_seconds": 17548,
+    "gender_place": "18",
+    "graded_time_seconds": 16670.6,
+    "graded_time": "04:37:50",
+    "unique_key": [
+      "Zongfei Xie",
+      "04:52:28"
+    ],
+    "graded_place": 27,
+    "ag_place": 8
+  },
+  {
+    "bib": "603",
+    "name": "Raimonds Vasiljevs",
+    "age_group": "M60-64",
+    "finish_time": "05:40:46",
+    "finish_time_seconds": 20446,
+    "gender_place": "72",
+    "graded_time_seconds": 16749.3632,
+    "graded_time": "04:39:09",
+    "unique_key": [
+      "Raimonds Vasiljevs",
+      "05:40:46"
+    ],
+    "graded_place": 28,
+    "ag_place": 1
+  },
+  {
+    "bib": "638",
+    "name": "Kazuhiro Oishi",
+    "age_group": "M25-29",
+    "finish_time": "04:41:42",
+    "finish_time_seconds": 16902,
+    "gender_place": "6",
+    "graded_time_seconds": 16781.9958,
+    "graded_time": "04:39:41",
+    "unique_key": [
+      "Kazuhiro Oishi",
+      "04:41:42"
+    ],
+    "graded_place": 29,
+    "ag_place": 3
+  },
+  {
+    "bib": "129",
+    "name": "Auttapol Charungwut",
+    "age_group": "M30-34",
+    "finish_time": "04:50:36",
+    "finish_time_seconds": 17436,
+    "gender_place": "16",
+    "graded_time_seconds": 16834.458,
+    "graded_time": "04:40:34",
+    "unique_key": [
+      "Auttapol Charungwut",
+      "04:50:36"
+    ],
+    "graded_place": 30,
+    "ag_place": 1
+  },
+  {
+    "bib": "107",
+    "name": "Michael Klose",
+    "age_group": "M60-64",
+    "finish_time": "05:44:30",
+    "finish_time_seconds": 20670,
+    "gender_place": "77",
+    "graded_time_seconds": 16932.864,
+    "graded_time": "04:42:12",
+    "unique_key": [
+      "Michael Klose",
+      "05:44:30"
+    ],
+    "graded_place": 31,
+    "ag_place": 2
+  },
+  {
+    "bib": "462",
+    "name": "Luca Pucciani",
+    "age_group": "M45-49",
+    "finish_time": "05:15:18",
+    "finish_time_seconds": 18918,
+    "gender_place": "38",
+    "graded_time_seconds": 16984.580400000003,
+    "graded_time": "04:43:04",
+    "unique_key": [
+      "Luca Pucciani",
+      "05:15:18"
+    ],
+    "graded_place": 32,
+    "ag_place": 5
+  },
+  {
+    "bib": "125",
+    "name": "Sam Sakai",
+    "age_group": "M55-59",
+    "finish_time": "05:31:44",
+    "finish_time_seconds": 19904,
+    "gender_place": "57",
+    "graded_time_seconds": 17047.776,
+    "graded_time": "04:44:07",
+    "unique_key": [
+      "Sam Sakai",
+      "05:31:44"
+    ],
+    "graded_place": 33,
+    "ag_place": 3
+  },
+  {
+    "bib": "114",
+    "name": "Philipp Kloeber",
+    "age_group": "M40-44",
+    "finish_time": "05:10:40",
+    "finish_time_seconds": 18640,
+    "gender_place": "32",
+    "graded_time_seconds": 17264.368000000002,
+    "graded_time": "04:47:44",
+    "unique_key": [
+      "Philipp Kloeber",
+      "05:10:40"
+    ],
+    "graded_place": 34,
+    "ag_place": 4
+  },
+  {
+    "bib": "115",
+    "name": "Adam Wade",
+    "age_group": "M45-49",
+    "finish_time": "05:21:00",
+    "finish_time_seconds": 19260,
+    "gender_place": "47",
+    "graded_time_seconds": 17291.628,
+    "graded_time": "04:48:11",
+    "unique_key": [
+      "Adam Wade",
+      "05:21:00"
+    ],
+    "graded_place": 35,
+    "ag_place": 6
+  },
+  {
+    "bib": "584",
+    "name": "Yasushi Nakahara",
+    "age_group": "M55-59",
+    "finish_time": "05:38:20",
+    "finish_time_seconds": 20300,
+    "gender_place": "68",
+    "graded_time_seconds": 17386.95,
+    "graded_time": "04:49:46",
+    "unique_key": [
+      "Yasushi Nakahara",
+      "05:38:20"
+    ],
+    "graded_place": 36,
+    "ag_place": 4
+  },
+  {
+    "bib": "540",
+    "name": "Thanit Kanpai",
+    "age_group": "M50-54",
+    "finish_time": "05:28:33",
+    "finish_time_seconds": 19713,
+    "gender_place": "54",
+    "graded_time_seconds": 17412.4929,
+    "graded_time": "04:50:12",
+    "unique_key": [
+      "Thanit Kanpai",
+      "05:28:33"
+    ],
+    "graded_place": 37,
+    "ag_place": 8
+  },
+  {
+    "bib": "123",
+    "name": "Hamid Khan",
+    "age_group": "M50-54",
+    "finish_time": "05:29:31",
+    "finish_time_seconds": 19771,
+    "gender_place": "56",
+    "graded_time_seconds": 17463.724299999998,
+    "graded_time": "04:51:03",
+    "unique_key": [
+      "Hamid Khan",
+      "05:29:31"
+    ],
+    "graded_place": 38,
+    "ag_place": 9
+  },
+  {
+    "bib": "146",
+    "name": "Armands Rozenbergs",
+    "age_group": "M45-49",
+    "finish_time": "05:25:23",
+    "finish_time_seconds": 19523,
+    "gender_place": "52",
+    "graded_time_seconds": 17527.7494,
+    "graded_time": "04:52:07",
+    "unique_key": [
+      "Armands Rozenbergs",
+      "05:25:23"
+    ],
+    "graded_place": 39,
+    "ag_place": 7
+  },
+  {
+    "bib": "449",
+    "name": "Ryan Hoa",
+    "age_group": "M40-44",
+    "finish_time": "05:15:31",
+    "finish_time_seconds": 18931,
+    "gender_place": "39",
+    "graded_time_seconds": 17533.892200000002,
+    "graded_time": "04:52:13",
+    "unique_key": [
+      "Ryan Hoa",
+      "05:15:31"
+    ],
+    "graded_place": 40,
+    "ag_place": 5
+  },
+  {
+    "bib": "390",
+    "name": "Amir Hassan",
+    "age_group": "M40-44",
+    "finish_time": "05:15:38",
+    "finish_time_seconds": 18938,
+    "gender_place": "40",
+    "graded_time_seconds": 17540.3756,
+    "graded_time": "04:52:20",
+    "unique_key": [
+      "Amir Hassan",
+      "05:15:38"
+    ],
+    "graded_place": 41,
+    "ag_place": 6
+  },
+  {
+    "bib": "700",
+    "name": "Chihyu Hsieh",
+    "age_group": "M40-44",
+    "finish_time": "05:16:01",
+    "finish_time_seconds": 18961,
+    "gender_place": "41",
+    "graded_time_seconds": 17561.678200000002,
+    "graded_time": "04:52:41",
+    "unique_key": [
+      "Chihyu Hsieh",
+      "05:16:01"
+    ],
+    "graded_place": 42,
+    "ag_place": 7
+  },
+  {
+    "bib": "663",
+    "name": "Caleb Bush",
+    "age_group": "M40-44",
+    "finish_time": "05:17:35",
+    "finish_time_seconds": 19055,
+    "gender_place": "42",
+    "graded_time_seconds": 17648.741,
+    "graded_time": "04:54:08",
+    "unique_key": [
+      "Caleb Bush",
+      "05:17:35"
+    ],
+    "graded_place": 43,
+    "ag_place": 8
+  },
+  {
+    "bib": "160",
+    "name": "Anibal Romay Falcon",
+    "age_group": "M18-24",
+    "finish_time": "04:54:33",
+    "finish_time_seconds": 17673,
+    "gender_place": "20",
+    "graded_time_seconds": 17673.0,
+    "graded_time": "04:54:33",
+    "unique_key": [
+      "Anibal Romay Falcon",
+      "04:54:33"
+    ],
+    "graded_place": 44,
+    "ag_place": 2
+  },
+  {
+    "bib": "110",
+    "name": "Colby Madill",
+    "age_group": "M35-39",
+    "finish_time": "05:10:33",
+    "finish_time_seconds": 18633,
+    "gender_place": "31",
+    "graded_time_seconds": 17701.35,
+    "graded_time": "04:55:01",
+    "unique_key": [
+      "Colby Madill",
+      "05:10:33"
+    ],
+    "graded_place": 45,
+    "ag_place": 9
+  },
+  {
+    "bib": "122",
+    "name": "Vito Tagliente",
+    "age_group": "M50-54",
+    "finish_time": "05:35:39",
+    "finish_time_seconds": 20139,
+    "gender_place": "64",
+    "graded_time_seconds": 17788.7787,
+    "graded_time": "04:56:28",
+    "unique_key": [
+      "Vito Tagliente",
+      "05:35:39"
+    ],
+    "graded_place": 46,
+    "ag_place": 10
+  },
+  {
+    "bib": "136",
+    "name": "Benedict Tay",
+    "age_group": "M35-39",
+    "finish_time": "05:13:56",
+    "finish_time_seconds": 18836,
+    "gender_place": "37",
+    "graded_time_seconds": 17894.2,
+    "graded_time": "04:58:14",
+    "unique_key": [
+      "Benedict Tay",
+      "05:13:56"
+    ],
+    "graded_place": 47,
+    "ag_place": 10
+  },
+  {
+    "bib": "116",
+    "name": "Affendy Iskandar",
+    "age_group": "M45-49",
+    "finish_time": "05:32:51",
+    "finish_time_seconds": 19971,
+    "gender_place": "59",
+    "graded_time_seconds": 17929.9638,
+    "graded_time": "04:58:49",
+    "unique_key": [
+      "Affendy Iskandar",
+      "05:32:51"
+    ],
+    "graded_place": 48,
+    "ag_place": 8
+  },
+  {
+    "bib": "120",
+    "name": "Yong Wei Chia",
+    "age_group": "M45-49",
+    "finish_time": "05:32:51",
+    "finish_time_seconds": 19971,
+    "gender_place": "60",
+    "graded_time_seconds": 17929.9638,
+    "graded_time": "04:58:49",
+    "unique_key": [
+      "Yong Wei Chia",
+      "05:32:51"
+    ],
+    "graded_place": 48,
+    "ag_place": 9
+  },
+  {
+    "bib": "218",
+    "name": "Ahmad Faiz",
+    "age_group": "M30-34",
+    "finish_time": "05:09:39",
+    "finish_time_seconds": 18579,
+    "gender_place": "28",
+    "graded_time_seconds": 17938.0245,
+    "graded_time": "04:58:58",
+    "unique_key": [
+      "Ahmad Faiz",
+      "05:09:39"
+    ],
+    "graded_place": 50,
+    "ag_place": 2
+  },
+  {
+    "bib": "613",
+    "name": "Robert Coetzee",
+    "age_group": "M60-64",
+    "finish_time": "06:05:15",
+    "finish_time_seconds": 21915,
+    "gender_place": "128",
+    "graded_time_seconds": 17952.768,
+    "graded_time": "04:59:12",
+    "unique_key": [
+      "Robert Coetzee",
+      "06:05:15"
+    ],
+    "graded_place": 51,
+    "ag_place": 3
+  },
+  {
+    "bib": "690",
+    "name": "Chong Yoong Thiang",
+    "age_group": "M25-29",
+    "finish_time": "05:01:52",
+    "finish_time_seconds": 18112,
+    "gender_place": "24",
+    "graded_time_seconds": 17983.4048,
+    "graded_time": "04:59:43",
+    "unique_key": [
+      "Chong Yoong Thiang",
+      "05:01:52"
+    ],
+    "graded_place": 52,
+    "ag_place": 4
+  },
+  {
+    "bib": "435",
+    "name": "Aleksei Maslov",
+    "age_group": "M40-44",
+    "finish_time": "05:23:52",
+    "finish_time_seconds": 19432,
+    "gender_place": "50",
+    "graded_time_seconds": 17997.9184,
+    "graded_time": "04:59:57",
+    "unique_key": [
+      "Aleksei Maslov",
+      "05:23:52"
+    ],
+    "graded_place": 53,
+    "ag_place": 9
+  },
+  {
+    "bib": "431",
+    "name": "Andrew Chia Wei Jun",
+    "age_group": "M40-44",
+    "finish_time": "05:26:17",
+    "finish_time_seconds": 19577,
+    "gender_place": "53",
+    "graded_time_seconds": 18132.2174,
+    "graded_time": "05:02:12",
+    "unique_key": [
+      "Andrew Chia Wei Jun",
+      "05:26:17"
+    ],
+    "graded_place": 54,
+    "ag_place": 10
+  },
+  {
+    "bib": "111",
+    "name": "Leon Xing",
+    "age_group": "M35-39",
+    "finish_time": "05:19:14",
+    "finish_time_seconds": 19154,
+    "gender_place": "44",
+    "graded_time_seconds": 18196.3,
+    "graded_time": "05:03:16",
+    "unique_key": [
+      "Leon Xing",
+      "05:19:14"
+    ],
+    "graded_place": 55,
+    "ag_place": 11
+  },
+  {
+    "bib": "306",
+    "name": "Giacomo Degli Innocenti",
+    "age_group": "M35-39",
+    "finish_time": "05:19:45",
+    "finish_time_seconds": 19185,
+    "gender_place": "45",
+    "graded_time_seconds": 18225.75,
+    "graded_time": "05:03:45",
+    "unique_key": [
+      "Giacomo Degli Innocenti",
+      "05:19:45"
+    ],
+    "graded_place": 56,
+    "ag_place": 12
+  },
+  {
+    "bib": "147",
+    "name": "Martijn Elbers",
+    "age_group": "M50-54",
+    "finish_time": "05:45:15",
+    "finish_time_seconds": 20715,
+    "gender_place": "79",
+    "graded_time_seconds": 18297.5595,
+    "graded_time": "05:04:57",
+    "unique_key": [
+      "Martijn Elbers",
+      "05:45:15"
+    ],
+    "graded_place": 57,
+    "ag_place": 11
+  },
+  {
+    "bib": "614",
+    "name": "Piet Landuyt",
+    "age_group": "M60-64",
+    "finish_time": "06:13:51",
+    "finish_time_seconds": 22431,
+    "gender_place": "144",
+    "graded_time_seconds": 18375.4752,
+    "graded_time": "05:06:15",
+    "unique_key": [
+      "Piet Landuyt",
+      "06:13:51"
+    ],
+    "graded_place": 58,
+    "ag_place": 4
+  },
+  {
+    "bib": "532",
+    "name": "Gregory White",
+    "age_group": "M50-54",
+    "finish_time": "05:46:47",
+    "finish_time_seconds": 20807,
+    "gender_place": "85",
+    "graded_time_seconds": 18378.823099999998,
+    "graded_time": "05:06:18",
+    "unique_key": [
+      "Gregory White",
+      "05:46:47"
+    ],
+    "graded_place": 59,
+    "ag_place": 12
+  },
+  {
+    "bib": "696",
+    "name": "Yuichi Okazaki",
+    "age_group": "M70-74",
+    "finish_time": "07:11:58",
+    "finish_time_seconds": 25918,
+    "gender_place": "263",
+    "graded_time_seconds": 18451.0242,
+    "graded_time": "05:07:31",
+    "unique_key": [
+      "Yuichi Okazaki",
+      "07:11:58"
+    ],
+    "graded_place": 60,
+    "ag_place": 1
+  },
+  {
+    "bib": "693",
+    "name": "Jin Shawn Lai",
+    "age_group": "M40-44",
+    "finish_time": "05:32:47",
+    "finish_time_seconds": 19967,
+    "gender_place": "58",
+    "graded_time_seconds": 18493.435400000002,
+    "graded_time": "05:08:13",
+    "unique_key": [
+      "Jin Shawn Lai",
+      "05:32:47"
+    ],
+    "graded_place": 61,
+    "ag_place": 11
+  },
+  {
+    "bib": "209",
+    "name": "Arnaud Pelton",
+    "age_group": "M25-29",
+    "finish_time": "05:10:52",
+    "finish_time_seconds": 18652,
+    "gender_place": "33",
+    "graded_time_seconds": 18519.5708,
+    "graded_time": "05:08:39",
+    "unique_key": [
+      "Arnaud Pelton",
+      "05:10:52"
+    ],
+    "graded_place": 62,
+    "ag_place": 5
+  },
+  {
+    "bib": "621",
+    "name": "Kuniaki Koizumi",
+    "age_group": "M65-69",
+    "finish_time": "06:44:22",
+    "finish_time_seconds": 24262,
+    "gender_place": "206",
+    "graded_time_seconds": 18536.168,
+    "graded_time": "05:08:56",
+    "unique_key": [
+      "Kuniaki Koizumi",
+      "06:44:22"
+    ],
+    "graded_place": 63,
+    "ag_place": 1
+  },
+  {
+    "bib": "166",
+    "name": "Matthieu Monnot",
+    "age_group": "M25-29",
+    "finish_time": "05:11:27",
+    "finish_time_seconds": 18687,
+    "gender_place": "34",
+    "graded_time_seconds": 18554.3223,
+    "graded_time": "05:09:14",
+    "unique_key": [
+      "Matthieu Monnot",
+      "05:11:27"
+    ],
+    "graded_place": 64,
+    "ag_place": 6
+  },
+  {
+    "bib": "481",
+    "name": "Chris Kapsalis",
+    "age_group": "M45-49",
+    "finish_time": "05:45:36",
+    "finish_time_seconds": 20736,
+    "gender_place": "82",
+    "graded_time_seconds": 18616.7808,
+    "graded_time": "05:10:16",
+    "unique_key": [
+      "Chris Kapsalis",
+      "05:45:36"
+    ],
+    "graded_place": 65,
+    "ag_place": 10
+  },
+  {
+    "bib": "181",
+    "name": "Seira Nakata",
+    "age_group": "M25-29",
+    "finish_time": "05:13:02",
+    "finish_time_seconds": 18782,
+    "gender_place": "36",
+    "graded_time_seconds": 18648.6478,
+    "graded_time": "05:10:48",
+    "unique_key": [
+      "Seira Nakata",
+      "05:13:02"
+    ],
+    "graded_place": 66,
+    "ag_place": 7
+  },
+  {
+    "bib": "682",
+    "name": "Amer Hamzah Arshad",
+    "age_group": "M50-54",
+    "finish_time": "05:52:18",
+    "finish_time_seconds": 21138,
+    "gender_place": "96",
+    "graded_time_seconds": 18671.1954,
+    "graded_time": "05:11:11",
+    "unique_key": [
+      "Amer Hamzah Arshad",
+      "05:52:18"
+    ],
+    "graded_place": 67,
+    "ag_place": 13
+  },
+  {
+    "bib": "215",
+    "name": "Muhammad Luqmanul Hakim Hamidi",
+    "age_group": "M30-34",
+    "finish_time": "05:23:51",
+    "finish_time_seconds": 19431,
+    "gender_place": "49",
+    "graded_time_seconds": 18760.6305,
+    "graded_time": "05:12:40",
+    "unique_key": [
+      "Muhammad Luqmanul Hakim Hamidi",
+      "05:23:51"
+    ],
+    "graded_place": 68,
+    "ag_place": 3
+  },
+  {
+    "bib": "598",
+    "name": "Andrew Chadwick",
+    "age_group": "M55-59",
+    "finish_time": "06:07:23",
+    "finish_time_seconds": 22043,
+    "gender_place": "134",
+    "graded_time_seconds": 18879.8295,
+    "graded_time": "05:14:39",
+    "unique_key": [
+      "Andrew Chadwick",
+      "06:07:23"
+    ],
+    "graded_place": 69,
+    "ag_place": 5
+  },
+  {
+    "bib": "503",
+    "name": "Ary Sutoyo",
+    "age_group": "M45-49",
+    "finish_time": "05:51:52",
+    "finish_time_seconds": 21112,
+    "gender_place": "93",
+    "graded_time_seconds": 18954.353600000002,
+    "graded_time": "05:15:54",
+    "unique_key": [
+      "Ary Sutoyo",
+      "05:51:52"
+    ],
+    "graded_place": 70,
+    "ag_place": 11
+  },
+  {
+    "bib": "635",
+    "name": "Enzo Tavera",
+    "age_group": "M25-29",
+    "finish_time": "05:19:08",
+    "finish_time_seconds": 19148,
+    "gender_place": "43",
+    "graded_time_seconds": 19012.0492,
+    "graded_time": "05:16:52",
+    "unique_key": [
+      "Enzo Tavera",
+      "05:19:08"
+    ],
+    "graded_place": 71,
+    "ag_place": 8
+  },
+  {
+    "bib": "464",
+    "name": "Jean-Philippe Odunlami",
+    "age_group": "M45-49",
+    "finish_time": "05:53:17",
+    "finish_time_seconds": 21197,
+    "gender_place": "98",
+    "graded_time_seconds": 19030.6666,
+    "graded_time": "05:17:10",
+    "unique_key": [
+      "Jean-Philippe Odunlami",
+      "05:53:17"
+    ],
+    "graded_place": 72,
+    "ag_place": 12
+  },
+  {
+    "bib": "371",
+    "name": "Eric Yang Liu",
+    "age_group": "M40-44",
+    "finish_time": "05:42:35",
+    "finish_time_seconds": 20555,
+    "gender_place": "75",
+    "graded_time_seconds": 19038.041,
+    "graded_time": "05:17:18",
+    "unique_key": [
+      "Eric Yang Liu",
+      "05:42:35"
+    ],
+    "graded_place": 73,
+    "ag_place": 12
+  },
+  {
+    "bib": "546",
+    "name": "Takao Kato",
+    "age_group": "M50-54",
+    "finish_time": "05:59:24",
+    "finish_time_seconds": 21564,
+    "gender_place": "109",
+    "graded_time_seconds": 19047.4812,
+    "graded_time": "05:17:27",
+    "unique_key": [
+      "Takao Kato",
+      "05:59:24"
+    ],
+    "graded_place": 74,
+    "ag_place": 14
+  },
+  {
+    "bib": "130",
+    "name": "James Redshaw",
+    "age_group": "M35-39",
+    "finish_time": "05:34:14",
+    "finish_time_seconds": 20054,
+    "gender_place": "62",
+    "graded_time_seconds": 19051.3,
+    "graded_time": "05:17:31",
+    "unique_key": [
+      "James Redshaw",
+      "05:34:14"
+    ],
+    "graded_place": 75,
+    "ag_place": 13
+  },
+  {
+    "bib": "586",
+    "name": "Richard Samuel",
+    "age_group": "M55-59",
+    "finish_time": "06:11:20",
+    "finish_time_seconds": 22280,
+    "gender_place": "140",
+    "graded_time_seconds": 19082.82,
+    "graded_time": "05:18:02",
+    "unique_key": [
+      "Richard Samuel",
+      "06:11:20"
+    ],
+    "graded_place": 76,
+    "ag_place": 6
+  },
+  {
+    "bib": "604",
+    "name": "Alan Gilmartin",
+    "age_group": "M60-64",
+    "finish_time": "06:28:43",
+    "finish_time_seconds": 23323,
+    "gender_place": "172",
+    "graded_time_seconds": 19106.2016,
+    "graded_time": "05:18:26",
+    "unique_key": [
+      "Alan Gilmartin",
+      "06:28:43"
+    ],
+    "graded_place": 77,
+    "ag_place": 5
+  },
+  {
+    "bib": "172",
+    "name": "Emil Parnel",
+    "age_group": "M25-29",
+    "finish_time": "05:20:49",
+    "finish_time_seconds": 19249,
+    "gender_place": "46",
+    "graded_time_seconds": 19112.3321,
+    "graded_time": "05:18:32",
+    "unique_key": [
+      "Emil Parnel",
+      "05:20:49"
+    ],
+    "graded_place": 78,
+    "ag_place": 9
+  },
+  {
+    "bib": "605",
+    "name": "Nicholas Crist",
+    "age_group": "M60-64",
+    "finish_time": "06:28:53",
+    "finish_time_seconds": 23333,
+    "gender_place": "173",
+    "graded_time_seconds": 19114.3936,
+    "graded_time": "05:18:34",
+    "unique_key": [
+      "Nicholas Crist",
+      "06:28:53"
+    ],
+    "graded_place": 79,
+    "ag_place": 6
+  },
+  {
+    "bib": "483",
+    "name": "Will Dalling",
+    "age_group": "M45-49",
+    "finish_time": "05:55:06",
+    "finish_time_seconds": 21306,
+    "gender_place": "101",
+    "graded_time_seconds": 19128.5268,
+    "graded_time": "05:18:48",
+    "unique_key": [
+      "Will Dalling",
+      "05:55:06"
+    ],
+    "graded_place": 80,
+    "ag_place": 13
+  },
+  {
+    "bib": "133",
+    "name": "Udomporn Jaichuen",
+    "age_group": "M35-39",
+    "finish_time": "05:35:48",
+    "finish_time_seconds": 20148,
+    "gender_place": "65",
+    "graded_time_seconds": 19140.6,
+    "graded_time": "05:19:00",
+    "unique_key": [
+      "Udomporn Jaichuen",
+      "05:35:48"
+    ],
+    "graded_place": 81,
+    "ag_place": 14
+  },
+  {
+    "bib": "451",
+    "name": "Thanakrit Prawong",
+    "age_group": "M40-44",
+    "finish_time": "05:44:48",
+    "finish_time_seconds": 20688,
+    "gender_place": "78",
+    "graded_time_seconds": 19161.2256,
+    "graded_time": "05:19:21",
+    "unique_key": [
+      "Thanakrit Prawong",
+      "05:44:48"
+    ],
+    "graded_place": 82,
+    "ag_place": 13
+  },
+  {
+    "bib": "434",
+    "name": "Zool Hilmy Hazally",
+    "age_group": "M40-44",
+    "finish_time": "05:45:31",
+    "finish_time_seconds": 20731,
+    "gender_place": "81",
+    "graded_time_seconds": 19201.052200000002,
+    "graded_time": "05:20:01",
+    "unique_key": [
+      "Zool Hilmy Hazally",
+      "05:45:31"
+    ],
+    "graded_place": 83,
+    "ag_place": 14
+  },
+  {
+    "bib": "672",
+    "name": "Rinaldo Alimin",
+    "age_group": "M45-49",
+    "finish_time": "05:56:51",
+    "finish_time_seconds": 21411,
+    "gender_place": "106",
+    "graded_time_seconds": 19222.7958,
+    "graded_time": "05:20:22",
+    "unique_key": [
+      "Rinaldo Alimin",
+      "05:56:51"
+    ],
+    "graded_place": 84,
+    "ag_place": 14
+  },
+  {
+    "bib": "683",
+    "name": "Dougal Grant",
+    "age_group": "M50-54",
+    "finish_time": "06:03:12",
+    "finish_time_seconds": 21792,
+    "gender_place": "124",
+    "graded_time_seconds": 19248.8736,
+    "graded_time": "05:20:48",
+    "unique_key": [
+      "Dougal Grant",
+      "06:03:12"
+    ],
+    "graded_place": 85,
+    "ag_place": 15
+  },
+  {
+    "bib": "568",
+    "name": "Matt Harrison",
+    "age_group": "M50-54",
+    "finish_time": "06:03:17",
+    "finish_time_seconds": 21797,
+    "gender_place": "125",
+    "graded_time_seconds": 19253.2901,
+    "graded_time": "05:20:53",
+    "unique_key": [
+      "Matt Harrison",
+      "06:03:17"
+    ],
+    "graded_place": 86,
+    "ag_place": 16
+  },
+  {
+    "bib": "632",
+    "name": "Muhammed Al-Hadi Jazredal",
+    "age_group": "M18-24",
+    "finish_time": "05:21:02",
+    "finish_time_seconds": 19262,
+    "gender_place": "48",
+    "graded_time_seconds": 19262.0,
+    "graded_time": "05:21:02",
+    "unique_key": [
+      "Muhammed Al-Hadi Jazredal",
+      "05:21:02"
+    ],
+    "graded_place": 87,
+    "ag_place": 3
+  },
+  {
+    "bib": "579",
+    "name": "Stephen R Hoare",
+    "age_group": "M55-59",
+    "finish_time": "06:15:24",
+    "finish_time_seconds": 22524,
+    "gender_place": "150",
+    "graded_time_seconds": 19291.806,
+    "graded_time": "05:21:31",
+    "unique_key": [
+      "Stephen R Hoare",
+      "06:15:24"
+    ],
+    "graded_place": 88,
+    "ag_place": 7
+  },
+  {
+    "bib": "331",
+    "name": "Jorge Soler Burguera",
+    "age_group": "M35-39",
+    "finish_time": "05:39:59",
+    "finish_time_seconds": 20399,
+    "gender_place": "70",
+    "graded_time_seconds": 19379.05,
+    "graded_time": "05:22:59",
+    "unique_key": [
+      "Jorge Soler Burguera",
+      "05:39:59"
+    ],
+    "graded_place": 89,
+    "ag_place": 15
+  },
+  {
+    "bib": "134",
+    "name": "Jiarong Moses Philip Phua",
+    "age_group": "M35-39",
+    "finish_time": "05:40:03",
+    "finish_time_seconds": 20403,
+    "gender_place": "71",
+    "graded_time_seconds": 19382.85,
+    "graded_time": "05:23:02",
+    "unique_key": [
+      "Jiarong Moses Philip Phua",
+      "05:40:03"
+    ],
+    "graded_place": 90,
+    "ag_place": 16
+  },
+  {
+    "bib": "273",
+    "name": "Nathapol Chomdet",
+    "age_group": "M30-34",
+    "finish_time": "05:34:51",
+    "finish_time_seconds": 20091,
+    "gender_place": "63",
+    "graded_time_seconds": 19397.8605,
+    "graded_time": "05:23:17",
+    "unique_key": [
+      "Nathapol Chomdet",
+      "05:34:51"
+    ],
+    "graded_place": 91,
+    "ag_place": 4
+  },
+  {
+    "bib": "441",
+    "name": "Yigit Saricinar",
+    "age_group": "M40-44",
+    "finish_time": "05:49:13",
+    "finish_time_seconds": 20953,
+    "gender_place": "87",
+    "graded_time_seconds": 19406.6686,
+    "graded_time": "05:23:26",
+    "unique_key": [
+      "Yigit Saricinar",
+      "05:49:13"
+    ],
+    "graded_place": 92,
+    "ag_place": 15
+  },
+  {
+    "bib": "405",
+    "name": "Viktor Dede",
+    "age_group": "M40-44",
+    "finish_time": "05:49:30",
+    "finish_time_seconds": 20970,
+    "gender_place": "88",
+    "graded_time_seconds": 19422.414,
+    "graded_time": "05:23:42",
+    "unique_key": [
+      "Viktor Dede",
+      "05:49:30"
+    ],
+    "graded_place": 93,
+    "ag_place": 16
+  },
+  {
+    "bib": "626",
+    "name": "Shigehiro Hara",
+    "age_group": "M70-74",
+    "finish_time": "07:36:29",
+    "finish_time_seconds": 27389,
+    "gender_place": "301",
+    "graded_time_seconds": 19498.2291,
+    "graded_time": "05:24:58",
+    "unique_key": [
+      "Shigehiro Hara",
+      "07:36:29"
+    ],
+    "graded_place": 94,
+    "ag_place": 2
+  },
+  {
+    "bib": "352",
+    "name": "Leonardo Tanujaya",
+    "age_group": "M35-39",
+    "finish_time": "05:42:07",
+    "finish_time_seconds": 20527,
+    "gender_place": "74",
+    "graded_time_seconds": 19500.649999999998,
+    "graded_time": "05:25:00",
+    "unique_key": [
+      "Leonardo Tanujaya",
+      "05:42:07"
+    ],
+    "graded_place": 95,
+    "ag_place": 17
+  },
+  {
+    "bib": "688",
+    "name": "Paul Ian Brown-Kenyon",
+    "age_group": "M60-64",
+    "finish_time": "06:37:03",
+    "finish_time_seconds": 23823,
+    "gender_place": "191",
+    "graded_time_seconds": 19515.801600000003,
+    "graded_time": "05:25:15",
+    "unique_key": [
+      "Paul Ian Brown-Kenyon",
+      "06:37:03"
+    ],
+    "graded_place": 96,
+    "ag_place": 7
+  },
+  {
+    "bib": "144",
+    "name": "J Shah",
+    "age_group": "M45-49",
+    "finish_time": "06:02:18",
+    "finish_time_seconds": 21738,
+    "gender_place": "121",
+    "graded_time_seconds": 19516.3764,
+    "graded_time": "05:25:16",
+    "unique_key": [
+      "J Shah",
+      "06:02:18"
+    ],
+    "graded_place": 97,
+    "ag_place": 15
+  },
+  {
+    "bib": "383",
+    "name": "Artem Volodin",
+    "age_group": "M40-44",
+    "finish_time": "05:51:18",
+    "finish_time_seconds": 21078,
+    "gender_place": "92",
+    "graded_time_seconds": 19522.4436,
+    "graded_time": "05:25:22",
+    "unique_key": [
+      "Artem Volodin",
+      "05:51:18"
+    ],
+    "graded_place": 98,
+    "ag_place": 17
+  },
+  {
+    "bib": "625",
+    "name": "Jose Nicolas",
+    "age_group": "M65-69",
+    "finish_time": "07:06:16",
+    "finish_time_seconds": 25576,
+    "gender_place": "249",
+    "graded_time_seconds": 19540.064000000002,
+    "graded_time": "05:25:40",
+    "unique_key": [
+      "Jose Nicolas",
+      "07:06:16"
+    ],
+    "graded_place": 99,
+    "ag_place": 2
+  },
+  {
+    "bib": "478",
+    "name": "Vinod Kurup",
+    "age_group": "M45-49",
+    "finish_time": "06:02:47",
+    "finish_time_seconds": 21767,
+    "gender_place": "123",
+    "graded_time_seconds": 19542.4126,
+    "graded_time": "05:25:42",
+    "unique_key": [
+      "Vinod Kurup",
+      "06:02:47"
+    ],
+    "graded_place": 100,
+    "ag_place": 16
+  },
+  {
+    "bib": "402",
+    "name": "Sam Middlehurst",
+    "age_group": "M40-44",
+    "finish_time": "05:52:01",
+    "finish_time_seconds": 21121,
+    "gender_place": "94",
+    "graded_time_seconds": 19562.2702,
+    "graded_time": "05:26:02",
+    "unique_key": [
+      "Sam Middlehurst",
+      "05:52:01"
+    ],
+    "graded_place": 101,
+    "ag_place": 18
+  },
+  {
+    "bib": "361",
+    "name": "Alex Goh",
+    "age_group": "M40-44",
+    "finish_time": "05:52:11",
+    "finish_time_seconds": 21131,
+    "gender_place": "95",
+    "graded_time_seconds": 19571.5322,
+    "graded_time": "05:26:11",
+    "unique_key": [
+      "Alex Goh",
+      "05:52:11"
+    ],
+    "graded_place": 102,
+    "ag_place": 19
+  },
+  {
+    "bib": "336",
+    "name": "Lucas Nicolet",
+    "age_group": "M35-39",
+    "finish_time": "05:43:37",
+    "finish_time_seconds": 20617,
+    "gender_place": "76",
+    "graded_time_seconds": 19586.149999999998,
+    "graded_time": "05:26:26",
+    "unique_key": [
+      "Lucas Nicolet",
+      "05:43:37"
+    ],
+    "graded_place": 103,
+    "ag_place": 18
+  },
+  {
+    "bib": "536",
+    "name": "Robert Verkuijlen",
+    "age_group": "M50-54",
+    "finish_time": "06:10:03",
+    "finish_time_seconds": 22203,
+    "gender_place": "139",
+    "graded_time_seconds": 19611.9099,
+    "graded_time": "05:26:51",
+    "unique_key": [
+      "Robert Verkuijlen",
+      "06:10:03"
+    ],
+    "graded_place": 104,
+    "ag_place": 17
+  },
+  {
+    "bib": "377",
+    "name": "Hugo Busbridge",
+    "age_group": "M40-44",
+    "finish_time": "05:53:04",
+    "finish_time_seconds": 21184,
+    "gender_place": "97",
+    "graded_time_seconds": 19620.6208,
+    "graded_time": "05:27:00",
+    "unique_key": [
+      "Hugo Busbridge",
+      "05:53:04"
+    ],
+    "graded_place": 105,
+    "ag_place": 20
+  },
+  {
+    "bib": "433",
+    "name": "Daniel Hermann Richard Dahlmeier",
+    "age_group": "M40-44",
+    "finish_time": "05:54:05",
+    "finish_time_seconds": 21245,
+    "gender_place": "99",
+    "graded_time_seconds": 19677.119,
+    "graded_time": "05:27:57",
+    "unique_key": [
+      "Daniel Hermann Richard Dahlmeier",
+      "05:54:05"
+    ],
+    "graded_place": 106,
+    "ag_place": 21
+  },
+  {
+    "bib": "150",
+    "name": "Danial Edries Hanssens Harry Ecker Maria",
+    "age_group": "M18-24",
+    "finish_time": "05:28:54",
+    "finish_time_seconds": 19734,
+    "gender_place": "55",
+    "graded_time_seconds": 19734.0,
+    "graded_time": "05:28:54",
+    "unique_key": [
+      "Danial Edries Hanssens Harry Ecker Maria",
+      "05:28:54"
+    ],
+    "graded_place": 107,
+    "ag_place": 4
+  },
+  {
+    "bib": "286",
+    "name": "Johannes Wendel",
+    "age_group": "M30-34",
+    "finish_time": "05:40:52",
+    "finish_time_seconds": 20452,
+    "gender_place": "73",
+    "graded_time_seconds": 19746.406,
+    "graded_time": "05:29:06",
+    "unique_key": [
+      "Johannes Wendel",
+      "05:40:52"
+    ],
+    "graded_place": 108,
+    "ag_place": 5
+  },
+  {
+    "bib": "490",
+    "name": "Daidoh Hotta",
+    "age_group": "M45-49",
+    "finish_time": "06:06:41",
+    "finish_time_seconds": 22001,
+    "gender_place": "131",
+    "graded_time_seconds": 19752.4978,
+    "graded_time": "05:29:12",
+    "unique_key": [
+      "Daidoh Hotta",
+      "06:06:41"
+    ],
+    "graded_place": 109,
+    "ag_place": 17
+  },
+  {
+    "bib": "447",
+    "name": "Adisorn Jomsuk",
+    "age_group": "M40-44",
+    "finish_time": "05:55:45",
+    "finish_time_seconds": 21345,
+    "gender_place": "104",
+    "graded_time_seconds": 19769.739,
+    "graded_time": "05:29:29",
+    "unique_key": [
+      "Adisorn Jomsuk",
+      "05:55:45"
+    ],
+    "graded_place": 110,
+    "ag_place": 22
+  },
+  {
+    "bib": "573",
+    "name": "Kamihagi Yasushi",
+    "age_group": "M55-59",
+    "finish_time": "06:24:46",
+    "finish_time_seconds": 23086,
+    "gender_place": "164",
+    "graded_time_seconds": 19773.159,
+    "graded_time": "05:29:33",
+    "unique_key": [
+      "Kamihagi Yasushi",
+      "06:24:46"
+    ],
+    "graded_place": 111,
+    "ag_place": 8
+  },
+  {
+    "bib": "559",
+    "name": "Daniel King Kuan Lim",
+    "age_group": "M50-54",
+    "finish_time": "06:14:04",
+    "finish_time_seconds": 22444,
+    "gender_place": "145",
+    "graded_time_seconds": 19824.7852,
+    "graded_time": "05:30:24",
+    "unique_key": [
+      "Daniel King Kuan Lim",
+      "06:14:04"
+    ],
+    "graded_place": 112,
+    "ag_place": 18
+  },
+  {
+    "bib": "137",
+    "name": "Tsz Chun Zero Ling",
+    "age_group": "M40-44",
+    "finish_time": "05:58:06",
+    "finish_time_seconds": 21486,
+    "gender_place": "107",
+    "graded_time_seconds": 19900.3332,
+    "graded_time": "05:31:40",
+    "unique_key": [
+      "Tsz Chun Zero Ling",
+      "05:58:06"
+    ],
+    "graded_place": 113,
+    "ag_place": 23
+  },
+  {
+    "bib": "517",
+    "name": "Trevor Steiner",
+    "age_group": "M50-54",
+    "finish_time": "06:15:35",
+    "finish_time_seconds": 22535,
+    "gender_place": "151",
+    "graded_time_seconds": 19905.1655,
+    "graded_time": "05:31:45",
+    "unique_key": [
+      "Trevor Steiner",
+      "06:15:35"
+    ],
+    "graded_place": 114,
+    "ag_place": 19
+  },
+  {
+    "bib": "409",
+    "name": "Syahill Chik",
+    "age_group": "M40-44",
+    "finish_time": "05:59:30",
+    "finish_time_seconds": 21570,
+    "gender_place": "110",
+    "graded_time_seconds": 19978.134000000002,
+    "graded_time": "05:32:58",
+    "unique_key": [
+      "Syahill Chik",
+      "05:59:30"
+    ],
+    "graded_place": 115,
+    "ag_place": 24
+  },
+  {
+    "bib": "589",
+    "name": "Ser Luck Teo",
+    "age_group": "M55-59",
+    "finish_time": "06:29:26",
+    "finish_time_seconds": 23366,
+    "gender_place": "176",
+    "graded_time_seconds": 20012.979,
+    "graded_time": "05:33:32",
+    "unique_key": [
+      "Ser Luck Teo",
+      "06:29:26"
+    ],
+    "graded_place": 116,
+    "ag_place": 9
+  },
+  {
+    "bib": "180",
+    "name": "Ming Ming Wu",
+    "age_group": "M25-29",
+    "finish_time": "05:36:09",
+    "finish_time_seconds": 20169,
+    "gender_place": "66",
+    "graded_time_seconds": 20025.8001,
+    "graded_time": "05:33:45",
+    "unique_key": [
+      "Ming Ming Wu",
+      "05:36:09"
+    ],
+    "graded_place": 117,
+    "ag_place": 10
+  },
+  {
+    "bib": "226",
+    "name": "Antoine Vaugeois",
+    "age_group": "M30-34",
+    "finish_time": "05:45:45",
+    "finish_time_seconds": 20745,
+    "gender_place": "83",
+    "graded_time_seconds": 20029.2975,
+    "graded_time": "05:33:49",
+    "unique_key": [
+      "Antoine Vaugeois",
+      "05:45:45"
+    ],
+    "graded_place": 118,
+    "ag_place": 6
+  },
+  {
+    "bib": "271",
+    "name": "Jonathan Leblanc",
+    "age_group": "M30-34",
+    "finish_time": "05:45:50",
+    "finish_time_seconds": 20750,
+    "gender_place": "84",
+    "graded_time_seconds": 20034.125,
+    "graded_time": "05:33:54",
+    "unique_key": [
+      "Jonathan Leblanc",
+      "05:45:50"
+    ],
+    "graded_place": 119,
+    "ag_place": 7
+  },
+  {
+    "bib": "158",
+    "name": "William Wallace",
+    "age_group": "M18-24",
+    "finish_time": "05:33:57",
+    "finish_time_seconds": 20037,
+    "gender_place": "61",
+    "graded_time_seconds": 20037.0,
+    "graded_time": "05:33:57",
+    "unique_key": [
+      "William Wallace",
+      "05:33:57"
+    ],
+    "graded_place": 120,
+    "ag_place": 5
+  },
+  {
+    "bib": "128",
+    "name": "Eugene Tan",
+    "age_group": "M25-29",
+    "finish_time": "05:38:13",
+    "finish_time_seconds": 20293,
+    "gender_place": "67",
+    "graded_time_seconds": 20148.9197,
+    "graded_time": "05:35:48",
+    "unique_key": [
+      "Eugene Tan",
+      "05:38:13"
+    ],
+    "graded_place": 121,
+    "ag_place": 11
+  },
+  {
+    "bib": "561",
+    "name": "Wan Kheat Gavin Loh",
+    "age_group": "M50-54",
+    "finish_time": "06:20:38",
+    "finish_time_seconds": 22838,
+    "gender_place": "158",
+    "graded_time_seconds": 20172.8054,
+    "graded_time": "05:36:12",
+    "unique_key": [
+      "Wan Kheat Gavin Loh",
+      "06:20:38"
+    ],
+    "graded_place": 122,
+    "ag_place": 20
+  },
+  {
+    "bib": "185",
+    "name": "Edward Loke",
+    "age_group": "M25-29",
+    "finish_time": "05:39:13",
+    "finish_time_seconds": 20353,
+    "gender_place": "69",
+    "graded_time_seconds": 20208.4937,
+    "graded_time": "05:36:48",
+    "unique_key": [
+      "Edward Loke",
+      "05:39:13"
+    ],
+    "graded_place": 123,
+    "ag_place": 12
+  },
+  {
+    "bib": "244",
+    "name": "Tienchai Jaiton",
+    "age_group": "M30-34",
+    "finish_time": "05:48:54",
+    "finish_time_seconds": 20934,
+    "gender_place": "86",
+    "graded_time_seconds": 20211.777000000002,
+    "graded_time": "05:36:51",
+    "unique_key": [
+      "Tienchai Jaiton",
+      "05:48:54"
+    ],
+    "graded_place": 124,
+    "ag_place": 8
+  },
+  {
+    "bib": "321",
+    "name": "Amirul Syafiq Azmy",
+    "age_group": "M35-39",
+    "finish_time": "05:54:44",
+    "finish_time_seconds": 21284,
+    "gender_place": "100",
+    "graded_time_seconds": 20219.8,
+    "graded_time": "05:36:59",
+    "unique_key": [
+      "Amirul Syafiq Azmy",
+      "05:54:44"
+    ],
+    "graded_place": 125,
+    "ag_place": 19
+  },
+  {
+    "bib": "379",
+    "name": "Simon Azar",
+    "age_group": "M40-44",
+    "finish_time": "06:04:32",
+    "finish_time_seconds": 21872,
+    "gender_place": "126",
+    "graded_time_seconds": 20257.846400000002,
+    "graded_time": "05:37:37",
+    "unique_key": [
+      "Simon Azar",
+      "06:04:32"
+    ],
+    "graded_place": 126,
+    "ag_place": 25
+  },
+  {
+    "bib": "272",
+    "name": "Romain Sidoti",
+    "age_group": "M30-34",
+    "finish_time": "05:49:50",
+    "finish_time_seconds": 20990,
+    "gender_place": "89",
+    "graded_time_seconds": 20265.845,
+    "graded_time": "05:37:45",
+    "unique_key": [
+      "Romain Sidoti",
+      "05:49:50"
+    ],
+    "graded_place": 127,
+    "ag_place": 9
+  },
+  {
+    "bib": "428",
+    "name": "Kevin Fong Siang Lee",
+    "age_group": "M40-44",
+    "finish_time": "06:05:11",
+    "finish_time_seconds": 21911,
+    "gender_place": "127",
+    "graded_time_seconds": 20293.9682,
+    "graded_time": "05:38:13",
+    "unique_key": [
+      "Kevin Fong Siang Lee",
+      "06:05:11"
+    ],
+    "graded_place": 128,
+    "ag_place": 26
+  },
+  {
+    "bib": "277",
+    "name": "Kritsada Tantawiwattananon",
+    "age_group": "M30-34",
+    "finish_time": "05:50:36",
+    "finish_time_seconds": 21036,
+    "gender_place": "90",
+    "graded_time_seconds": 20310.258,
+    "graded_time": "05:38:30",
+    "unique_key": [
+      "Kritsada Tantawiwattananon",
+      "05:50:36"
+    ],
+    "graded_place": 129,
+    "ag_place": 10
+  },
+  {
+    "bib": "233",
+    "name": "Thomas Tempez",
+    "age_group": "M30-34",
+    "finish_time": "05:50:36",
+    "finish_time_seconds": 21036,
+    "gender_place": "91",
+    "graded_time_seconds": 20310.258,
+    "graded_time": "05:38:30",
+    "unique_key": [
+      "Thomas Tempez",
+      "05:50:36"
+    ],
+    "graded_place": 129,
+    "ag_place": 11
+  },
+  {
+    "bib": "353",
+    "name": "Sebastien Lhermite",
+    "age_group": "M35-39",
+    "finish_time": "05:56:27",
+    "finish_time_seconds": 21387,
+    "gender_place": "105",
+    "graded_time_seconds": 20317.649999999998,
+    "graded_time": "05:38:37",
+    "unique_key": [
+      "Sebastien Lhermite",
+      "05:56:27"
+    ],
+    "graded_place": 131,
+    "ag_place": 20
+  },
+  {
+    "bib": "117",
+    "name": "Adam Higgs",
+    "age_group": "M45-49",
+    "finish_time": "06:19:37",
+    "finish_time_seconds": 22777,
+    "gender_place": "156",
+    "graded_time_seconds": 20449.1906,
+    "graded_time": "05:40:49",
+    "unique_key": [
+      "Adam Higgs",
+      "06:19:37"
+    ],
+    "graded_place": 132,
+    "ag_place": 18
+  },
+  {
+    "bib": "388",
+    "name": "Ekkarat Phanthip",
+    "age_group": "M40-44",
+    "finish_time": "06:08:53",
+    "finish_time_seconds": 22133,
+    "gender_place": "137",
+    "graded_time_seconds": 20499.584600000002,
+    "graded_time": "05:41:39",
+    "unique_key": [
+      "Ekkarat Phanthip",
+      "06:08:53"
+    ],
+    "graded_place": 133,
+    "ag_place": 27
+  },
+  {
+    "bib": "582",
+    "name": "Robert Buerger",
+    "age_group": "M55-59",
+    "finish_time": "06:39:01",
+    "finish_time_seconds": 23941,
+    "gender_place": "198",
+    "graded_time_seconds": 20505.466500000002,
+    "graded_time": "05:41:45",
+    "unique_key": [
+      "Robert Buerger",
+      "06:39:01"
+    ],
+    "graded_place": 134,
+    "ag_place": 10
+  },
+  {
+    "bib": "574",
+    "name": "Hendri Sudjoko",
+    "age_group": "M55-59",
+    "finish_time": "06:39:10",
+    "finish_time_seconds": 23950,
+    "gender_place": "199",
+    "graded_time_seconds": 20513.175,
+    "graded_time": "05:41:53",
+    "unique_key": [
+      "Hendri Sudjoko",
+      "06:39:10"
+    ],
+    "graded_place": 135,
+    "ag_place": 11
+  },
+  {
+    "bib": "701",
+    "name": "Morgan Granese",
+    "age_group": "M40-44",
+    "finish_time": "06:09:28",
+    "finish_time_seconds": 22168,
+    "gender_place": "138",
+    "graded_time_seconds": 20532.0016,
+    "graded_time": "05:42:12",
+    "unique_key": [
+      "Morgan Granese",
+      "06:09:28"
+    ],
+    "graded_place": 136,
+    "ag_place": 28
+  },
+  {
+    "bib": "684",
+    "name": "Muhamad Sahrizan",
+    "age_group": "M50-54",
+    "finish_time": "06:27:37",
+    "finish_time_seconds": 23257,
+    "gender_place": "170",
+    "graded_time_seconds": 20542.9081,
+    "graded_time": "05:42:22",
+    "unique_key": [
+      "Muhamad Sahrizan",
+      "06:27:37"
+    ],
+    "graded_place": 137,
+    "ag_place": 21
+  },
+  {
+    "bib": "650",
+    "name": "Mohamad Amir Ikhwan Abdul Rashid",
+    "age_group": "M30-34",
+    "finish_time": "05:55:31",
+    "finish_time_seconds": 21331,
+    "gender_place": "102",
+    "graded_time_seconds": 20595.0805,
+    "graded_time": "05:43:15",
+    "unique_key": [
+      "Mohamad Amir Ikhwan Abdul Rashid",
+      "05:55:31"
+    ],
+    "graded_place": 138,
+    "ag_place": 12
+  },
+  {
+    "bib": "212",
+    "name": "Ashim Garg",
+    "age_group": "M30-34",
+    "finish_time": "05:55:45",
+    "finish_time_seconds": 21345,
+    "gender_place": "103",
+    "graded_time_seconds": 20608.5975,
+    "graded_time": "05:43:28",
+    "unique_key": [
+      "Ashim Garg",
+      "05:55:45"
+    ],
+    "graded_place": 139,
+    "ag_place": 13
+  },
+  {
+    "bib": "461",
+    "name": "Wei Keong Ng",
+    "age_group": "M45-49",
+    "finish_time": "06:24:17",
+    "finish_time_seconds": 23057,
+    "gender_place": "163",
+    "graded_time_seconds": 20700.5746,
+    "graded_time": "05:45:00",
+    "unique_key": [
+      "Wei Keong Ng",
+      "06:24:17"
+    ],
+    "graded_place": 140,
+    "ag_place": 19
+  },
+  {
+    "bib": "583",
+    "name": "Harvey Davis",
+    "age_group": "M55-59",
+    "finish_time": "06:42:57",
+    "finish_time_seconds": 24177,
+    "gender_place": "201",
+    "graded_time_seconds": 20707.6005,
+    "graded_time": "05:45:07",
+    "unique_key": [
+      "Harvey Davis",
+      "06:42:57"
+    ],
+    "graded_place": 141,
+    "ag_place": 12
+  },
+  {
+    "bib": "162",
+    "name": "Bo Jun Ngu",
+    "age_group": "M18-24",
+    "finish_time": "05:45:24",
+    "finish_time_seconds": 20724,
+    "gender_place": "80",
+    "graded_time_seconds": 20724.0,
+    "graded_time": "05:45:24",
+    "unique_key": [
+      "Bo Jun Ngu",
+      "05:45:24"
+    ],
+    "graded_place": 142,
+    "ag_place": 6
+  },
+  {
+    "bib": "140",
+    "name": "James Chua",
+    "age_group": "M40-44",
+    "finish_time": "06:12:58",
+    "finish_time_seconds": 22378,
+    "gender_place": "143",
+    "graded_time_seconds": 20726.5036,
+    "graded_time": "05:45:26",
+    "unique_key": [
+      "James Chua",
+      "06:12:58"
+    ],
+    "graded_place": 143,
+    "ag_place": 29
+  },
+  {
+    "bib": "466",
+    "name": "Kitipoj Vimolphan",
+    "age_group": "M45-49",
+    "finish_time": "06:26:30",
+    "finish_time_seconds": 23190,
+    "gender_place": "168",
+    "graded_time_seconds": 20819.982,
+    "graded_time": "05:46:59",
+    "unique_key": [
+      "Kitipoj Vimolphan",
+      "06:26:30"
+    ],
+    "graded_place": 144,
+    "ag_place": 20
+  },
+  {
+    "bib": "401",
+    "name": "Raymond Tay",
+    "age_group": "M40-44",
+    "finish_time": "06:14:58",
+    "finish_time_seconds": 22498,
+    "gender_place": "149",
+    "graded_time_seconds": 20837.6476,
+    "graded_time": "05:47:17",
+    "unique_key": [
+      "Raymond Tay",
+      "06:14:58"
+    ],
+    "graded_place": 145,
+    "ag_place": 30
+  },
+  {
+    "bib": "211",
+    "name": "Luqman Nordin",
+    "age_group": "M30-34",
+    "finish_time": "05:59:47",
+    "finish_time_seconds": 21587,
+    "gender_place": "111",
+    "graded_time_seconds": 20842.2485,
+    "graded_time": "05:47:22",
+    "unique_key": [
+      "Luqman Nordin",
+      "05:59:47"
+    ],
+    "graded_place": 146,
+    "ag_place": 14
+  },
+  {
+    "bib": "355",
+    "name": "Sam Polson",
+    "age_group": "M35-39",
+    "finish_time": "06:06:00",
+    "finish_time_seconds": 21960,
+    "gender_place": "130",
+    "graded_time_seconds": 20862.0,
+    "graded_time": "05:47:42",
+    "unique_key": [
+      "Sam Polson",
+      "06:06:00"
+    ],
+    "graded_place": 147,
+    "ag_place": 21
+  },
+  {
+    "bib": "255",
+    "name": "Parnupong Pawapotako",
+    "age_group": "M30-34",
+    "finish_time": "06:00:08",
+    "finish_time_seconds": 21608,
+    "gender_place": "114",
+    "graded_time_seconds": 20862.524,
+    "graded_time": "05:47:42",
+    "unique_key": [
+      "Parnupong Pawapotako",
+      "06:00:08"
+    ],
+    "graded_place": 148,
+    "ag_place": 15
+  },
+  {
+    "bib": "263",
+    "name": "Ahmad Hafiz Farhan Mohd Suhaimi",
+    "age_group": "M30-34",
+    "finish_time": "06:00:17",
+    "finish_time_seconds": 21617,
+    "gender_place": "116",
+    "graded_time_seconds": 20871.2135,
+    "graded_time": "05:47:51",
+    "unique_key": [
+      "Ahmad Hafiz Farhan Mohd Suhaimi",
+      "06:00:17"
+    ],
+    "graded_place": 149,
+    "ag_place": 16
+  },
+  {
+    "bib": "640",
+    "name": "Khairul Ikhwan Abd Aziz",
+    "age_group": "M30-34",
+    "finish_time": "06:00:29",
+    "finish_time_seconds": 21629,
+    "gender_place": "117",
+    "graded_time_seconds": 20882.7995,
+    "graded_time": "05:48:02",
+    "unique_key": [
+      "Khairul Ikhwan Abd Aziz",
+      "06:00:29"
+    ],
+    "graded_place": 150,
+    "ag_place": 17
+  },
+  {
+    "bib": "691",
+    "name": "Ahmad Zaim Hood",
+    "age_group": "M30-34",
+    "finish_time": "06:00:40",
+    "finish_time_seconds": 21640,
+    "gender_place": "118",
+    "graded_time_seconds": 20893.420000000002,
+    "graded_time": "05:48:13",
+    "unique_key": [
+      "Ahmad Zaim Hood",
+      "06:00:40"
+    ],
+    "graded_place": 151,
+    "ag_place": 18
+  },
+  {
+    "bib": "334",
+    "name": "Ali Cochran",
+    "age_group": "M35-39",
+    "finish_time": "06:06:44",
+    "finish_time_seconds": 22004,
+    "gender_place": "132",
+    "graded_time_seconds": 20903.8,
+    "graded_time": "05:48:23",
+    "unique_key": [
+      "Ali Cochran",
+      "06:06:44"
+    ],
+    "graded_place": 152,
+    "ag_place": 22
+  },
+  {
+    "bib": "224",
+    "name": "Michael Aldo Himawan",
+    "age_group": "M30-34",
+    "finish_time": "06:01:31",
+    "finish_time_seconds": 21691,
+    "gender_place": "119",
+    "graded_time_seconds": 20942.6605,
+    "graded_time": "05:49:02",
+    "unique_key": [
+      "Michael Aldo Himawan",
+      "06:01:31"
+    ],
+    "graded_place": 153,
+    "ag_place": 19
+  },
+  {
+    "bib": "501",
+    "name": "Chatri Khiaokaeo",
+    "age_group": "M45-49",
+    "finish_time": "06:28:57",
+    "finish_time_seconds": 23337,
+    "gender_place": "174",
+    "graded_time_seconds": 20951.9586,
+    "graded_time": "05:49:11",
+    "unique_key": [
+      "Chatri Khiaokaeo",
+      "06:28:57"
+    ],
+    "graded_place": 154,
+    "ag_place": 21
+  },
+  {
+    "bib": "506",
+    "name": "Tze Yang Soon",
+    "age_group": "M45-49",
+    "finish_time": "06:29:41",
+    "finish_time_seconds": 23381,
+    "gender_place": "177",
+    "graded_time_seconds": 20991.4618,
+    "graded_time": "05:49:51",
+    "unique_key": [
+      "Tze Yang Soon",
+      "06:29:41"
+    ],
+    "graded_place": 155,
+    "ag_place": 22
+  },
+  {
+    "bib": "652",
+    "name": "Hafiz Ariffin",
+    "age_group": "M35-39",
+    "finish_time": "06:08:34",
+    "finish_time_seconds": 22114,
+    "gender_place": "136",
+    "graded_time_seconds": 21008.3,
+    "graded_time": "05:50:08",
+    "unique_key": [
+      "Hafiz Ariffin",
+      "06:08:34"
+    ],
+    "graded_place": 156,
+    "ag_place": 23
+  },
+  {
+    "bib": "220",
+    "name": "Alexis Dardaine",
+    "age_group": "M30-34",
+    "finish_time": "06:02:47",
+    "finish_time_seconds": 21767,
+    "gender_place": "122",
+    "graded_time_seconds": 21016.0385,
+    "graded_time": "05:50:16",
+    "unique_key": [
+      "Alexis Dardaine",
+      "06:02:47"
+    ],
+    "graded_place": 157,
+    "ag_place": 20
+  },
+  {
+    "bib": "619",
+    "name": "Byoung Min Noh",
+    "age_group": "M65-69",
+    "finish_time": "07:40:59",
+    "finish_time_seconds": 27659,
+    "gender_place": "310",
+    "graded_time_seconds": 21131.476,
+    "graded_time": "05:52:11",
+    "unique_key": [
+      "Byoung Min Noh",
+      "07:40:59"
+    ],
+    "graded_place": 158,
+    "ag_place": 3
+  },
+  {
+    "bib": "446",
+    "name": "Mohd Fikri Ishak",
+    "age_group": "M40-44",
+    "finish_time": "06:20:37",
+    "finish_time_seconds": 22837,
+    "gender_place": "157",
+    "graded_time_seconds": 21151.6294,
+    "graded_time": "05:52:31",
+    "unique_key": [
+      "Mohd Fikri Ishak",
+      "06:20:37"
+    ],
+    "graded_place": 159,
+    "ag_place": 31
+  },
+  {
+    "bib": "592",
+    "name": "Frederic Gillant",
+    "age_group": "M55-59",
+    "finish_time": "06:51:42",
+    "finish_time_seconds": 24702,
+    "gender_place": "218",
+    "graded_time_seconds": 21157.263000000003,
+    "graded_time": "05:52:37",
+    "unique_key": [
+      "Frederic Gillant",
+      "06:51:42"
+    ],
+    "graded_place": 160,
+    "ag_place": 13
+  },
+  {
+    "bib": "344",
+    "name": "Jianrong Liu",
+    "age_group": "M35-39",
+    "finish_time": "06:11:32",
+    "finish_time_seconds": 22292,
+    "gender_place": "141",
+    "graded_time_seconds": 21177.399999999998,
+    "graded_time": "05:52:57",
+    "unique_key": [
+      "Jianrong Liu",
+      "06:11:32"
+    ],
+    "graded_place": 161,
+    "ag_place": 24
+  },
+  {
+    "bib": "253",
+    "name": "Eliot Brown",
+    "age_group": "M30-34",
+    "finish_time": "06:05:43",
+    "finish_time_seconds": 21943,
+    "gender_place": "129",
+    "graded_time_seconds": 21185.966500000002,
+    "graded_time": "05:53:05",
+    "unique_key": [
+      "Eliot Brown",
+      "06:05:43"
+    ],
+    "graded_place": 162,
+    "ag_place": 21
+  },
+  {
+    "bib": "576",
+    "name": "Matthew Khee Toong Yong",
+    "age_group": "M55-59",
+    "finish_time": "06:52:55",
+    "finish_time_seconds": 24775,
+    "gender_place": "220",
+    "graded_time_seconds": 21219.787500000002,
+    "graded_time": "05:53:39",
+    "unique_key": [
+      "Matthew Khee Toong Yong",
+      "06:52:55"
+    ],
+    "graded_place": 163,
+    "ag_place": 14
+  },
+  {
+    "bib": "477",
+    "name": "Noor Yazri Modan Johari",
+    "age_group": "M45-49",
+    "finish_time": "06:34:57",
+    "finish_time_seconds": 23697,
+    "gender_place": "187",
+    "graded_time_seconds": 21275.1666,
+    "graded_time": "05:54:35",
+    "unique_key": [
+      "Noor Yazri Modan Johari",
+      "06:34:57"
+    ],
+    "graded_place": 164,
+    "ag_place": 23
+  },
+  {
+    "bib": "597",
+    "name": "Charles Heberle",
+    "age_group": "M55-59",
+    "finish_time": "06:54:33",
+    "finish_time_seconds": 24873,
+    "gender_place": "226",
+    "graded_time_seconds": 21303.7245,
+    "graded_time": "05:55:03",
+    "unique_key": [
+      "Charles Heberle",
+      "06:54:33"
+    ],
+    "graded_place": 165,
+    "ag_place": 15
+  },
+  {
+    "bib": "217",
+    "name": "Nikita Zdorovenin",
+    "age_group": "M30-34",
+    "finish_time": "06:08:07",
+    "finish_time_seconds": 22087,
+    "gender_place": "135",
+    "graded_time_seconds": 21324.9985,
+    "graded_time": "05:55:24",
+    "unique_key": [
+      "Nikita Zdorovenin",
+      "06:08:07"
+    ],
+    "graded_place": 166,
+    "ag_place": 22
+  },
+  {
+    "bib": "341",
+    "name": "Valentin Golubev",
+    "age_group": "M35-39",
+    "finish_time": "06:14:23",
+    "finish_time_seconds": 22463,
+    "gender_place": "146",
+    "graded_time_seconds": 21339.85,
+    "graded_time": "05:55:39",
+    "unique_key": [
+      "Valentin Golubev",
+      "06:14:23"
+    ],
+    "graded_place": 167,
+    "ag_place": 25
+  },
+  {
+    "bib": "312",
+    "name": "Terence Thiang",
+    "age_group": "M35-39",
+    "finish_time": "06:14:28",
+    "finish_time_seconds": 22468,
+    "gender_place": "147",
+    "graded_time_seconds": 21344.6,
+    "graded_time": "05:55:44",
+    "unique_key": [
+      "Terence Thiang",
+      "06:14:28"
+    ],
+    "graded_place": 168,
+    "ag_place": 26
+  },
+  {
+    "bib": "472",
+    "name": "Phattanan Assawarangkul",
+    "age_group": "M45-49",
+    "finish_time": "06:36:47",
+    "finish_time_seconds": 23807,
+    "gender_place": "190",
+    "graded_time_seconds": 21373.924600000002,
+    "graded_time": "05:56:13",
+    "unique_key": [
+      "Phattanan Assawarangkul",
+      "06:36:47"
+    ],
+    "graded_place": 169,
+    "ag_place": 24
+  },
+  {
+    "bib": "606",
+    "name": "Shin Murata",
+    "age_group": "M60-64",
+    "finish_time": "07:15:00",
+    "finish_time_seconds": 26100,
+    "gender_place": "268",
+    "graded_time_seconds": 21381.120000000003,
+    "graded_time": "05:56:21",
+    "unique_key": [
+      "Shin Murata",
+      "07:15:00"
+    ],
+    "graded_place": 170,
+    "ag_place": 8
+  },
+  {
+    "bib": "363",
+    "name": "Vijay Raj",
+    "age_group": "M40-44",
+    "finish_time": "06:24:53",
+    "finish_time_seconds": 23093,
+    "gender_place": "165",
+    "graded_time_seconds": 21388.7366,
+    "graded_time": "05:56:28",
+    "unique_key": [
+      "Vijay Raj",
+      "06:24:53"
+    ],
+    "graded_place": 171,
+    "ag_place": 32
+  },
+  {
+    "bib": "636",
+    "name": "Stefan Zak",
+    "age_group": "M25-29",
+    "finish_time": "05:59:21",
+    "finish_time_seconds": 21561,
+    "gender_place": "108",
+    "graded_time_seconds": 21407.9169,
+    "graded_time": "05:56:47",
+    "unique_key": [
+      "Stefan Zak",
+      "05:59:21"
+    ],
+    "graded_place": 172,
+    "ag_place": 13
+  },
+  {
+    "bib": "553",
+    "name": "Ramesh Dharma",
+    "age_group": "M50-54",
+    "finish_time": "06:44:01",
+    "finish_time_seconds": 24241,
+    "gender_place": "205",
+    "graded_time_seconds": 21412.0753,
+    "graded_time": "05:56:52",
+    "unique_key": [
+      "Ramesh Dharma",
+      "06:44:01"
+    ],
+    "graded_place": 173,
+    "ag_place": 22
+  },
+  {
+    "bib": "666",
+    "name": "Anizan Romli",
+    "age_group": "M40-44",
+    "finish_time": "06:25:42",
+    "finish_time_seconds": 23142,
+    "gender_place": "167",
+    "graded_time_seconds": 21434.1204,
+    "graded_time": "05:57:14",
+    "unique_key": [
+      "Anizan Romli",
+      "06:25:42"
+    ],
+    "graded_place": 174,
+    "ag_place": 33
+  },
+  {
+    "bib": "206",
+    "name": "Arnav Anand",
+    "age_group": "M25-29",
+    "finish_time": "06:00:01",
+    "finish_time_seconds": 21601,
+    "gender_place": "112",
+    "graded_time_seconds": 21447.6329,
+    "graded_time": "05:57:27",
+    "unique_key": [
+      "Arnav Anand",
+      "06:00:01"
+    ],
+    "graded_place": 175,
+    "ag_place": 14
+  },
+  {
+    "bib": "634",
+    "name": "Saiful Syazwan",
+    "age_group": "M25-29",
+    "finish_time": "06:00:01",
+    "finish_time_seconds": 21601,
+    "gender_place": "113",
+    "graded_time_seconds": 21447.6329,
+    "graded_time": "05:57:27",
+    "unique_key": [
+      "Saiful Syazwan",
+      "06:00:01"
+    ],
+    "graded_place": 175,
+    "ag_place": 15
+  },
+  {
+    "bib": "151",
+    "name": "Ahmad Dani Amir Fariz",
+    "age_group": "M18-24",
+    "finish_time": "06:00:17",
+    "finish_time_seconds": 21617,
+    "gender_place": "115",
+    "graded_time_seconds": 21617.0,
+    "graded_time": "06:00:17",
+    "unique_key": [
+      "Ahmad Dani Amir Fariz",
+      "06:00:17"
+    ],
+    "graded_place": 177,
+    "ag_place": 7
+  },
+  {
+    "bib": "655",
+    "name": "Saiful Khohar Bin Abdul Halim",
+    "age_group": "M35-39",
+    "finish_time": "06:19:34",
+    "finish_time_seconds": 22774,
+    "gender_place": "155",
+    "graded_time_seconds": 21635.3,
+    "graded_time": "06:00:35",
+    "unique_key": [
+      "Saiful Khohar Bin Abdul Halim",
+      "06:19:34"
+    ],
+    "graded_place": 178,
+    "ag_place": 27
+  },
+  {
+    "bib": "552",
+    "name": "Stephen Willett",
+    "age_group": "M50-54",
+    "finish_time": "06:48:50",
+    "finish_time_seconds": 24530,
+    "gender_place": "211",
+    "graded_time_seconds": 21667.349,
+    "graded_time": "06:01:07",
+    "unique_key": [
+      "Stephen Willett",
+      "06:48:50"
+    ],
+    "graded_place": 179,
+    "ag_place": 23
+  },
+  {
+    "bib": "416",
+    "name": "Nattapon Nark-Iam",
+    "age_group": "M40-44",
+    "finish_time": "06:30:45",
+    "finish_time_seconds": 23445,
+    "gender_place": "179",
+    "graded_time_seconds": 21714.759000000002,
+    "graded_time": "06:01:54",
+    "unique_key": [
+      "Nattapon Nark-Iam",
+      "06:30:45"
+    ],
+    "graded_place": 180,
+    "ag_place": 34
+  },
+  {
+    "bib": "525",
+    "name": "Stephane Thiltgen",
+    "age_group": "M50-54",
+    "finish_time": "06:49:51",
+    "finish_time_seconds": 24591,
+    "gender_place": "214",
+    "graded_time_seconds": 21721.2303,
+    "graded_time": "06:02:01",
+    "unique_key": [
+      "Stephane Thiltgen",
+      "06:49:51"
+    ],
+    "graded_place": 181,
+    "ag_place": 24
+  },
+  {
+    "bib": "155",
+    "name": "Wan Adam Mustazza",
+    "age_group": "M18-24",
+    "finish_time": "06:02:05",
+    "finish_time_seconds": 21725,
+    "gender_place": "120",
+    "graded_time_seconds": 21725.0,
+    "graded_time": "06:02:05",
+    "unique_key": [
+      "Wan Adam Mustazza",
+      "06:02:05"
+    ],
+    "graded_place": 182,
+    "ag_place": 8
+  },
+  {
+    "bib": "229",
+    "name": "Pierre Chuah Lee Yan",
+    "age_group": "M30-34",
+    "finish_time": "06:15:42",
+    "finish_time_seconds": 22542,
+    "gender_place": "152",
+    "graded_time_seconds": 21764.301,
+    "graded_time": "06:02:44",
+    "unique_key": [
+      "Pierre Chuah Lee Yan",
+      "06:15:42"
+    ],
+    "graded_place": 183,
+    "ag_place": 23
+  },
+  {
+    "bib": "149",
+    "name": "Mark Nelson",
+    "age_group": "M60-64",
+    "finish_time": "07:23:11",
+    "finish_time_seconds": 26591,
+    "gender_place": "283",
+    "graded_time_seconds": 21783.3472,
+    "graded_time": "06:03:03",
+    "unique_key": [
+      "Mark Nelson",
+      "07:23:11"
+    ],
+    "graded_place": 184,
+    "ag_place": 9
+  },
+  {
+    "bib": "596",
+    "name": "Manfred Howald",
+    "age_group": "M55-59",
+    "finish_time": "07:04:46",
+    "finish_time_seconds": 25486,
+    "gender_place": "245",
+    "graded_time_seconds": 21828.759000000002,
+    "graded_time": "06:03:48",
+    "unique_key": [
+      "Manfred Howald",
+      "07:04:46"
+    ],
+    "graded_place": 185,
+    "ag_place": 16
+  },
+  {
+    "bib": "372",
+    "name": "Paulo Jorge Coelho Aguayo",
+    "age_group": "M40-44",
+    "finish_time": "06:32:56",
+    "finish_time_seconds": 23576,
+    "gender_place": "180",
+    "graded_time_seconds": 21836.0912,
+    "graded_time": "06:03:56",
+    "unique_key": [
+      "Paulo Jorge Coelho Aguayo",
+      "06:32:56"
+    ],
+    "graded_place": 186,
+    "ag_place": 35
+  },
+  {
+    "bib": "520",
+    "name": "Kekwee Yet",
+    "age_group": "M50-54",
+    "finish_time": "06:52:34",
+    "finish_time_seconds": 24754,
+    "gender_place": "219",
+    "graded_time_seconds": 21865.2082,
+    "graded_time": "06:04:25",
+    "unique_key": [
+      "Kekwee Yet",
+      "06:52:34"
+    ],
+    "graded_place": 187,
+    "ag_place": 25
+  },
+  {
+    "bib": "637",
+    "name": "Yi Ng",
+    "age_group": "M25-29",
+    "finish_time": "06:07:04",
+    "finish_time_seconds": 22024,
+    "gender_place": "133",
+    "graded_time_seconds": 21867.6296,
+    "graded_time": "06:04:27",
+    "unique_key": [
+      "Yi Ng",
+      "06:07:04"
+    ],
+    "graded_place": 188,
+    "ag_place": 16
+  },
+  {
+    "bib": "340",
+    "name": "Nur Khairi Razali",
+    "age_group": "M35-39",
+    "finish_time": "06:24:13",
+    "finish_time_seconds": 23053,
+    "gender_place": "162",
+    "graded_time_seconds": 21900.35,
+    "graded_time": "06:05:00",
+    "unique_key": [
+      "Nur Khairi Razali",
+      "06:24:13"
+    ],
+    "graded_place": 189,
+    "ag_place": 28
+  },
+  {
+    "bib": "465",
+    "name": "Henry Ong",
+    "age_group": "M45-49",
+    "finish_time": "06:46:41",
+    "finish_time_seconds": 24401,
+    "gender_place": "207",
+    "graded_time_seconds": 21907.217800000002,
+    "graded_time": "06:05:07",
+    "unique_key": [
+      "Henry Ong",
+      "06:46:41"
+    ],
+    "graded_place": 190,
+    "ag_place": 25
+  },
+  {
+    "bib": "692",
+    "name": "Mohamad Azzuan Fauzi",
+    "age_group": "M30-34",
+    "finish_time": "06:19:04",
+    "finish_time_seconds": 22744,
+    "gender_place": "154",
+    "graded_time_seconds": 21959.332000000002,
+    "graded_time": "06:05:59",
+    "unique_key": [
+      "Mohamad Azzuan Fauzi",
+      "06:19:04"
+    ],
+    "graded_place": 191,
+    "ag_place": 24
+  },
+  {
+    "bib": "539",
+    "name": "Aris Yuseno",
+    "age_group": "M50-54",
+    "finish_time": "06:54:28",
+    "finish_time_seconds": 24868,
+    "gender_place": "225",
+    "graded_time_seconds": 21965.9044,
+    "graded_time": "06:06:05",
+    "unique_key": [
+      "Aris Yuseno",
+      "06:54:28"
+    ],
+    "graded_place": 192,
+    "ag_place": 26
+  },
+  {
+    "bib": "595",
+    "name": "Ichiro Saito",
+    "age_group": "M55-59",
+    "finish_time": "07:07:28",
+    "finish_time_seconds": 25648,
+    "gender_place": "254",
+    "graded_time_seconds": 21967.512000000002,
+    "graded_time": "06:06:07",
+    "unique_key": [
+      "Ichiro Saito",
+      "07:07:28"
+    ],
+    "graded_place": 193,
+    "ag_place": 17
+  },
+  {
+    "bib": "327",
+    "name": "Yeh Fengming",
+    "age_group": "M35-39",
+    "finish_time": "06:26:35",
+    "finish_time_seconds": 23195,
+    "gender_place": "169",
+    "graded_time_seconds": 22035.25,
+    "graded_time": "06:07:15",
+    "unique_key": [
+      "Yeh Fengming",
+      "06:26:35"
+    ],
+    "graded_place": 194,
+    "ag_place": 29
+  },
+  {
+    "bib": "509",
+    "name": "Louis Pienaar",
+    "age_group": "M45-49",
+    "finish_time": "06:49:14",
+    "finish_time_seconds": 24554,
+    "gender_place": "213",
+    "graded_time_seconds": 22044.5812,
+    "graded_time": "06:07:24",
+    "unique_key": [
+      "Louis Pienaar",
+      "06:49:14"
+    ],
+    "graded_place": 195,
+    "ag_place": 26
+  },
+  {
+    "bib": "214",
+    "name": "Moritz Arend",
+    "age_group": "M30-34",
+    "finish_time": "06:21:33",
+    "finish_time_seconds": 22893,
+    "gender_place": "159",
+    "graded_time_seconds": 22103.1915,
+    "graded_time": "06:08:23",
+    "unique_key": [
+      "Moritz Arend",
+      "06:21:33"
+    ],
+    "graded_place": 196,
+    "ag_place": 25
+  },
+  {
+    "bib": "454",
+    "name": "Adrian Waters",
+    "age_group": "M45-49",
+    "finish_time": "06:50:25",
+    "finish_time_seconds": 24625,
+    "gender_place": "216",
+    "graded_time_seconds": 22108.325,
+    "graded_time": "06:08:28",
+    "unique_key": [
+      "Adrian Waters",
+      "06:50:25"
+    ],
+    "graded_place": 197,
+    "ag_place": 27
+  },
+  {
+    "bib": "643",
+    "name": "Abu Ubaidah Bin Muhammad Hamzah",
+    "age_group": "M30-34",
+    "finish_time": "06:21:39",
+    "finish_time_seconds": 22899,
+    "gender_place": "160",
+    "graded_time_seconds": 22108.984500000002,
+    "graded_time": "06:08:28",
+    "unique_key": [
+      "Abu Ubaidah Bin Muhammad Hamzah",
+      "06:21:39"
+    ],
+    "graded_place": 198,
+    "ag_place": 26
+  },
+  {
+    "bib": "382",
+    "name": "Che Wei Chang",
+    "age_group": "M40-44",
+    "finish_time": "06:38:06",
+    "finish_time_seconds": 23886,
+    "gender_place": "194",
+    "graded_time_seconds": 22123.213200000002,
+    "graded_time": "06:08:43",
+    "unique_key": [
+      "Che Wei Chang",
+      "06:38:06"
+    ],
+    "graded_place": 199,
+    "ag_place": 36
+  },
+  {
+    "bib": "697",
+    "name": "Bhuwana Paksi",
+    "age_group": "M35-39",
+    "finish_time": "06:29:15",
+    "finish_time_seconds": 23355,
+    "gender_place": "175",
+    "graded_time_seconds": 22187.25,
+    "graded_time": "06:09:47",
+    "unique_key": [
+      "Bhuwana Paksi",
+      "06:29:15"
+    ],
+    "graded_place": 200,
+    "ag_place": 30
+  },
+  {
+    "bib": "176",
+    "name": "Redzman Ridzuan",
+    "age_group": "M25-29",
+    "finish_time": "06:14:29",
+    "finish_time_seconds": 22469,
+    "gender_place": "148",
+    "graded_time_seconds": 22309.4701,
+    "graded_time": "06:11:49",
+    "unique_key": [
+      "Redzman Ridzuan",
+      "06:14:29"
+    ],
+    "graded_place": 201,
+    "ag_place": 17
+  },
+  {
+    "bib": "153",
+    "name": "Shintaro Yamaoka",
+    "age_group": "M18-24",
+    "finish_time": "06:11:59",
+    "finish_time_seconds": 22319,
+    "gender_place": "142",
+    "graded_time_seconds": 22319.0,
+    "graded_time": "06:11:59",
+    "unique_key": [
+      "Shintaro Yamaoka",
+      "06:11:59"
+    ],
+    "graded_place": 202,
+    "ag_place": 9
+  },
+  {
+    "bib": "491",
+    "name": "K Suan",
+    "age_group": "M45-49",
+    "finish_time": "06:55:37",
+    "finish_time_seconds": 24937,
+    "gender_place": "227",
+    "graded_time_seconds": 22388.4386,
+    "graded_time": "06:13:08",
+    "unique_key": [
+      "K Suan",
+      "06:55:37"
+    ],
+    "graded_place": 203,
+    "ag_place": 28
+  },
+  {
+    "bib": "599",
+    "name": "Michael Rooney",
+    "age_group": "M55-59",
+    "finish_time": "07:16:52",
+    "finish_time_seconds": 26212,
+    "gender_place": "271",
+    "graded_time_seconds": 22450.578,
+    "graded_time": "06:14:10",
+    "unique_key": [
+      "Michael Rooney",
+      "07:16:52"
+    ],
+    "graded_place": 204,
+    "ag_place": 18
+  },
+  {
+    "bib": "702",
+    "name": "Fabien Lecuona",
+    "age_group": "M35-39",
+    "finish_time": "06:33:55",
+    "finish_time_seconds": 23635,
+    "gender_place": "182",
+    "graded_time_seconds": 22453.25,
+    "graded_time": "06:14:13",
+    "unique_key": [
+      "Fabien Lecuona",
+      "06:33:55"
+    ],
+    "graded_place": 205,
+    "ag_place": 31
+  },
+  {
+    "bib": "250",
+    "name": "Alexander Cater",
+    "age_group": "M30-34",
+    "finish_time": "06:28:06",
+    "finish_time_seconds": 23286,
+    "gender_place": "171",
+    "graded_time_seconds": 22482.633,
+    "graded_time": "06:14:42",
+    "unique_key": [
+      "Alexander Cater",
+      "06:28:06"
+    ],
+    "graded_place": 206,
+    "ag_place": 27
+  },
+  {
+    "bib": "342",
+    "name": "Junhao Edwin Tan",
+    "age_group": "M35-39",
+    "finish_time": "06:34:29",
+    "finish_time_seconds": 23669,
+    "gender_place": "183",
+    "graded_time_seconds": 22485.55,
+    "graded_time": "06:14:45",
+    "unique_key": [
+      "Junhao Edwin Tan",
+      "06:34:29"
+    ],
+    "graded_place": 207,
+    "ag_place": 32
+  },
+  {
+    "bib": "186",
+    "name": "Jonathan Ong",
+    "age_group": "M25-29",
+    "finish_time": "06:17:27",
+    "finish_time_seconds": 22647,
+    "gender_place": "153",
+    "graded_time_seconds": 22486.2063,
+    "graded_time": "06:14:46",
+    "unique_key": [
+      "Jonathan Ong",
+      "06:17:27"
+    ],
+    "graded_place": 208,
+    "ag_place": 18
+  },
+  {
+    "bib": "326",
+    "name": "Muhammad Radhi Hasim",
+    "age_group": "M35-39",
+    "finish_time": "06:34:49",
+    "finish_time_seconds": 23689,
+    "gender_place": "186",
+    "graded_time_seconds": 22504.55,
+    "graded_time": "06:15:04",
+    "unique_key": [
+      "Muhammad Radhi Hasim",
+      "06:34:49"
+    ],
+    "graded_place": 209,
+    "ag_place": 33
+  },
+  {
+    "bib": "519",
+    "name": "Hatta Affendy Abu Bakar",
+    "age_group": "M50-54",
+    "finish_time": "07:04:54",
+    "finish_time_seconds": 25494,
+    "gender_place": "246",
+    "graded_time_seconds": 22518.8502,
+    "graded_time": "06:15:18",
+    "unique_key": [
+      "Hatta Affendy Abu Bakar",
+      "07:04:54"
+    ],
+    "graded_place": 210,
+    "ag_place": 27
+  },
+  {
+    "bib": "292",
+    "name": "Aaron Ang",
+    "age_group": "M35-39",
+    "finish_time": "06:35:52",
+    "finish_time_seconds": 23752,
+    "gender_place": "189",
+    "graded_time_seconds": 22564.399999999998,
+    "graded_time": "06:16:04",
+    "unique_key": [
+      "Aaron Ang",
+      "06:35:52"
+    ],
+    "graded_place": 211,
+    "ag_place": 34
+  },
+  {
+    "bib": "234",
+    "name": "Audrick Balum",
+    "age_group": "M30-34",
+    "finish_time": "06:30:11",
+    "finish_time_seconds": 23411,
+    "gender_place": "178",
+    "graded_time_seconds": 22603.3205,
+    "graded_time": "06:16:43",
+    "unique_key": [
+      "Audrick Balum",
+      "06:30:11"
+    ],
+    "graded_place": 212,
+    "ag_place": 28
+  },
+  {
+    "bib": "320",
+    "name": "Muhamad Azwan Bin Saedon",
+    "age_group": "M35-39",
+    "finish_time": "06:37:18",
+    "finish_time_seconds": 23838,
+    "gender_place": "193",
+    "graded_time_seconds": 22646.1,
+    "graded_time": "06:17:26",
+    "unique_key": [
+      "Muhamad Azwan Bin Saedon",
+      "06:37:18"
+    ],
+    "graded_place": 213,
+    "ag_place": 35
+  },
+  {
+    "bib": "370",
+    "name": "Terrence Lawai Wan",
+    "age_group": "M40-44",
+    "finish_time": "06:47:51",
+    "finish_time_seconds": 24471,
+    "gender_place": "209",
+    "graded_time_seconds": 22665.0402,
+    "graded_time": "06:17:45",
+    "unique_key": [
+      "Terrence Lawai Wan",
+      "06:47:51"
+    ],
+    "graded_place": 214,
+    "ag_place": 37
+  },
+  {
+    "bib": "617",
+    "name": "Eng Hin Chew",
+    "age_group": "M65-69",
+    "finish_time": "08:14:50",
+    "finish_time_seconds": 29690,
+    "gender_place": "368",
+    "graded_time_seconds": 22683.16,
+    "graded_time": "06:18:03",
+    "unique_key": [
+      "Eng Hin Chew",
+      "08:14:50"
+    ],
+    "graded_place": 215,
+    "ag_place": 4
+  },
+  {
+    "bib": "467",
+    "name": "Fazli Shamsuddin",
+    "age_group": "M45-49",
+    "finish_time": "07:01:19",
+    "finish_time_seconds": 25279,
+    "gender_place": "237",
+    "graded_time_seconds": 22695.4862,
+    "graded_time": "06:18:15",
+    "unique_key": [
+      "Fazli Shamsuddin",
+      "07:01:19"
+    ],
+    "graded_place": 216,
+    "ag_place": 29
+  },
+  {
+    "bib": "551",
+    "name": "Mark Hawkins",
+    "age_group": "M50-54",
+    "finish_time": "07:09:11",
+    "finish_time_seconds": 25751,
+    "gender_place": "257",
+    "graded_time_seconds": 22745.8583,
+    "graded_time": "06:19:05",
+    "unique_key": [
+      "Mark Hawkins",
+      "07:09:11"
+    ],
+    "graded_place": 217,
+    "ag_place": 28
+  },
+  {
+    "bib": "138",
+    "name": "Nicholas Chia",
+    "age_group": "M40-44",
+    "finish_time": "06:49:58",
+    "finish_time_seconds": 24598,
+    "gender_place": "215",
+    "graded_time_seconds": 22782.6676,
+    "graded_time": "06:19:42",
+    "unique_key": [
+      "Nicholas Chia",
+      "06:49:58"
+    ],
+    "graded_place": 218,
+    "ag_place": 38
+  },
+  {
+    "bib": "524",
+    "name": "Ramesh Ramasamy",
+    "age_group": "M50-54",
+    "finish_time": "07:10:09",
+    "finish_time_seconds": 25809,
+    "gender_place": "258",
+    "graded_time_seconds": 22797.0897,
+    "graded_time": "06:19:57",
+    "unique_key": [
+      "Ramesh Ramasamy",
+      "07:10:09"
+    ],
+    "graded_place": 219,
+    "ag_place": 29
+  },
+  {
+    "bib": "242",
+    "name": "Jenq Lung Tan",
+    "age_group": "M30-34",
+    "finish_time": "06:34:36",
+    "finish_time_seconds": 23676,
+    "gender_place": "184",
+    "graded_time_seconds": 22859.178,
+    "graded_time": "06:20:59",
+    "unique_key": [
+      "Jenq Lung Tan",
+      "06:34:36"
+    ],
+    "graded_place": 220,
+    "ag_place": 29
+  },
+  {
+    "bib": "648",
+    "name": "Hasnan Nizam Hashim",
+    "age_group": "M30-34",
+    "finish_time": "06:35:21",
+    "finish_time_seconds": 23721,
+    "gender_place": "188",
+    "graded_time_seconds": 22902.625500000002,
+    "graded_time": "06:21:42",
+    "unique_key": [
+      "Hasnan Nizam Hashim",
+      "06:35:21"
+    ],
+    "graded_place": 221,
+    "ag_place": 30
+  },
+  {
+    "bib": "167",
+    "name": "Wichaya Wongwarawanit",
+    "age_group": "M25-29",
+    "finish_time": "06:25:27",
+    "finish_time_seconds": 23127,
+    "gender_place": "166",
+    "graded_time_seconds": 22962.7983,
+    "graded_time": "06:22:42",
+    "unique_key": [
+      "Wichaya Wongwarawanit",
+      "06:25:27"
+    ],
+    "graded_place": 222,
+    "ag_place": 19
+  },
+  {
+    "bib": "423",
+    "name": "Kenny VAN Wesepoel",
+    "age_group": "M40-44",
+    "finish_time": "06:53:13",
+    "finish_time_seconds": 24793,
+    "gender_place": "222",
+    "graded_time_seconds": 22963.2766,
+    "graded_time": "06:22:43",
+    "unique_key": [
+      "Kenny VAN Wesepoel",
+      "06:53:13"
+    ],
+    "graded_place": 223,
+    "ag_place": 39
+  },
+  {
+    "bib": "159",
+    "name": "Jacob Tay",
+    "age_group": "M18-24",
+    "finish_time": "06:22:44",
+    "finish_time_seconds": 22964,
+    "gender_place": "161",
+    "graded_time_seconds": 22964.0,
+    "graded_time": "06:22:44",
+    "unique_key": [
+      "Jacob Tay",
+      "06:22:44"
+    ],
+    "graded_place": 224,
+    "ag_place": 10
+  },
+  {
+    "bib": "288",
+    "name": "Purit Hemwadee",
+    "age_group": "M30-34",
+    "finish_time": "06:37:10",
+    "finish_time_seconds": 23830,
+    "gender_place": "192",
+    "graded_time_seconds": 23007.865,
+    "graded_time": "06:23:27",
+    "unique_key": [
+      "Purit Hemwadee",
+      "06:37:10"
+    ],
+    "graded_place": 225,
+    "ag_place": 31
+  },
+  {
+    "bib": "654",
+    "name": "Mohd Sharizwan Mohamad Shah",
+    "age_group": "M35-39",
+    "finish_time": "06:43:49",
+    "finish_time_seconds": 24229,
+    "gender_place": "204",
+    "graded_time_seconds": 23017.55,
+    "graded_time": "06:23:37",
+    "unique_key": [
+      "Mohd Sharizwan Mohamad Shah",
+      "06:43:49"
+    ],
+    "graded_place": 226,
+    "ag_place": 36
+  },
+  {
+    "bib": "394",
+    "name": "Fakruradzi Abu Zaki",
+    "age_group": "M40-44",
+    "finish_time": "06:54:15",
+    "finish_time_seconds": 24855,
+    "gender_place": "224",
+    "graded_time_seconds": 23020.701,
+    "graded_time": "06:23:40",
+    "unique_key": [
+      "Fakruradzi Abu Zaki",
+      "06:54:15"
+    ],
+    "graded_place": 227,
+    "ag_place": 40
+  },
+  {
+    "bib": "623",
+    "name": "Gary Lee",
+    "age_group": "M65-69",
+    "finish_time": "08:23:17",
+    "finish_time_seconds": 30197,
+    "gender_place": "377",
+    "graded_time_seconds": 23070.508,
+    "graded_time": "06:24:30",
+    "unique_key": [
+      "Gary Lee",
+      "08:23:17"
+    ],
+    "graded_place": 228,
+    "ag_place": 5
+  },
+  {
+    "bib": "658",
+    "name": "Muhammad Hazali Hamid",
+    "age_group": "M40-44",
+    "finish_time": "06:55:49",
+    "finish_time_seconds": 24949,
+    "gender_place": "229",
+    "graded_time_seconds": 23107.7638,
+    "graded_time": "06:25:07",
+    "unique_key": [
+      "Muhammad Hazali Hamid",
+      "06:55:49"
+    ],
+    "graded_place": 229,
+    "ag_place": 41
+  },
+  {
+    "bib": "554",
+    "name": "Arnut Kittikulmetee",
+    "age_group": "M50-54",
+    "finish_time": "07:19:50",
+    "finish_time_seconds": 26390,
+    "gender_place": "277",
+    "graded_time_seconds": 23310.287,
+    "graded_time": "06:28:30",
+    "unique_key": [
+      "Arnut Kittikulmetee",
+      "07:19:50"
+    ],
+    "graded_place": 230,
+    "ag_place": 30
+  },
+  {
+    "bib": "322",
+    "name": "Mohd Bazli Bachok",
+    "age_group": "M35-39",
+    "finish_time": "06:49:00",
+    "finish_time_seconds": 24540,
+    "gender_place": "212",
+    "graded_time_seconds": 23313.0,
+    "graded_time": "06:28:33",
+    "unique_key": [
+      "Mohd Bazli Bachok",
+      "06:49:00"
+    ],
+    "graded_place": 231,
+    "ag_place": 37
+  },
+  {
+    "bib": "283",
+    "name": "Aleksandr Kostylev",
+    "age_group": "M30-34",
+    "finish_time": "06:43:00",
+    "finish_time_seconds": 24180,
+    "gender_place": "202",
+    "graded_time_seconds": 23345.79,
+    "graded_time": "06:29:05",
+    "unique_key": [
+      "Aleksandr Kostylev",
+      "06:43:00"
+    ],
+    "graded_place": 232,
+    "ag_place": 32
+  },
+  {
+    "bib": "276",
+    "name": "Yuh Yao Wong",
+    "age_group": "M30-34",
+    "finish_time": "06:43:07",
+    "finish_time_seconds": 24187,
+    "gender_place": "203",
+    "graded_time_seconds": 23352.5485,
+    "graded_time": "06:29:12",
+    "unique_key": [
+      "Yuh Yao Wong",
+      "06:43:07"
+    ],
+    "graded_place": 233,
+    "ag_place": 33
+  },
+  {
+    "bib": "659",
+    "name": "Muhammad Jasni Khalid",
+    "age_group": "M40-44",
+    "finish_time": "07:00:48",
+    "finish_time_seconds": 25248,
+    "gender_place": "234",
+    "graded_time_seconds": 23384.6976,
+    "graded_time": "06:29:44",
+    "unique_key": [
+      "Muhammad Jasni Khalid",
+      "07:00:48"
+    ],
+    "graded_place": 234,
+    "ag_place": 42
+  },
+  {
+    "bib": "389",
+    "name": "Aminuddin Hajumat",
+    "age_group": "M40-44",
+    "finish_time": "07:01:17",
+    "finish_time_seconds": 25277,
+    "gender_place": "236",
+    "graded_time_seconds": 23411.5574,
+    "graded_time": "06:30:11",
+    "unique_key": [
+      "Aminuddin Hajumat",
+      "07:01:17"
+    ],
+    "graded_place": 235,
+    "ag_place": 43
+  },
+  {
+    "bib": "611",
+    "name": "Othman Ali Bin Mahmud",
+    "age_group": "M60-64",
+    "finish_time": "07:56:53",
+    "finish_time_seconds": 28613,
+    "gender_place": "339",
+    "graded_time_seconds": 23439.7696,
+    "graded_time": "06:30:39",
+    "unique_key": [
+      "Othman Ali Bin Mahmud",
+      "07:56:53"
+    ],
+    "graded_place": 236,
+    "ag_place": 10
+  },
+  {
+    "bib": "171",
+    "name": "Lennon Tan",
+    "age_group": "M25-29",
+    "finish_time": "06:33:45",
+    "finish_time_seconds": 23625,
+    "gender_place": "181",
+    "graded_time_seconds": 23457.2625,
+    "graded_time": "06:30:57",
+    "unique_key": [
+      "Lennon Tan",
+      "06:33:45"
+    ],
+    "graded_place": 237,
+    "ag_place": 20
+  },
+  {
+    "bib": "609",
+    "name": "Ralf Lambert",
+    "age_group": "M60-64",
+    "finish_time": "07:58:07",
+    "finish_time_seconds": 28687,
+    "gender_place": "343",
+    "graded_time_seconds": 23500.3904,
+    "graded_time": "06:31:40",
+    "unique_key": [
+      "Ralf Lambert",
+      "07:58:07"
+    ],
+    "graded_place": 238,
+    "ag_place": 11
+  },
+  {
+    "bib": "183",
+    "name": "Haiqal Haziq Nor Sham",
+    "age_group": "M25-29",
+    "finish_time": "06:34:47",
+    "finish_time_seconds": 23687,
+    "gender_place": "185",
+    "graded_time_seconds": 23518.8223,
+    "graded_time": "06:31:58",
+    "unique_key": [
+      "Haiqal Haziq Nor Sham",
+      "06:34:47"
+    ],
+    "graded_place": 239,
+    "ag_place": 21
+  },
+  {
+    "bib": "533",
+    "name": "Norhisham Supandi",
+    "age_group": "M50-54",
+    "finish_time": "07:24:26",
+    "finish_time_seconds": 26666,
+    "gender_place": "285",
+    "graded_time_seconds": 23554.0778,
+    "graded_time": "06:32:34",
+    "unique_key": [
+      "Norhisham Supandi",
+      "07:24:26"
+    ],
+    "graded_place": 240,
+    "ag_place": 31
+  },
+  {
+    "bib": "421",
+    "name": "Jason Lim",
+    "age_group": "M40-44",
+    "finish_time": "07:04:03",
+    "finish_time_seconds": 25443,
+    "gender_place": "242",
+    "graded_time_seconds": 23565.3066,
+    "graded_time": "06:32:45",
+    "unique_key": [
+      "Jason Lim",
+      "07:04:03"
+    ],
+    "graded_place": 241,
+    "ag_place": 44
+  },
+  {
+    "bib": "213",
+    "name": "Izhar Syafie",
+    "age_group": "M30-34",
+    "finish_time": "06:46:52",
+    "finish_time_seconds": 24412,
+    "gender_place": "208",
+    "graded_time_seconds": 23569.786,
+    "graded_time": "06:32:49",
+    "unique_key": [
+      "Izhar Syafie",
+      "06:46:52"
+    ],
+    "graded_place": 242,
+    "ag_place": 34
+  },
+  {
+    "bib": "664",
+    "name": "Mohd Redwan Jaafar",
+    "age_group": "M40-44",
+    "finish_time": "07:04:08",
+    "finish_time_seconds": 25448,
+    "gender_place": "243",
+    "graded_time_seconds": 23569.9376,
+    "graded_time": "06:32:49",
+    "unique_key": [
+      "Mohd Redwan Jaafar",
+      "07:04:08"
+    ],
+    "graded_place": 243,
+    "ag_place": 45
+  },
+  {
+    "bib": "303",
+    "name": "Hanif Amin",
+    "age_group": "M35-39",
+    "finish_time": "06:53:49",
+    "finish_time_seconds": 24829,
+    "gender_place": "223",
+    "graded_time_seconds": 23587.55,
+    "graded_time": "06:33:07",
+    "unique_key": [
+      "Hanif Amin",
+      "06:53:49"
+    ],
+    "graded_place": 244,
+    "ag_place": 38
+  },
+  {
+    "bib": "534",
+    "name": "Ee Leong Ong",
+    "age_group": "M50-54",
+    "finish_time": "07:26:04",
+    "finish_time_seconds": 26764,
+    "gender_place": "287",
+    "graded_time_seconds": 23640.6412,
+    "graded_time": "06:34:00",
+    "unique_key": [
+      "Ee Leong Ong",
+      "07:26:04"
+    ],
+    "graded_place": 245,
+    "ag_place": 32
+  },
+  {
+    "bib": "675",
+    "name": "Khairul Jaza Saadon",
+    "age_group": "M45-49",
+    "finish_time": "07:19:01",
+    "finish_time_seconds": 26341,
+    "gender_place": "276",
+    "graded_time_seconds": 23648.949800000002,
+    "graded_time": "06:34:08",
+    "unique_key": [
+      "Khairul Jaza Saadon",
+      "07:19:01"
+    ],
+    "graded_place": 246,
+    "ag_place": 30
+  },
+  {
+    "bib": "236",
+    "name": "Usman Taib",
+    "age_group": "M30-34",
+    "finish_time": "06:48:38",
+    "finish_time_seconds": 24518,
+    "gender_place": "210",
+    "graded_time_seconds": 23672.129,
+    "graded_time": "06:34:32",
+    "unique_key": [
+      "Usman Taib",
+      "06:48:38"
+    ],
+    "graded_place": 247,
+    "ag_place": 35
+  },
+  {
+    "bib": "543",
+    "name": "Hong Xuan Ji",
+    "age_group": "M50-54",
+    "finish_time": "07:26:59",
+    "finish_time_seconds": 26819,
+    "gender_place": "291",
+    "graded_time_seconds": 23689.2227,
+    "graded_time": "06:34:49",
+    "unique_key": [
+      "Hong Xuan Ji",
+      "07:26:59"
+    ],
+    "graded_place": 248,
+    "ag_place": 33
+  },
+  {
+    "bib": "191",
+    "name": "Muhammad Hilmi Adnan",
+    "age_group": "M25-29",
+    "finish_time": "06:38:32",
+    "finish_time_seconds": 23912,
+    "gender_place": "195",
+    "graded_time_seconds": 23742.2248,
+    "graded_time": "06:35:42",
+    "unique_key": [
+      "Muhammad Hilmi Adnan",
+      "06:38:32"
+    ],
+    "graded_place": 249,
+    "ag_place": 22
+  },
+  {
+    "bib": "381",
+    "name": "Veerachai Salaenoy",
+    "age_group": "M40-44",
+    "finish_time": "07:07:17",
+    "finish_time_seconds": 25637,
+    "gender_place": "252",
+    "graded_time_seconds": 23744.989400000002,
+    "graded_time": "06:35:44",
+    "unique_key": [
+      "Veerachai Salaenoy",
+      "07:07:17"
+    ],
+    "graded_place": 250,
+    "ag_place": 46
+  },
+  {
+    "bib": "173",
+    "name": "Alvin Tanuji",
+    "age_group": "M25-29",
+    "finish_time": "06:38:44",
+    "finish_time_seconds": 23924,
+    "gender_place": "196",
+    "graded_time_seconds": 23754.1396,
+    "graded_time": "06:35:54",
+    "unique_key": [
+      "Alvin Tanuji",
+      "06:38:44"
+    ],
+    "graded_place": 251,
+    "ag_place": 23
+  },
+  {
+    "bib": "208",
+    "name": "Uzairi Taib",
+    "age_group": "M25-29",
+    "finish_time": "06:38:57",
+    "finish_time_seconds": 23937,
+    "gender_place": "197",
+    "graded_time_seconds": 23767.0473,
+    "graded_time": "06:36:07",
+    "unique_key": [
+      "Uzairi Taib",
+      "06:38:57"
+    ],
+    "graded_place": 252,
+    "ag_place": 24
+  },
+  {
+    "bib": "222",
+    "name": "Zainal Azim Hj Zainal Abidin",
+    "age_group": "M30-34",
+    "finish_time": "06:50:30",
+    "finish_time_seconds": 24630,
+    "gender_place": "217",
+    "graded_time_seconds": 23780.265,
+    "graded_time": "06:36:20",
+    "unique_key": [
+      "Zainal Azim Hj Zainal Abidin",
+      "06:50:30"
+    ],
+    "graded_place": 253,
+    "ag_place": 36
+  },
+  {
+    "bib": "445",
+    "name": "Kongwhee Tam",
+    "age_group": "M40-44",
+    "finish_time": "07:07:57",
+    "finish_time_seconds": 25677,
+    "gender_place": "255",
+    "graded_time_seconds": 23782.0374,
+    "graded_time": "06:36:22",
+    "unique_key": [
+      "Kongwhee Tam",
+      "07:07:57"
+    ],
+    "graded_place": 254,
+    "ag_place": 47
+  },
+  {
+    "bib": "291",
+    "name": "Mario Rubio",
+    "age_group": "M35-39",
+    "finish_time": "06:58:23",
+    "finish_time_seconds": 25103,
+    "gender_place": "231",
+    "graded_time_seconds": 23847.85,
+    "graded_time": "06:37:27",
+    "unique_key": [
+      "Mario Rubio",
+      "06:58:23"
+    ],
+    "graded_place": 255,
+    "ag_place": 39
+  },
+  {
+    "bib": "295",
+    "name": "Matthias Chia",
+    "age_group": "M35-39",
+    "finish_time": "06:59:23",
+    "finish_time_seconds": 25163,
+    "gender_place": "232",
+    "graded_time_seconds": 23904.85,
+    "graded_time": "06:38:24",
+    "unique_key": [
+      "Matthias Chia",
+      "06:59:23"
+    ],
+    "graded_place": 256,
+    "ag_place": 40
+  },
+  {
+    "bib": "182",
+    "name": "Randall Ng",
+    "age_group": "M25-29",
+    "finish_time": "06:41:23",
+    "finish_time_seconds": 24083,
+    "gender_place": "200",
+    "graded_time_seconds": 23912.0107,
+    "graded_time": "06:38:32",
+    "unique_key": [
+      "Randall Ng",
+      "06:41:23"
+    ],
+    "graded_place": 257,
+    "ag_place": 25
+  },
+  {
+    "bib": "347",
+    "name": "Farid Salehan",
+    "age_group": "M35-39",
+    "finish_time": "07:00:22",
+    "finish_time_seconds": 25222,
+    "gender_place": "233",
+    "graded_time_seconds": 23960.899999999998,
+    "graded_time": "06:39:20",
+    "unique_key": [
+      "Farid Salehan",
+      "07:00:22"
+    ],
+    "graded_place": 258,
+    "ag_place": 41
+  },
+  {
+    "bib": "602",
+    "name": "Alain Leemans",
+    "age_group": "M60-64",
+    "finish_time": "08:08:25",
+    "finish_time_seconds": 29305,
+    "gender_place": "361",
+    "graded_time_seconds": 24006.656000000003,
+    "graded_time": "06:40:06",
+    "unique_key": [
+      "Alain Leemans",
+      "08:08:25"
+    ],
+    "graded_place": 259,
+    "ag_place": 12
+  },
+  {
+    "bib": "333",
+    "name": "Shunhong Liu",
+    "age_group": "M35-39",
+    "finish_time": "07:02:00",
+    "finish_time_seconds": 25320,
+    "gender_place": "238",
+    "graded_time_seconds": 24054.0,
+    "graded_time": "06:40:54",
+    "unique_key": [
+      "Shunhong Liu",
+      "07:02:00"
+    ],
+    "graded_place": 260,
+    "ag_place": 42
+  },
+  {
+    "bib": "469",
+    "name": "Francis Choong",
+    "age_group": "M45-49",
+    "finish_time": "07:26:55",
+    "finish_time_seconds": 26815,
+    "gender_place": "290",
+    "graded_time_seconds": 24074.507,
+    "graded_time": "06:41:14",
+    "unique_key": [
+      "Francis Choong",
+      "07:26:55"
+    ],
+    "graded_place": 261,
+    "ag_place": 31
+  },
+  {
+    "bib": "274",
+    "name": "Nicolas Sidoti",
+    "age_group": "M30-34",
+    "finish_time": "06:55:55",
+    "finish_time_seconds": 24955,
+    "gender_place": "230",
+    "graded_time_seconds": 24094.0525,
+    "graded_time": "06:41:34",
+    "unique_key": [
+      "Nicolas Sidoti",
+      "06:55:55"
+    ],
+    "graded_place": 262,
+    "ag_place": 37
+  },
+  {
+    "bib": "670",
+    "name": "Firdaus Fadli Noordin",
+    "age_group": "M40-44",
+    "finish_time": "07:13:38",
+    "finish_time_seconds": 26018,
+    "gender_place": "267",
+    "graded_time_seconds": 24097.871600000002,
+    "graded_time": "06:41:37",
+    "unique_key": [
+      "Firdaus Fadli Noordin",
+      "07:13:38"
+    ],
+    "graded_place": 263,
+    "ag_place": 48
+  },
+  {
+    "bib": "400",
+    "name": "Tungie Wong",
+    "age_group": "M40-44",
+    "finish_time": "07:15:15",
+    "finish_time_seconds": 26115,
+    "gender_place": "269",
+    "graded_time_seconds": 24187.713,
+    "graded_time": "06:43:07",
+    "unique_key": [
+      "Tungie Wong",
+      "07:15:15"
+    ],
+    "graded_place": 264,
+    "ag_place": 49
+  },
+  {
+    "bib": "460",
+    "name": "Nitin Ghorpade",
+    "age_group": "M45-49",
+    "finish_time": "07:29:39",
+    "finish_time_seconds": 26979,
+    "gender_place": "294",
+    "graded_time_seconds": 24221.7462,
+    "graded_time": "06:43:41",
+    "unique_key": [
+      "Nitin Ghorpade",
+      "07:29:39"
+    ],
+    "graded_place": 265,
+    "ag_place": 32
+  },
+  {
+    "bib": "297",
+    "name": "Revanantyo Revanantyo",
+    "age_group": "M35-39",
+    "finish_time": "07:05:52",
+    "finish_time_seconds": 25552,
+    "gender_place": "248",
+    "graded_time_seconds": 24274.399999999998,
+    "graded_time": "06:44:34",
+    "unique_key": [
+      "Revanantyo Revanantyo",
+      "07:05:52"
+    ],
+    "graded_place": 266,
+    "ag_place": 43
+  },
+  {
+    "bib": "241",
+    "name": "Mark Bitter",
+    "age_group": "M30-34",
+    "finish_time": "07:00:50",
+    "finish_time_seconds": 25250,
+    "gender_place": "235",
+    "graded_time_seconds": 24378.875,
+    "graded_time": "06:46:18",
+    "unique_key": [
+      "Mark Bitter",
+      "07:00:50"
+    ],
+    "graded_place": 267,
+    "ag_place": 38
+  },
+  {
+    "bib": "542",
+    "name": "Andy Kuan Min Lee",
+    "age_group": "M50-54",
+    "finish_time": "07:40:22",
+    "finish_time_seconds": 27622,
+    "gender_place": "309",
+    "graded_time_seconds": 24398.5126,
+    "graded_time": "06:46:38",
+    "unique_key": [
+      "Andy Kuan Min Lee",
+      "07:40:22"
+    ],
+    "graded_place": 268,
+    "ag_place": 34
+  },
+  {
+    "bib": "562",
+    "name": "Apichai Chitviriyakul",
+    "age_group": "M50-54",
+    "finish_time": "07:41:14",
+    "finish_time_seconds": 27674,
+    "gender_place": "312",
+    "graded_time_seconds": 24444.444199999998,
+    "graded_time": "06:47:24",
+    "unique_key": [
+      "Apichai Chitviriyakul",
+      "07:41:14"
+    ],
+    "graded_place": 269,
+    "ag_place": 35
+  },
+  {
+    "bib": "366",
+    "name": "Evgenii Tsukalo",
+    "age_group": "M40-44",
+    "finish_time": "07:19:59",
+    "finish_time_seconds": 26399,
+    "gender_place": "278",
+    "graded_time_seconds": 24450.753800000002,
+    "graded_time": "06:47:30",
+    "unique_key": [
+      "Evgenii Tsukalo",
+      "07:19:59"
+    ],
+    "graded_place": 270,
+    "ag_place": 50
+  },
+  {
+    "bib": "385",
+    "name": "Tristan Pochat",
+    "age_group": "M40-44",
+    "finish_time": "07:20:46",
+    "finish_time_seconds": 26446,
+    "gender_place": "281",
+    "graded_time_seconds": 24494.285200000002,
+    "graded_time": "06:48:14",
+    "unique_key": [
+      "Tristan Pochat",
+      "07:20:46"
+    ],
+    "graded_place": 271,
+    "ag_place": 51
+  },
+  {
+    "bib": "285",
+    "name": "Md Sajib",
+    "age_group": "M30-34",
+    "finish_time": "07:03:20",
+    "finish_time_seconds": 25400,
+    "gender_place": "240",
+    "graded_time_seconds": 24523.7,
+    "graded_time": "06:48:43",
+    "unique_key": [
+      "Md Sajib",
+      "07:03:20"
+    ],
+    "graded_place": 272,
+    "ag_place": 39
+  },
+  {
+    "bib": "249",
+    "name": "Ajinkya Kap",
+    "age_group": "M30-34",
+    "finish_time": "07:03:53",
+    "finish_time_seconds": 25433,
+    "gender_place": "241",
+    "graded_time_seconds": 24555.5615,
+    "graded_time": "06:49:15",
+    "unique_key": [
+      "Ajinkya Kap",
+      "07:03:53"
+    ],
+    "graded_place": 273,
+    "ag_place": 40
+  },
+  {
+    "bib": "294",
+    "name": "Chinavich Sriyuenyong",
+    "age_group": "M35-39",
+    "finish_time": "07:11:19",
+    "finish_time_seconds": 25879,
+    "gender_place": "261",
+    "graded_time_seconds": 24585.05,
+    "graded_time": "06:49:45",
+    "unique_key": [
+      "Chinavich Sriyuenyong",
+      "07:11:19"
+    ],
+    "graded_place": 274,
+    "ag_place": 44
+  },
+  {
+    "bib": "240",
+    "name": "Muhammad Ariff Bin Iskandar",
+    "age_group": "M30-34",
+    "finish_time": "07:04:25",
+    "finish_time_seconds": 25465,
+    "gender_place": "244",
+    "graded_time_seconds": 24586.4575,
+    "graded_time": "06:49:46",
+    "unique_key": [
+      "Muhammad Ariff Bin Iskandar",
+      "07:04:25"
+    ],
+    "graded_place": 275,
+    "ag_place": 41
+  },
+  {
+    "bib": "302",
+    "name": "Meor M. Shafiq Yaakob",
+    "age_group": "M35-39",
+    "finish_time": "07:11:32",
+    "finish_time_seconds": 25892,
+    "gender_place": "262",
+    "graded_time_seconds": 24597.399999999998,
+    "graded_time": "06:49:57",
+    "unique_key": [
+      "Meor M. Shafiq Yaakob",
+      "07:11:32"
+    ],
+    "graded_place": 276,
+    "ag_place": 45
+  },
+  {
+    "bib": "204",
+    "name": "Sunint Khurana",
+    "age_group": "M25-29",
+    "finish_time": "06:52:58",
+    "finish_time_seconds": 24778,
+    "gender_place": "221",
+    "graded_time_seconds": 24602.0762,
+    "graded_time": "06:50:02",
+    "unique_key": [
+      "Sunint Khurana",
+      "06:52:58"
+    ],
+    "graded_place": 277,
+    "ag_place": 26
+  },
+  {
+    "bib": "432",
+    "name": "Saif Fahad",
+    "age_group": "M40-44",
+    "finish_time": "07:23:05",
+    "finish_time_seconds": 26585,
+    "gender_place": "282",
+    "graded_time_seconds": 24623.027000000002,
+    "graded_time": "06:50:23",
+    "unique_key": [
+      "Saif Fahad",
+      "07:23:05"
+    ],
+    "graded_place": 278,
+    "ag_place": 52
+  },
+  {
+    "bib": "578",
+    "name": "Nor Hisham Hamid",
+    "age_group": "M55-59",
+    "finish_time": "07:59:42",
+    "finish_time_seconds": 28782,
+    "gender_place": "348",
+    "graded_time_seconds": 24651.783,
+    "graded_time": "06:50:51",
+    "unique_key": [
+      "Nor Hisham Hamid",
+      "07:59:42"
+    ],
+    "graded_place": 279,
+    "ag_place": 19
+  },
+  {
+    "bib": "585",
+    "name": "Seiji Yamaoka",
+    "age_group": "M55-59",
+    "finish_time": "08:00:33",
+    "finish_time_seconds": 28833,
+    "gender_place": "351",
+    "graded_time_seconds": 24695.464500000002,
+    "graded_time": "06:51:35",
+    "unique_key": [
+      "Seiji Yamaoka",
+      "08:00:33"
+    ],
+    "graded_place": 280,
+    "ag_place": 20
+  },
+  {
+    "bib": "612",
+    "name": "Mamoru Miyajima",
+    "age_group": "M60-64",
+    "finish_time": "08:22:30",
+    "finish_time_seconds": 30150,
+    "gender_place": "376",
+    "graded_time_seconds": 24698.88,
+    "graded_time": "06:51:38",
+    "unique_key": [
+      "Mamoru Miyajima",
+      "08:22:30"
+    ],
+    "graded_place": 281,
+    "ag_place": 13
+  },
+  {
+    "bib": "284",
+    "name": "Montean Doungkachart",
+    "age_group": "M30-34",
+    "finish_time": "07:07:16",
+    "finish_time_seconds": 25636,
+    "gender_place": "251",
+    "graded_time_seconds": 24751.558,
+    "graded_time": "06:52:31",
+    "unique_key": [
+      "Montean Doungkachart",
+      "07:07:16"
+    ],
+    "graded_place": 282,
+    "ag_place": 42
+  },
+  {
+    "bib": "203",
+    "name": "Kenny Ng",
+    "age_group": "M25-29",
+    "finish_time": "06:55:49",
+    "finish_time_seconds": 24949,
+    "gender_place": "228",
+    "graded_time_seconds": 24771.8621,
+    "graded_time": "06:52:51",
+    "unique_key": [
+      "Kenny Ng",
+      "06:55:49"
+    ],
+    "graded_place": 283,
+    "ag_place": 27
+  },
+  {
+    "bib": "369",
+    "name": "Rahdzie Zainal",
+    "age_group": "M40-44",
+    "finish_time": "07:26:08",
+    "finish_time_seconds": 26768,
+    "gender_place": "288",
+    "graded_time_seconds": 24792.5216,
+    "graded_time": "06:53:12",
+    "unique_key": [
+      "Rahdzie Zainal",
+      "07:26:08"
+    ],
+    "graded_place": 284,
+    "ag_place": 53
+  },
+  {
+    "bib": "354",
+    "name": "Hajong Shin",
+    "age_group": "M35-39",
+    "finish_time": "07:15:15",
+    "finish_time_seconds": 26115,
+    "gender_place": "270",
+    "graded_time_seconds": 24809.25,
+    "graded_time": "06:53:29",
+    "unique_key": [
+      "Hajong Shin",
+      "07:15:15"
+    ],
+    "graded_place": 285,
+    "ag_place": 46
+  },
+  {
+    "bib": "395",
+    "name": "Johan Effendi Mat Nadzri",
+    "age_group": "M40-44",
+    "finish_time": "07:26:46",
+    "finish_time_seconds": 26806,
+    "gender_place": "289",
+    "graded_time_seconds": 24827.7172,
+    "graded_time": "06:53:47",
+    "unique_key": [
+      "Johan Effendi Mat Nadzri",
+      "07:26:46"
+    ],
+    "graded_place": 286,
+    "ag_place": 54
+  },
+  {
+    "bib": "450",
+    "name": "Justin Baziuk",
+    "age_group": "M40-44",
+    "finish_time": "07:27:16",
+    "finish_time_seconds": 26836,
+    "gender_place": "292",
+    "graded_time_seconds": 24855.5032,
+    "graded_time": "06:54:15",
+    "unique_key": [
+      "Justin Baziuk",
+      "07:27:16"
+    ],
+    "graded_place": 287,
+    "ag_place": 55
+  },
+  {
+    "bib": "680",
+    "name": "Zulfiqar Zainuddin",
+    "age_group": "M45-49",
+    "finish_time": "07:43:24",
+    "finish_time_seconds": 27804,
+    "gender_place": "318",
+    "graded_time_seconds": 24962.431200000003,
+    "graded_time": "06:56:02",
+    "unique_key": [
+      "Zulfiqar Zainuddin",
+      "07:43:24"
+    ],
+    "graded_place": 288,
+    "ag_place": 33
+  },
+  {
+    "bib": "316",
+    "name": "Wan Mohd Rujhan Raqibi",
+    "age_group": "M35-39",
+    "finish_time": "07:18:26",
+    "finish_time_seconds": 26306,
+    "gender_place": "273",
+    "graded_time_seconds": 24990.699999999997,
+    "graded_time": "06:56:30",
+    "unique_key": [
+      "Wan Mohd Rujhan Raqibi",
+      "07:18:26"
+    ],
+    "graded_place": 289,
+    "ag_place": 47
+  },
+  {
+    "bib": "324",
+    "name": "Sebastian Escobar",
+    "age_group": "M35-39",
+    "finish_time": "07:18:52",
+    "finish_time_seconds": 26332,
+    "gender_place": "275",
+    "graded_time_seconds": 25015.399999999998,
+    "graded_time": "06:56:55",
+    "unique_key": [
+      "Sebastian Escobar",
+      "07:18:52"
+    ],
+    "graded_place": 290,
+    "ag_place": 48
+  },
+  {
+    "bib": "427",
+    "name": "Boonchai Peerasongkram",
+    "age_group": "M40-44",
+    "finish_time": "07:30:24",
+    "finish_time_seconds": 27024,
+    "gender_place": "295",
+    "graded_time_seconds": 25029.628800000002,
+    "graded_time": "06:57:09",
+    "unique_key": [
+      "Boonchai Peerasongkram",
+      "07:30:24"
+    ],
+    "graded_place": 291,
+    "ag_place": 56
+  },
+  {
+    "bib": "239",
+    "name": "Hilmi Jantan",
+    "age_group": "M30-34",
+    "finish_time": "07:12:27",
+    "finish_time_seconds": 25947,
+    "gender_place": "264",
+    "graded_time_seconds": 25051.8285,
+    "graded_time": "06:57:31",
+    "unique_key": [
+      "Hilmi Jantan",
+      "07:12:27"
+    ],
+    "graded_place": 292,
+    "ag_place": 43
+  },
+  {
+    "bib": "289",
+    "name": "Yi Wu",
+    "age_group": "M30-34",
+    "finish_time": "07:12:35",
+    "finish_time_seconds": 25955,
+    "gender_place": "265",
+    "graded_time_seconds": 25059.5525,
+    "graded_time": "06:57:39",
+    "unique_key": [
+      "Yi Wu",
+      "07:12:35"
+    ],
+    "graded_place": 293,
+    "ag_place": 44
+  },
+  {
+    "bib": "570",
+    "name": "Chee Gay Lim",
+    "age_group": "M55-59",
+    "finish_time": "08:08:41",
+    "finish_time_seconds": 29321,
+    "gender_place": "362",
+    "graded_time_seconds": 25113.4365,
+    "graded_time": "06:58:33",
+    "unique_key": [
+      "Chee Gay Lim",
+      "08:08:41"
+    ],
+    "graded_place": 294,
+    "ag_place": 21
+  },
+  {
+    "bib": "368",
+    "name": "Shun Nakazaki",
+    "age_group": "M40-44",
+    "finish_time": "07:31:55",
+    "finish_time_seconds": 27115,
+    "gender_place": "296",
+    "graded_time_seconds": 25113.913,
+    "graded_time": "06:58:33",
+    "unique_key": [
+      "Shun Nakazaki",
+      "07:31:55"
+    ],
+    "graded_place": 295,
+    "ag_place": 57
+  },
+  {
+    "bib": "299",
+    "name": "Arif Sukarno",
+    "age_group": "M35-39",
+    "finish_time": "07:20:44",
+    "finish_time_seconds": 26444,
+    "gender_place": "279",
+    "graded_time_seconds": 25121.8,
+    "graded_time": "06:58:41",
+    "unique_key": [
+      "Arif Sukarno",
+      "07:20:44"
+    ],
+    "graded_place": 296,
+    "ag_place": 49
+  },
+  {
+    "bib": "425",
+    "name": "Qobin Mokhtar",
+    "age_group": "M40-44",
+    "finish_time": "07:32:11",
+    "finish_time_seconds": 27131,
+    "gender_place": "298",
+    "graded_time_seconds": 25128.732200000002,
+    "graded_time": "06:58:48",
+    "unique_key": [
+      "Qobin Mokhtar",
+      "07:32:11"
+    ],
+    "graded_place": 297,
+    "ag_place": 58
+  },
+  {
+    "bib": "415",
+    "name": "Fadly Bakhtiar",
+    "age_group": "M40-44",
+    "finish_time": "07:32:24",
+    "finish_time_seconds": 27144,
+    "gender_place": "299",
+    "graded_time_seconds": 25140.7728,
+    "graded_time": "06:59:00",
+    "unique_key": [
+      "Fadly Bakhtiar",
+      "07:32:24"
+    ],
+    "graded_place": 298,
+    "ag_place": 59
+  },
+  {
+    "bib": "505",
+    "name": "Norbert Lewandowski",
+    "age_group": "M45-49",
+    "finish_time": "07:47:02",
+    "finish_time_seconds": 28022,
+    "gender_place": "323",
+    "graded_time_seconds": 25158.1516,
+    "graded_time": "06:59:18",
+    "unique_key": [
+      "Norbert Lewandowski",
+      "07:47:02"
+    ],
+    "graded_place": 299,
+    "ag_place": 34
+  },
+  {
+    "bib": "530",
+    "name": "Joseph Leong",
+    "age_group": "M50-54",
+    "finish_time": "07:54:52",
+    "finish_time_seconds": 28492,
+    "gender_place": "332",
+    "graded_time_seconds": 25166.9836,
+    "graded_time": "06:59:26",
+    "unique_key": [
+      "Joseph Leong",
+      "07:54:52"
+    ],
+    "graded_place": 300,
+    "ag_place": 36
+  },
+  {
+    "bib": "170",
+    "name": "Imran Aqil",
+    "age_group": "M25-29",
+    "finish_time": "07:02:50",
+    "finish_time_seconds": 25370,
+    "gender_place": "239",
+    "graded_time_seconds": 25189.873,
+    "graded_time": "06:59:49",
+    "unique_key": [
+      "Imran Aqil",
+      "07:02:50"
+    ],
+    "graded_place": 301,
+    "ag_place": 28
+  },
+  {
+    "bib": "301",
+    "name": "Muhammad Fajar Andrianto",
+    "age_group": "M35-39",
+    "finish_time": "07:23:12",
+    "finish_time_seconds": 26592,
+    "gender_place": "284",
+    "graded_time_seconds": 25262.399999999998,
+    "graded_time": "07:01:02",
+    "unique_key": [
+      "Muhammad Fajar Andrianto",
+      "07:23:12"
+    ],
+    "graded_place": 302,
+    "ag_place": 50
+  },
+  {
+    "bib": "168",
+    "name": "Temuulen Shinebayar",
+    "age_group": "M25-29",
+    "finish_time": "07:05:25",
+    "finish_time_seconds": 25525,
+    "gender_place": "247",
+    "graded_time_seconds": 25343.7725,
+    "graded_time": "07:02:23",
+    "unique_key": [
+      "Temuulen Shinebayar",
+      "07:05:25"
+    ],
+    "graded_place": 303,
+    "ag_place": 29
+  },
+  {
+    "bib": "219",
+    "name": "William Kevin Jong",
+    "age_group": "M30-34",
+    "finish_time": "07:17:48",
+    "finish_time_seconds": 26268,
+    "gender_place": "272",
+    "graded_time_seconds": 25361.754,
+    "graded_time": "07:02:41",
+    "unique_key": [
+      "William Kevin Jong",
+      "07:17:48"
+    ],
+    "graded_place": 304,
+    "ag_place": 45
+  },
+  {
+    "bib": "510",
+    "name": "Shamsul Hisham Bin Fatahul Ariffin",
+    "age_group": "M45-49",
+    "finish_time": "07:50:49",
+    "finish_time_seconds": 28249,
+    "gender_place": "329",
+    "graded_time_seconds": 25361.9522,
+    "graded_time": "07:02:41",
+    "unique_key": [
+      "Shamsul Hisham Bin Fatahul Ariffin",
+      "07:50:49"
+    ],
+    "graded_place": 305,
+    "ag_place": 35
+  },
+  {
+    "bib": "642",
+    "name": "Nor Ehsan Ahmad Solihin",
+    "age_group": "M30-34",
+    "finish_time": "07:18:37",
+    "finish_time_seconds": 26317,
+    "gender_place": "274",
+    "graded_time_seconds": 25409.0635,
+    "graded_time": "07:03:29",
+    "unique_key": [
+      "Nor Ehsan Ahmad Solihin",
+      "07:18:37"
+    ],
+    "graded_place": 306,
+    "ag_place": 46
+  },
+  {
+    "bib": "556",
+    "name": "Arif Sidek",
+    "age_group": "M50-54",
+    "finish_time": "07:59:42",
+    "finish_time_seconds": 28782,
+    "gender_place": "347",
+    "graded_time_seconds": 25423.1406,
+    "graded_time": "07:03:43",
+    "unique_key": [
+      "Arif Sidek",
+      "07:59:42"
+    ],
+    "graded_place": 307,
+    "ag_place": 37
+  },
+  {
+    "bib": "463",
+    "name": "Kiron Reyon",
+    "age_group": "M45-49",
+    "finish_time": "07:52:11",
+    "finish_time_seconds": 28331,
+    "gender_place": "331",
+    "graded_time_seconds": 25435.5718,
+    "graded_time": "07:03:55",
+    "unique_key": [
+      "Kiron Reyon",
+      "07:52:11"
+    ],
+    "graded_place": 308,
+    "ag_place": 36
+  },
+  {
+    "bib": "175",
+    "name": "Jared Chia",
+    "age_group": "M25-29",
+    "finish_time": "07:07:04",
+    "finish_time_seconds": 25624,
+    "gender_place": "250",
+    "graded_time_seconds": 25442.0696,
+    "graded_time": "07:04:02",
+    "unique_key": [
+      "Jared Chia",
+      "07:07:04"
+    ],
+    "graded_place": 309,
+    "ag_place": 30
+  },
+  {
+    "bib": "393",
+    "name": "Dhany Azlany Bin Jamil",
+    "age_group": "M40-44",
+    "finish_time": "07:37:55",
+    "finish_time_seconds": 27475,
+    "gender_place": "307",
+    "graded_time_seconds": 25447.345,
+    "graded_time": "07:04:07",
+    "unique_key": [
+      "Dhany Azlany Bin Jamil",
+      "07:37:55"
+    ],
+    "graded_place": 310,
+    "ag_place": 60
+  },
+  {
+    "bib": "575",
+    "name": "Noor Azwa Mohd Noor",
+    "age_group": "M55-59",
+    "finish_time": "08:15:40",
+    "finish_time_seconds": 29740,
+    "gender_place": "370",
+    "graded_time_seconds": 25472.31,
+    "graded_time": "07:04:32",
+    "unique_key": [
+      "Noor Azwa Mohd Noor",
+      "08:15:40"
+    ],
+    "graded_place": 311,
+    "ag_place": 22
+  },
+  {
+    "bib": "404",
+    "name": "Pornthep Sanhaphukdee",
+    "age_group": "M40-44",
+    "finish_time": "07:38:31",
+    "finish_time_seconds": 27511,
+    "gender_place": "308",
+    "graded_time_seconds": 25480.6882,
+    "graded_time": "07:04:40",
+    "unique_key": [
+      "Pornthep Sanhaphukdee",
+      "07:38:31"
+    ],
+    "graded_place": 312,
+    "ag_place": 61
+  },
+  {
+    "bib": "523",
+    "name": "Fernandez Ong",
+    "age_group": "M50-54",
+    "finish_time": "08:00:55",
+    "finish_time_seconds": 28855,
+    "gender_place": "353",
+    "graded_time_seconds": 25487.621499999997,
+    "graded_time": "07:04:47",
+    "unique_key": [
+      "Fernandez Ong",
+      "08:00:55"
+    ],
+    "graded_place": 313,
+    "ag_place": 38
+  },
+  {
+    "bib": "221",
+    "name": "Muhammad Hakim Bin Abd Kader",
+    "age_group": "M30-34",
+    "finish_time": "07:20:45",
+    "finish_time_seconds": 26445,
+    "gender_place": "280",
+    "graded_time_seconds": 25532.6475,
+    "graded_time": "07:05:32",
+    "unique_key": [
+      "Muhammad Hakim Bin Abd Kader",
+      "07:20:45"
+    ],
+    "graded_place": 314,
+    "ag_place": 47
+  },
+  {
+    "bib": "198",
+    "name": "Danish Eddie",
+    "age_group": "M25-29",
+    "finish_time": "07:08:50",
+    "finish_time_seconds": 25730,
+    "gender_place": "256",
+    "graded_time_seconds": 25547.317,
+    "graded_time": "07:05:47",
+    "unique_key": [
+      "Danish Eddie",
+      "07:08:50"
+    ],
+    "graded_place": 315,
+    "ag_place": 31
+  },
+  {
+    "bib": "328",
+    "name": "Richi Seven Jaya",
+    "age_group": "M35-39",
+    "finish_time": "07:28:23",
+    "finish_time_seconds": 26903,
+    "gender_place": "293",
+    "graded_time_seconds": 25557.85,
+    "graded_time": "07:05:57",
+    "unique_key": [
+      "Richi Seven Jaya",
+      "07:28:23"
+    ],
+    "graded_place": 316,
+    "ag_place": 51
+  },
+  {
+    "bib": "156",
+    "name": "Jordan Ker",
+    "age_group": "M18-24",
+    "finish_time": "07:07:26",
+    "finish_time_seconds": 25646,
+    "gender_place": "253",
+    "graded_time_seconds": 25646.0,
+    "graded_time": "07:07:26",
+    "unique_key": [
+      "Jordan Ker",
+      "07:07:26"
+    ],
+    "graded_place": 317,
+    "ag_place": 11
+  },
+  {
+    "bib": "207",
+    "name": "Nur Iman Zahari",
+    "age_group": "M25-29",
+    "finish_time": "07:10:31",
+    "finish_time_seconds": 25831,
+    "gender_place": "259",
+    "graded_time_seconds": 25647.5999,
+    "graded_time": "07:07:27",
+    "unique_key": [
+      "Nur Iman Zahari",
+      "07:10:31"
+    ],
+    "graded_place": 318,
+    "ag_place": 32
+  },
+  {
+    "bib": "522",
+    "name": "Darryl Chong",
+    "age_group": "M50-54",
+    "finish_time": "08:04:33",
+    "finish_time_seconds": 29073,
+    "gender_place": "354",
+    "graded_time_seconds": 25680.1809,
+    "graded_time": "07:08:00",
+    "unique_key": [
+      "Darryl Chong",
+      "08:04:33"
+    ],
+    "graded_place": 319,
+    "ag_place": 39
+  },
+  {
+    "bib": "365",
+    "name": "Kelvin Loi",
+    "age_group": "M40-44",
+    "finish_time": "07:42:38",
+    "finish_time_seconds": 27758,
+    "gender_place": "315",
+    "graded_time_seconds": 25709.459600000002,
+    "graded_time": "07:08:29",
+    "unique_key": [
+      "Kelvin Loi",
+      "07:42:38"
+    ],
+    "graded_place": 320,
+    "ag_place": 62
+  },
+  {
+    "bib": "665",
+    "name": "Muhamad Hafiz Abd Hamid",
+    "age_group": "M40-44",
+    "finish_time": "07:43:04",
+    "finish_time_seconds": 27784,
+    "gender_place": "316",
+    "graded_time_seconds": 25733.5408,
+    "graded_time": "07:08:53",
+    "unique_key": [
+      "Muhamad Hafiz Abd Hamid",
+      "07:43:04"
+    ],
+    "graded_place": 321,
+    "ag_place": 63
+  },
+  {
+    "bib": "657",
+    "name": "Muhammad Syakir Bin Che Mansor",
+    "age_group": "M35-39",
+    "finish_time": "07:31:58",
+    "finish_time_seconds": 27118,
+    "gender_place": "297",
+    "graded_time_seconds": 25762.1,
+    "graded_time": "07:09:22",
+    "unique_key": [
+      "Muhammad Syakir Bin Che Mansor",
+      "07:31:58"
+    ],
+    "graded_place": 322,
+    "ag_place": 52
+  },
+  {
+    "bib": "504",
+    "name": "Mrinmoy Bose",
+    "age_group": "M45-49",
+    "finish_time": "07:58:56",
+    "finish_time_seconds": 28736,
+    "gender_place": "344",
+    "graded_time_seconds": 25799.180800000002,
+    "graded_time": "07:09:59",
+    "unique_key": [
+      "Mrinmoy Bose",
+      "07:58:56"
+    ],
+    "graded_place": 323,
+    "ag_place": 37
+  },
+  {
+    "bib": "187",
+    "name": "Qi Xiang Neo",
+    "age_group": "M25-29",
+    "finish_time": "07:13:09",
+    "finish_time_seconds": 25989,
+    "gender_place": "266",
+    "graded_time_seconds": 25804.4781,
+    "graded_time": "07:10:04",
+    "unique_key": [
+      "Qi Xiang Neo",
+      "07:13:09"
+    ],
+    "graded_place": 324,
+    "ag_place": 33
+  },
+  {
+    "bib": "474",
+    "name": "Ak Mazharul Islam",
+    "age_group": "M45-49",
+    "finish_time": "07:59:17",
+    "finish_time_seconds": 28757,
+    "gender_place": "345",
+    "graded_time_seconds": 25818.034600000003,
+    "graded_time": "07:10:18",
+    "unique_key": [
+      "Ak Mazharul Islam",
+      "07:59:17"
+    ],
+    "graded_place": 325,
+    "ag_place": 38
+  },
+  {
+    "bib": "280",
+    "name": "Fathi Hussein",
+    "age_group": "M30-34",
+    "finish_time": "07:25:45",
+    "finish_time_seconds": 26745,
+    "gender_place": "286",
+    "graded_time_seconds": 25822.2975,
+    "graded_time": "07:10:22",
+    "unique_key": [
+      "Fathi Hussein",
+      "07:25:45"
+    ],
+    "graded_place": 326,
+    "ag_place": 48
+  },
+  {
+    "bib": "364",
+    "name": "Sendri Eko Widiyanto",
+    "age_group": "M40-44",
+    "finish_time": "07:45:19",
+    "finish_time_seconds": 27919,
+    "gender_place": "320",
+    "graded_time_seconds": 25858.5778,
+    "graded_time": "07:10:58",
+    "unique_key": [
+      "Sendri Eko Widiyanto",
+      "07:45:19"
+    ],
+    "graded_place": 327,
+    "ag_place": 64
+  },
+  {
+    "bib": "154",
+    "name": "Dariusz Han",
+    "age_group": "M18-24",
+    "finish_time": "07:11:00",
+    "finish_time_seconds": 25860,
+    "gender_place": "260",
+    "graded_time_seconds": 25860.0,
+    "graded_time": "07:11:00",
+    "unique_key": [
+      "Dariusz Han",
+      "07:11:00"
+    ],
+    "graded_place": 328,
+    "ag_place": 12
+  },
+  {
+    "bib": "547",
+    "name": "Aktar Abdul Rahman",
+    "age_group": "M50-54",
+    "finish_time": "08:09:29",
+    "finish_time_seconds": 29369,
+    "gender_place": "363",
+    "graded_time_seconds": 25941.6377,
+    "graded_time": "07:12:21",
+    "unique_key": [
+      "Aktar Abdul Rahman",
+      "08:09:29"
+    ],
+    "graded_place": 329,
+    "ag_place": 40
+  },
+  {
+    "bib": "346",
+    "name": "David Kanapal Pandian",
+    "age_group": "M35-39",
+    "finish_time": "07:36:56",
+    "finish_time_seconds": 27416,
+    "gender_place": "302",
+    "graded_time_seconds": 26045.199999999997,
+    "graded_time": "07:14:05",
+    "unique_key": [
+      "David Kanapal Pandian",
+      "07:36:56"
+    ],
+    "graded_place": 330,
+    "ag_place": 53
+  },
+  {
+    "bib": "376",
+    "name": "Mohd Azwan Mohd Nor",
+    "age_group": "M40-44",
+    "finish_time": "07:48:52",
+    "finish_time_seconds": 28132,
+    "gender_place": "327",
+    "graded_time_seconds": 26055.8584,
+    "graded_time": "07:14:15",
+    "unique_key": [
+      "Mohd Azwan Mohd Nor",
+      "07:48:52"
+    ],
+    "graded_place": 331,
+    "ag_place": 65
+  },
+  {
+    "bib": "653",
+    "name": "Adli Hafidz",
+    "age_group": "M35-39",
+    "finish_time": "07:37:09",
+    "finish_time_seconds": 27429,
+    "gender_place": "304",
+    "graded_time_seconds": 26057.55,
+    "graded_time": "07:14:17",
+    "unique_key": [
+      "Adli Hafidz",
+      "07:37:09"
+    ],
+    "graded_place": 332,
+    "ag_place": 54
+  },
+  {
+    "bib": "565",
+    "name": "Mark Townsend",
+    "age_group": "M50-54",
+    "finish_time": "08:11:49",
+    "finish_time_seconds": 29509,
+    "gender_place": "366",
+    "graded_time_seconds": 26065.2997,
+    "graded_time": "07:14:25",
+    "unique_key": [
+      "Mark Townsend",
+      "08:11:49"
+    ],
+    "graded_place": 333,
+    "ag_place": 41
+  },
+  {
+    "bib": "314",
+    "name": "Danial Raimi Rashid",
+    "age_group": "M35-39",
+    "finish_time": "07:37:18",
+    "finish_time_seconds": 27438,
+    "gender_place": "305",
+    "graded_time_seconds": 26066.1,
+    "graded_time": "07:14:26",
+    "unique_key": [
+      "Danial Raimi Rashid",
+      "07:37:18"
+    ],
+    "graded_place": 334,
+    "ag_place": 55
+  },
+  {
+    "bib": "332",
+    "name": "Al Amin Salim",
+    "age_group": "M35-39",
+    "finish_time": "07:37:47",
+    "finish_time_seconds": 27467,
+    "gender_place": "306",
+    "graded_time_seconds": 26093.649999999998,
+    "graded_time": "07:14:53",
+    "unique_key": [
+      "Al Amin Salim",
+      "07:37:47"
+    ],
+    "graded_place": 335,
+    "ag_place": 56
+  },
+  {
+    "bib": "476",
+    "name": "Chalermpol Inhun",
+    "age_group": "M45-49",
+    "finish_time": "08:05:03",
+    "finish_time_seconds": 29103,
+    "gender_place": "356",
+    "graded_time_seconds": 26128.6734,
+    "graded_time": "07:15:28",
+    "unique_key": [
+      "Chalermpol Inhun",
+      "08:05:03"
+    ],
+    "graded_place": 336,
+    "ag_place": 39
+  },
+  {
+    "bib": "594",
+    "name": "Cassim Parak",
+    "age_group": "M55-59",
+    "finish_time": "08:30:51",
+    "finish_time_seconds": 30651,
+    "gender_place": "385",
+    "graded_time_seconds": 26252.5815,
+    "graded_time": "07:17:32",
+    "unique_key": [
+      "Cassim Parak",
+      "08:30:51"
+    ],
+    "graded_place": 337,
+    "ag_place": 23
+  },
+  {
+    "bib": "671",
+    "name": "Lokman Mohd Noh",
+    "age_group": "M45-49",
+    "finish_time": "08:09:38",
+    "finish_time_seconds": 29378,
+    "gender_place": "364",
+    "graded_time_seconds": 26375.5684,
+    "graded_time": "07:19:35",
+    "unique_key": [
+      "Lokman Mohd Noh",
+      "08:09:38"
+    ],
+    "graded_place": 338,
+    "ag_place": 40
+  },
+  {
+    "bib": "677",
+    "name": "Saiful Anuar Ahmad Salleh",
+    "age_group": "M45-49",
+    "finish_time": "08:09:38",
+    "finish_time_seconds": 29378,
+    "gender_place": "365",
+    "graded_time_seconds": 26375.5684,
+    "graded_time": "07:19:35",
+    "unique_key": [
+      "Saiful Anuar Ahmad Salleh",
+      "08:09:38"
+    ],
+    "graded_place": 338,
+    "ag_place": 41
+  },
+  {
+    "bib": "223",
+    "name": "Akhram Ariffin",
+    "age_group": "M30-34",
+    "finish_time": "07:35:38",
+    "finish_time_seconds": 27338,
+    "gender_place": "300",
+    "graded_time_seconds": 26394.839,
+    "graded_time": "07:19:54",
+    "unique_key": [
+      "Akhram Ariffin",
+      "07:35:38"
+    ],
+    "graded_place": 340,
+    "ag_place": 49
+  },
+  {
+    "bib": "307",
+    "name": "Ilmam Sanggomaro",
+    "age_group": "M35-39",
+    "finish_time": "07:43:16",
+    "finish_time_seconds": 27796,
+    "gender_place": "317",
+    "graded_time_seconds": 26406.199999999997,
+    "graded_time": "07:20:06",
+    "unique_key": [
+      "Ilmam Sanggomaro",
+      "07:43:16"
+    ],
+    "graded_place": 341,
+    "ag_place": 57
+  },
+  {
+    "bib": "521",
+    "name": "Supakorn Wannapornsiri",
+    "age_group": "M50-54",
+    "finish_time": "08:18:49",
+    "finish_time_seconds": 29929,
+    "gender_place": "373",
+    "graded_time_seconds": 26436.2857,
+    "graded_time": "07:20:36",
+    "unique_key": [
+      "Supakorn Wannapornsiri",
+      "08:18:49"
+    ],
+    "graded_place": 342,
+    "ag_place": 42
+  },
+  {
+    "bib": "362",
+    "name": "Badarinath Shastri",
+    "age_group": "M40-44",
+    "finish_time": "07:55:50",
+    "finish_time_seconds": 28550,
+    "gender_place": "335",
+    "graded_time_seconds": 26443.010000000002,
+    "graded_time": "07:20:43",
+    "unique_key": [
+      "Badarinath Shastri",
+      "07:55:50"
+    ],
+    "graded_place": 343,
+    "ag_place": 66
+  },
+  {
+    "bib": "392",
+    "name": "Wan Nor Azril Wan Said",
+    "age_group": "M40-44",
+    "finish_time": "07:55:51",
+    "finish_time_seconds": 28551,
+    "gender_place": "336",
+    "graded_time_seconds": 26443.9362,
+    "graded_time": "07:20:43",
+    "unique_key": [
+      "Wan Nor Azril Wan Said",
+      "07:55:51"
+    ],
+    "graded_place": 344,
+    "ag_place": 67
+  },
+  {
+    "bib": "261",
+    "name": "Adi Aisar Zubbir",
+    "age_group": "M30-34",
+    "finish_time": "07:36:59",
+    "finish_time_seconds": 27419,
+    "gender_place": "303",
+    "graded_time_seconds": 26473.0445,
+    "graded_time": "07:21:13",
+    "unique_key": [
+      "Adi Aisar Zubbir",
+      "07:36:59"
+    ],
+    "graded_place": 345,
+    "ag_place": 50
+  },
+  {
+    "bib": "420",
+    "name": "Ronggo Saputro",
+    "age_group": "M40-44",
+    "finish_time": "07:59:27",
+    "finish_time_seconds": 28767,
+    "gender_place": "346",
+    "graded_time_seconds": 26643.9954,
+    "graded_time": "07:24:03",
+    "unique_key": [
+      "Ronggo Saputro",
+      "07:59:27"
+    ],
+    "graded_place": 346,
+    "ag_place": 68
+  },
+  {
+    "bib": "448",
+    "name": "Isamu Nishimura",
+    "age_group": "M40-44",
+    "finish_time": "08:00:08",
+    "finish_time_seconds": 28808,
+    "gender_place": "349",
+    "graded_time_seconds": 26681.9696,
+    "graded_time": "07:24:41",
+    "unique_key": [
+      "Isamu Nishimura",
+      "08:00:08"
+    ],
+    "graded_place": 347,
+    "ag_place": 69
+  },
+  {
+    "bib": "384",
+    "name": "William Saputra",
+    "age_group": "M40-44",
+    "finish_time": "08:00:21",
+    "finish_time_seconds": 28821,
+    "gender_place": "350",
+    "graded_time_seconds": 26694.0102,
+    "graded_time": "07:24:54",
+    "unique_key": [
+      "William Saputra",
+      "08:00:21"
+    ],
+    "graded_place": 348,
+    "ag_place": 70
+  },
+  {
+    "bib": "413",
+    "name": "Artit Trenanont",
+    "age_group": "M40-44",
+    "finish_time": "08:00:41",
+    "finish_time_seconds": 28841,
+    "gender_place": "352",
+    "graded_time_seconds": 26712.534200000002,
+    "graded_time": "07:25:12",
+    "unique_key": [
+      "Artit Trenanont",
+      "08:00:41"
+    ],
+    "graded_place": 349,
+    "ag_place": 71
+  },
+  {
+    "bib": "335",
+    "name": "Yeasir Ibne Yousuf",
+    "age_group": "M35-39",
+    "finish_time": "07:48:44",
+    "finish_time_seconds": 28124,
+    "gender_place": "326",
+    "graded_time_seconds": 26717.8,
+    "graded_time": "07:25:17",
+    "unique_key": [
+      "Yeasir Ibne Yousuf",
+      "07:48:44"
+    ],
+    "graded_place": 350,
+    "ag_place": 58
+  },
+  {
+    "bib": "644",
+    "name": "Muhammad Suhail Zulkiflee",
+    "age_group": "M30-34",
+    "finish_time": "07:41:42",
+    "finish_time_seconds": 27702,
+    "gender_place": "313",
+    "graded_time_seconds": 26746.281,
+    "graded_time": "07:25:46",
+    "unique_key": [
+      "Muhammad Suhail Zulkiflee",
+      "07:41:42"
+    ],
+    "graded_place": 351,
+    "ag_place": 51
+  },
+  {
+    "bib": "475",
+    "name": "Ping Foong Alvin Chia",
+    "age_group": "M45-49",
+    "finish_time": "08:16:40",
+    "finish_time_seconds": 29800,
+    "gender_place": "371",
+    "graded_time_seconds": 26754.440000000002,
+    "graded_time": "07:25:54",
+    "unique_key": [
+      "Ping Foong Alvin Chia",
+      "08:16:40"
+    ],
+    "graded_place": 352,
+    "ag_place": 42
+  },
+  {
+    "bib": "281",
+    "name": "Muhammad Safwan Shamsudin",
+    "age_group": "M30-34",
+    "finish_time": "07:45:39",
+    "finish_time_seconds": 27939,
+    "gender_place": "321",
+    "graded_time_seconds": 26975.1045,
+    "graded_time": "07:29:35",
+    "unique_key": [
+      "Muhammad Safwan Shamsudin",
+      "07:45:39"
+    ],
+    "graded_place": 353,
+    "ag_place": 52
+  },
+  {
+    "bib": "651",
+    "name": "Munir Al-Mass",
+    "age_group": "M35-39",
+    "finish_time": "07:56:53",
+    "finish_time_seconds": 28613,
+    "gender_place": "340",
+    "graded_time_seconds": 27182.35,
+    "graded_time": "07:33:02",
+    "unique_key": [
+      "Munir Al-Mass",
+      "07:56:53"
+    ],
+    "graded_place": 354,
+    "ag_place": 59
+  },
+  {
+    "bib": "262",
+    "name": "Muhammad Zaid Mohamad Nasir",
+    "age_group": "M30-34",
+    "finish_time": "07:49:21",
+    "finish_time_seconds": 28161,
+    "gender_place": "328",
+    "graded_time_seconds": 27189.4455,
+    "graded_time": "07:33:09",
+    "unique_key": [
+      "Muhammad Zaid Mohamad Nasir",
+      "07:49:21"
+    ],
+    "graded_place": 355,
+    "ag_place": 53
+  },
+  {
+    "bib": "318",
+    "name": "Zulkifli Ismail",
+    "age_group": "M35-39",
+    "finish_time": "07:57:40",
+    "finish_time_seconds": 28660,
+    "gender_place": "342",
+    "graded_time_seconds": 27227.0,
+    "graded_time": "07:33:47",
+    "unique_key": [
+      "Zulkifli Ismail",
+      "07:57:40"
+    ],
+    "graded_place": 356,
+    "ag_place": 60
+  },
+  {
+    "bib": "502",
+    "name": "Khairy Jamaluddin Abu Bakar",
+    "age_group": "M45-49",
+    "finish_time": "08:25:32",
+    "finish_time_seconds": 30332,
+    "gender_place": "381",
+    "graded_time_seconds": 27232.069600000003,
+    "graded_time": "07:33:52",
+    "unique_key": [
+      "Khairy Jamaluddin Abu Bakar",
+      "08:25:32"
+    ],
+    "graded_place": 357,
+    "ag_place": 43
+  },
+  {
+    "bib": "216",
+    "name": "Syamim Dazizi",
+    "age_group": "M30-34",
+    "finish_time": "07:52:08",
+    "finish_time_seconds": 28328,
+    "gender_place": "330",
+    "graded_time_seconds": 27350.684,
+    "graded_time": "07:35:50",
+    "unique_key": [
+      "Syamim Dazizi",
+      "07:52:08"
+    ],
+    "graded_place": 358,
+    "ag_place": 54
+  },
+  {
+    "bib": "639",
+    "name": "Irfan Norzal",
+    "age_group": "M25-29",
+    "finish_time": "07:41:11",
+    "finish_time_seconds": 27671,
+    "gender_place": "311",
+    "graded_time_seconds": 27474.5359,
+    "graded_time": "07:37:54",
+    "unique_key": [
+      "Irfan Norzal",
+      "07:41:11"
+    ],
+    "graded_place": 359,
+    "ag_place": 34
+  },
+  {
+    "bib": "531",
+    "name": "Adnan Daeng",
+    "age_group": "M50-54",
+    "finish_time": "08:39:40",
+    "finish_time_seconds": 31180,
+    "gender_place": "388",
+    "graded_time_seconds": 27541.293999999998,
+    "graded_time": "07:39:01",
+    "unique_key": [
+      "Adnan Daeng",
+      "08:39:40"
+    ],
+    "graded_place": 360,
+    "ag_place": 43
+  },
+  {
+    "bib": "243",
+    "name": "Amirul Khuzairi",
+    "age_group": "M30-34",
+    "finish_time": "07:55:31",
+    "finish_time_seconds": 28531,
+    "gender_place": "334",
+    "graded_time_seconds": 27546.680500000002,
+    "graded_time": "07:39:06",
+    "unique_key": [
+      "Amirul Khuzairi",
+      "07:55:31"
+    ],
+    "graded_place": 361,
+    "ag_place": 55
+  },
+  {
+    "bib": "279",
+    "name": "Ehsan Ibrahim",
+    "age_group": "M30-34",
+    "finish_time": "07:56:57",
+    "finish_time_seconds": 28617,
+    "gender_place": "341",
+    "graded_time_seconds": 27629.7135,
+    "graded_time": "07:40:29",
+    "unique_key": [
+      "Ehsan Ibrahim",
+      "07:56:57"
+    ],
+    "graded_place": 362,
+    "ag_place": 56
+  },
+  {
+    "bib": "337",
+    "name": "Jacky Chng",
+    "age_group": "M35-39",
+    "finish_time": "08:05:13",
+    "finish_time_seconds": 29113,
+    "gender_place": "357",
+    "graded_time_seconds": 27657.35,
+    "graded_time": "07:40:57",
+    "unique_key": [
+      "Jacky Chng",
+      "08:05:13"
+    ],
+    "graded_place": 363,
+    "ag_place": 61
+  },
+  {
+    "bib": "699",
+    "name": "Muhamad Hidayat Afifi Bin Ishak",
+    "age_group": "M18-24",
+    "finish_time": "07:41:52",
+    "finish_time_seconds": 27712,
+    "gender_place": "314",
+    "graded_time_seconds": 27712.0,
+    "graded_time": "07:41:52",
+    "unique_key": [
+      "Muhamad Hidayat Afifi Bin Ishak",
+      "07:41:52"
+    ],
+    "graded_place": 364,
+    "ag_place": 13
+  },
+  {
+    "bib": "174",
+    "name": "Amirul Adli",
+    "age_group": "M25-29",
+    "finish_time": "07:46:02",
+    "finish_time_seconds": 27962,
+    "gender_place": "322",
+    "graded_time_seconds": 27763.4698,
+    "graded_time": "07:42:43",
+    "unique_key": [
+      "Amirul Adli",
+      "07:46:02"
+    ],
+    "graded_place": 365,
+    "ag_place": 35
+  },
+  {
+    "bib": "163",
+    "name": "Aboud Beroual",
+    "age_group": "M18-24",
+    "finish_time": "07:44:03",
+    "finish_time_seconds": 27843,
+    "gender_place": "319",
+    "graded_time_seconds": 27843.0,
+    "graded_time": "07:44:03",
+    "unique_key": [
+      "Aboud Beroual",
+      "07:44:03"
+    ],
+    "graded_place": 366,
+    "ag_place": 14
+  },
+  {
+    "bib": "178",
+    "name": "Muhammad Nafiss Radzuan",
+    "age_group": "M25-29",
+    "finish_time": "07:47:42",
+    "finish_time_seconds": 28062,
+    "gender_place": "324",
+    "graded_time_seconds": 27862.7598,
+    "graded_time": "07:44:22",
+    "unique_key": [
+      "Muhammad Nafiss Radzuan",
+      "07:47:42"
+    ],
+    "graded_place": 367,
+    "ag_place": 36
+  },
+  {
+    "bib": "195",
+    "name": "Sean Lee",
+    "age_group": "M25-29",
+    "finish_time": "07:48:24",
+    "finish_time_seconds": 28104,
+    "gender_place": "325",
+    "graded_time_seconds": 27904.4616,
+    "graded_time": "07:45:04",
+    "unique_key": [
+      "Sean Lee",
+      "07:48:24"
+    ],
+    "graded_place": 368,
+    "ag_place": 37
+  },
+  {
+    "bib": "430",
+    "name": "Ariansah Margaluta",
+    "age_group": "M40-44",
+    "finish_time": "08:24:06",
+    "finish_time_seconds": 30246,
+    "gender_place": "378",
+    "graded_time_seconds": 28013.8452,
+    "graded_time": "07:46:53",
+    "unique_key": [
+      "Ariansah Margaluta",
+      "08:24:06"
+    ],
+    "graded_place": 369,
+    "ag_place": 72
+  },
+  {
+    "bib": "373",
+    "name": "Mohd Sukri Bin Mohd Ali",
+    "age_group": "M40-44",
+    "finish_time": "08:24:19",
+    "finish_time_seconds": 30259,
+    "gender_place": "379",
+    "graded_time_seconds": 28025.8858,
+    "graded_time": "07:47:05",
+    "unique_key": [
+      "Mohd Sukri Bin Mohd Ali",
+      "08:24:19"
+    ],
+    "graded_place": 370,
+    "ag_place": 73
+  },
+  {
+    "bib": "414",
+    "name": "Prashant Ghalke",
+    "age_group": "M40-44",
+    "finish_time": "08:24:46",
+    "finish_time_seconds": 30286,
+    "gender_place": "380",
+    "graded_time_seconds": 28050.893200000002,
+    "graded_time": "07:47:30",
+    "unique_key": [
+      "Prashant Ghalke",
+      "08:24:46"
+    ],
+    "graded_place": 371,
+    "ag_place": 74
+  },
+  {
+    "bib": "424",
+    "name": "Abdul Hafiz Salleh",
+    "age_group": "M40-44",
+    "finish_time": "08:25:32",
+    "finish_time_seconds": 30332,
+    "gender_place": "382",
+    "graded_time_seconds": 28093.4984,
+    "graded_time": "07:48:13",
+    "unique_key": [
+      "Abdul Hafiz Salleh",
+      "08:25:32"
+    ],
+    "graded_place": 372,
+    "ag_place": 75
+  },
+  {
+    "bib": "278",
+    "name": "Biplab Das",
+    "age_group": "M30-34",
+    "finish_time": "08:05:14",
+    "finish_time_seconds": 29114,
+    "gender_place": "358",
+    "graded_time_seconds": 28109.567,
+    "graded_time": "07:48:29",
+    "unique_key": [
+      "Biplab Das",
+      "08:05:14"
+    ],
+    "graded_place": 373,
+    "ag_place": 57
+  },
+  {
+    "bib": "304",
+    "name": "Omar Faruqe",
+    "age_group": "M35-39",
+    "finish_time": "08:13:32",
+    "finish_time_seconds": 29612,
+    "gender_place": "367",
+    "graded_time_seconds": 28131.399999999998,
+    "graded_time": "07:48:51",
+    "unique_key": [
+      "Omar Faruqe",
+      "08:13:32"
+    ],
+    "graded_place": 374,
+    "ag_place": 62
+  },
+  {
+    "bib": "480",
+    "name": "Rosli Mustapa",
+    "age_group": "M45-49",
+    "finish_time": "08:42:50",
+    "finish_time_seconds": 31370,
+    "gender_place": "389",
+    "graded_time_seconds": 28163.986,
+    "graded_time": "07:49:23",
+    "unique_key": [
+      "Rosli Mustapa",
+      "08:42:50"
+    ],
+    "graded_place": 375,
+    "ag_place": 44
+  },
+  {
+    "bib": "256",
+    "name": "Aqil Luqman Bin Nurhakim",
+    "age_group": "M30-34",
+    "finish_time": "08:08:05",
+    "finish_time_seconds": 29285,
+    "gender_place": "360",
+    "graded_time_seconds": 28274.6675,
+    "graded_time": "07:51:14",
+    "unique_key": [
+      "Aqil Luqman Bin Nurhakim",
+      "08:08:05"
+    ],
+    "graded_place": 376,
+    "ag_place": 58
+  },
+  {
+    "bib": "205",
+    "name": "Zayd Shaukat Ali",
+    "age_group": "M25-29",
+    "finish_time": "07:55:22",
+    "finish_time_seconds": 28522,
+    "gender_place": "333",
+    "graded_time_seconds": 28319.4938,
+    "graded_time": "07:51:59",
+    "unique_key": [
+      "Zayd Shaukat Ali",
+      "07:55:22"
+    ],
+    "graded_place": 377,
+    "ag_place": 38
+  },
+  {
+    "bib": "194",
+    "name": "Wai Lee Heng",
+    "age_group": "M25-29",
+    "finish_time": "07:56:25",
+    "finish_time_seconds": 28585,
+    "gender_place": "337",
+    "graded_time_seconds": 28382.0465,
+    "graded_time": "07:53:02",
+    "unique_key": [
+      "Wai Lee Heng",
+      "07:56:25"
+    ],
+    "graded_place": 378,
+    "ag_place": 39
+  },
+  {
+    "bib": "315",
+    "name": "Fatin Al Farabee",
+    "age_group": "M35-39",
+    "finish_time": "08:18:42",
+    "finish_time_seconds": 29922,
+    "gender_place": "372",
+    "graded_time_seconds": 28425.899999999998,
+    "graded_time": "07:53:45",
+    "unique_key": [
+      "Fatin Al Farabee",
+      "08:18:42"
+    ],
+    "graded_place": 379,
+    "ag_place": 63
+  },
+  {
+    "bib": "290",
+    "name": "Syazli Anwar Bin Shamsulakmar",
+    "age_group": "M35-39",
+    "finish_time": "08:19:37",
+    "finish_time_seconds": 29977,
+    "gender_place": "374",
+    "graded_time_seconds": 28478.149999999998,
+    "graded_time": "07:54:38",
+    "unique_key": [
+      "Syazli Anwar Bin Shamsulakmar",
+      "08:19:37"
+    ],
+    "graded_place": 380,
+    "ag_place": 64
+  },
+  {
+    "bib": "631",
+    "name": "Raja Ariff Raja Azmi",
+    "age_group": "M18-24",
+    "finish_time": "07:56:45",
+    "finish_time_seconds": 28605,
+    "gender_place": "338",
+    "graded_time_seconds": 28605.0,
+    "graded_time": "07:56:45",
+    "unique_key": [
+      "Raja Ariff Raja Azmi",
+      "07:56:45"
+    ],
+    "graded_place": 381,
+    "ag_place": 15
+  },
+  {
+    "bib": "258",
+    "name": "Afif Norzal",
+    "age_group": "M30-34",
+    "finish_time": "08:15:33",
+    "finish_time_seconds": 29733,
+    "gender_place": "369",
+    "graded_time_seconds": 28707.2115,
+    "graded_time": "07:58:27",
+    "unique_key": [
+      "Afif Norzal",
+      "08:15:33"
+    ],
+    "graded_place": 382,
+    "ag_place": 59
+  },
+  {
+    "bib": "165",
+    "name": "Muhammad Adam Syauqi Bin Mohd Nasir Bin Mohd Nasir",
+    "age_group": "M25-29",
+    "finish_time": "08:04:45",
+    "finish_time_seconds": 29085,
+    "gender_place": "355",
+    "graded_time_seconds": 28878.4965,
+    "graded_time": "08:01:18",
+    "unique_key": [
+      "Muhammad Adam Syauqi Bin Mohd Nasir Bin Mohd Nasir",
+      "08:04:45"
+    ],
+    "graded_place": 383,
+    "ag_place": 40
+  },
+  {
+    "bib": "228",
+    "name": "Hafiz Zafri",
+    "age_group": "M30-34",
+    "finish_time": "08:20:01",
+    "finish_time_seconds": 30001,
+    "gender_place": "375",
+    "graded_time_seconds": 28965.965500000002,
+    "graded_time": "08:02:45",
+    "unique_key": [
+      "Hafiz Zafri",
+      "08:20:01"
+    ],
+    "graded_place": 384,
+    "ag_place": 60
+  },
+  {
+    "bib": "338",
+    "name": "Prabhakar Veerubhotla",
+    "age_group": "M35-39",
+    "finish_time": "08:30:34",
+    "finish_time_seconds": 30634,
+    "gender_place": "384",
+    "graded_time_seconds": 29102.3,
+    "graded_time": "08:05:02",
+    "unique_key": [
+      "Prabhakar Veerubhotla",
+      "08:30:34"
+    ],
+    "graded_place": 385,
+    "ag_place": 65
+  },
+  {
+    "bib": "152",
+    "name": "Wayne Lim",
+    "age_group": "M18-24",
+    "finish_time": "08:06:46",
+    "finish_time_seconds": 29206,
+    "gender_place": "359",
+    "graded_time_seconds": 29206.0,
+    "graded_time": "08:06:46",
+    "unique_key": [
+      "Wayne Lim",
+      "08:06:46"
+    ],
+    "graded_place": 386,
+    "ag_place": 16
+  },
+  {
+    "bib": "238",
+    "name": "Muhammad Shahir Abd Samad",
+    "age_group": "M30-34",
+    "finish_time": "08:27:40",
+    "finish_time_seconds": 30460,
+    "gender_place": "383",
+    "graded_time_seconds": 29409.13,
+    "graded_time": "08:10:09",
+    "unique_key": [
+      "Muhammad Shahir Abd Samad",
+      "08:27:40"
+    ],
+    "graded_place": 387,
+    "ag_place": 61
+  },
+  {
+    "bib": "649",
+    "name": "Muhamad Rafique Abdullah",
+    "age_group": "M30-34",
+    "finish_time": "08:34:48",
+    "finish_time_seconds": 30888,
+    "gender_place": "387",
+    "graded_time_seconds": 29822.364,
+    "graded_time": "08:17:02",
+    "unique_key": [
+      "Muhamad Rafique Abdullah",
+      "08:34:48"
+    ],
+    "graded_place": 388,
+    "ag_place": 62
+  },
+  {
+    "bib": "197",
+    "name": "Fauzi Rudy",
+    "age_group": "M25-29",
+    "finish_time": "08:31:48",
+    "finish_time_seconds": 30708,
+    "gender_place": "386",
+    "graded_time_seconds": 30489.9732,
+    "graded_time": "08:28:09",
+    "unique_key": [
+      "Fauzi Rudy",
+      "08:31:48"
+    ],
+    "graded_place": 389,
+    "ag_place": 41
+  }
+]

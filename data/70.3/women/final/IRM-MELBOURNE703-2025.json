@@ -1,0 +1,4466 @@
+[
+  {
+    "bib": "146",
+    "name": "Xanri Haak",
+    "age_group": "F35-39",
+    "finish_time": "04:04:36",
+    "finish_time_seconds": 14676,
+    "gender_place": "1",
+    "graded_time_seconds": 14174.0808,
+    "graded_time": "03:56:14",
+    "unique_key": [
+      "Xanri Haak",
+      "04:04:36"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "119",
+    "name": "Tanya Lavington",
+    "age_group": "F60-64",
+    "finish_time": "04:43:29",
+    "finish_time_seconds": 17009,
+    "gender_place": "38",
+    "graded_time_seconds": 14272.2519,
+    "graded_time": "03:57:52",
+    "unique_key": [
+      "Tanya Lavington",
+      "04:43:29"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "649",
+    "name": "Alexandra Meek",
+    "age_group": "F40-44",
+    "finish_time": "04:15:08",
+    "finish_time_seconds": 15308,
+    "gender_place": "6",
+    "graded_time_seconds": 14429.3208,
+    "graded_time": "04:00:29",
+    "unique_key": [
+      "Alexandra Meek",
+      "04:15:08"
+    ],
+    "graded_place": 3,
+    "ag_place": 1
+  },
+  {
+    "bib": "112",
+    "name": "Jacqui Graham",
+    "age_group": "F30-34",
+    "finish_time": "04:08:02",
+    "finish_time_seconds": 14882,
+    "gender_place": "2",
+    "graded_time_seconds": 14626.0296,
+    "graded_time": "04:03:46",
+    "unique_key": [
+      "Jacqui Graham",
+      "04:08:02"
+    ],
+    "graded_place": 4,
+    "ag_place": 1
+  },
+  {
+    "bib": "114",
+    "name": "Kimberly Alcorn",
+    "age_group": "F35-39",
+    "finish_time": "04:17:18",
+    "finish_time_seconds": 15438,
+    "gender_place": "7",
+    "graded_time_seconds": 14910.0204,
+    "graded_time": "04:08:30",
+    "unique_key": [
+      "Kimberly Alcorn",
+      "04:17:18"
+    ],
+    "graded_place": 5,
+    "ag_place": 2
+  },
+  {
+    "bib": "292",
+    "name": "Emily Register",
+    "age_group": "F25-29",
+    "finish_time": "04:09:42",
+    "finish_time_seconds": 14982,
+    "gender_place": "3",
+    "graded_time_seconds": 14982.0,
+    "graded_time": "04:09:42",
+    "unique_key": [
+      "Emily Register",
+      "04:09:42"
+    ],
+    "graded_place": 6,
+    "ag_place": 1
+  },
+  {
+    "bib": "142",
+    "name": "Bec Barry",
+    "age_group": "F25-29",
+    "finish_time": "04:10:07",
+    "finish_time_seconds": 15007,
+    "gender_place": "4",
+    "graded_time_seconds": 15007.0,
+    "graded_time": "04:10:07",
+    "unique_key": [
+      "Bec Barry",
+      "04:10:07"
+    ],
+    "graded_place": 7,
+    "ag_place": 2
+  },
+  {
+    "bib": "305",
+    "name": "Kerri Renshaw",
+    "age_group": "F50-54",
+    "finish_time": "04:39:03",
+    "finish_time_seconds": 16743,
+    "gender_place": "25",
+    "graded_time_seconds": 15095.4888,
+    "graded_time": "04:11:35",
+    "unique_key": [
+      "Kerri Renshaw",
+      "04:39:03"
+    ],
+    "graded_place": 8,
+    "ag_place": 1
+  },
+  {
+    "bib": "485",
+    "name": "Isobel Hogan",
+    "age_group": "F25-29",
+    "finish_time": "04:14:37",
+    "finish_time_seconds": 15277,
+    "gender_place": "5",
+    "graded_time_seconds": 15277.0,
+    "graded_time": "04:14:37",
+    "unique_key": [
+      "Isobel Hogan",
+      "04:14:37"
+    ],
+    "graded_place": 9,
+    "ag_place": 3
+  },
+  {
+    "bib": "591",
+    "name": "Carly Burgess",
+    "age_group": "F30-34",
+    "finish_time": "04:22:35",
+    "finish_time_seconds": 15755,
+    "gender_place": "9",
+    "graded_time_seconds": 15484.014,
+    "graded_time": "04:18:04",
+    "unique_key": [
+      "Carly Burgess",
+      "04:22:35"
+    ],
+    "graded_place": 10,
+    "ag_place": 2
+  },
+  {
+    "bib": "675",
+    "name": "Kylie Donnellan",
+    "age_group": "F50-54",
+    "finish_time": "04:47:33",
+    "finish_time_seconds": 17253,
+    "gender_place": "49",
+    "graded_time_seconds": 15555.3048,
+    "graded_time": "04:19:15",
+    "unique_key": [
+      "Kylie Donnellan",
+      "04:47:33"
+    ],
+    "graded_place": 11,
+    "ag_place": 2
+  },
+  {
+    "bib": "148",
+    "name": "Julie Kael",
+    "age_group": "F50-54",
+    "finish_time": "04:47:39",
+    "finish_time_seconds": 17259,
+    "gender_place": "51",
+    "graded_time_seconds": 15560.714399999999,
+    "graded_time": "04:19:20",
+    "unique_key": [
+      "Julie Kael",
+      "04:47:39"
+    ],
+    "graded_place": 12,
+    "ag_place": 3
+  },
+  {
+    "bib": "666",
+    "name": "Juliana Pinho de Assis Fernandes",
+    "age_group": "F45-49",
+    "finish_time": "04:42:19",
+    "finish_time_seconds": 16939,
+    "gender_place": "33",
+    "graded_time_seconds": 15570.328800000001,
+    "graded_time": "04:19:30",
+    "unique_key": [
+      "Juliana Pinho de Assis Fernandes",
+      "04:42:19"
+    ],
+    "graded_place": 13,
+    "ag_place": 1
+  },
+  {
+    "bib": "115",
+    "name": "Dav Pickles",
+    "age_group": "F45-49",
+    "finish_time": "04:42:45",
+    "finish_time_seconds": 16965,
+    "gender_place": "34",
+    "graded_time_seconds": 15594.228000000001,
+    "graded_time": "04:19:54",
+    "unique_key": [
+      "Dav Pickles",
+      "04:42:45"
+    ],
+    "graded_place": 14,
+    "ag_place": 2
+  },
+  {
+    "bib": "667",
+    "name": "Segolene Kretz",
+    "age_group": "F45-49",
+    "finish_time": "04:42:57",
+    "finish_time_seconds": 16977,
+    "gender_place": "36",
+    "graded_time_seconds": 15605.2584,
+    "graded_time": "04:20:05",
+    "unique_key": [
+      "Segolene Kretz",
+      "04:42:57"
+    ],
+    "graded_place": 15,
+    "ag_place": 3
+  },
+  {
+    "bib": "118",
+    "name": "Meta Vincent",
+    "age_group": "F55-59",
+    "finish_time": "04:58:01",
+    "finish_time_seconds": 17881,
+    "gender_place": "79",
+    "graded_time_seconds": 15638.722600000001,
+    "graded_time": "04:20:38",
+    "unique_key": [
+      "Meta Vincent",
+      "04:58:01"
+    ],
+    "graded_place": 16,
+    "ag_place": 1
+  },
+  {
+    "bib": "641",
+    "name": "Jess Barro",
+    "age_group": "F40-44",
+    "finish_time": "04:37:57",
+    "finish_time_seconds": 16677,
+    "gender_place": "24",
+    "graded_time_seconds": 15719.7402,
+    "graded_time": "04:21:59",
+    "unique_key": [
+      "Jess Barro",
+      "04:37:57"
+    ],
+    "graded_place": 17,
+    "ag_place": 2
+  },
+  {
+    "bib": "289",
+    "name": "Emily Dunk",
+    "age_group": "F25-29",
+    "finish_time": "04:22:17",
+    "finish_time_seconds": 15737,
+    "gender_place": "8",
+    "graded_time_seconds": 15737.0,
+    "graded_time": "04:22:17",
+    "unique_key": [
+      "Emily Dunk",
+      "04:22:17"
+    ],
+    "graded_place": 18,
+    "ag_place": 4
+  },
+  {
+    "bib": "530",
+    "name": "Rachael Traplin",
+    "age_group": "F25-29",
+    "finish_time": "04:22:43",
+    "finish_time_seconds": 15763,
+    "gender_place": "10",
+    "graded_time_seconds": 15763.0,
+    "graded_time": "04:22:43",
+    "unique_key": [
+      "Rachael Traplin",
+      "04:22:43"
+    ],
+    "graded_place": 19,
+    "ag_place": 5
+  },
+  {
+    "bib": "296",
+    "name": "Joanna Hancock",
+    "age_group": "F30-34",
+    "finish_time": "04:27:26",
+    "finish_time_seconds": 16046,
+    "gender_place": "11",
+    "graded_time_seconds": 15770.0088,
+    "graded_time": "04:22:50",
+    "unique_key": [
+      "Joanna Hancock",
+      "04:27:26"
+    ],
+    "graded_place": 20,
+    "ag_place": 3
+  },
+  {
+    "bib": "676",
+    "name": "Nicole Cox",
+    "age_group": "F50-54",
+    "finish_time": "04:53:40",
+    "finish_time_seconds": 17620,
+    "gender_place": "67",
+    "graded_time_seconds": 15886.192,
+    "graded_time": "04:24:46",
+    "unique_key": [
+      "Nicole Cox",
+      "04:53:40"
+    ],
+    "graded_place": 21,
+    "ag_place": 4
+  },
+  {
+    "bib": "396",
+    "name": "Ruby Hore",
+    "age_group": "F18-24",
+    "finish_time": "04:27:47",
+    "finish_time_seconds": 16067,
+    "gender_place": "12",
+    "graded_time_seconds": 15940.0707,
+    "graded_time": "04:25:40",
+    "unique_key": [
+      "Ruby Hore",
+      "04:27:47"
+    ],
+    "graded_place": 22,
+    "ag_place": 1
+  },
+  {
+    "bib": "714",
+    "name": "Liz Wickham",
+    "age_group": "F60-64",
+    "finish_time": "05:17:37",
+    "finish_time_seconds": 19057,
+    "gender_place": "122",
+    "graded_time_seconds": 15990.7287,
+    "graded_time": "04:26:30",
+    "unique_key": [
+      "Liz Wickham",
+      "05:17:37"
+    ],
+    "graded_place": 23,
+    "ag_place": 2
+  },
+  {
+    "bib": "654",
+    "name": "Lauren Dredge",
+    "age_group": "F40-44",
+    "finish_time": "04:42:52",
+    "finish_time_seconds": 16972,
+    "gender_place": "35",
+    "graded_time_seconds": 15997.8072,
+    "graded_time": "04:26:37",
+    "unique_key": [
+      "Lauren Dredge",
+      "04:42:52"
+    ],
+    "graded_place": 24,
+    "ag_place": 3
+  },
+  {
+    "bib": "222",
+    "name": "Katerina Zwingerová",
+    "age_group": "F30-34",
+    "finish_time": "04:32:01",
+    "finish_time_seconds": 16321,
+    "gender_place": "14",
+    "graded_time_seconds": 16040.2788,
+    "graded_time": "04:27:20",
+    "unique_key": [
+      "Katerina Zwingerová",
+      "04:32:01"
+    ],
+    "graded_place": 25,
+    "ag_place": 4
+  },
+  {
+    "bib": "576",
+    "name": "Coline Duquet",
+    "age_group": "F30-34",
+    "finish_time": "04:32:20",
+    "finish_time_seconds": 16340,
+    "gender_place": "15",
+    "graded_time_seconds": 16058.952,
+    "graded_time": "04:27:38",
+    "unique_key": [
+      "Coline Duquet",
+      "04:32:20"
+    ],
+    "graded_place": 26,
+    "ag_place": 5
+  },
+  {
+    "bib": "486",
+    "name": "Olivia Yammouni",
+    "age_group": "F25-29",
+    "finish_time": "04:28:28",
+    "finish_time_seconds": 16108,
+    "gender_place": "13",
+    "graded_time_seconds": 16108.0,
+    "graded_time": "04:28:28",
+    "unique_key": [
+      "Olivia Yammouni",
+      "04:28:28"
+    ],
+    "graded_place": 27,
+    "ag_place": 6
+  },
+  {
+    "bib": "152",
+    "name": "Belinda Prestney",
+    "age_group": "F55-59",
+    "finish_time": "05:08:03",
+    "finish_time_seconds": 18483,
+    "gender_place": "104",
+    "graded_time_seconds": 16165.231800000001,
+    "graded_time": "04:29:25",
+    "unique_key": [
+      "Belinda Prestney",
+      "05:08:03"
+    ],
+    "graded_place": 28,
+    "ag_place": 2
+  },
+  {
+    "bib": "635",
+    "name": "Kelly Dodd",
+    "age_group": "F40-44",
+    "finish_time": "04:46:56",
+    "finish_time_seconds": 17216,
+    "gender_place": "47",
+    "graded_time_seconds": 16227.8016,
+    "graded_time": "04:30:27",
+    "unique_key": [
+      "Kelly Dodd",
+      "04:46:56"
+    ],
+    "graded_place": 29,
+    "ag_place": 4
+  },
+  {
+    "bib": "298",
+    "name": "Emma Bessant",
+    "age_group": "F35-39",
+    "finish_time": "04:40:14",
+    "finish_time_seconds": 16814,
+    "gender_place": "30",
+    "graded_time_seconds": 16238.9612,
+    "graded_time": "04:30:38",
+    "unique_key": [
+      "Emma Bessant",
+      "04:40:14"
+    ],
+    "graded_place": 30,
+    "ag_place": 3
+  },
+  {
+    "bib": "151",
+    "name": "Ifat Perlman Domy",
+    "age_group": "F50-54",
+    "finish_time": "05:00:26",
+    "finish_time_seconds": 18026,
+    "gender_place": "82",
+    "graded_time_seconds": 16252.2416,
+    "graded_time": "04:30:52",
+    "unique_key": [
+      "Ifat Perlman Domy",
+      "05:00:26"
+    ],
+    "graded_place": 31,
+    "ag_place": 5
+  },
+  {
+    "bib": "303",
+    "name": "Caitlin Devidas",
+    "age_group": "F45-49",
+    "finish_time": "04:55:20",
+    "finish_time_seconds": 17720,
+    "gender_place": "72",
+    "graded_time_seconds": 16288.224,
+    "graded_time": "04:31:28",
+    "unique_key": [
+      "Caitlin Devidas",
+      "04:55:20"
+    ],
+    "graded_place": 32,
+    "ag_place": 4
+  },
+  {
+    "bib": "588",
+    "name": "Rebecca McCormack",
+    "age_group": "F30-34",
+    "finish_time": "04:36:30",
+    "finish_time_seconds": 16590,
+    "gender_place": "20",
+    "graded_time_seconds": 16304.652,
+    "graded_time": "04:31:44",
+    "unique_key": [
+      "Rebecca McCormack",
+      "04:36:30"
+    ],
+    "graded_place": 33,
+    "ag_place": 6
+  },
+  {
+    "bib": "227",
+    "name": "Maike Döhling",
+    "age_group": "F40-44",
+    "finish_time": "04:48:22",
+    "finish_time_seconds": 17302,
+    "gender_place": "53",
+    "graded_time_seconds": 16308.8652,
+    "graded_time": "04:31:48",
+    "unique_key": [
+      "Maike Döhling",
+      "04:48:22"
+    ],
+    "graded_place": 34,
+    "ag_place": 5
+  },
+  {
+    "bib": "288",
+    "name": "Emma Brown",
+    "age_group": "F25-29",
+    "finish_time": "04:32:36",
+    "finish_time_seconds": 16356,
+    "gender_place": "16",
+    "graded_time_seconds": 16356.0,
+    "graded_time": "04:32:36",
+    "unique_key": [
+      "Emma Brown",
+      "04:32:36"
+    ],
+    "graded_place": 35,
+    "ag_place": 7
+  },
+  {
+    "bib": "503",
+    "name": "Axel VAN Rossum",
+    "age_group": "F25-29",
+    "finish_time": "04:32:55",
+    "finish_time_seconds": 16375,
+    "gender_place": "17",
+    "graded_time_seconds": 16375.0,
+    "graded_time": "04:32:55",
+    "unique_key": [
+      "Axel VAN Rossum",
+      "04:32:55"
+    ],
+    "graded_place": 36,
+    "ag_place": 8
+  },
+  {
+    "bib": "561",
+    "name": "Bridget Wyatt",
+    "age_group": "F30-34",
+    "finish_time": "04:37:55",
+    "finish_time_seconds": 16675,
+    "gender_place": "23",
+    "graded_time_seconds": 16388.19,
+    "graded_time": "04:33:08",
+    "unique_key": [
+      "Bridget Wyatt",
+      "04:37:55"
+    ],
+    "graded_place": 37,
+    "ag_place": 7
+  },
+  {
+    "bib": "655",
+    "name": "Rebecca Adams",
+    "age_group": "F45-49",
+    "finish_time": "04:57:20",
+    "finish_time_seconds": 17840,
+    "gender_place": "76",
+    "graded_time_seconds": 16398.528000000002,
+    "graded_time": "04:33:18",
+    "unique_key": [
+      "Rebecca Adams",
+      "04:57:20"
+    ],
+    "graded_place": 38,
+    "ag_place": 5
+  },
+  {
+    "bib": "514",
+    "name": "Serena Rendell",
+    "age_group": "F25-29",
+    "finish_time": "04:33:40",
+    "finish_time_seconds": 16420,
+    "gender_place": "18",
+    "graded_time_seconds": 16420.0,
+    "graded_time": "04:33:40",
+    "unique_key": [
+      "Serena Rendell",
+      "04:33:40"
+    ],
+    "graded_place": 39,
+    "ag_place": 9
+  },
+  {
+    "bib": "580",
+    "name": "Phoebe Penfold",
+    "age_group": "F30-34",
+    "finish_time": "04:39:05",
+    "finish_time_seconds": 16745,
+    "gender_place": "26",
+    "graded_time_seconds": 16456.986,
+    "graded_time": "04:34:16",
+    "unique_key": [
+      "Phoebe Penfold",
+      "04:39:05"
+    ],
+    "graded_place": 40,
+    "ag_place": 8
+  },
+  {
+    "bib": "381",
+    "name": "Jemma Wilson",
+    "age_group": "F18-24",
+    "finish_time": "04:37:01",
+    "finish_time_seconds": 16621,
+    "gender_place": "22",
+    "graded_time_seconds": 16489.6941,
+    "graded_time": "04:34:49",
+    "unique_key": [
+      "Jemma Wilson",
+      "04:37:01"
+    ],
+    "graded_place": 41,
+    "ag_place": 2
+  },
+  {
+    "bib": "447",
+    "name": "Cat O'Leary",
+    "age_group": "F25-29",
+    "finish_time": "04:35:06",
+    "finish_time_seconds": 16506,
+    "gender_place": "19",
+    "graded_time_seconds": 16506.0,
+    "graded_time": "04:35:06",
+    "unique_key": [
+      "Cat O'Leary",
+      "04:35:06"
+    ],
+    "graded_place": 42,
+    "ag_place": 10
+  },
+  {
+    "bib": "542",
+    "name": "Zoe Greer",
+    "age_group": "F30-34",
+    "finish_time": "04:40:06",
+    "finish_time_seconds": 16806,
+    "gender_place": "29",
+    "graded_time_seconds": 16516.9368,
+    "graded_time": "04:35:16",
+    "unique_key": [
+      "Zoe Greer",
+      "04:40:06"
+    ],
+    "graded_place": 43,
+    "ag_place": 9
+  },
+  {
+    "bib": "713",
+    "name": "Janine Hancock",
+    "age_group": "F60-64",
+    "finish_time": "05:28:29",
+    "finish_time_seconds": 19709,
+    "gender_place": "155",
+    "graded_time_seconds": 16537.8219,
+    "graded_time": "04:35:37",
+    "unique_key": [
+      "Janine Hancock",
+      "05:28:29"
+    ],
+    "graded_place": 44,
+    "ag_place": 3
+  },
+  {
+    "bib": "541",
+    "name": "Tayla Patterson",
+    "age_group": "F30-34",
+    "finish_time": "04:40:52",
+    "finish_time_seconds": 16852,
+    "gender_place": "32",
+    "graded_time_seconds": 16562.1456,
+    "graded_time": "04:36:02",
+    "unique_key": [
+      "Tayla Patterson",
+      "04:40:52"
+    ],
+    "graded_place": 45,
+    "ag_place": 10
+  },
+  {
+    "bib": "630",
+    "name": "Bianca Janover",
+    "age_group": "F40-44",
+    "finish_time": "04:53:26",
+    "finish_time_seconds": 17606,
+    "gender_place": "66",
+    "graded_time_seconds": 16595.4156,
+    "graded_time": "04:36:35",
+    "unique_key": [
+      "Bianca Janover",
+      "04:53:26"
+    ],
+    "graded_place": 46,
+    "ag_place": 6
+  },
+  {
+    "bib": "290",
+    "name": "Ruby Sitzler",
+    "age_group": "F25-29",
+    "finish_time": "04:36:40",
+    "finish_time_seconds": 16600,
+    "gender_place": "21",
+    "graded_time_seconds": 16600.0,
+    "graded_time": "04:36:40",
+    "unique_key": [
+      "Ruby Sitzler",
+      "04:36:40"
+    ],
+    "graded_place": 47,
+    "ag_place": 11
+  },
+  {
+    "bib": "405",
+    "name": "Erin Covelli",
+    "age_group": "F18-24",
+    "finish_time": "04:39:43",
+    "finish_time_seconds": 16783,
+    "gender_place": "27",
+    "graded_time_seconds": 16650.4143,
+    "graded_time": "04:37:30",
+    "unique_key": [
+      "Erin Covelli",
+      "04:39:43"
+    ],
+    "graded_place": 48,
+    "ag_place": 3
+  },
+  {
+    "bib": "640",
+    "name": "Maggie Roberts",
+    "age_group": "F40-44",
+    "finish_time": "04:54:40",
+    "finish_time_seconds": 17680,
+    "gender_place": "70",
+    "graded_time_seconds": 16665.168,
+    "graded_time": "04:37:45",
+    "unique_key": [
+      "Maggie Roberts",
+      "04:54:40"
+    ],
+    "graded_place": 49,
+    "ag_place": 7
+  },
+  {
+    "bib": "297",
+    "name": "Jill McBain",
+    "age_group": "F35-39",
+    "finish_time": "04:47:39",
+    "finish_time_seconds": 17259,
+    "gender_place": "50",
+    "graded_time_seconds": 16668.7422,
+    "graded_time": "04:37:48",
+    "unique_key": [
+      "Jill McBain",
+      "04:47:39"
+    ],
+    "graded_place": 50,
+    "ag_place": 4
+  },
+  {
+    "bib": "411",
+    "name": "Ellora Kelly",
+    "age_group": "F18-24",
+    "finish_time": "04:40:17",
+    "finish_time_seconds": 16817,
+    "gender_place": "31",
+    "graded_time_seconds": 16684.1457,
+    "graded_time": "04:38:04",
+    "unique_key": [
+      "Ellora Kelly",
+      "04:40:17"
+    ],
+    "graded_place": 51,
+    "ag_place": 4
+  },
+  {
+    "bib": "670",
+    "name": "Leah Hickey",
+    "age_group": "F45-49",
+    "finish_time": "05:02:35",
+    "finish_time_seconds": 18155,
+    "gender_place": "87",
+    "graded_time_seconds": 16688.076,
+    "graded_time": "04:38:08",
+    "unique_key": [
+      "Leah Hickey",
+      "05:02:35"
+    ],
+    "graded_place": 52,
+    "ag_place": 6
+  },
+  {
+    "bib": "663",
+    "name": "Kimberley Blackie",
+    "age_group": "F45-49",
+    "finish_time": "05:02:37",
+    "finish_time_seconds": 18157,
+    "gender_place": "88",
+    "graded_time_seconds": 16689.9144,
+    "graded_time": "04:38:09",
+    "unique_key": [
+      "Kimberley Blackie",
+      "05:02:37"
+    ],
+    "graded_place": 53,
+    "ag_place": 7
+  },
+  {
+    "bib": "549",
+    "name": "Bree Nesbitt",
+    "age_group": "F30-34",
+    "finish_time": "04:43:34",
+    "finish_time_seconds": 17014,
+    "gender_place": "39",
+    "graded_time_seconds": 16721.3592,
+    "graded_time": "04:38:41",
+    "unique_key": [
+      "Bree Nesbitt",
+      "04:43:34"
+    ],
+    "graded_place": 54,
+    "ag_place": 11
+  },
+  {
+    "bib": "562",
+    "name": "Emma Hoy",
+    "age_group": "F30-34",
+    "finish_time": "04:43:41",
+    "finish_time_seconds": 17021,
+    "gender_place": "40",
+    "graded_time_seconds": 16728.2388,
+    "graded_time": "04:38:48",
+    "unique_key": [
+      "Emma Hoy",
+      "04:43:41"
+    ],
+    "graded_place": 55,
+    "ag_place": 12
+  },
+  {
+    "bib": "662",
+    "name": "Mandy Ellingham",
+    "age_group": "F45-49",
+    "finish_time": "05:03:37",
+    "finish_time_seconds": 18217,
+    "gender_place": "93",
+    "graded_time_seconds": 16745.0664,
+    "graded_time": "04:39:05",
+    "unique_key": [
+      "Mandy Ellingham",
+      "05:03:37"
+    ],
+    "graded_place": 56,
+    "ag_place": 8
+  },
+  {
+    "bib": "145",
+    "name": "Ash Gardner",
+    "age_group": "F35-39",
+    "finish_time": "04:49:34",
+    "finish_time_seconds": 17374,
+    "gender_place": "55",
+    "graded_time_seconds": 16779.8092,
+    "graded_time": "04:39:39",
+    "unique_key": [
+      "Ash Gardner",
+      "04:49:34"
+    ],
+    "graded_place": 57,
+    "ag_place": 5
+  },
+  {
+    "bib": "456",
+    "name": "Chelsea Bryans",
+    "age_group": "F25-29",
+    "finish_time": "04:40:00",
+    "finish_time_seconds": 16800,
+    "gender_place": "28",
+    "graded_time_seconds": 16800.0,
+    "graded_time": "04:40:00",
+    "unique_key": [
+      "Chelsea Bryans",
+      "04:40:00"
+    ],
+    "graded_place": 58,
+    "ag_place": 12
+  },
+  {
+    "bib": "376",
+    "name": "Ellie Butler",
+    "age_group": "F18-24",
+    "finish_time": "04:43:12",
+    "finish_time_seconds": 16992,
+    "gender_place": "37",
+    "graded_time_seconds": 16857.7632,
+    "graded_time": "04:40:57",
+    "unique_key": [
+      "Ellie Butler",
+      "04:43:12"
+    ],
+    "graded_place": 59,
+    "ag_place": 5
+  },
+  {
+    "bib": "699",
+    "name": "Regine Vandenberg",
+    "age_group": "F55-59",
+    "finish_time": "05:21:19",
+    "finish_time_seconds": 19279,
+    "gender_place": "132",
+    "graded_time_seconds": 16861.4134,
+    "graded_time": "04:41:01",
+    "unique_key": [
+      "Regine Vandenberg",
+      "05:21:19"
+    ],
+    "graded_place": 60,
+    "ag_place": 3
+  },
+  {
+    "bib": "302",
+    "name": "Andrea Alderton",
+    "age_group": "F45-49",
+    "finish_time": "05:06:04",
+    "finish_time_seconds": 18364,
+    "gender_place": "98",
+    "graded_time_seconds": 16880.1888,
+    "graded_time": "04:41:20",
+    "unique_key": [
+      "Andrea Alderton",
+      "05:06:04"
+    ],
+    "graded_place": 61,
+    "ag_place": 9
+  },
+  {
+    "bib": "716",
+    "name": "Caroline Houston",
+    "age_group": "F65-69",
+    "finish_time": "06:02:33",
+    "finish_time_seconds": 21753,
+    "gender_place": "234",
+    "graded_time_seconds": 16912.9575,
+    "graded_time": "04:41:52",
+    "unique_key": [
+      "Caroline Houston",
+      "06:02:33"
+    ],
+    "graded_place": 62,
+    "ag_place": 1
+  },
+  {
+    "bib": "294",
+    "name": "Jess Cowell",
+    "age_group": "F30-34",
+    "finish_time": "04:47:05",
+    "finish_time_seconds": 17225,
+    "gender_place": "48",
+    "graded_time_seconds": 16928.73,
+    "graded_time": "04:42:08",
+    "unique_key": [
+      "Jess Cowell",
+      "04:47:05"
+    ],
+    "graded_place": 63,
+    "ag_place": 13
+  },
+  {
+    "bib": "665",
+    "name": "Danni-Lee Grace",
+    "age_group": "F45-49",
+    "finish_time": "05:07:50",
+    "finish_time_seconds": 18470,
+    "gender_place": "102",
+    "graded_time_seconds": 16977.624,
+    "graded_time": "04:42:57",
+    "unique_key": [
+      "Danni-Lee Grace",
+      "05:07:50"
+    ],
+    "graded_place": 64,
+    "ag_place": 10
+  },
+  {
+    "bib": "144",
+    "name": "Aislinn Begley",
+    "age_group": "F30-34",
+    "finish_time": "04:48:31",
+    "finish_time_seconds": 17311,
+    "gender_place": "54",
+    "graded_time_seconds": 17013.2508,
+    "graded_time": "04:43:33",
+    "unique_key": [
+      "Aislinn Begley",
+      "04:48:31"
+    ],
+    "graded_place": 65,
+    "ag_place": 14
+  },
+  {
+    "bib": "461",
+    "name": "Hali VAN Niel",
+    "age_group": "F25-29",
+    "finish_time": "04:43:41",
+    "finish_time_seconds": 17021,
+    "gender_place": "41",
+    "graded_time_seconds": 17021.0,
+    "graded_time": "04:43:41",
+    "unique_key": [
+      "Hali VAN Niel",
+      "04:43:41"
+    ],
+    "graded_place": 66,
+    "ag_place": 13
+  },
+  {
+    "bib": "484",
+    "name": "Alex Cullen",
+    "age_group": "F25-29",
+    "finish_time": "04:43:43",
+    "finish_time_seconds": 17023,
+    "gender_place": "42",
+    "graded_time_seconds": 17023.0,
+    "graded_time": "04:43:43",
+    "unique_key": [
+      "Alex Cullen",
+      "04:43:43"
+    ],
+    "graded_place": 67,
+    "ag_place": 14
+  },
+  {
+    "bib": "423",
+    "name": "Maria Jose Herrera Sutti",
+    "age_group": "F18-24",
+    "finish_time": "04:46:03",
+    "finish_time_seconds": 17163,
+    "gender_place": "45",
+    "graded_time_seconds": 17027.4123,
+    "graded_time": "04:43:47",
+    "unique_key": [
+      "Maria Jose Herrera Sutti",
+      "04:46:03"
+    ],
+    "graded_place": 68,
+    "ag_place": 6
+  },
+  {
+    "bib": "620",
+    "name": "Kristin Ferguson",
+    "age_group": "F35-39",
+    "finish_time": "04:54:41",
+    "finish_time_seconds": 17681,
+    "gender_place": "71",
+    "graded_time_seconds": 17076.3098,
+    "graded_time": "04:44:36",
+    "unique_key": [
+      "Kristin Ferguson",
+      "04:54:41"
+    ],
+    "graded_place": 69,
+    "ag_place": 6
+  },
+  {
+    "bib": "557",
+    "name": "Claudia Pereira",
+    "age_group": "F30-34",
+    "finish_time": "04:49:42",
+    "finish_time_seconds": 17382,
+    "gender_place": "56",
+    "graded_time_seconds": 17083.0296,
+    "graded_time": "04:44:43",
+    "unique_key": [
+      "Claudia Pereira",
+      "04:49:42"
+    ],
+    "graded_place": 70,
+    "ag_place": 15
+  },
+  {
+    "bib": "671",
+    "name": "Aoife Travers",
+    "age_group": "F45-49",
+    "finish_time": "05:09:46",
+    "finish_time_seconds": 18586,
+    "gender_place": "109",
+    "graded_time_seconds": 17084.2512,
+    "graded_time": "04:44:44",
+    "unique_key": [
+      "Aoife Travers",
+      "05:09:46"
+    ],
+    "graded_place": 71,
+    "ag_place": 11
+  },
+  {
+    "bib": "643",
+    "name": "Sarah Bailey",
+    "age_group": "F40-44",
+    "finish_time": "05:02:31",
+    "finish_time_seconds": 18151,
+    "gender_place": "86",
+    "graded_time_seconds": 17109.1326,
+    "graded_time": "04:45:09",
+    "unique_key": [
+      "Sarah Bailey",
+      "05:02:31"
+    ],
+    "graded_place": 72,
+    "ag_place": 8
+  },
+  {
+    "bib": "511",
+    "name": "Honor Murison",
+    "age_group": "F25-29",
+    "finish_time": "04:45:11",
+    "finish_time_seconds": 17111,
+    "gender_place": "43",
+    "graded_time_seconds": 17111.0,
+    "graded_time": "04:45:11",
+    "unique_key": [
+      "Honor Murison",
+      "04:45:11"
+    ],
+    "graded_place": 73,
+    "ag_place": 15
+  },
+  {
+    "bib": "586",
+    "name": "Sinead Daly",
+    "age_group": "F30-34",
+    "finish_time": "04:50:21",
+    "finish_time_seconds": 17421,
+    "gender_place": "57",
+    "graded_time_seconds": 17121.3588,
+    "graded_time": "04:45:21",
+    "unique_key": [
+      "Sinead Daly",
+      "04:50:21"
+    ],
+    "graded_place": 74,
+    "ag_place": 16
+  },
+  {
+    "bib": "490",
+    "name": "Erin Jay",
+    "age_group": "F25-29",
+    "finish_time": "04:45:52",
+    "finish_time_seconds": 17152,
+    "gender_place": "44",
+    "graded_time_seconds": 17152.0,
+    "graded_time": "04:45:52",
+    "unique_key": [
+      "Erin Jay",
+      "04:45:52"
+    ],
+    "graded_place": 75,
+    "ag_place": 16
+  },
+  {
+    "bib": "686",
+    "name": "Barbara Claire Winikerei",
+    "age_group": "F50-54",
+    "finish_time": "05:17:10",
+    "finish_time_seconds": 19030,
+    "gender_place": "121",
+    "graded_time_seconds": 17157.448,
+    "graded_time": "04:45:57",
+    "unique_key": [
+      "Barbara Claire Winikerei",
+      "05:17:10"
+    ],
+    "graded_place": 76,
+    "ag_place": 6
+  },
+  {
+    "bib": "589",
+    "name": "Louisa Browne",
+    "age_group": "F30-34",
+    "finish_time": "04:51:03",
+    "finish_time_seconds": 17463,
+    "gender_place": "59",
+    "graded_time_seconds": 17162.6364,
+    "graded_time": "04:46:02",
+    "unique_key": [
+      "Louisa Browne",
+      "04:51:03"
+    ],
+    "graded_place": 77,
+    "ag_place": 17
+  },
+  {
+    "bib": "571",
+    "name": "Mariana Agra",
+    "age_group": "F30-34",
+    "finish_time": "04:51:25",
+    "finish_time_seconds": 17485,
+    "gender_place": "60",
+    "graded_time_seconds": 17184.258,
+    "graded_time": "04:46:24",
+    "unique_key": [
+      "Mariana Agra",
+      "04:51:25"
+    ],
+    "graded_place": 78,
+    "ag_place": 18
+  },
+  {
+    "bib": "454",
+    "name": "Chelsea Sleczka",
+    "age_group": "F25-29",
+    "finish_time": "04:46:26",
+    "finish_time_seconds": 17186,
+    "gender_place": "46",
+    "graded_time_seconds": 17186.0,
+    "graded_time": "04:46:26",
+    "unique_key": [
+      "Chelsea Sleczka",
+      "04:46:26"
+    ],
+    "graded_place": 79,
+    "ag_place": 17
+  },
+  {
+    "bib": "579",
+    "name": "Lutie Akinci",
+    "age_group": "F30-34",
+    "finish_time": "04:52:39",
+    "finish_time_seconds": 17559,
+    "gender_place": "63",
+    "graded_time_seconds": 17256.9852,
+    "graded_time": "04:47:36",
+    "unique_key": [
+      "Lutie Akinci",
+      "04:52:39"
+    ],
+    "graded_place": 80,
+    "ag_place": 19
+  },
+  {
+    "bib": "528",
+    "name": "Oriane Pils",
+    "age_group": "F25-29",
+    "finish_time": "04:48:05",
+    "finish_time_seconds": 17285,
+    "gender_place": "52",
+    "graded_time_seconds": 17285.0,
+    "graded_time": "04:48:05",
+    "unique_key": [
+      "Oriane Pils",
+      "04:48:05"
+    ],
+    "graded_place": 81,
+    "ag_place": 18
+  },
+  {
+    "bib": "608",
+    "name": "Mia Urie",
+    "age_group": "F35-39",
+    "finish_time": "04:58:37",
+    "finish_time_seconds": 17917,
+    "gender_place": "80",
+    "graded_time_seconds": 17304.2386,
+    "graded_time": "04:48:24",
+    "unique_key": [
+      "Mia Urie",
+      "04:58:37"
+    ],
+    "graded_place": 82,
+    "ag_place": 7
+  },
+  {
+    "bib": "410",
+    "name": "Indeigh Winterson",
+    "age_group": "F18-24",
+    "finish_time": "04:50:45",
+    "finish_time_seconds": 17445,
+    "gender_place": "58",
+    "graded_time_seconds": 17307.1845,
+    "graded_time": "04:48:27",
+    "unique_key": [
+      "Indeigh Winterson",
+      "04:50:45"
+    ],
+    "graded_place": 83,
+    "ag_place": 7
+  },
+  {
+    "bib": "688",
+    "name": "Laura Smithers-Shaw",
+    "age_group": "F50-54",
+    "finish_time": "05:20:03",
+    "finish_time_seconds": 19203,
+    "gender_place": "126",
+    "graded_time_seconds": 17313.4248,
+    "graded_time": "04:48:33",
+    "unique_key": [
+      "Laura Smithers-Shaw",
+      "05:20:03"
+    ],
+    "graded_place": 84,
+    "ag_place": 7
+  },
+  {
+    "bib": "553",
+    "name": "Chantal Katerelos",
+    "age_group": "F30-34",
+    "finish_time": "04:53:40",
+    "finish_time_seconds": 17620,
+    "gender_place": "68",
+    "graded_time_seconds": 17316.936,
+    "graded_time": "04:48:36",
+    "unique_key": [
+      "Chantal Katerelos",
+      "04:53:40"
+    ],
+    "graded_place": 85,
+    "ag_place": 20
+  },
+  {
+    "bib": "582",
+    "name": "Jess Oldfield",
+    "age_group": "F30-34",
+    "finish_time": "04:54:11",
+    "finish_time_seconds": 17651,
+    "gender_place": "69",
+    "graded_time_seconds": 17347.4028,
+    "graded_time": "04:49:07",
+    "unique_key": [
+      "Jess Oldfield",
+      "04:54:11"
+    ],
+    "graded_place": 86,
+    "ag_place": 21
+  },
+  {
+    "bib": "602",
+    "name": "Nekite Krog",
+    "age_group": "F35-39",
+    "finish_time": "04:59:24",
+    "finish_time_seconds": 17964,
+    "gender_place": "81",
+    "graded_time_seconds": 17349.6312,
+    "graded_time": "04:49:09",
+    "unique_key": [
+      "Nekite Krog",
+      "04:59:24"
+    ],
+    "graded_place": 87,
+    "ag_place": 8
+  },
+  {
+    "bib": "628",
+    "name": "Sara Doyle",
+    "age_group": "F40-44",
+    "finish_time": "05:08:14",
+    "finish_time_seconds": 18494,
+    "gender_place": "105",
+    "graded_time_seconds": 17432.4444,
+    "graded_time": "04:50:32",
+    "unique_key": [
+      "Sara Doyle",
+      "05:08:14"
+    ],
+    "graded_place": 88,
+    "ag_place": 9
+  },
+  {
+    "bib": "428",
+    "name": "Kimberly MacLean",
+    "age_group": "F18-24",
+    "finish_time": "04:53:04",
+    "finish_time_seconds": 17584,
+    "gender_place": "64",
+    "graded_time_seconds": 17445.0864,
+    "graded_time": "04:50:45",
+    "unique_key": [
+      "Kimberly MacLean",
+      "04:53:04"
+    ],
+    "graded_place": 89,
+    "ag_place": 8
+  },
+  {
+    "bib": "487",
+    "name": "Sammy Kerr",
+    "age_group": "F25-29",
+    "finish_time": "04:51:27",
+    "finish_time_seconds": 17487,
+    "gender_place": "61",
+    "graded_time_seconds": 17487.0,
+    "graded_time": "04:51:27",
+    "unique_key": [
+      "Sammy Kerr",
+      "04:51:27"
+    ],
+    "graded_place": 90,
+    "ag_place": 19
+  },
+  {
+    "bib": "295",
+    "name": "Sarah Taig",
+    "age_group": "F30-34",
+    "finish_time": "04:56:36",
+    "finish_time_seconds": 17796,
+    "gender_place": "74",
+    "graded_time_seconds": 17489.9088,
+    "graded_time": "04:51:29",
+    "unique_key": [
+      "Sarah Taig",
+      "04:56:36"
+    ],
+    "graded_place": 91,
+    "ag_place": 22
+  },
+  {
+    "bib": "488",
+    "name": "Taylor Ly",
+    "age_group": "F25-29",
+    "finish_time": "04:52:08",
+    "finish_time_seconds": 17528,
+    "gender_place": "62",
+    "graded_time_seconds": 17528.0,
+    "graded_time": "04:52:08",
+    "unique_key": [
+      "Taylor Ly",
+      "04:52:08"
+    ],
+    "graded_place": 92,
+    "ag_place": 20
+  },
+  {
+    "bib": "472",
+    "name": "Sophia Osullivan",
+    "age_group": "F25-29",
+    "finish_time": "04:53:16",
+    "finish_time_seconds": 17596,
+    "gender_place": "65",
+    "graded_time_seconds": 17596.0,
+    "graded_time": "04:53:16",
+    "unique_key": [
+      "Sophia Osullivan",
+      "04:53:16"
+    ],
+    "graded_place": 93,
+    "ag_place": 21
+  },
+  {
+    "bib": "307",
+    "name": "Cecilia Benedict",
+    "age_group": "F55-59",
+    "finish_time": "05:35:43",
+    "finish_time_seconds": 20143,
+    "gender_place": "178",
+    "graded_time_seconds": 17617.0678,
+    "graded_time": "04:53:37",
+    "unique_key": [
+      "Cecilia Benedict",
+      "05:35:43"
+    ],
+    "graded_place": 94,
+    "ag_place": 4
+  },
+  {
+    "bib": "397",
+    "name": "Georgia Bellette",
+    "age_group": "F18-24",
+    "finish_time": "04:57:26",
+    "finish_time_seconds": 17846,
+    "gender_place": "77",
+    "graded_time_seconds": 17705.0166,
+    "graded_time": "04:55:05",
+    "unique_key": [
+      "Georgia Bellette",
+      "04:57:26"
+    ],
+    "graded_place": 95,
+    "ag_place": 9
+  },
+  {
+    "bib": "478",
+    "name": "Femke Russell",
+    "age_group": "F25-29",
+    "finish_time": "04:55:36",
+    "finish_time_seconds": 17736,
+    "gender_place": "73",
+    "graded_time_seconds": 17736.0,
+    "graded_time": "04:55:36",
+    "unique_key": [
+      "Femke Russell",
+      "04:55:36"
+    ],
+    "graded_place": 96,
+    "ag_place": 22
+  },
+  {
+    "bib": "564",
+    "name": "Grace McArthur",
+    "age_group": "F30-34",
+    "finish_time": "05:01:58",
+    "finish_time_seconds": 18118,
+    "gender_place": "85",
+    "graded_time_seconds": 17806.3704,
+    "graded_time": "04:56:46",
+    "unique_key": [
+      "Grace McArthur",
+      "05:01:58"
+    ],
+    "graded_place": 97,
+    "ag_place": 23
+  },
+  {
+    "bib": "460",
+    "name": "Tahnee Stevenson",
+    "age_group": "F25-29",
+    "finish_time": "04:56:53",
+    "finish_time_seconds": 17813,
+    "gender_place": "75",
+    "graded_time_seconds": 17813.0,
+    "graded_time": "04:56:53",
+    "unique_key": [
+      "Tahnee Stevenson",
+      "04:56:53"
+    ],
+    "graded_place": 98,
+    "ag_place": 23
+  },
+  {
+    "bib": "692",
+    "name": "Clare Fitzpatrick",
+    "age_group": "F50-54",
+    "finish_time": "05:29:42",
+    "finish_time_seconds": 19782,
+    "gender_place": "158",
+    "graded_time_seconds": 17835.4512,
+    "graded_time": "04:57:15",
+    "unique_key": [
+      "Clare Fitzpatrick",
+      "05:29:42"
+    ],
+    "graded_place": 99,
+    "ag_place": 8
+  },
+  {
+    "bib": "611",
+    "name": "Daisy Pope-Brien",
+    "age_group": "F35-39",
+    "finish_time": "05:08:01",
+    "finish_time_seconds": 18481,
+    "gender_place": "103",
+    "graded_time_seconds": 17848.9498,
+    "graded_time": "04:57:28",
+    "unique_key": [
+      "Daisy Pope-Brien",
+      "05:08:01"
+    ],
+    "graded_place": 100,
+    "ag_place": 9
+  },
+  {
+    "bib": "521",
+    "name": "Rosie Elisabeth Pope",
+    "age_group": "F25-29",
+    "finish_time": "04:57:38",
+    "finish_time_seconds": 17858,
+    "gender_place": "78",
+    "graded_time_seconds": 17858.0,
+    "graded_time": "04:57:38",
+    "unique_key": [
+      "Rosie Elisabeth Pope",
+      "04:57:38"
+    ],
+    "graded_place": 101,
+    "ag_place": 24
+  },
+  {
+    "bib": "390",
+    "name": "Zianna Chesterfield",
+    "age_group": "F18-24",
+    "finish_time": "05:00:46",
+    "finish_time_seconds": 18046,
+    "gender_place": "83",
+    "graded_time_seconds": 17903.4366,
+    "graded_time": "04:58:23",
+    "unique_key": [
+      "Zianna Chesterfield",
+      "05:00:46"
+    ],
+    "graded_place": 102,
+    "ag_place": 10
+  },
+  {
+    "bib": "413",
+    "name": "Natasha Warwick-Smith",
+    "age_group": "F18-24",
+    "finish_time": "05:00:58",
+    "finish_time_seconds": 18058,
+    "gender_place": "84",
+    "graded_time_seconds": 17915.3418,
+    "graded_time": "04:58:35",
+    "unique_key": [
+      "Natasha Warwick-Smith",
+      "05:00:58"
+    ],
+    "graded_place": 103,
+    "ag_place": 11
+  },
+  {
+    "bib": "632",
+    "name": "Cassie McKinsley",
+    "age_group": "F40-44",
+    "finish_time": "05:17:56",
+    "finish_time_seconds": 19076,
+    "gender_place": "123",
+    "graded_time_seconds": 17981.0376,
+    "graded_time": "04:59:41",
+    "unique_key": [
+      "Cassie McKinsley",
+      "05:17:56"
+    ],
+    "graded_place": 104,
+    "ag_place": 10
+  },
+  {
+    "bib": "550",
+    "name": "Rosa Peterson",
+    "age_group": "F30-34",
+    "finish_time": "05:04:59",
+    "finish_time_seconds": 18299,
+    "gender_place": "95",
+    "graded_time_seconds": 17984.2572,
+    "graded_time": "04:59:44",
+    "unique_key": [
+      "Rosa Peterson",
+      "05:04:59"
+    ],
+    "graded_place": 105,
+    "ag_place": 24
+  },
+  {
+    "bib": "687",
+    "name": "Birgit Metzger",
+    "age_group": "F50-54",
+    "finish_time": "05:33:18",
+    "finish_time_seconds": 19998,
+    "gender_place": "171",
+    "graded_time_seconds": 18030.196799999998,
+    "graded_time": "05:00:30",
+    "unique_key": [
+      "Birgit Metzger",
+      "05:33:18"
+    ],
+    "graded_place": 106,
+    "ag_place": 9
+  },
+  {
+    "bib": "394",
+    "name": "Eliza Laity",
+    "age_group": "F18-24",
+    "finish_time": "05:02:59",
+    "finish_time_seconds": 18179,
+    "gender_place": "89",
+    "graded_time_seconds": 18035.3859,
+    "graded_time": "05:00:35",
+    "unique_key": [
+      "Eliza Laity",
+      "05:02:59"
+    ],
+    "graded_place": 107,
+    "ag_place": 12
+  },
+  {
+    "bib": "698",
+    "name": "Brenda Belfield",
+    "age_group": "F55-59",
+    "finish_time": "05:43:42",
+    "finish_time_seconds": 20622,
+    "gender_place": "196",
+    "graded_time_seconds": 18036.001200000002,
+    "graded_time": "05:00:36",
+    "unique_key": [
+      "Brenda Belfield",
+      "05:43:42"
+    ],
+    "graded_place": 108,
+    "ag_place": 5
+  },
+  {
+    "bib": "407",
+    "name": "Sophie Mackey",
+    "age_group": "F18-24",
+    "finish_time": "05:03:21",
+    "finish_time_seconds": 18201,
+    "gender_place": "90",
+    "graded_time_seconds": 18057.2121,
+    "graded_time": "05:00:57",
+    "unique_key": [
+      "Sophie Mackey",
+      "05:03:21"
+    ],
+    "graded_place": 109,
+    "ag_place": 13
+  },
+  {
+    "bib": "1994",
+    "name": "Anna Western",
+    "age_group": "F18-24",
+    "finish_time": "05:03:22",
+    "finish_time_seconds": 18202,
+    "gender_place": "91",
+    "graded_time_seconds": 18058.2042,
+    "graded_time": "05:00:58",
+    "unique_key": [
+      "Anna Western",
+      "05:03:22"
+    ],
+    "graded_place": 110,
+    "ag_place": 14
+  },
+  {
+    "bib": "414",
+    "name": "Erin Ladson",
+    "age_group": "F18-24",
+    "finish_time": "05:04:26",
+    "finish_time_seconds": 18266,
+    "gender_place": "94",
+    "graded_time_seconds": 18121.6986,
+    "graded_time": "05:02:01",
+    "unique_key": [
+      "Erin Ladson",
+      "05:04:26"
+    ],
+    "graded_place": 111,
+    "ag_place": 15
+  },
+  {
+    "bib": "627",
+    "name": "Kerrin Sears",
+    "age_group": "F40-44",
+    "finish_time": "05:21:03",
+    "finish_time_seconds": 19263,
+    "gender_place": "129",
+    "graded_time_seconds": 18157.3038,
+    "graded_time": "05:02:37",
+    "unique_key": [
+      "Kerrin Sears",
+      "05:21:03"
+    ],
+    "graded_place": 112,
+    "ag_place": 11
+  },
+  {
+    "bib": "293",
+    "name": "Peta Faragher",
+    "age_group": "F30-34",
+    "finish_time": "05:08:24",
+    "finish_time_seconds": 18504,
+    "gender_place": "106",
+    "graded_time_seconds": 18185.7312,
+    "graded_time": "05:03:05",
+    "unique_key": [
+      "Peta Faragher",
+      "05:08:24"
+    ],
+    "graded_place": 113,
+    "ag_place": 25
+  },
+  {
+    "bib": "659",
+    "name": "Helen Napier",
+    "age_group": "F45-49",
+    "finish_time": "05:29:59",
+    "finish_time_seconds": 19799,
+    "gender_place": "160",
+    "graded_time_seconds": 18199.2408,
+    "graded_time": "05:03:19",
+    "unique_key": [
+      "Helen Napier",
+      "05:29:59"
+    ],
+    "graded_place": 114,
+    "ag_place": 12
+  },
+  {
+    "bib": "432",
+    "name": "Monique Crockett",
+    "age_group": "F25-29",
+    "finish_time": "05:03:34",
+    "finish_time_seconds": 18214,
+    "gender_place": "92",
+    "graded_time_seconds": 18214.0,
+    "graded_time": "05:03:34",
+    "unique_key": [
+      "Monique Crockett",
+      "05:03:34"
+    ],
+    "graded_place": 115,
+    "ag_place": 25
+  },
+  {
+    "bib": "401",
+    "name": "Madison Szeredi",
+    "age_group": "F18-24",
+    "finish_time": "05:06:54",
+    "finish_time_seconds": 18414,
+    "gender_place": "101",
+    "graded_time_seconds": 18268.5294,
+    "graded_time": "05:04:28",
+    "unique_key": [
+      "Madison Szeredi",
+      "05:06:54"
+    ],
+    "graded_place": 116,
+    "ag_place": 16
+  },
+  {
+    "bib": "545",
+    "name": "Lily O'Donnell",
+    "age_group": "F30-34",
+    "finish_time": "05:10:19",
+    "finish_time_seconds": 18619,
+    "gender_place": "110",
+    "graded_time_seconds": 18298.7532,
+    "graded_time": "05:04:58",
+    "unique_key": [
+      "Lily O'Donnell",
+      "05:10:19"
+    ],
+    "graded_place": 117,
+    "ag_place": 26
+  },
+  {
+    "bib": "207",
+    "name": "Susan Strmecki",
+    "age_group": "F50-54",
+    "finish_time": "05:39:14",
+    "finish_time_seconds": 20354,
+    "gender_place": "185",
+    "graded_time_seconds": 18351.1664,
+    "graded_time": "05:05:51",
+    "unique_key": [
+      "Susan Strmecki",
+      "05:39:14"
+    ],
+    "graded_place": 118,
+    "ag_place": 10
+  },
+  {
+    "bib": "479",
+    "name": "Olivia Schenk",
+    "age_group": "F25-29",
+    "finish_time": "05:05:54",
+    "finish_time_seconds": 18354,
+    "gender_place": "96",
+    "graded_time_seconds": 18354.0,
+    "graded_time": "05:05:54",
+    "unique_key": [
+      "Olivia Schenk",
+      "05:05:54"
+    ],
+    "graded_place": 119,
+    "ag_place": 26
+  },
+  {
+    "bib": "462",
+    "name": "Ellie Barr",
+    "age_group": "F25-29",
+    "finish_time": "05:05:59",
+    "finish_time_seconds": 18359,
+    "gender_place": "97",
+    "graded_time_seconds": 18359.0,
+    "graded_time": "05:05:59",
+    "unique_key": [
+      "Ellie Barr",
+      "05:05:59"
+    ],
+    "graded_place": 120,
+    "ag_place": 27
+  },
+  {
+    "bib": "438",
+    "name": "Maddy McDonald",
+    "age_group": "F25-29",
+    "finish_time": "05:06:04",
+    "finish_time_seconds": 18364,
+    "gender_place": "99",
+    "graded_time_seconds": 18364.0,
+    "graded_time": "05:06:04",
+    "unique_key": [
+      "Maddy McDonald",
+      "05:06:04"
+    ],
+    "graded_place": 121,
+    "ag_place": 28
+  },
+  {
+    "bib": "450",
+    "name": "Kate Harris",
+    "age_group": "F25-29",
+    "finish_time": "05:06:11",
+    "finish_time_seconds": 18371,
+    "gender_place": "100",
+    "graded_time_seconds": 18371.0,
+    "graded_time": "05:06:11",
+    "unique_key": [
+      "Kate Harris",
+      "05:06:11"
+    ],
+    "graded_place": 122,
+    "ag_place": 29
+  },
+  {
+    "bib": "226",
+    "name": "Sandra Leon",
+    "age_group": "F40-44",
+    "finish_time": "05:24:52",
+    "finish_time_seconds": 19492,
+    "gender_place": "146",
+    "graded_time_seconds": 18373.1592,
+    "graded_time": "05:06:13",
+    "unique_key": [
+      "Sandra Leon",
+      "05:24:52"
+    ],
+    "graded_place": 123,
+    "ag_place": 12
+  },
+  {
+    "bib": "572",
+    "name": "Georgina Baker",
+    "age_group": "F30-34",
+    "finish_time": "05:12:10",
+    "finish_time_seconds": 18730,
+    "gender_place": "115",
+    "graded_time_seconds": 18407.844,
+    "graded_time": "05:06:47",
+    "unique_key": [
+      "Georgina Baker",
+      "05:12:10"
+    ],
+    "graded_place": 124,
+    "ag_place": 27
+  },
+  {
+    "bib": "573",
+    "name": "Morgane DE Gratie",
+    "age_group": "F30-34",
+    "finish_time": "05:12:22",
+    "finish_time_seconds": 18742,
+    "gender_place": "116",
+    "graded_time_seconds": 18419.637600000002,
+    "graded_time": "05:06:59",
+    "unique_key": [
+      "Morgane DE Gratie",
+      "05:12:22"
+    ],
+    "graded_place": 125,
+    "ag_place": 28
+  },
+  {
+    "bib": "701",
+    "name": "Julie Jansz",
+    "age_group": "F55-59",
+    "finish_time": "05:51:58",
+    "finish_time_seconds": 21118,
+    "gender_place": "217",
+    "graded_time_seconds": 18469.8028,
+    "graded_time": "05:07:49",
+    "unique_key": [
+      "Julie Jansz",
+      "05:51:58"
+    ],
+    "graded_place": 126,
+    "ag_place": 6
+  },
+  {
+    "bib": "409",
+    "name": "Mardie Hamilton",
+    "age_group": "F18-24",
+    "finish_time": "05:11:02",
+    "finish_time_seconds": 18662,
+    "gender_place": "111",
+    "graded_time_seconds": 18514.5702,
+    "graded_time": "05:08:34",
+    "unique_key": [
+      "Mardie Hamilton",
+      "05:11:02"
+    ],
+    "graded_place": 127,
+    "ag_place": 17
+  },
+  {
+    "bib": "418",
+    "name": "Brydie Canavan",
+    "age_group": "F18-24",
+    "finish_time": "05:11:06",
+    "finish_time_seconds": 18666,
+    "gender_place": "112",
+    "graded_time_seconds": 18518.5386,
+    "graded_time": "05:08:38",
+    "unique_key": [
+      "Brydie Canavan",
+      "05:11:06"
+    ],
+    "graded_place": 128,
+    "ag_place": 18
+  },
+  {
+    "bib": "519",
+    "name": "Victoria Hos",
+    "age_group": "F25-29",
+    "finish_time": "05:08:51",
+    "finish_time_seconds": 18531,
+    "gender_place": "107",
+    "graded_time_seconds": 18531.0,
+    "graded_time": "05:08:51",
+    "unique_key": [
+      "Victoria Hos",
+      "05:08:51"
+    ],
+    "graded_place": 129,
+    "ag_place": 30
+  },
+  {
+    "bib": "429",
+    "name": "Brooke Raitt",
+    "age_group": "F18-24",
+    "finish_time": "05:11:43",
+    "finish_time_seconds": 18703,
+    "gender_place": "113",
+    "graded_time_seconds": 18555.2463,
+    "graded_time": "05:09:15",
+    "unique_key": [
+      "Brooke Raitt",
+      "05:11:43"
+    ],
+    "graded_place": 130,
+    "ag_place": 19
+  },
+  {
+    "bib": "457",
+    "name": "Sophie Rayne",
+    "age_group": "F25-29",
+    "finish_time": "05:09:27",
+    "finish_time_seconds": 18567,
+    "gender_place": "108",
+    "graded_time_seconds": 18567.0,
+    "graded_time": "05:09:27",
+    "unique_key": [
+      "Sophie Rayne",
+      "05:09:27"
+    ],
+    "graded_place": 131,
+    "ag_place": 31
+  },
+  {
+    "bib": "219",
+    "name": "Sandra Kalta",
+    "age_group": "F18-24",
+    "finish_time": "05:12:50",
+    "finish_time_seconds": 18770,
+    "gender_place": "117",
+    "graded_time_seconds": 18621.717,
+    "graded_time": "05:10:21",
+    "unique_key": [
+      "Sandra Kalta",
+      "05:12:50"
+    ],
+    "graded_place": 132,
+    "ag_place": 20
+  },
+  {
+    "bib": "558",
+    "name": "Lana McCartney",
+    "age_group": "F30-34",
+    "finish_time": "05:15:55",
+    "finish_time_seconds": 18955,
+    "gender_place": "119",
+    "graded_time_seconds": 18628.974,
+    "graded_time": "05:10:28",
+    "unique_key": [
+      "Lana McCartney",
+      "05:15:55"
+    ],
+    "graded_place": 133,
+    "ag_place": 29
+  },
+  {
+    "bib": "150",
+    "name": "Megan King",
+    "age_group": "F50-54",
+    "finish_time": "05:44:50",
+    "finish_time_seconds": 20690,
+    "gender_place": "201",
+    "graded_time_seconds": 18654.104,
+    "graded_time": "05:10:54",
+    "unique_key": [
+      "Megan King",
+      "05:44:50"
+    ],
+    "graded_place": 134,
+    "ag_place": 11
+  },
+  {
+    "bib": "551",
+    "name": "Kylie Marston",
+    "age_group": "F30-34",
+    "finish_time": "05:16:57",
+    "finish_time_seconds": 19017,
+    "gender_place": "120",
+    "graded_time_seconds": 18689.9076,
+    "graded_time": "05:11:29",
+    "unique_key": [
+      "Kylie Marston",
+      "05:16:57"
+    ],
+    "graded_place": 135,
+    "ag_place": 30
+  },
+  {
+    "bib": "468",
+    "name": "Orla Mc Gonigle",
+    "age_group": "F25-29",
+    "finish_time": "05:11:59",
+    "finish_time_seconds": 18719,
+    "gender_place": "114",
+    "graded_time_seconds": 18719.0,
+    "graded_time": "05:11:59",
+    "unique_key": [
+      "Orla Mc Gonigle",
+      "05:11:59"
+    ],
+    "graded_place": 136,
+    "ag_place": 32
+  },
+  {
+    "bib": "648",
+    "name": "Madelene Welander",
+    "age_group": "F40-44",
+    "finish_time": "05:31:13",
+    "finish_time_seconds": 19873,
+    "gender_place": "165",
+    "graded_time_seconds": 18732.2898,
+    "graded_time": "05:12:12",
+    "unique_key": [
+      "Madelene Welander",
+      "05:31:13"
+    ],
+    "graded_place": 137,
+    "ag_place": 13
+  },
+  {
+    "bib": "425",
+    "name": "Libby Bush",
+    "age_group": "F18-24",
+    "finish_time": "05:15:24",
+    "finish_time_seconds": 18924,
+    "gender_place": "118",
+    "graded_time_seconds": 18774.5004,
+    "graded_time": "05:12:54",
+    "unique_key": [
+      "Libby Bush",
+      "05:15:24"
+    ],
+    "graded_place": 138,
+    "ag_place": 21
+  },
+  {
+    "bib": "224",
+    "name": "Nikki Hebenstreit",
+    "age_group": "F35-39",
+    "finish_time": "05:24:43",
+    "finish_time_seconds": 19483,
+    "gender_place": "144",
+    "graded_time_seconds": 18816.6814,
+    "graded_time": "05:13:36",
+    "unique_key": [
+      "Nikki Hebenstreit",
+      "05:24:43"
+    ],
+    "graded_place": 139,
+    "ag_place": 10
+  },
+  {
+    "bib": "624",
+    "name": "Jackie Scouller",
+    "age_group": "F40-44",
+    "finish_time": "05:33:01",
+    "finish_time_seconds": 19981,
+    "gender_place": "169",
+    "graded_time_seconds": 18834.0906,
+    "graded_time": "05:13:54",
+    "unique_key": [
+      "Jackie Scouller",
+      "05:33:01"
+    ],
+    "graded_place": 140,
+    "ag_place": 14
+  },
+  {
+    "bib": "629",
+    "name": "Kara Costello",
+    "age_group": "F40-44",
+    "finish_time": "05:33:10",
+    "finish_time_seconds": 19990,
+    "gender_place": "170",
+    "graded_time_seconds": 18842.574,
+    "graded_time": "05:14:02",
+    "unique_key": [
+      "Kara Costello",
+      "05:33:10"
+    ],
+    "graded_place": 141,
+    "ag_place": 15
+  },
+  {
+    "bib": "614",
+    "name": "Agnes Yuliavitriani",
+    "age_group": "F35-39",
+    "finish_time": "05:25:19",
+    "finish_time_seconds": 19519,
+    "gender_place": "147",
+    "graded_time_seconds": 18851.4502,
+    "graded_time": "05:14:11",
+    "unique_key": [
+      "Agnes Yuliavitriani",
+      "05:25:19"
+    ],
+    "graded_place": 142,
+    "ag_place": 11
+  },
+  {
+    "bib": "683",
+    "name": "Emma Lugrin",
+    "age_group": "F50-54",
+    "finish_time": "05:49:45",
+    "finish_time_seconds": 20985,
+    "gender_place": "213",
+    "graded_time_seconds": 18920.075999999997,
+    "graded_time": "05:15:20",
+    "unique_key": [
+      "Emma Lugrin",
+      "05:49:45"
+    ],
+    "graded_place": 143,
+    "ag_place": 12
+  },
+  {
+    "bib": "570",
+    "name": "Julie Tran",
+    "age_group": "F30-34",
+    "finish_time": "05:22:32",
+    "finish_time_seconds": 19352,
+    "gender_place": "136",
+    "graded_time_seconds": 19019.1456,
+    "graded_time": "05:16:59",
+    "unique_key": [
+      "Julie Tran",
+      "05:22:32"
+    ],
+    "graded_place": 144,
+    "ag_place": 31
+  },
+  {
+    "bib": "400",
+    "name": "Emily Dobson",
+    "age_group": "F18-24",
+    "finish_time": "05:19:47",
+    "finish_time_seconds": 19187,
+    "gender_place": "125",
+    "graded_time_seconds": 19035.4227,
+    "graded_time": "05:17:15",
+    "unique_key": [
+      "Emily Dobson",
+      "05:19:47"
+    ],
+    "graded_place": 145,
+    "ag_place": 22
+  },
+  {
+    "bib": "421",
+    "name": "Maya Nikenich",
+    "age_group": "F18-24",
+    "finish_time": "05:20:56",
+    "finish_time_seconds": 19256,
+    "gender_place": "128",
+    "graded_time_seconds": 19103.8776,
+    "graded_time": "05:18:23",
+    "unique_key": [
+      "Maya Nikenich",
+      "05:20:56"
+    ],
+    "graded_place": 146,
+    "ag_place": 23
+  },
+  {
+    "bib": "476",
+    "name": "Charlotte Cunliffe",
+    "age_group": "F25-29",
+    "finish_time": "05:18:55",
+    "finish_time_seconds": 19135,
+    "gender_place": "124",
+    "graded_time_seconds": 19135.0,
+    "graded_time": "05:18:55",
+    "unique_key": [
+      "Charlotte Cunliffe",
+      "05:18:55"
+    ],
+    "graded_place": 147,
+    "ag_place": 33
+  },
+  {
+    "bib": "223",
+    "name": "Jaimi Stewart",
+    "age_group": "F30-34",
+    "finish_time": "05:24:49",
+    "finish_time_seconds": 19489,
+    "gender_place": "145",
+    "graded_time_seconds": 19153.7892,
+    "graded_time": "05:19:13",
+    "unique_key": [
+      "Jaimi Stewart",
+      "05:24:49"
+    ],
+    "graded_place": 148,
+    "ag_place": 32
+  },
+  {
+    "bib": "1996",
+    "name": "Storm Crossland",
+    "age_group": "F18-24",
+    "finish_time": "05:22:20",
+    "finish_time_seconds": 19340,
+    "gender_place": "134",
+    "graded_time_seconds": 19187.214,
+    "graded_time": "05:19:47",
+    "unique_key": [
+      "Storm Crossland",
+      "05:22:20"
+    ],
+    "graded_place": 149,
+    "ag_place": 24
+  },
+  {
+    "bib": "481",
+    "name": "Marti Gritti",
+    "age_group": "F25-29",
+    "finish_time": "05:20:18",
+    "finish_time_seconds": 19218,
+    "gender_place": "127",
+    "graded_time_seconds": 19218.0,
+    "graded_time": "05:20:18",
+    "unique_key": [
+      "Marti Gritti",
+      "05:20:18"
+    ],
+    "graded_place": 150,
+    "ag_place": 34
+  },
+  {
+    "bib": "536",
+    "name": "Fern Woods",
+    "age_group": "F30-34",
+    "finish_time": "05:26:06",
+    "finish_time_seconds": 19566,
+    "gender_place": "149",
+    "graded_time_seconds": 19229.4648,
+    "graded_time": "05:20:29",
+    "unique_key": [
+      "Fern Woods",
+      "05:26:06"
+    ],
+    "graded_place": 151,
+    "ag_place": 33
+  },
+  {
+    "bib": "702",
+    "name": "Tereanne Appelgren",
+    "age_group": "F55-59",
+    "finish_time": "06:06:30",
+    "finish_time_seconds": 21990,
+    "gender_place": "238",
+    "graded_time_seconds": 19232.454,
+    "graded_time": "05:20:32",
+    "unique_key": [
+      "Tereanne Appelgren",
+      "06:06:30"
+    ],
+    "graded_place": 152,
+    "ag_place": 7
+  },
+  {
+    "bib": "537",
+    "name": "Sarah Wright",
+    "age_group": "F30-34",
+    "finish_time": "05:26:14",
+    "finish_time_seconds": 19574,
+    "gender_place": "150",
+    "graded_time_seconds": 19237.3272,
+    "graded_time": "05:20:37",
+    "unique_key": [
+      "Sarah Wright",
+      "05:26:14"
+    ],
+    "graded_place": 153,
+    "ag_place": 34
+  },
+  {
+    "bib": "417",
+    "name": "Kate Hankinson",
+    "age_group": "F18-24",
+    "finish_time": "05:23:22",
+    "finish_time_seconds": 19402,
+    "gender_place": "140",
+    "graded_time_seconds": 19248.7242,
+    "graded_time": "05:20:48",
+    "unique_key": [
+      "Kate Hankinson",
+      "05:23:22"
+    ],
+    "graded_place": 154,
+    "ag_place": 25
+  },
+  {
+    "bib": "458",
+    "name": "Tarryn Elvish",
+    "age_group": "F25-29",
+    "finish_time": "05:21:11",
+    "finish_time_seconds": 19271,
+    "gender_place": "130",
+    "graded_time_seconds": 19271.0,
+    "graded_time": "05:21:11",
+    "unique_key": [
+      "Tarryn Elvish",
+      "05:21:11"
+    ],
+    "graded_place": 155,
+    "ag_place": 35
+  },
+  {
+    "bib": "391",
+    "name": "Misha Wierzbowski",
+    "age_group": "F18-24",
+    "finish_time": "05:23:45",
+    "finish_time_seconds": 19425,
+    "gender_place": "142",
+    "graded_time_seconds": 19271.5425,
+    "graded_time": "05:21:11",
+    "unique_key": [
+      "Misha Wierzbowski",
+      "05:23:45"
+    ],
+    "graded_place": 156,
+    "ag_place": 26
+  },
+  {
+    "bib": "220",
+    "name": "Ina Holzapfel",
+    "age_group": "F25-29",
+    "finish_time": "05:21:12",
+    "finish_time_seconds": 19272,
+    "gender_place": "131",
+    "graded_time_seconds": 19272.0,
+    "graded_time": "05:21:12",
+    "unique_key": [
+      "Ina Holzapfel",
+      "05:21:12"
+    ],
+    "graded_place": 157,
+    "ag_place": 36
+  },
+  {
+    "bib": "517",
+    "name": "Emma Cunningham",
+    "age_group": "F25-29",
+    "finish_time": "05:21:21",
+    "finish_time_seconds": 19281,
+    "gender_place": "133",
+    "graded_time_seconds": 19281.0,
+    "graded_time": "05:21:21",
+    "unique_key": [
+      "Emma Cunningham",
+      "05:21:21"
+    ],
+    "graded_place": 158,
+    "ag_place": 37
+  },
+  {
+    "bib": "636",
+    "name": "Imogen Clements",
+    "age_group": "F40-44",
+    "finish_time": "05:41:09",
+    "finish_time_seconds": 20469,
+    "gender_place": "188",
+    "graded_time_seconds": 19294.0794,
+    "graded_time": "05:21:34",
+    "unique_key": [
+      "Imogen Clements",
+      "05:41:09"
+    ],
+    "graded_place": 159,
+    "ag_place": 16
+  },
+  {
+    "bib": "385",
+    "name": "Grace Livingstone",
+    "age_group": "F18-24",
+    "finish_time": "05:24:10",
+    "finish_time_seconds": 19450,
+    "gender_place": "143",
+    "graded_time_seconds": 19296.345,
+    "graded_time": "05:21:36",
+    "unique_key": [
+      "Grace Livingstone",
+      "05:24:10"
+    ],
+    "graded_place": 160,
+    "ag_place": 27
+  },
+  {
+    "bib": "642",
+    "name": "Ruth Watson",
+    "age_group": "F40-44",
+    "finish_time": "05:41:14",
+    "finish_time_seconds": 20474,
+    "gender_place": "189",
+    "graded_time_seconds": 19298.7924,
+    "graded_time": "05:21:38",
+    "unique_key": [
+      "Ruth Watson",
+      "05:41:14"
+    ],
+    "graded_place": 161,
+    "ag_place": 17
+  },
+  {
+    "bib": "587",
+    "name": "Emma Cuddy",
+    "age_group": "F30-34",
+    "finish_time": "05:27:51",
+    "finish_time_seconds": 19671,
+    "gender_place": "153",
+    "graded_time_seconds": 19332.6588,
+    "graded_time": "05:22:12",
+    "unique_key": [
+      "Emma Cuddy",
+      "05:27:51"
+    ],
+    "graded_place": 162,
+    "ag_place": 35
+  },
+  {
+    "bib": "520",
+    "name": "Charlotte Whyte",
+    "age_group": "F25-29",
+    "finish_time": "05:22:22",
+    "finish_time_seconds": 19342,
+    "gender_place": "135",
+    "graded_time_seconds": 19342.0,
+    "graded_time": "05:22:22",
+    "unique_key": [
+      "Charlotte Whyte",
+      "05:22:22"
+    ],
+    "graded_place": 163,
+    "ag_place": 38
+  },
+  {
+    "bib": "563",
+    "name": "Brittni Donaldson",
+    "age_group": "F30-34",
+    "finish_time": "05:28:13",
+    "finish_time_seconds": 19693,
+    "gender_place": "154",
+    "graded_time_seconds": 19354.2804,
+    "graded_time": "05:22:34",
+    "unique_key": [
+      "Brittni Donaldson",
+      "05:28:13"
+    ],
+    "graded_place": 164,
+    "ag_place": 36
+  },
+  {
+    "bib": "601",
+    "name": "Esther Lee",
+    "age_group": "F35-39",
+    "finish_time": "05:34:15",
+    "finish_time_seconds": 20055,
+    "gender_place": "175",
+    "graded_time_seconds": 19369.119,
+    "graded_time": "05:22:49",
+    "unique_key": [
+      "Esther Lee",
+      "05:34:15"
+    ],
+    "graded_place": 165,
+    "ag_place": 12
+  },
+  {
+    "bib": "395",
+    "name": "Taylor Tullett",
+    "age_group": "F18-24",
+    "finish_time": "05:25:31",
+    "finish_time_seconds": 19531,
+    "gender_place": "148",
+    "graded_time_seconds": 19376.7051,
+    "graded_time": "05:22:56",
+    "unique_key": [
+      "Taylor Tullett",
+      "05:25:31"
+    ],
+    "graded_place": 166,
+    "ag_place": 28
+  },
+  {
+    "bib": "433",
+    "name": "Olivia Coffey",
+    "age_group": "F25-29",
+    "finish_time": "05:23:03",
+    "finish_time_seconds": 19383,
+    "gender_place": "137",
+    "graded_time_seconds": 19383.0,
+    "graded_time": "05:23:03",
+    "unique_key": [
+      "Olivia Coffey",
+      "05:23:03"
+    ],
+    "graded_place": 167,
+    "ag_place": 39
+  },
+  {
+    "bib": "455",
+    "name": "Lauren Prosser",
+    "age_group": "F25-29",
+    "finish_time": "05:23:13",
+    "finish_time_seconds": 19393,
+    "gender_place": "138",
+    "graded_time_seconds": 19393.0,
+    "graded_time": "05:23:13",
+    "unique_key": [
+      "Lauren Prosser",
+      "05:23:13"
+    ],
+    "graded_place": 168,
+    "ag_place": 40
+  },
+  {
+    "bib": "500",
+    "name": "Sarah Arians",
+    "age_group": "F25-29",
+    "finish_time": "05:23:19",
+    "finish_time_seconds": 19399,
+    "gender_place": "139",
+    "graded_time_seconds": 19399.0,
+    "graded_time": "05:23:19",
+    "unique_key": [
+      "Sarah Arians",
+      "05:23:19"
+    ],
+    "graded_place": 169,
+    "ag_place": 41
+  },
+  {
+    "bib": "513",
+    "name": "Hannah Moore",
+    "age_group": "F25-29",
+    "finish_time": "05:23:29",
+    "finish_time_seconds": 19409,
+    "gender_place": "141",
+    "graded_time_seconds": 19409.0,
+    "graded_time": "05:23:29",
+    "unique_key": [
+      "Hannah Moore",
+      "05:23:29"
+    ],
+    "graded_place": 170,
+    "ag_place": 42
+  },
+  {
+    "bib": "708",
+    "name": "Miyuki Watanabe",
+    "age_group": "F55-59",
+    "finish_time": "06:09:56",
+    "finish_time_seconds": 22196,
+    "gender_place": "242",
+    "graded_time_seconds": 19412.621600000002,
+    "graded_time": "05:23:32",
+    "unique_key": [
+      "Miyuki Watanabe",
+      "06:09:56"
+    ],
+    "graded_place": 171,
+    "ag_place": 8
+  },
+  {
+    "bib": "709",
+    "name": "Karen Styles",
+    "age_group": "F60-64",
+    "finish_time": "06:26:17",
+    "finish_time_seconds": 23177,
+    "gender_place": "259",
+    "graded_time_seconds": 19447.8207,
+    "graded_time": "05:24:07",
+    "unique_key": [
+      "Karen Styles",
+      "06:26:17"
+    ],
+    "graded_place": 172,
+    "ag_place": 4
+  },
+  {
+    "bib": "379",
+    "name": "Cindy Zhang",
+    "age_group": "F18-24",
+    "finish_time": "05:27:00",
+    "finish_time_seconds": 19620,
+    "gender_place": "152",
+    "graded_time_seconds": 19465.002,
+    "graded_time": "05:24:25",
+    "unique_key": [
+      "Cindy Zhang",
+      "05:27:00"
+    ],
+    "graded_place": 173,
+    "ag_place": 29
+  },
+  {
+    "bib": "705",
+    "name": "Catherine Faye",
+    "age_group": "F55-59",
+    "finish_time": "06:11:08",
+    "finish_time_seconds": 22268,
+    "gender_place": "244",
+    "graded_time_seconds": 19475.592800000002,
+    "graded_time": "05:24:35",
+    "unique_key": [
+      "Catherine Faye",
+      "06:11:08"
+    ],
+    "graded_place": 174,
+    "ag_place": 9
+  },
+  {
+    "bib": "567",
+    "name": "Bethany Byrne",
+    "age_group": "F30-34",
+    "finish_time": "05:31:01",
+    "finish_time_seconds": 19861,
+    "gender_place": "164",
+    "graded_time_seconds": 19519.3908,
+    "graded_time": "05:25:19",
+    "unique_key": [
+      "Bethany Byrne",
+      "05:31:01"
+    ],
+    "graded_place": 175,
+    "ag_place": 37
+  },
+  {
+    "bib": "489",
+    "name": "Stephanie Donoghue",
+    "age_group": "F25-29",
+    "finish_time": "05:26:26",
+    "finish_time_seconds": 19586,
+    "gender_place": "151",
+    "graded_time_seconds": 19586.0,
+    "graded_time": "05:26:26",
+    "unique_key": [
+      "Stephanie Donoghue",
+      "05:26:26"
+    ],
+    "graded_place": 176,
+    "ag_place": 43
+  },
+  {
+    "bib": "680",
+    "name": "Leona Burnett",
+    "age_group": "F50-54",
+    "finish_time": "06:02:29",
+    "finish_time_seconds": 21749,
+    "gender_place": "232",
+    "graded_time_seconds": 19608.8984,
+    "graded_time": "05:26:48",
+    "unique_key": [
+      "Leona Burnett",
+      "06:02:29"
+    ],
+    "graded_place": 177,
+    "ag_place": 13
+  },
+  {
+    "bib": "689",
+    "name": "Suzanne Ng",
+    "age_group": "F50-54",
+    "finish_time": "06:02:31",
+    "finish_time_seconds": 21751,
+    "gender_place": "233",
+    "graded_time_seconds": 19610.7016,
+    "graded_time": "05:26:50",
+    "unique_key": [
+      "Suzanne Ng",
+      "06:02:31"
+    ],
+    "graded_place": 178,
+    "ag_place": 14
+  },
+  {
+    "bib": "606",
+    "name": "Caroline McBride",
+    "age_group": "F35-39",
+    "finish_time": "05:38:56",
+    "finish_time_seconds": 20336,
+    "gender_place": "183",
+    "graded_time_seconds": 19640.5088,
+    "graded_time": "05:27:20",
+    "unique_key": [
+      "Caroline McBride",
+      "05:38:56"
+    ],
+    "graded_place": 179,
+    "ag_place": 13
+  },
+  {
+    "bib": "415",
+    "name": "Chloe Hudson",
+    "age_group": "F18-24",
+    "finish_time": "05:30:21",
+    "finish_time_seconds": 19821,
+    "gender_place": "162",
+    "graded_time_seconds": 19664.414099999998,
+    "graded_time": "05:27:44",
+    "unique_key": [
+      "Chloe Hudson",
+      "05:30:21"
+    ],
+    "graded_place": 180,
+    "ag_place": 30
+  },
+  {
+    "bib": "388",
+    "name": "Georgina Taeger",
+    "age_group": "F18-24",
+    "finish_time": "05:30:25",
+    "finish_time_seconds": 19825,
+    "gender_place": "163",
+    "graded_time_seconds": 19668.3825,
+    "graded_time": "05:27:48",
+    "unique_key": [
+      "Georgina Taeger",
+      "05:30:25"
+    ],
+    "graded_place": 181,
+    "ag_place": 31
+  },
+  {
+    "bib": "656",
+    "name": "Becca Kelley",
+    "age_group": "F45-49",
+    "finish_time": "05:57:07",
+    "finish_time_seconds": 21427,
+    "gender_place": "222",
+    "graded_time_seconds": 19695.6984,
+    "graded_time": "05:28:15",
+    "unique_key": [
+      "Becca Kelley",
+      "05:57:07"
+    ],
+    "graded_place": 182,
+    "ag_place": 13
+  },
+  {
+    "bib": "559",
+    "name": "Heather Smillie",
+    "age_group": "F30-34",
+    "finish_time": "05:34:11",
+    "finish_time_seconds": 20051,
+    "gender_place": "174",
+    "graded_time_seconds": 19706.1228,
+    "graded_time": "05:28:26",
+    "unique_key": [
+      "Heather Smillie",
+      "05:34:11"
+    ],
+    "graded_place": 183,
+    "ag_place": 38
+  },
+  {
+    "bib": "463",
+    "name": "Sylvia Sherborne",
+    "age_group": "F25-29",
+    "finish_time": "05:28:52",
+    "finish_time_seconds": 19732,
+    "gender_place": "156",
+    "graded_time_seconds": 19732.0,
+    "graded_time": "05:28:52",
+    "unique_key": [
+      "Sylvia Sherborne",
+      "05:28:52"
+    ],
+    "graded_place": 184,
+    "ag_place": 44
+  },
+  {
+    "bib": "650",
+    "name": "Anke Koch-Duecker",
+    "age_group": "F40-44",
+    "finish_time": "05:49:04",
+    "finish_time_seconds": 20944,
+    "gender_place": "209",
+    "graded_time_seconds": 19741.8144,
+    "graded_time": "05:29:01",
+    "unique_key": [
+      "Anke Koch-Duecker",
+      "05:49:04"
+    ],
+    "graded_place": 185,
+    "ag_place": 18
+  },
+  {
+    "bib": "515",
+    "name": "Hanna Gilbert",
+    "age_group": "F25-29",
+    "finish_time": "05:29:36",
+    "finish_time_seconds": 19776,
+    "gender_place": "157",
+    "graded_time_seconds": 19776.0,
+    "graded_time": "05:29:36",
+    "unique_key": [
+      "Hanna Gilbert",
+      "05:29:36"
+    ],
+    "graded_place": 186,
+    "ag_place": 45
+  },
+  {
+    "bib": "493",
+    "name": "Claudia Mills",
+    "age_group": "F25-29",
+    "finish_time": "05:29:47",
+    "finish_time_seconds": 19787,
+    "gender_place": "159",
+    "graded_time_seconds": 19787.0,
+    "graded_time": "05:29:47",
+    "unique_key": [
+      "Claudia Mills",
+      "05:29:47"
+    ],
+    "graded_place": 187,
+    "ag_place": 46
+  },
+  {
+    "bib": "459",
+    "name": "Megan Heap",
+    "age_group": "F25-29",
+    "finish_time": "05:30:21",
+    "finish_time_seconds": 19821,
+    "gender_place": "161",
+    "graded_time_seconds": 19821.0,
+    "graded_time": "05:30:21",
+    "unique_key": [
+      "Megan Heap",
+      "05:30:21"
+    ],
+    "graded_place": 188,
+    "ag_place": 47
+  },
+  {
+    "bib": "577",
+    "name": "Aurelie Gruaz",
+    "age_group": "F30-34",
+    "finish_time": "05:36:41",
+    "finish_time_seconds": 20201,
+    "gender_place": "179",
+    "graded_time_seconds": 19853.5428,
+    "graded_time": "05:30:53",
+    "unique_key": [
+      "Aurelie Gruaz",
+      "05:36:41"
+    ],
+    "graded_place": 189,
+    "ag_place": 39
+  },
+  {
+    "bib": "427",
+    "name": "Emilia Lopez",
+    "age_group": "F18-24",
+    "finish_time": "05:33:52",
+    "finish_time_seconds": 20032,
+    "gender_place": "173",
+    "graded_time_seconds": 19873.747199999998,
+    "graded_time": "05:31:13",
+    "unique_key": [
+      "Emilia Lopez",
+      "05:33:52"
+    ],
+    "graded_place": 190,
+    "ag_place": 32
+  },
+  {
+    "bib": "444",
+    "name": "Mariah Sandy",
+    "age_group": "F25-29",
+    "finish_time": "05:31:41",
+    "finish_time_seconds": 19901,
+    "gender_place": "166",
+    "graded_time_seconds": 19901.0,
+    "graded_time": "05:31:41",
+    "unique_key": [
+      "Mariah Sandy",
+      "05:31:41"
+    ],
+    "graded_place": 191,
+    "ag_place": 48
+  },
+  {
+    "bib": "598",
+    "name": "Tarana Nekzad",
+    "age_group": "F35-39",
+    "finish_time": "05:44:18",
+    "finish_time_seconds": 20658,
+    "gender_place": "198",
+    "graded_time_seconds": 19951.4964,
+    "graded_time": "05:32:31",
+    "unique_key": [
+      "Tarana Nekzad",
+      "05:44:18"
+    ],
+    "graded_place": 192,
+    "ag_place": 14
+  },
+  {
+    "bib": "477",
+    "name": "Caitlin Qin",
+    "age_group": "F25-29",
+    "finish_time": "05:32:36",
+    "finish_time_seconds": 19956,
+    "gender_place": "167",
+    "graded_time_seconds": 19956.0,
+    "graded_time": "05:32:36",
+    "unique_key": [
+      "Caitlin Qin",
+      "05:32:36"
+    ],
+    "graded_place": 193,
+    "ag_place": 49
+  },
+  {
+    "bib": "495",
+    "name": "Megan Hunt",
+    "age_group": "F25-29",
+    "finish_time": "05:32:37",
+    "finish_time_seconds": 19957,
+    "gender_place": "168",
+    "graded_time_seconds": 19957.0,
+    "graded_time": "05:32:37",
+    "unique_key": [
+      "Megan Hunt",
+      "05:32:37"
+    ],
+    "graded_place": 194,
+    "ag_place": 50
+  },
+  {
+    "bib": "590",
+    "name": "Gabriela Stevens",
+    "age_group": "F30-34",
+    "finish_time": "05:38:34",
+    "finish_time_seconds": 20314,
+    "gender_place": "181",
+    "graded_time_seconds": 19964.5992,
+    "graded_time": "05:32:44",
+    "unique_key": [
+      "Gabriela Stevens",
+      "05:38:34"
+    ],
+    "graded_place": 195,
+    "ag_place": 40
+  },
+  {
+    "bib": "597",
+    "name": "Alana Driscoll",
+    "age_group": "F30-34",
+    "finish_time": "05:39:03",
+    "finish_time_seconds": 20343,
+    "gender_place": "184",
+    "graded_time_seconds": 19993.1004,
+    "graded_time": "05:33:13",
+    "unique_key": [
+      "Alana Driscoll",
+      "05:39:03"
+    ],
+    "graded_place": 196,
+    "ag_place": 41
+  },
+  {
+    "bib": "518",
+    "name": "Hannah Seery",
+    "age_group": "F25-29",
+    "finish_time": "05:33:29",
+    "finish_time_seconds": 20009,
+    "gender_place": "172",
+    "graded_time_seconds": 20009.0,
+    "graded_time": "05:33:29",
+    "unique_key": [
+      "Hannah Seery",
+      "05:33:29"
+    ],
+    "graded_place": 197,
+    "ag_place": 51
+  },
+  {
+    "bib": "505",
+    "name": "Alix Way",
+    "age_group": "F25-29",
+    "finish_time": "05:34:44",
+    "finish_time_seconds": 20084,
+    "gender_place": "176",
+    "graded_time_seconds": 20084.0,
+    "graded_time": "05:34:44",
+    "unique_key": [
+      "Alix Way",
+      "05:34:44"
+    ],
+    "graded_place": 198,
+    "ag_place": 52
+  },
+  {
+    "bib": "531",
+    "name": "Rachael Middleton",
+    "age_group": "F25-29",
+    "finish_time": "05:34:49",
+    "finish_time_seconds": 20089,
+    "gender_place": "177",
+    "graded_time_seconds": 20089.0,
+    "graded_time": "05:34:49",
+    "unique_key": [
+      "Rachael Middleton",
+      "05:34:49"
+    ],
+    "graded_place": 199,
+    "ag_place": 53
+  },
+  {
+    "bib": "658",
+    "name": "Caroline Morel",
+    "age_group": "F45-49",
+    "finish_time": "06:04:46",
+    "finish_time_seconds": 21886,
+    "gender_place": "236",
+    "graded_time_seconds": 20117.6112,
+    "graded_time": "05:35:17",
+    "unique_key": [
+      "Caroline Morel",
+      "06:04:46"
+    ],
+    "graded_place": 200,
+    "ag_place": 14
+  },
+  {
+    "bib": "710",
+    "name": "Tracey Linguey",
+    "age_group": "F60-64",
+    "finish_time": "06:40:01",
+    "finish_time_seconds": 24001,
+    "gender_place": "269",
+    "graded_time_seconds": 20139.2391,
+    "graded_time": "05:35:39",
+    "unique_key": [
+      "Tracey Linguey",
+      "06:40:01"
+    ],
+    "graded_place": 201,
+    "ag_place": 5
+  },
+  {
+    "bib": "543",
+    "name": "Maria Guerin",
+    "age_group": "F30-34",
+    "finish_time": "05:41:32",
+    "finish_time_seconds": 20492,
+    "gender_place": "190",
+    "graded_time_seconds": 20139.5376,
+    "graded_time": "05:35:39",
+    "unique_key": [
+      "Maria Guerin",
+      "05:41:32"
+    ],
+    "graded_place": 202,
+    "ag_place": 42
+  },
+  {
+    "bib": "581",
+    "name": "Rachel Evans",
+    "age_group": "F30-34",
+    "finish_time": "05:41:53",
+    "finish_time_seconds": 20513,
+    "gender_place": "192",
+    "graded_time_seconds": 20160.1764,
+    "graded_time": "05:36:00",
+    "unique_key": [
+      "Rachel Evans",
+      "05:41:53"
+    ],
+    "graded_place": 203,
+    "ag_place": 43
+  },
+  {
+    "bib": "383",
+    "name": "Olivia Kibble",
+    "age_group": "F18-24",
+    "finish_time": "05:38:51",
+    "finish_time_seconds": 20331,
+    "gender_place": "182",
+    "graded_time_seconds": 20170.3851,
+    "graded_time": "05:36:10",
+    "unique_key": [
+      "Olivia Kibble",
+      "05:38:51"
+    ],
+    "graded_place": 204,
+    "ag_place": 33
+  },
+  {
+    "bib": "466",
+    "name": "Beth Logan",
+    "age_group": "F25-29",
+    "finish_time": "05:36:43",
+    "finish_time_seconds": 20203,
+    "gender_place": "180",
+    "graded_time_seconds": 20203.0,
+    "graded_time": "05:36:43",
+    "unique_key": [
+      "Beth Logan",
+      "05:36:43"
+    ],
+    "graded_place": 205,
+    "ag_place": 54
+  },
+  {
+    "bib": "387",
+    "name": "Isabella Lee",
+    "age_group": "F18-24",
+    "finish_time": "05:39:45",
+    "finish_time_seconds": 20385,
+    "gender_place": "186",
+    "graded_time_seconds": 20223.9585,
+    "graded_time": "05:37:03",
+    "unique_key": [
+      "Isabella Lee",
+      "05:39:45"
+    ],
+    "graded_place": 206,
+    "ag_place": 34
+  },
+  {
+    "bib": "615",
+    "name": "Michelle Surjaputra",
+    "age_group": "F35-39",
+    "finish_time": "05:49:13",
+    "finish_time_seconds": 20953,
+    "gender_place": "211",
+    "graded_time_seconds": 20236.4074,
+    "graded_time": "05:37:16",
+    "unique_key": [
+      "Michelle Surjaputra",
+      "05:49:13"
+    ],
+    "graded_place": 207,
+    "ag_place": 15
+  },
+  {
+    "bib": "585",
+    "name": "Jessieca Claudia Hanan Yonathan",
+    "age_group": "F30-34",
+    "finish_time": "05:43:48",
+    "finish_time_seconds": 20628,
+    "gender_place": "197",
+    "graded_time_seconds": 20273.1984,
+    "graded_time": "05:37:53",
+    "unique_key": [
+      "Jessieca Claudia Hanan Yonathan",
+      "05:43:48"
+    ],
+    "graded_place": 208,
+    "ag_place": 44
+  },
+  {
+    "bib": "496",
+    "name": "Liv Micallef",
+    "age_group": "F25-29",
+    "finish_time": "05:40:35",
+    "finish_time_seconds": 20435,
+    "gender_place": "187",
+    "graded_time_seconds": 20435.0,
+    "graded_time": "05:40:35",
+    "unique_key": [
+      "Liv Micallef",
+      "05:40:35"
+    ],
+    "graded_place": 209,
+    "ag_place": 55
+  },
+  {
+    "bib": "469",
+    "name": "Emily Sandman",
+    "age_group": "F25-29",
+    "finish_time": "05:41:41",
+    "finish_time_seconds": 20501,
+    "gender_place": "191",
+    "graded_time_seconds": 20501.0,
+    "graded_time": "05:41:41",
+    "unique_key": [
+      "Emily Sandman",
+      "05:41:41"
+    ],
+    "graded_place": 210,
+    "ag_place": 56
+  },
+  {
+    "bib": "464",
+    "name": "Emily Lew",
+    "age_group": "F25-29",
+    "finish_time": "05:42:08",
+    "finish_time_seconds": 20528,
+    "gender_place": "193",
+    "graded_time_seconds": 20528.0,
+    "graded_time": "05:42:08",
+    "unique_key": [
+      "Emily Lew",
+      "05:42:08"
+    ],
+    "graded_place": 211,
+    "ag_place": 57
+  },
+  {
+    "bib": "403",
+    "name": "Catherine Li",
+    "age_group": "F18-24",
+    "finish_time": "05:45:00",
+    "finish_time_seconds": 20700,
+    "gender_place": "202",
+    "graded_time_seconds": 20536.47,
+    "graded_time": "05:42:16",
+    "unique_key": [
+      "Catherine Li",
+      "05:45:00"
+    ],
+    "graded_place": 212,
+    "ag_place": 35
+  },
+  {
+    "bib": "704",
+    "name": "Nathalie Garnier",
+    "age_group": "F55-59",
+    "finish_time": "06:31:43",
+    "finish_time_seconds": 23503,
+    "gender_place": "264",
+    "graded_time_seconds": 20555.7238,
+    "graded_time": "05:42:35",
+    "unique_key": [
+      "Nathalie Garnier",
+      "06:31:43"
+    ],
+    "graded_place": 213,
+    "ag_place": 10
+  },
+  {
+    "bib": "523",
+    "name": "Libby Innes",
+    "age_group": "F25-29",
+    "finish_time": "05:42:46",
+    "finish_time_seconds": 20566,
+    "gender_place": "194",
+    "graded_time_seconds": 20566.0,
+    "graded_time": "05:42:46",
+    "unique_key": [
+      "Libby Innes",
+      "05:42:46"
+    ],
+    "graded_place": 214,
+    "ag_place": 58
+  },
+  {
+    "bib": "565",
+    "name": "Ayla Fenton",
+    "age_group": "F30-34",
+    "finish_time": "05:49:05",
+    "finish_time_seconds": 20945,
+    "gender_place": "210",
+    "graded_time_seconds": 20584.746,
+    "graded_time": "05:43:04",
+    "unique_key": [
+      "Ayla Fenton",
+      "05:49:05"
+    ],
+    "graded_place": 215,
+    "ag_place": 45
+  },
+  {
+    "bib": "471",
+    "name": "Kate Ramsay",
+    "age_group": "F25-29",
+    "finish_time": "05:43:13",
+    "finish_time_seconds": 20593,
+    "gender_place": "195",
+    "graded_time_seconds": 20593.0,
+    "graded_time": "05:43:13",
+    "unique_key": [
+      "Kate Ramsay",
+      "05:43:13"
+    ],
+    "graded_place": 216,
+    "ag_place": 59
+  },
+  {
+    "bib": "218",
+    "name": "Jemma Adzievski",
+    "age_group": "F18-24",
+    "finish_time": "05:46:39",
+    "finish_time_seconds": 20799,
+    "gender_place": "205",
+    "graded_time_seconds": 20634.6879,
+    "graded_time": "05:43:54",
+    "unique_key": [
+      "Jemma Adzievski",
+      "05:46:39"
+    ],
+    "graded_place": 217,
+    "ag_place": 36
+  },
+  {
+    "bib": "470",
+    "name": "Tara Anderson",
+    "age_group": "F25-29",
+    "finish_time": "05:44:22",
+    "finish_time_seconds": 20662,
+    "gender_place": "199",
+    "graded_time_seconds": 20662.0,
+    "graded_time": "05:44:22",
+    "unique_key": [
+      "Tara Anderson",
+      "05:44:22"
+    ],
+    "graded_place": 218,
+    "ag_place": 60
+  },
+  {
+    "bib": "712",
+    "name": "Yukari Horiguchi",
+    "age_group": "F60-64",
+    "finish_time": "06:50:43",
+    "finish_time_seconds": 24643,
+    "gender_place": "273",
+    "graded_time_seconds": 20677.9413,
+    "graded_time": "05:44:37",
+    "unique_key": [
+      "Yukari Horiguchi",
+      "06:50:43"
+    ],
+    "graded_place": 219,
+    "ag_place": 6
+  },
+  {
+    "bib": "221",
+    "name": "Louise Dunne",
+    "age_group": "F25-29",
+    "finish_time": "05:44:49",
+    "finish_time_seconds": 20689,
+    "gender_place": "200",
+    "graded_time_seconds": 20689.0,
+    "graded_time": "05:44:49",
+    "unique_key": [
+      "Louise Dunne",
+      "05:44:49"
+    ],
+    "graded_place": 220,
+    "ag_place": 61
+  },
+  {
+    "bib": "398",
+    "name": "Anna Voynova",
+    "age_group": "F18-24",
+    "finish_time": "05:47:43",
+    "finish_time_seconds": 20863,
+    "gender_place": "207",
+    "graded_time_seconds": 20698.1823,
+    "graded_time": "05:44:58",
+    "unique_key": [
+      "Anna Voynova",
+      "05:47:43"
+    ],
+    "graded_place": 221,
+    "ag_place": 37
+  },
+  {
+    "bib": "544",
+    "name": "Beth Bowshall",
+    "age_group": "F30-34",
+    "finish_time": "05:51:07",
+    "finish_time_seconds": 21067,
+    "gender_place": "216",
+    "graded_time_seconds": 20704.6476,
+    "graded_time": "05:45:04",
+    "unique_key": [
+      "Beth Bowshall",
+      "05:51:07"
+    ],
+    "graded_place": 222,
+    "ag_place": 46
+  },
+  {
+    "bib": "435",
+    "name": "Bianca Gugger",
+    "age_group": "F25-29",
+    "finish_time": "05:45:12",
+    "finish_time_seconds": 20712,
+    "gender_place": "203",
+    "graded_time_seconds": 20712.0,
+    "graded_time": "05:45:12",
+    "unique_key": [
+      "Bianca Gugger",
+      "05:45:12"
+    ],
+    "graded_place": 223,
+    "ag_place": 62
+  },
+  {
+    "bib": "299",
+    "name": "Lyndall Jensen",
+    "age_group": "F35-39",
+    "finish_time": "05:57:40",
+    "finish_time_seconds": 21460,
+    "gender_place": "224",
+    "graded_time_seconds": 20726.068,
+    "graded_time": "05:45:26",
+    "unique_key": [
+      "Lyndall Jensen",
+      "05:57:40"
+    ],
+    "graded_place": 224,
+    "ag_place": 16
+  },
+  {
+    "bib": "507",
+    "name": "Abs Sida",
+    "age_group": "F25-29",
+    "finish_time": "05:46:12",
+    "finish_time_seconds": 20772,
+    "gender_place": "204",
+    "graded_time_seconds": 20772.0,
+    "graded_time": "05:46:12",
+    "unique_key": [
+      "Abs Sida",
+      "05:46:12"
+    ],
+    "graded_place": 225,
+    "ag_place": 63
+  },
+  {
+    "bib": "422",
+    "name": "Freya Hibberd",
+    "age_group": "F18-24",
+    "finish_time": "05:49:49",
+    "finish_time_seconds": 20989,
+    "gender_place": "214",
+    "graded_time_seconds": 20823.1869,
+    "graded_time": "05:47:03",
+    "unique_key": [
+      "Freya Hibberd",
+      "05:49:49"
+    ],
+    "graded_place": 226,
+    "ag_place": 38
+  },
+  {
+    "bib": "448",
+    "name": "Caitlin Williams",
+    "age_group": "F25-29",
+    "finish_time": "05:47:39",
+    "finish_time_seconds": 20859,
+    "gender_place": "206",
+    "graded_time_seconds": 20859.0,
+    "graded_time": "05:47:39",
+    "unique_key": [
+      "Caitlin Williams",
+      "05:47:39"
+    ],
+    "graded_place": 227,
+    "ag_place": 64
+  },
+  {
+    "bib": "532",
+    "name": "Emily Preston",
+    "age_group": "F25-29",
+    "finish_time": "05:48:15",
+    "finish_time_seconds": 20895,
+    "gender_place": "208",
+    "graded_time_seconds": 20895.0,
+    "graded_time": "05:48:15",
+    "unique_key": [
+      "Emily Preston",
+      "05:48:15"
+    ],
+    "graded_place": 228,
+    "ag_place": 65
+  },
+  {
+    "bib": "599",
+    "name": "Amanda Bergan",
+    "age_group": "F35-39",
+    "finish_time": "06:01:08",
+    "finish_time_seconds": 21668,
+    "gender_place": "231",
+    "graded_time_seconds": 20926.9544,
+    "graded_time": "05:48:46",
+    "unique_key": [
+      "Amanda Bergan",
+      "06:01:08"
+    ],
+    "graded_place": 229,
+    "ag_place": 17
+  },
+  {
+    "bib": "516",
+    "name": "Gemma Downie",
+    "age_group": "F25-29",
+    "finish_time": "05:49:42",
+    "finish_time_seconds": 20982,
+    "gender_place": "212",
+    "graded_time_seconds": 20982.0,
+    "graded_time": "05:49:42",
+    "unique_key": [
+      "Gemma Downie",
+      "05:49:42"
+    ],
+    "graded_place": 230,
+    "ag_place": 66
+  },
+  {
+    "bib": "524",
+    "name": "Florence Barbalich",
+    "age_group": "F25-29",
+    "finish_time": "05:50:37",
+    "finish_time_seconds": 21037,
+    "gender_place": "215",
+    "graded_time_seconds": 21037.0,
+    "graded_time": "05:50:37",
+    "unique_key": [
+      "Florence Barbalich",
+      "05:50:37"
+    ],
+    "graded_place": 231,
+    "ag_place": 67
+  },
+  {
+    "bib": "693",
+    "name": "Natascha Pijper",
+    "age_group": "F50-54",
+    "finish_time": "06:28:57",
+    "finish_time_seconds": 23337,
+    "gender_place": "261",
+    "graded_time_seconds": 21040.639199999998,
+    "graded_time": "05:50:40",
+    "unique_key": [
+      "Natascha Pijper",
+      "06:28:57"
+    ],
+    "graded_place": 232,
+    "ag_place": 15
+  },
+  {
+    "bib": "568",
+    "name": "Madeleine Sheedy",
+    "age_group": "F30-34",
+    "finish_time": "05:58:10",
+    "finish_time_seconds": 21490,
+    "gender_place": "225",
+    "graded_time_seconds": 21120.372,
+    "graded_time": "05:52:00",
+    "unique_key": [
+      "Madeleine Sheedy",
+      "05:58:10"
+    ],
+    "graded_place": 233,
+    "ag_place": 47
+  },
+  {
+    "bib": "426",
+    "name": "Kaitlyn Gravit",
+    "age_group": "F18-24",
+    "finish_time": "05:55:09",
+    "finish_time_seconds": 21309,
+    "gender_place": "220",
+    "graded_time_seconds": 21140.6589,
+    "graded_time": "05:52:20",
+    "unique_key": [
+      "Kaitlyn Gravit",
+      "05:55:09"
+    ],
+    "graded_place": 234,
+    "ag_place": 39
+  },
+  {
+    "bib": "555",
+    "name": "Mel James",
+    "age_group": "F30-34",
+    "finish_time": "05:58:58",
+    "finish_time_seconds": 21538,
+    "gender_place": "227",
+    "graded_time_seconds": 21167.5464,
+    "graded_time": "05:52:47",
+    "unique_key": [
+      "Mel James",
+      "05:58:58"
+    ],
+    "graded_place": 235,
+    "ag_place": 48
+  },
+  {
+    "bib": "424",
+    "name": "Nerea de la Puente",
+    "age_group": "F18-24",
+    "finish_time": "05:56:18",
+    "finish_time_seconds": 21378,
+    "gender_place": "221",
+    "graded_time_seconds": 21209.1138,
+    "graded_time": "05:53:29",
+    "unique_key": [
+      "Nerea de la Puente",
+      "05:56:18"
+    ],
+    "graded_place": 236,
+    "ag_place": 40
+  },
+  {
+    "bib": "506",
+    "name": "Anna Janssen-Heidenfeld",
+    "age_group": "F25-29",
+    "finish_time": "05:53:33",
+    "finish_time_seconds": 21213,
+    "gender_place": "218",
+    "graded_time_seconds": 21213.0,
+    "graded_time": "05:53:33",
+    "unique_key": [
+      "Anna Janssen-Heidenfeld",
+      "05:53:33"
+    ],
+    "graded_place": 237,
+    "ag_place": 68
+  },
+  {
+    "bib": "451",
+    "name": "Holly Lemasurier",
+    "age_group": "F25-29",
+    "finish_time": "05:53:39",
+    "finish_time_seconds": 21219,
+    "gender_place": "219",
+    "graded_time_seconds": 21219.0,
+    "graded_time": "05:53:39",
+    "unique_key": [
+      "Holly Lemasurier",
+      "05:53:39"
+    ],
+    "graded_place": 238,
+    "ag_place": 69
+  },
+  {
+    "bib": "626",
+    "name": "Kellee Ives",
+    "age_group": "F40-44",
+    "finish_time": "06:16:29",
+    "finish_time_seconds": 22589,
+    "gender_place": "250",
+    "graded_time_seconds": 21292.3914,
+    "graded_time": "05:54:52",
+    "unique_key": [
+      "Kellee Ives",
+      "06:16:29"
+    ],
+    "graded_place": 239,
+    "ag_place": 19
+  },
+  {
+    "bib": "690",
+    "name": "Donna Priadi",
+    "age_group": "F50-54",
+    "finish_time": "06:35:19",
+    "finish_time_seconds": 23719,
+    "gender_place": "265",
+    "graded_time_seconds": 21385.0504,
+    "graded_time": "05:56:25",
+    "unique_key": [
+      "Donna Priadi",
+      "06:35:19"
+    ],
+    "graded_place": 240,
+    "ag_place": 16
+  },
+  {
+    "bib": "504",
+    "name": "Morgan Dinn",
+    "age_group": "F25-29",
+    "finish_time": "05:57:14",
+    "finish_time_seconds": 21434,
+    "gender_place": "223",
+    "graded_time_seconds": 21434.0,
+    "graded_time": "05:57:14",
+    "unique_key": [
+      "Morgan Dinn",
+      "05:57:14"
+    ],
+    "graded_place": 241,
+    "ag_place": 70
+  },
+  {
+    "bib": "430",
+    "name": "Alex Norris",
+    "age_group": "F18-24",
+    "finish_time": "06:00:35",
+    "finish_time_seconds": 21635,
+    "gender_place": "230",
+    "graded_time_seconds": 21464.0835,
+    "graded_time": "05:57:44",
+    "unique_key": [
+      "Alex Norris",
+      "06:00:35"
+    ],
+    "graded_place": 242,
+    "ag_place": 41
+  },
+  {
+    "bib": "509",
+    "name": "Kate Annison",
+    "age_group": "F25-29",
+    "finish_time": "05:58:23",
+    "finish_time_seconds": 21503,
+    "gender_place": "226",
+    "graded_time_seconds": 21503.0,
+    "graded_time": "05:58:23",
+    "unique_key": [
+      "Kate Annison",
+      "05:58:23"
+    ],
+    "graded_place": 243,
+    "ag_place": 71
+  },
+  {
+    "bib": "467",
+    "name": "Lucy Willox",
+    "age_group": "F25-29",
+    "finish_time": "05:59:07",
+    "finish_time_seconds": 21547,
+    "gender_place": "228",
+    "graded_time_seconds": 21547.0,
+    "graded_time": "05:59:07",
+    "unique_key": [
+      "Lucy Willox",
+      "05:59:07"
+    ],
+    "graded_place": 244,
+    "ag_place": 72
+  },
+  {
+    "bib": "526",
+    "name": "Brenda Lim",
+    "age_group": "F25-29",
+    "finish_time": "05:59:11",
+    "finish_time_seconds": 21551,
+    "gender_place": "229",
+    "graded_time_seconds": 21551.0,
+    "graded_time": "05:59:11",
+    "unique_key": [
+      "Brenda Lim",
+      "05:59:11"
+    ],
+    "graded_place": 245,
+    "ag_place": 73
+  },
+  {
+    "bib": "685",
+    "name": "Marzia Alesini",
+    "age_group": "F50-54",
+    "finish_time": "06:39:08",
+    "finish_time_seconds": 23948,
+    "gender_place": "268",
+    "graded_time_seconds": 21591.516799999998,
+    "graded_time": "05:59:51",
+    "unique_key": [
+      "Marzia Alesini",
+      "06:39:08"
+    ],
+    "graded_place": 246,
+    "ag_place": 17
+  },
+  {
+    "bib": "453",
+    "name": "Chelsey Arthur",
+    "age_group": "F25-29",
+    "finish_time": "06:03:03",
+    "finish_time_seconds": 21783,
+    "gender_place": "235",
+    "graded_time_seconds": 21783.0,
+    "graded_time": "06:03:03",
+    "unique_key": [
+      "Chelsey Arthur",
+      "06:03:03"
+    ],
+    "graded_place": 247,
+    "ag_place": 74
+  },
+  {
+    "bib": "522",
+    "name": "Olivia Marr",
+    "age_group": "F25-29",
+    "finish_time": "06:05:55",
+    "finish_time_seconds": 21955,
+    "gender_place": "237",
+    "graded_time_seconds": 21955.0,
+    "graded_time": "06:05:55",
+    "unique_key": [
+      "Olivia Marr",
+      "06:05:55"
+    ],
+    "graded_place": 248,
+    "ag_place": 75
+  },
+  {
+    "bib": "672",
+    "name": "Utako Kimura",
+    "age_group": "F45-49",
+    "finish_time": "06:38:28",
+    "finish_time_seconds": 23908,
+    "gender_place": "266",
+    "graded_time_seconds": 21976.2336,
+    "graded_time": "06:06:16",
+    "unique_key": [
+      "Utako Kimura",
+      "06:38:28"
+    ],
+    "graded_place": 249,
+    "ag_place": 15
+  },
+  {
+    "bib": "578",
+    "name": "Charlotte Komor",
+    "age_group": "F30-34",
+    "finish_time": "06:13:13",
+    "finish_time_seconds": 22393,
+    "gender_place": "248",
+    "graded_time_seconds": 22007.8404,
+    "graded_time": "06:06:47",
+    "unique_key": [
+      "Charlotte Komor",
+      "06:13:13"
+    ],
+    "graded_place": 250,
+    "ag_place": 49
+  },
+  {
+    "bib": "584",
+    "name": "Derisa Zahara",
+    "age_group": "F30-34",
+    "finish_time": "06:13:35",
+    "finish_time_seconds": 22415,
+    "gender_place": "249",
+    "graded_time_seconds": 22029.462,
+    "graded_time": "06:07:09",
+    "unique_key": [
+      "Derisa Zahara",
+      "06:13:35"
+    ],
+    "graded_place": 251,
+    "ag_place": 50
+  },
+  {
+    "bib": "668",
+    "name": "Ramayanti Atmawidjaja",
+    "age_group": "F45-49",
+    "finish_time": "06:40:03",
+    "finish_time_seconds": 24003,
+    "gender_place": "270",
+    "graded_time_seconds": 22063.5576,
+    "graded_time": "06:07:43",
+    "unique_key": [
+      "Ramayanti Atmawidjaja",
+      "06:40:03"
+    ],
+    "graded_place": 252,
+    "ag_place": 16
+  },
+  {
+    "bib": "634",
+    "name": "Lee-Anne Slater",
+    "age_group": "F40-44",
+    "finish_time": "06:30:22",
+    "finish_time_seconds": 23422,
+    "gender_place": "263",
+    "graded_time_seconds": 22077.5772,
+    "graded_time": "06:07:57",
+    "unique_key": [
+      "Lee-Anne Slater",
+      "06:30:22"
+    ],
+    "graded_place": 253,
+    "ag_place": 20
+  },
+  {
+    "bib": "605",
+    "name": "Kate Enno",
+    "age_group": "F35-39",
+    "finish_time": "06:21:03",
+    "finish_time_seconds": 22863,
+    "gender_place": "255",
+    "graded_time_seconds": 22081.0854,
+    "graded_time": "06:08:01",
+    "unique_key": [
+      "Kate Enno",
+      "06:21:03"
+    ],
+    "graded_place": 254,
+    "ag_place": 18
+  },
+  {
+    "bib": "439",
+    "name": "Madeleine Smith",
+    "age_group": "F25-29",
+    "finish_time": "06:08:25",
+    "finish_time_seconds": 22105,
+    "gender_place": "239",
+    "graded_time_seconds": 22105.0,
+    "graded_time": "06:08:25",
+    "unique_key": [
+      "Madeleine Smith",
+      "06:08:25"
+    ],
+    "graded_place": 255,
+    "ag_place": 76
+  },
+  {
+    "bib": "404",
+    "name": "Lauren Marsh",
+    "age_group": "F18-24",
+    "finish_time": "06:11:33",
+    "finish_time_seconds": 22293,
+    "gender_place": "245",
+    "graded_time_seconds": 22116.885299999998,
+    "graded_time": "06:08:36",
+    "unique_key": [
+      "Lauren Marsh",
+      "06:11:33"
+    ],
+    "graded_place": 256,
+    "ag_place": 42
+  },
+  {
+    "bib": "512",
+    "name": "Ciara Purcell",
+    "age_group": "F25-29",
+    "finish_time": "06:08:40",
+    "finish_time_seconds": 22120,
+    "gender_place": "240",
+    "graded_time_seconds": 22120.0,
+    "graded_time": "06:08:40",
+    "unique_key": [
+      "Ciara Purcell",
+      "06:08:40"
+    ],
+    "graded_place": 257,
+    "ag_place": 77
+  },
+  {
+    "bib": "445",
+    "name": "Shannah Mudge",
+    "age_group": "F25-29",
+    "finish_time": "06:09:05",
+    "finish_time_seconds": 22145,
+    "gender_place": "241",
+    "graded_time_seconds": 22145.0,
+    "graded_time": "06:09:05",
+    "unique_key": [
+      "Shannah Mudge",
+      "06:09:05"
+    ],
+    "graded_place": 258,
+    "ag_place": 78
+  },
+  {
+    "bib": "575",
+    "name": "Lauren Dinn",
+    "age_group": "F30-34",
+    "finish_time": "06:16:49",
+    "finish_time_seconds": 22609,
+    "gender_place": "251",
+    "graded_time_seconds": 22220.1252,
+    "graded_time": "06:10:20",
+    "unique_key": [
+      "Lauren Dinn",
+      "06:16:49"
+    ],
+    "graded_place": 259,
+    "ag_place": 51
+  },
+  {
+    "bib": "498",
+    "name": "Macey Adkins",
+    "age_group": "F25-29",
+    "finish_time": "06:10:49",
+    "finish_time_seconds": 22249,
+    "gender_place": "243",
+    "graded_time_seconds": 22249.0,
+    "graded_time": "06:10:49",
+    "unique_key": [
+      "Macey Adkins",
+      "06:10:49"
+    ],
+    "graded_place": 260,
+    "ag_place": 79
+  },
+  {
+    "bib": "560",
+    "name": "Dana Burgan",
+    "age_group": "F30-34",
+    "finish_time": "06:18:06",
+    "finish_time_seconds": 22686,
+    "gender_place": "252",
+    "graded_time_seconds": 22295.8008,
+    "graded_time": "06:11:35",
+    "unique_key": [
+      "Dana Burgan",
+      "06:18:06"
+    ],
+    "graded_place": 261,
+    "ag_place": 52
+  },
+  {
+    "bib": "452",
+    "name": "Georgie Doddridge",
+    "age_group": "F25-29",
+    "finish_time": "06:12:14",
+    "finish_time_seconds": 22334,
+    "gender_place": "246",
+    "graded_time_seconds": 22334.0,
+    "graded_time": "06:12:14",
+    "unique_key": [
+      "Georgie Doddridge",
+      "06:12:14"
+    ],
+    "graded_place": 262,
+    "ag_place": 80
+  },
+  {
+    "bib": "494",
+    "name": "Kathy Chen",
+    "age_group": "F25-29",
+    "finish_time": "06:12:55",
+    "finish_time_seconds": 22375,
+    "gender_place": "247",
+    "graded_time_seconds": 22375.0,
+    "graded_time": "06:12:55",
+    "unique_key": [
+      "Kathy Chen",
+      "06:12:55"
+    ],
+    "graded_place": 263,
+    "ag_place": 81
+  },
+  {
+    "bib": "554",
+    "name": "Katie Parker",
+    "age_group": "F30-34",
+    "finish_time": "06:19:51",
+    "finish_time_seconds": 22791,
+    "gender_place": "254",
+    "graded_time_seconds": 22398.9948,
+    "graded_time": "06:13:18",
+    "unique_key": [
+      "Katie Parker",
+      "06:19:51"
+    ],
+    "graded_place": 264,
+    "ag_place": 53
+  },
+  {
+    "bib": "638",
+    "name": "Janelle Penno",
+    "age_group": "F40-44",
+    "finish_time": "06:39:01",
+    "finish_time_seconds": 23941,
+    "gender_place": "267",
+    "graded_time_seconds": 22566.7866,
+    "graded_time": "06:16:06",
+    "unique_key": [
+      "Janelle Penno",
+      "06:39:01"
+    ],
+    "graded_place": 265,
+    "ag_place": 21
+  },
+  {
+    "bib": "527",
+    "name": "Nur Iman Beck",
+    "age_group": "F25-29",
+    "finish_time": "06:18:58",
+    "finish_time_seconds": 22738,
+    "gender_place": "253",
+    "graded_time_seconds": 22738.0,
+    "graded_time": "06:18:58",
+    "unique_key": [
+      "Nur Iman Beck",
+      "06:18:58"
+    ],
+    "graded_place": 266,
+    "ag_place": 82
+  },
+  {
+    "bib": "420",
+    "name": "Ruby Farmer",
+    "age_group": "F18-24",
+    "finish_time": "06:22:07",
+    "finish_time_seconds": 22927,
+    "gender_place": "256",
+    "graded_time_seconds": 22745.8767,
+    "graded_time": "06:19:05",
+    "unique_key": [
+      "Ruby Farmer",
+      "06:22:07"
+    ],
+    "graded_place": 267,
+    "ag_place": 43
+  },
+  {
+    "bib": "546",
+    "name": "Jade Money",
+    "age_group": "F30-34",
+    "finish_time": "06:26:10",
+    "finish_time_seconds": 23170,
+    "gender_place": "258",
+    "graded_time_seconds": 22771.476,
+    "graded_time": "06:19:31",
+    "unique_key": [
+      "Jade Money",
+      "06:26:10"
+    ],
+    "graded_place": 268,
+    "ag_place": 54
+  },
+  {
+    "bib": "225",
+    "name": "Jacqui VON Hoff",
+    "age_group": "F40-44",
+    "finish_time": "06:43:47",
+    "finish_time_seconds": 24227,
+    "gender_place": "272",
+    "graded_time_seconds": 22836.3702,
+    "graded_time": "06:20:36",
+    "unique_key": [
+      "Jacqui VON Hoff",
+      "06:43:47"
+    ],
+    "graded_place": 269,
+    "ag_place": 22
+  },
+  {
+    "bib": "492",
+    "name": "Sophia Saldanha",
+    "age_group": "F25-29",
+    "finish_time": "06:22:52",
+    "finish_time_seconds": 22972,
+    "gender_place": "257",
+    "graded_time_seconds": 22972.0,
+    "graded_time": "06:22:52",
+    "unique_key": [
+      "Sophia Saldanha",
+      "06:22:52"
+    ],
+    "graded_place": 270,
+    "ag_place": 83
+  },
+  {
+    "bib": "594",
+    "name": "Barbara Kornafel",
+    "age_group": "F30-34",
+    "finish_time": "06:30:13",
+    "finish_time_seconds": 23413,
+    "gender_place": "262",
+    "graded_time_seconds": 23010.2964,
+    "graded_time": "06:23:30",
+    "unique_key": [
+      "Barbara Kornafel",
+      "06:30:13"
+    ],
+    "graded_place": 271,
+    "ag_place": 55
+  },
+  {
+    "bib": "499",
+    "name": "Katie Bugden",
+    "age_group": "F25-29",
+    "finish_time": "06:28:55",
+    "finish_time_seconds": 23335,
+    "gender_place": "260",
+    "graded_time_seconds": 23335.0,
+    "graded_time": "06:28:55",
+    "unique_key": [
+      "Katie Bugden",
+      "06:28:55"
+    ],
+    "graded_place": 272,
+    "ag_place": 84
+  },
+  {
+    "bib": "574",
+    "name": "Maisa Hernandez Ortola",
+    "age_group": "F30-34",
+    "finish_time": "06:42:00",
+    "finish_time_seconds": 24120,
+    "gender_place": "271",
+    "graded_time_seconds": 23705.136,
+    "graded_time": "06:35:05",
+    "unique_key": [
+      "Maisa Hernandez Ortola",
+      "06:42:00"
+    ],
+    "graded_place": 273,
+    "ag_place": 56
+  },
+  {
+    "bib": "653",
+    "name": "Eula Leeliz Gonzaga",
+    "age_group": "F40-44",
+    "finish_time": "07:01:31",
+    "finish_time_seconds": 25291,
+    "gender_place": "276",
+    "graded_time_seconds": 23839.2966,
+    "graded_time": "06:37:19",
+    "unique_key": [
+      "Eula Leeliz Gonzaga",
+      "07:01:31"
+    ],
+    "graded_place": 274,
+    "ag_place": 23
+  },
+  {
+    "bib": "386",
+    "name": "Emma Marsden",
+    "age_group": "F18-24",
+    "finish_time": "06:54:51",
+    "finish_time_seconds": 24891,
+    "gender_place": "274",
+    "graded_time_seconds": 24694.3611,
+    "graded_time": "06:51:34",
+    "unique_key": [
+      "Emma Marsden",
+      "06:54:51"
+    ],
+    "graded_place": 275,
+    "ag_place": 44
+  },
+  {
+    "bib": "N/A",
+    "name": "anonymous",
+    "age_group": "F18-24",
+    "finish_time": "06:54:52",
+    "finish_time_seconds": 24892,
+    "gender_place": "275",
+    "graded_time_seconds": 24695.353199999998,
+    "graded_time": "06:51:35",
+    "unique_key": [
+      "anonymous",
+      "06:54:52"
+    ],
+    "graded_place": 276,
+    "ag_place": 45
+  },
+  {
+    "bib": "595",
+    "name": "Grace Chang",
+    "age_group": "F30-34",
+    "finish_time": "07:03:00",
+    "finish_time_seconds": 25380,
+    "gender_place": "277",
+    "graded_time_seconds": 24943.464,
+    "graded_time": "06:55:43",
+    "unique_key": [
+      "Grace Chang",
+      "07:03:00"
+    ],
+    "graded_place": 277,
+    "ag_place": 57
+  },
+  {
+    "bib": "382",
+    "name": "Bella James",
+    "age_group": "F18-24",
+    "finish_time": "07:03:42",
+    "finish_time_seconds": 25422,
+    "gender_place": "278",
+    "graded_time_seconds": 25221.1662,
+    "graded_time": "07:00:21",
+    "unique_key": [
+      "Bella James",
+      "07:03:42"
+    ],
+    "graded_place": 278,
+    "ag_place": 46
+  },
+  {
+    "bib": "593",
+    "name": "Angela Worthy",
+    "age_group": "F30-34",
+    "finish_time": "07:09:20",
+    "finish_time_seconds": 25760,
+    "gender_place": "279",
+    "graded_time_seconds": 25316.928,
+    "graded_time": "07:01:56",
+    "unique_key": [
+      "Angela Worthy",
+      "07:09:20"
+    ],
+    "graded_place": 279,
+    "ag_place": 58
+  }
+]
