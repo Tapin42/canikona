@@ -1745,6 +1745,9 @@
             "men": 25,
             "women": 25
         },
+        "known_rolldown": {
+            "men": 54
+        },
         "results_urls": {
             "live": {
                 "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",

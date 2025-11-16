@@ -1,0 +1,1202 @@
+[
+  {
+    "bib": "199",
+    "name": "Emily Sambrook Smith",
+    "age_group": "F25-29",
+    "finish_time": "04:50:07",
+    "finish_time_seconds": 17407,
+    "gender_place": "1",
+    "graded_time_seconds": 17407.0,
+    "graded_time": "04:50:07",
+    "unique_key": [
+      "Emily Sambrook Smith",
+      "04:50:07"
+    ],
+    "graded_place": 1,
+    "ag_place": 1
+  },
+  {
+    "bib": "142",
+    "name": "Ludovica Ungaretti",
+    "age_group": "F45-49",
+    "finish_time": "05:25:27",
+    "finish_time_seconds": 19527,
+    "gender_place": "2",
+    "graded_time_seconds": 17949.2184,
+    "graded_time": "04:59:09",
+    "unique_key": [
+      "Ludovica Ungaretti",
+      "05:25:27"
+    ],
+    "graded_place": 2,
+    "ag_place": 1
+  },
+  {
+    "bib": "676",
+    "name": "Laura Birse",
+    "age_group": "F45-49",
+    "finish_time": "05:30:23",
+    "finish_time_seconds": 19823,
+    "gender_place": "3",
+    "graded_time_seconds": 18221.3016,
+    "graded_time": "05:03:41",
+    "unique_key": [
+      "Laura Birse",
+      "05:30:23"
+    ],
+    "graded_place": 3,
+    "ag_place": 2
+  },
+  {
+    "bib": "109",
+    "name": "Yen Chia",
+    "age_group": "F35-39",
+    "finish_time": "05:37:05",
+    "finish_time_seconds": 20225,
+    "gender_place": "6",
+    "graded_time_seconds": 19533.305,
+    "graded_time": "05:25:33",
+    "unique_key": [
+      "Yen Chia",
+      "05:37:05"
+    ],
+    "graded_place": 4,
+    "ag_place": 1
+  },
+  {
+    "bib": "232",
+    "name": "Chew Huey Ming",
+    "age_group": "F30-34",
+    "finish_time": "05:31:51",
+    "finish_time_seconds": 19911,
+    "gender_place": "4",
+    "graded_time_seconds": 19568.5308,
+    "graded_time": "05:26:08",
+    "unique_key": [
+      "Chew Huey Ming",
+      "05:31:51"
+    ],
+    "graded_place": 5,
+    "ag_place": 1
+  },
+  {
+    "bib": "661",
+    "name": "Mimi Ruslan",
+    "age_group": "F40-44",
+    "finish_time": "05:46:32",
+    "finish_time_seconds": 20792,
+    "gender_place": "7",
+    "graded_time_seconds": 19598.5392,
+    "graded_time": "05:26:38",
+    "unique_key": [
+      "Mimi Ruslan",
+      "05:46:32"
+    ],
+    "graded_place": 6,
+    "ag_place": 1
+  },
+  {
+    "bib": "251",
+    "name": "Serena Yang",
+    "age_group": "F30-34",
+    "finish_time": "05:33:53",
+    "finish_time_seconds": 20033,
+    "gender_place": "5",
+    "graded_time_seconds": 19688.4324,
+    "graded_time": "05:28:08",
+    "unique_key": [
+      "Serena Yang",
+      "05:33:53"
+    ],
+    "graded_place": 7,
+    "ag_place": 2
+  },
+  {
+    "bib": "357",
+    "name": "Pei Lin Yuen",
+    "age_group": "F40-44",
+    "finish_time": "05:48:29",
+    "finish_time_seconds": 20909,
+    "gender_place": "8",
+    "graded_time_seconds": 19708.8234,
+    "graded_time": "05:28:28",
+    "unique_key": [
+      "Pei Lin Yuen",
+      "05:48:29"
+    ],
+    "graded_place": 8,
+    "ag_place": 2
+  },
+  {
+    "bib": "685",
+    "name": "Jennifer Quek",
+    "age_group": "F50-54",
+    "finish_time": "06:11:21",
+    "finish_time_seconds": 22281,
+    "gender_place": "13",
+    "graded_time_seconds": 20088.5496,
+    "graded_time": "05:34:48",
+    "unique_key": [
+      "Jennifer Quek",
+      "06:11:21"
+    ],
+    "graded_place": 9,
+    "ag_place": 1
+  },
+  {
+    "bib": "497",
+    "name": "Meiting Jong",
+    "age_group": "F45-49",
+    "finish_time": "06:05:44",
+    "finish_time_seconds": 21944,
+    "gender_place": "11",
+    "graded_time_seconds": 20170.9248,
+    "graded_time": "05:36:10",
+    "unique_key": [
+      "Meiting Jong",
+      "06:05:44"
+    ],
+    "graded_place": 10,
+    "ag_place": 3
+  },
+  {
+    "bib": "139",
+    "name": "Emma Wade",
+    "age_group": "F40-44",
+    "finish_time": "05:57:55",
+    "finish_time_seconds": 21475,
+    "gender_place": "9",
+    "graded_time_seconds": 20242.335,
+    "graded_time": "05:37:22",
+    "unique_key": [
+      "Emma Wade",
+      "05:57:55"
+    ],
+    "graded_place": 11,
+    "ag_place": 3
+  },
+  {
+    "bib": "470",
+    "name": "Anorma Cook",
+    "age_group": "F45-49",
+    "finish_time": "06:09:27",
+    "finish_time_seconds": 22167,
+    "gender_place": "12",
+    "graded_time_seconds": 20375.9064,
+    "graded_time": "05:39:35",
+    "unique_key": [
+      "Anorma Cook",
+      "06:09:27"
+    ],
+    "graded_place": 12,
+    "ag_place": 4
+  },
+  {
+    "bib": "629",
+    "name": "Pamela Williams",
+    "age_group": "F70-74",
+    "finish_time": "07:47:20",
+    "finish_time_seconds": 28040,
+    "gender_place": "66",
+    "graded_time_seconds": 20603.792,
+    "graded_time": "05:43:23",
+    "unique_key": [
+      "Pamela Williams",
+      "07:47:20"
+    ],
+    "graded_place": 13,
+    "ag_place": 1
+  },
+  {
+    "bib": "569",
+    "name": "Nami Kanai",
+    "age_group": "F55-59",
+    "finish_time": "06:34:20",
+    "finish_time_seconds": 23660,
+    "gender_place": "32",
+    "graded_time_seconds": 20693.036,
+    "graded_time": "05:44:53",
+    "unique_key": [
+      "Nami Kanai",
+      "06:34:20"
+    ],
+    "graded_place": 14,
+    "ag_place": 1
+  },
+  {
+    "bib": "148",
+    "name": "Josephine Tay",
+    "age_group": "F50-54",
+    "finish_time": "06:23:31",
+    "finish_time_seconds": 23011,
+    "gender_place": "23",
+    "graded_time_seconds": 20746.7176,
+    "graded_time": "05:45:46",
+    "unique_key": [
+      "Josephine Tay",
+      "06:23:31"
+    ],
+    "graded_place": 15,
+    "ag_place": 2
+  },
+  {
+    "bib": "330",
+    "name": "Margherita Mellone",
+    "age_group": "F35-39",
+    "finish_time": "05:59:20",
+    "finish_time_seconds": 21560,
+    "gender_place": "10",
+    "graded_time_seconds": 20822.648,
+    "graded_time": "05:47:02",
+    "unique_key": [
+      "Margherita Mellone",
+      "05:59:20"
+    ],
+    "graded_place": 16,
+    "ag_place": 2
+  },
+  {
+    "bib": "678",
+    "name": "Nur Syahariah Jusoh",
+    "age_group": "F45-49",
+    "finish_time": "06:20:01",
+    "finish_time_seconds": 22801,
+    "gender_place": "17",
+    "graded_time_seconds": 20958.6792,
+    "graded_time": "05:49:18",
+    "unique_key": [
+      "Nur Syahariah Jusoh",
+      "06:20:01"
+    ],
+    "graded_place": 17,
+    "ag_place": 5
+  },
+  {
+    "bib": "456",
+    "name": "Kaori Kato",
+    "age_group": "F45-49",
+    "finish_time": "06:23:21",
+    "finish_time_seconds": 23001,
+    "gender_place": "22",
+    "graded_time_seconds": 21142.5192,
+    "graded_time": "05:52:22",
+    "unique_key": [
+      "Kaori Kato",
+      "06:23:21"
+    ],
+    "graded_place": 18,
+    "ag_place": 6
+  },
+  {
+    "bib": "489",
+    "name": "Wing Lam Leung",
+    "age_group": "F45-49",
+    "finish_time": "06:27:30",
+    "finish_time_seconds": 23250,
+    "gender_place": "28",
+    "graded_time_seconds": 21371.4,
+    "graded_time": "05:56:11",
+    "unique_key": [
+      "Wing Lam Leung",
+      "06:27:30"
+    ],
+    "graded_place": 19,
+    "ag_place": 7
+  },
+  {
+    "bib": "488",
+    "name": "Miyoko Niikura",
+    "age_group": "F45-49",
+    "finish_time": "06:29:22",
+    "finish_time_seconds": 23362,
+    "gender_place": "29",
+    "graded_time_seconds": 21474.3504,
+    "graded_time": "05:57:54",
+    "unique_key": [
+      "Miyoko Niikura",
+      "06:29:22"
+    ],
+    "graded_place": 20,
+    "ag_place": 8
+  },
+  {
+    "bib": "113",
+    "name": "Miranda Gahrmann",
+    "age_group": "F40-44",
+    "finish_time": "06:21:19",
+    "finish_time_seconds": 22879,
+    "gender_place": "20",
+    "graded_time_seconds": 21565.7454,
+    "graded_time": "05:59:25",
+    "unique_key": [
+      "Miranda Gahrmann",
+      "06:21:19"
+    ],
+    "graded_place": 21,
+    "ag_place": 4
+  },
+  {
+    "bib": "660",
+    "name": "Nur Farihah Hassan",
+    "age_group": "F40-44",
+    "finish_time": "06:21:55",
+    "finish_time_seconds": 22915,
+    "gender_place": "21",
+    "graded_time_seconds": 21599.679,
+    "graded_time": "05:59:59",
+    "unique_key": [
+      "Nur Farihah Hassan",
+      "06:21:55"
+    ],
+    "graded_place": 22,
+    "ag_place": 5
+  },
+  {
+    "bib": "296",
+    "name": "Xuan He",
+    "age_group": "F35-39",
+    "finish_time": "06:14:06",
+    "finish_time_seconds": 22446,
+    "gender_place": "14",
+    "graded_time_seconds": 21678.3468,
+    "graded_time": "06:01:18",
+    "unique_key": [
+      "Xuan He",
+      "06:14:06"
+    ],
+    "graded_place": 23,
+    "ag_place": 3
+  },
+  {
+    "bib": "398",
+    "name": "Poi Hoon Tay",
+    "age_group": "F40-44",
+    "finish_time": "06:24:30",
+    "finish_time_seconds": 23070,
+    "gender_place": "24",
+    "graded_time_seconds": 21745.782,
+    "graded_time": "06:02:25",
+    "unique_key": [
+      "Poi Hoon Tay",
+      "06:24:30"
+    ],
+    "graded_place": 24,
+    "ag_place": 6
+  },
+  {
+    "bib": "309",
+    "name": "Silvia Silvia",
+    "age_group": "F35-39",
+    "finish_time": "06:15:45",
+    "finish_time_seconds": 22545,
+    "gender_place": "15",
+    "graded_time_seconds": 21773.961,
+    "graded_time": "06:02:53",
+    "unique_key": [
+      "Silvia Silvia",
+      "06:15:45"
+    ],
+    "graded_place": 25,
+    "ag_place": 4
+  },
+  {
+    "bib": "419",
+    "name": "Pantaree Chaicharoen",
+    "age_group": "F40-44",
+    "finish_time": "06:27:16",
+    "finish_time_seconds": 23236,
+    "gender_place": "27",
+    "graded_time_seconds": 21902.2536,
+    "graded_time": "06:05:02",
+    "unique_key": [
+      "Pantaree Chaicharoen",
+      "06:27:16"
+    ],
+    "graded_place": 26,
+    "ag_place": 7
+  },
+  {
+    "bib": "437",
+    "name": "Irina Dede",
+    "age_group": "F40-44",
+    "finish_time": "06:34:31",
+    "finish_time_seconds": 23671,
+    "gender_place": "33",
+    "graded_time_seconds": 22312.2846,
+    "graded_time": "06:11:52",
+    "unique_key": [
+      "Irina Dede",
+      "06:34:31"
+    ],
+    "graded_place": 27,
+    "ag_place": 8
+  },
+  {
+    "bib": "662",
+    "name": "Karen Yau",
+    "age_group": "F40-44",
+    "finish_time": "06:34:33",
+    "finish_time_seconds": 23673,
+    "gender_place": "34",
+    "graded_time_seconds": 22314.1698,
+    "graded_time": "06:11:54",
+    "unique_key": [
+      "Karen Yau",
+      "06:34:33"
+    ],
+    "graded_place": 28,
+    "ag_place": 9
+  },
+  {
+    "bib": "308",
+    "name": "Lynn Schmit",
+    "age_group": "F35-39",
+    "finish_time": "06:26:36",
+    "finish_time_seconds": 23196,
+    "gender_place": "25",
+    "graded_time_seconds": 22402.6968,
+    "graded_time": "06:13:22",
+    "unique_key": [
+      "Lynn Schmit",
+      "06:26:36"
+    ],
+    "graded_place": 29,
+    "ag_place": 5
+  },
+  {
+    "bib": "645",
+    "name": "Shu Hui Wong",
+    "age_group": "F30-34",
+    "finish_time": "06:20:10",
+    "finish_time_seconds": 22810,
+    "gender_place": "18",
+    "graded_time_seconds": 22417.668,
+    "graded_time": "06:13:37",
+    "unique_key": [
+      "Shu Hui Wong",
+      "06:20:10"
+    ],
+    "graded_place": 30,
+    "ag_place": 3
+  },
+  {
+    "bib": "527",
+    "name": "Waranya Wareesangad",
+    "age_group": "F50-54",
+    "finish_time": "06:59:20",
+    "finish_time_seconds": 25160,
+    "gender_place": "43",
+    "graded_time_seconds": 22684.255999999998,
+    "graded_time": "06:18:04",
+    "unique_key": [
+      "Waranya Wareesangad",
+      "06:59:20"
+    ],
+    "graded_place": 31,
+    "ag_place": 3
+  },
+  {
+    "bib": "190",
+    "name": "Lois Gaden",
+    "age_group": "F25-29",
+    "finish_time": "06:18:46",
+    "finish_time_seconds": 22726,
+    "gender_place": "16",
+    "graded_time_seconds": 22726.0,
+    "graded_time": "06:18:46",
+    "unique_key": [
+      "Lois Gaden",
+      "06:18:46"
+    ],
+    "graded_place": 32,
+    "ag_place": 2
+  },
+  {
+    "bib": "145",
+    "name": "Jatuporn Aimpun",
+    "age_group": "F45-49",
+    "finish_time": "06:53:02",
+    "finish_time_seconds": 24782,
+    "gender_place": "40",
+    "graded_time_seconds": 22779.614400000002,
+    "graded_time": "06:19:39",
+    "unique_key": [
+      "Jatuporn Aimpun",
+      "06:53:02"
+    ],
+    "graded_place": 33,
+    "ag_place": 9
+  },
+  {
+    "bib": "557",
+    "name": "Jintana Teapjanta",
+    "age_group": "F50-54",
+    "finish_time": "07:01:12",
+    "finish_time_seconds": 25272,
+    "gender_place": "44",
+    "graded_time_seconds": 22785.2352,
+    "graded_time": "06:19:45",
+    "unique_key": [
+      "Jintana Teapjanta",
+      "07:01:12"
+    ],
+    "graded_place": 34,
+    "ag_place": 4
+  },
+  {
+    "bib": "247",
+    "name": "Jacqueline Ng",
+    "age_group": "F30-34",
+    "finish_time": "06:26:53",
+    "finish_time_seconds": 23213,
+    "gender_place": "26",
+    "graded_time_seconds": 22813.7364,
+    "graded_time": "06:20:13",
+    "unique_key": [
+      "Jacqueline Ng",
+      "06:26:53"
+    ],
+    "graded_place": 35,
+    "ag_place": 4
+  },
+  {
+    "bib": "200",
+    "name": "Ekaterina Poliakova",
+    "age_group": "F25-29",
+    "finish_time": "06:20:30",
+    "finish_time_seconds": 22830,
+    "gender_place": "19",
+    "graded_time_seconds": 22830.0,
+    "graded_time": "06:20:30",
+    "unique_key": [
+      "Ekaterina Poliakova",
+      "06:20:30"
+    ],
+    "graded_place": 36,
+    "ag_place": 3
+  },
+  {
+    "bib": "269",
+    "name": "Sharon Leung",
+    "age_group": "F30-34",
+    "finish_time": "06:32:37",
+    "finish_time_seconds": 23557,
+    "gender_place": "30",
+    "graded_time_seconds": 23151.8196,
+    "graded_time": "06:25:51",
+    "unique_key": [
+      "Sharon Leung",
+      "06:32:37"
+    ],
+    "graded_place": 37,
+    "ag_place": 5
+  },
+  {
+    "bib": "268",
+    "name": "Amanda Zhou",
+    "age_group": "F30-34",
+    "finish_time": "06:35:35",
+    "finish_time_seconds": 23735,
+    "gender_place": "35",
+    "graded_time_seconds": 23326.758,
+    "graded_time": "06:28:46",
+    "unique_key": [
+      "Amanda Zhou",
+      "06:35:35"
+    ],
+    "graded_place": 38,
+    "ag_place": 6
+  },
+  {
+    "bib": "201",
+    "name": "Suhaila Muhamad",
+    "age_group": "F25-29",
+    "finish_time": "06:33:22",
+    "finish_time_seconds": 23602,
+    "gender_place": "31",
+    "graded_time_seconds": 23602.0,
+    "graded_time": "06:33:22",
+    "unique_key": [
+      "Suhaila Muhamad",
+      "06:33:22"
+    ],
+    "graded_place": 39,
+    "ag_place": 4
+  },
+  {
+    "bib": "356",
+    "name": "Saho Suzuki",
+    "age_group": "F40-44",
+    "finish_time": "06:57:21",
+    "finish_time_seconds": 25041,
+    "gender_place": "42",
+    "graded_time_seconds": 23603.6466,
+    "graded_time": "06:33:23",
+    "unique_key": [
+      "Saho Suzuki",
+      "06:57:21"
+    ],
+    "graded_place": 40,
+    "ag_place": 10
+  },
+  {
+    "bib": "511",
+    "name": "Joey Loe Yu Pheng",
+    "age_group": "F50-54",
+    "finish_time": "07:21:38",
+    "finish_time_seconds": 26498,
+    "gender_place": "50",
+    "graded_time_seconds": 23890.5968,
+    "graded_time": "06:38:10",
+    "unique_key": [
+      "Joey Loe Yu Pheng",
+      "07:21:38"
+    ],
+    "graded_place": 41,
+    "ag_place": 5
+  },
+  {
+    "bib": "311",
+    "name": "Michelle Fei Eng Liu",
+    "age_group": "F35-39",
+    "finish_time": "06:52:42",
+    "finish_time_seconds": 24762,
+    "gender_place": "39",
+    "graded_time_seconds": 23915.1396,
+    "graded_time": "06:38:35",
+    "unique_key": [
+      "Michelle Fei Eng Liu",
+      "06:52:42"
+    ],
+    "graded_place": 42,
+    "ag_place": 6
+  },
+  {
+    "bib": "486",
+    "name": "Yunita Dwiseptilia Rustiandini",
+    "age_group": "F45-49",
+    "finish_time": "07:13:46",
+    "finish_time_seconds": 26026,
+    "gender_place": "48",
+    "graded_time_seconds": 23923.0992,
+    "graded_time": "06:38:43",
+    "unique_key": [
+      "Yunita Dwiseptilia Rustiandini",
+      "07:13:46"
+    ],
+    "graded_place": 43,
+    "ag_place": 10
+  },
+  {
+    "bib": "329",
+    "name": "Kathy Chaoyan He",
+    "age_group": "F35-39",
+    "finish_time": "06:53:44",
+    "finish_time_seconds": 24824,
+    "gender_place": "41",
+    "graded_time_seconds": 23975.0192,
+    "graded_time": "06:39:35",
+    "unique_key": [
+      "Kathy Chaoyan He",
+      "06:53:44"
+    ],
+    "graded_place": 44,
+    "ag_place": 7
+  },
+  {
+    "bib": "202",
+    "name": "Astrid Forestier",
+    "age_group": "F25-29",
+    "finish_time": "06:40:09",
+    "finish_time_seconds": 24009,
+    "gender_place": "36",
+    "graded_time_seconds": 24009.0,
+    "graded_time": "06:40:09",
+    "unique_key": [
+      "Astrid Forestier",
+      "06:40:09"
+    ],
+    "graded_place": 45,
+    "ag_place": 5
+  },
+  {
+    "bib": "359",
+    "name": "Mariska Sugianto",
+    "age_group": "F40-44",
+    "finish_time": "07:04:43",
+    "finish_time_seconds": 25483,
+    "gender_place": "47",
+    "graded_time_seconds": 24020.2758,
+    "graded_time": "06:40:20",
+    "unique_key": [
+      "Mariska Sugianto",
+      "07:04:43"
+    ],
+    "graded_place": 46,
+    "ag_place": 11
+  },
+  {
+    "bib": "270",
+    "name": "Mahirah Ismail",
+    "age_group": "F30-34",
+    "finish_time": "06:48:52",
+    "finish_time_seconds": 24532,
+    "gender_place": "38",
+    "graded_time_seconds": 24110.0496,
+    "graded_time": "06:41:50",
+    "unique_key": [
+      "Mahirah Ismail",
+      "06:48:52"
+    ],
+    "graded_place": 47,
+    "ag_place": 7
+  },
+  {
+    "bib": "528",
+    "name": "Shona Rust",
+    "age_group": "F50-54",
+    "finish_time": "07:26:57",
+    "finish_time_seconds": 26817,
+    "gender_place": "52",
+    "graded_time_seconds": 24178.207199999997,
+    "graded_time": "06:42:58",
+    "unique_key": [
+      "Shona Rust",
+      "07:26:57"
+    ],
+    "graded_place": 48,
+    "ag_place": 6
+  },
+  {
+    "bib": "169",
+    "name": "Sirui Lai",
+    "age_group": "F25-29",
+    "finish_time": "06:46:56",
+    "finish_time_seconds": 24416,
+    "gender_place": "37",
+    "graded_time_seconds": 24416.0,
+    "graded_time": "06:46:56",
+    "unique_key": [
+      "Sirui Lai",
+      "06:46:56"
+    ],
+    "graded_place": 49,
+    "ag_place": 6
+  },
+  {
+    "bib": "512",
+    "name": "Chutinutcha Akkaramanoonpitak",
+    "age_group": "F50-54",
+    "finish_time": "07:34:03",
+    "finish_time_seconds": 27243,
+    "gender_place": "60",
+    "graded_time_seconds": 24562.2888,
+    "graded_time": "06:49:22",
+    "unique_key": [
+      "Chutinutcha Akkaramanoonpitak",
+      "07:34:03"
+    ],
+    "graded_place": 50,
+    "ag_place": 7
+  },
+  {
+    "bib": "590",
+    "name": "Andrea Chee",
+    "age_group": "F55-59",
+    "finish_time": "07:50:32",
+    "finish_time_seconds": 28232,
+    "gender_place": "69",
+    "graded_time_seconds": 24691.7072,
+    "graded_time": "06:51:31",
+    "unique_key": [
+      "Andrea Chee",
+      "07:50:32"
+    ],
+    "graded_place": 51,
+    "ag_place": 2
+  },
+  {
+    "bib": "514",
+    "name": "Naphannop Thanaworn",
+    "age_group": "F50-54",
+    "finish_time": "07:39:33",
+    "finish_time_seconds": 27573,
+    "gender_place": "62",
+    "graded_time_seconds": 24859.8168,
+    "graded_time": "06:54:19",
+    "unique_key": [
+      "Naphannop Thanaworn",
+      "07:39:33"
+    ],
+    "graded_place": 52,
+    "ag_place": 8
+  },
+  {
+    "bib": "496",
+    "name": "Nattira Kasemsuwan",
+    "age_group": "F45-49",
+    "finish_time": "07:31:28",
+    "finish_time_seconds": 27088,
+    "gender_place": "56",
+    "graded_time_seconds": 24899.2896,
+    "graded_time": "06:54:59",
+    "unique_key": [
+      "Nattira Kasemsuwan",
+      "07:31:28"
+    ],
+    "graded_place": 53,
+    "ag_place": 11
+  },
+  {
+    "bib": "267",
+    "name": "Martha Benita Tedjo",
+    "age_group": "F30-34",
+    "finish_time": "07:04:22",
+    "finish_time_seconds": 25462,
+    "gender_place": "46",
+    "graded_time_seconds": 25024.0536,
+    "graded_time": "06:57:04",
+    "unique_key": [
+      "Martha Benita Tedjo",
+      "07:04:22"
+    ],
+    "graded_place": 54,
+    "ag_place": 8
+  },
+  {
+    "bib": "358",
+    "name": "Yanna Hamid",
+    "age_group": "F40-44",
+    "finish_time": "07:22:32",
+    "finish_time_seconds": 26552,
+    "gender_place": "51",
+    "graded_time_seconds": 25027.9152,
+    "graded_time": "06:57:07",
+    "unique_key": [
+      "Yanna Hamid",
+      "07:22:32"
+    ],
+    "graded_place": 55,
+    "ag_place": 12
+  },
+  {
+    "bib": "161",
+    "name": "Nurin Farisa Radzy",
+    "age_group": "F18-24",
+    "finish_time": "07:04:20",
+    "finish_time_seconds": 25460,
+    "gender_place": "45",
+    "graded_time_seconds": 25258.865999999998,
+    "graded_time": "07:00:58",
+    "unique_key": [
+      "Nurin Farisa Radzy",
+      "07:04:20"
+    ],
+    "graded_place": 56,
+    "ag_place": 1
+  },
+  {
+    "bib": "457",
+    "name": "Rapiporn Suwan",
+    "age_group": "F45-49",
+    "finish_time": "07:39:27",
+    "finish_time_seconds": 27567,
+    "gender_place": "61",
+    "graded_time_seconds": 25339.5864,
+    "graded_time": "07:02:19",
+    "unique_key": [
+      "Rapiporn Suwan",
+      "07:39:27"
+    ],
+    "graded_place": 57,
+    "ag_place": 12
+  },
+  {
+    "bib": "378",
+    "name": "Karina Macalalad",
+    "age_group": "F40-44",
+    "finish_time": "07:31:38",
+    "finish_time_seconds": 27098,
+    "gender_place": "57",
+    "graded_time_seconds": 25542.5748,
+    "graded_time": "07:05:42",
+    "unique_key": [
+      "Karina Macalalad",
+      "07:31:38"
+    ],
+    "graded_place": 58,
+    "ag_place": 13
+  },
+  {
+    "bib": "252",
+    "name": "Sabiqah Rosli",
+    "age_group": "F30-34",
+    "finish_time": "07:13:58",
+    "finish_time_seconds": 26038,
+    "gender_place": "49",
+    "graded_time_seconds": 25590.1464,
+    "graded_time": "07:06:30",
+    "unique_key": [
+      "Sabiqah Rosli",
+      "07:13:58"
+    ],
+    "graded_place": 59,
+    "ag_place": 9
+  },
+  {
+    "bib": "438",
+    "name": "Elise Cheng",
+    "age_group": "F40-44",
+    "finish_time": "07:33:45",
+    "finish_time_seconds": 27225,
+    "gender_place": "59",
+    "graded_time_seconds": 25662.285,
+    "graded_time": "07:07:42",
+    "unique_key": [
+      "Elise Cheng",
+      "07:33:45"
+    ],
+    "graded_place": 60,
+    "ag_place": 14
+  },
+  {
+    "bib": "673",
+    "name": "Siti Hajar Abdul Razak",
+    "age_group": "F45-49",
+    "finish_time": "07:50:26",
+    "finish_time_seconds": 28226,
+    "gender_place": "68",
+    "graded_time_seconds": 25945.339200000002,
+    "graded_time": "07:12:25",
+    "unique_key": [
+      "Siti Hajar Abdul Razak",
+      "07:50:26"
+    ],
+    "graded_place": 61,
+    "ag_place": 13
+  },
+  {
+    "bib": "439",
+    "name": "Josephine Fung Chen Teo",
+    "age_group": "F40-44",
+    "finish_time": "07:42:15",
+    "finish_time_seconds": 27735,
+    "gender_place": "64",
+    "graded_time_seconds": 26143.011,
+    "graded_time": "07:15:43",
+    "unique_key": [
+      "Josephine Fung Chen Teo",
+      "07:42:15"
+    ],
+    "graded_place": 62,
+    "ag_place": 15
+  },
+  {
+    "bib": "681",
+    "name": "Rahayu Ahmad",
+    "age_group": "F45-49",
+    "finish_time": "07:54:04",
+    "finish_time_seconds": 28444,
+    "gender_place": "70",
+    "graded_time_seconds": 26145.7248,
+    "graded_time": "07:15:45",
+    "unique_key": [
+      "Rahayu Ahmad",
+      "07:54:04"
+    ],
+    "graded_place": 63,
+    "ag_place": 14
+  },
+  {
+    "bib": "349",
+    "name": "Marylou Rose Ang",
+    "age_group": "F35-39",
+    "finish_time": "07:32:19",
+    "finish_time_seconds": 27139,
+    "gender_place": "58",
+    "graded_time_seconds": 26210.8462,
+    "graded_time": "07:16:50",
+    "unique_key": [
+      "Marylou Rose Ang",
+      "07:32:19"
+    ],
+    "graded_place": 64,
+    "ag_place": 8
+  },
+  {
+    "bib": "245",
+    "name": "Alisa Lau",
+    "age_group": "F30-34",
+    "finish_time": "07:28:11",
+    "finish_time_seconds": 26891,
+    "gender_place": "53",
+    "graded_time_seconds": 26428.4748,
+    "graded_time": "07:20:28",
+    "unique_key": [
+      "Alisa Lau",
+      "07:28:11"
+    ],
+    "graded_place": 65,
+    "ag_place": 10
+  },
+  {
+    "bib": "397",
+    "name": "Sarahanis Ahmad",
+    "age_group": "F40-44",
+    "finish_time": "07:48:15",
+    "finish_time_seconds": 28095,
+    "gender_place": "67",
+    "graded_time_seconds": 26482.347,
+    "graded_time": "07:21:22",
+    "unique_key": [
+      "Sarahanis Ahmad",
+      "07:48:15"
+    ],
+    "graded_place": 66,
+    "ag_place": 16
+  },
+  {
+    "bib": "558",
+    "name": "May Ching Ng",
+    "age_group": "F50-54",
+    "finish_time": "08:10:44",
+    "finish_time_seconds": 29444,
+    "gender_place": "73",
+    "graded_time_seconds": 26546.7104,
+    "graded_time": "07:22:26",
+    "unique_key": [
+      "May Ching Ng",
+      "08:10:44"
+    ],
+    "graded_place": 67,
+    "ag_place": 9
+  },
+  {
+    "bib": "647",
+    "name": "Soraya Binti Abdul Malik",
+    "age_group": "F30-34",
+    "finish_time": "07:31:08",
+    "finish_time_seconds": 27068,
+    "gender_place": "54",
+    "graded_time_seconds": 26602.4304,
+    "graded_time": "07:23:22",
+    "unique_key": [
+      "Soraya Binti Abdul Malik",
+      "07:31:08"
+    ],
+    "graded_place": 68,
+    "ag_place": 11
+  },
+  {
+    "bib": "265",
+    "name": "Charmaine Xue Min Ho",
+    "age_group": "F30-34",
+    "finish_time": "07:31:10",
+    "finish_time_seconds": 27070,
+    "gender_place": "55",
+    "graded_time_seconds": 26604.396,
+    "graded_time": "07:23:24",
+    "unique_key": [
+      "Charmaine Xue Min Ho",
+      "07:31:10"
+    ],
+    "graded_place": 69,
+    "ag_place": 12
+  },
+  {
+    "bib": "674",
+    "name": "Megumi Hamasaki",
+    "age_group": "F45-49",
+    "finish_time": "08:08:43",
+    "finish_time_seconds": 29323,
+    "gender_place": "72",
+    "graded_time_seconds": 26953.7016,
+    "graded_time": "07:29:13",
+    "unique_key": [
+      "Megumi Hamasaki",
+      "08:08:43"
+    ],
+    "graded_place": 70,
+    "ag_place": 15
+  },
+  {
+    "bib": "230",
+    "name": "Megha Jose",
+    "age_group": "F30-34",
+    "finish_time": "07:41:47",
+    "finish_time_seconds": 27707,
+    "gender_place": "63",
+    "graded_time_seconds": 27230.4396,
+    "graded_time": "07:33:50",
+    "unique_key": [
+      "Megha Jose",
+      "07:41:47"
+    ],
+    "graded_place": 71,
+    "ag_place": 13
+  },
+  {
+    "bib": "189",
+    "name": "Hannah Abbott",
+    "age_group": "F25-29",
+    "finish_time": "07:44:16",
+    "finish_time_seconds": 27856,
+    "gender_place": "65",
+    "graded_time_seconds": 27856.0,
+    "graded_time": "07:44:16",
+    "unique_key": [
+      "Hannah Abbott",
+      "07:44:16"
+    ],
+    "graded_place": 72,
+    "ag_place": 7
+  },
+  {
+    "bib": "537",
+    "name": "Samantha Ho",
+    "age_group": "F50-54",
+    "finish_time": "08:36:03",
+    "finish_time_seconds": 30963,
+    "gender_place": "75",
+    "graded_time_seconds": 27916.2408,
+    "graded_time": "07:45:16",
+    "unique_key": [
+      "Samantha Ho",
+      "08:36:03"
+    ],
+    "graded_place": 73,
+    "ag_place": 10
+  },
+  {
+    "bib": "348",
+    "name": "Chian Ming Tan",
+    "age_group": "F35-39",
+    "finish_time": "08:02:42",
+    "finish_time_seconds": 28962,
+    "gender_place": "71",
+    "graded_time_seconds": 27971.4996,
+    "graded_time": "07:46:11",
+    "unique_key": [
+      "Chian Ming Tan",
+      "08:02:42"
+    ],
+    "graded_place": 74,
+    "ag_place": 9
+  },
+  {
+    "bib": "231",
+    "name": "Kamila Babel",
+    "age_group": "F30-34",
+    "finish_time": "08:26:18",
+    "finish_time_seconds": 30378,
+    "gender_place": "74",
+    "graded_time_seconds": 29855.4984,
+    "graded_time": "08:17:35",
+    "unique_key": [
+      "Kamila Babel",
+      "08:26:18"
+    ],
+    "graded_place": 75,
+    "ag_place": 14
+  }
+]
