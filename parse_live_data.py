@@ -83,7 +83,8 @@ RTRT_LIVE_PARAMS = {
 
 # Params for lightweight start count retrieval (limit result list size)
 RTRT_START_COUNT_PARAMS = RTRT_LIVE_PARAMS.copy()
-RTRT_START_COUNT_PARAMS['max'] = '50'
+# Use a larger page size to reduce number of requests when counting starters
+RTRT_START_COUNT_PARAMS['max'] = '200'
 
 def prepare_race_urls(race: dict) -> None:
     """Populate race['results_urls']['live'] men/women URLs and parallel start URLs.
@@ -116,19 +117,64 @@ def prepare_race_urls(race: dict) -> None:
         race['results_urls']['start'] = start_urls
 
 def fetch_start_count(api_url: str) -> int | None:
-    """Fetch cattotal (number of starters) for a single start split URL.
+    """Determine number of starters for a START split by paginating results.
 
-    Returns int count or None on error.
+    Do not trust info.cattotal; instead, page through the list using the
+    info.first/info.last window semantics:
+      - If (last - first + 1) == max, there may be more pages → request with
+        start = last + 1
+      - When (last - first + 1) < max, we've reached the final page and the
+        total count is equal to info.last
+
+    Returns int count (>= 0) or None on error.
     """
     try:
-        response = requests.post(api_url, data=RTRT_START_COUNT_PARAMS)
-        response.raise_for_status()
-        data = response.json()
-        info = data.get('info', {})
-        cattotal = info.get('cattotal')
-        if cattotal is None:
-            return None
-        return int(cattotal)
+        total_last = 0
+        next_start = None  # absolute index (1-based)
+        max_page = int(RTRT_START_COUNT_PARAMS.get('max', '50') or 50)
+        # Safety to avoid infinite loops in case of API anomalies
+        max_pages = 1000
+        pages = 0
+        while True:
+            params = RTRT_START_COUNT_PARAMS.copy()
+            if next_start is not None:
+                params['start'] = str(next_start)
+            response = requests.post(api_url, data=params)
+            response.raise_for_status()
+            data = response.json()
+            info = data.get('info', {}) if isinstance(data, dict) else {}
+            first = info.get('first')
+            last = info.get('last')
+            try:
+                first_i = int(first) if first is not None else None
+                last_i = int(last) if last is not None else None
+            except Exception:
+                first_i, last_i = None, None
+
+            if first_i is None or last_i is None:
+                # Fallback: estimate via list length if available
+                lst = data.get('list', []) if isinstance(data, dict) else []
+                if not isinstance(lst, list):
+                    return None
+                # If we don't have absolute indexing, accumulate lengths and
+                # try advancing by len(list)
+                total_last += len(lst)
+                if len(lst) < max_page:
+                    return total_last
+                next_start = (next_start or 1) + len(lst)
+            else:
+                total_last = max(total_last, last_i)
+                window = last_i - first_i + 1 if last_i >= first_i else 0
+                if window < max_page:
+                    # Final page reached
+                    return total_last
+                # More pages to fetch
+                next_start = last_i + 1
+
+            pages += 1
+            if pages >= max_pages:
+                # Give up to avoid runaway loops
+                return total_last if total_last > 0 else None
     except Exception:
         return None
 

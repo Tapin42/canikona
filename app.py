@@ -473,6 +473,20 @@ def compute_slot_summary(race, selected_gender=None):
 
         if policy == 'split-dynamic':
             dynamic = race.get('dynamic_slots')
+            # Minimal enhancement: if dynamic allocation not yet computed but
+            # we may be past the 1h stabilization window, attempt computation
+            # here so the slot summary can flip from Waiting to Ready even
+            # before any finishers are processed.
+            if not dynamic:
+                try:
+                    dynamic = parse_live_data.compute_dynamic_slots(race)
+                    if dynamic:
+                        current_app.logger.info("On-demand dynamic slot allocation computed for race %s", race.get('key') or race.get('name'))
+                    else:
+                        current_app.logger.debug("On-demand dynamic slot allocation not ready yet for race %s", race.get('key') or race.get('name'))
+                except Exception as e:
+                    current_app.logger.warning("On-demand dynamic slot allocation failed for race %s: %s", race.get('key') or race.get('name'), e)
+                    dynamic = None
             men_w = ag_count('men')
             women_w = ag_count('women')
             combined_total = 0
