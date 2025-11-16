@@ -2,10 +2,11 @@ import os
 import json
 import math
 import time
-from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app
+from flask import Flask, render_template, abort, jsonify, redirect, url_for, current_app, request
 from datetime import date, datetime, timedelta
 import parse_live_data
 import adjustments
+from slot_policy import resolve_slot_policy, policy_needs_gender
 
 app = Flask(__name__)
 app.config['CACHE_FRESHNESS_SECONDS'] = int(os.getenv('CACHE_FRESHNESS_SECONDS', '60'))
@@ -41,6 +42,18 @@ def to_url_friendly_name(race_name):
 def from_url_friendly_name(url_name):
     return url_name.replace('_', ' ')
 
+def choose_default_gender(race: dict) -> str:
+    """Choose a default gender when a policy requires it but one URL may be missing.
+
+    Prefers 'men' if available; falls back to 'women' if men's live URL is missing.
+    """
+    live = race.get('results_urls', {}).get('live', {}) or {}
+    if isinstance(live, dict) and live.get('men'):
+        return 'men'
+    if isinstance(live, dict) and live.get('women'):
+        return 'women'
+    return 'men'
+
 # Function to load and process all races at startup
 def load_and_process_races():
     global ALL_RACES_LAST_MODIFIED
@@ -62,21 +75,26 @@ def load_and_process_races():
     for race in races:
         # Add URL for race page using to_url_friendly_name
         race['url'] = f"/results/{to_url_friendly_name(race['name'])}/"
+        # Build live & start URLs (function lives in parse_live_data; already imported at top)
+        try:
+            parse_live_data.prepare_race_urls(race)
+        except Exception:
+            # Non-critical; continue loading other races
+            pass
 
-        if ('results_urls' in race and 'live' in race['results_urls'] and
-            isinstance(race['results_urls']['live'], dict) and 'key' in race):
-            live = race['results_urls']['live']
-            split = race['split'] if 'split' in race else 'FINISH'
+        # Hydrate persisted dynamic slot / started counts state if present
+        try:
+            parse_live_data.hydrate_race_dynamic(race)
+        except Exception:
+            # Safe to ignore; persistence is optional
+            pass
 
-            # Process men's URL
-            if 'men_cat' in live:
-                men_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/{split}"
-                live['men'] = men_url
-
-            # Process women's URL
-            if 'women_cat' in live:
-                women_url = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/{split}"
-                live['women'] = women_url
+        # Annotate slot policy for front-end convenience (already imported at top)
+        try:
+            race['slot_policy'] = resolve_slot_policy(race)
+        except Exception:
+            # Do not fail if policy cannot be resolved; front-end will fall back to distance
+            pass
 
     # Sort by earliestStartTime in descending order (once at startup)
     races.sort(key=lambda x: int(x.get('earliestStartTime', 0)), reverse=True)
@@ -300,26 +318,32 @@ def redirect_to_results(race_name):
     if earliest_start > 0:
         if now_ts < earliest_start:
             # Race hasn't started yet; default to Live
-            if race['distance'] == '140.6':
+            policy = resolve_slot_policy(race)
+            if policy_needs_gender(policy):
+                default_gender = choose_default_gender(race)
+                return redirect(url_for('display_results', race_name=race_name, data_source='live', gender=default_gender))
+            else:
                 return redirect(url_for('display_results', race_name=race_name, data_source='live'))
-            else:  # 70.3
-                return redirect(url_for('display_results', race_name=race_name, data_source='live', gender='men'))
         else:
             window_hours = 16 if race['distance'] == '140.6' else 8
             within_window = now_ts < (earliest_start + window_hours * 3600)
 
     # Decide data_source with new default rules
     if within_window:
-        if race['distance'] == '140.6':
+        policy = resolve_slot_policy(race)
+        if policy_needs_gender(policy):
+            default_gender = choose_default_gender(race)
+            return redirect(url_for('display_results', race_name=race_name, data_source='live', gender=default_gender))
+        else:
             return redirect(url_for('display_results', race_name=race_name, data_source='live'))
-        else:  # 70.3
-            return redirect(url_for('display_results', race_name=race_name, data_source='live', gender='men'))
 
     # Outside the window: prefer official if available, else live
-    if race['distance'] == '140.6':
+    policy = resolve_slot_policy(race)
+    if policy_needs_gender(policy):
+        default_gender = choose_default_gender(race)
+        return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live', gender=default_gender))
+    else:
         return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live'))
-    else:  # 70.3
-        return redirect(url_for('display_results', race_name=race_name, data_source='official_ag' if has_official_ag else 'live', gender='men'))
 
 @app.route('/results/<race_name>/<data_source>')
 @app.route('/results/<race_name>/<data_source>/<gender>')
@@ -341,6 +365,9 @@ def display_results(race_name, data_source, gender=None):
                 iframe_url = race['results_urls']['official_ag']
             coming_soon = iframe_url != ""
 
+    # Provide slot summary on official results pages as well
+    slot_summary = compute_slot_summary(race, gender) if race else None
+
     return render_template(
         'index.html',
         page_title='Long-Course Age Graded Results',
@@ -349,7 +376,8 @@ def display_results(race_name, data_source, gender=None):
         selected_source=data_source,
         selected_gender=gender,
         iframe_url=iframe_url,
-        coming_soon=coming_soon
+        coming_soon=coming_soon,
+        slot_summary=slot_summary
     )
 
 def get_race_status_message(race):
@@ -377,6 +405,134 @@ def get_race_status_message(race):
 
     return None, True
 
+def compute_slot_summary(race, selected_gender=None):
+    """Build a slot allocation summary for the UI.
+
+    Returns a dict with keys describing either combined or per-gender allocation.
+    For dynamic split races, includes a waiting flag until pool allocation is available.
+    """
+    def ag_count(g):
+        return len((race.get('age_group_categories') or {}).get(g, []))
+
+    policy = resolve_slot_policy(race)
+    summary = { 'policy': policy }
+
+    try:
+        if policy == 'combined-fixed':
+            total = int(race.get('slots', 0) or 0)
+            men_c = set((race.get('age_group_categories') or {}).get('men', []))
+            women_c = set((race.get('age_group_categories') or {}).get('women', []))
+            winners = len(men_c.union(women_c))
+            pool = max(0, total - winners)
+            incomplete = (winners == 0)
+            summary.update({
+                'mode': 'combined',
+                'total_slots': total,
+                'winner_slots': winners,
+                'pool_slots': pool,
+                'incomplete': incomplete
+            })
+            return summary
+
+        if policy == 'split-fixed':
+            slots_map = race.get('slots') or {}
+            men_total = int(slots_map.get('men', 0) or 0)
+            women_total = int(slots_map.get('women', 0) or 0)
+            men_w = ag_count('men')
+            women_w = ag_count('women')
+            men_pool = max(0, men_total - men_w)
+            women_pool = max(0, women_total - women_w)
+            incomplete = (men_w == 0 or women_w == 0)
+            summary.update({
+                'mode': 'split',
+                'per_gender': {
+                    'men': {
+                        'total_slots': men_total,
+                        'winner_slots': men_w,
+                        'pool_slots': men_pool
+                    },
+                    'women': {
+                        'total_slots': women_total,
+                        'winner_slots': women_w,
+                        'pool_slots': women_pool
+                    }
+                },
+                'combined': {
+                    'total_slots': men_total + women_total,
+                    'winner_slots': men_w + women_w,
+                    'pool_slots': men_pool + women_pool
+                },
+                'waiting': False,
+                'incomplete': incomplete
+            })
+            return summary
+
+        if policy == 'split-dynamic':
+            dynamic = race.get('dynamic_slots')
+            men_w = ag_count('men')
+            women_w = ag_count('women')
+            combined_total = 0
+            try:
+                combined_total = int(race.get('slots', 0) or 0)
+            except Exception:
+                combined_total = 0
+            incomplete = (men_w == 0 or women_w == 0)
+
+            if dynamic and isinstance(dynamic, dict) and 'men' in dynamic and 'women' in dynamic:
+                # Ready state with per-gender totals
+                summary.update({
+                    'mode': 'split',
+                    'per_gender': {
+                        'men': {
+                            'total_slots': int(dynamic['men'].get('total_slots', 0)),
+                            'winner_slots': int(dynamic['men'].get('winner_slots', 0)),
+                            'pool_slots': int(dynamic['men'].get('pool_slots', 0))
+                        },
+                        'women': {
+                            'total_slots': int(dynamic['women'].get('total_slots', 0)),
+                            'winner_slots': int(dynamic['women'].get('winner_slots', 0)),
+                            'pool_slots': int(dynamic['women'].get('pool_slots', 0))
+                        }
+                    },
+                    'combined': {
+                        'total_slots': combined_total,
+                        'winner_slots': men_w + women_w,
+                        'pool_slots': max(0, combined_total - (men_w + women_w))
+                    },
+                    'waiting': False,
+                    'incomplete': incomplete
+                })
+                return summary
+            else:
+                # Not ready yet: show combined totals and winners; leave pool per-gender pending
+                summary.update({
+                    'mode': 'split',
+                    'per_gender': {
+                        'men': {
+                            'total_slots': None,
+                            'winner_slots': men_w,
+                            'pool_slots': None
+                        },
+                        'women': {
+                            'total_slots': None,
+                            'winner_slots': women_w,
+                            'pool_slots': None
+                        }
+                    },
+                    'combined': {
+                        'total_slots': combined_total,
+                        'winner_slots': men_w + women_w,
+                        'pool_slots': max(0, combined_total - (men_w + women_w))
+                    },
+                    'waiting': True,
+                    'incomplete': incomplete
+                })
+                return summary
+    except Exception as e:
+        current_app.logger.debug(f"Slot summary build failed: {e}")
+
+    return { 'policy': policy, 'mode': 'unknown' }
+
 @app.route('/live_results/<race_name>')
 @app.route('/live_results/<race_name>/<gender>')
 def live_results_table(race_name, gender=None):
@@ -384,17 +540,17 @@ def live_results_table(race_name, gender=None):
     if not race:
         return jsonify({"error": "Race not found"}), 404
 
-    # Determine gender and adjustments
-    if race['distance'] == '70.3':
+    # Determine gender and adjustments based on slot policy
+    policy = resolve_slot_policy(race)
+    if policy_needs_gender(policy):
         if not gender:
-            gender = 'men'  # Default to men if not provided
+            gender = choose_default_gender(race)
         if gender not in race['results_urls']['live']:
             return jsonify({"error": f"Live results for {race['distance']} {gender} not supported"}), 404
-    elif race['distance'] == '140.6':
-        if 'men' not in race['results_urls']['live'] or 'women' not in race['results_urls']['live']:
-            return jsonify({"error": "Live results URLs for both men and women must be provided for 140.6 races"}), 404
     else:
-        return jsonify({"error": f"Invalid race distance: {race['distance']}"}), 400
+        # Combined view: require both URLs to merge
+        if 'men' not in race['results_urls']['live'] or 'women' not in race['results_urls']['live']:
+            return jsonify({"error": "Live results URLs for both men and women must be provided for combined view"}), 404
 
     # Select adjustments factors based on manifest and per-race lock
     try:
@@ -405,10 +561,13 @@ def live_results_table(race_name, gender=None):
         current_app.logger.error(f"Failed to resolve adjustments for race {race.get('key')}: {e}")
         return jsonify({"error": "Unable to load adjustments for this race"}), 500
 
+    # Build slot summary for UI
+    slot_summary = compute_slot_summary(race, gender)
+
     # Check if we should fetch results based on race timing
     message, should_fetch_results = get_race_status_message(race)
     if not should_fetch_results:
-        return render_template('live_results.html', results=[], error=message)
+        return render_template('live_results.html', results=[], error=message, slot_summary=slot_summary)
 
     # Use caching-aware retrieval to reduce load on RTRT servers
     processed_data = parse_live_data.get_processed_results_cached(race, gender, ag_adjustments)
@@ -424,60 +583,32 @@ def live_results_table(race_name, gender=None):
         else:
             return render_template('live_results.html', results=[], error=processed_data["error"])
 
-    # Compute and annotate automatic slot allocation highlights (no rolldown assumption)
-    def annotate_slot_allocation(results_list, race_obj, selected_gender):
-        try:
-            # Determine total slots for this context
-            total_slots = 0
-            if race_obj.get('distance') == '70.3':
-                # Slots are gendered for 70.3
-                slots_info = race_obj.get('slots', {})
-                if isinstance(slots_info, dict) and selected_gender in slots_info:
-                    total_slots = int(slots_info.get(selected_gender, 0))
-            elif race_obj.get('distance') == '140.6':
-                # Single pool of slots across all age groups and genders
-                try:
-                    total_slots = int(race_obj.get('slots', 0))
-                except (TypeError, ValueError):
-                    total_slots = 0
+    # Annotate slot allocation including dynamic logic
+    try:
+        processed_data = parse_live_data.annotate_slot_allocation(processed_data, race, gender)
+    except Exception as e:
+        current_app.logger.warning(f"Slot allocation annotation failed: {e}")
 
-            # Initialize flags
-            for a in results_list:
-                a['ag_winner'] = False
-                a['pool_qualifier'] = False
+    return render_template('live_results.html', results=processed_data, slot_summary=slot_summary)
 
-            if total_slots <= 0 or not results_list:
-                return results_list
+@app.route('/fragment/slot_summary/<race_name>')
+def fragment_slot_summary(race_name):
+    """Return the rendered slot summary partial for a given race (and optional gender).
 
-            # Identify age group winners (AG place == 1)
-            winners_by_ag = set()
-            for a in results_list:
-                if a.get('ag_place') == 1:
-                    a['ag_winner'] = True
-                    winners_by_ag.add(a.get('age_group'))
+    Usage: /fragment/slot_summary/<race_name>?gender=men|women
+    """
+    race = get_race_by_name(race_name)
+    if not race:
+        abort(404)
 
-            # Remaining slots after giving one to each AG winner
-            remaining = max(0, total_slots - len(winners_by_ag))
+    gender = request.args.get('gender') or None
+    try:
+        slot_summary = compute_slot_summary(race, gender)
+    except Exception:
+        slot_summary = None
 
-            if remaining == 0:
-                return results_list
-
-            # Allocate remaining slots from top of graded list excluding AG winners
-            for a in results_list:
-                if remaining <= 0:
-                    break
-                if not a.get('ag_winner'):
-                    a['pool_qualifier'] = True
-                    remaining -= 1
-
-            return results_list
-        except Exception as e:
-            current_app.logger.warning(f"Error annotating slot allocation: {e}")
-            return results_list
-
-    processed_data = annotate_slot_allocation(processed_data, race, gender)
-
-    return render_template('live_results.html', results=processed_data)
+    # Return only the partial HTML (no layout)
+    return render_template('partials/slot_summary.html', slot_summary=slot_summary)
 
 @app.route('/reset')
 def reset():

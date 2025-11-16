@@ -60,7 +60,11 @@ def get_cache_file_path(race: dict, stage: str, gender: str | None = None) -> st
     # Prefer key-based filenames; fallback to sanitized name
     key = race.get('key') or race.get('name', 'unknown').replace(' ', '_').upper()
     dirpath = get_cache_dir(distance, stage, gender)
-    return os.path.join(dirpath, f"{key}.json")
+    filename = key
+    # For 140.6 races that are processed per-gender, include gender suffix to avoid collisions
+    if distance == '140.6' and gender in ('men', 'women'):
+        filename = f"{key}_{gender.upper()}"
+    return os.path.join(dirpath, f"{filename}.json")
 
 
 def read_json_if_exists(path: str):
@@ -87,6 +91,24 @@ def write_json(path: str, data):
         _debug(f"Cache write OK: {path}")
     except Exception as e:
         _warning(f"Failed to write cache file {path}: {e}")
+
+def write_json_atomic(path: str, data):
+    """Atomically write JSON by writing to temp file then renaming.
+
+    Ensures readers never see partial JSON content. Falls back to non-atomic
+    write_json if any issue arises.
+    """
+    try:
+        ensure_dir(os.path.dirname(path))
+        tmp_path = f"{path}.tmp"
+        with open(tmp_path, 'w', encoding='utf-8') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2)
+            f.write("\n")
+        os.replace(tmp_path, path)  # atomic on POSIX
+        _debug(f"Atomic cache write OK: {path}")
+    except Exception as e:
+        _warning(f"Atomic write failed for {path}: {e}. Falling back to normal write.")
+        write_json(path, data)
 
 
 def is_fresh(path: str, freshness_seconds: int) -> bool:

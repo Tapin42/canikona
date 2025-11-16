@@ -6,6 +6,67 @@ import math
 from flask import current_app
 import cache_utils as cache
 
+# ---------------------------------------------------------------------------
+# Dynamic slot persistence cache
+# ---------------------------------------------------------------------------
+# We persist computed dynamic slot allocations and started_counts so they
+# survive app restarts. Layout stored under data/dynamic_slots.json:
+# {
+#   "RACEKEY": {
+#       "dynamic_slots": { ... },
+#       "started_counts": { ... }
+#   },
+#   ...
+# }
+
+DYNAMIC_CACHE_PATH = cache.full_path('data', 'dynamic_slots.json')
+_dynamic_cache_data = None  # lazy-loaded dict
+
+def _load_dynamic_cache():
+    global _dynamic_cache_data
+    if _dynamic_cache_data is not None:
+        return _dynamic_cache_data
+    data = cache.read_json_if_exists(DYNAMIC_CACHE_PATH)
+    if not isinstance(data, dict):
+        data = {}
+    _dynamic_cache_data = data
+    return _dynamic_cache_data
+
+def _save_dynamic_cache():
+    if _dynamic_cache_data is None:
+        return
+    cache.write_json_atomic(DYNAMIC_CACHE_PATH, _dynamic_cache_data)
+
+def persist_dynamic_state(race: dict):
+    """Persist current dynamic slot and started_counts state for a race."""
+    data = _load_dynamic_cache()
+    key = race.get('key') or race.get('name', '').replace(' ', '_').upper()
+    if not key:
+        return
+    entry = {}
+    if 'dynamic_slots' in race:
+        entry['dynamic_slots'] = race['dynamic_slots']
+    if 'started_counts' in race:
+        entry['started_counts'] = race['started_counts']
+    if entry:
+        data[key] = entry
+        _save_dynamic_cache()
+
+def hydrate_race_dynamic(race: dict):
+    """Inject persisted dynamic data into race object if available.
+
+    Intended for use during app startup after races.json load.
+    """
+    data = _load_dynamic_cache()
+    key = race.get('key') or race.get('name', '').replace(' ', '_').upper()
+    saved = data.get(key)
+    if not saved:
+        return
+    if 'started_counts' in saved and 'started_counts' not in race:
+        race['started_counts'] = saved['started_counts']
+    if 'dynamic_slots' in saved and 'dynamic_slots' not in race:
+        race['dynamic_slots'] = saved['dynamic_slots']
+
 # The common parameters for the RTRT.me live API
 RTRT_LIVE_PARAMS = {
     "timesort": "1",
@@ -19,6 +80,214 @@ RTRT_LIVE_PARAMS = {
     "units": "standard",
     "source": "webtracker"
 }
+
+# Params for lightweight start count retrieval (limit result list size)
+RTRT_START_COUNT_PARAMS = RTRT_LIVE_PARAMS.copy()
+RTRT_START_COUNT_PARAMS['max'] = '50'
+
+def prepare_race_urls(race: dict) -> None:
+    """Populate race['results_urls']['live'] men/women URLs and parallel start URLs.
+
+    Finish split: race['split'] if present else 'FINISH'
+    Start split: race['start_split'] if present else 'START'
+    Safe no-op if data incomplete.
+    """
+    if 'results_urls' not in race or 'live' not in race['results_urls']:
+        return
+    if not isinstance(race['results_urls']['live'], dict):
+        return
+    if 'key' not in race:
+        return
+    live = race['results_urls']['live']
+    finish_split = race.get('split') or 'FINISH'
+    start_split = race.get('start_split') or 'START'
+    # Build live finish URLs
+    if 'men_cat' in live:
+        live['men'] = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/{finish_split}"
+    if 'women_cat' in live:
+        live['women'] = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/{finish_split}"
+    # Build start URLs in parallel dict
+    start_urls = {}
+    if 'men_cat' in live:
+        start_urls['men'] = f"https://api.rtrt.me/events/{race['key']}/categories/{live['men_cat']}/splits/{start_split}"
+    if 'women_cat' in live:
+        start_urls['women'] = f"https://api.rtrt.me/events/{race['key']}/categories/{live['women_cat']}/splits/{start_split}"
+    if start_urls:
+        race['results_urls']['start'] = start_urls
+
+def fetch_start_count(api_url: str) -> int | None:
+    """Fetch cattotal (number of starters) for a single start split URL.
+
+    Returns int count or None on error.
+    """
+    try:
+        response = requests.post(api_url, data=RTRT_START_COUNT_PARAMS)
+        response.raise_for_status()
+        data = response.json()
+        info = data.get('info', {})
+        cattotal = info.get('cattotal')
+        if cattotal is None:
+            return None
+        return int(cattotal)
+    except Exception:
+        return None
+
+def get_started_counts(race: dict) -> dict | None:
+    """Retrieve or compute started counts per gender.
+
+    Stores results in race['started_counts'] with structure:
+    { men: int, women: int, computed_at: epoch_ts }
+
+    After one hour past earliestStartTime, counts are assumed final and cached.
+    """
+    earliest_start = int(race.get('earliestStartTime', 0) or 0)
+    if earliest_start <= 0:
+        return None
+    now_ts = int(datetime.now().timestamp())
+    counts_existing = race.get('started_counts')
+    # If already computed and race is past locking window (1h), reuse
+    if counts_existing and now_ts >= earliest_start + 3600:
+        return counts_existing
+    start_urls = race.get('results_urls', {}).get('start', {})
+    if not start_urls:
+        return None
+    men_url = start_urls.get('men')
+    women_url = start_urls.get('women')
+    men_count = fetch_start_count(men_url) if men_url else None
+    women_count = fetch_start_count(women_url) if women_url else None
+    # Require both counts for usefulness
+    if men_count is None or women_count is None:
+        return None
+    counts = {
+        'men': men_count,
+        'women': women_count,
+        'computed_at': now_ts
+    }
+    race['started_counts'] = counts
+    # Persist counts early (will be updated again when dynamic slots computed)
+    persist_dynamic_state(race)
+    return counts
+
+def compute_dynamic_slots(race: dict) -> dict | None:
+    """Compute dynamic slot allocation for split-dynamic policy.
+
+    Returns structure:
+    {
+      men: { winner_slots: int, pool_slots: int, total_slots: int },
+      women: { winner_slots: int, pool_slots: int, total_slots: int },
+      computed_at: epoch_ts
+    }
+    or None if prerequisites missing.
+    """
+    from slot_policy import resolve_slot_policy
+    policy = resolve_slot_policy(race)
+    if policy != 'split-dynamic':
+        return None
+    earliest_start = int(race.get('earliestStartTime', 0) or 0)
+    now_ts = int(datetime.now().timestamp())
+    if earliest_start <= 0 or now_ts < earliest_start + 3600:
+        # Wait until one hour after start for stable counts
+        return None
+    # Total race slots must be provided (combined integer)
+    try:
+        total_slots = int(race.get('slots', 0))
+    except Exception:
+        total_slots = 0
+    if total_slots <= 0:
+        return None
+    ag_lists = race.get('age_group_categories') or {}
+    men_winner_slots = len(ag_lists.get('men', []))
+    women_winner_slots = len(ag_lists.get('women', []))
+    if men_winner_slots == 0 and women_winner_slots == 0:
+        return None
+    counts = get_started_counts(race)
+    if not counts:
+        return None
+    men_started = counts.get('men', 0)
+    women_started = counts.get('women', 0)
+    total_started = men_started + women_started
+    if total_started <= 0:
+        return None
+    auto_slots_total = men_winner_slots + women_winner_slots
+    performance_pool = total_slots - auto_slots_total
+    if performance_pool < 0:
+        performance_pool = 0
+    men_ratio = men_started / total_started
+    women_ratio = women_started / total_started
+    # Initial rounding
+    men_pool = round(performance_pool * men_ratio)
+    women_pool = performance_pool - men_pool  # ensure sum matches
+    result = {
+        'men': {
+            'winner_slots': men_winner_slots,
+            'pool_slots': men_pool,
+            'total_slots': men_winner_slots + men_pool
+        },
+        'women': {
+            'winner_slots': women_winner_slots,
+            'pool_slots': women_pool,
+            'total_slots': women_winner_slots + women_pool
+        },
+        'computed_at': now_ts
+    }
+    race['dynamic_slots'] = result
+    persist_dynamic_state(race)
+    return result
+
+def annotate_slot_allocation(results_list, race_obj, selected_gender):
+    """Annotate result entries with slot allocation flags (ag_winner, pool_qualifier).
+
+    Supports fixed policies and dynamic split allocation.
+    """
+    from slot_policy import resolve_slot_policy
+    from slot_policy import policy_needs_gender
+    policy_local = resolve_slot_policy(race_obj)
+
+    # Determine total slots for this context
+    total_slots = 0
+    if policy_local == 'split-fixed':
+        slots_info = race_obj.get('slots', {})
+        if isinstance(slots_info, dict) and selected_gender in slots_info:
+            total_slots = int(slots_info.get(selected_gender, 0))
+    elif policy_local == 'combined-fixed':
+        try:
+            total_slots = int(race_obj.get('slots', 0))
+        except (TypeError, ValueError):
+            total_slots = 0
+    elif policy_local == 'split-dynamic':
+        dynamic = race_obj.get('dynamic_slots') or compute_dynamic_slots(race_obj)
+        if dynamic and selected_gender in dynamic:
+            total_slots = int(dynamic[selected_gender]['total_slots'])
+        else:
+            # If dynamic not ready yet, skip annotation
+            return results_list
+
+    # Initialize flags
+    for a in results_list:
+        a['ag_winner'] = False
+        a['pool_qualifier'] = False
+
+    if total_slots <= 0 or not results_list:
+        return results_list
+
+    # Identify age group winners (AG place == 1)
+    winners_by_ag = set()
+    for a in results_list:
+        if a.get('ag_place') == 1:
+            a['ag_winner'] = True
+            winners_by_ag.add(a.get('age_group'))
+
+    remaining = max(0, total_slots - len(winners_by_ag))
+    if remaining == 0:
+        return results_list
+
+    for a in results_list:
+        if remaining <= 0:
+            break
+        if not a.get('ag_winner'):
+            a['pool_qualifier'] = True
+            remaining -= 1
+    return results_list
 
 def time_to_seconds(time_str):
     """
@@ -148,37 +417,42 @@ def process_live_results(raw_data_list, ag_adjustments):
 
     return processed_data
 
+from slot_policy import resolve_slot_policy, policy_needs_gender
+
+
 def get_processed_results(race, gender, ag_adjustments):
     """
     Unified function to fetch and process results based on race distance and gender.
     """
     all_data_list = []
-    if race['distance'] == '70.3':
+    policy = resolve_slot_policy(race)
+    distance = race.get('distance')
+
+    if policy_needs_gender(policy):
+        # Expect a gender-specific URL
+        if not gender:
+            gender = 'men'
         api_url = race['results_urls']['live'].get(gender)
         raw_data = fetch_live_results(api_url)
         if "error" in raw_data:
             return raw_data
         all_data_list.extend(raw_data.get("list", []))
-
-    elif race['distance'] == '140.6':
+    else:
+        # Combined pool: merge men and women
+        if distance not in ('70.3', '140.6'):
+            return {"error": f"Invalid race distance: {distance}"}
         men_url = race['results_urls']['live'].get('men')
         women_url = race['results_urls']['live'].get('women')
-
         men_data = fetch_live_results(men_url)
         women_data = fetch_live_results(women_url)
-
         if "error" in men_data and "error" in women_data:
             return men_data
         elif "error" in men_data:
             current_app.logger.warning(f"Error fetching men's live results from {men_url}: {men_data['error']}")
         elif "error" in women_data:
             current_app.logger.warning(f"Error fetching women's live results from {women_url}: {women_data['error']}")
-
         all_data_list.extend(men_data.get("list", []))
         all_data_list.extend(women_data.get("list", []))
-
-    else:
-        return {"error": f"Invalid race distance: {race['distance']}"}
 
     if not all_data_list:
         return {"error": "No live data found for the selected race."}
@@ -201,9 +475,10 @@ def get_processed_results_cached(race, gender, ag_adjustments):
     freshness = int(current_app.config.get('CACHE_FRESHNESS_SECONDS', 60))
 
     distance = race.get('distance')
-    # Normalize gender for 70.3; ignored for 140.6
+    policy = resolve_slot_policy(race)
+    # Normalize gender for split policies; ignored for combined-fixed
     effective_gender = None
-    if distance == '70.3':
+    if policy_needs_gender(policy):
         effective_gender = gender or 'men'
 
     # Determine cache paths

@@ -206,104 +206,144 @@ def choose_course_for_distance(conf_data: dict, race_distance: str) -> str | Non
     return candidates[0].get("course") if candidates else None
 
 def get_race_conf_data(race_id, race_distance):
-    """Retrieve configuration data (categories, points, and official AG URLs) for a race from the /conf endpoint."""
+    """Retrieve configuration data (categories, points, start/finish splits, and official AG URLs) for a race.
+
+    Extended fields:
+      start_split: optional custom start split name (if not canonical 'START')
+      age_group_categories: full lists of AG category identifiers per gender (for dynamic slot allocation)
+    """
     conf_url = CONF_URL.format(race_id)
     try:
         response = requests.get(conf_url, params=CONF_PARAMS)
         response.raise_for_status()
         conf_data = response.json()
 
-        # Determine target course for this race distance
         target_course = choose_course_for_distance(conf_data, race_distance)
 
-        # Extract categories from the conf data (filter to correct course if available)
-        categories = conf_data.get('conf', {}).get('categories', [])
+        all_categories = conf_data.get('conf', {}).get('categories', [])
+        categories = list(all_categories)
         if target_course:
             categories = [c for c in categories if c.get('course') == target_course]
-        # Extract event date from conf
+
         conf_date = conf_data.get('conf', {}).get('date')
-        # Extract earliest start time from conf (epoch seconds)
         conf_earliest_start = conf_data.get('conf', {}).get('earliestStartTime')
-        # Normalize earliest start time to string if present
         if conf_earliest_start is not None:
             try:
                 conf_earliest_start = str(int(conf_earliest_start))
             except Exception:
-                # If it's not coercible to int, treat as absent
                 conf_earliest_start = None
 
-        # Find the relevant category names - check for duplicates
         men_cats = []
         women_cats = []
-
+        men_age_groups = []
+        women_age_groups = []
         for category in categories:
-            title = category.get('title', '')
-            subtitle = category.get('subtitle', '')
-            # Look for Age Group categories with either "Overall" subtitle or empty subtitle
-            if "Age Group Men" in title and (subtitle == "Overall" or subtitle == ""):
-                men_cats.append(category['name'])
-            elif "Age Group Women" in title and (subtitle == "Overall" or subtitle == ""):
-                women_cats.append(category['name'])
+            title_raw = (category.get('title') or '')
+            subtitle_raw = (category.get('subtitle') or '')
+            name_val = category.get('name') or ''
+            # Normalize title for resilient detection (handle hyphens and case)
+            title_norm = title_raw.replace('–', '-').replace('\u2013', '-').lower()
+            title_norm = ' '.join(title_norm.replace('-', ' ').split())
+            subtitle_norm = (subtitle_raw or '').strip()
+            subtitle_norm_lc = subtitle_norm.lower()
 
-        # Check for multiple age group categories
+            # Prefer robust name-based detection for top-level overall categories
+            name_lc = name_val.lower()
+            if name_lc.startswith('top-age-group-men') and name_val.endswith(':_ALL'):
+                men_cats.append(name_val)
+            elif name_lc.startswith('top-age-group-women') and name_val.endswith(':_ALL'):
+                women_cats.append(name_val)
+
+            # Collect AG lists per gender using resilient title/subtitle checks
+            if ('age group' in title_norm and 'men' in title_norm and subtitle_norm.upper().startswith('M')):
+                men_age_groups.append(name_val)
+            if ('age group' in title_norm and 'women' in title_norm and subtitle_norm.upper().startswith('F')):
+                women_age_groups.append(name_val)
+
+        # Fallback: if no men/women overall found via name, try title/subtitle heuristic
+        if not men_cats or not women_cats:
+            for category in categories:
+                title_raw = (category.get('title') or '')
+                subtitle_raw = (category.get('subtitle') or '')
+                name_val = category.get('name') or ''
+                title_norm = title_raw.replace('–', '-').replace('\u2013', '-').lower()
+                title_norm = ' '.join(title_norm.replace('-', ' ').split())
+                subtitle_norm = (subtitle_raw or '').strip()
+                subtitle_norm_lc = subtitle_norm.lower()
+                is_overall = (subtitle_norm_lc == 'overall' or subtitle_norm == '' or 'overall' in subtitle_norm_lc)
+                if not men_cats and ('age group' in title_norm and 'men' in title_norm) and is_overall:
+                    men_cats.append(name_val)
+                if not women_cats and ('age group' in title_norm and 'women' in title_norm) and is_overall:
+                    women_cats.append(name_val)
+
+        # Last resort: if still missing a gender after course filtering, search across all categories
+        if not men_cats:
+            alt_men = []
+            for c in all_categories:
+                name_val = c.get('name') or ''
+                if (name_val.lower().startswith('top-age-group-men') and name_val.endswith(':_ALL')):
+                    alt_men.append(name_val)
+            if len(alt_men) == 1:
+                men_cats = alt_men
+        if not women_cats:
+            alt_women = []
+            for c in all_categories:
+                name_val = c.get('name') or ''
+                if (name_val.lower().startswith('top-age-group-women') and name_val.endswith(':_ALL')):
+                    alt_women.append(name_val)
+            if len(alt_women) == 1:
+                women_cats = alt_women
+
         if len(men_cats) > 1 or len(women_cats) > 1:
             return {
                 "error": "multiple_categories",
                 "categories": {"men_cat": "", "women_cat": ""},
                 "split": None,
+                "start_split": None,
                 "official_ag": ""
             }
 
-        # Get single category names if found
         live_men_cat = men_cats[0] if men_cats else ""
         live_women_cat = women_cats[0] if women_cats else ""
 
-        # Extract finish points from the vconf.pointorder data, filtered by course - check for duplicates
+        if not live_men_cat:
+            print("  WARNING: /conf did not include a Top Age Group Overall category for MEN (setting men_cat to empty)")
+        if not live_women_cat:
+            print("  WARNING: /conf did not include a Top Age Group Overall category for WOMEN (setting women_cat to empty)")
+
         point_order = conf_data.get('vconf', {}).get('pointorder', [])
         if target_course:
             point_order = [p for p in point_order if p.get('course') == target_course]
-        finish_points = []
-
-        for point in point_order:
-            if point.get('isFinish') == '1':
-                finish_points.append(point.get('name'))
-
-        # Check for multiple finish points
+        finish_points = [p.get('name') for p in point_order if p.get('isFinish') == '1']
+        start_points = [p.get('name') for p in point_order if p.get('isStart') == '1']
         if len(finish_points) > 1:
             return {
                 "error": "multiple_splits",
                 "categories": {"men_cat": "", "women_cat": ""},
                 "split": None,
+                "start_split": None,
                 "official_ag": ""
             }
+        split_name = finish_points[0] if finish_points and finish_points[0] != 'FINISH' else None
+        start_split_name = start_points[0] if len(start_points) == 1 and start_points[0] != 'START' else None
 
-        # Only return split if it's not 'FINISH'
-        split_name = None
-        if finish_points and finish_points[0] != 'FINISH':
-            split_name = finish_points[0]
-
-        # Extract official AG URLs
         official_ag_urls = extract_official_ag_urls(conf_data, race_distance)
-
         return {
-            "categories": {
-                "men_cat": live_men_cat,
-                "women_cat": live_women_cat
-            },
+            "categories": {"men_cat": live_men_cat, "women_cat": live_women_cat},
             "split": split_name,
+            "start_split": start_split_name,
             "official_ag": official_ag_urls,
             "conf_date": conf_date,
-            "earliestStartTime": conf_earliest_start
+            "earliestStartTime": conf_earliest_start,
+            "age_group_categories": {"men": men_age_groups, "women": women_age_groups}
         }
     except Exception as e:
         print(f"Error retrieving conf data for {race_id}: {str(e)}")
         return {
             "error": "api_error",
-            "categories": {
-                "men_cat": "",
-                "women_cat": ""
-            },
+            "categories": {"men_cat": "", "women_cat": ""},
             "split": None,
+            "start_split": None,
             "official_ag": "",
             "conf_date": None,
             "earliestStartTime": None
@@ -374,6 +414,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Pull race details and update races.json from RTRT /conf")
     parser.add_argument("--dry-run", action="store_true", help="Do not write any changes or create backups")
     parser.add_argument("--race", dest="race_key", help="Race key to update only that race")
+    parser.add_argument("--all", dest="all_races", action="store_true", help="Process all races in races.json (ignores date range)")
     parser.add_argument("--from", dest="from_date", metavar="YYYY-MM-DD|yesterday", default=None,
                         help="Start date for selecting races (default: yesterday)")
     parser.add_argument("--to", dest="to_date", metavar="YYYY-MM-DD", default=None,
@@ -513,25 +554,40 @@ def main():
         print(f"Found {len(upcoming_races)} race(s) by key:")
         print(f"  - {selected.get('name')} ({selected.get('date')})")
     else:
-        try:
-            start_date, end_date = compute_date_range(args.from_date, args.to_date)
-        except ValueError as e:
-            print(f"Error: {e}")
-            sys.exit(2)
+        if args.all_races:
+            # Process every race in races.json, optionally filtered by distance
+            upcoming_races = list(races_data)
+            # Apply optional distance filter
+            if distance_filter is not None:
+                upcoming_races = [r for r in upcoming_races if r.get('distance') == distance_filter]
 
-        upcoming_races = get_races_in_date_range(races_data, start_date, end_date)
+            if not upcoming_races:
+                print("No races found in races.json with the specified filters.")
+                return
 
-        # Apply optional distance filter
-        if distance_filter is not None:
-            upcoming_races = [r for r in upcoming_races if r.get('distance') == distance_filter]
+            print(f"Processing ALL races in races.json ({len(upcoming_races)} found){' with distance ' + distance_filter if distance_filter else ''}:")
+            for race in upcoming_races:
+                print(f"  - {race.get('name')} ({race.get('date')})")
+        else:
+            try:
+                start_date, end_date = compute_date_range(args.from_date, args.to_date)
+            except ValueError as e:
+                print(f"Error: {e}")
+                sys.exit(2)
 
-        if not upcoming_races:
-            print(f"No races found between {start_date} and {end_date}")
-            return
+            upcoming_races = get_races_in_date_range(races_data, start_date, end_date)
 
-        print(f"Found {len(upcoming_races)} race(s) between {start_date} and {end_date}:")
-        for race in upcoming_races:
-            print(f"  - {race.get('name')} ({race.get('date')})")
+            # Apply optional distance filter
+            if distance_filter is not None:
+                upcoming_races = [r for r in upcoming_races if r.get('distance') == distance_filter]
+
+            if not upcoming_races:
+                print(f"No races found between {start_date} and {end_date}")
+                return
+
+            print(f"Found {len(upcoming_races)} race(s) between {start_date} and {end_date}:")
+            for race in upcoming_races:
+                print(f"  - {race.get('name')} ({race.get('date')})")
 
     changes_made = False
     # Collect human-readable log lines for updates; written only after a successful save
@@ -547,6 +603,7 @@ def main():
         current_men_cat = current_live.get('men_cat', '')
         current_women_cat = current_live.get('women_cat', '')
         current_split = race.get('split', None)
+        current_start_split = race.get('start_split', None)
         current_date = race.get('date')
 
         # Get current official_ag data
@@ -577,8 +634,10 @@ def main():
         # Use safe accessors for robustness if keys are missing
         new_categories = conf_data.get('categories', {"men_cat": "", "women_cat": ""})
         new_split = conf_data.get('split', None)
+        new_start_split = conf_data.get('start_split', None)
         new_official_ag = conf_data.get('official_ag', {})
         new_earliest = conf_data.get('earliestStartTime')
+        new_ag_lists = conf_data.get('age_group_categories') or {}
 
         # Confirm the date aligns between /conf and races.json; if not, update races.json
         new_date = conf_data.get('conf_date')
@@ -605,6 +664,20 @@ def main():
         if new_split != current_split:
             split_changed = True
             print(f"  Split changed: '{current_split}' -> '{new_split}'")
+
+        # Start split changes
+        start_split_changed = False
+        if new_start_split != current_start_split:
+            if new_start_split is not None:
+                start_split_changed = True
+                print(f"  Start split changed: '{current_start_split}' -> '{new_start_split}'")
+
+        # Age group category list changes (for dynamic allocation)
+        current_ag_lists = race.get('age_group_categories', {}) or {}
+        ag_lists_changed = False
+        if new_ag_lists and new_ag_lists != current_ag_lists:
+            ag_lists_changed = True
+            print(f"  Age group category lists updated (men={len(new_ag_lists.get('men', []))}, women={len(new_ag_lists.get('women', []))})")
 
         # Check if official_ag needs updating
         official_ag_changed = False
@@ -641,7 +714,7 @@ def main():
                 print(f"  earliestStartTime changed: '{current_earliest_str}' -> '{new_earliest}'")
 
         # Update the race data if changes detected
-        if categories_changed or split_changed or official_ag_changed or date_changed or earliest_changed:
+        if categories_changed or split_changed or start_split_changed or official_ag_changed or date_changed or earliest_changed or ag_lists_changed:
             changes_made = True
 
             # Ensure results_urls structure exists
@@ -654,12 +727,21 @@ def main():
             race['results_urls']['live']['men_cat'] = new_categories['men_cat']
             race['results_urls']['live']['women_cat'] = new_categories['women_cat']
 
-            # Update split
+            # Update finish split
             if new_split is not None:
                 race['split'] = new_split
-            elif 'split' in race and current_split is not None:
-                # Remove split if it's no longer needed
+            elif 'split' in race and current_split is not None and new_split is None:
                 del race['split']
+
+            # Update start split
+            if start_split_changed and new_start_split is not None:
+                race['start_split'] = new_start_split
+            elif start_split_changed and new_start_split is None and 'start_split' in race:
+                del race['start_split']
+
+            # Update age group category lists
+            if ag_lists_changed and new_ag_lists:
+                race['age_group_categories'] = new_ag_lists
 
             # Update official_ag URLs
             if official_ag_changed and new_official_ag:
@@ -683,12 +765,16 @@ def main():
                 log_lines.append(f"Updated categories for {race_key_for_log}")
             if split_changed:
                 log_lines.append(f"Updated finish split for {race_key_for_log}")
+            if start_split_changed:
+                log_lines.append(f"Updated start split for {race_key_for_log}")
             if date_changed:
                 log_lines.append(f"Updated date for {race_key_for_log}")
             if earliest_changed:
                 log_lines.append(f"Updated earliest start time for {race_key_for_log}")
             if official_ag_changed:
                 log_lines.append(f"Updated official results for {race_key_for_log}")
+            if ag_lists_changed:
+                log_lines.append(f"Updated age group category lists for {race_key_for_log}")
 
         # Small delay to be nice to the API
         time.sleep(0.5)

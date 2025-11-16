@@ -19,6 +19,7 @@
                                     data-slots="{{ race.slots if race.distance == '140.6' else '' }}"
                                     data-slots-men="{{ race.slots.men if race.distance == '70.3' else '' }}"
                                     data-slots-women="{{ race.slots.women if race.distance == '70.3' else '' }}"
+                                    data-slot-policy="{{ race.slot_policy if race.slot_policy else '' }}"
                                     {% if race.name == selected_race %}selected{% endif %}>
                                 {{ race.date }} - {{ race.name }}
                             </option>
@@ -40,6 +41,10 @@
                 </div>
             </form>
         </div>
+
+    <div id="slot-summary-container">
+        {% include 'partials/slot_summary.html' %}
+    </div>
 
         <div id="results-display">
             <!-- Loading overlay with spinner -->
@@ -82,7 +87,7 @@
             }
         });
 
-        function updateRolldownInfo(source, race) {
+    function updateRolldownInfo(source, race) {
             const rolldownDiv = document.getElementById('rolldown-info');
             const rolldownContent = document.getElementById('rolldown-content');
 
@@ -142,15 +147,18 @@
             }
         }
 
-        function updateSlotsDisplay() {
+    function updateSlotsDisplay() {
             const raceSelect = document.getElementById('race-select');
             const selectedOption = raceSelect.options[raceSelect.selectedIndex];
             const slotsDisplay = document.getElementById('slots-display');
             const distance = selectedOption.getAttribute('data-distance');
             const genderInputs = document.getElementsByName('gender');
 
-            // Ensure there's always a selected gender for 70.3 races
-            if (distance === '70.3' && ![...genderInputs].some(input => input.checked)) {
+            const slotPolicy = selectedOption.getAttribute('data-slot-policy') || '';
+            const isSplit = slotPolicy.startsWith('split');
+
+            // Ensure there's always a selected gender for split policies
+            if (isSplit && ![...genderInputs].some(input => input.checked)) {
                 genderInputs[0].checked = true;
             }
 
@@ -186,6 +194,38 @@
 
         function findRaceData(raceName) {
             return racesData.find(race => race.name === raceName);
+        }
+
+        async function refreshSlotSummary(race, gender) {
+            try {
+                const name = (race?.name || '').replace(/ /g, '_');
+                if (!name) return;
+                const params = new URLSearchParams();
+                if (gender) params.set('gender', gender);
+                const res = await fetch(`/fragment/slot_summary/${name}?${params.toString()}`);
+                if (!res.ok) return;
+                const html = await res.text();
+                const container = document.getElementById('slot-summary-container');
+                if (!container) return;
+                container.innerHTML = html;
+
+                // Execute any inline scripts inside the injected HTML
+                const scripts = Array.from(container.querySelectorAll('script'));
+                scripts.forEach((oldScript) => {
+                    const s = document.createElement('script');
+                    // Copy attributes
+                    for (const attr of oldScript.attributes) {
+                        s.setAttribute(attr.name, attr.value);
+                    }
+                    s.text = oldScript.textContent || '';
+                    // Use body append to ensure execution context
+                    document.body.appendChild(s);
+                    // Remove the original to avoid duplicates
+                    oldScript.remove();
+                });
+            } catch (e) {
+                // Silent failure; panel just won't update
+            }
         }
 
         document.addEventListener('DOMContentLoaded', function() {
@@ -230,12 +270,14 @@
                 const selectedRaceName = raceSelect.value;
                 const race = findRaceData(selectedRaceName);
                 const source = document.querySelector('input[name="data_source"]:checked').value;
+                const slotPolicy = race.slot_policy || '';
+                const isSplit = slotPolicy.startsWith('split');
                 const is703 = race.distance === '70.3';
 
-                // Only get gender for 70.3 races
-                const gender = is703 ? document.querySelector('input[name="gender"]:checked').value : null;
+                // Get gender only for split policies
+                const gender = isSplit ? document.querySelector('input[name="gender"]:checked').value : null;
 
-                if (is703) {
+                if (isSplit) {
                     genderDiv.classList.remove('disabled-controls');
                     genderRadios.forEach(radio => radio.disabled = false);
                 } else {
@@ -245,7 +287,7 @@
 
                 const urlFriendlyName = selectedRaceName.replace(/ /g, '_');
                 let urlPath = `/results/${urlFriendlyName}/${source}`;
-                if (is703) {
+                if (isSplit) {
                     urlPath += `/${gender}`;
                 }
                 window.history.pushState({}, '', urlPath);
@@ -256,6 +298,9 @@
                     behavior: 'smooth'
                 });
                 showLoading();
+
+                // Refresh the slot summary fragment to reflect the newly selected race/gender
+                refreshSlotSummary(race, isSplit ? gender : null);
 
                 updateRolldownInfo(source, race);
 
@@ -285,7 +330,7 @@
                         messageArea.innerText = 'Coming Soon!';
                     }
                 } else if (source === 'live') {
-                    let liveUrl = is703
+                    let liveUrl = isSplit
                         ? `/live_results/${urlFriendlyName}/${gender}`
                         : `/live_results/${urlFriendlyName}`;
                     iframe.onload = hideLoading;

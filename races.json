@@ -22,7 +22,36 @@
             }
         },
         "earliestStartTime": "1757160000",
-        "key": "IRM-WISCONSIN703-2025"
+        "key": "IRM-WISCONSIN703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-703-ironman703:M18-24",
+                "top-age-group-men-division-703-ironman703:M25-29",
+                "top-age-group-men-division-703-ironman703:M30-34",
+                "top-age-group-men-division-703-ironman703:M35-39",
+                "top-age-group-men-division-703-ironman703:M40-44",
+                "top-age-group-men-division-703-ironman703:M45-49",
+                "top-age-group-men-division-703-ironman703:M50-54",
+                "top-age-group-men-division-703-ironman703:M55-59",
+                "top-age-group-men-division-703-ironman703:M60-64",
+                "top-age-group-men-division-703-ironman703:M65-69",
+                "top-age-group-men-division-703-ironman703:M70-74",
+                "top-age-group-men-division-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-703-ironman703:F18-24",
+                "top-age-group-women-division-703-ironman703:F25-29",
+                "top-age-group-women-division-703-ironman703:F30-34",
+                "top-age-group-women-division-703-ironman703:F35-39",
+                "top-age-group-women-division-703-ironman703:F40-44",
+                "top-age-group-women-division-703-ironman703:F45-49",
+                "top-age-group-women-division-703-ironman703:F50-54",
+                "top-age-group-women-division-703-ironman703:F55-59",
+                "top-age-group-women-division-703-ironman703:F60-64",
+                "top-age-group-women-division-703-ironman703:F65-69",
+                "top-age-group-women-division-703-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-07",
@@ -37,7 +66,36 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wisconsin_Ironman.html"
         },
         "earliestStartTime": "1757246400",
-        "key": "IRM-WISCONSIN-2025"
+        "key": "IRM-WISCONSIN-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74",
+                "top-age-group-men-division-ironman-tri_sprint:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-14",
@@ -52,7 +110,36 @@
             "official_ag": "https://static.rtrt.me/events/irm-japan-2025/info_section/1757881986_ironman-japan-age-graded-overall-table-1_2025-09-14-203341_u5udkajl.pdf"
         },
         "earliestStartTime": "1757799000",
-        "key": "IRM-JAPAN-2025"
+        "key": "IRM-JAPAN-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-im-ironman:M18-24",
+                "top-age-group-men-division-im-ironman:M25-29",
+                "top-age-group-men-division-im-ironman:M30-34",
+                "top-age-group-men-division-im-ironman:M35-39",
+                "top-age-group-men-division-im-ironman:M40-44",
+                "top-age-group-men-division-im-ironman:M45-49",
+                "top-age-group-men-division-im-ironman:M50-54",
+                "top-age-group-men-division-im-ironman:M55-59",
+                "top-age-group-men-division-im-ironman:M60-64",
+                "top-age-group-men-division-im-ironman:M65-69",
+                "top-age-group-men-division-im-ironman:M70-74",
+                "top-age-group-men-division-im-ironman:M75-79",
+                "top-age-group-men-division-im-ironman:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-im-ironman:F18-24",
+                "top-age-group-women-division-im-ironman:F25-29",
+                "top-age-group-women-division-im-ironman:F30-34",
+                "top-age-group-women-division-im-ironman:F35-39",
+                "top-age-group-women-division-im-ironman:F40-44",
+                "top-age-group-women-division-im-ironman:F45-49",
+                "top-age-group-women-division-im-ironman:F50-54",
+                "top-age-group-women-division-im-ironman:F55-59",
+                "top-age-group-women-division-im-ironman:F60-64",
+                "top-age-group-women-division-im-ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-09-14",
@@ -73,7 +160,37 @@
             }
         },
         "earliestStartTime": "1757793300",
-        "key": "IRM-SUNSHINECOAST703-2025"
+        "key": "IRM-SUNSHINECOAST703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-im-ironman:M18-24",
+                "top-age-group-men-division-im-ironman:M25-29",
+                "top-age-group-men-division-im-ironman:M30-34",
+                "top-age-group-men-division-im-ironman:M35-39",
+                "top-age-group-men-division-im-ironman:M40-44",
+                "top-age-group-men-division-im-ironman:M45-49",
+                "top-age-group-men-division-im-ironman:M50-54",
+                "top-age-group-men-division-im-ironman:M55-59",
+                "top-age-group-men-division-im-ironman:M60-64",
+                "top-age-group-men-division-im-ironman:M65-69",
+                "top-age-group-men-division-im-ironman:M70-74",
+                "top-age-group-men-division-im-ironman:M75-79",
+                "top-age-group-men-division-im-ironman:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-im-ironman:F18-24",
+                "top-age-group-women-division-im-ironman:F25-29",
+                "top-age-group-women-division-im-ironman:F30-34",
+                "top-age-group-women-division-im-ironman:F35-39",
+                "top-age-group-women-division-im-ironman:F40-44",
+                "top-age-group-women-division-im-ironman:F45-49",
+                "top-age-group-women-division-im-ironman:F50-54",
+                "top-age-group-women-division-im-ironman:F55-59",
+                "top-age-group-women-division-im-ironman:F60-64",
+                "top-age-group-women-division-im-ironman:F65-69",
+                "top-age-group-women-division-im-ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-14",
@@ -94,7 +211,36 @@
             }
         },
         "earliestStartTime": "1757832000",
-        "key": "IRM-WEYMOUTH703-2025"
+        "key": "IRM-WEYMOUTH703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74",
+                "top-age-group-men-division-ironman-tri_sprint:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-14",
@@ -115,7 +261,36 @@
             }
         },
         "earliestStartTime": "1757850600",
-        "key": "IRM-MICHIGAN703-2025"
+        "key": "IRM-MICHIGAN703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-703-ironman703:M18-24",
+                "top-age-group-men-division-703-ironman703:M25-29",
+                "top-age-group-men-division-703-ironman703:M30-34",
+                "top-age-group-men-division-703-ironman703:M35-39",
+                "top-age-group-men-division-703-ironman703:M40-44",
+                "top-age-group-men-division-703-ironman703:M45-49",
+                "top-age-group-men-division-703-ironman703:M50-54",
+                "top-age-group-men-division-703-ironman703:M55-59",
+                "top-age-group-men-division-703-ironman703:M60-64",
+                "top-age-group-men-division-703-ironman703:M65-69",
+                "top-age-group-men-division-703-ironman703:M70-74",
+                "top-age-group-men-division-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-703-ironman703:F18-24",
+                "top-age-group-women-division-703-ironman703:F25-29",
+                "top-age-group-women-division-703-ironman703:F30-34",
+                "top-age-group-women-division-703-ironman703:F35-39",
+                "top-age-group-women-division-703-ironman703:F40-44",
+                "top-age-group-women-division-703-ironman703:F45-49",
+                "top-age-group-women-division-703-ironman703:F50-54",
+                "top-age-group-women-division-703-ironman703:F55-59",
+                "top-age-group-women-division-703-ironman703:F60-64",
+                "top-age-group-women-division-703-ironman703:F65-69",
+                "top-age-group-women-division-703-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-14",
@@ -136,7 +311,36 @@
             }
         },
         "earliestStartTime": "1757829600",
-        "key": "IRM-ERKNER703-2025"
+        "key": "IRM-ERKNER703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74",
+                "top-age-group-men-division-ironman-703-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69",
+                "top-age-group-women-division-ironman-703-ironman703:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-09-20",
@@ -151,7 +355,36 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Italy%20Emilia-Romagna_IRONMAN.html"
         },
         "earliestStartTime": "1758346200",
-        "key": "IRM-ITALYEMILIA-2025"
+        "key": "IRM-ITALYEMILIA-2025",
+        "age_group_categories": {
+            "men": [
+                "to-age-group-men-division-ironman:M18-24",
+                "to-age-group-men-division-ironman:M25-29",
+                "to-age-group-men-division-ironman:M30-34",
+                "to-age-group-men-division-ironman:M35-39",
+                "to-age-group-men-division-ironman:M40-44",
+                "to-age-group-men-division-ironman:M45-49",
+                "to-age-group-men-division-ironman:M50-54",
+                "to-age-group-men-division-ironman:M55-59",
+                "to-age-group-men-division-ironman:M60-64",
+                "to-age-group-men-division-ironman:M65-69",
+                "to-age-group-men-division-ironman:M70-74",
+                "to-age-group-men-division-ironman:M75-79",
+                "to-age-group-men-division-ironman:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman:F18-24",
+                "top-age-group-women-division-ironman:F25-29",
+                "top-age-group-women-division-ironman:F30-34",
+                "top-age-group-women-division-ironman:F35-39",
+                "top-age-group-women-division-ironman:F40-44",
+                "top-age-group-women-division-ironman:F45-49",
+                "top-age-group-women-division-ironman:F50-54",
+                "top-age-group-women-division-ironman:F55-59",
+                "top-age-group-women-division-ironman:F60-64",
+                "top-age-group-women-division-ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-09-20",
@@ -166,7 +399,38 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Maryland_IRONMAN.html"
         },
         "earliestStartTime": "1758365100",
-        "key": "IRM-MARYLAND-2025"
+        "key": "IRM-MARYLAND-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74",
+                "top-age-group-men-division-ironman-tri_sprint:M75-79",
+                "top-age-group-men-division-ironman-tri_sprint:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74",
+                "top-age-group-women-divison-ironman-tri_ironman:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-09-20",
@@ -187,7 +451,37 @@
             }
         },
         "earliestStartTime": "1758364200",
-        "key": "IRM-NEWYORK703-2025"
+        "key": "IRM-NEWYORK703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-ironman703:M18-24",
+                "top-age-group-men-division-ironman-ironman703:M25-29",
+                "top-age-group-men-division-ironman-ironman703:M30-34",
+                "top-age-group-men-division-ironman-ironman703:M35-39",
+                "top-age-group-men-division-ironman-ironman703:M40-44",
+                "top-age-group-men-division-ironman-ironman703:M45-49",
+                "top-age-group-men-division-ironman-ironman703:M50-54",
+                "top-age-group-men-division-ironman-ironman703:M55-59",
+                "top-age-group-men-division-ironman-ironman703:M60-64",
+                "top-age-group-men-division-ironman-ironman703:M65-69",
+                "top-age-group-men-division-ironman-ironman703:M70-74",
+                "top-age-group-men-division-ironman-ironman703:M75-79",
+                "top-age-group-men-division-ironman-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-ironman703:F18-24",
+                "top-age-group-women-division-ironman-ironman703:F25-29",
+                "top-age-group-women-division-ironman-ironman703:F30-34",
+                "top-age-group-women-division-ironman-ironman703:F35-39",
+                "top-age-group-women-division-ironman-ironman703:F40-44",
+                "top-age-group-women-division-ironman-ironman703:F45-49",
+                "top-age-group-women-division-ironman-ironman703:F50-54",
+                "top-age-group-women-division-ironman-ironman703:F55-59",
+                "top-age-group-women-division-ironman-ironman703:F60-64",
+                "top-age-group-women-division-ironman-ironman703:F65-69",
+                "top-age-group-women-division-ironman-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -201,8 +495,35 @@
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Wales_IRONMAN.html"
         },
-        "earliestStartTime": "1758436200",
-        "key": "IRM-WALES-2025"
+        "earliestStartTime": "1758435900",
+        "key": "IRM-WALES-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman:M18-24",
+                "top-age-group-men-division-ironman:M25-29",
+                "top-age-group-men-division-ironman:M30-34",
+                "top-age-group-men-division-ironman:M35-39",
+                "top-age-group-men-division-ironman:M40-44",
+                "top-age-group-men-division-ironman:M45-49",
+                "top-age-group-men-division-ironman:M50-54",
+                "top-age-group-men-division-ironman:M55-59",
+                "top-age-group-men-division-ironman:M60-64",
+                "top-age-group-men-division-ironman:M65-69",
+                "top-age-group-men-division-ironman:M70-74",
+                "top-age-group-men-division-ironman:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -223,7 +544,35 @@
             }
         },
         "earliestStartTime": "1758401400",
-        "key": "IRM-WESTERNSYDNEY703-2025"
+        "key": "IRM-WESTERNSYDNEY703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-im-ironman:M18-24",
+                "top-age-group-men-division-im-ironman:M25-29",
+                "top-age-group-men-division-im-ironman:M30-34",
+                "top-age-group-men-division-im-ironman:M35-39",
+                "top-age-group-men-division-im-ironman:M40-44",
+                "top-age-group-men-division-im-ironman:M45-49",
+                "top-age-group-men-division-im-ironman:M50-54",
+                "top-age-group-men-division-im-ironman:M55-59",
+                "top-age-group-men-division-im-ironman:M60-64",
+                "top-age-group-men-division-im-ironman:M65-69",
+                "top-age-group-men-division-im-ironman:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-division-im-ironman:F18-24",
+                "top-age-group-women-division-im-ironman:F25-29",
+                "top-age-group-women-division-im-ironman:F30-34",
+                "top-age-group-women-division-im-ironman:F35-39",
+                "top-age-group-women-division-im-ironman:F40-44",
+                "top-age-group-women-division-im-ironman:F45-49",
+                "top-age-group-women-division-im-ironman:F50-54",
+                "top-age-group-women-division-im-ironman:F55-59",
+                "top-age-group-women-division-im-ironman:F60-64",
+                "top-age-group-women-division-im-ironman:F65-69",
+                "top-age-group-women-division-im-ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -244,7 +593,38 @@
             }
         },
         "earliestStartTime": "1758461400",
-        "key": "IRM-WASHINGTON703-2025"
+        "key": "IRM-WASHINGTON703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-703-ironman703:M18-24",
+                "top-age-group-men-division-703-ironman703:M25-29",
+                "top-age-group-men-division-703-ironman703:M30-34",
+                "top-age-group-men-division-703-ironman703:M35-39",
+                "top-age-group-men-division-703-ironman703:M40-44",
+                "top-age-group-men-division-703-ironman703:M45-49",
+                "top-age-group-men-division-703-ironman703:M50-54",
+                "top-age-group-men-division-703-ironman703:M55-59",
+                "top-age-group-men-division-703-ironman703:M60-64",
+                "top-age-group-men-division-703-ironman703:M65-69",
+                "top-age-group-men-division-703-ironman703:M70-74",
+                "top-age-group-men-division-703-ironman703:M75-79",
+                "top-age-group-men-division-703-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-703-ironman703:F18-24",
+                "top-age-group-women-division-703-ironman703:F25-29",
+                "top-age-group-women-division-703-ironman703:F30-34",
+                "top-age-group-women-division-703-ironman703:F35-39",
+                "top-age-group-women-division-703-ironman703:F40-44",
+                "top-age-group-women-division-703-ironman703:F45-49",
+                "top-age-group-women-division-703-ironman703:F50-54",
+                "top-age-group-women-division-703-ironman703:F55-59",
+                "top-age-group-women-division-703-ironman703:F60-64",
+                "top-age-group-women-division-703-ironman703:F65-69",
+                "top-age-group-women-division-703-ironman703:F70-74",
+                "top-age-group-women-division-703-ironman703:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -265,7 +645,36 @@
             }
         },
         "earliestStartTime": "1758454200",
-        "key": "IRM-COZUMEL703-2025"
+        "key": "IRM-COZUMEL703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-ironman703:M18-24",
+                "top-age-group-men-division-ironman-ironman703:M25-29",
+                "top-age-group-men-division-ironman-ironman703:M30-34",
+                "top-age-group-men-division-ironman-ironman703:M35-39",
+                "top-age-group-men-division-ironman-ironman703:M40-44",
+                "top-age-group-men-division-ironman-ironman703:M45-49",
+                "top-age-group-men-division-ironman-ironman703:M50-54",
+                "top-age-group-men-division-ironman-ironman703:M55-59",
+                "top-age-group-men-division-ironman-ironman703:M60-64",
+                "top-age-group-men-division-ironman-ironman703:M65-69",
+                "top-age-group-men-division-ironman-ironman703:M70-74",
+                "top-age-group-men-division-ironman-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-703-ironman-ironman703:F18-24",
+                "top-age-group-women-division-703-ironman-ironman703:F25-29",
+                "top-age-group-women-division-703-ironman-ironman703:F30-34",
+                "top-age-group-women-division-703-ironman-ironman703:F35-39",
+                "top-age-group-women-division-703-ironman-ironman703:F40-44",
+                "top-age-group-women-division-703-ironman-ironman703:F45-49",
+                "top-age-group-women-division-703-ironman-ironman703:F50-54",
+                "top-age-group-women-division-703-ironman-ironman703:F55-59",
+                "top-age-group-women-division-703-ironman-ironman703:F60-64",
+                "top-age-group-women-division-703-ironman-ironman703:F65-69",
+                "top-age-group-women-division-703-ironman-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -287,7 +696,35 @@
         },
         "earliestStartTime": "1758445200",
         "key": "IRM-SAOPAULO703-2025",
-        "split": "FINISH-I"
+        "split": "FINISH-I",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman703:M18-24",
+                "top-age-group-men-division-ironman703:M25-29",
+                "top-age-group-men-division-ironman703:M30-34",
+                "top-age-group-men-division-ironman703:M35-39",
+                "top-age-group-men-division-ironman703:M40-44",
+                "top-age-group-men-division-ironman703:M45-49",
+                "top-age-group-men-division-ironman703:M50-54",
+                "top-age-group-men-division-ironman703:M55-59",
+                "top-age-group-men-division-ironman703:M60-64",
+                "top-age-group-men-division-ironman703:M65-69",
+                "top-age-group-men-division-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -309,7 +746,36 @@
         },
         "earliestStartTime": "1758448800",
         "key": "IRM-ITALY703-2025",
-        "split": "703FINISH"
+        "split": "703FINISH",
+        "start_split": "703START",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74",
+                "top-age-group-men-division-ironman-tri_sprint:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-09-21",
@@ -329,8 +795,34 @@
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Belgrade_70.3_Women.html"
             }
         },
-        "earliestStartTime": "1758427200",
-        "key": "IRM-SERBIA703-2025"
+        "earliestStartTime": "1758430800",
+        "key": "IRM-SERBIA703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-09-28",
@@ -345,7 +837,36 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Chattanooga_IRONMAN.html"
         },
         "earliestStartTime": "1759058400",
-        "key": "IRM-CHATTANOOGA-2025"
+        "key": "IRM-CHATTANOOGA-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74",
+                "top-age-group-men-division-ironman-tri_sprint:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman:F18-24",
+                "top-age-group-women-division-ironman:F25-29",
+                "top-age-group-women-division-ironman:F30-34",
+                "top-age-group-women-division-ironman:F35-39",
+                "top-age-group-women-division-ironman:F40-44",
+                "top-age-group-women-division-ironman:F45-49",
+                "top-age-group-women-division-ironman:F50-54",
+                "top-age-group-women-division-ironman:F55-59",
+                "top-age-group-women-division-ironman:F60-64",
+                "top-age-group-women-division-ironman:F65-69",
+                "top-age-group-women-division-ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-09-28",
@@ -355,12 +876,43 @@
         "results_urls": {
             "live": {
                 "men": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-men-division-ironman:_ALL/splits/RUN",
-                "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-division-ironman:_ALL/splits/RUN"
+                "women": "https://api.rtrt.me/events/IRM-GURYE-2025/categories/top-age-group-women-division-ironman:_ALL/splits/RUN",
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
+                "women_cat": "top-age-group-women-division-ironman:_ALL"
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Gurye%20Korea_IRONMAN.html"
         },
         "earliestStartTime": "1759010400",
-        "key": "IRM-GURYE-2025"
+        "key": "IRM-GURYE-2025",
+        "split": "RUN",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman:M18-24",
+                "top-age-group-men-division-ironman:M25-29",
+                "top-age-group-men-division-ironman:M30-34",
+                "top-age-group-men-division-ironman:M35-39",
+                "top-age-group-men-division-ironman:M40-44",
+                "top-age-group-men-division-ironman:M45-49",
+                "top-age-group-men-division-ironman:M50-54",
+                "top-age-group-men-division-ironman:M55-59",
+                "top-age-group-men-division-ironman:M60-64",
+                "top-age-group-men-division-ironman:M65-69",
+                "top-age-group-men-division-ironman:M70-74",
+                "top-age-group-men-division-ironman:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman:F18-24",
+                "top-age-group-women-division-ironman:F25-29",
+                "top-age-group-women-division-ironman:F30-34",
+                "top-age-group-women-division-ironman:F35-39",
+                "top-age-group-women-division-ironman:F40-44",
+                "top-age-group-women-division-ironman:F45-49",
+                "top-age-group-women-division-ironman:F50-54",
+                "top-age-group-women-division-ironman:F55-59",
+                "top-age-group-women-division-ironman:F60-64",
+                "top-age-group-women-division-ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-09-28",
@@ -385,7 +937,38 @@
             }
         },
         "earliestStartTime": "1759056900",
-        "key": "IRM-AUGUSTA703-2025"
+        "key": "IRM-AUGUSTA703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74",
+                "top-age-group-men-division-ironman-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69",
+                "top-age-group-women-division-ironman-703-ironman703:F70-74",
+                "top-age-group-women-division-ironman-703-ironman703:F75-79",
+                "top-age-group-women-division-ironman-703-ironman703:F80-84"
+            ]
+        }
     },
     {
         "date": "2025-09-28",
@@ -406,7 +989,34 @@
             }
         },
         "earliestStartTime": "1759051800",
-        "key": "IRM-PARAGUAY703-2025"
+        "key": "IRM-PARAGUAY703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-10-05",
@@ -421,7 +1031,35 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Calella-Barcelona_IRONMAN.html"
         },
         "earliestStartTime": "1759643400",
-        "key": "IRM-BARCELONA-2025"
+        "key": "IRM-BARCELONA-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman:M18-24",
+                "top-age-group-men-division-ironman:M25-29",
+                "top-age-group-men-division-ironman:M30-34",
+                "top-age-group-men-division-ironman:M35-39",
+                "top-age-group-men-division-ironman:M40-44",
+                "top-age-group-men-division-ironman:M45-49",
+                "top-age-group-men-division-ironman:M50-54",
+                "top-age-group-men-division-ironman:M55-59",
+                "top-age-group-men-division-ironman:M60-64",
+                "top-age-group-men-division-ironman:M65-69",
+                "top-age-group-men-division-ironman:M70-74",
+                "top-age-group-men-division-ironman:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-10-05",
@@ -442,7 +1080,36 @@
             }
         },
         "earliestStartTime": "1759667100",
-        "key": "IRM-WACO703-2025"
+        "key": "IRM-WACO703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-ironman703:M18-24",
+                "top-age-group-men-division-ironman-ironman703:M25-29",
+                "top-age-group-men-division-ironman-ironman703:M30-34",
+                "top-age-group-men-division-ironman-ironman703:M35-39",
+                "top-age-group-men-division-ironman-ironman703:M40-44",
+                "top-age-group-men-division-ironman-ironman703:M45-49",
+                "top-age-group-men-division-ironman-ironman703:M50-54",
+                "top-age-group-men-division-ironman-ironman703:M55-59",
+                "top-age-group-men-division-ironman-ironman703:M60-64",
+                "top-age-group-men-division-ironman-ironman703:M65-69",
+                "top-age-group-men-division-ironman-ironman703:M70-74",
+                "top-age-group-men-division-ironman-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-ironman703:F18-24",
+                "top-age-group-women-division-ironman-ironman703:F25-29",
+                "top-age-group-women-division-ironman-ironman703:F30-34",
+                "top-age-group-women-division-ironman-ironman703:F35-39",
+                "top-age-group-women-division-ironman-ironman703:F40-44",
+                "top-age-group-women-division-ironman-ironman703:F45-49",
+                "top-age-group-women-division-ironman-ironman703:F50-54",
+                "top-age-group-women-division-ironman-ironman703:F55-59",
+                "top-age-group-women-division-ironman-ironman703:F60-64",
+                "top-age-group-women-division-ironman-ironman703:F65-69",
+                "top-age-group-women-division-ironman-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-10-18",
@@ -457,7 +1124,37 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Portugal%20-%20Cascais_IRONMAN.html"
         },
         "earliestStartTime": "1760769420",
-        "key": "IRM-CASCAIS-2025"
+        "key": "IRM-CASCAIS-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman:M18-24",
+                "top-age-group-men-division-ironman:M25-29",
+                "top-age-group-men-division-ironman:M30-34",
+                "top-age-group-men-division-ironman:M35-39",
+                "top-age-group-men-division-ironman:M40-44",
+                "top-age-group-men-division-ironman:M45-49",
+                "top-age-group-men-division-ironman:M50-54",
+                "top-age-group-men-division-ironman:M55-59",
+                "top-age-group-men-division-ironman:M60-64",
+                "top-age-group-men-division-ironman:M65-69",
+                "top-age-group-men-division-ironman:M70-74",
+                "top-age-group-men-division-ironman:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-ironman:F18-24",
+                "top-age-group-women-ironman:F25-29",
+                "top-age-group-women-ironman:F30-34",
+                "top-age-group-women-ironman:F35-39",
+                "top-age-group-women-ironman:F40-44",
+                "top-age-group-women-ironman:F45-49",
+                "top-age-group-women-ironman:F50-54",
+                "top-age-group-women-ironman:F55-59",
+                "top-age-group-women-ironman:F60-64",
+                "top-age-group-women-ironman:F65-69",
+                "top-age-group-women-ironman:F70-74",
+                "top-age-group-women-ironman:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-10-18",
@@ -479,7 +1176,36 @@
         },
         "earliestStartTime": "1760769420",
         "key": "IRM-CASCAIS-2025",
-        "split": "703FINISH"
+        "split": "703FINISH",
+        "start_split": "703START",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74",
+                "top-age-group-men-division-ironman-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-10-19",
@@ -501,7 +1227,36 @@
         },
         "earliestStartTime": "1760853600",
         "key": "IRM-CROATIA703-2025",
-        "split": "FINISH-I"
+        "split": "FINISH-I",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74",
+                "top-age-group-men-division-ironman-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69",
+                "top-age-group-women-division-ironman-703-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-10-25",
@@ -522,7 +1277,33 @@
             }
         },
         "earliestStartTime": "1761359400",
-        "key": "IRM-SALALAH703-2025"
+        "key": "IRM-SALALAH703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-10-25",
@@ -543,7 +1324,37 @@
             }
         },
         "earliestStartTime": "1761390600",
-        "key": "IRM-NORTHCAROLINA703-2025"
+        "key": "IRM-NORTHCAROLINA703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-ironman703:M18-24",
+                "top-age-group-men-division-ironman-ironman703:M25-29",
+                "top-age-group-men-division-ironman-ironman703:M30-34",
+                "top-age-group-men-division-ironman-ironman703:M35-39",
+                "top-age-group-men-division-ironman-ironman703:M40-44",
+                "top-age-group-men-division-ironman-ironman703:M45-49",
+                "top-age-group-men-division-ironman-ironman703:M50-54",
+                "top-age-group-men-division-ironman-ironman703:M55-59",
+                "top-age-group-men-division-ironman-ironman703:M60-64",
+                "top-age-group-men-division-ironman-ironman703:M65-69",
+                "top-age-group-men-division-ironman-ironman703:M70-74",
+                "top-age-group-men-division-ironman-ironman703:M75-79",
+                "top-age-group-men-division-ironman-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-ironman703:F18-24",
+                "top-age-group-women-division-ironman-ironman703:F25-29",
+                "top-age-group-women-division-ironman-ironman703:F30-34",
+                "top-age-group-women-division-ironman-ironman703:F35-39",
+                "top-age-group-women-division-ironman-ironman703:F40-44",
+                "top-age-group-women-division-ironman-ironman703:F45-49",
+                "top-age-group-women-division-ironman-ironman703:F50-54",
+                "top-age-group-women-division-ironman-ironman703:F55-59",
+                "top-age-group-women-division-ironman-ironman703:F60-64",
+                "top-age-group-women-division-ironman-ironman703:F65-69",
+                "top-age-group-women-division-ironman-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-10-19",
@@ -557,8 +1368,40 @@
             },
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20California_Ironman.html"
         },
-        "earliestStartTime": "1760881200",
-        "key": "IRM-CALIFORNIA-2025"
+        "earliestStartTime": "1760882400",
+        "key": "IRM-CALIFORNIA-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-route_b:M18-24",
+                "top-age-group-men-division-ironman-route_b:M25-29",
+                "top-age-group-men-division-ironman-route_b:M30-34",
+                "top-age-group-men-division-ironman-route_b:M35-39",
+                "top-age-group-men-division-ironman-route_b:M40-44",
+                "top-age-group-men-division-ironman-route_b:M45-49",
+                "top-age-group-men-division-ironman-route_b:M50-54",
+                "top-age-group-men-division-ironman-route_b:M55-59",
+                "top-age-group-men-division-ironman-route_b:M60-64",
+                "top-age-group-men-division-ironman-route_b:M65-69",
+                "top-age-group-men-division-ironman-route_b:M70-74",
+                "top-age-group-men-division-ironman-route_b:M75-79",
+                "top-age-group-men-division-ironman-route_b:M80-84",
+                "top-age-group-men-division-ironman-route_b:MPRO"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-route_b:F18-24",
+                "top-age-group-women-division-ironman-route_b:F25-29",
+                "top-age-group-women-division-ironman-route_b:F30-34",
+                "top-age-group-women-division-ironman-route_b:F35-39",
+                "top-age-group-women-division-ironman-route_b:F40-44",
+                "top-age-group-women-division-ironman-route_b:F45-49",
+                "top-age-group-women-division-ironman-route_b:F50-54",
+                "top-age-group-women-division-ironman-route_b:F55-59",
+                "top-age-group-women-division-ironman-route_b:F60-64",
+                "top-age-group-women-division-ironman-route_b:F65-69",
+                "top-age-group-women-division-ironman-route_b:F70-74",
+                "top-age-group-women-division-ironman-route_b:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-10-26",
@@ -579,6 +1422,34 @@
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Greece_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Greece_70.3_Women.html"
             }
+        },
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69",
+                "top-age-group-women-division-ironman-703-ironman703:F70-74"
+            ]
         }
     },
     {
@@ -601,7 +1472,34 @@
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Florianopolis_70.3_Women.html"
             }
         },
-        "split": "FINISH-I"
+        "split": "FINISH-I",
+        "start_split": "START-I",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman703:M18-24",
+                "top-age-group-men-division-ironman703:M25-29",
+                "top-age-group-men-division-ironman703:M30-34",
+                "top-age-group-men-division-ironman703:M35-39",
+                "top-age-group-men-division-ironman703:M40-44",
+                "top-age-group-men-division-ironman703:M45-49",
+                "top-age-group-men-division-ironman703:M50-54",
+                "top-age-group-men-division-ironman703:M55-59",
+                "top-age-group-men-division-ironman703:M60-64",
+                "top-age-group-men-division-ironman703:M65-69",
+                "top-age-group-men-division-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64"
+            ]
+        }
     },
     {
         "date": "2025-10-26",
@@ -615,13 +1513,40 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "ag-men-ironman-703-ironman703:_ALL",
+                "men_cat": "ag-women-ironman-703-ironman703:_ALL",
                 "women_cat": "ag-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/IRONAMN%2070.3%20Agadir_70.3_Men.html",
                 "women": "https://cdn-1.sportstats.one/rolldown/IRONAMN%2070.3%20Agadir_70.3_Women.html"
             }
+        },
+        "age_group_categories": {
+            "men": [
+                "ag-men-ironman-703-ironman703:M18-24",
+                "ag-men-ironman-703-ironman703:M25-29",
+                "ag-men-ironman-703-ironman703:M30-34",
+                "ag-men-ironman-703-ironman703:M35-39",
+                "ag-men-ironman-703-ironman703:M40-44",
+                "ag-men-ironman-703-ironman703:M45-49",
+                "ag-men-ironman-703-ironman703:M50-54",
+                "ag-men-ironman-703-ironman703:M55-59",
+                "ag-men-ironman-703-ironman703:M60-64",
+                "ag-men-ironman-703-ironman703:M65-69",
+                "ag-men-ironman-703-ironman703:M70-74"
+            ],
+            "women": [
+                "ag-women-ironman-703-ironman703:F18-24",
+                "ag-women-ironman-703-ironman703:F25-29",
+                "ag-women-ironman-703-ironman703:F30-34",
+                "ag-women-ironman-703-ironman703:F35-39",
+                "ag-women-ironman-703-ironman703:F40-44",
+                "ag-women-ironman-703-ironman703:F45-49",
+                "ag-women-ironman-703-ironman703:F50-54",
+                "ag-women-ironman-703-ironman703:F55-59",
+                "ag-women-ironman-703-ironman703:F60-64",
+                "ag-women-ironman-703-ironman703:F65-69"
+            ]
         }
     },
     {
@@ -637,7 +1562,37 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Florida_Ironman.html"
         },
         "earliestStartTime": "1761997200",
-        "key": "IRM-FLORIDA-2025"
+        "key": "IRM-FLORIDA-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-route_b:M18-24",
+                "top-age-group-men-division-ironman-route_b:M25-29",
+                "top-age-group-men-division-ironman-route_b:M30-34",
+                "top-age-group-men-division-ironman-route_b:M35-39",
+                "top-age-group-men-division-ironman-route_b:M40-44",
+                "top-age-group-men-division-ironman-route_b:M45-49",
+                "top-age-group-men-division-ironman-route_b:M50-54",
+                "top-age-group-men-division-ironman-route_b:M55-59",
+                "top-age-group-men-division-ironman-route_b:M60-64",
+                "top-age-group-men-division-ironman-route_b:M65-69",
+                "top-age-group-men-division-ironman-route_b:M70-74",
+                "top-age-group-men-division-ironman-route_b:M75-79",
+                "top-age-group-men-division-ironman-route_b:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-route_b:F18-24",
+                "top-age-group-women-division-ironman-route_b:F25-29",
+                "top-age-group-women-division-ironman-route_b:F30-34",
+                "top-age-group-women-division-ironman-route_b:F35-39",
+                "top-age-group-women-division-ironman-route_b:F40-44",
+                "top-age-group-women-division-ironman-route_b:F45-49",
+                "top-age-group-women-division-ironman-route_b:F50-54",
+                "top-age-group-women-division-ironman-route_b:F55-59",
+                "top-age-group-women-division-ironman-route_b:F60-64",
+                "top-age-group-women-division-ironman-route_b:F65-69",
+                "top-age-group-women-division-ironman-route_b:F75-79"
+            ]
+        }
     },
     {
         "date": "2025-11-01",
@@ -652,7 +1607,34 @@
             "official_ag": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Malaysia_IRONMAN.html"
         },
         "earliestStartTime": "1761951600",
-        "key": "IRM-MALAYSIA-2025"
+        "key": "IRM-MALAYSIA-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-11-01",
@@ -674,7 +1656,37 @@
         },
         "earliestStartTime": "1761951600",
         "key": "IRM-LANGKAWI703-2025",
-        "split": "FINISH-703"
+        "split": "FINISH-703",
+        "start_split": "START-703",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-ironman-703-ironman703:M18-24",
+                "top-age-group-men-ironman-703-ironman703:M25-29",
+                "top-age-group-men-ironman-703-ironman703:M30-34",
+                "top-age-group-men-ironman-703-ironman703:M35-39",
+                "top-age-group-men-ironman-703-ironman703:M40-44",
+                "top-age-group-men-ironman-703-ironman703:M45-49",
+                "top-age-group-men-ironman-703-ironman703:M50-54",
+                "top-age-group-men-ironman-703-ironman703:M55-59",
+                "top-age-group-men-ironman-703-ironman703:M60-64",
+                "top-age-group-men-ironman-703-ironman703:M65-69",
+                "top-age-group-men-ironman-703-ironman703:M70-74",
+                "top-age-group-men-ironman-703-ironman703:M75-79"
+            ],
+            "women": [
+                "top-age-group-women-ironman-703-ironman703:F18-24",
+                "top-age-group-women-ironman-703-ironman703:F25-29",
+                "top-age-group-women-ironman-703-ironman703:F30-34",
+                "top-age-group-women-ironman-703-ironman703:F35-39",
+                "top-age-group-women-ironman-703-ironman703:F40-44",
+                "top-age-group-women-ironman-703-ironman703:F45-49",
+                "top-age-group-women-ironman-703-ironman703:F50-54",
+                "top-age-group-women-ironman-703-ironman703:F55-59",
+                "top-age-group-women-ironman-703-ironman703:F60-64",
+                "top-age-group-women-ironman-703-ironman703:F65-69",
+                "top-age-group-women-ironman-703-ironman703:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-11-02",
@@ -695,7 +1707,35 @@
             }
         },
         "key": "IRM-BUENOSAIRES703-2025",
-        "earliestStartTime": "1762074000"
+        "earliestStartTime": "1762074000",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-703-ironman703:M18-24",
+                "top-age-group-men-division-703-ironman703:M25-29",
+                "top-age-group-men-division-703-ironman703:M30-34",
+                "top-age-group-men-division-703-ironman703:M35-39",
+                "top-age-group-men-division-703-ironman703:M40-44",
+                "top-age-group-men-division-703-ironman703:M45-49",
+                "top-age-group-men-division-703-ironman703:M50-54",
+                "top-age-group-men-division-703-ironman703:M55-59",
+                "top-age-group-men-division-703-ironman703:M60-64",
+                "top-age-group-men-division-703-ironman703:M65-69",
+                "top-age-group-men-division-703-ironman703:M70-74",
+                "top-age-group-men-division-703-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-division-703-ironman703:F18-24",
+                "top-age-group-women-division-703-ironman703:F25-29",
+                "top-age-group-women-division-703-ironman703:F30-34",
+                "top-age-group-women-division-703-ironman703:F35-39",
+                "top-age-group-women-division-703-ironman703:F40-44",
+                "top-age-group-women-division-703-ironman703:F45-49",
+                "top-age-group-women-division-703-ironman703:F50-54",
+                "top-age-group-women-division-703-ironman703:F55-59",
+                "top-age-group-women-division-703-ironman703:F60-64",
+                "top-age-group-women-division-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-11-02",
@@ -716,7 +1756,33 @@
             }
         },
         "earliestStartTime": "1762034400",
-        "key": "IRM-KENTING703-2025"
+        "key": "IRM-KENTING703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64"
+            ]
+        }
     },
     {
         "date": "2025-11-02",
@@ -738,7 +1804,36 @@
         },
         "earliestStartTime": "1762059600",
         "key": "IRM-TURKEY703-2025",
-        "split": "RUNFINISH"
+        "split": "RUNFINISH",
+        "start_split": "SWIMSTART",
+        "age_group_categories": {
+            "men": [
+                "age-group-men-division-ironman-tri_sprint:M18-24",
+                "age-group-men-division-ironman-tri_sprint:M25-29",
+                "age-group-men-division-ironman-tri_sprint:M30-34",
+                "age-group-men-division-ironman-tri_sprint:M35-39",
+                "age-group-men-division-ironman-tri_sprint:M40-44",
+                "age-group-men-division-ironman-tri_sprint:M45-49",
+                "age-group-men-division-ironman-tri_sprint:M50-54",
+                "age-group-men-division-ironman-tri_sprint:M55-59",
+                "age-group-men-division-ironman-tri_sprint:M60-64",
+                "age-group-men-division-ironman-tri_sprint:M65-69",
+                "age-group-men-division-ironman-tri_sprint:M70-74",
+                "age-group-men-division-ironman-tri_sprint:M75-79"
+            ],
+            "women": [
+                "age-group-women-divison-ironman-tri_ironman:F18-24",
+                "age-group-women-divison-ironman-tri_ironman:F25-29",
+                "age-group-women-divison-ironman-tri_ironman:F30-34",
+                "age-group-women-divison-ironman-tri_ironman:F35-39",
+                "age-group-women-divison-ironman-tri_ironman:F40-44",
+                "age-group-women-divison-ironman-tri_ironman:F45-49",
+                "age-group-women-divison-ironman-tri_ironman:F50-54",
+                "age-group-women-divison-ironman-tri_ironman:F55-59",
+                "age-group-women-divison-ironman-tri_ironman:F60-64",
+                "age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-11-09",
@@ -750,16 +1845,41 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Goa_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Goa_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762651800",
-        "key": "IRM-GOA703-2025"
+        "key": "IRM-GOA703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64",
+                "top-age-group-men-division-ironman-703-ironman703:M65-69",
+                "top-age-group-men-division-ironman-703-ironman703:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59"
+            ]
+        }
     },
     {
         "date": "2025-11-09",
@@ -771,16 +1891,46 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Melbourne_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Melbourne_70.3_Women.html"
             }
         },
         "earliestStartTime": "1762628400",
-        "key": "IRM-MELBOURNE703-2025"
+        "key": "IRM-MELBOURNE703-2025",
+        "split": "FINISH-I",
+        "start_split": "T1-II",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-ironman-703-ironman703:M18-24",
+                "top-age-group-men-ironman-703-ironman703:M25-29",
+                "top-age-group-men-ironman-703-ironman703:M30-34",
+                "top-age-group-men-ironman-703-ironman703:M35-39",
+                "top-age-group-men-ironman-703-ironman703:M40-44",
+                "top-age-group-men-ironman-703-ironman703:M45-49",
+                "top-age-group-men-ironman-703-ironman703:M50-54",
+                "top-age-group-men-ironman-703-ironman703:M55-59",
+                "top-age-group-men-ironman-703-ironman703:M60-64",
+                "top-age-group-men-ironman-703-ironman703:M65-69",
+                "top-age-group-men-ironman-703-ironman703:M70-74",
+                "top-age-group-men-ironman-703-ironman703:M80-84"
+            ],
+            "women": [
+                "top-age-group-women-ironman-703-ironman703:F18-24",
+                "top-age-group-women-ironman-703-ironman703:F25-29",
+                "top-age-group-women-ironman-703-ironman703:F30-34",
+                "top-age-group-women-ironman-703-ironman703:F35-39",
+                "top-age-group-women-ironman-703-ironman703:F40-44",
+                "top-age-group-women-ironman-703-ironman703:F45-49",
+                "top-age-group-women-ironman-703-ironman703:F50-54",
+                "top-age-group-women-ironman-703-ironman703:F55-59",
+                "top-age-group-women-ironman-703-ironman703:F60-64",
+                "top-age-group-women-ironman-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-11-09",
@@ -792,17 +1942,42 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-703-ironman703",
-                "women_cat": "top-age-group-women-division-ironman-703-ironman703"
+                "men_cat": "top-age-group-men-division-ironman-703-ironman703:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Acapulco_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Acapulco_70.3_Women.html"
             }
         },
-        "earliestStartTime": "1762694400",
+        "earliestStartTime": "1762692300",
         "key": "IRM-ACAPULCO703-2025",
-        "split": "FINISH-703"
+        "split": "FINISH-703",
+        "start_split": "START-703",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-703-ironman703:M18-24",
+                "top-age-group-men-division-ironman-703-ironman703:M25-29",
+                "top-age-group-men-division-ironman-703-ironman703:M30-34",
+                "top-age-group-men-division-ironman-703-ironman703:M35-39",
+                "top-age-group-men-division-ironman-703-ironman703:M40-44",
+                "top-age-group-men-division-ironman-703-ironman703:M45-49",
+                "top-age-group-men-division-ironman-703-ironman703:M50-54",
+                "top-age-group-men-division-ironman-703-ironman703:M55-59",
+                "top-age-group-men-division-ironman-703-ironman703:M60-64"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64"
+            ]
+        }
     },
     {
         "date": "2025-11-16",
@@ -811,13 +1986,29 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "men_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL",
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": ""
         },
         "earliestStartTime": "1763300700",
-        "key": "IRM-ARIZONA-2025"
+        "key": "IRM-ARIZONA-2025",
+        "age_group_categories": {
+            "men": [],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-11-16",
@@ -829,8 +2020,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-5150-ironman5150:_ALL",
+                "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -838,7 +2029,36 @@
             }
         },
         "earliestStartTime": "1763249400",
-        "key": "IRM-PHUQUOC703-2025"
+        "key": "IRM-PHUQUOC703-2025",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-5150-ironman5150:M18-24",
+                "top-age-group-men-division-ironman-5150-ironman5150:M25-29",
+                "top-age-group-men-division-ironman-5150-ironman5150:M30-34",
+                "top-age-group-men-division-ironman-5150-ironman5150:M35-39",
+                "top-age-group-men-division-ironman-5150-ironman5150:M40-44",
+                "top-age-group-men-division-ironman-5150-ironman5150:M45-49",
+                "top-age-group-men-division-ironman-5150-ironman5150:M50-54",
+                "top-age-group-men-division-ironman-5150-ironman5150:M55-59",
+                "top-age-group-men-division-ironman-5150-ironman5150:M60-64",
+                "top-age-group-men-division-ironman-5150-ironman5150:M65-69",
+                "top-age-group-men-division-ironman-5150-ironman5150:M70-74",
+                "top-age-group-men-division-ironman-5150-ironman5150:M75-79",
+                "top-age-group-men-division-ironman-5150-ironman5150:M85-89"
+            ],
+            "women": [
+                "top-age-group-women-division-ironman-703-ironman703:F18-24",
+                "top-age-group-women-division-ironman-703-ironman703:F25-29",
+                "top-age-group-women-division-ironman-703-ironman703:F30-34",
+                "top-age-group-women-division-ironman-703-ironman703:F35-39",
+                "top-age-group-women-division-ironman-703-ironman703:F40-44",
+                "top-age-group-women-division-ironman-703-ironman703:F45-49",
+                "top-age-group-women-division-ironman-703-ironman703:F50-54",
+                "top-age-group-women-division-ironman-703-ironman703:F55-59",
+                "top-age-group-women-division-ironman-703-ironman703:F60-64",
+                "top-age-group-women-division-ironman-703-ironman703:F65-69"
+            ]
+        }
     },
     {
         "date": "2025-11-16",
@@ -850,8 +2070,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint:_ALL",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
                 "men": "",
@@ -859,7 +2079,36 @@
             }
         },
         "earliestStartTime": "1763266500",
-        "key": "IRM-MOSSELBAY703-2025"
+        "key": "IRM-MOSSELBAY703-2025",
+        "split": "RUN",
+        "age_group_categories": {
+            "men": [
+                "top-age-group-men-division-ironman-tri_sprint:M18-24",
+                "top-age-group-men-division-ironman-tri_sprint:M25-29",
+                "top-age-group-men-division-ironman-tri_sprint:M30-34",
+                "top-age-group-men-division-ironman-tri_sprint:M35-39",
+                "top-age-group-men-division-ironman-tri_sprint:M40-44",
+                "top-age-group-men-division-ironman-tri_sprint:M45-49",
+                "top-age-group-men-division-ironman-tri_sprint:M50-54",
+                "top-age-group-men-division-ironman-tri_sprint:M55-59",
+                "top-age-group-men-division-ironman-tri_sprint:M60-64",
+                "top-age-group-men-division-ironman-tri_sprint:M65-69",
+                "top-age-group-men-division-ironman-tri_sprint:M70-74"
+            ],
+            "women": [
+                "top-age-group-women-divison-ironman-tri_ironman:F18-24",
+                "top-age-group-women-divison-ironman-tri_ironman:F25-29",
+                "top-age-group-women-divison-ironman-tri_ironman:F30-34",
+                "top-age-group-women-divison-ironman-tri_ironman:F35-39",
+                "top-age-group-women-divison-ironman-tri_ironman:F40-44",
+                "top-age-group-women-divison-ironman-tri_ironman:F45-49",
+                "top-age-group-women-divison-ironman-tri_ironman:F50-54",
+                "top-age-group-women-divison-ironman-tri_ironman:F55-59",
+                "top-age-group-women-divison-ironman-tri_ironman:F60-64",
+                "top-age-group-women-divison-ironman-tri_ironman:F65-69",
+                "top-age-group-women-divison-ironman-tri_ironman:F70-74"
+            ]
+        }
     },
     {
         "date": "2025-11-23",
@@ -870,10 +2119,14 @@
         "slots": 100,
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-ironman:_ALL",
-                "women_cat": "top-age-group-women-divison-ironman:_ALL"
+                "men_cat": "top-age-group-men-division-ironman",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": ""
+        },
+        "age_group_categories": {
+            "men": [],
+            "women": []
         }
     },
     {
@@ -886,8 +2139,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-tri",
+                "women_cat": ""
             },
             "official_ag": {
                 "men": "",
@@ -895,7 +2148,11 @@
             }
         },
         "earliestStartTime": "1764506700",
-        "key": "IRM-VALDIVIA703-2025"
+        "key": "IRM-VALDIVIA703-2025",
+        "age_group_categories": {
+            "men": [],
+            "women": []
+        }
     },
     {
         "date": "2025-11-30",
@@ -907,8 +2164,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-tri_sprint",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": {
                 "men": "",
@@ -916,7 +2173,11 @@
             }
         },
         "earliestStartTime": "1764501300",
-        "key": "IRM-CARTAGENA703-2025"
+        "key": "IRM-CARTAGENA703-2025",
+        "age_group_categories": {
+            "men": [],
+            "women": []
+        }
     },
     {
         "date": "2025-11-30",
@@ -928,8 +2189,8 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman703",
+                "women_cat": "top-age-group-women-divison-ironman-tri_ironman"
             },
             "official_ag": {
                 "men": "",
@@ -937,7 +2198,11 @@
             }
         },
         "earliestStartTime": "1764491400",
-        "key": "IRM-ARACAJU-SERGIPE703-2025"
+        "key": "IRM-ARACAJU-SERGIPE703-2025",
+        "age_group_categories": {
+            "men": [],
+            "women": []
+        }
     },
     {
         "date": "2025-12-07",
@@ -966,13 +2231,19 @@
         },
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-men-division-703-ironman703:_ALL",
-                "women_cat": "top-age-group-women-division-703-ironman703:_ALL"
+                "men_cat": "top-age-group-men-division-ironman-ironman703",
+                "women_cat": "top-age-group-women-division-703-ironman-ironman703"
             },
             "official_ag": {
                 "men": "",
                 "women": ""
             }
+        },
+        "split": "FINISH-703",
+        "start_split": "START-703",
+        "age_group_categories": {
+            "men": [],
+            "women": []
         }
     },
     {
