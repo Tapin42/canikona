@@ -304,6 +304,9 @@ def annotate_slot_allocation(results_list, race_obj, selected_gender):
         dynamic = race_obj.get('dynamic_slots') or compute_dynamic_slots(race_obj)
         if dynamic and selected_gender in dynamic:
             total_slots = int(dynamic[selected_gender]['total_slots'])
+            # Cap pool qualifiers to computed performance pool size to avoid
+            # over-highlighting before all AG winners finish.
+            pool_cap = int(dynamic[selected_gender].get('pool_slots', 0))
         else:
             # If dynamic not ready yet, skip annotation
             return results_list
@@ -324,6 +327,14 @@ def annotate_slot_allocation(results_list, race_obj, selected_gender):
             winners_by_ag.add(a.get('age_group'))
 
     remaining = max(0, total_slots - len(winners_by_ag))
+    # For split-dynamic, do not mark more pool qualifiers than the computed
+    # performance pool size, even if not all AG winners have finished yet.
+    if policy_local == 'split-dynamic':
+        try:
+            # pool_cap was set in the split-dynamic branch above
+            remaining = min(remaining, pool_cap)
+        except Exception:
+            pass
     if remaining == 0:
         return results_list
 
