@@ -61,6 +61,36 @@ export CACHE_FRESHNESS_SECONDS=60
 
 Implementation lives in `parse_live_data.get_processed_results_cached` and `cache_utils.py`.
 
+## 🌀 Dynamic Slot Allocation Persistence
+
+For races using the **split-dynamic** slot policy (post-announcement 140.6 gender split), the app computes slot distribution after starter counts stabilize (1 hour after earliest start). To avoid recomputing on every restart and to preserve historical allocation context, dynamic data is persisted to disk:
+
+File: `data/dynamic_slots.json`
+
+Schema:
+```jsonc
+{
+   "RACEKEY": {
+      "dynamic_slots": {
+         "men": { "winner_slots": 10, "pool_slots": 25, "total_slots": 35 },
+         "women": { "winner_slots": 9, "pool_slots": 21, "total_slots": 30 },
+         "computed_at": 1731686400
+      },
+      "started_counts": { "men": 1780, "women": 1450, "computed_at": 1731686400 }
+   }
+}
+```
+
+Behavior:
+* Starter counts are persisted as soon as they are successfully fetched.
+* Dynamic slot allocation is persisted immediately after computation.
+* On app startup, races are hydrated with any saved `started_counts` and `dynamic_slots` values so UI annotations are instantly available.
+* Writes use an atomic temp-file + rename strategy to prevent partial JSON corruption.
+
+Implementation: `parse_live_data.py` (`persist_dynamic_state`, `hydrate_race_dynamic`) and `cache_utils.write_json_atomic`.
+
+If you need to reset dynamic data (e.g., for a recomputation test), delete `data/dynamic_slots.json` and restart the app. It will be recreated automatically.
+
 ## 📐 Versioned Age-Graded (AG) adjustments
 
 AG factors are now versioned with effective dates so historic races always use the same set they were originally processed with.

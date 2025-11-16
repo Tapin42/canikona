@@ -1,0 +1,106 @@
+{% if slot_summary %}
+{% set collapsed_default = (slot_summary.policy != 'split-dynamic' or not slot_summary.waiting) %}
+<div class="slot-summary {{ 'collapsed' if collapsed_default }}" id="slot-summary-panel">
+  <div class="slot-summary-header" id="slot-summary-toggle">
+    <div class="slot-summary-title">
+      <span class="slot-summary-toggle-icon">▶</span>
+      Slot Allocation
+      <div class="slot-summary-mini">
+        {% if slot_summary.mode == 'combined' %}
+          <span>Combined {{ slot_summary.total_slots }}</span>
+        {% elif slot_summary.mode == 'split' %}
+          {% set men_total = slot_summary.per_gender.men.total_slots if slot_summary.per_gender.men.total_slots is not none else '—' %}
+          {% set women_total = slot_summary.per_gender.women.total_slots if slot_summary.per_gender.women.total_slots is not none else '—' %}
+          <span>Men {{ men_total }}</span>
+          <span>Women {{ women_total }}</span>
+          {% if slot_summary.combined and slot_summary.combined.total_slots is not none %}
+            <span>Total {{ slot_summary.combined.total_slots }}</span>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+    {% if slot_summary.mode == 'split' %}
+      {% if slot_summary.waiting %}
+        <span class="slot-summary-status-pill waiting">Waiting</span>
+      {% else %}
+        <span class="slot-summary-status-pill ready">Ready</span>
+      {% endif %}
+    {% else %}
+      <span class="slot-summary-status-pill ready">Fixed</span>
+    {% endif %}
+  </div>
+  <div class="slot-summary-content">
+    {% if slot_summary.policy == 'combined-fixed' and slot_summary.mode == 'combined' %}
+      <div class="slot-stats combined">
+        <div><span class="label">Total slots:</span> <span class="value">{{ slot_summary.total_slots }}</span></div>
+        <div><span class="label">AG winner slots:</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.winner_slots }}</span></div>
+        <div><span class="label">Performance pool slots:</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.pool_slots }}</span></div>
+      </div>
+    {% elif slot_summary.mode == 'split' %}
+      {% if slot_summary.waiting %}
+        <div class="slot-stats combined">
+          <div><span class="label">Total slots (combined):</span> <span class="value">{{ slot_summary.combined.total_slots }}</span></div>
+          <div><span class="label">AG winner slots (combined):</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.combined.winner_slots }}</span></div>
+          <div><span class="label">Performance pool (combined):</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.combined.pool_slots }}</span></div>
+        </div>
+        <div class="slot-waiting">
+          Waiting for starter counts to stabilize (about 1 hour after the earliest start) before showing per‑gender performance pool allocation and totals.
+        </div>
+        <div class="slot-stats per-gender">
+          <div class="gender-col">
+            <div class="gender-title">Men</div>
+            <div><span class="label">AG winner slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.men.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.men.winner_slots == 0 else slot_summary.per_gender.men.winner_slots }}</span></div>
+            <div><span class="label">Performance pool slots:</span> <span class="value pending">Pending</span></div>
+            <div><span class="label">Total slots:</span> <span class="value pending">Pending</span></div>
+          </div>
+          <div class="gender-col">
+            <div class="gender-title">Women</div>
+            <div><span class="label">AG winner slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.women.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.women.winner_slots == 0 else slot_summary.per_gender.women.winner_slots }}</span></div>
+            <div><span class="label">Performance pool slots:</span> <span class="value pending">Pending</span></div>
+            <div><span class="label">Total slots:</span> <span class="value pending">Pending</span></div>
+          </div>
+        </div>
+      {% else %}
+        <div class="slot-stats per-gender">
+          <div class="gender-col">
+            <div class="gender-title">Men</div>
+            <div><span class="label">AG winner slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.men.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.men.winner_slots == 0 else slot_summary.per_gender.men.winner_slots }}</span></div>
+            <div><span class="label">Performance pool slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.men.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.men.winner_slots == 0 else slot_summary.per_gender.men.pool_slots }}</span></div>
+            <div><span class="label">Total slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.men.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.men.winner_slots == 0 else slot_summary.per_gender.men.total_slots }}</span></div>
+          </div>
+          <div class="gender-col">
+            <div class="gender-title">Women</div>
+            <div><span class="label">AG winner slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.women.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.women.winner_slots == 0 else slot_summary.per_gender.women.winner_slots }}</span></div>
+            <div><span class="label">Performance pool slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.women.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.women.winner_slots == 0 else slot_summary.per_gender.women.pool_slots }}</span></div>
+            <div><span class="label">Total slots:</span> <span class="value {{ 'pending' if slot_summary.per_gender.women.winner_slots == 0 }}">{{ 'Pending' if slot_summary.per_gender.women.winner_slots == 0 else slot_summary.per_gender.women.total_slots }}</span></div>
+          </div>
+        </div>
+        <div class="slot-stats combined">
+          <div><span class="label">Total slots (combined):</span> <span class="value">{{ slot_summary.combined.total_slots }}</span></div>
+          <div><span class="label">AG winner slots (combined):</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.combined.winner_slots }}</span></div>
+          <div><span class="label">Performance pool (combined):</span> <span class="value">{{ '?' if slot_summary.incomplete else slot_summary.combined.pool_slots }}</span></div>
+        </div>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+<script>
+(function(){
+  const slotPanel = document.getElementById('slot-summary-panel');
+  const slotToggle = document.getElementById('slot-summary-toggle');
+  if (slotPanel && slotToggle) {
+    try {
+      const key = 'canikona:slotSummary:collapsed';
+      const stored = localStorage.getItem(key);
+      if (stored === 'true') { slotPanel.classList.add('collapsed'); }
+      else if (stored === 'false') { slotPanel.classList.remove('collapsed'); }
+      slotToggle.addEventListener('click', () => {
+        slotPanel.classList.toggle('collapsed');
+        const collapsed = slotPanel.classList.contains('collapsed');
+        try { localStorage.setItem(key, collapsed ? 'true' : 'false'); } catch (_) {}
+      });
+    } catch (e) {}
+  }
+})();
+</script>
+{% endif %}

@@ -11,6 +11,12 @@
       "distance": "140.6",
       "effective_from": "1970-01-01",
       "file": "adjustments/140.6/baseline.json"
+    },
+    {
+      "id": "1406-gender-split-2025-11-14",
+      "distance": "140.6",
+      "effective_from": "2025-11-14",
+      "file": "adjustments/140.6/gender_split_2025-11-14.json"
     }
   ]
 }

@@ -685,6 +685,118 @@ form {
     display: block !important;
 }
 
+/* Slot summary panel */
+.slot-summary {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 10px 0 15px 0;
+}
+.slot-summary h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.1em;
+    color: #2c3e50;
+}
+.slot-summary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    user-select: none;
+    margin: -4px -4px 8px -4px;
+    padding: 4px;
+    border-radius: 6px;
+}
+.slot-summary-header:hover {
+    background: #f3f4f6;
+}
+.slot-summary-title {
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.slot-summary-toggle-icon {
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #374151;
+    transition: transform .2s ease;
+}
+.slot-summary .slot-summary-toggle-icon { transform: rotate(90deg); }
+.slot-summary.collapsed .slot-summary-toggle-icon { transform: rotate(0deg); }
+.slot-summary-content { margin-top: 4px; }
+.slot-summary.collapsed .slot-summary-content { display: none; }
+.slot-summary-mini {
+    font-size: 0.75rem;
+    color: #4b5563;
+    font-weight: 600;
+    display: none;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.slot-summary.collapsed .slot-summary-mini { display: flex; }
+.slot-summary-mini span { white-space: nowrap; }
+.slot-summary-status-pill {
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+    padding: 2px 6px;
+    border-radius: 10px;
+    background: #eef2f7;
+    color: #374151;
+    text-transform: uppercase;
+}
+.slot-summary-status-pill.waiting { background: #fff3cd; color: #8a6d3b; }
+.slot-summary-status-pill.ready { background: #eaf7ea; color: #1b5e20; }
+.slot-stats {
+    display: grid;
+    gap: 8px 16px;
+}
+.slot-stats.combined {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.slot-stats.per-gender {
+    grid-template-columns: 1fr 1fr;
+}
+.slot-stats .label {
+    color: #6b7280;
+    margin-right: 6px;
+}
+.slot-stats .value {
+    font-weight: 700;
+    color: #111827;
+}
+.slot-stats .value.pending {
+    color: #9ca3af;
+    font-style: italic;
+}
+.gender-col {
+    background: #f9fafb;
+    border: 1px solid #eef2f7;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+.gender-title {
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 6px;
+}
+.slot-waiting {
+    margin: 8px 0 10px 0;
+    padding: 8px 12px;
+    background: #fff9e6;
+    border: 1px solid #ffe8a3;
+    border-radius: 6px;
+    color: #8a6d3b;
+}
+
 /* Responsive design for rolldown columns */
 @media (max-width: 768px) {
     .rolldown-columns {

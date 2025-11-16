@@ -3072,8 +3072,8 @@
     "ag_place": 24
   },
   {
-    "bib": "751",
-    "name": "Aldo Schievenini Zanatta",
+    "bib": "N/A",
+    "name": "anonymous",
     "age_group": "M55-59",
     "finish_time": "07:34:04",
     "finish_time_seconds": 27244,
@@ -3081,7 +3081,7 @@
     "graded_time_seconds": 23334.486,
     "graded_time": "06:28:54",
     "unique_key": [
-      "Aldo Schievenini Zanatta",
+      "anonymous",
       "07:34:04"
     ],
     "graded_place": 193,
