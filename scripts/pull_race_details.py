@@ -122,14 +122,38 @@ def extract_official_ag_urls(conf_data, race_distance):
     if race_distance == "140.6":
         if not items:
             return ""
+        # Try gendered first (some full-distance events publish separate men/women rosters)
+        men_full = [it for it in items if any(k in it['name'] for k in ['Men', 'Male'])]
+        women_full = [it for it in items if any(k in it['name'] for k in ['Women', 'Female'])]
+
+        def choose_for_full(cands, label):
+            if not cands:
+                return ""
+            if len(cands) == 1:
+                return cands[0]['link']
+            # Prefer entries that do NOT indicate 70.3 in name or link
+            filtered = [it for it in cands if ('70.3' not in it['name'] and '70.3' not in it['link'] and '703' not in it['link'])]
+            if len(filtered) == 1:
+                return filtered[0]['link']
+            # Secondary preference: links that contain 'IRONMAN'
+            prefer_ironman = [it for it in filtered if 'IRONMAN' in it['link']]
+            if len(prefer_ironman) == 1:
+                return prefer_ironman[0]['link']
+            print(f"  WARNING: Multiple official AG URLs found for {label} in 140.6 race! This requires manual intervention.")
+            return ""
+
+        men_url = choose_for_full(men_full, 'Men')
+        women_url = choose_for_full(women_full, 'Women')
+        if men_url or women_url:
+            return {"men": men_url, "women": women_url}
+
+        # Fallback to a single combined link
         if len(items) == 1:
             return items[0]["link"]
 
-        # Disambiguate: prefer entries without 70.3 markers in name or link
         filtered = [it for it in items if ('70.3' not in it['name'] and '70.3' not in it['link'] and '703' not in it['link'])]
         if len(filtered) == 1:
             return filtered[0]['link']
-        # Secondary preference: links that contain 'IRONMAN' (common full-distance suffix)
         prefer_ironman = [it for it in filtered if 'IRONMAN' in it['link']]
         if len(prefer_ironman) == 1:
             return prefer_ironman[0]['link']
@@ -390,9 +414,14 @@ def has_official_ag_results(race, conf_official_ag):
 
     # For 140.6 races
     elif race.get('distance') == "140.6":
+        # Accept either a single URL (str) or gendered dict with at least one populated URL
         if isinstance(race_official_ag, str) and race_official_ag:
             return True
+        if isinstance(race_official_ag, dict) and (race_official_ag.get('men') or race_official_ag.get('women')):
+            return True
         if isinstance(conf_official_ag, str) and conf_official_ag:
+            return True
+        if isinstance(conf_official_ag, dict) and (conf_official_ag.get('men') or conf_official_ag.get('women')):
             return True
 
     return False
@@ -682,11 +711,24 @@ def main():
         # Check if official_ag needs updating
         official_ag_changed = False
         if race_distance == "140.6":
-            # For 140.6 races, compare single URL
-            current_ag_url = current_official_ag if isinstance(current_official_ag, str) else ""
-            if new_official_ag != current_ag_url and new_official_ag:
-                official_ag_changed = True
-                print(f"  Official AG URL changed: '{current_ag_url}' -> '{new_official_ag}'")
+            # For 140.6 races, handle either single URL or gendered dict
+            if isinstance(new_official_ag, dict):
+                cur_men = current_official_ag.get('men', '') if isinstance(current_official_ag, dict) else (current_official_ag if isinstance(current_official_ag, str) else '')
+                cur_women = current_official_ag.get('women', '') if isinstance(current_official_ag, dict) else ''
+                new_men = new_official_ag.get('men', '')
+                new_women = new_official_ag.get('women', '')
+                if ((new_men and new_men != cur_men) or (new_women and new_women != cur_women)):
+                    official_ag_changed = True
+                    print(f"  Official AG URLs changed (140.6, gendered):")
+                    if new_men and new_men != cur_men:
+                        print(f"    Men: '{cur_men}' -> '{new_men}'")
+                    if new_women and new_women != cur_women:
+                        print(f"    Women: '{cur_women}' -> '{new_women}'")
+            elif isinstance(new_official_ag, str) and new_official_ag:
+                current_ag_url = current_official_ag if isinstance(current_official_ag, str) else ''
+                if new_official_ag != current_ag_url:
+                    official_ag_changed = True
+                    print(f"  Official AG URL changed: '{current_ag_url}' -> '{new_official_ag}'")
         elif race_distance == "70.3":
             # For 70.3 races, compare men and women URLs
             current_men_ag = current_official_ag.get('men', '') if isinstance(current_official_ag, dict) else ""

@@ -359,11 +359,15 @@ def display_results(race_name, data_source, gender=None):
 
     if data_source == 'official_ag':
         if 'official_ag' in race.get('results_urls', {}):
-            if race['distance'] == '70.3' and gender:
-                iframe_url = race['results_urls']['official_ag'].get(gender)
+            official = race['results_urls']['official_ag']
+            if race['distance'] == '70.3' and gender and isinstance(official, dict):
+                iframe_url = official.get(gender) or ""
             elif race['distance'] == '140.6':
-                iframe_url = race['results_urls']['official_ag']
-            coming_soon = iframe_url != ""
+                if isinstance(official, dict) and gender:
+                    iframe_url = official.get(gender) or ""
+                elif isinstance(official, str):
+                    iframe_url = official
+            coming_soon = bool(iframe_url)
 
     # Provide slot summary on official results pages as well
     slot_summary = compute_slot_summary(race, gender) if race else None

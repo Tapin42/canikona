@@ -1989,15 +1989,31 @@
         "slots": 40,
         "results_urls": {
             "live": {
-                "men_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL",
+                "men_cat": "top-age-group-men-division-ironman:_ALL",
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
-            "official_ag": ""
+            "official_ag": {
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Arizona_Ironman_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%20Arizona_Ironman_Women.html"
+            }
         },
         "earliestStartTime": "1763300700",
         "key": "IRM-ARIZONA-2025",
         "age_group_categories": {
-            "men": [],
+            "men": [
+                "top-age-group-men-division-ironman:M18-24",
+                "top-age-group-men-division-ironman:M25-29",
+                "top-age-group-men-division-ironman:M30-34",
+                "top-age-group-men-division-ironman:M35-39",
+                "top-age-group-men-division-ironman:M40-44",
+                "top-age-group-men-division-ironman:M45-49",
+                "top-age-group-men-division-ironman:M50-54",
+                "top-age-group-men-division-ironman:M55-59",
+                "top-age-group-men-division-ironman:M60-64",
+                "top-age-group-men-division-ironman:M65-69",
+                "top-age-group-men-division-ironman:M70-74",
+                "top-age-group-men-division-ironman:M80-84"
+            ],
             "women": [
                 "top-age-group-women-divison-ironman-tri_ironman:F18-24",
                 "top-age-group-women-divison-ironman-tri_ironman:F25-29",
@@ -2027,8 +2043,8 @@
                 "women_cat": "top-age-group-women-division-ironman-703-ironman703:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Phu%20Quoc_70.3%20Results_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Phu%20Quoc_70.3%20Results_Women.html"
             }
         },
         "earliestStartTime": "1763249400",
@@ -2077,8 +2093,8 @@
                 "women_cat": "top-age-group-women-divison-ironman-tri_ironman:_ALL"
             },
             "official_ag": {
-                "men": "",
-                "women": ""
+                "men": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Mossel%20Bay_70.3_Men.html",
+                "women": "https://cdn-1.sportstats.one/rolldown/IRONMAN%2070.3%20Mossel%20Bay_70.3_Women.html"
             }
         },
         "earliestStartTime": "1763266500",

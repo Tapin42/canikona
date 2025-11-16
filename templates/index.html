@@ -274,20 +274,35 @@
                 const isSplit = slotPolicy.startsWith('split');
                 const is703 = race.distance === '70.3';
 
-                // Get gender only for split policies
-                const gender = isSplit ? document.querySelector('input[name="gender"]:checked').value : null;
+                // Determine if gender selection should be enabled
+                const officialAg = race.results_urls?.official_ag;
+                const officialGendered = (
+                    source === 'official_ag' && race.distance === '140.6' &&
+                    typeof officialAg === 'object' && officialAg !== null && (
+                        (officialAg.men && officialAg.men.trim()) || (officialAg.women && officialAg.women.trim())
+                    )
+                );
+                const allowGender = isSplit || officialGendered;
 
-                if (isSplit) {
+                if (allowGender) {
                     genderDiv.classList.remove('disabled-controls');
                     genderRadios.forEach(radio => radio.disabled = false);
+                    // Ensure some gender is selected
+                    const checked = document.querySelector('input[name="gender"]:checked');
+                    if (!checked) {
+                        const menRadio = document.querySelector('input[name="gender"][value="men"]');
+                        if (menRadio) menRadio.checked = true;
+                    }
                 } else {
                     genderDiv.classList.add('disabled-controls');
                     genderRadios.forEach(radio => radio.disabled = true);
                 }
 
+                const gender = allowGender ? (document.querySelector('input[name="gender"]:checked')?.value || 'men') : null;
+
                 const urlFriendlyName = selectedRaceName.replace(/ /g, '_');
                 let urlPath = `/results/${urlFriendlyName}/${source}`;
-                if (isSplit) {
+                if (isSplit || officialGendered) {
                     urlPath += `/${gender}`;
                 }
                 window.history.pushState({}, '', urlPath);
@@ -300,7 +315,7 @@
                 showLoading();
 
                 // Refresh the slot summary fragment to reflect the newly selected race/gender
-                refreshSlotSummary(race, isSplit ? gender : null);
+                refreshSlotSummary(race, allowGender ? gender : null);
 
                 updateRolldownInfo(source, race);
 
@@ -318,12 +333,29 @@
                             messageArea.style.display = 'block';
                             messageArea.innerText = 'Coming Soon!';
                         }
-                    } else if (typeof url === 'string') {
-                        // Handle 140.6 race with single URL
-                        iframe.onload = hideLoading;
-                        iframe.src = url;
-                        iframe.style.display = 'block';
-                        messageArea.style.display = 'none';
+                    } else if (race.distance === '140.6') {
+                        // 140.6: can be single URL or gendered dict
+                        if (typeof url === 'object' && url !== null) {
+                            if (gender && url[gender] && url[gender] !== '') {
+                                iframe.onload = hideLoading;
+                                iframe.src = url[gender];
+                                iframe.style.display = 'block';
+                                messageArea.style.display = 'none';
+                            } else {
+                                iframe.style.display = 'none';
+                                messageArea.style.display = 'block';
+                                messageArea.innerText = 'Coming Soon!';
+                            }
+                        } else if (typeof url === 'string') {
+                            iframe.onload = hideLoading;
+                            iframe.src = url;
+                            iframe.style.display = 'block';
+                            messageArea.style.display = 'none';
+                        } else {
+                            iframe.style.display = 'none';
+                            messageArea.style.display = 'block';
+                            messageArea.innerText = 'Coming Soon!';
+                        }
                     } else {
                         iframe.style.display = 'none';
                         messageArea.style.display = 'block';
@@ -365,7 +397,13 @@
                         return Boolean((men && men.trim()) || (women && women.trim()));
                     }
                     const url = r.results_urls.official_ag;
-                    return typeof url === 'string' && Boolean(url.trim());
+                    if (typeof url === 'string') return Boolean(url.trim());
+                    if (typeof url === 'object' && url !== null) {
+                        const men = url.men ?? '';
+                        const women = url.women ?? '';
+                        return Boolean((men && men.trim()) || (women && women.trim()));
+                    }
+                    return false;
                 }
 
                 const hasOfficialAg = officialAvailable(race);
