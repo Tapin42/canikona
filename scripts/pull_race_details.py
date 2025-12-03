@@ -273,15 +273,15 @@ def get_race_conf_data(race_id, race_distance):
 
             # Prefer robust name-based detection for top-level overall categories
             name_lc = name_val.lower()
-            if name_lc.startswith('top-age-group-men') and name_val.endswith(':_ALL'):
+            if (name_lc.startswith('top-age-group-men') or name_lc.startswith('top-age-group-male')) and name_val.endswith(':_ALL'):
                 men_cats.append(name_val)
-            elif name_lc.startswith('top-age-group-women') and name_val.endswith(':_ALL'):
+            elif (name_lc.startswith('top-age-group-women') or name_lc.startswith('top-age-group-female')) and name_val.endswith(':_ALL'):
                 women_cats.append(name_val)
 
             # Collect AG lists per gender using resilient title/subtitle checks
-            if ('age group' in title_norm and 'men' in title_norm and subtitle_norm.upper().startswith('M')):
+            if ('age group' in title_norm and (('men' in title_norm) or ('male' in title_norm)) and subtitle_norm.upper().startswith('M')):
                 men_age_groups.append(name_val)
-            if ('age group' in title_norm and 'women' in title_norm and subtitle_norm.upper().startswith('F')):
+            if ('age group' in title_norm and (('women' in title_norm) or ('female' in title_norm)) and subtitle_norm.upper().startswith('F')):
                 women_age_groups.append(name_val)
 
         # Fallback: if no men/women overall found via name, try title/subtitle heuristic
@@ -295,9 +295,9 @@ def get_race_conf_data(race_id, race_distance):
                 subtitle_norm = (subtitle_raw or '').strip()
                 subtitle_norm_lc = subtitle_norm.lower()
                 is_overall = (subtitle_norm_lc == 'overall' or subtitle_norm == '' or 'overall' in subtitle_norm_lc)
-                if not men_cats and ('age group' in title_norm and 'men' in title_norm) and is_overall:
+                if not men_cats and ('age group' in title_norm and (('men' in title_norm) or ('male' in title_norm))) and is_overall:
                     men_cats.append(name_val)
-                if not women_cats and ('age group' in title_norm and 'women' in title_norm) and is_overall:
+                if not women_cats and ('age group' in title_norm and (('women' in title_norm) or ('female' in title_norm))) and is_overall:
                     women_cats.append(name_val)
 
         # Last resort: if still missing a gender after course filtering, search across all categories
@@ -305,7 +305,9 @@ def get_race_conf_data(race_id, race_distance):
             alt_men = []
             for c in all_categories:
                 name_val = c.get('name') or ''
-                if (name_val.lower().startswith('top-age-group-men') and name_val.endswith(':_ALL')):
+                name_lc = name_val.lower()
+                if (((name_lc.startswith('top-age-group-men') or name_lc.startswith('top-age-group-male'))
+                     and name_val.endswith(':_ALL'))):
                     alt_men.append(name_val)
             if len(alt_men) == 1:
                 men_cats = alt_men
@@ -313,7 +315,9 @@ def get_race_conf_data(race_id, race_distance):
             alt_women = []
             for c in all_categories:
                 name_val = c.get('name') or ''
-                if (name_val.lower().startswith('top-age-group-women') and name_val.endswith(':_ALL')):
+                name_lc = name_val.lower()
+                if (((name_lc.startswith('top-age-group-women') or name_lc.startswith('top-age-group-female'))
+                     and name_val.endswith(':_ALL'))):
                     alt_women.append(name_val)
             if len(alt_women) == 1:
                 women_cats = alt_women
