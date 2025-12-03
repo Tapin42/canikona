@@ -18,5 +18,25 @@
       "women": 347,
       "computed_at": 1763315364
     }
+  },
+  "IRM-COZUMEL-2025": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 13,
+        "pool_slots": 61,
+        "total_slots": 74
+      },
+      "women": {
+        "winner_slots": 12,
+        "pool_slots": 14,
+        "total_slots": 26
+      },
+      "computed_at": 1763904521
+    },
+    "started_counts": {
+      "men": 1277,
+      "women": 288,
+      "computed_at": 1763904521
+    }
   }
 }
