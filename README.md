@@ -61,6 +61,29 @@ export CACHE_FRESHNESS_SECONDS=60
 
 Implementation lives in `parse_live_data.get_processed_results_cached` and `cache_utils.py`.
 
+## 🔑 Populate RTRT keys and start times
+
+Some races in `races.json` may be missing the RTRT `key` and/or `earliestStartTime`. A helper script can infer likely keys from race names and validate them against the RTRT API. It will also backfill `earliestStartTime` for races that already have a key but are missing the time.
+
+Usage:
+
+```bash
+# Provide API credentials via environment variables
+export RTRT_APPID=your_app_id
+export RTRT_TOKEN=your_token
+
+# Dry-run (no file writes), shows what would be updated
+python scripts/update_rtrt_keys.py --dry-run
+
+# Apply updates to races.json (creates a timestamped backup in backup/)
+python scripts/update_rtrt_keys.py
+```
+
+Notes:
+- The script only touches entries missing `key` and/or `earliestStartTime`.
+- Key inference uses several normalized variants of the race name and tries both 140.6 and 70.3 forms as appropriate.
+- When a candidate matches an RTRT event with the same date, the script updates the race with the confirmed `key` and `earliestStartTime`.
+
 ## 🌀 Dynamic Slot Allocation Persistence
 
 For races using the **split-dynamic** slot policy (post-announcement 140.6 gender split), the app computes slot distribution after starter counts stabilize (1 hour after earliest start). To avoid recomputing on every restart and to preserve historical allocation context, dynamic data is persisted to disk:
