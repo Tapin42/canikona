@@ -109,7 +109,10 @@ def extract_official_ag_urls(conf_data, race_distance):
     Disambiguation case (multi-course): if multiple matches exist, prefer items whose name or link
     includes an indicator for the requested distance (70.3/703 for half; not-70.3 for full).
     """
-    info_array = conf_data.get('conf', {}).get('info', [])
+    # Some RTRT events return boolean false instead of arrays when unconfigured
+    info_array = conf_data.get('conf', {}).get('info') or []
+    if not isinstance(info_array, list):
+        info_array = []
 
     # Pre-collect items with Age Grad marker
     items = []
@@ -244,14 +247,20 @@ def get_race_conf_data(race_id, race_distance):
 
         target_course = choose_course_for_distance(conf_data, race_distance)
 
-        all_categories = conf_data.get('conf', {}).get('categories', [])
+        # categories may be boolean false for sparse events
+        all_categories = conf_data.get('conf', {}).get('categories') or []
+        if not isinstance(all_categories, list):
+            all_categories = []
         categories = list(all_categories)
         if target_course:
             categories = [c for c in categories if c.get('course') == target_course]
 
         conf_date = conf_data.get('conf', {}).get('date')
         conf_earliest_start = conf_data.get('conf', {}).get('earliestStartTime')
-        if conf_earliest_start is not None:
+        # Guard against boolean values and non-numeric strings
+        if isinstance(conf_earliest_start, bool):
+            conf_earliest_start = None
+        elif conf_earliest_start is not None:
             try:
                 conf_earliest_start = str(int(conf_earliest_start))
             except Exception:
@@ -339,7 +348,10 @@ def get_race_conf_data(race_id, race_distance):
         if not live_women_cat:
             print("  WARNING: /conf did not include a Top Age Group Overall category for WOMEN (setting women_cat to empty)")
 
-        point_order = conf_data.get('vconf', {}).get('pointorder', [])
+        # pointorder may be boolean false; coerce to list
+        point_order = conf_data.get('vconf', {}).get('pointorder') or []
+        if not isinstance(point_order, list):
+            point_order = []
         if target_course:
             point_order = [p for p in point_order if p.get('course') == target_course]
         finish_points = [p.get('name') for p in point_order if p.get('isFinish') == '1']
@@ -628,7 +640,11 @@ def main():
 
     # Process each upcoming race
     for race in upcoming_races:
-        race_id = race.get('key', race['name'])  # Use key if available, otherwise name
+        # Require a valid RTRT key; do not fall back to using the race name
+        race_id = race.get('key')
+        if not race_id:
+            print(f"\nWARNING: Skipping {race.get('name', '<unknown>')} — missing RTRT key; not making outbound requests.")
+            continue
         print(f"\nProcessing {race['name']} (ID: {race_id})...")
 
         # Get current live categories from race data
