@@ -2595,16 +2595,28 @@
         }
     },
     {
-        "date": "2026-02-22",
+        "date": "2026-02-26",
         "name": "Ironman 70.3 Colombo",
         "distance": "70.3",
         "slots": {
             "men": 25,
             "women": 25
-        }
+        },
+        "key": "IRM-COLOMBO703-2026",
+        "results_urls": {
+            "live": {
+                "men_cat": "",
+                "women_cat": ""
+            }
+        },
+        "age_group_categories": {
+            "men": [],
+            "women": []
+        },
+        "earliestStartTime": "1772066700"
     },
     {
-        "date": "2026-02-22",
+        "date": "2026-02-26",
         "name": "Ironman 70.3 San Salvador",
         "distance": "70.3",
         "slots": {
