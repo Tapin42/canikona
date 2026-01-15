@@ -111,7 +111,11 @@ def canon_tokens(name: str) -> List[str]:
     base = re.sub(r"\bASIA\s*PACIFIC\b|\bAPAC\b", " ", base)
     base = re.sub(r"\bMIDDLE EAST CHAMPIONSHIP\b|\bMEC\b", " ", base)
     base = re.sub(r"\bAFRICA CHAMPIONSHIP\b|\bAC\b", " ", base)
-    base = base.replace("703", " ")  # keep numeric marker separate
+    # Remove distance markers (distance is a separate field in races.json)
+    # Handle common spellings like "70.3", "70 3", "140.6", etc.
+    base = re.sub(r"\b70\W*3\b", " ", base)
+    base = re.sub(r"\b140\W*6\b", " ", base)
+    base = base.replace("703", " ")
     base = re.sub(r"[\u2019'`’]", " ", base)  # apostrophes
     base = re.sub(r"[\./]", " ", base)
     base = re.sub(r"[()&]", " ", base)
@@ -184,6 +188,90 @@ def rtrt_get_event(appid: str, token: str, key: str) -> Optional[Dict]:
         return None
 
 
+def rtrt_list_events_index(
+    appid: str,
+    token: str,
+    *,
+    fields: str = "name,date,desc,earliestStartTime,url",
+    max_events: int = 200,
+) -> List[Dict]:
+    """Fetch a lightweight events index from RTRT.
+
+    This endpoint can expose event keys even when full event details for a key
+    are missing or not yet published.
+    """
+    url = "https://api.rtrt.me/events"
+    try:
+        r = requests.get(
+            url,
+            params={
+                "appid": appid,
+                "token": token,
+                "fields": fields,
+                "max": max_events,
+            },
+            timeout=20,
+        )
+        if r.status_code != 200:
+            return []
+        payload = r.json()
+    except (requests.RequestException, ValueError):
+        return []
+
+    if isinstance(payload, list):
+        return [e for e in payload if isinstance(e, dict)]
+    if isinstance(payload, dict):
+        # observed patterns in APIs: {data:[...]}, {events:[...]}, {items:[...]}
+        for k in ("list", "data", "events", "items"):
+            v = payload.get(k)
+            if isinstance(v, list):
+                return [e for e in v if isinstance(e, dict)]
+    return []
+
+
+def event_key_from_index_row(event: Dict) -> Optional[str]:
+    for k in ("key", "eventKey", "event_key", "id", "eventId", "name"):
+        v = event.get(k)
+        if isinstance(v, str) and v:
+            # In the /events index, `name` is commonly the event key (e.g. IRM-FOO-2026)
+            if k == "name":
+                if v.upper().startswith("IRM-"):
+                    return v
+                # If `name` isn't a key-looking string, ignore it.
+                continue
+            return v
+
+    # Try to infer from URLs like https://api.rtrt.me/events/irm-foo-2026
+    for k in ("url", "href", "self"):
+        v = event.get(k)
+        if isinstance(v, str) and v:
+            m = re.search(r"/events/([^/?#]+)", v)
+            if m:
+                return m.group(1)
+    return None
+
+
+def event_distance_from_key_or_name(key: Optional[str], name: str) -> Optional[str]:
+    k = (key or "").upper()
+    n = name.upper()
+    if "703" in k or "70.3" in n or "70 3" in n:
+        return "70.3"
+    if "140.6" in n or "140 6" in n:
+        return "140.6"
+    return None
+
+
+def build_events_by_date(events: List[Dict]) -> Dict[str, List[Dict]]:
+    out: Dict[str, List[Dict]] = {}
+    for e in events:
+        date = e.get("date") or e.get("startDate")
+        if not isinstance(date, str) or not date:
+            continue
+        day = date[:10]
+        out.setdefault(day, []).append(e)
+    return out
+
+
 def dates_match(race_date: str, event: Dict) -> bool:
     # RTRT event JSON has fields like 'date' or nested; accept prefix match
     evt_date = event.get("date") or event.get("startDate") or ""
@@ -191,6 +279,17 @@ def dates_match(race_date: str, event: Dict) -> bool:
 
 
 def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = False) -> Tuple[int, int]:
+    # Fetch lightweight index once; used as a fallback to assign keys even when
+    # full event details for a key are missing.
+    events_index = rtrt_list_events_index(appid, token)
+    events_by_date = build_events_by_date(events_index)
+
+    events_by_key: Dict[str, Dict] = {}
+    for e in events_index:
+        k = event_key_from_index_row(e)
+        if isinstance(k, str) and k:
+            events_by_key[k.upper()] = e
+
     updated = 0
     checked = 0
     for race in races:
@@ -207,6 +306,71 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
             continue
 
         checked += 1
+
+        # If key is missing, try to assign it from the events index first.
+        # This can succeed even when /events/{key} is unavailable.
+        if not has_key:
+            day_events = events_by_date.get(date, [])
+
+            # Prefer exact candidate match against keys in the index.
+            day_keys: Dict[str, Dict] = {}
+            for e in day_events:
+                k = event_key_from_index_row(e)
+                if isinstance(k, str) and k:
+                    day_keys[k.upper()] = e
+
+            matched_row: Optional[Dict] = None
+            matched_key: Optional[str] = None
+            for cand in make_candidate_keys(name, year, distance):
+                row = day_keys.get(cand.upper())
+                if row:
+                    matched_row = row
+                    matched_key = cand
+                    break
+
+            # If the race date in races.json doesn't match RTRT's index date,
+            # still allow exact candidate-key matches anywhere in the index.
+            if not matched_key:
+                for cand in make_candidate_keys(name, year, distance):
+                    row = events_by_key.get(cand.upper())
+                    if row:
+                        matched_row = row
+                        matched_key = cand
+                        break
+
+            # Fallback: fuzzy match by normalized name variants (only if unique).
+            if not matched_key and day_events:
+                race_variants = set(build_name_variants(name))
+                candidates: List[Tuple[str, Dict]] = []
+                for e in day_events:
+                    ek = event_key_from_index_row(e)
+                    # In the /events index, `desc` is the human-readable event name.
+                    en = e.get("desc") or e.get("eventName") or e.get("description") or ""
+                    if not isinstance(en, str):
+                        en = ""
+                    if not isinstance(ek, str) or not ek:
+                        continue
+                    ed = event_distance_from_key_or_name(ek, en)
+                    if ed and str(ed) != str(distance):
+                        continue
+                    ev_variants = set(build_name_variants(en))
+                    if race_variants.intersection(ev_variants):
+                        candidates.append((ek, e))
+
+                if len(candidates) == 1:
+                    matched_key, matched_row = candidates[0]
+
+            if matched_key:
+                race["key"] = matched_key
+                has_key = True
+                if not has_time and matched_row:
+                    est = matched_row.get("earliestStartTime") or matched_row.get("startTime")
+                    if est:
+                        race["earliestStartTime"] = str(est)
+                        has_time = True
+                updated += 1
+
+        # If we still don't have a key, fall through to the older inference+validation.
 
         # If key exists but time missing, try to fetch once
         if has_key and not has_time:
