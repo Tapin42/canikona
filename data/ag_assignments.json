@@ -157,5 +157,10 @@
   },
   "IRM-FLORIDA703-2025": {
     "adjustments_version": "703-baseline"
+  },
+  "IRM-PUCON703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   }
 }
