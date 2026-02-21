@@ -162,5 +162,20 @@
     "per_distance": {
       "70.3": "703-baseline"
     }
+  },
+  "IRM-MUSCAT703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-COLOMBO703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-SANSALVADOR703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   }
 }
