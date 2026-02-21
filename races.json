@@ -2682,8 +2682,8 @@
         "key": "IRM-COLOMBO703-2026",
         "results_urls": {
             "live": {
-                "men_cat": "",
-                "women_cat": ""
+                "men_cat": "top-males-division-ironman-703-ironman703_noswim:_ALL",
+                "women_cat": "top-females-division-ironman-703-ironman703_noswim:_ALL"
             },
             "official_ag": {
                 "men": "https://cdn-1.sportstats.one/rolldown/Ironman%2070.3%20Colombo_70.3_Men.html",
@@ -2691,8 +2691,33 @@
             }
         },
         "age_group_categories": {
-            "men": [],
-            "women": []
+            "men": [
+                "top-males-division-ironman-703-ironman703_noswim:M18-24",
+                "top-males-division-ironman-703-ironman703_noswim:M25-29",
+                "top-males-division-ironman-703-ironman703_noswim:M30-34",
+                "top-males-division-ironman-703-ironman703_noswim:M35-39",
+                "top-males-division-ironman-703-ironman703_noswim:M40-44",
+                "top-males-division-ironman-703-ironman703_noswim:M45-49",
+                "top-males-division-ironman-703-ironman703_noswim:M50-54",
+                "top-males-division-ironman-703-ironman703_noswim:M55-59",
+                "top-males-division-ironman-703-ironman703_noswim:M60-64",
+                "top-males-division-ironman-703-ironman703_noswim:M65-69",
+                "top-males-division-ironman-703-ironman703_noswim:M70-74"
+            ],
+            "women": [
+                "top-females-division-ironman-703-ironman703_noswim:F18-24",
+                "top-females-division-ironman-703-ironman703_noswim:F25-29",
+                "top-females-division-ironman-703-ironman703_noswim:F30-34",
+                "top-females-division-ironman-703-ironman703_noswim:F35-39",
+                "top-females-division-ironman-703-ironman703_noswim:F40-44",
+                "top-females-division-ironman-703-ironman703_noswim:F45-49",
+                "top-females-division-ironman-703-ironman703_noswim:F50-54",
+                "top-females-division-ironman-703-ironman703_noswim:F55-59",
+                "top-females-division-ironman-703-ironman703_noswim:F60-64",
+                "top-females-division-ironman-703-ironman703_noswim:F65-69",
+                "top-females-division-ironman-703-ironman703_noswim:F70-74",
+                "top-females-division-ironman-703-ironman703_noswim:F75-79"
+            ]
         },
         "earliestStartTime": "1771721100",
         "split": "FINISH-I",
