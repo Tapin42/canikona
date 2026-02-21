@@ -32,6 +32,34 @@ import unicodedata
 
 import requests
 
+# ANSI SGR codes (only used when stdout is a TTY)
+SGR = {
+    "reset": "\033[0m",
+    "bold": "\033[1m",
+    "dim": "\033[2m",
+    "yellow": "\033[33m",
+    "green": "\033[32m",
+    "cyan": "\033[36m",
+}
+
+
+def _use_color() -> bool:
+    return hasattr(sys.stdout, "isatty") and sys.stdout.isatty()
+
+
+def _fmt(text: str, *codes: str) -> str:
+    if not _use_color():
+        return text
+    return "".join(SGR.get(c, "") for c in codes) + text + SGR["reset"]
+
+
+# Unicode box-drawing for tables
+_BOX = {
+    "tl": "┌", "tr": "┐", "bl": "└", "br": "┘",
+    "hl": "─", "vl": "│",
+    "tt": "┬", "bt": "┴", "lt": "├", "rt": "┤", "ct": "┼",
+}
+
 
 ROOT = Path(__file__).resolve().parents[1]
 RACES_PATH = ROOT / "races.json"
@@ -60,8 +88,8 @@ def save_races(path: Path, races: List[Dict]) -> None:
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     ts = int(time.time())
     backup_path = BACKUP_DIR / f"races.json.{ts}"
-    backup_path.write_text(json.dumps(load_races(path), ensure_ascii=False, indent=2))
-    path.write_text(json.dumps(races, ensure_ascii=False, indent=2))
+    backup_path.write_text(json.dumps(load_races(path), ensure_ascii=False, indent=4))
+    path.write_text(json.dumps(races, ensure_ascii=False, indent=4))
 
 
 def strip_accents(s: str) -> str:
@@ -148,6 +176,14 @@ def build_name_variants(name: str) -> List[str]:
     if len(tokens) >= 2:
         variants.append("".join(tokens[-2:]))
         variants.append("-".join(tokens[-2:]))
+    # First token is often the main location (e.g. Texas, Wisconsin);
+    # RTRT keys commonly use just the location, e.g. IRM-TEXAS-2026
+    if len(tokens) >= 2:
+        variants.append(tokens[0])
+    # First two tokens handle two-word locations (e.g. South Africa -> SOUTHAFRICA)
+    if len(tokens) >= 2:
+        variants.append("".join(tokens[:2]))
+        variants.append("-".join(tokens[:2]))
     # Deduplicate while preserving order
     seen = set()
     out = []
@@ -188,45 +224,93 @@ def rtrt_get_event(appid: str, token: str, key: str) -> Optional[Dict]:
         return None
 
 
-def rtrt_list_events_index(
-    appid: str,
-    token: str,
-    *,
-    fields: str = "name,date,desc,earliestStartTime,url",
-    max_events: int = 200,
-) -> List[Dict]:
-    """Fetch a lightweight events index from RTRT.
-
-    This endpoint can expose event keys even when full event details for a key
-    are missing or not yet published.
-    """
-    url = "https://api.rtrt.me/events"
-    try:
-        r = requests.get(
-            url,
-            params={
-                "appid": appid,
-                "token": token,
-                "fields": fields,
-                "max": max_events,
-            },
-            timeout=20,
-        )
-        if r.status_code != 200:
-            return []
-        payload = r.json()
-    except (requests.RequestException, ValueError):
-        return []
-
+def _extract_events_list(payload) -> List[Dict]:
+    """Extract event list from API response payload."""
     if isinstance(payload, list):
         return [e for e in payload if isinstance(e, dict)]
     if isinstance(payload, dict):
-        # observed patterns in APIs: {data:[...]}, {events:[...]}, {items:[...]}
         for k in ("list", "data", "events", "items"):
             v = payload.get(k)
             if isinstance(v, list):
                 return [e for e in v if isinstance(e, dict)]
     return []
+
+
+def _event_date_in_past(event: Dict, today: str) -> bool:
+    """Return True if the event's date is strictly before today."""
+    evt_date = event.get("date") or event.get("startDate")
+    if not isinstance(evt_date, str) or len(evt_date) < 10:
+        return False
+    day = evt_date[:10]
+    return day < today
+
+
+def rtrt_list_events_index(
+    appid: str,
+    token: str,
+    *,
+    fields: str = "name,date,desc,earliestStartTime,url",
+    page_size: int = 50,
+) -> List[Dict]:
+    """Fetch a lightweight events index from RTRT with pagination.
+
+    This endpoint can expose event keys even when full event details for a key
+    are missing or not yet published.
+
+    The API returns events reverse-time sorted (newest first). We paginate with
+    a small page size and stop as soon as we see an event with a date in the
+    past, since we never need to process races that have already happened.
+    """
+    url = "https://api.rtrt.me/events"
+    today = datetime.now().strftime("%Y-%m-%d")
+    all_events: List[Dict] = []
+    next_start = 1
+    max_pages = 500  # safety limit
+
+    for _ in range(max_pages):
+        try:
+            r = requests.get(
+                url,
+                params={
+                    "appid": appid,
+                    "token": token,
+                    "fields": fields,
+                    "max": page_size,
+                    "start": next_start,
+                },
+                timeout=20,
+            )
+            if r.status_code != 200:
+                break
+            payload = r.json()
+        except (requests.RequestException, ValueError):
+            break
+
+        events = _extract_events_list(payload)
+        if not events:
+            break
+
+        info = payload.get("info", {}) if isinstance(payload, dict) else {}
+        try:
+            last_i = int(info.get("last", 0))
+        except (TypeError, ValueError):
+            last_i = 0
+
+        for e in events:
+            if _event_date_in_past(e, today):
+                # Reached past events; stop paginating. We don't need them.
+                return all_events
+            all_events.append(e)
+
+        # Check if we've reached the last page
+        window = last_i - next_start + 1 if last_i >= next_start else 0
+        if window < page_size:
+            break
+
+        next_start = last_i + 1
+        time.sleep(0.2)  # be polite to the API
+
+    return all_events
 
 
 def event_key_from_index_row(event: Dict) -> Optional[str]:
@@ -278,7 +362,7 @@ def dates_match(race_date: str, event: Dict) -> bool:
     return isinstance(evt_date, str) and evt_date.startswith(race_date)
 
 
-def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = False) -> Tuple[int, int]:
+def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = False) -> Tuple[int, int, List[Tuple[str, str, str]]]:
     # Fetch lightweight index once; used as a fallback to assign keys even when
     # full event details for a key are missing.
     events_index = rtrt_list_events_index(appid, token)
@@ -292,6 +376,7 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
 
     updated = 0
     checked = 0
+    newly_matched: List[Tuple[str, str, str]] = []  # (date, name, key)
     for race in races:
         date = race.get("date")
         name = race.get("name", "")
@@ -369,6 +454,7 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
                         race["earliestStartTime"] = str(est)
                         has_time = True
                 updated += 1
+                newly_matched.append((date or "", name, matched_key))
 
         # If we still don't have a key, fall through to the older inference+validation.
 
@@ -395,9 +481,50 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
             if est:
                 race["earliestStartTime"] = str(est)
             updated += 1
+            newly_matched.append((date or "", name, cand))
             break
 
-    return updated, checked
+    return updated, checked, newly_matched
+
+
+def _truncate(s: str, max_len: int) -> str:
+    """Truncate string with ellipsis if needed."""
+    s = str(s)
+    return (s[: max_len - 1] + "…") if len(s) > max_len else s
+
+
+def _print_table(
+    title: str,
+    headers: List[str],
+    rows: List[Tuple[str, ...]],
+    title_style: str = "bold",
+) -> None:
+    """Print a box-drawn table with optional ANSI styling."""
+    max_col = 52
+    widths = [min(len(h), max_col) for h in headers]
+    for row in rows:
+        for i, cell in enumerate(row):
+            if i < len(widths):
+                widths[i] = max(widths[i], min(len(str(cell)), max_col))
+    top = _BOX["tl"] + _BOX["tt"].join(_BOX["hl"] * (w + 2) for w in widths) + _BOX["tr"]
+    sep = _BOX["lt"] + _BOX["ct"].join(_BOX["hl"] * (w + 2) for w in widths) + _BOX["rt"]
+    bot = _BOX["bl"] + _BOX["bt"].join(_BOX["hl"] * (w + 2) for w in widths) + _BOX["br"]
+
+    def row_fmt(cells: Tuple[str, ...]) -> str:
+        parts = []
+        for i, c in enumerate(cells):
+            w = widths[i] if i < len(widths) else 10
+            parts.append(_truncate(c, w).ljust(w))
+        return _BOX["vl"] + _BOX["vl"].join(f" {p} " for p in parts) + _BOX["vl"]
+
+    print()
+    print(_fmt(title, title_style))
+    print(_fmt(top, "dim"))
+    print(_fmt(row_fmt(tuple(headers)), "dim", "bold"))
+    print(_fmt(sep, "dim"))
+    for r in rows:
+        print(row_fmt(r))
+    print(_fmt(bot, "dim"))
 
 
 def main(argv: Optional[List[str]] = None) -> int:
@@ -415,7 +542,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     missing = [r for r in races if not r.get("key") or not r.get("earliestStartTime")]
     print(f"Total races: {len(races)} | Missing key or time: {len(missing)}")
 
-    updated, checked = update_rtrt_info(races, appid, token, dry_run=args.dry_run)
+    updated, checked, newly_matched = update_rtrt_info(races, appid, token, dry_run=args.dry_run)
     print(f"Checked: {checked} | Updated: {updated}")
 
     if updated and not args.dry_run:
@@ -425,6 +552,25 @@ def main(argv: Optional[List[str]] = None) -> int:
         print("Dry-run: not saving changes")
     else:
         print("No updates found")
+
+    # Table 1: Races still missing keys (after any updates)
+    still_missing_key = [r for r in races if not r.get("key")]
+    if still_missing_key:
+        _print_table(
+            "Races still missing keys",
+            ["Date", "Name"],
+            [(r.get("date", ""), r.get("name", "")) for r in still_missing_key],
+            title_style="yellow",
+        )
+
+    # Table 2: Races newly matched this run
+    if newly_matched:
+        _print_table(
+            "Newly matched this run",
+            ["Date", "Name", "Key"],
+            newly_matched,
+            title_style="green",
+        )
 
     return 0
 

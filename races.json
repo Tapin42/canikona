@@ -2899,7 +2899,9 @@
         "date": "2026-04-18",
         "name": "Ironman Texas - North America Championship",
         "distance": "140.6",
-        "slots": 75
+        "slots": 75,
+        "key": "IRM-TEXAS-2026",
+        "earliestStartTime": "1776511500"
     },
     {
         "date": "2026-04-19",
@@ -2916,7 +2918,9 @@
         "date": "2026-04-19",
         "name": "Ironman South Africa - African Championship",
         "distance": "140.6",
-        "slots": 75
+        "slots": 75,
+        "key": "IRM-SOUTHAFRICA-2026",
+        "earliestStartTime": "1776573000"
     },
     {
         "date": "2026-04-26",
@@ -3138,7 +3142,9 @@
         "slots": {
             "men": 25,
             "women": 25
-        }
+        },
+        "key": "IRM-PHILIPPINES-2026",
+        "earliestStartTime": "1780782600"
     },
     {
         "date": "2026-06-07",
@@ -3229,7 +3235,9 @@
         "slots": {
             "men": 40,
             "women": 40
-        }
+        },
+        "key": "IRM-PENNSYLVANIA703-2026",
+        "earliestStartTime": "1781433000"
     },
     {
         "date": "2026-06-14",
