@@ -1,8 +1,52 @@
+:root {
+    color-scheme: light;
+    --bg: #f5f7fb;
+    --surface: #ffffff;
+    --surface-muted: #eef2f8;
+    --text: #1f2937;
+    --text-soft: #4b5563;
+    --border: #d6dee9;
+    --accent: #2563eb;
+    --accent-soft: #dbeafe;
+    --shadow: 0 14px 32px rgba(15, 23, 42, 0.08);
+    --loading-overlay: rgba(241, 245, 249, 0.72);
+    --spinner-track: rgba(37, 99, 235, 0.22);
+    --spinner-head: #2563eb;
+    --chip-ag-bg: #e8f5e9;
+    --chip-ag-border: #7dbb88;
+    --chip-ag-text: #1f5f2d;
+    --chip-pool-bg: #fff3db;
+    --chip-pool-border: #d7b36d;
+    --chip-pool-text: #6b4200;
+}
+
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --bg: #0b1220;
+    --surface: #111a2d;
+    --surface-muted: #16233b;
+    --text: #e5e7eb;
+    --text-soft: #cbd5e1;
+    --border: #2a3a56;
+    --accent: #60a5fa;
+    --accent-soft: #1e3a5f;
+    --shadow: 0 14px 32px rgba(2, 8, 23, 0.45);
+    --loading-overlay: rgba(10, 16, 30, 0.58);
+    --spinner-track: rgba(148, 163, 184, 0.24);
+    --spinner-head: #60a5fa;
+    --chip-ag-bg: #20452f;
+    --chip-ag-border: #3d7b5a;
+    --chip-ag-text: #d3f4df;
+    --chip-pool-bg: #4f3e17;
+    --chip-pool-border: #83662a;
+    --chip-pool-text: #ffe5a7;
+}
+
 /* Basic styling for the body and fonts */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f7f9;
-    color: #333;
+    background-color: var(--bg);
+    color: var(--text);
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -13,25 +57,20 @@ body {
     margin-bottom: 15px;
 }
 
-.selection-group:first-of-type {
-    min-width: 250px;
-    max-width: 100%;
-}
-
 /* Slots information styling */
 .slots-info {
     display: block;
     margin-top: 8px;
     padding: 6px 12px;
-    background-color: #f9f9f9;
-    border: 1px solid #e0e0e0;
+    background-color: var(--surface-muted);
+    border: 1px solid var(--border);
     border-radius: 4px;
     font-size: 0.9em;
-    color: #333;
+    color: var(--text);
     max-width: 100%;
 }
 .slots-info strong {
-    color: #e74c3c;
+    color: var(--accent);
     font-weight: 600;
 }
 
@@ -103,7 +142,7 @@ body {
 .hamburger {
     width: 30px;
     height: 3px;
-    background-color: #333;
+    background-color: var(--text);
     position: relative;
     transition: all 0.3s ease-in-out;
     display: block;
@@ -115,7 +154,7 @@ body {
     position: absolute;
     width: 100%;
     height: 3px;
-    background-color: #333;
+    background-color: var(--text);
     left: 0;
     transition: all 0.3s ease-in-out;
 }
@@ -142,7 +181,7 @@ body {
 }
 
 .nav-menu {
-    background-color: #ffffff;
+    background-color: var(--surface);
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -163,7 +202,7 @@ body {
 }
 
 .nav-menu a {
-    color: #333;
+    color: var(--text);
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
@@ -171,7 +210,7 @@ body {
 }
 
 .nav-menu a:hover {
-    color: #e74c3c;
+    color: var(--accent);
 }
 
 /* Mobile styles */
@@ -227,17 +266,17 @@ body {
 .container {
     max-width: 800px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: var(--surface);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--shadow);
 }
 
 /* Heading styles */
 h1 {
     font-size: 2.5em; /* Changed to match "Coming Soon!" message */
     font-weight: bold;
-    color: #2c3e50;
+    color: var(--text);
     text-align: center;
     border-bottom: none; /* Removed the border-bottom */
     padding-bottom: 0;
@@ -246,52 +285,88 @@ h1 {
 
 /* A new class for the gradient background for just the controls */
 .controls-container {
-    background: linear-gradient(to right, #e74c3c, #000000);
-    color: #ffffff;
+    background: var(--surface-muted);
+    color: var(--text);
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
     margin-bottom: 20px;
 }
 
 /* Styles for text and form elements inside the gradient container */
 .controls-container p,
 .controls-container label {
-    color: #ffffff;
+    color: var(--text);
 }
 
 select {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border);
     border-radius: 5px;
     font-size: 16px;
     box-sizing: border-box;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--surface);
+    color: var(--text);
+}
+
+#race-search {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    background: var(--surface);
+    color: var(--text);
+}
+
+/* Keep native select for app state wiring, but show only searchable input UI. */
+#race-select {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    width: 1px;
+    height: 1px;
 }
 
 /* The rest of your styles from before */
 form {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
     margin-bottom: 20px;
+    align-items: stretch;
 }
 
 .selection-group {
-    flex: 1;
-    min-width: 200px;
-    margin-right: 20px;
-    /* Use Flexbox to align content */
+    min-width: 0;
+    margin-right: 0;
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.control-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px;
+    position: relative;
+}
+
+.control-title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    color: var(--text);
 }
 
 .selection-group label {
     font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 8px;
+    color: var(--text);
+    margin-bottom: 0;
 }
 
 .selection-group p {
@@ -299,11 +374,138 @@ form {
     margin-bottom: 5px;
 }
 
-.selection-group label.radio-label {
-    font-weight: normal;
-    display: inline-block;
-    margin-right: 15px;
-    margin-bottom: 5px;
+.choice-option {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.race-combobox {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+}
+
+.archive-dropdown {
+    position: relative;
+}
+
+#race-dropdown-toggle {
+    min-width: 42px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: var(--surface-muted);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.race-options {
+    display: flex;
+    flex-direction: column;
+    max-height: 240px;
+    overflow-y: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100% + 8px);
+    z-index: 15;
+    box-shadow: var(--shadow);
+}
+
+.race-option-item {
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid var(--border);
+    background: transparent;
+    color: var(--text);
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.race-option-item:last-child {
+    border-bottom: 0;
+}
+
+.race-option-item:hover {
+    background: var(--surface-muted);
+}
+
+.race-option-empty {
+    color: var(--text-soft);
+    padding: 10px 12px;
+}
+
+.current-races-panel {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface-muted);
+    padding: 8px;
+}
+
+.current-races-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.88rem;
+    color: var(--text-soft);
+    margin-bottom: 8px;
+}
+
+#current-races-count {
+    font-weight: 700;
+}
+
+.current-race-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.current-race-btn {
+    border: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text);
+    border-radius: 999px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 0.88rem;
+    width: 100%;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-overflow: clip;
+    max-width: 100%;
+    line-height: 1.2;
+}
+
+.current-race-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.current-race-btn.active {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-weight: 700;
+}
+
+.current-races-panel.collapsed .current-race-buttons {
+    display: none;
+}
+
+.current-races-header {
+    cursor: pointer;
+}
+
+.archive-header {
+    font-size: 0.86rem;
+    font-weight: 700;
+    color: var(--text-soft);
 }
 
 /* New style for disabled controls */
@@ -336,13 +538,14 @@ form {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.9);
+    background: var(--loading-overlay);
+    backdrop-filter: blur(1px);
     z-index: 1000;
 }
 
 .spinner {
-    border: 8px solid rgba(231, 76, 60, 0.3); /* Match gradient color */
-    border-top: 8px solid #e74c3c; /* Match gradient color */
+    border: 8px solid var(--spinner-track);
+    border-top: 8px solid var(--spinner-head);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -365,20 +568,22 @@ form {
 }
 
 .results-table th, .results-table td {
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     padding: 8px;
     text-align: left;
+    background-color: var(--surface);
+    color: var(--text);
 }
 
 .results-table th {
-    background-color: #f2f2f2;
+    background-color: var(--surface-muted);
     font-weight: bold;
     cursor: pointer;
     user-select: none;
 }
 
 .results-table th:hover {
-    background-color: #e0e0e0;
+    background-color: var(--accent-soft);
 }
 
 .results-table th.sorted-asc::after {
@@ -403,13 +608,13 @@ form {
 
 .message-text {
     margin-bottom: 0.5em;
-    color: #333;
+    color: var(--text);
 }
 
 .message-datetime {
     font-size: 1.4em;
     font-weight: bold;
-    color: #8B2635;
+    color: var(--accent);
     margin-top: 0.5em;
 }
 
@@ -426,7 +631,7 @@ form {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--loading-overlay);
     z-index: 1000;
 }
 
@@ -441,11 +646,11 @@ form {
 /* Rolldown message styles */
 .rolldown-message {
     display: none;
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid #dee2e6;
+    border: 1px solid var(--border);
 }
 
 /* Message area styles */
@@ -457,7 +662,7 @@ form {
 #results-iframe {
     width: 100%;
     min-height: 500px;
-    border: 1px solid #ddd;
+    border: 1px solid var(--border);
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
@@ -466,7 +671,34 @@ form {
 .rolldown-content-text {
     margin: 0;
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
+}
+
+.page-header {
+    margin-bottom: 18px;
+}
+
+.page-subtitle {
+    margin-top: -6px;
+    color: var(--text-soft);
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 1001;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--text);
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.theme-toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 /* Rolldowns page specific styles */
@@ -619,19 +851,39 @@ form {
     background-color: #fff9e6; /* light yellow */
 }
 
+.row-ag-winner td {
+    background-color: rgba(40, 167, 69, 0.16);
+    color: #1f5f2d;
+}
+
+.row-pool-qualifier td {
+    background-color: rgba(255, 193, 7, 0.16);
+    color: #6b4200;
+}
+
+html[data-theme="dark"] .row-ag-winner td {
+    background-color: #b6d9bf;
+    color: #173a20;
+}
+
+html[data-theme="dark"] .row-pool-qualifier td {
+    background-color: #eadcb7;
+    color: #3f2a00;
+}
+
 /* ====== Live results template extracted styles ====== */
 .disclaimer {
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 5px;
-    border: 1px solid #dee2e6;
+    border: 1px solid var(--border);
 }
 
 .disclaimer p {
     margin: 0;
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
 }
 
 .highlight-controls {
@@ -659,20 +911,20 @@ form {
 }
 
 .toggle-ag {
-    background: #eaf7ea;
-    border: 1px solid #cde8cd;
-    color: #1b5e20;
+    background: var(--chip-ag-bg);
+    border: 1px solid var(--chip-ag-border);
+    color: var(--chip-ag-text);
 }
 
 .toggle-pool {
-    background: #fff9e6;
-    border: 1px solid #ffe8a3;
-    color: #8a6d3b;
+    background: var(--chip-pool-bg);
+    border: 1px solid var(--chip-pool-border);
+    color: var(--chip-pool-text);
 }
 
 .highlight-disclaimer {
     font-size: 0.95em;
-    color: #6c757d;
+    color: var(--text-soft);
     font-style: italic;
 }
 
@@ -687,8 +939,8 @@ form {
 
 /* Slot summary panel */
 .slot-summary {
-    background-color: #ffffff;
-    border: 1px solid #e5e7eb;
+    background-color: var(--surface);
+    border: 1px solid var(--border);
     border-radius: 8px;
     padding: 12px 16px;
     margin: 10px 0 15px 0;
@@ -696,7 +948,7 @@ form {
 .slot-summary h3 {
     margin: 0 0 8px 0;
     font-size: 1.1em;
-    color: #2c3e50;
+    color: var(--text);
 }
 .slot-summary-header {
     display: flex;
@@ -709,12 +961,12 @@ form {
     border-radius: 6px;
 }
 .slot-summary-header:hover {
-    background: #f3f4f6;
+    background: var(--surface-muted);
 }
 .slot-summary-title {
     font-size: 1.05em;
     font-weight: 600;
-    color: #2c3e50;
+    color: var(--text);
     display: flex;
     align-items: center;
     gap: 6px;
@@ -726,7 +978,7 @@ form {
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    color: #374151;
+    color: var(--text-soft);
     transition: transform .2s ease;
 }
 .slot-summary .slot-summary-toggle-icon { transform: rotate(90deg); }
@@ -735,7 +987,7 @@ form {
 .slot-summary.collapsed .slot-summary-content { display: none; }
 .slot-summary-mini {
     font-size: 0.75rem;
-    color: #4b5563;
+    color: var(--text-soft);
     font-weight: 600;
     display: none;
     gap: 8px;
@@ -749,12 +1001,12 @@ form {
     letter-spacing: .5px;
     padding: 2px 6px;
     border-radius: 10px;
-    background: #eef2f7;
-    color: #374151;
+    background: var(--surface-muted);
+    color: var(--text-soft);
     text-transform: uppercase;
 }
-.slot-summary-status-pill.waiting { background: #fff3cd; color: #8a6d3b; }
-.slot-summary-status-pill.ready { background: #eaf7ea; color: #1b5e20; }
+.slot-summary-status-pill.waiting { background: var(--chip-pool-bg); color: var(--chip-pool-text); }
+.slot-summary-status-pill.ready { background: var(--chip-ag-bg); color: var(--chip-ag-text); }
 .slot-stats {
     display: grid;
     gap: 8px 16px;
@@ -766,39 +1018,43 @@ form {
     grid-template-columns: 1fr 1fr;
 }
 .slot-stats .label {
-    color: #6b7280;
+    color: var(--text-soft);
     margin-right: 6px;
 }
 .slot-stats .value {
     font-weight: 700;
-    color: #111827;
+    color: var(--text);
 }
 .slot-stats .value.pending {
-    color: #9ca3af;
+    color: var(--text-soft);
     font-style: italic;
 }
 .gender-col {
-    background: #f9fafb;
-    border: 1px solid #eef2f7;
+    background: var(--surface-muted);
+    border: 1px solid var(--border);
     border-radius: 6px;
     padding: 10px 12px;
 }
 .gender-title {
     font-weight: 700;
-    color: #374151;
+    color: var(--text);
     margin-bottom: 6px;
 }
 .slot-waiting {
     margin: 8px 0 10px 0;
     padding: 8px 12px;
-    background: #fff9e6;
-    border: 1px solid #ffe8a3;
+    background: var(--chip-pool-bg);
+    border: 1px solid var(--chip-pool-border);
     border-radius: 6px;
-    color: #8a6d3b;
+    color: var(--chip-pool-text);
 }
 
 /* Responsive design for rolldown columns */
 @media (max-width: 768px) {
+    form {
+        grid-template-columns: 1fr;
+    }
+
     .rolldown-columns {
         grid-template-columns: 1fr;
         gap: 1rem;
