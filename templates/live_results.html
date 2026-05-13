@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" {% if selected_theme %}data-theme="{{ selected_theme }}"{% endif %}>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live Results</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script id="live-results-theme-sync">
+        (function () {
+            function applyTheme(theme) {
+                if (theme === 'dark' || theme === 'light') {
+                    document.documentElement.setAttribute('data-theme', theme);
+                }
+            }
+
+            try {
+                const parentTheme = window.parent && window.parent.document
+                    ? window.parent.document.documentElement.getAttribute('data-theme')
+                    : null;
+                applyTheme(parentTheme);
+            } catch (_) {
+                // Ignore cross-window access errors.
+            }
+
+            window.addEventListener('message', function (event) {
+                if (event.origin !== window.location.origin) return;
+                if (!event.data || event.data.type !== 'canikona:set-theme') return;
+                applyTheme(event.data.theme);
+            });
+
+            try {
+                if (window.parent && window.parent !== window) {
+                    window.parent.postMessage({ type: 'canikona:live-results-ready' }, window.location.origin);
+                }
+            } catch (_) {
+                // Ignore cross-window access errors.
+            }
+        })();
+    </script>
 </head>
 <body>
     <div id="live-results-container">
