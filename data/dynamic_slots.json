@@ -58,5 +58,105 @@
       "women": 233,
       "computed_at": 1765070231
     }
+  },
+  "IRM-NEWZEALAND-2026": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 12,
+        "pool_slots": 25,
+        "total_slots": 37
+      },
+      "women": {
+        "winner_slots": 11,
+        "pool_slots": 7,
+        "total_slots": 18
+      },
+      "computed_at": 1772835864
+    },
+    "started_counts": {
+      "men": 793,
+      "women": 223,
+      "computed_at": 1772835864
+    }
+  },
+  "IRM-PENGHU-2026": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 13,
+        "pool_slots": 15,
+        "total_slots": 28
+      },
+      "women": {
+        "winner_slots": 10,
+        "pool_slots": 2,
+        "total_slots": 12
+      },
+      "computed_at": 1775967737
+    },
+    "started_counts": {
+      "men": 537,
+      "women": 90,
+      "computed_at": 1775967737
+    }
+  },
+  "IRM-TEXAS-2026": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 13,
+        "pool_slots": 41,
+        "total_slots": 54
+      },
+      "women": {
+        "winner_slots": 12,
+        "pool_slots": 9,
+        "total_slots": 21
+      },
+      "computed_at": 1776522558
+    },
+    "started_counts": {
+      "men": 1857,
+      "women": 420,
+      "computed_at": 1776522558
+    }
+  },
+  "IRM-SOUTHAFRICA-2026": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 13,
+        "pool_slots": 44,
+        "total_slots": 57
+      },
+      "women": {
+        "winner_slots": 10,
+        "pool_slots": 8,
+        "total_slots": 18
+      },
+      "computed_at": 1776582350
+    },
+    "started_counts": {
+      "men": 674,
+      "women": 121,
+      "computed_at": 1776582350
+    }
+  },
+  "IRM-VIETNAM-2026": {
+    "dynamic_slots": {
+      "men": {
+        "winner_slots": 13,
+        "pool_slots": 14,
+        "total_slots": 27
+      },
+      "women": {
+        "winner_slots": 11,
+        "pool_slots": 2,
+        "total_slots": 13
+      },
+      "computed_at": 1778372658
+    },
+    "started_counts": {
+      "men": 663,
+      "women": 97,
+      "computed_at": 1778372658
+    }
   }
 }

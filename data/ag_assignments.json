@@ -3,10 +3,14 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-WISCONSIN-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-JAPAN-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-SUNSHINECOAST703-2025": {
     "adjustments_version": "703-baseline"
@@ -21,7 +25,9 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-ITALYEMILIA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-MARYLAND-2025": {
     "adjustments_version": "1406-baseline"
@@ -39,13 +45,17 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-COZUMEL703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-SAOPAULO703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-ITALY703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-SERBIA703-2025": {
     "adjustments_version": "703-baseline"
@@ -54,16 +64,22 @@
     "adjustments_version": "1406-baseline"
   },
   "IRM-GURYE-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-AUGUSTA703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-PARAGUAY703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-BARCELONA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-WACO703-2025": {
     "adjustments_version": "703-baseline"
@@ -75,7 +91,9 @@
     }
   },
   "IRM-CROATIA703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-SALALAH703-2025": {
     "adjustments_version": "703-baseline"
@@ -84,7 +102,9 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-CALIFORNIA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-GREECE703-2025": {
     "adjustments_version": "703-baseline"
@@ -96,10 +116,14 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-FLORIDA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-MALAYSIA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-LANGKAWI703-2025": {
     "adjustments_version": "703-baseline"
@@ -111,7 +135,9 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-TURKEY703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-GOA703-2025": {
     "adjustments_version": "703-baseline"
@@ -123,40 +149,56 @@
     "adjustments_version": "703-baseline"
   },
   "IRM-ARIZONA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-PHUQUOC703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-MOSSELBAY703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-COZUMEL-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-VALDIVIA703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-CARTAGENA703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-ARACAJU-SERGIPE703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-WESTERNAUSTRALIA-2025": {
-    "adjustments_version": "1406-baseline"
+    "per_distance": {
+      "140.6": "1406-baseline"
+    }
   },
   "IRM-RIVIERA-NAYARIT703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-INDIANWELLSLAQUINTA703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-WESTERNAUSTRALIA703-2025": {
     "adjustments_version": "703-baseline"
   },
   "IRM-FLORIDA703-2025": {
-    "adjustments_version": "703-baseline"
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
   },
   "IRM-PUCON703-2026": {
     "per_distance": {
@@ -176,6 +218,137 @@
   "IRM-SANSALVADOR703-2026": {
     "per_distance": {
       "70.3": "703-baseline"
+    }
+  },
+  "IRM-MONTERREY703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-NEWZEALAND-2026": {
+    "per_distance": {
+      "140.6": "1406-gender-split-2025-11-14"
+    }
+  },
+  "IRM-URUGUAY703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-NEWZEALAND703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-CURITIBA703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-HENGQIN703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-DALLASLITTLEELM703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-PUERTORICO703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-GEELONG703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-DAVAO703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-PANAMA703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-OCEANSIDE703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-TEXAS703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-SANJUAN703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-PUERTOVARAS703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-PENGHU-2026": {
+    "per_distance": {
+      "140.6": "1406-gender-split-2025-11-14"
+    }
+  },
+  "IRM-TEXAS-2026": {
+    "per_distance": {
+      "140.6": "1406-gender-split-2025-11-14"
+    }
+  },
+  "IRM-SOUTHAFRICA-2026": {
+    "per_distance": {
+      "140.6": "1406-gender-split-2025-11-14"
+    }
+  },
+  "IRM-VALENCIA703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-BRASILIA703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-PERU703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-WESTERNSYDNEY703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-VENICE703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-MALLORCA703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-GULFCOAST703-2026": {
+    "per_distance": {
+      "70.3": "703-baseline"
+    }
+  },
+  "IRM-VIETNAM-2026": {
+    "per_distance": {
+      "70.3": "703-baseline",
+      "140.6": "1406-gender-split-2025-11-14"
     }
   }
 }
