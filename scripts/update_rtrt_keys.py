@@ -377,6 +377,15 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
     updated = 0
     checked = 0
     newly_matched: List[Tuple[str, str, str]] = []  # (date, name, key)
+    seen_newly_matched: set[Tuple[str, str, str]] = set()
+
+    def _record_newly_matched(match_date: str, match_name: str, match_key: str) -> None:
+        row = (match_date or "", match_name, match_key)
+        if row in seen_newly_matched:
+            return
+        seen_newly_matched.add(row)
+        newly_matched.append(row)
+
     for race in races:
         date = race.get("date")
         name = race.get("name", "")
@@ -454,7 +463,7 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
                         race["earliestStartTime"] = str(est)
                         has_time = True
                 updated += 1
-                newly_matched.append((date or "", name, matched_key))
+                _record_newly_matched(date or "", name, matched_key)
 
         # If we still don't have a key, fall through to the older inference+validation.
 
@@ -466,6 +475,11 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
                 if est:
                     race["earliestStartTime"] = str(est)
                     updated += 1
+            continue
+
+        # If we already have both fields (e.g. after index-based match), skip
+        # fallback inference so a single race isn't double-counted.
+        if has_key and has_time:
             continue
 
         # Otherwise, infer key candidates
@@ -481,7 +495,7 @@ def update_rtrt_info(races: List[Dict], appid: str, token: str, dry_run: bool = 
             if est:
                 race["earliestStartTime"] = str(est)
             updated += 1
-            newly_matched.append((date or "", name, cand))
+            _record_newly_matched(date or "", name, cand)
             break
 
     return updated, checked, newly_matched

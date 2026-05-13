@@ -4305,7 +4305,9 @@
         "slots": {
             "men": 25,
             "women": 25
-        }
+        },
+        "key": "IRM-BARRANQUILLA703-2026",
+        "earliestStartTime": "1780830900"
     },
     {
         "date": "2026-06-07",
@@ -4336,7 +4338,9 @@
         "slots": {
             "men": 30,
             "women": 30
-        }
+        },
+        "key": "IRM-OMAHA703-2026",
+        "earliestStartTime": "1780833600"
     },
     {
         "date": "2026-06-07",
@@ -4473,7 +4477,9 @@
         "date": "2026-06-14",
         "name": "Ironman Tours Metropole",
         "distance": "140.6",
-        "slots": 55
+        "slots": 55,
+        "key": "IRM-TOURS-2026",
+        "earliestStartTime": "1781413200"
     },
     {
         "date": "2026-06-21",
@@ -4598,6 +4604,8 @@
         "date": "2026-08-16",
         "name": "Ironman Leeds",
         "distance": "140.6",
-        "slots": 40
+        "slots": 40,
+        "key": "IRM-LEEDS-2026",
+        "earliestStartTime": "1786856400"
     }
 ]
