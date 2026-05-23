@@ -718,58 +718,59 @@ form {
 }
 
 .rolldown-column {
-    background-color: #fff;
+    background-color: var(--surface);
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: var(--shadow);
 }
 
 .rolldown-column h2 {
     margin-top: 0;
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
+    color: var(--text);
+    border-bottom: 2px solid var(--accent);
     padding-bottom: 0.5rem;
 }
 
 .averages {
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid var(--accent);
 }
 
 .averages h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: var(--text);
     font-size: 1.1em;
 }
 
 .averages p {
     margin: 0.25rem 0;
     font-weight: 600;
+    color: var(--text);
 }
 
 .no-rolldown-info-box {
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     padding: 1rem;
     margin-bottom: 1.5rem;
     border-radius: 6px;
-    border-left: 4px solid #6c757d;
+    border-left: 4px solid var(--text-soft);
 }
 
 .no-rolldown-info-box h3 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: var(--text);
     font-size: 1.1em;
 }
 
 .no-rolldown-text {
     margin: 0.25rem 0;
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
     font-weight: normal;
 }
 
@@ -777,33 +778,35 @@ form {
     width: 100%;
     border-collapse: collapse;
     margin-top: 1rem;
+    color: var(--text);
 }
 
 .rolldown-table th,
 .rolldown-table td {
     padding: 0.75rem;
     text-align: left;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid var(--border);
 }
 
 .rolldown-table th {
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     font-weight: 600;
-    color: #495057;
+    color: var(--text);
 }
 
 .rolldown-table tbody tr:hover {
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
 }
 
 /* Styling for rows with and without data */
 .rolldown-table .has-data {
     font-weight: bold;
+    color: var(--text);
 }
 
 .rolldown-table .no-data {
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
 }
 
 /* Race name links styling */
@@ -814,30 +817,31 @@ form {
 
 .rolldown-table a:hover {
     text-decoration: underline;
-    color: #3498db;
+    color: var(--accent);
 }
 
 .rolldown-table .has-data a {
     font-weight: bold;
+    color: var(--text);
 }
 
 .rolldown-table .no-data a {
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
 }
 
 .rolldown-table .no-data-text {
-    color: #adb5bd;
+    color: var(--text-soft);
     font-style: italic;
 }
 
 .no-data-message,
 .no-rolldown-info {
     font-style: italic;
-    color: #6c757d;
+    color: var(--text-soft);
     text-align: center;
     padding: 2rem;
-    background-color: #f8f9fa;
+    background-color: var(--surface-muted);
     border-radius: 6px;
     margin-top: 1rem;
 }
